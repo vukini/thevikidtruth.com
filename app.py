@@ -51,13 +51,9 @@ def index():
         print(current_task)
         new_task = MyTask(content=current_task)
         try:
-            print("trying to connect to DB....")
-            print(new_task)
-            print("DEBUG new_task:", new_task, "type:", type(new_task))
+            print("trying to connect to DB....")         
             db.session.add(new_task)
             db.session.commit()
-            print("DEBUG new_task:", new_task, "type:", type(new_task))
-            print("committed")
             return redirect("/")
         except Exception as e:
             print(f"Error: {e}")
