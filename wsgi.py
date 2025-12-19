@@ -1,5 +1,8 @@
-from app import app  # or from thevikidtruth import app
+#wsgi.py
+from app import app, db  # or from thevikidtruth import app
 
-if __name__ == "__main__":
-    app.run()
+with app.app_context():
+    db.create_all()
+
+application = app
 

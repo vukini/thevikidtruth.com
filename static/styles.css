@@ -1,2 +1,33 @@
 body {
-  background-color: brown; }
+  font-family: "DejaVu Sans Mono", "Fira Mono", "Liberation Mono", monospace;
+  margin: 0;
+  padding: 0;
+  background: brown; }
+
+.content {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 10px;
+  background-color: lightcoral;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  text-align: center; }
+  .content h1 {
+    color: green; }
+  .content table {
+    width: 900px;
+    margin-top: 20px;
+    border-collapse: collapse; }
+    .content table th, .content table td {
+      padding: 10px; }
+    .content table th {
+      color: green; }
+
+a {
+  display: inline-block;
+  padding: 4px 4px;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: brown;
+  text-decoration: none;
+  transition: background-color 0.3s ease; }
