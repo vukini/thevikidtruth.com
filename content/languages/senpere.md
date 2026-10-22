@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: senpere
-draft: true
-review: retire
+draft: false
+topics:
+- esperanto
 ---
 
 senpere (sen·per·e ← per)

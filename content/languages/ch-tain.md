@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: ch-tain
-draft: true
-review: retire
+draft: false
+topics:
+- french
 ---
 
 Sa chevelure châtaine est magnifique.

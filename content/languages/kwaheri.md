@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: kwaheri
-draft: true
-review: retire
+draft: false
+topics:
+- swahili
 ---
 
 # Kwaheri - Good Bye

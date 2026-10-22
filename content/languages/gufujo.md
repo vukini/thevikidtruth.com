@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: gufujo
-draft: true
-review: retire
+draft: false
+topics:
+- esperanto
 ---
 
 gufujo (guf·uj·o ← guf·o)

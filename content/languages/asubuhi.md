@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: asubuhi
-draft: true
-review: retire
+draft: false
+topics:
+- swahili
 ---
 
 # Asubuhi -- Morning

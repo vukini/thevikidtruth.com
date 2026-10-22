@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: sentraider
-draft: true
-review: retire
+draft: false
+topics:
+- french
 ---
 
 ```

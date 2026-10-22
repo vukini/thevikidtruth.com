@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: damu
-draft: true
-review: retire
+draft: false
+topics:
+- swahili
 ---
 
 # damu -- blood

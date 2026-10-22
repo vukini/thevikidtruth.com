@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: citiloj
-draft: true
-review: retire
+draft: false
+topics:
+- esperanto
 ---
 
 # Citiloj / Quotes

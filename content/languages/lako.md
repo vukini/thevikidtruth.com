@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: lako
-draft: true
-review: retire
+draft: false
+topics:
+- swahili
 ---
 
 # Lako - Your

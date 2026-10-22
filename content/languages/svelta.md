@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: svelta
-draft: true
-review: retire
+draft: false
+topics:
+- esperanto
 ---
 
 svelta (svelt·a)

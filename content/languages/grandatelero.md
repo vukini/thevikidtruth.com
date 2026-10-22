@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: grandatelero
-draft: true
-review: retire
+draft: false
+topics:
+- esperanto
 ---
 
 Big plate, empty spoon.

@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: jani
-draft: true
-review: retire
+draft: false
+topics:
+- swahili
 ---
 
 # jani -- leaf

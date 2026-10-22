@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: acceder
-draft: true
-review: retire
+draft: false
+topics:
+- spanish
 ---
 
 To gain access

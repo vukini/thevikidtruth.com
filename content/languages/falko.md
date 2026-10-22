@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: falko
-draft: true
-review: retire
+draft: false
+topics:
+- esperanto
 ---
 
 falcon

@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: langu
-draft: true
-review: retire
+draft: false
+topics:
+- swahili
 ---
 
 # Langu - My

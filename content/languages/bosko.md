@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: bosko
-draft: true
-review: retire
+draft: false
+topics:
+- esperanto
 ---
 
 bosko (bosk·o)

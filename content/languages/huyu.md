@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: huyu
-draft: true
-review: retire
+draft: false
+topics:
+- swahili
 ---
 
 # Huyu -- this

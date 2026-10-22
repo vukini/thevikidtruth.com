@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: kukuona
-draft: true
-review: retire
+draft: false
+topics:
+- swahili
 ---
 
 # kukuona -- to see you, to meet you

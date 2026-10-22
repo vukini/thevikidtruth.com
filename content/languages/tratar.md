@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: tratar
-draft: true
-review: retire
+draft: false
+topics:
+- spanish
 ---
 
 I will try

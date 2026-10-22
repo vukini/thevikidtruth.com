@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: deirpunkto
-draft: true
-review: retire
+draft: false
+topics:
+- esperanto
 ---
 
 deiri (de·ir·i ← ir·i)

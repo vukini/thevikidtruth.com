@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: lake
-draft: true
-review: retire
+draft: false
+topics:
+- swahili
 ---
 
 # Lake -- His / Her
