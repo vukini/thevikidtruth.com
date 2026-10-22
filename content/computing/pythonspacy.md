@@ -98,6 +98,53 @@ For heavier neural models, pipe spaCy with Hugging Face or use spaCy's own trans
 - **"NLP means LLMs now."** LLMs are great; a 20 MB spaCy model still wins on latency, cost and control for structured extraction.
 - **"NLTK and spaCy are interchangeable."** NLTK is a teaching toolkit; spaCy is a product pipeline.
 
+### Processing a lot of text: `nlp.pipe` and trimming the pipeline
+
+Calling `nlp(text)` in a loop works but is slow. `nlp.pipe` batches texts and can use several processes, and disabling the components you do not need often doubles the speed again:
+
+```python
+import spacy
+
+nlp = spacy.load("en_core_web_sm", disable=["parser"])  # keep tagger, NER
+nlp.add_pipe("sentencizer")                              # cheap sentence splits
+
+texts = (line.strip() for line in open("notes.txt", encoding="utf-8") if line.strip())
+
+orgs = {}
+for doc in nlp.pipe(texts, batch_size=256, n_process=2):
+    for ent in doc.ents:
+        if ent.label_ in {"ORG", "PRODUCT"}:
+            orgs[ent.text] = orgs.get(ent.text, 0) + 1
+
+for name, n in sorted(orgs.items(), key=lambda kv: -kv[1])[:10]:
+    print(f"{n:4}  {name}")
+```
+
+Check which components are active with `nlp.pipe_names`. For accuracy rather than speed, the `en_core_web_trf` pipeline uses a transformer model underneath and runs best on a GPU.
+
+### spaCy and large language models in 2026
+
+Large language models can do many NLP tasks from a prompt, so why use spaCy? Because they solve different problems:
+
+- **Cost and speed.** A small spaCy pipeline processes thousands of documents per second on a CPU. An LLM call costs time and often money per document.
+- **Determinism.** The same text gives the same tokens and entities every time, which matters for search indexes and data pipelines.
+- **Structure.** `Doc`, `Token` and `Span` objects with offsets back into the original text make it easy to highlight, redact or link entities.
+
+The practical pattern is to combine them: use an LLM to label a few hundred examples, check them by hand, then train a fast spaCy component on them (`spacy init config` and `spacy train`). The `spacy-llm` package from Explosion also lets an LLM act as a pipeline component when you are prototyping.
+
+### Installing on Vikix
+
+Use a virtual environment rather than system Python:
+
+```bash
+python3 -m venv ~/.venvs/nlp && . ~/.venvs/nlp/bin/activate
+pip install -U spacy
+python -m spacy download en_core_web_sm
+python -m spacy validate      # checks models match the installed spaCy version
+```
+
+`spacy validate` saves a lot of confusion after upgrades, because models are tied to a spaCy minor version.
+
 ### Connections
 
 - [Python](python.md), [NumPy](numpy.md), [Machine Learning](machinelearning.md).

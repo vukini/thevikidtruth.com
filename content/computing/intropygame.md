@@ -121,6 +121,56 @@ Delta time (`dt`) matters: multiply motion by `dt` so the game runs the same at 
 
 Ship one tiny game to completion – polish, start screen, game over – before starting a second. Finished beats ambitious.
 
+### Installing pygame-ce on Vikix
+
+The community edition installs under the same import name, so tutorials still work:
+
+```bash
+python3 -m venv ~/.venvs/games && . ~/.venvs/games/bin/activate
+pip uninstall -y pygame 2>/dev/null; pip install pygame-ce
+python -m pygame.examples.aliens        # a bundled demo game
+```
+
+Install either `pygame` or `pygame-ce` in an environment, never both, because they share the `pygame` package name. Under StumpWM, a game window behaves like any other X window; if it opens at an odd size, start it with `SDL_VIDEO_WINDOW_POS=center` or make the frame float.
+
+### Sprites and collisions, the next step
+
+```python
+import pygame, random
+
+class Coin(pygame.sprite.Sprite):
+    def __init__(self, pos):
+        super().__init__()
+        self.image = pygame.Surface((16, 16), pygame.SRCALPHA)
+        pygame.draw.circle(self.image, (242, 181, 68), (8, 8), 8)
+        self.rect = self.image.get_rect(center=pos)
+
+coins = pygame.sprite.Group(
+    Coin((random.randint(20, 620), random.randint(20, 460))) for _ in range(10)
+)
+
+# inside the loop, after moving the player rect:
+#   got = pygame.sprite.spritecollide(player, coins, dokill=True)
+#   score += len(got)
+#   coins.draw(screen)
+```
+
+A `Group` draws all its sprites in one call and `spritecollide` tests the player against all of them, removing the ones you hit. Those two functions take you from "a square that moves" to "a game with a goal".
+
+### From frames to vectors
+
+`pygame.math.Vector2` makes movement code read like the maths. Velocity is a vector, position changes by velocity times `dt`, and normalising stops diagonal movement being faster:
+
+```python
+direction = pygame.math.Vector2(keys[pygame.K_RIGHT] - keys[pygame.K_LEFT],
+                                keys[pygame.K_DOWN] - keys[pygame.K_UP])
+if direction.length_squared() > 0:
+    direction = direction.normalize()
+pos += direction * speed * dt
+```
+
+That is the same [vector space](vectorspaces.md) idea used by Three.js and every game engine.
+
 ### Connections
 
 - [Python](python.md), [NumPy](numpy.md) (for heavier maths).

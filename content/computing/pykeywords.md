@@ -141,6 +141,57 @@ When something feels "part of the language", check which shelf it sits on. `prin
 - **"`is` and `==` are interchangeable."** `is` tests identity; `==` tests equality. Use `is` for `None`.
 - **"Keywords never change."** Rarely they grow (`async`/`await`, soft `match`). Read What's New when you upgrade.
 
+### Soft keywords in practice: `match`, `case` and `type`
+
+Python 3.14 (released October 2025) is current in 2026, and its hard keyword list is the same 35 words as 3.12 and 3.13. The interesting growth is in **soft keywords**, which are only special in one grammatical position. That is how Python added structural pattern matching without breaking every program that had a variable called `match`:
+
+```python
+match = "still a fine variable name"     # legal: match is soft
+
+def handle(cmd: list[str]) -> str:
+    match cmd:                            # here it is a keyword
+        case ["add", *words]:
+            return f"adding {' '.join(words)}"
+        case ["list" | "ls"]:
+            return "listing"
+        case ["grep", term] if term:
+            return f"searching for {term}"
+        case _:
+            return "usage: add|list|grep"
+
+print(handle(["add", "buy", "milk"]))     # adding buy milk
+print(handle(["ls"]))                     # listing
+
+type Point = tuple[float, float]          # 3.12+ type alias statement
+```
+
+`case` patterns are not just values: `["add", *words]` destructures a list, `"list" | "ls"` matches either, and `if term` adds a guard. Compare the shell's [case statement](bashcase.md), which matches strings against globs, and PicoLisp's `match`, which matches lists against patterns with `@` variables.
+
+### A Lisp's perspective: no keywords at all
+
+PicoLisp has *no reserved words*. `if`, `de`, `let` and `for` are ordinary symbols whose values happen to be built-in functions. You can inspect them, wrap them, or (unwisely) redefine them at the REPL:
+
+```picolisp
+: (val 'if)         # if is just a symbol; its value is a built-in function
+-> 5898011183988
+: (num? (val 'if))   # built-ins are machine-code addresses
+-> 5898011183988
+: (de unless2 (C . Prg) (if C NIL (run Prg)))   # make your own control structure
+: (unless2 NIL (prinl "ran"))
+ran
+```
+
+Python made the opposite choice on purpose: a fixed, small set of words the parser owns, so every Python program reads the same way. Neither is wrong. Python optimises for many people reading each other's code; Lisp optimises for growing the language to fit the problem. Knowing which choice a language made tells you how far you can bend it.
+
+### Checking your own interpreter
+
+```bash
+python3 -c "import keyword, sys; print(sys.version.split()[0], len(keyword.kwlist), keyword.softkwlist)"
+# 3.14.0 35 ['_', 'case', 'match', 'type']
+```
+
+Run this after every upgrade; it is the quickest way to notice a language change that could affect your code.
+
 ### Connections
 
 - [Python](python.md), [Python Libraries](pythonlibrariestoolsandlinks.md).
