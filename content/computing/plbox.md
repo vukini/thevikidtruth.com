@@ -23,69 +23,91 @@ topics:
 
 # box
 
-Here is the truth about `box` in PicoLisp: **it is a tiny mutable cell – a cons whose purpose is to hold something that changes while the identity of the cell stays put.** When you need a shared, updatable place without inventing a class, you reach for a box.
+Here is the truth about `box` in PicoLisp: **it hands you a brand-new symbol that nobody else can name.** That sounds like nothing, but a symbol is PicoLisp's universal container: it has a value, a property list and an identity. A box is a private, mutable place you can pass around.
 
 ### What it is, in plain words
 
-`(box Val)` creates a new cell with `Val` as its value. Access and update with `val` and `set` (or related patterns). Because PicoLisp is dynamically typed and list-oriented, a box is often enough where another language would demand an object or an `IORef`.
+`(box Val)` creates and returns a new **anonymous symbol** whose value is `Val`. It is not interned, so it has no name you can type. It prints as something like `$177305325560446`, which is simply its address. You read the value with `val` and change it with `set`, `inc`, `dec`, `push` and friends. Because it is a full symbol, you can also hang properties off it with `put` and `get`.
 
-```lisp
-(setq Cnt (box 0))
-(set Cnt (inc (val Cnt)))
-(val Cnt)   # 1
+```picolisp
+: (setq Cnt (box 0))
+-> $177305325560446
+: (sym? Cnt)
+-> T
+: (inc Cnt)
+-> 1
+: (val Cnt)
+-> 1
 ```
+
+`box` is a close cousin of [new](plnew.md): `(new)` makes the same kind of anonymous symbol with no value. Objects are just anonymous symbols whose value is a class list, so a box is "an object without a class".
 
 ### Why it matters
 
-Closures, GUIs and servers all need "a place to keep the current thing". Boxes give you that place without ceremony. They also teach something deeper about PicoLisp: mutation is available, explicit and usually localised – functional style by default, cells when you need them.
+- **Shared state without globals.** Two functions can both hold the same box and see each other's updates, without polluting the global namespace with a `*Counter`.
+- **Avoiding dynamic-binding surprises.** PicoLisp uses dynamic binding, so a closure that refers to a variable by name can see the wrong binding later. Capturing a box (with `curry` or `job`) captures the *container*, not the name.
+- **It shows how simple the object system is.** Values, properties and identity are all a symbol already gives you.
 
 ### An everyday analogy: a labelled tray
 
-A number written on the blackboard gets erased when replaced. A tray labelled "count" stays the tray even when you swap the card inside. Code that holds the tray still holds the right thing after an update. That tray is a box.
+A number written on a whiteboard is gone once someone erases it. A tray with no label of its own, that you carry around, stays the same tray even when you swap the card inside. Anyone you hand the tray to sees the current card. The tray is a box; the card is its value.
 
-### A hands-on example
+### A hands-on example: a counter factory
 
-```lisp
-# Counter factory
+```picolisp
 (de make-counter ()
    (let C (box 0)
       (list
-         (cons 'inc  (curry (C) () (set C (inc (val C)))))
-         (cons 'get  (curry (C) () (val C)))
-         (cons 'reset (curry (C) () (set C 0))) ) ) )
+         (cons 'inc (curry (C) () (inc C)))
+         (cons 'get (curry (C) () (val C))) ) ) )
 
 (setq Ctr (make-counter))
 ((cdr (assoc 'inc Ctr)))
 ((cdr (assoc 'inc Ctr)))
-((cdr (assoc 'get Ctr)))   # 2
+((cdr (assoc 'get Ctr)))   # -> 2
 ```
 
-A simpler everyday use – caching a computed value:
+`curry` builds a new function with `C` replaced by the actual box, so every counter has its own private box even though they all came from the same code.
 
-```lisp
-(setq Cache (box))
-(de expensive ()
-   (or (val Cache)
-      (set Cache (long-computation)) ) )
+A box with properties, a quick record without defining a class:
+
+```picolisp
+: (setq S (box))
+: (put S 'name "Ali")
+: (put S 'lang 'picolisp)
+: (show S)
+$177305325561003 NIL
+   lang picolisp
+   name "Ali"
 ```
 
-You'll also meet boxes in GUI and form code when a field needs a stable identity while its contents change across requests.
+And a lazily computed cache:
+
+```picolisp
+(setq *Cache (box))
+(de config ()
+   (or (val *Cache)
+      (set *Cache (in "config.l" (read))) ) )
+```
 
 ### Common misconceptions
 
-- **"Boxes are hash tables."** They're single cells. Use indexes / `idx` or the DB for maps.
-- **"Mutation means the language isn't functional."** PicoLisp lets you choose. Prefer pure functions; box when state is the point.
-- **"`setq` already mutates."** `setq` rebinds a symbol. A box mutates through an indirection you can pass around.
-- **"I need boxes everywhere."** Most Pil code never touches them. That's healthy.
+- **"A box is a cons cell."** No. A cons cell is a list cell with a CAR and CDR (see [Find Boxes in Lists](findboxes.md)). A `box` is a *symbol*, with a value, properties and a name slot.
+- **"`setq` would do the same."** `setq` changes what a *named* variable holds. A box is a container you can hand to other code, and it keeps its identity wherever it goes.
+- **"Boxes are a hash table."** One box holds one value plus properties. For key/value maps use `idx` trees, association lists, or the [PicoLisp DB](pildb.md).
+- **"Boxes persist."** They live in memory and vanish when the process ends. For data that must survive, use external symbols created with `(new T ...)`.
 
 ### Boxes versus DB entities
 
-If the value must survive process restart or be shared across users, it belongs in the [PicoLisp DB](pildb.md), not a box. Boxes are for in-memory, per-process state: counters, caches, UI selection, "current request" scratch. Mixing the two up is how people lose data on restart and blame the language.
+If the value must survive a restart or be shared between processes, it belongs in the database. Boxes are for per-process state: counters, caches, the current selection in a GUI, scratch space for one request.
 
 ### Connections
 
-- [PicoLisp](picolisp.md), [Pil I/O](plio.md), [PicoLisp Tutorials](piltutorials.md).
-- [JavaScript Variables](jsvariable.md) – a different take on mutable bindings.
+- [new](plnew.md), [PicoLisp](picolisp.md), [Input/Output](plio.md), [PicoLisp Tutorials](piltutorials.md).
+- [Find Boxes in Lists](findboxes.md) – the other kind of "box": cells.
+- [JavaScript Variables](jsvariable.md) and [JS Scope](jsscope.md) – closures and mutable bindings elsewhere.
+
+### Reference
 
 ```
 : (box 'any) -> sym 

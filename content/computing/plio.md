@@ -76,15 +76,14 @@ flowchart LR
    (until (eof)
       (println (line T)) ) )
 
-# Capture into a string
-(pack
-   (list
-      (print "x=" 3)
-      (prin " ")
-      (print "y=" 4) ) )
+# Build a string without printing at all
+(pack "x=" 3 " y=" 4)            # -> "x=3 y=4"
 
-# Pipe
-(in '(pipe (exec "uname" "-a"))
+# Capture what some code prints: run it in a pipe, read it back
+(pipe (prinl "captured!") (line T))   # -> "captured!"
+
+# Read from another program: a list as the "file" runs it
+(in '("uname" "-a")
    (prinl (line T)) )
 
 # HTTP server fragment (after loading http/xhtml)
@@ -101,6 +100,7 @@ flowchart LR
 - **"`prin` and `print` are synonyms."** They differ on quoting and separators.
 - **"You must close files."** `in`/`out` close when the body returns (even on throw).
 - **"Binary needs a different language."** Use `rd`/`wr` and sizes.
+- **"`pack` captures output."** `pack` only joins its arguments into a string. To capture what code *prints*, run it with `pipe` (or `out` into a temporary file from `(tmp "x")`) and read it back.
 - **"HTTP is separate."** It's streams plus libraries.
 
 ### Pretty-printing and debugging
@@ -108,6 +108,58 @@ flowchart LR
 `(pretty Expr)` and friends help you see structure. During HTTP development, temporarily `(out 2 (println …))` to write traces to stderr without corrupting the response body. For large dumps, prefer writing files with `out` over flooding the console.
 
 Remember that `read` reads one Pil expression – great for config files written as s-expressions, surprising if you expected line-oriented text (use `line` for that).
+
+### Reading structured data
+
+Because `read` understands PicoLisp syntax, the easiest config file format is PicoLisp itself:
+
+```picolisp
+# settings.l contains:  (theme . "dark") (font . "Iosevka") (size . 14)
+(in "settings.l"
+   (make
+      (while (read)
+         (link @) ) ) )
+# -> ((theme . "dark") (font . "Iosevka") (size . 14))
+```
+
+For line-oriented text such as `/etc/passwd`, combine `line` with `split`:
+
+```picolisp
+(in "/etc/passwd"
+   (until (eof)
+      (let F (split (line) ":")
+         (prinl (car F) " -> " (last F)) ) ) )
+```
+
+`(line)` without `T` returns a list of characters, which `split` cuts on `":"`; `prinl` happily prints those character lists. Use `(line T)` when you want a string straight away. `till` reads up to a delimiter, and `skip` jumps over whitespace and comments, which is all you need for small parsers.
+
+### Talking to other programs
+
+A list where a file name would go means "run this program". That works for both `in` and `out`:
+
+```picolisp
+(in '("ls" "-1" "/var/service")          # Void's enabled runit services
+   (until (eof) (prinl "service: " (line T))) )
+
+(out '("sort" "-r")                       # feed another program
+   (mapc prinl '("pear" "apple" "fig")) )
+```
+
+`call` runs a program and waits, returning `T` on success, which is perfect for scripts that glue Unix tools together. For JSON, load `@lib/json.l` and use `readJson` and `printJson`, so web APIs fit into the same stream model.
+
+### Where the streams go
+
+```mermaid
+flowchart LR
+  F[file] --> I["(in ...)"]
+  P[program] --> I
+  S[socket] --> I
+  I --> R[read / line / char / till]
+  W[prin / print / prinl] --> O["(out ...)"]
+  O --> F2[file]
+  O --> P2[program]
+  O --> S2[socket / HTTP]
+```
 
 ### Connections
 

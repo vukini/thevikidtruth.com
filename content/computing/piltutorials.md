@@ -90,6 +90,45 @@ Keep a `scratch.l` open next to the tutorial. After every example, change one th
 
 When an official demo app exists (health, chat), run it before reading the source. Predicting what a click does, then confirming, wires the concepts faster than reading alone.
 
+### A four-week path that actually works
+
+Here is the route I would give a friend starting in 2026 with pil21:
+
+1. **Week one: the REPL and lists.** Learn `de`, `let`, `if`, `cond`, `mapcar`, `filter`, `make`/`link` and the cell model on [Find Boxes in Lists](findboxes.md). Do small exercises: reverse a list by hand, count words in a file, flatten a nested list.
+2. **Week two: symbols and evaluation.** Quoting, transient versus internal symbols, property lists, [box](plbox.md), and why PicoLisp uses dynamic binding. Read the [Vikid PicoLisp Tutorial](pltutorial.md) here.
+3. **Week three: objects and I/O.** `class`, `dm`, [new](plnew.md), `show`, then streams with `in`, `out` and `pipe` from [Input / Output](plio.md). Write a tiny command-line tool that reads a CSV and prints a report.
+4. **Week four: the database and the GUI.** Entities and relations, `+Ref` and `+Key` indexes, `collect` and Pilog queries, then the form library. Build something small but real: a reading log, a recipe box, a link collection. See [PicoLisp DB](pildb.md) and [Application Development](appdev.md).
+
+Each week ends with one small program you would actually use. That is the whole trick.
+
+### A worked mini exercise: word frequency
+
+Retype this, run it on any text file, then change it.
+
+```picolisp
+(de words (File)
+   (in File
+      (make
+         (until (eof)
+            (let W (lowc (till " \t\n.,;:!?\"()" T))
+               (and W (link W)) )
+            (char) ) ) ) )
+
+(de freq (File)
+   (let Idx NIL
+      (for W (words File)
+         (accu 'Idx W 1) )
+      (head 10 (flip (by cdr sort Idx))) ) )
+
+(freq "README.md")
+```
+
+Things to try: what happens with an empty file? How would you ignore short words? Can you replace the association list with an `idx` tree for big files? Each question sends you back to the reference, which is exactly where you want to end up.
+
+### Where to ask
+
+The PicoLisp mailing list and the `#picolisp` channel on Libera.Chat are small and friendly, and the author, Alexander Burger, is often there in person. Before you post, include `(version)` output and the smallest piece of code that shows the problem.
+
 ### Connections
 
 - [PicoLisp](picolisp.md), [PicoLisp Machine](pilmachine.md), [Pil Sources](pilsource.md).
