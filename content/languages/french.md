@@ -13,8 +13,7 @@ tags:
 categories:
 - languages
 wikislug: french
-draft: true
-review: update
+draft: false
 topics:
 - french
 ---

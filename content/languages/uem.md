@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: uem
-draft: true
-review: update
+draft: false
+topics:
+- esperanto
 ---
 
 [Arabic](arabic.md) | [Esperanto](esperanto.md) |[Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) | [Swahili](swahili.md) | [French](french.md) | [Hindi](hindi.md) | [Artikoloj](artikoloj.md) | [Quick Links](quicklinks.md)

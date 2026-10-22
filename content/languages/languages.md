@@ -13,8 +13,7 @@ tags:
 categories:
 - languages
 wikislug: languages
-draft: true
-review: update
+draft: false
 topics:
 - learning
 ---

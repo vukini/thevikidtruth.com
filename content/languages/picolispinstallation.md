@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: picolispinstallation
-draft: true
-review: update
+draft: false
+topics:
+- learning
 ---
 
 [Arabic](arabic.md) | [Esperanto](esperanto.md) |[Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) |

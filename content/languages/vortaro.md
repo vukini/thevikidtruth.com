@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: vortaro
-draft: true
-review: update
+draft: false
+topics:
+- esperanto
 ---
 
 **This site provides full text search. What that means is that you can use the

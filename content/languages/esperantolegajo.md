@@ -13,8 +13,7 @@ tags:
 categories:
 - languages
 wikislug: esperantolegajo
-draft: true
-review: update
+draft: false
 topics:
 - esperanto
 ---
