@@ -36,62 +36,93 @@ topics:
 
 # [vers.h](versh.md)
 
-Here is the truth about versioning shell helpers: **a tiny wrapper that prints versions of the tools you actually use saves more time than it has any right to.** When something breaks after an update, "what am I running?" should be a one-liner.
+Here is a small truth hidden in a tiny file: **in PicoLisp, the version number is a date.** `vers.h` is the whole of it in the old C sources, one line telling you the day the interpreter was cut. Reading it is a nice first step into the [PicoLisp sources](pilmachine.md), because it shows how little ceremony the system needs.
 
 ### What it is, in plain words
 
-**versh** on this site is a personal utility idea: a shell script (or alias collection) that reports versions of the compilers, interpreters and services on a machine – the footprint of a development environment. Not a product; a habit.
+`vers.h` is a header file from the C-based PicoLisp sources (pil32 and the older miniPicoLisp lineage). It declares one array:
+
+```
+static byte Version[4] = {17,6,13};
+```
+
+Three numbers: **year, month, day**. `{17,6,13}` means 13 June 2017. The fourth slot is spare. When the interpreter starts and you call `(version)`, it prints those numbers joined by dots.
+
+In today's PicoLisp (pil21, the 64-bit version written in PicoLisp itself and compiled through LLVM), the same idea lives in `src/vers.l`:
+
+```picolisp
+(pico~de *Version 25 3 29)
+```
+
+Same date format, now as Lisp. Releases still follow the date: the stable versions you see in package managers in 2025 and 2026 are numbered like `25.3` or `25.12`, the year and month of the release.
 
 ### Why it matters
 
-Bug reports without versions are guesses. Reproducing a build needs the same GCC, the same libc, the same Node. A `ver.sh` in a repo or `~/bin` turns a five-minute archaeology dig into ten seconds.
+- **Debugging.** When you ask on the mailing list or IRC why something behaves oddly, the first answer is "which version?" A date tells you exactly which source tree you have, and which changes in the change log apply.
+- **Compatibility.** Code written for pil32 (the C interpreter) and pil21 differs in places, for example in how the native call interface works. Knowing your version tells you which manual to read.
+- **Simplicity as a design value.** Most projects need a build system plugin to generate a version string. PicoLisp needs one array. That is the PicoLisp attitude in miniature.
 
-### An everyday analogy: a medical wristband
+### An everyday analogy: a "baked on" stamp
 
-In a hospital, the wristband lists the facts that change treatment. A version script is the wristband for your toolchain.
+A loaf of bread from a good bakery has a date on it, not a marketing number. You know immediately how fresh it is and which batch it came from. `vers.h` is that stamp. "Version 3.1.7" tells you little on its own; "13 June 2017" tells you where it sits in history.
 
 ### A hands-on example
 
+Ask the running interpreter, from the shell or the REPL:
+
+```bash
+$ pil -version -bye
+25.3.29
+```
+
+```picolisp
+: (version)       # prints and returns the list
+25.3.29
+-> (25 3 29)
+: (version T)     # just return it, no printing
+-> (25 3 29)
+```
+
+Because it returns a list, you can test it in code, for example to refuse to run on an interpreter that is too old:
+
+```picolisp
+(unless (>= (version T) (24 6 1))
+   (quit "Need PicoLisp 24.6 or newer") )
+```
+
+PicoLisp compares lists element by element, so `(25 3 29)` is greater than `(24 6 1)`. Dates sort naturally, which is another quiet benefit of the format.
+
+On Vikix I also keep a tiny shell script that prints the versions of the tools I depend on, so I can paste them into notes or bug reports:
+
 ```bash
 #!/bin/sh
-# ~/bin/versh – extend as you like
-set -e
-section() { printf '\n== %s ==\n' "$1"; }
-
-section "OS"
-uname -a
-[ -f /etc/os-release ] && . /etc/os-release && echo "$PRETTY_NAME"
-
-section "Toolchains"
-command -v gcc >/dev/null && gcc --version | head -1
-command -v rustc >/dev/null && rustc --version
-command -v go >/dev/null && go version
-command -v python3 >/dev/null && python3 --version
-command -v node >/dev/null && node --version
-command -v pil >/dev/null && pil -version 2>/dev/null || true
-
-section "Userland"
-git --version
-vim --version | head -1
+uname -sr
+xbps-query -p pkgver picolisp 2>/dev/null
+pil -version -bye
+emacs --version | head -1
 ```
+
+Finding the file itself in the C sources:
 
 ```bash
-chmod +x ~/bin/versh
-versh > ~/notes/vikix-versions.txt
+grep -rn Version src/vers.h src/*.c | head
 ```
 
-Pin the same idea in project READMEs: "build tested with …" plus a paste from `versh`.
+You will see `Version` used by the `version` built-in function and nowhere else. The type `byte` it uses is defined in `pico.h` (see below).
 
 ### Common misconceptions
 
-- **"`--version` is enough everywhere."** Some tools use `-v`, `version`, or print to stderr. The script papers over that.
-- **"Containers make this obsolete."** Images drift; recording what ran still matters.
-- **"Only languages matter."** Shared libraries and package managers break builds too – add `ldd --version`, `xbps-query -v`, etc.
+- **"The date is the day I installed it."** It is the day the source was released, not your install or build date.
+- **"Newer pil21 numbers mean a rewrite each time."** No. The format just tracks dates; most releases are small fixes and additions.
+- **"`vers.h` configures the build."** It configures nothing. It is purely informational.
 
 ### Connections
 
-- [BASH](bash.md), [Linux Introspection](linuxinstrospection.md), [Git](git.md).
-- [Build](bciyh.md) – knowing what Vikix is made of.
+- [PicoLisp](picolisp.md), [The PicoLisp Machine](pilmachine.md), [PicoLisp Assembly](pilasm.md).
+- [C Programming](cprogramming.md), [Identifiers](identifier.md) and [Literals](literals.md) – to read the C line above with confidence.
+- [new](plnew.md) and [box](plbox.md) – more built-ins worth reading in the source.
+
+### The C line itself
 
 ```
 static byte Version[4] = {17,6,13};

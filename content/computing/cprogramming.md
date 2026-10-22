@@ -38,6 +38,63 @@ parts which are easily overlooked by beginners or are difficult to remember.
 I hope that you like what is on offer and if you do, please bookmark these pages
 and spread the word.
 
+
+### What C is, in plain words
+
+C is a small, compiled, statically typed language designed by Dennis Ritchie at Bell Labs in the early 1970s to write Unix. Here is the truth that makes it click: **C is a thin, portable description of what the machine actually does.** You get numbers, memory addresses, functions and very little else. There is no garbage collector, no built-in string type, no classes, no exceptions. What you write is close to what runs.
+
+The language is defined by an ISO standard. **C23** (ISO/IEC 9899:2024) is the current one. It added `true`/`false`/`bool` as real keywords, `nullptr`, `typeof`, `constexpr` objects, `#embed`, binary literals like `0b1010`, digit separators (`1'000'000`) and `[[attributes]]`. GCC 15 and Clang 19+ default to it or close to it, so in 2026 you can use these freely on Vikix.
+
+### Why it matters
+
+- **It is underneath everything.** The Linux kernel, glibc and musl, Python's interpreter, Git, SQLite, PicoLisp's older pil32 interpreter, the runtimes of most languages: C. When something low down breaks, you end up reading C.
+- **It teaches the machine.** Pointers, stack frames, memory layout and calling conventions stop being abstractions. That knowledge transfers to [Rust](rust.md), [Zig](ziglang.md), [Odin](odin.md) and even to performance work in Python.
+- **It is everywhere hardware is.** Microcontrollers, firmware, [Raspberry Pi](rasberrypi.md) projects and embedded systems still speak C first.
+- **Its sharp edges are the security story.** Buffer overflows and use-after-free bugs in C code are a large share of real-world vulnerabilities. That is why [Computer Security](computersecurity.md) people learn C, and why newer kernel code is starting to appear in Rust.
+
+### An everyday analogy: a manual car
+
+Python is an automatic with lane assist. C is a manual gearbox with no traction control. You can drive more efficiently and you feel exactly what the engine is doing, but nobody stops you from stalling, or from redlining it into a wall. Most people who learn to drive manual become better drivers in automatics too.
+
+### A hands-on first program
+
+```c
+/* hello.c */
+#include <stdio.h>
+
+int main(int argc, char *argv[]) {
+    const char *who = argc > 1 ? argv[1] : "world";
+    printf("Hello, %s!\n", who);
+    return 0;
+}
+```
+
+```bash
+gcc -std=c23 -Wall -Wextra -O2 hello.c -o hello   # compile and link
+./hello VikiD                                    # Hello, VikiD!
+gcc -std=c23 -E hello.c | tail -5                # see the preprocessor output
+gcc -std=c23 -S -O2 hello.c -o - | less          # see the assembly
+```
+
+Those last two lines are the habit I recommend most. Look at what the [compiler](thecompiler.md) actually produced. On Void, `xbps-install -S gcc make gdb` gets you everything you need; add `clang` and `clang-tools-extra` for `clangd`, which gives Emacs or vim real code completion through LSP.
+
+When the program grows, add a `Makefile`, turn on `-fsanitize=address,undefined` while developing, and learn [GDB](gbddebugger.md). Those three tools catch most beginner mistakes before they become mysteries.
+
+### Common misconceptions
+
+- **"C is a subset of C++."** It is not. They split decades ago. Valid C (for example implicit `void *` conversion from `malloc`) can be invalid C++, and C has features C++ lacks.
+- **"C is fast, so my C is fast."** Bad algorithms are slow in every language. C just removes the excuses.
+- **"Undefined behaviour means it crashes."** It means *anything*, including working perfectly today and failing after an optimiser upgrade. Compile with warnings and sanitizers.
+- **"Strings are a type in C."** They are arrays of `char` ending in a zero byte. See [Strings in C](cstrings.md).
+- **"C is dead because of Rust."** Rust is growing in new code, including in the kernel. The world's existing C is not going anywhere, and someone has to read it.
+
+### Connections
+
+The pages below go deeper. Start with [The Compiler](thecompiler.md), [Identifiers](identifier.md), [Objects in C](object.md) and [Literals](literals.md), then [C Syntax](csytanx.md), the types ([integers](cints.md), [floats](cfloats.md), [chars](cchars.md)), [Strings](cstrings.md) and the [Standard Library](cstandardlibrary.md). For the level below C see [Assembly Language](assemblylanguage.md) and [objdump](objdump.md); for the level beside it, [Operating Systems](os.md).
+
+### The pages in this section
+
+
 1. **The C Language**
     - [The Compiler](thecompiler.md)
     - [Identifiers](identifier.md)
