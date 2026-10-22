@@ -13,8 +13,7 @@ tags:
 categories:
 - misc
 wikislug: linuxusbstack
-draft: true
-review: retire
+draft: false
 topics:
 - math-tech
 ---
@@ -25,3 +24,7 @@ topics:
 
 ![linuxusb](/assets/linuxusb.jpg)
 {.right}
+
+### About the book
+
+*Bootstrap Yourself with Linux-USB Stack* by Rajaram Regupathy is a practical, developer-focused guide to how USB works on Linux. It explains the USB protocol and the layers of the Linux USB stack, and walks through writing USB device drivers and gadget software. It is aimed at embedded and systems programmers who need to work with USB devices on Linux, complementing the lower-level material in my [systems programming](systemsprogramming.md) notes.

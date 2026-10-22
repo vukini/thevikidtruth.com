@@ -13,8 +13,7 @@ tags:
 categories:
 - misc
 wikislug: commodity
-draft: true
-review: retire
+draft: false
 topics:
 - society
 ---
@@ -23,3 +22,7 @@ topics:
 {.right}
 
 # Commodity Fundamentals
+
+### About the book
+
+*Commodity Fundamentals* (George Kleinman, "Commodity Fundamentals: How to Trade the Precious Metals, Energy, Grain, and Tropical Commodity Markets") is a practical guide to the commodity markets. It explains what commodities are, how futures contracts work, and the supply-and-demand forces that drive prices in metals, energy and agricultural markets, along with both fundamental and technical approaches to analysing them. It is pitched at newcomers who want to understand how these markets function.

@@ -13,8 +13,7 @@ tags:
 categories:
 - misc
 wikislug: immense
-draft: true
-review: retire
+draft: false
 topics:
 - science
 ---
@@ -25,3 +24,7 @@ topics:
 # The Immense Journey
 
 ### Loren Eisely
+
+### About the book
+
+*The Immense Journey* by Loren Eiseley (1957) is a classic collection of lyrical essays on evolution, time, and humanity's place in nature by the anthropologist and naturalist. Blending science with poetic reflection, Eiseley traces the long story of life, from water and the first vertebrates to the emergence of the human mind, in prose admired as much for its literary beauty as its science. It helped establish the modern genre of the literary science essay.

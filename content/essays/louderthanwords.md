@@ -13,8 +13,7 @@ tags:
 categories:
 - misc
 wikislug: louderthanwords
-draft: true
-review: retire
+draft: false
 topics:
 - stories
 ---
@@ -23,3 +22,7 @@ topics:
 {.right}
 
 # Louder Than Words
+
+### About the book
+
+*Louder Than Words: The New Science of How the Mind Makes Meaning* by Benjamin K. Bergen (2012) presents the cognitive-science theory of *embodied simulation*: the idea that we understand language not by manipulating abstract symbols but by mentally simulating the actions, perceptions and feelings that words describe. Drawing on psychology and neuroscience experiments, Bergen argues that meaning is grounded in the body and its experience, with implications for how we think about language, reading and the mind.

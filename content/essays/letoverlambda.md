@@ -13,8 +13,7 @@ tags:
 categories:
 - misc
 wikislug: letoverlambda
-draft: true
-review: retire
+draft: false
 topics:
 - math-tech
 ---
@@ -23,3 +22,7 @@ topics:
 {.right}
 
 # Let Over Lambda
+
+### About the book
+
+*Let Over Lambda* by Doug Hoyte (2008) is an advanced book on [Common Lisp](commonlisp.md) macros, widely considered one of the most challenging and interesting books on the subject. Its title refers to a closure, a `let` wrapped over a `lambda`, and it explores how Lisp's macro system lets programmers extend the language itself in ways most languages cannot. The book makes a strong case that Lisp macros are a uniquely powerful programming tool, and is aimed at readers who already know some Lisp.
