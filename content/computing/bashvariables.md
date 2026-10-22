@@ -154,6 +154,49 @@ The second starts a clean shell – useful for testing install scripts.
 - **"Arrays are portable."** They're Bash/ksh; POSIX `sh` doesn't have them.
 - **"Integers are a type."** `declare -i` helps; arithmetic is still `$(( … ))`. Everything remains a string underneath.
 
+### Indirection and namerefs
+
+Sometimes you need a variable whose *name* is in another variable. Old scripts used `eval`, which is dangerous with untrusted input. Bash has two safer tools:
+
+```bash
+colour=red
+name=colour
+echo "${!name}"            # indirect expansion: prints red
+
+# A nameref: 'ref' becomes another name for whatever variable it is given
+add_item() {
+  local -n list=$1         # list is now an alias for the caller's array
+  list+=("$2")
+}
+tools=(vim emacs)
+add_item tools pil
+echo "${tools[@]}"         # vim emacs pil
+```
+
+Namerefs (`declare -n`, Bash 4.3+) are how you pass arrays to functions "by reference" without copying them.
+
+### Associative arrays: a dictionary in the shell
+
+```bash
+declare -A port=([ssh]=22 [http]=80 [https]=443)
+port[gemini]=1965
+for svc in "${!port[@]}"; do
+  printf '%-7s %s\n' "$svc" "${port[$svc]}"
+done | sort
+```
+
+`${!port[@]}` gives the keys, `${port[@]}` the values. Order is not guaranteed, which is why the output is piped through `sort`. Declaring with `-A` is required; without it Bash silently treats the subscripts as arithmetic and everything lands in index 0.
+
+### Seeing what is set
+
+```bash
+declare -p tools port      # print variables in a re-usable form
+set -o nounset             # make unset variables an error (same as set -u)
+printenv | sort | less     # just the exported environment
+```
+
+`declare -p` is the best debugging tool for variables: it shows the type (`-a`, `-A`, `-i`, `-r`, `-x`) and the exact value with quoting, so invisible whitespace and empty elements become obvious. In PicoLisp the equivalent habit is `(show 'Sym)` or `(pp 'Fun)`: ask the system what a name holds instead of guessing.
+
 ### Connections
 
 - [BASH](bash.md), [Bash if](bashif.md), [Bash case](bashcase.md), [Bash Cookbook](vikidsbashcookbook.md).

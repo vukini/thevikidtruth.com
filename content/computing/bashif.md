@@ -36,6 +36,98 @@ topics:
 
 # Bash - if statements
 
+Here is the truth about `if` in Bash: **it does not test conditions. It runs a command and looks at whether that command succeeded.** `[` is just a command (with a funny name) that succeeds or fails. Once you see that, every strange-looking Bash `if` makes sense.
+
+### What it is, in plain words
+
+The syntax is:
+
+```bash
+if COMMANDS; then
+  ...
+elif COMMANDS; then
+  ...
+else
+  ...
+fi
+```
+
+Bash runs the `COMMANDS` after `if`. If the last one exits with status **0** (success), the `then` branch runs. Any other status (1 to 255) means failure, and Bash moves on to `elif` or `else`. Note the shell's convention is the reverse of C: **0 is true**.
+
+Three kinds of commands are commonly used as tests:
+
+1. **`[ ... ]`**, also called `test`: the portable POSIX test command. Spaces around the brackets are required because `[` is a command name and `]` is its last argument.
+2. **`[[ ... ]]`**: a Bash keyword with safer rules. No word splitting inside, so quoting matters less; supports `&&`, `||`, pattern matching with `==` and regexes with `=~`.
+3. **`(( ... ))`**: arithmetic. Succeeds if the expression is non-zero: `(( count > 10 ))`.
+
+And any ordinary command works: `if grep -q root /etc/passwd; then ...`.
+
+### Why it matters
+
+Shell scripts are mostly decisions: does this file exist, did the download work, is this the right user. Getting `if` wrong produces scripts that silently take the wrong branch, which is worse than a crash. And knowing that `if` checks exit status lets you write tests directly against real commands instead of capturing output and comparing strings.
+
+### An everyday analogy: a bouncer with a phone
+
+The bouncer (`if`) does not judge anyone himself. He phones a checker (the command), who answers only "yes" (0) or "no" (anything else). The bouncer lets you in or sends you to the next door (`elif`) based on that one answer. `[` is just the checker who knows how to compare numbers and look at files.
+
+### A hands-on example
+
+```bash
+#!/usr/bin/env bash
+# backup-check.sh  - decisions four ways
+set -u
+
+file=${1:-$HOME/notes.org}
+
+# 1. Test a file with [[ ]]
+if [[ ! -f $file ]]; then
+  echo "No such file: $file" >&2
+  exit 1
+fi
+
+# 2. Test a command's success directly
+if ping -c1 -W2 backup.local &>/dev/null; then
+  echo "Backup host is up"
+else
+  echo "Backup host unreachable, will retry later"
+fi
+
+# 3. Arithmetic with (( ))
+size=$(stat -c %s -- "$file")
+if (( size > 1024 * 1024 )); then
+  echo "$file is over 1 MiB"
+fi
+
+# 4. Patterns and regexes with [[ ]]
+if [[ $file == *.org ]]; then
+  echo "An Org file"
+elif [[ $file =~ \.(md|markdown)$ ]]; then
+  echo "Markdown: extension ${BASH_REMATCH[1]}"
+fi
+
+# Short form for a single action
+[[ -w $file ]] || echo "Warning: $file is read-only"
+```
+
+Check the exit status of anything yourself with `echo $?` straight after it runs.
+
+### Common misconceptions
+
+- **"`[$# -ne 1]` is fine."** The example lower down this page has exactly this bug. Without spaces, Bash looks for a command literally named `[1` (or similar) and fails. It must be `[ $# -ne 1 ]`.
+- **"`=` and `-eq` are the same."** `=` compares *strings*, `-eq` compares *integers*. `[ 010 = 10 ]` is false, `[ 010 -eq 10 ]` is true.
+- **"Quoting doesn't matter in `[ ]`."** If `$AGE` is empty, `[ $AGE -lt 13 ]` becomes `[ -lt 13 ]`, a syntax error. Quote (`"$AGE"`) or use `[[ ]]`.
+- **"`[[ ]]` works everywhere."** It is Bash (and zsh, ksh). In `#!/bin/sh` scripts, which on Void and Debian run `dash`, use `[ ]`.
+- **"`$(whoami) = 'root'` is the way to check for root."** Comparing `$EUID` (or `"$(id -u)"`) with `0` is faster and does not depend on the account's name.
+
+### Connections
+
+- [Bash case statements](bashcase.md), [Using Variables in Bash](bashvariables.md), [Reserved Words](bashreservewords.md), [Vikid's Bash Cookbook](vikidsbashcookbook.md).
+- [C Syntax](csytanx.md) and [JavaScript Control Flow](jscontrolflow.md) – where `if` tests values, not commands.
+- [Linux Tools](linuxtools.md), [awk](awk.md).
+
+## Examples
+
+
 ```
 if [ condition ]; then # you can use [[ ]] also
   your code

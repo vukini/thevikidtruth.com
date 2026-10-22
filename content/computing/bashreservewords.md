@@ -115,6 +115,52 @@ This is why `type` and careful quoting matter when generating scripts, and why s
 - **"`{}` needs no spaces."** `{ echo hi; }` needs a space after `{` and a semicolon (or newline) before `}`.
 - **"Reserved words are Bash-only."** Most listed above are POSIX; `[[`, `function`, `coproc`, `select` are Bash/ksh extensions.
 
+### Keywords at work: `time`, `!`, `coproc` and `select`
+
+Four reserved words are rarely explained, and all four are worth knowing.
+
+```bash
+# time: a keyword, so it can time a whole pipeline, not just one program
+time (find / -name '*.l' 2>/dev/null | wc -l)
+TIMEFORMAT='%Rs real, %Us user'; time sleep 0.2
+
+# !: negate the exit status of a pipeline
+if ! grep -q vikix /etc/hostname; then echo "not on Vikix"; fi
+
+# coproc: run a program in the background with a two-way pipe to it
+coproc BC { bc -l; }
+echo '4*a(1)' >&"${BC[1]}"       # send a line to bc
+read -r pi <&"${BC[0]}"           # read its answer back
+echo "pi is $pi"
+kill "$BC_PID"
+
+# select: an instant numbered menu
+PS3='Window manager? '
+select wm in stumpwm i3 quit; do
+  case $wm in
+    quit) break ;;
+    *)    echo "You chose $wm"; break ;;
+  esac
+done
+```
+
+`coproc` is how you keep a long-running tool such as `bc`, `sqlite3` or even `pil` open and talk to it line by line, instead of starting it again for every question. It is the shell's version of a REPL connection.
+
+### How to check any word
+
+When you meet an unfamiliar word in a script, ask Bash what it is before you search the web:
+
+```bash
+type -t if        # keyword
+type -t cd        # builtin
+type -t ls        # alias (or file)
+type -t greet     # function
+compgen -k        # list every keyword this Bash knows
+help time         # built-in help for keywords and builtins
+```
+
+`compgen -k` is the authoritative list for the Bash you are running, which matters as new versions occasionally add words. Bash 5.3 is current in 2026 and the list has been stable for years, but `compgen` never goes out of date.
+
 ### Connections
 
 - [BASH](bash.md), [Bash if](bashif.md), [Bash case](bashcase.md), [Bash Variables](bashvariables.md).

@@ -37,6 +37,76 @@ topics:
 
 # Emacs Notes
 
+Here is the truth about Emacs: **it is not a text editor. It is a Lisp machine that happens to ship with a text editor written in that Lisp.** Every key you press runs an Emacs Lisp function, and you can read, change or replace any of them while it is running. These are my working notes, but first the orientation I wish I had been given.
+
+### What it is, in plain words
+
+GNU Emacs was started by Richard Stallman in 1984. Emacs 30 is the current major release in 2026. It is a small C core (display, I/O, a Lisp interpreter and native compiler) and over a million lines of **Emacs Lisp** on top. The key ideas:
+
+- **Buffers** hold text: files, shells, directory listings, help, mail. "In Emacs, the buffer is the data structure."
+- **Windows** show buffers; **frames** are what your window manager calls windows.
+- **Modes**: one *major mode* per buffer (`python-mode`, `lisp-mode`, `org-mode`) and any number of *minor modes* (line numbers, spell checking, Evil).
+- **Commands** are Lisp functions bound to keys. `C-h k` tells you which function a key runs; `C-h f` shows its documentation and a link to its source.
+
+Recent versions made things much better out of the box: native compilation of Lisp (Emacs 28+), **Eglot** for LSP and **Tree-sitter** modes (29+), `use-package` built in (29+), and better completion and editing defaults in 30.
+
+### Why it matters
+
+- **One environment for everything text.** Code, notes in Org mode, Git through Magit, a REPL through SLY or `inferior-lisp`, mail, a shell. One set of keys and one way of extending them.
+- **It is the best Lisp IDE.** For PicoLisp, Common Lisp, Scheme or Racket, being able to send an expression to a running REPL with one key changes how you program.
+- **Freedom you can see.** Every function is inspectable and changeable while you use it. It is the most practical demonstration of [computing freedom](computingfreedom.md) I know.
+
+### An everyday analogy: a workshop that builds its own tools
+
+Most editors are a toolbox: you use what came in it. Emacs is a workshop with a lathe. When you need a tool that does not exist, you turn one, hang it on the wall next to the others, and it works exactly like the factory-made ones.
+
+### A hands-on example: run it as a server on Vikix
+
+The notes below use `systemctl --user`, which is for [systemd](systemd.md) distros. On Void with runit there is no user systemd, so the simplest approach is to start the daemon from your session, for example in `~/.xinitrc` or StumpWM's `~/.stumpwmrc`:
+
+```bash
+emacs --daemon            # start once per login
+emacsclient -c            # new graphical frame, instant
+emacsclient -t            # open in the terminal
+export EDITOR="emacsclient -t" VISUAL="emacsclient -c -a ''"
+```
+
+`-a ''` means "if no server is running, start one". From StumpWM you can bind a key to it:
+
+```lisp
+;; ~/.stumpwmrc  (StumpWM is Common Lisp too)
+(define-key *root-map* (kbd "e") "exec emacsclient -c -a ''")
+```
+
+A small, modern `init.el` to get going:
+
+```elisp
+(setq inhibit-startup-screen t
+      select-enable-clipboard t)       ; share the clipboard (modern name)
+(global-display-line-numbers-mode 1)
+(electric-pair-mode 1)
+(use-package eglot :hook (c-mode . eglot-ensure))   ; LSP for C via clangd
+(use-package magit :ensure t)                       ; Git
+```
+
+Note the clipboard variable in the notes below, `x-select-enable-clipboard`, is the old name; `select-enable-clipboard` replaced it and is on by default now.
+
+### Common misconceptions
+
+- **"Emacs is huge and slow."** Startup with a sensible config is under a second, and with `emacsclient` new frames are instant.
+- **"You must learn Emacs Lisp first."** You can use it for years with `M-x` and `C-h`. The Lisp comes when you want it.
+- **"Emacs means no vim keys."** Evil mode gives you a very complete vim inside Emacs. See [vim](vim.md).
+- **"Emacs pinky is inevitable."** Remap Caps Lock to Control (see [KMonad](kmonad.md)) and the problem mostly disappears.
+
+### Connections
+
+- [vim](vim.md), [Common Lisp](commonlisp.md), [PicoLisp](picolisp.md), [Scheme](scheme.md), [Racket](racket.md).
+- [Git](git.md), [KMonad](kmonad.md), [Penti](penti.md), [The i3 Window Manager](i3.md).
+- [with-output-to-string](withoutputtostring.md) – a Lisp idea you will use from the Emacs REPL.
+
+## Notes
+
+
 Start an emacs server.
 
 ```

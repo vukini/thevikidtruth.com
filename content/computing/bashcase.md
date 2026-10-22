@@ -135,6 +135,66 @@ Use `if` when the test is a *condition* (`-f file`, `-z "$s"`, numeric compariso
 - **"`case` is slower than `if`."** Negligible. Choose the clearer form.
 - **"Only Bash has it."** `case` is POSIX; it's one of the portable conditionals.
 
+### A real script: options with getopts, commands with case
+
+`getopts` handles the flags; `case` dispatches on each one. Then a second `case` picks a sub-command, the same shape as `git` or `xbps-*`:
+
+```bash
+#!/usr/bin/env bash
+# notes - a tiny note tool
+set -euo pipefail
+dir=${NOTES_DIR:-$HOME/notes}
+verbose=0
+
+usage() { echo "usage: notes [-v] [-d dir] {add|list|grep} [args]" >&2; exit 2; }
+
+while getopts ':vd:h' opt; do
+  case $opt in
+    v)  verbose=1 ;;
+    d)  dir=$OPTARG ;;
+    h)  usage ;;
+    :)  echo "-$OPTARG needs a value" >&2; usage ;;
+    \?) echo "unknown option -$OPTARG" >&2; usage ;;
+  esac
+done
+shift $((OPTIND - 1))
+
+cmd=${1:-list}; shift || true
+mkdir -p "$dir"
+
+case $cmd in
+  add)       printf '%s %s\n' "$(date +%F)" "$*" >> "$dir/inbox.txt" ;;
+  list|ls)   cat -- "$dir/inbox.txt" 2>/dev/null || echo "(empty)" ;;
+  grep|find) grep -i -- "${1:?search term}" "$dir/inbox.txt" ;;
+  *)         usage ;;
+esac
+(( verbose )) && echo "done: $cmd in $dir" >&2
+exit 0
+```
+
+Notice three `case` habits here: `|` to give a command aliases (`list|ls`), `\?` escaped because a bare `?` is a glob matching any single character, and a final `*)` that catches everything else so no input falls through silently.
+
+### Terminators: `;;`, `;&` and `;;&`
+
+Most people only know `;;` (stop here). Bash 4 added two more:
+
+| Terminator | Effect |
+|---|---|
+| `;;` | stop; no more patterns are tried |
+| `;&` | fall through and run the *next* branch's commands unconditionally (like C without `break`) |
+| `;;&` | keep testing the following patterns, running every one that also matches |
+
+```bash
+case $file in
+  *.tar.*) echo "a tarball" ;;&
+  *.gz)    echo "gzip compressed" ;;
+  *.xz)    echo "xz compressed" ;;
+esac
+# backup.tar.gz prints "a tarball" then "gzip compressed"
+```
+
+The PicoLisp equivalent of `case` is also called `case` and matches values rather than glob patterns: `(case Cmd ("add" (addNote)) (("list" "ls") (listNotes)) (T (usage)))`. For pattern matching on structure, PicoLisp has `match`.
+
 ### Connections
 
 - [BASH](bash.md), [Bash if](bashif.md), [Bash Variables](bashvariables.md).
