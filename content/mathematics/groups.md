@@ -24,7 +24,7 @@ draft: false
 [Rings](rings.md) |
 [Commutative Rings](commutativerings.md) |
 [Fields](fields.md) |
-[Actions](group.md) |
+[Group Actions](group.md) |
 [Modules](modulesalegbra.md) |
 [Vector Spaces](vectorspaces.md) |
 [Linear Operators and Matrices](linearoperators.md) |
@@ -98,7 +98,7 @@ Now the reveal: flip then rotate 90° is **not** the same as rotate 90° then fl
 
 - **Down** to [Set Theory](settheory.md): a group is a set with structure – exactly the "sets and structures" story.
 - **Sideways** to [Set Relations](setrelations.md): equivalence relations chop a group into pieces called *cosets*, which leads straight to…
-- **Up** to [Quotient Groups](quotientgroups.md) (squashing a group to see its shape), [Actions](group.md) (groups *doing things* to other objects – the square above is a group acting on a square), and [Rings](rings.md) and [Fields](fields.md), which are what you get when you allow *two* operations at once.
+- **Up** to [Quotient Groups](quotientgroups.md) (squashing a group to see its shape), [Group Actions](group.md) (groups *doing things* to other objects – the square above is a group acting on a square), and [Rings](rings.md) and [Fields](fields.md), which are what you get when you allow *two* operations at once.
 - **Out** into the world: symmetry in [Quantum Mechanics](qm.md) and [Relativity](relativity.md) is group theory. Galois used groups to prove there is no general formula for solving degree-5 polynomial equations.
 
 The truth revealed: wherever you can *do* something and *undo* it, a group is hiding.

@@ -24,7 +24,7 @@ draft: false
 [Rings](rings.md) |
 [Commutative Rings](commutativerings.md) |
 [Fields](fields.md) |
-[Actions](group.md) |
+[Group Actions](group.md) |
 [Modules](modulesalegbra.md) |
 [Vector Spaces](vectorspaces.md) |
 [Linear Operators and Matrices](linearoperators.md) |
@@ -59,7 +59,7 @@ and progress would essentially ground to a halt.
 
 ### [Fields](fields.md)
 
-### [Actions](group.md)
+### [Group Actions](group.md)
 
 ### [Modules](modulesalegbra.md)
 
