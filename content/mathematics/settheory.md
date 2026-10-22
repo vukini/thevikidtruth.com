@@ -104,6 +104,51 @@ are the study of how sets interact to produce new sets.
 
 Or how ideas interact to produce new ideas. This is genesis, it mathematics.
 
+### Why it matters: a short history
+
+Set theory was born in the 1870s when Georg Cantor, studying Fourier series, needed to talk about infinite collections of points. He found something nobody expected: **there are different sizes of infinity.** Then, around 1901, Bertrand Russell found a crack in the naive version. Consider the set of all sets that are not members of themselves, \(R = \{x : x \notin x\}\). Is \(R\) a member of itself? If it is, it isn't; if it isn't, it is. Mathematics had a contradiction in its basement.
+
+The repair, by Ernst Zermelo (1908) and later Abraham Fraenkel and others, was the [Zermelo-Fraenkel axioms](zf.md): careful rules about which sets you are allowed to build. Usually with the Axiom of Choice added (ZFC), they are the standard foundation on which nearly all of mathematics can, in principle, be written down.
+
+### An everyday analogy: bags
+
+Think of a set as a bag. What matters is what's inside, not the order or how many times you wrote it down: \(\{1, 2\} = \{2, 1\} = \{1, 1, 2\}\). Bags can contain other bags. And the empty bag \(\{\}\) is still a bag, which is the thing to notice, because a bag containing an empty bag, \(\{\{\}\}\), is *not* empty. It has one thing in it.
+
+### A worked example: building numbers from nothing
+
+Here is the "genesis" promised above, made precise by John von Neumann. Start with only the empty set and define
+
+$$ 0 = \{\}, \quad 1 = \{0\} = \{\{\}\}, \quad 2 = \{0, 1\}, \quad 3 = \{0, 1, 2\}, \;\dots $$
+
+Each number is the set of all the numbers before it, so the number \(n\) has exactly \(n\) members. "Less than" becomes "is a member of": \(2 < 3\) because \(2 \in 3\). Out of nothing but the empty set and the rule "collect what you have so far", we get all the natural numbers. Pairs, fractions, real numbers and functions can then be built the same way, one layer at a time.
+
+### A second example: there is no biggest infinity
+
+The **power set** \(\mathcal{P}(A)\) is the set of all subsets of \(A\). For \(A = \{a, b\}\):
+
+$$ \mathcal{P}(A) = \{\{\}, \{a\}, \{b\}, \{a, b\}\} $$
+
+Two elements gave four subsets; in general \(n\) elements give \(2^n\). Cantor proved that even for infinite sets, \(\mathcal{P}(A)\) is always strictly bigger than \(A\). The proof is the famous diagonal trick: given any attempt to match each element \(x\) of \(A\) with a subset \(f(x)\), the subset \(D = \{x : x \notin f(x)\}\) cannot be anybody's match. (Notice it has the same shape as Russell's paradox. That is no coincidence.) So the natural numbers are infinite, the real numbers are a *bigger* infinity, and there is a bigger one again, forever.
+
+Whether there is an infinity strictly between the naturals and the reals is the **Continuum Hypothesis**. Gödel (1940) and Paul Cohen (1963) showed that ZFC can neither prove nor disprove it. The axioms simply don't decide.
+
+### Common misconceptions
+
+- **"A set is a list."** Order and repetition don't count. \(\{1, 2, 2\}\) has two elements.
+- **"The empty set is nothing."** It is something: a set with no members. There is exactly one of it.
+- **"All infinities are the same size."** The naturals and the reals are provably different sizes.
+- **"Mathematicians think in sets."** Mostly they don't, any more than programmers think in machine code. Set theory is the guarantee underneath, not the everyday language.
+
+### How it connects
+
+- [ZF Axioms](zf.md): the formal rules.
+- [Set Relations](setrelations.md), [Reflexivity](reflexivityrelation.md), [Symmetry](symmetryrelation.md) and [Transitivity](transitivityrelation.md): relations are themselves sets of pairs.
+- [Logic](logic.md): "and", "or", "not" correspond to intersection, union and complement.
+- [Groups](groups.md) and [Abstract Algebra](abstractalgebra.md): sets with structure.
+- [Category Theory](categorytheory.md): the main alternative point of view.
+
+The truth revealed: you can build all of mathematics from an empty bag, provided you are careful about which bags you are allowed to make.
+
 ## [Set Relations](setrelations.md)
 
 ## Source, Links & Reading Lists
