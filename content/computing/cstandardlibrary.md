@@ -1,7 +1,7 @@
 ---
 title: C Standard Library
 date: '2017-06-29T02:39:49+04:00'
-lastmod: '2023-03-28T07:28:30+04:00'
+lastmod: '2026-10-22T10:30:00+04:00'
 original_id: '{A1176}'
 original_name: cstandardlibrary
 original_blob: blob/B/11/620.txt
@@ -13,8 +13,7 @@ tags:
 categories:
 - computing
 wikislug: cstandardlibrary
-draft: true
-review: update
+draft: false
 ---
 
 [Read This!](caveatemptor.md) |
@@ -35,6 +34,90 @@ review: update
   [Open Data Science](opendatascience.md) |
 
 ## [C Standard Library](cstandardlibrary.md)
+
+Here is the truth about the C standard library: **it is a small, sharp toolkit – I/O, memory, strings, maths, time – that every hosted C program leans on, and its sharpest edges are still the string and unchecked I/O functions.** Knowing what is in ISO C versus what your OS adds is half of reading real code.
+
+### What it is, in plain words
+
+The **C standard library** (libc) is defined by the ISO C standard and implemented by projects like **glibc** (GNU), **musl** (Void's default option), **dietlibc**, and the BSD libcs. Headers you'll use constantly:
+
+| Header | Role |
+|--------|------|
+| `<stdio.h>` | `printf`, `fopen`, `fread`, `snprintf` |
+| `<stdlib.h>` | `malloc`, `free`, `atoi`, `exit`, `qsort` |
+| `<string.h>` | `strlen`, `memcpy`, `memcmp`, `memset` |
+| `<ctype.h>` | `isdigit`, `tolower` |
+| `<math.h>` | `sin`, `sqrt`, `fma` (link `-lm` on many systems) |
+| `<time.h>` | `time`, `strftime`, `clock` |
+| `<stdint.h>` / `<inttypes.h>` | fixed-width integers |
+| `<stdbool.h>` | `bool` (keyword in C23) |
+| `<assert.h>` | `assert` |
+| `<errno.h>` | `errno` values |
+| `<stdarg.h>` | variadic helpers |
+
+POSIX and Linux add much more (`<unistd.h>`, `<pthread.h>`, `<sys/socket.h>`…) – useful, but not ISO C.
+
+### Why it matters
+
+You can write C without libc (freestanding kernels, some embedded), but almost everything else calls it. Understanding ownership of `malloc` memory, the difference between `size_t` and `int`, and why `scanf("%s", buf)` is a trap makes you fluent in the language as it's actually used.
+
+### An everyday analogy: a workshop's communal drawers
+
+Every workshop shares a drawer of tape measures, pencils and utility knives. Libc is that drawer. Some tools (the utility knives – `gets`, `strcpy`) will cut you; safer tools (`snprintf`, `memcpy` with lengths) do the same job. musl versus glibc is two shops stocking slightly different brands of the same tools.
+
+### A hands-on example
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+
+int main(void) {
+    size_t n = 64;
+    char *buf = malloc(n);
+    if (!buf) return 1;
+
+    time_t now = time(NULL);
+    struct tm *t = localtime(&now);
+    strftime(buf, n, "%Y-%m-%d %H:%M:%S", t);
+    printf("now: %s\n", buf);
+
+    /* Grow a buffer the hard way */
+    const char *extra = " – Vikix";
+    size_t need = strlen(buf) + strlen(extra) + 1;
+    char *p = realloc(buf, need);
+    if (!p) { free(buf); return 1; }
+    buf = p;
+    memcpy(buf + strlen(buf), extra, strlen(extra) + 1);
+    puts(buf);
+
+    free(buf);
+    return 0;
+}
+```
+
+Compile with warnings as errors when you can: `gcc -std=c23 -Wall -Wextra -Werror`.
+
+### Common misconceptions
+
+- **"libc is the OS."** It's a user-space library that *calls* the OS.
+- **"All Linuxes share glibc."** Alpine and Void-musl use musl; behaviour differs at the edges (`printf` of long doubles, locale, DNS stubs).
+- **"`malloc` zeroes memory."** It doesn't. Use `calloc` or `memset`.
+- **"`errno` is always set."** It's only meaningful when a function documents setting it and signals failure.
+- **"ISO C includes networking."** Networking is POSIX / OS-specific.
+
+### Freestanding versus hosted
+
+ISO C defines **hosted** environments (with full libc) and **freestanding** ones (kernel, bootloader, some embedded) where only a handful of headers are required (`<stddef.h>`, `<limits.h>`, `<stdint.h>`, `<stdarg.h>`, …) and you provide your own I/O. Knowing which world you're in stops you from calling `printf` in a kernel module and wondering why linking fails.
+
+When reading man pages, check whether a function is ISO C, POSIX, or a GNU extension – portability depends on it.
+
+### Connections
+
+- [C Programming](cprogramming.md), [Strings](cstrings.md), [Literals](literals.md).
+- [Integers](cints.md), [Floats](cfloats.md), [Characters](cchars.md).
+- [GCC](gcc.md), [objdump](objdump.md).
 
 ###### External Links
 
