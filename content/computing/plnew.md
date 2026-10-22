@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: plnew
 draft: false
+topics:
+- lisp
 ---
 
 [Computing](computing.md) | [Picolisp](picolisp.md) | [The Picolisp Reference](http://software-lab.de/doc/ref.html#vm) | [ASM](pilasm.md) |

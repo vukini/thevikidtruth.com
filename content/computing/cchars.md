@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: cchars
 draft: false
+topics:
+- c-systems
 ---
 
 # Characters in C Programming

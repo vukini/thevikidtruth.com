@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: linuxinstrospection
 draft: false
+topics:
+- linux
 ---
 
 # Linux Introspection

@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: ncdu
 draft: false
+topics:
+- linux
 ---
 
 [Computing](computing.md) |

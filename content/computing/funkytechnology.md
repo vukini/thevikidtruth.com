@@ -15,6 +15,8 @@ categories:
 wikislug: funkytechnology
 draft: true
 review: retire
+topics:
+- reading
 ---
 
 # FunkyTechnology

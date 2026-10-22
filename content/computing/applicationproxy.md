@@ -15,6 +15,8 @@ categories:
 wikislug: applicationproxy
 draft: true
 review: update
+topics:
+- security
 ---
 
 [Picolisp](picolisp.md) | [Picolisp Machine](pilmachine.md) | [Pil Sources](pilsource.md) |

@@ -15,6 +15,8 @@ categories:
 wikislug: pilexamplesexamined
 draft: true
 review: update
+topics:
+- lisp
 ---
 
 # Picolisp Examples Examined

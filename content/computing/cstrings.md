@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: cstrings
 draft: false
+topics:
+- c-systems
 ---
 
 # Strings in C Programming

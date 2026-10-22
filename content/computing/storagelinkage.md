@@ -15,6 +15,8 @@ categories:
 wikislug: storagelinkage
 draft: true
 review: update
+topics:
+- c-systems
 ---
 
 # Sorting the Confusion between Storage Classes, Linkage, Duration & Scope

@@ -15,6 +15,8 @@ categories:
 wikislug: 64bitasmsource
 draft: true
 review: update
+topics:
+- c-systems
 ---
 
 # [64 Bit Asm Source](64bitasmsource.md)

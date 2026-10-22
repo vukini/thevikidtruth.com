@@ -15,6 +15,8 @@ categories:
 wikislug: pilnumbers
 draft: true
 review: update
+topics:
+- lisp
 ---
 
 [Picolisp](picolisp.md) | [Picolisp Machine](pilmachine.md) | [pil sources](pilsource.md)

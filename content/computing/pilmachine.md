@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: pilmachine
 draft: false
+topics:
+- lisp
 ---
 
 [Quicklinks](quicklinks.md) | [Readinglist](readinglist.md) |  [Computing](computing.md) | [Picolisp](picolisp.md) | [The Picolisp Reference](http://software-lab.de/doc/ref.html#vm) | [ASM](pilasm.md) |

@@ -15,6 +15,8 @@ categories:
 wikislug: zncserver
 draft: true
 review: update
+topics:
+- networking-web
 ---
 
 # Deploying a ZNC IRC Bouncing Server

@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: rasberrypi
 draft: false
+topics:
+- os-hardware
 ---
 
 # RasberryPi

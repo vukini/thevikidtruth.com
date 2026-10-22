@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: gbddebugger
 draft: false
+topics:
+- c-systems
 ---
 
 [Readinglist](readinglist.md)  | [Quick Links](quicklinks.md) | [Algorithms](algorithms.md) | [Apple](apple.md) | [AssemblyLanguage](assemblylanguage.md) |

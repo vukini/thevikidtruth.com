@@ -15,6 +15,8 @@ categories:
 wikislug: emacs
 draft: true
 review: update
+topics:
+- tools
 ---
 
 [Readinglist](readinglist.md)  | [Quick Links](quicklinks.md) | [Algorithms](algorithms.md) | [Apple](apple.md) | [AssemblyLanguage](assemblylanguage.md) |

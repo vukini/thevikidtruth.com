@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: coolhardware
 draft: false
+topics:
+- os-hardware
 ---
 
 [Computing](computing.md) | [Computer Security](computersecurity.md) | [Linux Security](linuxsecurity.md) |

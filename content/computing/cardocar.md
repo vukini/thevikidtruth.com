@@ -15,6 +15,8 @@ categories:
 wikislug: cardocar
 draft: true
 review: update
+topics:
+- lisp
 ---
 
 [subr.l](subrl.md) | [pilAsm](pilasm.md)

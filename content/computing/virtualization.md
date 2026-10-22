@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: virtualization
 draft: false
+topics:
+- os-hardware
 ---
 
 [computingFreedom](computingfreedom.md) |

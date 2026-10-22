@@ -15,6 +15,8 @@ categories:
 wikislug: modernoperatingsystems
 draft: true
 review: update
+topics:
+- os-hardware
 ---
 
 # Modern Operating Systems

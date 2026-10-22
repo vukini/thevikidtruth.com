@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: simplelinuxconfig
 draft: false
+topics:
+- linux
 ---
 
 [computingFreedom](computingfreedom.md) |

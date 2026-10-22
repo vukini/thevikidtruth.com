@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: rust
 draft: false
+topics:
+- c-systems
 ---
 
 [Algorithms](algorithms.md) | [Apple](apple.md) | [AssemblyLanguage](assemblylanguage.md) |

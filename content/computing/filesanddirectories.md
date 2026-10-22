@@ -16,6 +16,8 @@ categories:
 wikislug: filesanddirectories
 draft: true
 review: update
+topics:
+- linux
 ---
 
 ### Going MAD

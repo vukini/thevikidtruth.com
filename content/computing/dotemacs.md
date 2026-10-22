@@ -15,6 +15,8 @@ categories:
 wikislug: dotemacs
 draft: true
 review: update
+topics:
+- tools
 ---
 
 # Starting Emacs & the config file

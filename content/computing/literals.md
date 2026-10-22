@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: literals
 draft: false
+topics:
+- c-systems
 ---
 
 # Literals

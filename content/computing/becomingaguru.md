@@ -15,6 +15,8 @@ categories:
 wikislug: becomingaguru
 draft: true
 review: update
+topics:
+- reading
 ---
 
 [computing](computing.md)

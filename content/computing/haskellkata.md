@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: haskellkata
 draft: false
+topics:
+- functional
 ---
 
 [Haskell](haskell.md) | [Haskell Kata](haskellkata.md) |

@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: vagrant
 draft: false
+topics:
+- os-hardware
 ---
 
 [Algorithms](algorithms.md) | [Apple](apple.md) | [AssemblyLanguage](assemblylanguage.md) |

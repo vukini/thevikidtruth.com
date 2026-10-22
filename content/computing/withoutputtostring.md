@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: withoutputtostring
 draft: false
+topics:
+- lisp
 ---
 
 [commonlisp](commonlisp.md) | [Functions](clfunctions.md) | [with-output-to-string](withoutputtostring.md)

@@ -15,6 +15,8 @@ categories:
 wikislug: bash
 draft: true
 review: update
+topics:
+- linux
 ---
 
 [BASH](bash.md)  |   [Bash Cookbook](vikidsbashcookbook.md)  |

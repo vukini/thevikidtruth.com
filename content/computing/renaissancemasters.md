@@ -15,6 +15,8 @@ categories:
 wikislug: renaissancemasters
 draft: true
 review: update
+topics:
+- reading
 ---
 
 # Renaissance Masters

@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: julia
 draft: false
+topics:
+- other-languages
 ---
 
 [Read This!](caveatemptor.md) | [Algorithms](algorithms.md) | [AssemblyLanguage](assemblylanguage.md) | [BASH](bash.md) |   [C-Programmming](cprogramming.md) |

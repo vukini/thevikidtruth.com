@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: datastructuresandalgorithms
 draft: false
+topics:
+- cs-theory
 ---
 
 [Important Caveat Emptor!](caveatemptor.md)

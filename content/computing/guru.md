@@ -15,6 +15,8 @@ categories:
 wikislug: guru
 draft: true
 review: retire
+topics:
+- reading
 ---
 
 # Guru

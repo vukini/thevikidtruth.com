@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: computerscience
 draft: false
+topics:
+- cs-theory
 ---
 
 [Important Caveat Emptor!](caveatemptor.md)

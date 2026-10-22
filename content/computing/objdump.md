@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: objdump
 draft: false
+topics:
+- c-systems
 ---
 
 # objdump

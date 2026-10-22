@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: findboxes
 draft: false
+topics:
+- lisp
 ---
 
 # Find Boxes in Lists

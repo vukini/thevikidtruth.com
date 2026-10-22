@@ -1,0 +1,29 @@
+{{ define "mainclass" }}graphpage{{ end }}
+{{ define "main" }}
+{{ $sec := .Params.section_graph }}
+{{ $g := partialCached "linkgraph.html" $sec $sec }}
+{{ $nodes := slice }}{{ $links := slice }}
+{{ range where site.RegularPages "Section" $sec }}
+  {{ $nodes = $nodes | append (dict "id" .RelPermalink "t" .Title "c" (index (.Params.topics | default (slice "other")) 0)) }}
+  {{ $src := .RelPermalink }}{{ range index $g.out .RelPermalink }}{{ $links = $links | append (dict "s" $src "t" .) }}{{ end }}
+{{ end }}
+<header class="ahead graphhead">
+  <p class="crumb"><a href="{{ "/" | relURL }}">Home</a> / <a href="{{ printf "/%s/" $sec | relURL }}">Computing</a> / Map</p>
+  <h1>The knowledge graph</h1>
+  <p class="sub">{{ len $nodes }} pages, {{ len $links }} links. Tap a node to highlight its neighbours, tap again to open it.</p>
+</header>
+<div class="kg" id="kg">
+  <div class="kg-bar">
+    <input type="search" id="kg-q" placeholder="Find a page…" aria-label="Find a page" autocomplete="off">
+    <div class="kg-cats" id="kg-cats" role="group" aria-label="Filter by category">
+      {{ range hugo.Data.computing_topics }}<button type="button" data-cat="{{ .slug }}" style="--c:{{ .color }}" aria-pressed="true"><i></i>{{ .title }}</button>{{ end }}
+    </div>
+  </div>
+  <canvas id="kg-canvas" aria-label="Interactive graph of computing pages"></canvas>
+  <div class="kg-tip" id="kg-tip" hidden></div>
+  <noscript><p>The graph needs JavaScript. Browse <a href="/computing/">by category</a> instead.</p></noscript>
+</div>
+<script type="application/json" id="kg-data">{{ dict "nodes" $nodes "links" $links "cats" hugo.Data.computing_topics | jsonify | safeJS }}</script>
+{{ $js := resources.Get "js/kgraph.js" | minify | fingerprint }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+{{ end }}

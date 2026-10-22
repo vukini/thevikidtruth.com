@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: linuxtools
 draft: false
+topics:
+- linux
 ---
 
 # Linux Tools

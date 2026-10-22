@@ -15,6 +15,8 @@ categories:
 wikislug: displaymodesandvirtualconsoles
 draft: true
 review: update
+topics:
+- linux
 ---
 
 # Display Modes and Virtual Consoles

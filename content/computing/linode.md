@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: linode
 draft: false
+topics:
+- networking-web
 ---
 
 # Using Linode

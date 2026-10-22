@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: bashvariables
 draft: false
+topics:
+- linux
 ---
 
 [BASH](bash.md)  |   [Bash Cookbook](vikidsbashcookbook.md)  |

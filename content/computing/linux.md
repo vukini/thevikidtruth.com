@@ -15,6 +15,8 @@ categories:
 wikislug: linux
 draft: true
 review: update
+topics:
+- linux
 ---
 
 [computingFreedom](computingfreedom.md) |

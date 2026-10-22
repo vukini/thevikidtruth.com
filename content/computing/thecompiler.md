@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: thecompiler
 draft: false
+topics:
+- c-systems
 ---
 
 [Back to C programming](cprogramming.md)

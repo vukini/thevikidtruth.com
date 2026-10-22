@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: learningonline
 draft: false
+topics:
+- reading
 ---
 
 [Computing](computing.md) |

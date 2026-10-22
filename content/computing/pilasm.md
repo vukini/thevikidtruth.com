@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: pilasm
 draft: false
+topics:
+- lisp
 ---
 
 # Picolisp ASM

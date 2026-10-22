@@ -15,6 +15,8 @@ categories:
 wikislug: pillife
 draft: true
 review: update
+topics:
+- lisp
 ---
 
 # Picolisp Life Program

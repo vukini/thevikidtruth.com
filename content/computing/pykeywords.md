@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: pykeywords
 draft: false
+topics:
+- python
 ---
 
 [computingFreedom](computingfreedom.md) |

@@ -15,6 +15,8 @@ categories:
 wikislug: binary
 draft: true
 review: update
+topics:
+- os-hardware
 ---
 
 [Math](math.md) | [CS](computerscience.md) | [bciyh](bciyh.md) | [Philosophy](philosophy.md)

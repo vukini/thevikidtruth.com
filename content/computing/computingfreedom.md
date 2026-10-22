@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: computingfreedom
 draft: false
+topics:
+- reading
 ---
 
 [Quicklinks](quicklinks.md) | [Readinglist](readinglist.md) | [computingFreedom](computingfreedom.md) |

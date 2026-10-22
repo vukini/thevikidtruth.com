@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: csytanx
 draft: false
+topics:
+- c-systems
 ---
 
 [computingFreedom](computingfreedom.md) |

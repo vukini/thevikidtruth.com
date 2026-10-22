@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: linuxprocessesandmemory
 draft: false
+topics:
+- linux
 ---
 
 [computingFreedom](computingfreedom.md) |

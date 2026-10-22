@@ -7,6 +7,10 @@ enableRobotsTXT = true
   tag = "tags"
   category = "categories"
   series = "series"
+  topic = "topics"
+
+[permalinks.term]
+  topics = "/computing/category/:slug/"
 
 [outputs]
   home = ["HTML", "RSS"]

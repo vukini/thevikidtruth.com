@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: lambdacalculus
 draft: false
+topics:
+- functional
 ---
 
 [Read This!](caveatemptor.md) | [Algorithms](algorithms.md) | [AssemblyLanguage](assemblylanguage.md) | [BASH](bash.md) |   [C-Programmming](cprogramming.md) |

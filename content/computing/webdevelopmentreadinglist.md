@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: webdevelopmentreadinglist
 draft: false
+topics:
+- reading
 ---
 
 [Read This!](caveatemptor.md) |

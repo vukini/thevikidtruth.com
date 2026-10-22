@@ -15,6 +15,8 @@ categories:
 wikislug: pilchat
 draft: true
 review: update
+topics:
+- lisp
 ---
 
 # Picolisp Chat Program

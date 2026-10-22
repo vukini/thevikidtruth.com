@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: networking
 draft: false
+topics:
+- networking-web
 ---
 
 [Quicklinks](quicklinks.md) | [Reading Lists](readinglist.md) | [Computing](computing.md) |

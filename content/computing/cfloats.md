@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: cfloats
 draft: false
+topics:
+- c-systems
 ---
 
 # Floating-point numbers in C Programming

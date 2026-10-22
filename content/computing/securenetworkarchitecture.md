@@ -15,6 +15,8 @@ categories:
 wikislug: securenetworkarchitecture
 draft: true
 review: update
+topics:
+- security
 ---
 
 [Read This!](caveatemptor.md) |

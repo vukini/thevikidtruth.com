@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: emacsnotes
 draft: false
+topics:
+- tools
 ---
 
 [Computing](computing.md) |

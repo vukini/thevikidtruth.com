@@ -15,6 +15,8 @@ categories:
 wikislug: datagramencapsulation
 draft: true
 review: update
+topics:
+- networking-web
 ---
 
 [Networking](networking.md)

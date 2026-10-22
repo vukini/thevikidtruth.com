@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: linuxsecurity
 draft: false
+topics:
+- security
 ---
 
 # Linux Security

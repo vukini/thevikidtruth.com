@@ -15,6 +15,8 @@ categories:
 wikislug: krep
 draft: true
 review: update
+topics:
+- cs-theory
 ---
 
 # Knowledge Representation

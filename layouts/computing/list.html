@@ -1,0 +1,25 @@
+{{ define "main" }}
+<header class="ahead withart">
+<div class="ahead-text">
+  <p class="crumb"><a href="{{ "/" | relURL }}">Home</a> / Knowledge base</p>
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p class="sub">{{ . }}</p>{{ end }}
+  <p class="meta">{{ len .RegularPages }} entries · {{ len hugo.Data.computing_topics }} categories</p>
+  <p><a class="mapcta" href="{{ "/computing/map/" | relURL }}"><span class="mapcta-dots" aria-hidden="true"></span>Explore the knowledge graph →</a></p>
+</div>
+  {{ partial "art.html" (dict "key" "computing" "eager" true) }}
+</header>
+{{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+<nav class="catindex" aria-label="Categories" data-pagefind-ignore>
+{{ range hugo.Data.computing_topics }}{{ $n := len (where $.RegularPages "Params.topics" "intersect" (slice .slug)) }}{{ if $n }}<a href="#{{ .slug }}" style="--c:{{ .color }}"><i></i>{{ .title }} <span>{{ $n }}</span></a>{{ end }}{{ end }}
+</nav>
+{{ range hugo.Data.computing_topics }}
+{{ $ps := where $.RegularPages "Params.topics" "intersect" (slice .slug) }}
+{{ if $ps }}
+<section class="catsec" id="{{ .slug }}" style="--c:{{ .color }}">
+  <div class="cathead"><h2><a href="{{ printf "/computing/category/%s/" .slug | relURL }}">{{ .title }}</a></h2><p class="meta">{{ len $ps }} entries</p></div>
+  <p class="catintro">{{ .intro }}</p>
+  <ul class="catlist">{{ range $ps.ByTitle }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}</ul>
+</section>
+{{ end }}{{ end }}
+{{ end }}

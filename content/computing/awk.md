@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: awk
 draft: false
+topics:
+- linux
 ---
 
 ### awk

@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: kmonad
 draft: false
+topics:
+- linux
 ---
 
 # Kmonad Keyboard

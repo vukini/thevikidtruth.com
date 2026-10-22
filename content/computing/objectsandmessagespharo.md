@@ -15,6 +15,8 @@ categories:
 wikislug: objectsandmessagespharo
 draft: true
 review: update
+topics:
+- other-languages
 ---
 
 [Computing](computing.md) |

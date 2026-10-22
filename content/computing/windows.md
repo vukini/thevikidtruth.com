@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: windows
 draft: false
+topics:
+- os-hardware
 ---
 
 [Windows](windows.md) | [Windows WSL](windowswsl.md) | [Operating Systems](os.md)

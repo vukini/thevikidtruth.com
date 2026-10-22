@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: pltutorial
 draft: false
+topics:
+- lisp
 ---
 
 ![picos](/assets/picos.png)

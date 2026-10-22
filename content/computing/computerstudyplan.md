@@ -15,6 +15,8 @@ categories:
 wikislug: computerstudyplan
 draft: true
 review: update
+topics:
+- reading
 ---
 
 # Computer Study Plann

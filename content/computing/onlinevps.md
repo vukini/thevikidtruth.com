@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: onlinevps
 draft: false
+topics:
+- networking-web
 ---
 
 # Online VPS, SaaS, PaaS, IaaS

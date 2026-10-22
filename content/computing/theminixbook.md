@@ -15,6 +15,8 @@ categories:
 wikislug: theminixbook
 draft: true
 review: update
+topics:
+- os-hardware
 ---
 
 # The MINIX Book by Tanebaum & Woodhull

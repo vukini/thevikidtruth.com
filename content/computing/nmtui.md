@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: nmtui
 draft: false
+topics:
+- linux
 ---
 
 [Computing](computing.md) |

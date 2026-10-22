@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: cstandardlibrary
 draft: false
+topics:
+- c-systems
 ---
 
 [Read This!](caveatemptor.md) |

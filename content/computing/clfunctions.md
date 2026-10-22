@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: clfunctions
 draft: false
+topics:
+- lisp
 ---
 
 [Functions](clfunctions.md) | [with-output-to-string](withoutputtostring.md)

@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: bashcase
 draft: false
+topics:
+- linux
 ---
 
 [Quicklinks](quicklinks.md) | [Read This!](caveatemptor.md) |

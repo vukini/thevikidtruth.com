@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: piltutorials
 draft: false
+topics:
+- lisp
 ---
 
 [Read This!](caveatemptor.md) |

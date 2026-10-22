@@ -15,6 +15,8 @@ categories:
 wikislug: pythonlibrariestoolsandlinks
 draft: true
 review: update
+topics:
+- python
 ---
 
 [Python](python.md) | [Official Python Docs](https://docs.python.org/3/)

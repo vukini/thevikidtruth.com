@@ -15,6 +15,8 @@ categories:
 wikislug: linuxtoolsandsoftware
 draft: true
 review: update
+topics:
+- linux
 ---
 
 [computingFreedom](computingfreedom.md) |

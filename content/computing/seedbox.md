@@ -15,6 +15,8 @@ categories:
 wikislug: seedbox
 draft: true
 review: update
+topics:
+- networking-web
 ---
 
 # BitTorrent SeedBoxes

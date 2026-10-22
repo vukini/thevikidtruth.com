@@ -1,5 +1,5 @@
 {{/* ctx: dict "key" string "eager" bool */}}
-{{ with index site.Data.art .key }}
+{{ with index hugo.Data.art .key }}
 <figure class="art art-{{ .kind }}">
   {{ if .link }}<a href="{{ .link | relURL }}">{{ end }}
   <picture><source srcset="{{ printf "img/art/%s.webp" .img | relURL }}" type="image/webp"><img src="{{ printf "img/art/%s.%s" .img .fb | relURL }}" width="{{ .w }}" height="{{ .h }}" alt="{{ .alt }}" {{ if $.eager }}loading="eager"{{ else }}loading="lazy"{{ end }} decoding="async"></picture>

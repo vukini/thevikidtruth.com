@@ -1,0 +1,16 @@
+{{ define "main" }}
+{{ $slug := .Data.Term | urlize }}{{ $cat := index (where hugo.Data.computing_topics "slug" $slug) 0 }}
+<header class="ahead withart" style="--c:{{ $cat.color }}">
+<div class="ahead-text">
+  <p class="crumb"><a href="{{ "/" | relURL }}">Home</a> / <a href="{{ "/computing/" | relURL }}">Computing</a> / Category</p>
+  <h1>{{ $cat.title | default .Title }}</h1>
+  <p class="sub">{{ $cat.intro }}</p>
+  <p class="meta">{{ len .Pages }} entries · <a href="{{ "/computing/map/" | relURL }}?cat={{ $slug }}">see on the graph →</a></p>
+</div>
+  {{ partial "art.html" (dict "key" "computing" "eager" true) }}
+</header>
+<nav class="catindex" aria-label="Other categories" data-pagefind-ignore>
+{{ range hugo.Data.computing_topics }}<a href="{{ printf "/computing/category/%s/" .slug | relURL }}" style="--c:{{ .color }}"{{ if eq .slug $slug }} aria-current="page"{{ end }}><i></i>{{ .title }}</a>{{ end }}
+</nav>
+<ol class="list">{{ range .Pages.ByTitle }}{{ partial "toc-item.html" . }}{{ end }}</ol>
+{{ end }}

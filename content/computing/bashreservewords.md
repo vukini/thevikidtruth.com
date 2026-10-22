@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: bashreservewords
 draft: false
+topics:
+- linux
 ---
 
 [BASH](bash.md)  |   [Bash Cookbook](vikidsbashcookbook.md)  |

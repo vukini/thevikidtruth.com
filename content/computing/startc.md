@@ -15,6 +15,8 @@ categories:
 wikislug: startc
 draft: true
 review: update
+topics:
+- lisp
 ---
 
 [Read This!](caveatemptor.md) |

@@ -15,6 +15,8 @@ categories:
 wikislug: vikidvim
 draft: true
 review: update
+topics:
+- tools
 ---
 
 [computingFreedom](computingfreedom.md) |

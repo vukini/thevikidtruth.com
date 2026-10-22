@@ -15,6 +15,8 @@ categories:
 wikislug: subrl
 draft: true
 review: update
+topics:
+- lisp
 ---
 
 # subr.l

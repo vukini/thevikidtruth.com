@@ -15,6 +15,8 @@ categories:
 wikislug: gotolinevim
 draft: true
 review: update
+topics:
+- tools
 ---
 
 [computingFreedom](computingfreedom.md) |

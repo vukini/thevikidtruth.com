@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: forth
 draft: false
+topics:
+- other-languages
 ---
 
 [Algorithms](algorithms.md) | [Apple](apple.md) | [AssemblyLanguage](assemblylanguage.md) |

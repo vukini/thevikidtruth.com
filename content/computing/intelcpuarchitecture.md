@@ -15,6 +15,8 @@ categories:
 wikislug: intelcpuarchitecture
 draft: true
 review: update
+topics:
+- os-hardware
 ---
 
 [Read This!](caveatemptor.md) |

@@ -15,6 +15,8 @@ categories:
 wikislug: netc
 draft: true
 review: update
+topics:
+- lisp
 ---
 
 [Read This!](caveatemptor.md) |

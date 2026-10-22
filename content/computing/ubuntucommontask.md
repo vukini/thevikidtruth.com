@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: ubuntucommontask
 draft: false
+topics:
+- linux
 ---
 
 # Ubuntu CommonTasks

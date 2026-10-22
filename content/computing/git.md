@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: git
 draft: false
+topics:
+- tools
 ---
 
 [Read This!](caveatemptor.md) |

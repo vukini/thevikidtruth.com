@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: pmap
 draft: false
+topics:
+- lisp
 ---
 
 [linuxtools](linuxtools.md)

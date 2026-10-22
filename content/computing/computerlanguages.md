@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: computerlanguages
 draft: false
+topics:
+- other-languages
 ---
 
 # Computer Languages Centre

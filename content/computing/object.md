@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: object
 draft: false
+topics:
+- c-systems
 ---
 
 # Objects in C

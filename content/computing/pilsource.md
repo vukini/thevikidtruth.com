@@ -15,6 +15,8 @@ categories:
 wikislug: pilsource
 draft: true
 review: update
+topics:
+- lisp
 ---
 
 # Picolisp Sources

@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: identifier
 draft: false
+topics:
+- c-systems
 ---
 
 # Identifiers in C

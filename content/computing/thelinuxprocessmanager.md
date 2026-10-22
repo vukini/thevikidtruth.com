@@ -16,6 +16,8 @@ categories:
 wikislug: thelinuxprocessmanager
 draft: true
 review: retire
+topics:
+- linux
 ---
 
 # The Linux Process Manager

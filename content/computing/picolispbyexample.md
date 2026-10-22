@@ -15,6 +15,8 @@ categories:
 wikislug: picolispbyexample
 draft: true
 review: update
+topics:
+- lisp
 ---
 
 # Picolisp By Example

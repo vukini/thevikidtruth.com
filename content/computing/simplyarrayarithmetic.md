@@ -15,6 +15,8 @@ categories:
 wikislug: simplyarrayarithmetic
 draft: true
 review: update
+topics:
+- lisp
 ---
 
 # Simply Array Arithmetic & Referencing

@@ -15,6 +15,8 @@ categories:
 wikislug: jskata
 draft: true
 review: update
+topics:
+- javascript
 ---
 
 [Javascript](javascript.md) | [Javascript kata](jskata.md) |[Node JS](nodejs.md) | [Data Types](jsdatatypes.md) | [Variables](jsvariable.md) | [Control Flow](jscontrolflow.md) |

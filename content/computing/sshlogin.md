@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: sshlogin
 draft: false
+topics:
+- networking-web
 ---
 
 # Logging into Servers with SSH

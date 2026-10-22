@@ -15,6 +15,8 @@ categories:
 wikislug: upd
 draft: true
 review: update
+topics:
+- lisp
 ---
 
 # Updating the Database

@@ -15,6 +15,8 @@ categories:
 wikislug: ipv6
 draft: true
 review: update
+topics:
+- networking-web
 ---
 
 [Networking](networking.md) | [IPDatagrams <--](ipdatagrams.md) [IPv6](ipv6.md)

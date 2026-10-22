@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: intropygame
 draft: false
+topics:
+- python
 ---
 
 [Python Libraries, tools and Links](pythonlibrariestoolsandlinks.md) | [Official Python Docs](https://docs.python.org/3/)

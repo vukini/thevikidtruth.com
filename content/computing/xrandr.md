@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: xrandr
 draft: false
+topics:
+- linux
 ---
 
 # xrandr

@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: plbox
 draft: false
+topics:
+- lisp
 ---
 
 [Computing](computing.md) | [Picolisp](picolisp.md) | [ASM](pilasm.md) |

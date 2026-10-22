@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: firewalls
 draft: false
+topics:
+- security
 ---
 
 [Picolisp](picolisp.md) | [Picolisp Machine](pilmachine.md) | [Pil Sources](pilsource.md) |

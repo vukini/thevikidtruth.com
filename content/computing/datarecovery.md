@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: datarecovery
 draft: false
+topics:
+- os-hardware
 ---
 
 [Read This!](caveatemptor.md) |

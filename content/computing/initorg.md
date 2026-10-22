@@ -15,6 +15,8 @@ categories:
 wikislug: initorg
 draft: true
 review: update
+topics:
+- tools
 ---
 
 # Configuring Emacs with org-mode & init.org

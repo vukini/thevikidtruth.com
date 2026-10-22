@@ -15,6 +15,8 @@ categories:
 wikislug: cdrdocdr
 draft: true
 review: update
+topics:
+- lisp
 ---
 
 [subr.l](subrl.md)

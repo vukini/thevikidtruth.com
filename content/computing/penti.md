@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: penti
 draft: false
+topics:
+- linux
 ---
 # Penti
 

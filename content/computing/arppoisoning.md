@@ -15,6 +15,8 @@ categories:
 wikislug: arppoisoning
 draft: true
 review: update
+topics:
+- security
 ---
 
 [Computing](computing.md) | [Computer Security](computersecurity.md) | [Linux Security](linuxsecurity.md) |

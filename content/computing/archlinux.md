@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: archlinux
 draft: false
+topics:
+- linux
 ---
 
 # The Vikid Arch Linux Wiki!

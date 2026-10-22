@@ -15,6 +15,8 @@ categories:
 wikislug: emacslisp
 draft: true
 review: update
+topics:
+- lisp
 ---
 
 [Computing](computing.md) |

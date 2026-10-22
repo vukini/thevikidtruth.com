@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: picolisp
 draft: false
+topics:
+- lisp
 ---
 
 ![picos](/assets/picos.png)

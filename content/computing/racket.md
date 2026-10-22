@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: racket
 draft: false
+topics:
+- lisp
 ---
 
 # Racket

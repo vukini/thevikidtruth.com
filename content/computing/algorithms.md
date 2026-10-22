@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: algorithms
 draft: false
+topics:
+- cs-theory
 ---
 
 [Algorithms](algorithms.md) | [Apple](apple.md) | [AssemblyLanguage](assemblylanguage.md) |

@@ -15,6 +15,8 @@ categories:
 wikislug: asml
 draft: true
 review: update
+topics:
+- lisp
 ---
 
 # asm.l

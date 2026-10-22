@@ -1,0 +1,17 @@
+{{/* ctx: section name. Returns dict: out/in maps keyed by RelPermalink -> slice of RelPermalinks,
+     built from [text](slug.md) wiki links in published pages of that section. Drafts are never in site.RegularPages. */}}
+{{ $map := partialCached "wikimap.html" . "wikimap" }}
+{{ $pages := where site.RegularPages "Section" . }}
+{{ $in := dict }}{{ $out := dict }}
+{{ $ok := dict }}{{ range $pages }}{{ $ok = merge $ok (dict .RelPermalink true) }}{{ end }}
+{{ range $p := $pages }}
+  {{ $targets := slice }}
+  {{/* Drop the shared quick-link bars (lines made only of "[x](y.md) |" runs) so edges reflect links in the prose. */}}
+  {{ $body := replaceRE `(?m)^[ \t]*(?:\[[^\]\n]*\]\([A-Za-z0-9_\-]+\.md\)[ \t]*\|?[ \t]*){2,}$` "" $p.RawContent }}
+  {{ range findRESubmatch `\]\(([A-Za-z0-9_\-]+)\.md(?:#[^)]*)?\)` $body }}
+    {{ with index $map (index . 1) }}{{ if and (index $ok .) (ne . $p.RelPermalink) (not (in $targets .)) }}{{ $targets = $targets | append . }}{{ end }}{{ end }}
+  {{ end }}
+  {{ $out = merge $out (dict $p.RelPermalink $targets) }}
+  {{ range $targets }}{{ $in = merge $in (dict . ((index $in . | default slice) | append $p.RelPermalink)) }}{{ end }}
+{{ end }}
+{{ return dict "out" $out "in" $in }}

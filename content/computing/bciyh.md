@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: bciyh
 draft: false
+topics:
+- os-hardware
 ---
 
 ### Previews of Build a Computer in Your Head

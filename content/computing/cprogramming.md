@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: cprogramming
 draft: false
+topics:
+- c-systems
 ---
 
 [C-Programmming](cprogramming.md) | [The Compiler](thecompiler.md)  | [Identifiers](identifier.md) | [Literals](literals.md) |

@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: systemd
 draft: false
+topics:
+- linux
 ---
 
 [computingFreedom](computingfreedom.md) |

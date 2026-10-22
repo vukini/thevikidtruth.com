@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: bashif
 draft: false
+topics:
+- linux
 ---
 
 [Read This!](caveatemptor.md) |

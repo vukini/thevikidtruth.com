@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: scheme
 draft: false
+topics:
+- lisp
 ---
 
 [Read This!](caveatemptor.md) |

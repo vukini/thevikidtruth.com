@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: cints
 draft: false
+topics:
+- c-systems
 ---
 
 # Integers in C Programming

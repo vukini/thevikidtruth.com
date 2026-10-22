@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: computersecurity
 draft: false
+topics:
+- security
 ---
 
 [Read This!](caveatemptor.md) |

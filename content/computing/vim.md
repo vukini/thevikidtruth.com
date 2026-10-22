@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: vim
 draft: false
+topics:
+- tools
 ---
 
 [computingFreedom](computingfreedom.md) |

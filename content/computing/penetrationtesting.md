@@ -14,6 +14,8 @@ categories:
 - computing
 wikislug: penetrationtesting
 draft: false
+topics:
+- security
 ---
 
 [Computing](computing.md) | [Computer Security](computersecurity.md) | [Linux Security](linuxsecurity.md) |

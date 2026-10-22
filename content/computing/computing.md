@@ -15,6 +15,8 @@ categories:
 wikislug: computing
 draft: true
 review: update
+topics:
+- reading
 ---
 
 [Algorithms](algorithms.md) | [Apple](apple.md) | [AssemblyLanguage](assemblylanguage.md) |

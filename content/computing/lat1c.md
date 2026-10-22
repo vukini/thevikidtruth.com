@@ -15,6 +15,8 @@ categories:
 wikislug: lat1c
 draft: true
 review: update
+topics:
+- lisp
 ---
 
 [Read This!](caveatemptor.md) |

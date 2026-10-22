@@ -15,6 +15,8 @@ categories:
 wikislug: pharo
 draft: true
 review: update
+topics:
+- other-languages
 ---
 
 [computingFreedom](computingfreedom.md) |

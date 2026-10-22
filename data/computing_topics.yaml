@@ -1,0 +1,14 @@
+# Ordered category list for /computing/. slug must match the `topics` front-matter value.
+- {slug: lisp, title: "Lisp family", color: "#F2B544", intro: "PicoLisp above all, plus Common Lisp, Scheme, Racket and Emacs Lisp, and a walk through the PicoLisp sources."}
+- {slug: c-systems, title: "C & systems languages", color: "#E07A3F", intro: "C from tokens to the standard library, assembly, compilers and toolchains, and newer systems languages: Rust, Zig, Odin, V."}
+- {slug: javascript, title: "JavaScript", color: "#E8D36A", intro: "The language itself (scope, prototypes, functions, events), Node and Three.js."}
+- {slug: python, title: "Python", color: "#8FB86B", intro: "Language notes, iPython, NumPy, SciPy, spaCy and Pygame."}
+- {slug: functional, title: "Functional programming", color: "#C58BD8", intro: "Haskell, PureScript, lambda calculus and the functional style."}
+- {slug: other-languages, title: "Smalltalk, Forth & others", color: "#D98FA0", intro: "Pharo and Cuis Smalltalk, Forth, Fortran, Julia, and the language overview page."}
+- {slug: linux, title: "Linux & the command line", color: "#6FC2B4", intro: "Arch, Bash, awk, systemd, regular expressions, window managers and keyboard set-ups."}
+- {slug: os-hardware, title: "Operating systems & hardware", color: "#7FA7E0", intro: "OS theory, MINIX, Windows and WSL, virtual machines, CPUs and gadgets."}
+- {slug: security, title: "Security", color: "#E05A4F", intro: "Firewalls, penetration testing, exploitation, malware, forensics and cryptography."}
+- {slug: networking-web, title: "Networking & the web", color: "#5FB0D8", intro: "Protocols, IP, TLS, SSH, servers and VPSs, and web/app development."}
+- {slug: cs-theory, title: "Computer science, theory & data", color: "#B9A3F0", intro: "Algorithms and data structures, databases, machine learning and knowledge representation."}
+- {slug: tools, title: "Tools & dev workflow", color: "#C9B48A", intro: "Git, Emacs and org-mode, Vim."}
+- {slug: reading, title: "Reading lists & learning", color: "#A89C86", intro: "Study plans, video and article lists, learning online, and essays on freedom and mastery in computing."}
