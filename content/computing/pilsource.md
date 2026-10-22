@@ -13,8 +13,7 @@ tags:
 categories:
 - computing
 wikislug: pilsource
-draft: true
-review: update
+draft: false
 topics:
 - lisp
 ---
@@ -37,6 +36,26 @@ topics:
   [Machine Learning](machinelearning.md) |
   [Algorithms](algorithms.md) |
   [Open Data Science](opendatascience.md) |
+
+### The plain idea
+
+PicoLisp has been implemented three times, and this page indexes my reading of the first two:
+
+- **pil32**, written in C. Small, readable and the easiest place to start. Its files (`pico.h`, `main.c`, `sym.c` and the rest) are listed below. Its spirit lives on in *miniPicoLisp*, a minimal C version still available from Software Lab.
+- **pil64**, written in a generic assembly language that is itself defined in PicoLisp (`asm.l`), then translated to x86-64, ARM64, PowerPC and others. Fast, with a full 64-bit object database.
+- **pil21**, the current PicoLisp since 2020. Alexander Burger rewrote the system again, this time in PicoLisp itself, generating LLVM intermediate code. It keeps the same language and libraries (`@lib/http.l`, `form.l`, the database) while being portable to any platform LLVM supports. If you download PicoLisp today, this is what you get.
+
+### Why read interpreter sources at all?
+
+Because PicoLisp is small enough to read. The whole of pil32 is a few thousand lines. You can see exactly how a cell is laid out, how a symbol stores its value and properties, how the garbage collector marks and sweeps, and how `eval` walks a list. Few languages let you hold the entire machine in your head, and doing it once changes how you write code in any language.
+
+### An analogy
+
+Reading a novel tells you the story. Reading the author's drafts tells you how stories are built. These pages are the drafts.
+
+### How to use this page
+
+Start with [pico.h](picoh.md) for the data structures, then [main.c](mainc.md) and [flow.c](flowc.md) to see evaluation, then [sym.c](symc.md) and [subr.c](subrc.md) for symbols and lists. Each source page has a short note saying what the file does. When you are ready for the current system, download pil21 from [software-lab.de](https://software-lab.de/down.html) and compare: the ideas are the same, written a third time.
 
 ## [Examples Examined](pilexamplesexamined.md)
 

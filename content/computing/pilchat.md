@@ -13,13 +13,14 @@ tags:
 categories:
 - computing
 wikislug: pilchat
-draft: true
-review: update
+draft: false
 topics:
 - lisp
 ---
 
 # Picolisp Chat Program
+
+> **Reading this in 2026.** These are my study notes from around 2017, when the 32-bit C (pil32) and 64-bit assembly (pil64) implementations were current. Since 2020 PicoLisp is **pil21**, written in PicoLisp itself and compiled through LLVM; the language, libraries and examples are largely the same, so the ideas here still apply, but file names and internals differ. See [Pil Sources](pilsource.md) and [software-lab.de](https://software-lab.de/down.html).
 
 [Computing](computing.md) | [Picolisp](picolisp.md) | [ASM](pilasm.md) | [pil sources](pilsource.md)
 

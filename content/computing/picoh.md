@@ -13,8 +13,7 @@ tags:
 categories:
 - computing
 wikislug: picoh
-draft: true
-review: update
+draft: false
 topics:
 - lisp
 ---
@@ -37,11 +36,13 @@ topics:
 
 # [pico.h](picoh.md)
 
+> **Reading this in 2026.** These are my study notes from around 2017, when the 32-bit C (pil32) and 64-bit assembly (pil64) implementations were current. Since 2020 PicoLisp is **pil21**, written in PicoLisp itself and compiled through LLVM; the language, libraries and examples are largely the same, so the ideas here still apply, but file names and internals differ. See [Pil Sources](pilsource.md) and [software-lab.de](https://software-lab.de/down.html).
+
 #### Include statements
 
 If you haven't got manpages for the C standard library type this in your command shell:
 
-`$ apt-get install manpages-dev manpages-posix-dev`.
+`$ sudo apt install manpages-dev manpages-posix-dev`.
 
 This will install all the **man pages** for the functions and headers in the [C standard Library](cstandardlibrary.md). The you can read up on
 what all the headers mean. for example.
