@@ -304,12 +304,12 @@ draft: false
     - ```
        if E is well formed then (E) is well formed
       ```
-    - R3 <uop> E
+    - R3 `<uop> E`
     - ```
        <uop> is a unary operation
        if E, then <uop> E is well formed
       ```
-    - R4 E1 <bop> E2
+    - R4 `E1 <bop> E2`
     - ```
        <bop> is a binary operation
        if E1, E2, then E1 <bop> E2

@@ -24,11 +24,12 @@ draft: false
 # Node Js
 
 [Official Node Documentation](https://nodejs.dev/en/learn/)
-**in Ubuntu the command defaults to nodejs not node
+**On older Ubuntu releases the command was `nodejs`, not `node`:**
 
 ```
 ln -s /usr/bin/nodejs /usr/bin/node
-```**
+```
+
 [Mixu's Node Book](http://book.mixu.net/node/single.html)
 
 ## Install NVM Manjaro Linux
