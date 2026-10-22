@@ -13,8 +13,7 @@ tags:
 categories:
 - readinglist
 wikislug: readinglist
-draft: true
-review: update
+draft: false
 ---
 
 # Important Reading Lists, Tutorials and Books

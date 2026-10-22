@@ -13,8 +13,7 @@ tags:
 categories:
 - music
 wikislug: music
-draft: true
-review: update
+draft: false
 topics:
 - listening
 ---

@@ -13,8 +13,7 @@ tags:
 categories:
 - quicklinks
 wikislug: study
-draft: true
-review: update
+draft: false
 ---
 
 [Quicklinks](quicklinks.md)

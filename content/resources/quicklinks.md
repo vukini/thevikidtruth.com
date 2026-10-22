@@ -13,8 +13,7 @@ tags:
 categories:
 - quicklinks
 wikislug: quicklinks
-draft: true
-review: update
+draft: false
 ---
 
 [buymeacoffee](https://www.buymeacoffee.com/thevikidtruth)

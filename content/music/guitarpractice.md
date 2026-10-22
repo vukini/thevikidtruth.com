@@ -13,8 +13,7 @@ tags:
 categories:
 - music
 wikislug: guitarpractice
-draft: true
-review: update
+draft: false
 topics:
 - guitar
 ---

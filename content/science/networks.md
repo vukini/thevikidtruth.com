@@ -13,8 +13,7 @@ tags:
 categories:
 - science
 wikislug: networks
-draft: true
-review: update
+draft: false
 topics:
 - earth-society
 ---
@@ -28,6 +27,37 @@ Networks are **a fundamental characteristic and phenomenon** of all **complex sy
 **[Network of Neurons](networkofneurons.md "MISSING PAGE")**, our **transport systems** ae **interconnected networks** of many different
 types of systems, our **computer systems**are similarly vast and **complex connections** of different kinds of
 processing units.
+
+### The plain idea
+
+**Network science** studies anything that can be drawn as *dots joined by lines*, nodes connected by edges, and asks what the *shape* of those connections tells us. The dots might be people (a friendship network), web pages (the internet), neurons (a brain), proteins, power stations or airports. The surprising discovery of the field is that networks of utterly different kinds, built by nobody in particular, share the same deep mathematical patterns.
+
+### Why it matters
+
+Once you can see a system as a network, a whole toolbox opens up: you can find the most *important* nodes (who, if removed, breaks everything), spot tight-knit *communities*, measure how quickly a disease or rumour or blackout will *spread*, and predict how *robust* the system is to attack or failure. The same maths explains why a few super-connected "hubs" dominate the web, why six degrees of separation really does link almost everyone, and why both epidemics and power-grid failures cascade the way they do.
+
+### An everyday analogy
+
+Think of a road map. You could describe a country by listing its towns, but the interesting questions are about the *roads*: which junctions, if closed, would snarl the whole country (centrality); which clusters of towns are tightly interlinked (communities); how far, on average, any town is from any other (path length). Network science is studying the map rather than the towns, and finding that road maps, social circles and brains are laid out by surprisingly similar rules.
+
+### A worked example: hubs and the "small world"
+
+Two famous findings capture the field:
+
+- **Small-world effect.** In many real networks you can get from any node to any other in a startlingly small number of hops, the "six degrees of separation" between any two people. Short paths exist even in enormous networks.
+- **Scale-free hubs.** In networks like the web or air travel, a *few* nodes have a huge number of connections (Google, a major airport) while most have very few. Plot the connection counts and you get a **power law**, not a bell curve. Barabasi's *Linked* (in my reading list) explains how such hubs emerge naturally from "rich get richer" growth.
+
+A 2026 note: this field has only grown in importance, it now underpins how we model social media, pandemics (the COVID-19 response leaned heavily on network epidemiology), financial contagion, and even how artificial neural networks are understood. The many "missing page" links below are topics I intend to write up over time; this overview ties them together.
+
+### How it connects
+
+- [Linked by Barabasi](linked.md) and [A First Course in Network Theory](afirstcourseinnetworktheory.md): my notes on the key books.
+- [Networking](networking.md) (the computing kind): a specific engineered network.
+- [Knowledge Representation](krep.md): graphs as a way to store meaning.
+
+The truth revealed: brains, societies, the internet and the economy look nothing alike up close, yet drawn as dots and lines they rhyme, and learning to read that shared shape is one of the most powerful lenses modern science has.
+
+
 
 ```
   So if you Hope to understand anything from Consciousness

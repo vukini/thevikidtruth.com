@@ -13,8 +13,7 @@ tags:
 categories:
 - math
 wikislug: mathmap
-draft: true
-review: update
+draft: false
 topics:
 - overview
 ---
