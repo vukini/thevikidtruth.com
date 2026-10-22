@@ -1,5 +1,5 @@
 ---
-title: "The viKid Truth"
+title: "The VikiD Truth"
 tagline: "A Radical Approach to Thought"
 aliases: ["/about/home/"]
 ---

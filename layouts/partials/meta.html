@@ -1,0 +1,47 @@
+{{- $title := cond .IsHome site.Title (printf "%s · %s" .Title site.Title) -}}
+{{- $desc := "" -}}
+{{- if .IsHome -}}{{ $desc = "The VikiD Truth: a superhero with the power to reveal the Truth. Essays and a knowledge base on computing, mathematics, science, languages and music." -}}
+{{- else -}}{{ $desc = .Description | default .Params.subtitle | default (.Summary | plainify | htmlUnescape) | default (printf "%s on The VikiD Truth" .Title) -}}{{- end -}}
+{{- if gt (len (findRE ` \| ` $desc)) 2 -}}{{ $desc = printf "%s: notes from The VikiD Truth knowledge base (%s)." .Title (.CurrentSection.Title | default "wiki") -}}{{- end -}}
+{{- $desc = $desc | plainify | replaceRE `\s+` " " | strings.TrimSpace | truncate 200 -}}
+{{- $img := absURL "img/og-card.jpg" -}}{{- $w := 1200 -}}{{- $h := 630 -}}{{- $type := "image/jpeg" -}}{{- $alt := "The VikiD Truth: grinning caricature in a yellow hooded cape. Look closer. Truth below." -}}
+{{- if and .IsPage (eq .Section "writing") -}}
+  {{- with index (findRESubmatch `<img[^>]+src="?(/[^" >]+\.(?:jpe?g|png))` .Content 1) 0 -}}
+    {{- $src := index . 1 -}}{{- $f := printf "static%s" $src -}}
+    {{- if fileExists $f -}}{{- with imageConfig $f -}}{{- if ge .Width 600 -}}
+      {{- $img = absURL (strings.TrimPrefix "/" $src) -}}{{- $w = .Width -}}{{- $h = .Height -}}{{- $alt = $.Title -}}
+      {{- $ext := lower (path.Ext $src) -}}{{- $type = cond (eq $ext ".png") "image/png" (cond (eq $ext ".webp") "image/webp" (cond (eq $ext ".gif") "image/gif" "image/jpeg")) -}}
+    {{- end -}}{{- end -}}{{- end -}}
+  {{- end -}}
+{{- end }}
+  <meta name="description" content="{{ $desc }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <meta property="og:site_name" content="{{ site.Title }}">
+  <meta property="og:title" content="{{ cond .IsHome site.Title .Title }}">
+  <meta property="og:description" content="{{ $desc }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:locale" content="en_US">
+  {{- if .IsPage }}
+  <meta property="og:type" content="article">
+  {{- if not .Date.IsZero }}<meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ end }}
+  {{- if not .Lastmod.IsZero }}<meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">{{ end }}
+  {{- else }}
+  <meta property="og:type" content="website">
+  {{- end }}
+  <meta property="og:image" content="{{ $img }}">
+  <meta property="og:image:secure_url" content="{{ $img }}">
+  <meta property="og:image:type" content="{{ $type }}">
+  <meta property="og:image:width" content="{{ $w }}">
+  <meta property="og:image:height" content="{{ $h }}">
+  <meta property="og:image:alt" content="{{ $alt }}">
+  {{- if eq $img (absURL "img/og-card.jpg") }}
+  <meta property="og:image" content="{{ absURL "img/og-card-square.jpg" }}">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="1200">
+  {{- end }}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ cond .IsHome site.Title .Title }}">
+  <meta name="twitter:description" content="{{ $desc }}">
+  <meta name="twitter:image" content="{{ $img }}">
+  <meta name="twitter:image:alt" content="{{ $alt }}">

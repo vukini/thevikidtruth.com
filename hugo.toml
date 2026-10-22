@@ -1,6 +1,6 @@
 baseURL = "https://thevikidtruth.com/"
 locale = "en"
-title = "The viKid Truth"
+title = "The VikiD Truth"
 enableRobotsTXT = true
 
 [taxonomies]
