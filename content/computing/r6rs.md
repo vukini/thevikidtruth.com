@@ -13,11 +13,54 @@ tags:
 categories:
 - computing
 wikislug: r6rs
-draft: true
-review: update
+draft: false
 topics:
 - lisp
 ---
+
+### The plain idea
+
+Scheme is a small, elegant dialect of [Lisp](commonlisp.md), prized for having very few rules that compose in very powerful ways. R6RS, the "Revised⁶ Report on the Algorithmic Language Scheme" (2007), is one of the formal standards defining what Scheme *is*. This page is my condensed, de-jargoned reading of that standard, an attempt to pull out the big ideas and skip the dense legalese.
+
+### Why it matters
+
+Scheme is the language of *Structure and Interpretation of Computer Programs* (SICP), the book that taught a generation to think about programming. Its design decisions, first-class functions, lexical scope, tail-call optimisation, continuations, hygienic macros, are not quirks; they are some of the deepest ideas in programming, presented in their clearest form. Understanding Scheme makes every other language easier to understand, because you see which of their features are essential and which are decoration.
+
+### An everyday analogy
+
+Scheme is like a set of a few perfect LEGO bricks. Other languages hand you a giant box of specialised pre-built pieces; Scheme hands you a handful of simple, beautifully made bricks and shows that *everything else can be built from them*. Loops, objects, exceptions, even new control structures, are not built in; you construct them from procedures and a few primitives.
+
+### A worked example: tail recursion as a loop
+
+One of the headline ideas in my notes is that **tail-recursive calls are "gotos that pass arguments"**. In most languages a function calling itself repeatedly eventually overflows the stack. In Scheme, a call in *tail position* (the last thing a function does) reuses the current stack frame, so recursion becomes a loop with no memory cost:
+
+```scheme
+(define (count-down n)
+  (if (= n 0)
+      'done
+      (count-down (- n 1))))   ; tail call: no stack growth
+
+(count-down 1000000)           ; -> done, uses constant memory
+```
+
+This is why Scheme needs no separate `for` or `while` keyword: proper tail calls make plain recursion *as efficient as* a loop. That single guarantee reshapes how you write everything.
+
+### A 2026 note
+
+R6RS was controversial for being large and was followed by the deliberately smaller **R7RS** (2013), which split Scheme into a minimal "small" language and a richer "large" standard; R7RS is what most newer implementations target today. Popular Schemes include **Racket** (which grew its own ecosystem beyond Scheme), **Chez Scheme** (fast, now open source), **Guile** (GNU's extension language) and **Chicken**. The ideas in these notes are common to all of them.
+
+### Common misconceptions
+
+- **"Scheme is just a teaching toy."** Its ideas power real systems, and implementations like Chez and Racket are production-grade.
+- **"Lisp and Scheme are the same."** Scheme is a Lisp, but minimalist and with a single namespace for functions and values (a "Lisp-1"), unlike [Common Lisp](commonlisp.md).
+- **"Parentheses make it unreadable."** The uniform `(operator operands...)` syntax is what makes code and data the same thing, enabling Scheme's famous macros.
+
+### How it connects
+
+- [Common Lisp](commonlisp.md) and [PicoLisp](picolisp.md): the wider Lisp family.
+- [Functional Programming](functional.md): Scheme is a cornerstone of the style.
+- [The Compiler](thecompiler.md): continuations and tail calls are deep compiler topics.
+
 
 [Read This!](caveatemptor.md) |
   [Scheme](scheme.md) |

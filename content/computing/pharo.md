@@ -13,8 +13,7 @@ tags:
 categories:
 - computing
 wikislug: pharo
-draft: true
-review: update
+draft: false
 topics:
 - other-languages
 ---
@@ -106,3 +105,45 @@ Viewing a Collection Class.
 - [Pharo Cheatsheet PDF](http://files.pharo.org/media/pharoCheatSheet.pdf)
 - [Pharo Tech Talks @ YouTube](https://www.youtube.com/playlist?list=PL4actYd6bfnx8l8cqYWhdNB6gJgRvk5sH)
 - [Pharo Slide Share @ slideshare.net](https://www.slideshare.net/pharoproject)
+
+### The plain idea
+
+Pharo is a modern descendant of **Smalltalk**, one of the most influential programming languages ever made, the language where object-oriented programming, the graphical IDE and much of the modern GUI were first worked out, largely by Alan Kay's team at Xerox PARC in the 1970s. Pharo's defining feature is that it is **image-based**: you do not edit text files and then run them. Instead you work *inside* a live, running world (the "image") where every object, including your code, the tools, and the running programs, exists at once and can be inspected and changed on the spot. You save the whole live world to disk and reopen it exactly as you left it.
+
+### Why it matters
+
+Most languages separate the dead text of your program from the living process that runs it. Smalltalk erases that line: the system is always on, and you sculpt it while it runs. This makes for an unmatched feeling of immediacy, click on any object, see its state, send it a message, change its class, all without stopping. Even if you never ship Pharo in production, spending time in it changes how you think about objects, messages and interactive development. It is the clearest surviving window onto Kay's original vision of computing.
+
+### An everyday analogy
+
+Ordinary programming is like writing a recipe, then cooking it from scratch each time to see if it works. Pharo is like standing in a kitchen where the meal is always cooking: you can taste it, add salt, swap an ingredient, and watch the dish change *right now*, then freeze the entire kitchen, stove, pots and all, to resume later exactly as it was.
+
+### A worked example: everything is a message
+
+In Smalltalk there are no operators or control keywords, only *objects* receiving *messages*. Even `3 + 4` is the object `3` being sent the message `+` with argument `4`:
+
+```smalltalk
+3 + 4.                         "sends + to 3, answers 7"
+'hello' asUppercase.           "sends asUppercase to a string -> 'HELLO'"
+1 to: 5 do: [ :i | Transcript showln: i ].   "a loop, built from messages"
+```
+
+That last line is not special syntax: `to:do:` is just a message sent to the number `1`, taking a block of code `[ ... ]` as an argument. The whole language is this one idea, objects sending messages, applied relentlessly, which is exactly what the "Objects all the way down" line in the Pharo Zen celebrates.
+
+### A 2026 note
+
+Pharo is actively developed and healthy, with regular releases (Pharo 12 and 13 are recent) and a lively community. It remains free and open-source, runs on Linux, macOS and Windows, and the excellent book *Pharo by Example* is free online. The Zen above still captures its spirit perfectly.
+
+### Common misconceptions
+
+- **"Smalltalk is dead."** The commercial giants faded, but Pharo (and Squeak, and Cuis) keep the ideas alive and modern.
+- **"Image-based means you lose your code."** Code can be exported and version-controlled (Pharo integrates with Git via Iceberg); the image is a convenience, not a prison.
+- **"It's just another OOP language."** It is arguably *the* OOP language; most others borrowed from it and kept only part.
+
+### How it connects
+
+- [Learn Pharo with Vikid](learnpharo.md) and [Objects and Messages](objectsandmessagespharo.md): my beginner notes.
+- [Cuis Smalltalk](cuissmalltalk.md): a smaller cousin.
+- [Lisp](commonlisp.md): the other great "live, malleable system" tradition.
+
+The truth revealed: Pharo is less a language than a living world you program from the inside, and the "Objects all the way down" poem above is not marketing, it is literally how the system is built.

@@ -13,11 +13,36 @@ tags:
 categories:
 - computing
 wikislug: simplyarrayarithmetic
-draft: true
-review: update
+draft: false
 topics:
 - lisp
 ---
+### The plain idea
+
+An **array** is a row of boxes ("cells") laid out next to each other in memory, each holding one value and each reachable by a number called an *index*. This page builds that picture from scratch, a cell, a value, a row of cells, and then works out the little arithmetic you keep needing: given a start and an end index, how many cells are there, and where is the middle? Those two sums turn up constantly, and getting them slightly wrong is behind a huge share of real bugs.
+
+### Why it matters
+
+Array index arithmetic is where "off-by-one" errors live, the most common mistake in all of programming. The midpoint calculation in particular is the heart of **binary search** and countless divide-and-conquer algorithms, and the "how many cells between m and n" sum decides loop bounds everywhere. Nail the arithmetic once, carefully, with the boundary cases checked, and whole categories of bugs disappear.
+
+### An everyday analogy: houses on a street
+
+Think of an array as houses numbered along one side of a street, starting at number 0. "How many houses from number 4 to number 8?" is not 8 − 4 = 4; it is 8 − 4 + 1 = 5, because you count both ends. That "+1" is the famous fencepost problem (to fence a 10-metre run with posts every metre you need 11 posts, not 10), and it is exactly why the formula on this page has its "+ 1".
+
+### A worked example: the formulas
+
+For cells from index `m` to index `n`:
+
+- **Count of cells** = `|m − n| + 1` (inclusive of both ends).
+- **Midpoint index** = `m + (n − m) / 2`, taking the lower value when it lands between two cells.
+
+A practical 2026 note on the midpoint: in real code, write it as `m + (n - m) / 2` rather than the "obvious" `(m + n) / 2`. For large indices the second form can *overflow* (the sum exceeds the largest representable integer), a famous bug that lurked in many published binary-search implementations for years. The `m + (n - m) / 2` form never overflows and gives the same answer.
+
+### Checking the boundary
+
+As the page shows, the real test of a formula is the smallest case. With a single cell (`m = n = 0`): count = `|0 − 0| + 1 = 1` cell, and midpoint = `0 + (0 − 0)/2 = 0`, the cell is its own middle. It works, which is how you gain confidence the general formula is right.
+
+
 
 # Simply Array Arithmetic & Referencing
 
@@ -274,3 +299,11 @@ We are only given 1 cell with address a[0], so consider the **start cell and end
 ```
 
 **Everything works just fine. When we are given only one cell, we have only one cell and it is itself's mid-point.**
+
+### How it connects
+
+- [Stacks](stacks.md) and [storage/linkage](storagelinkage.md): how arrays sit in memory.
+- [C Programming](cprogramming.md): where `a[i]` is literally `*(a + i)`, pointer arithmetic in disguise.
+- [Algorithms](algorithms.md): binary search and divide-and-conquer live on this midpoint.
+
+The truth revealed: most array bugs are not deep, they are a single miscounted fencepost or an overflowed midpoint, and the cure is to draw the boxes, write the formula, and test it on one cell.
