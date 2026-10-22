@@ -16,6 +16,8 @@
   <link rel="icon" type="image/png" sizes="512x512" href="{{ "icon-512.png" | relURL }}">
   <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}">
   <meta name="theme-color" content="#14120F">
+  {{ if .IsPage }}{{ $_ := .Content }}{{ end }}
+  {{ if .Store.Get "hasMath" }}<link rel="stylesheet" href="{{ "katex/katex.min.css" | relURL }}">{{ end }}
   {{ block "head" . }}{{ end }}
 </head>
 <body class="{{ if .IsHome }}home{{ else if eq .Section "writing" }}post{{ else }}wiki{{ end }}">
@@ -23,5 +25,9 @@
   {{ partial "header.html" . }}
   <main id="main" class="{{ block "mainclass" . }}{{ end }}">{{ block "main" . }}{{ end }}</main>
   {{ partial "footer.html" . }}
+  {{ if .Store.Get "hasMermaid" }}
+  <script src="{{ "mermaid/mermaid.min.js" | relURL }}"></script>
+  <script>mermaid.initialize({startOnLoad:true,theme:"dark",themeVariables:{background:"#14120F",primaryColor:"#1C1915",primaryTextColor:"#ECE6D8",primaryBorderColor:"#F2B544",lineColor:"#B5AC9A",fontFamily:"Newsreader, Georgia, serif"}});</script>
+  {{ end }}
 </body>
 </html>

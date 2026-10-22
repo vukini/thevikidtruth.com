@@ -67,3 +67,12 @@ enableRobotsTXT = true
 
 [markup.highlight]
   noClasses = false
+
+[markup.goldmark.extensions.passthrough]
+  enable = true
+  [markup.goldmark.extensions.passthrough.delimiters]
+    # Inline uses \( \) only: a single-$ delimiter would swallow prose prices
+    # (e.g. "$1B ... $7B"). Block uses $$ only: Substack exports escape brackets
+    # as \[ ... \], which would otherwise be parsed as display math.
+    inline = [['\(', '\)']]
+    block = [['$$', '$$']]

@@ -194,3 +194,9 @@ main.article{max-width:calc(780px + 2*var(--pad))}
 
 .headline{font:600 clamp(3rem,9vw,7.5rem)/.95 var(--display);letter-spacing:-.035em;margin:.5rem 0 2rem;color:var(--ink)}
 .headline em{display:block;font-style:italic;font-weight:300;color:var(--amber)}
+
+/* ---- Math (KaTeX) & diagrams (Mermaid) ---- */
+.katex{color:var(--em);font-size:1.08em}
+.math-display{overflow-x:auto;overflow-y:hidden;max-width:100%;margin:1.2rem 0;padding:.3rem 0;-webkit-overflow-scrolling:touch}
+.math-display .katex-display{margin:0}
+pre.mermaid{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:1rem;overflow-x:auto;text-align:center}
