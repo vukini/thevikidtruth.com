@@ -13,8 +13,7 @@ tags:
 categories:
 - computing
 wikislug: computing
-draft: true
-review: update
+draft: false
 topics:
 - reading
 ---
@@ -33,6 +32,22 @@ topics:
 [Web Development](webdevelopment.md) | [Windows](windows.md) |[Zig](ziglang.md)
 
 # Computing
+
+### What this section is
+
+This is the front door to everything I write about computers: programming languages, Linux, security, networking, operating systems, theory, and the long project of understanding machines from the bottom up. The links fan out to specific pages; this note is the plain-spoken "why" that ties them together.
+
+### The one big idea
+
+If there is a single thread running through all of it, it is the one in my principles below: **computing is the art of compression and abstraction.** A program lets us express a vast number of operations with very few instructions, just as the printing press let one design produce a thousand books. `for i = 1 to 1000: make_book()` captures in one line what once took a monastery. Great programming is finding ways to do complex things *simply*, and that act of hiding complexity behind a clean idea is what we call **abstraction**.
+
+Underneath every abstraction, though, is the same humble foundation: [binary](binary.md), configurations of on/off states that can represent *any* thing, a number, a letter, an image, an instruction, a thought. Computing is the tower we build from that one brick, and this section is my attempt to climb it a floor at a time and write down the view.
+
+### How to use these pages
+
+Browse by curiosity. If you want foundations, start with [binary](binary.md), [the compiler](thecompiler.md) and [computer science theory](computerscience.md). If you want to *build*, head to [BCIYH (Build a Computer In Your Head)](bciyh.md), [Linux](linux.md) and a language like [PicoLisp](picolisp.md), [Python](python.md) or [Pharo](pharo.md). If security is your thing, the [computer security](computersecurity.md), [exploitation](exploitation.md) and [firewalls](firewalls.md) pages form their own cluster. None of it is finished, and that is the point: it grows as I learn.
+
+
 
 - [Leaving Facebook, Google and Getting Progressively Freer](computingfreedom.md) |
   [Build a Computer in Your Head](bciyh.md) |

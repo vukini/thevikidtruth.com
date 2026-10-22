@@ -13,8 +13,7 @@ tags:
 categories:
 - computing
 wikislug: becomingaguru
-draft: true
-review: update
+draft: false
 topics:
 - reading
 ---
