@@ -64,4 +64,3 @@ Category theory has a fearsome reputation, and Roman's book is one of the gentle
 
  -->
 
-[booktemplate](booktemplate.md) | [template](template.md)

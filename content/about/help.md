@@ -16,7 +16,7 @@ wikislug: help
 draft: false
 ---
 
-[Please Read This Disclaimer, it is Important!](caveatemptor.md) | [template](template.md) | [bookstemplate](bookstemplate.md "MISSING PAGE")
+[Please Read This Disclaimer, it is Important!](caveatemptor.md) | [bookstemplate](bookstemplate.md "MISSING PAGE")
 
 ## Help
 

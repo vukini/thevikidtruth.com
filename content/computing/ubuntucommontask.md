@@ -154,4 +154,4 @@ service apache2 status
 [start stop apache2](https://www.cyberciti.biz/faq/ubuntu-linux-start-restart-stop-apache-web-server/)
 [change the computer hostname](http://askubuntu.com/questions/9540/how-do-i-change-the-computer-name)
 
-## [FunkyTechnology](funkytechnology.md)
+## FunkyTechnology

@@ -42,7 +42,6 @@ books ([of Perception](doors.md "MISSING PAGE"), [BraveNewWorld](bravenewworld.m
   forever vainly, to comprehend.
 ```
 
-[booktemplate](booktemplate.md) | [template](template.md)
 
 ```
 

@@ -77,7 +77,7 @@ When a topic fans out into twelve others, write the twelve down and ignore them.
 
 ### Connections
 
-- [Computer Study Plan](computerstudyplan.md), [Becoming a Guru](becomingaguru.md), [Guru](guru.md).
+- [Computer Study Plan](computerstudyplan.md), [Becoming a Guru](becomingaguru.md).
 - [Computing Videos and Articles](computingvideosandarticles.md), [Web Development Reading List](webdevelopmentreadinglist.md).
 - [Build](bciyh.md) – learning by assembling a system.
 

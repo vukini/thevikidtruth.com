@@ -30,4 +30,3 @@ expertC
 
 ```
 
-[booktemplate](booktemplate.md) | [template](template.md)

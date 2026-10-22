@@ -29,4 +29,3 @@ topics:
 
 [My Amazon Review](https://www.amazon.co.uk/review/R2MPEVD7T2PZ86/ref=cm_cr_rdp_perm)
 
-[booktemplate](booktemplate.md) | [template](template.md)

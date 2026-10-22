@@ -36,6 +36,5 @@ This is an Intro
 
 and then More text
 
-[booktemplate](booktemplate.md) | [template](template.md)
 
 ``

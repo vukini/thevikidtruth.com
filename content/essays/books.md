@@ -194,7 +194,6 @@ is hard to be a Superhero sometimes.
 
 #### Miscellaneous
 
-- [The Silver Eye by Susan Brind Morrow](thesilvereye.md)
 - [Population Wars by Greg Graffin](populationwars.md "MISSING PAGE")
 - [Linked by Alter-Laszlo Barabasi](linked.md)
 - [A Canticle for Liebowitz](acanticleforliebowitz.md)
@@ -215,4 +214,3 @@ is hard to be a Superhero sometimes.
 
 * Well not 'never', but it takes a long time.
 
-[booktemplate](booktemplate.md) | [template](template.md)

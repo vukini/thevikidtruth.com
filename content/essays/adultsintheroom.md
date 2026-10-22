@@ -42,4 +42,3 @@ You can buy the book [here.](https://www.amazon.co.uk/dp/B01ICK4IWK/ref=dp-kindl
 
 ```
 
-[booktemplate](booktemplate.md) | [template](template.md)

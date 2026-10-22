@@ -33,4 +33,3 @@ topics:
 
 [My Amazon Review](https://www.amazon.co.uk/review/R12PYYL7JH12EE/ref=cm_cr_rdp_perm)
 
-[booktemplate](booktemplate.md) | [template](template.md)

@@ -27,4 +27,3 @@ topics:
 ![prob](/assets/prob.jpg)
 {.center}
 
-[booktemplate](booktemplate.md) | [template](template.md)

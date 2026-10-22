@@ -20,7 +20,7 @@ topics:
 
 [Read This!](caveatemptor.md) |
 [Philosophy](philosophy.md) | [Economics](economics.md) | [Politics](politics.md)
-| [Ethics](ethics.md) | [Aesthetics](aesthetics.md "MISSING PAGE") | [Vocab](vocab.md) | [KidsZone](kidszone.md) | [Scifi](scifi.md) | [template](template.md)
+| [Ethics](ethics.md) | [Aesthetics](aesthetics.md "MISSING PAGE") | [Vocab](vocab.md) | [KidsZone](kidszone.md) | [Scifi](scifi.md)
 
 # What is and what will be by Paul Budnik
 

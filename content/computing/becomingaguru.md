@@ -22,7 +22,7 @@ topics:
 
 # On Becoming a Guru
 
-There are several kinds of [Guru](guru.md) out there but the one I have always had in mind is to be something like
+There are several kinds of Guru out there but the one I have always had in mind is to be something like
 the great [renaissance masters](renaissancemasters.md), where by a computer is no longer just a tool but rather **an extension of my
 soul.**
 

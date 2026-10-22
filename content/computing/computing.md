@@ -55,7 +55,7 @@ Browse by curiosity. If you want foundations, start with [binary](binary.md), [t
   [ICS](icssecurity.md) | [Penetration](penetrationtesting.md) | [Encryption](encryption.md) | [Cool Hardware](coolhardware.md) |
   [On Becoming a Guru](becomingaguru.md)
 - [Computer Languages Center](computerlanguages.md)
-- [FunkyTechnology](funkytechnology.md) | [Regulation Expressions](regularexpressions.md)
+- [Regulation Expressions](regularexpressions.md)
 - [ComputerStudyPlan](computerstudyplan.md) | [Algorithms](algorithms.md)
 - [Linode](linode.md) | [ZNC Server](zncserver.md) | [Online VPS, SaaS, PaaS, IaaS](onlinevps.md)
 - [Bittorrent Seed Boxes](seedbox.md)

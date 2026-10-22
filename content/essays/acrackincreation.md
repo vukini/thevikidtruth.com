@@ -74,4 +74,3 @@ It occurs through one massive genomic rearrangement during a single catastrophic
 ![RTT](/assets/rtt.jpg)
 {.center}
 
-[booktemplate](booktemplate.md) | [template](template.md)

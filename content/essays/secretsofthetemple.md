@@ -127,4 +127,3 @@ largely because of citizen ignorance.
 
 ```
 
-[booktemplate](booktemplate.md) | [template](template.md)

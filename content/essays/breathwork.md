@@ -35,7 +35,7 @@ topics:
     - Hyperventilation
     - Wim Hoff Style
     - Shamanic Breathing
-    - [Nāḍī Śodhana](n-odhana.md) [Square Breathing Instruction](https://www.youtube.com/watch?v=dMxo-EV4H68)
+    - Nāḍī Śodhana [Square Breathing Instruction](https://www.youtube.com/watch?v=dMxo-EV4H68)
     - Kapalabhati
     - ujjayi - Ocean Breath
     - Breath Holding, Comfortable Pause, Controlled Pause, Maximum Pause | Stig Severinsen

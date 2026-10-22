@@ -38,7 +38,6 @@ On the Todo List.
 - [home](home.md)
 - [http://startpage.com](http://startpage.com)
 
-[booktemplate](booktemplate.md) | [template](template.md)
 
 ```
 
