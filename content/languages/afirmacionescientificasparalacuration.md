@@ -1,7 +1,7 @@
 ---
-title: Afirmaciones cientificas para la curation
+title: 'Spanish: Afirmaciones Científicas para la Curación'
 date: '2021-08-31T23:06:18+04:00'
-lastmod: '2021-08-31T23:06:18+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1562}'
 original_name: afirmacionescientificasparalacuration
 original_blob: blob/B/10/114.txt
@@ -16,12 +16,11 @@ wikislug: afirmacionescientificasparalacuration
 draft: false
 topics:
 - spanish
+path_step: 18
 ---
 
-[Arabic](arabic.md) | [Esperanto](esperanto.md) |[Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) |
-[Swahili](swahili.md) | [French](french.md) | [Hindi](hindi.md) | [Quick Links](quicklinks.md) | [Multilingual Texts](multilingual.md)
 
-# Afirmaciones cientificas para la curation
+# Spanish: Afirmaciones Científicas para la Curación
 
 ```
 RESEÑA DE ESTA OBRA

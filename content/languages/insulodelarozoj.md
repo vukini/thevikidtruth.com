@@ -1,7 +1,7 @@
 ---
-title: Insulo de la Rozoj
+title: 'Esperanto: Insulo de la Rozoj'
 date: '2021-08-24T23:52:33+04:00'
-lastmod: '2021-08-31T05:58:28+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1417}'
 original_name: insulodelarozoj
 original_blob: blob/B/10/076.txt
@@ -16,12 +16,11 @@ wikislug: insulodelarozoj
 draft: false
 topics:
 - esperanto
+path_step: 16
 ---
 
-[languages](languages.md) | [arabic](arabic.md) | [spanish](spanish.md) | [mandrin](mandrin.md) | [japanese](japanese.md) | [tokipona](tokipona.md) | [Hindi](hindi.md)
- | [Egipto](egipto.md)  | [Insulo de la Rozoj](insulodelarozoj.md)  | [Artikoloj](artikoloj.md)
 
-## Insulo de la Rozoj
+# Esperanto: Insulo de la Rozoj
 
 [Please Read the Source Article!](https://uea.facila.org/artikoloj/%C4%9Denerale/insulo-de-la-rozoj-r245/)
 
@@ -52,7 +51,7 @@ No one lived on the island, but there were many dance parties on it, and many pe
 by small ships. The island was very famous among tourists.
 
 **Malgraŭ la fakto** ke la insulo estis ekster la italaj landlimoj, la itala registaro **timis**, ke la komercaj **agadoj**
-**okazantaj** sur la insulo ne pagos **impostojn** al la ŝtato. Tial la polico [esploris](esploris.md "MISSING PAGE"), ĉar italoj devas respekti la
+**okazantaj** sur la insulo ne pagos **impostojn** al la ŝtato. Tial la polico esploris, ĉar italoj devas respekti la
 naciajn **leĝojn** eĉ se ili estas en eksterlando; **farante tion**, tamen, la itala registaro montris, ke ĝi konsideras
 la Insulon aparta “ŝtato”. Sekvis **mallonga jura batalo**, kiun la Insulo malgajnis:
 la 11-an de februaro 1969 la polico **malkonstruis** la insulon.

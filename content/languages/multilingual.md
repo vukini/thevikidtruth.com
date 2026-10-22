@@ -1,7 +1,7 @@
 ---
-title: Multilingual Texts
+title: 'Multilingual: Multilingual Texts'
 date: '2021-08-25T01:59:08+04:00'
-lastmod: '2021-09-05T23:09:52+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1435}'
 original_name: multilingual
 original_blob: blob/B/10/317.txt
@@ -15,13 +15,12 @@ categories:
 wikislug: multilingual
 draft: false
 topics:
-- learning
+- multilingual
+path_step: 1
 ---
 
-[Arabic](arabic.md) | [Esperanto](esperanto.md) |[Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) |
-[Swahili](swahili.md) | [French](french.md) | [Hindi](hindi.md) | [Quick Links](quicklinks.md) | [Multilingual Texts](multilingual.md)
 
-# Multilingual Texts
+# Multilingual: Multilingual Texts
 
 - [iTalki Community Message](italkicommunity1.md)
 - [De Zéro à Un](dezeroaun.md)

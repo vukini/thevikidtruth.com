@@ -1,7 +1,7 @@
 ---
-title: Foundations Edge
+title: 'French: Foundation''s Edge'
 date: '2021-08-31T23:16:28+04:00'
-lastmod: '2021-08-31T23:19:55+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1563}'
 original_name: foundationsedge
 original_blob: blob/B/10/120.txt
@@ -15,19 +15,18 @@ categories:
 wikislug: foundationsedge
 draft: false
 topics:
-- learning
+- french
+path_step: 7
 ---
 
-[Arabic](arabic.md) | [Esperanto](esperanto.md) |[Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) |
-[Swahili](swahili.md) | [French](french.md) | [Hindi](hindi.md) | [Quick Links](quicklinks.md) | [Multilingual Texts](multilingual.md)
 
-# Foundations Edge
+# French: Foundation's Edge
 
 PROLOGUE
 
 The first Galactic Empire was falling. It had been decaying and breaking down for centuries and only one man fully realized that fact.
 
-He was Hari Seldom the last great scientist of the First Empire, and it was he who perfected psychohistory - the science of human behavior reduced to mathematical equations.
+He was Hari Seldon the last great scientist of the First Empire, and it was he who perfected psychohistory - the science of human behavior reduced to mathematical equations.
 
 The individual human being is unpredictable, but the reactions of human mobs, Seldon found, could be treated statistically. The larger the mob, the greater the accuracy that could be achieved. And the size of the human masses that Seldon worked with was no less than the population of all the inhabited millions of worlds of the Galaxy.
 

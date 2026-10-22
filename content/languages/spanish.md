@@ -1,7 +1,7 @@
 ---
-title: Spanish
+title: 'Spanish: Start Here'
 date: '2016-07-25T13:25:13+04:00'
-lastmod: '2023-03-27T08:37:39+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A173}'
 original_name: spanish
 original_blob: blob/B/11/604.txt
@@ -16,81 +16,118 @@ wikislug: spanish
 draft: false
 topics:
 - spanish
+path_step: 1
 ---
 
-[Languages](languages.md) | [Arabic](arabic.md) | [Artikoloj](artikoloj.md)  | [Esperanto](esperanto.md) |  [French](french.md)  | [Hindi](hindi.md) | [Japanese](japanese.md)  | [Mandrin](mandrin.md) |[Spanish](spanish.md)   | [Swahili](swahili.md)  | [Tokipona](tokipona.md)
-|  [text-to-speech](https://ttsmp3.com/text-to-speech/US%20Spanish/)
+# Spanish: Start Here
 
-[Spanish Vocab 1](spanishvocab1.md) | [Articulos en Español](sparticle.md) | [Frases en español](frasesenespa-ol.md) |
-[Notes](synergyspanish.md) | [Spanish Songs](spsongs.md)
+My tours around the world have from time to time landed me in Spanish-speaking lands. The natives there are quite interesting and speak a very beautiful language called *español*.
 
-# Spanish
+**Quiero hablar mucho con ellos, pero no es fácil ;-)**
 
-My tours around the world have time to time landed me in Spanish speaking lands. The natives
-there are quite interesting and speak a very beautiful language called Espanol.
+Some years back I wrote a book about learning Spanish (or at least about a method I thought would work for someone trying to learn Spanish). I wanted to publish it as a book but never took the idea to its conclusion. The scripts linked below are the highlights of that work. Many explanatory texts and diagrams are missing and some planned scripts were never written, but it may still be of use, so I **publish whatever**. All I ask is an acknowledgment if you find it useful. [Please read my Caveat Emptor for details](caveatemptor.md).
 
-**Quiero hablar con ellos mucho pero no es fácil ;-)**
+> **El malvado cree en la verdad, de verdad.**
+> The villain believes in the truth, truly.
 
-Some years back I wrote a book about learning [Spanish](spanish.md) (or at least on a method I thought would
-work for someone trying to learn [Spanish](spanish.md)).
+## 1. Alphabet and pronunciation
 
-I wanted to publish the text below as a book but I never took my idea to its conclusion, which I need to
-if I ever want to publish.
+Spanish is spelled almost exactly as it sounds. Five vowels, always the same: **a** (father), **e** (bed), **i** (machine), **o** (more), **u** (food).
 
-The links below are some of the highlights of the work. The text is not properly ordered, many of the explanatory
-texts and diagrams are missing. The work is unfinished but may still be of use, hence I will **publish whatever**.
+| Letter | Sound | Example |
+|---|---|---|
+| ñ | *ny* in "canyon" | **año** year |
+| ll, y | *y* in "yes" (in much of Latin America) | **llamar** to call, **yo** I |
+| j, g before e/i | a throaty *h* | **jamón** ham, **gente** people |
+| h | always silent | **hola** hello |
+| c before e/i, z | *th* in Spain, *s* in Latin America | **cinco**, **zapato** |
+| r / rr | single tap / rolled | **pero** but, **perro** dog |
+| v, b | the same soft *b* | **vino**, **bien** |
+| qu | *k* | **queso** cheese |
 
-- [Numerales](numerales.md)
-- [Frases](frases.md)
+**Stress**: words ending in a vowel, *n* or *s* stress the second-to-last syllable (*ha-BLA-mos*); others stress the last (*ha-BLAR*). A written accent marks an exception (*inglés, teléfono*) or distinguishes words: *tú* (you) / *tu* (your), *él* (he) / *el* (the), *sí* (yes) / *si* (if), *qué* (what?) / *que* (that). Questions and exclamations open with **¿** and **¡**.
 
-[Please read my Caveat Emptor for details](caveatemptor.md)
+## 2. Core grammar
 
-text-align: center;
-**El [malvado](malvado.md) cree en la verdad, de verdad**
+### Gender and articles
 
-text-align: center;
+| | Masculine | Feminine |
+|---|---|---|
+| the (sing. / pl.) | el / los | la / las |
+| a, some | un / unos | una / unas |
 
-## The viKid Principes of Spanish
+Most nouns in *-o* are masculine (*el libro*), most in *-a* feminine (*la mesa*), with famous exceptions: *el día, el mapa, el problema, la mano*. Adjectives agree: *un coche bonito, una casa bonita*. *de + el* → **del**, *a + el* → **al**.
 
-This work is mostly unpolished. I leave it here free for your use. All I ask is an acknowledgment if
-you find it useful and use it in your work.
+### Two verbs "to be": ser and estar
 
-[ADVERTENCIA - WARNING](advertencia.md)
+| | ser (what something is) | estar (where / how it is) |
+|---|---|---|
+| yo | soy | estoy |
+| tú | eres | estás |
+| él / ella / usted | es | está |
+| nosotros | somos | estamos |
+| vosotros | sois | estáis |
+| ellos / ustedes | son | están |
 
-[The Master Script / Apendico Maestro](apendicomaestro.md)
+- *Soy ingeniero. Soy de Dubái.* I'm an engineer. I'm from Dubai.
+- *Estoy cansado. Estoy en casa.* I'm tired. I'm at home.
 
-[Essense Script](essence.md)
+### Regular present tense
 
-[Manipulation Script](manipulation.md)
+| | hablar (speak) | comer (eat) | vivir (live) |
+|---|---|---|---|
+| yo | hablo | como | vivo |
+| tú | hablas | comes | vives |
+| él / ella | habla | come | vive |
+| nosotros | hablamos | comemos | vivimos |
+| vosotros | habláis | coméis | vivís |
+| ellos | hablan | comen | viven |
 
-[Having and Possession Script](havingpossession.md)
+Subject pronouns are usually dropped: *Hablo un poco de español.* I speak a little Spanish. **Tener** (to have) is irregular: *tengo, tienes, tiene, tenemos, tenéis, tienen*, and gives age and needs: *Tengo cuarenta años. Tengo hambre.*
 
-[Introductions Script](introductions.md "MISSING PAGE")
+### Negation and questions
 
-[Counting Script](counting.md "MISSING PAGE")
+*No* goes before the verb: *No hablo alemán.* Questions: *¿Hablas inglés?* Question words always carry an accent: **¿qué?** what, **¿quién?** who, **¿dónde?** where, **¿cuándo?** when, **¿cómo?** how, **¿cuánto?** how much, **¿por qué?** why (answer: **porque**, because).
 
-[Transport Script](transport.md "MISSING PAGE")
+## 3. Essential phrases
 
-[Selectors Script](selectors.md "MISSING PAGE")
+| Español | English |
+|---|---|
+| ¡Hola! ¿Qué tal? | Hi! How's it going? |
+| Buenos días / buenas tardes / buenas noches | Good morning / afternoon / evening |
+| ¿Cómo te llamas? – Me llamo VikiD. | What's your name? – My name is VikiD. |
+| Mucho gusto. | Pleased to meet you. |
+| ¿Cómo estás? – Bien, gracias. ¿Y tú? | How are you? – Fine, thanks. And you? |
+| Por favor. / Gracias. / De nada. | Please. / Thank you. / You're welcome. |
+| Perdón. / Lo siento. | Excuse me. / I'm sorry. |
+| No entiendo. ¿Puedes hablar más despacio? | I don't understand. Can you speak more slowly? |
+| ¿Cómo se dice ... en español? | How do you say ... in Spanish? |
+| ¿Dónde está el baño? | Where is the bathroom? |
+| ¿Cuánto cuesta? | How much is it? |
+| ¡Hasta luego! / ¡Adiós! | See you later! / Goodbye! |
 
-[Questions Script](questions.md)
+## 4. Vocabulary
 
-[Actions Script](actions.md "MISSING PAGE")
+- [Spanish: Vocabulary](spanishvocab1.md): the words from my reading cards, plus my study-skills word list.
+- [Spanish: Numbers](numerales.md)
 
-[Instructions Script](instructions.md "MISSING PAGE")
+## The learning path: the viKid scripts
 
-[Time Script](time.md "MISSING PAGE")
+The scripts are meant to be read aloud with the recording, Spanish and English side by side. Start with the warning and the basic sentences, then work through the scripts in order.
 
-[Your World Script](yourworld.md "MISSING PAGE")
+{{< langpath >}}
 
-## Links and Sources
+Scripts I planned but never wrote: Introductions, Counting, Transport, Selectors, Actions, Instructions, Time and Your World.
 
-[Video Links](spanishvideos.md)
-[PADRE RICO PADRE POBRE AUDIOLIBRO VOZ REAL](https://www.youtube.com/watch?v=3gqvucFkugc&t=382s)
-[Learn Spanish on YouTube](https://howlearnspanish.com/2017/07/spanish-lessons-on-youtube/?awt_l=KFCmk&awt_m=3lzar7Tqy2iaZHM)
-[Alfabeto](https://www.youtube.com/watch?v=5MJbHmgaeDM&list=PLmXreRyNt2W9GY6qP33BAL5zrHJlotKYM&index=1&t=0s)
-[ Aprendí Hoy](https://www.aprendihoy.com/)
-[Basho & Friends Beginners Playlist](https://youtube.com/playlist?list=PL64rO-I3_yDV0dWBI9yZyc5maoixF5ktM)
-[Borbot’s Favourite Songs](https://youtube.com/playlist?list=PL64rO-I3_yDVI4g4LA5eD1Jd6xGnS8coR)
-[Lingo Mastery](https://www.lingomastery.com/freespanish/)
-[Spanish with Paul](https://www.spanishwithpaulmembers.com/)
+## Links and sources
+
+- [Spanish: Videos](spanishvideos.md)
+- [Text-to-speech (US Spanish)](https://ttsmp3.com/text-to-speech/US%20Spanish/)
+- [Padre rico, padre pobre: audiolibro voz real](https://www.youtube.com/watch?v=3gqvucFkugc&t=382s)
+- [Learn Spanish on YouTube](https://howlearnspanish.com/2017/07/spanish-lessons-on-youtube/)
+- [Alfabeto](https://www.youtube.com/watch?v=5MJbHmgaeDM&list=PLmXreRyNt2W9GY6qP33BAL5zrHJlotKYM&index=1&t=0s)
+- [Aprendí Hoy](https://www.aprendihoy.com/)
+- [Basho & Friends beginners playlist](https://youtube.com/playlist?list=PL64rO-I3_yDV0dWBI9yZyc5maoixF5ktM)
+- [Borbot's favourite songs](https://youtube.com/playlist?list=PL64rO-I3_yDVI4g4LA5eD1Jd6xGnS8coR)
+- [Lingo Mastery](https://www.lingomastery.com/freespanish/)
+- [Spanish with Paul](https://www.spanishwithpaulmembers.com/)

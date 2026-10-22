@@ -1,7 +1,7 @@
 ---
-title: Citiloj / Quotes
+title: 'Esperanto: Quotes (Citiloj)'
 date: '2016-11-24T22:48:06+04:00'
-lastmod: '2021-08-26T07:00:34+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A343}'
 original_name: citiloj
 original_blob: blob/B/7/346.txt
@@ -16,10 +16,19 @@ wikislug: citiloj
 draft: false
 topics:
 - esperanto
+path_step: 9
+aliases:
+- /languages/grandatelero/
+wikialiases:
+- grandatelero
 ---
 
-# Citiloj / Quotes
+# Esperanto: Quotes (Citiloj)
 
-@retkoboldo
+Proverbs and quotes I have collected, with translations.
 
-- [Granda telero, malplena kulero](grandatelero.md)
+| Esperanto | English | Notes |
+|---|---|---|
+| **Granda telero, malplena kulero.** | Big plate, empty spoon. | A proverb about big promises and little delivered. Seen via @retkoboldo. |
+
+Note: *citiloj* literally means "quotation marks"; a quotation itself is a *citaĵo*.

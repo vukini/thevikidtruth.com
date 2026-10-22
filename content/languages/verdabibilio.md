@@ -1,7 +1,7 @@
 ---
-title: Verda Bibilio,1935, Izrael Lejzerowicz
+title: 'Esperanto: La Verda Biblio (1935, Izrael Lejzerowicz)'
 date: '2021-08-31T05:30:21+04:00'
-lastmod: '2021-08-31T05:59:35+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1560}'
 original_name: verdabibilio
 original_blob: blob/B/10/102.txt
@@ -16,11 +16,11 @@ wikislug: verdabibilio
 draft: false
 topics:
 - esperanto
+path_step: 22
 ---
 
-[languages](languages.md) | [esperanto](esperanto.md) | [arabic](arabic.md) | [spanish](spanish.md) | [mandrin](mandrin.md) | [japanese](japanese.md) | [tokipona](tokipona.md) | [Hindi](hindi.md) | [Artikoloj](artikoloj.md)
 
-# Verda Bibilio,1935, Izrael Lejzerowicz
+# Esperanto: La Verda Biblio (1935, Izrael Lejzerowicz)
 
 #### Ĉhapitro 1
 
@@ -55,7 +55,7 @@ topics:
    Kaj la Spirito vidis, ke ĝi estas bona.
 
 10.Kaj la Spirito diris: La Fundamento kreskigu verdaĵon,
-   kiu naskas gojon, vortaron, kiu donas laŭ sia speco radikojn,
+   kiu naskas ĝojon, vortaron, kiu donas laŭ sia speco radikojn,
    kies semoj estas en ĝi mem, en la Fundamento.
    Kaj fariĝis tiel.
 
@@ -68,8 +68,8 @@ topics:
 12.Kaj estis vespero, kaj estis mateno,
    la tria tago.
 
-13.Kaj la Spirito diris: Estu lumaſo en la ĉiela
-   firmajo, por apartigi Esperanton de mallumo.
+13.Kaj la Spirito diris: Estu lumaĵo en la ĉiela
+   firmaĵo, por apartigi Esperanton de mallumo.
 
 14.Kaj ĝi estu lumaĵo por lumi super la tero;
    kaj fariĝis tiel.
@@ -77,7 +77,7 @@ topics:
 15.Kaj la Spirito faris la
    grandan lumaĵon por regi la mondon.
 
-16.Kaj la Spirito starigis ĝin sur la ĉiela firmajo,
+16.Kaj la Spirito starigis ĝin sur la ĉiela firmaĵo,
    por ke ĝi lumu sur la teron.
 
 17.Kaj la Spirito nomis la lumajon Verda Stelo.
@@ -137,12 +137,3 @@ topics:
    ĝin, ĉar en ĝi Li ripozis, legante la originalan
    literaturon, kiun Li faris kreante.
 ```
-
-#### Aliaj Artikuloj
-
-- [Egipto](egipto.md)
-- [Insulo de la Rozoj](insulodelarozoj.md)
-- [Maldolĉa ĉokolado](maldol-a-okolado.md)
-- [Tertremo](tertremo.md)
-- [Suno](suno.md)
-- [Verda Bibilio](verdabibilio.md)

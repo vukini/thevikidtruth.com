@@ -1,3 +1,5 @@
-{{/* wikislug -> Page for every published page with a wikislug (drafts excluded by Hugo). */}}
-{{ $m := dict }}{{ range $p := site.RegularPages }}{{ with $p.Params.wikislug }}{{ $m = merge $m (dict (string .) $p) }}{{ end }}{{ end }}
+{{/* wikislug -> Page for every published page with a wikislug (drafts excluded by Hugo).
+     Old slugs listed in `wikialiases:` also point at the page they were merged into. */}}
+{{ $m := dict }}{{ range $p := site.RegularPages }}{{ range $p.Params.wikialiases }}{{ $m = merge $m (dict (string .) $p) }}{{ end }}{{ end }}
+{{ range $p := site.RegularPages }}{{ with $p.Params.wikislug }}{{ $m = merge $m (dict (string .) $p) }}{{ end }}{{ end }}
 {{ return $m }}

@@ -1,7 +1,7 @@
 ---
-title: Words I am currently learning
+title: 'Esperanto: Words I Am Learning'
 date: '2016-05-10T22:20:00+04:00'
-lastmod: '2016-07-25T15:30:13+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A20}'
 original_name: vortaro
 original_blob: blob/B/647.txt
@@ -16,12 +16,13 @@ wikislug: vortaro
 draft: false
 topics:
 - esperanto
+path_step: 11
 ---
 
 **This site provides full text search. What that means is that you can use the
 search box above on the right to check for words.
 
-#### Words I am currently learning
+# Esperanto: Words I Am Learning
 
 operaciumoj  operating system
 

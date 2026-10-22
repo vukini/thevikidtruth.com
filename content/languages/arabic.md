@@ -1,7 +1,7 @@
 ---
-title: viKid Arabic
+title: 'Arabic: Start Here'
 date: '2021-08-29T05:11:47+04:00'
-lastmod: '2023-03-27T08:34:23+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1503}'
 original_name: arabic
 original_blob: blob/B/11/574.txt
@@ -16,15 +16,12 @@ wikislug: arabic
 draft: false
 topics:
 - arabic
+path_step: 1
 ---
 
-[Languages](languages.md) | [Arabic](arabic.md) | [Artikoloj](artikoloj.md)  | [Esperanto](esperanto.md) |  [French](french.md)  | [Hindi](hindi.md) | [Japanese](japanese.md)  | [Mandrin](mandrin.md) |[Spanish](spanish.md)   | [Swahili](swahili.md)  | [Tokipona](tokipona.md)
-|  [text-to-speech](https://ttsmp3.com/text-to-speech/US%20Spanish/)
-
 ![lang-talk-854](/assets/lang-talk-854.jpg)
-{.center}
 
-# viKid Arabic
+# Arabic: Start Here
 
 ## The plain idea
 
@@ -38,6 +35,56 @@ Two facts make Arabic different from most languages a learner meets:
 ## Why it matters
 
 Arabic is an official language in more than 20 countries and one of the six official languages of the United Nations. Historically it carried the science of the medieval world: the words *algebra* (*al-jabr*), *algorithm* (from the mathematician al-Khwarizmi), *alchemy*, *zero* and *coffee* all came into English through Arabic. And for anyone living in the Gulf, even a little Arabic transforms everyday encounters.
+
+## 1. The alphabet and pronunciation
+
+Arabic is written **right to left** in a joined-up script of 28 letters. Most letters have up to four shapes (alone, start, middle, end of a word), and short vowels are normally not written, only long ones (ا ā, و ū, ي ī).
+
+| Letter | Name | Sound | Letter | Name | Sound |
+|---|---|---|---|---|---|
+| ا | alif | ā | ب | bāʾ | b |
+| ت | tāʾ | t | ث | thāʾ | th (think) |
+| ج | jīm | j | ح | ḥāʾ | breathy h |
+| خ | khāʾ | kh (loch) | د | dāl | d |
+| ذ | dhāl | dh (this) | ر | rāʾ | rolled r |
+| ز | zāy | z | س | sīn | s |
+| ش | shīn | sh | ص | ṣād | heavy s |
+| ض | ḍād | heavy d | ط | ṭāʾ | heavy t |
+| ظ | ẓāʾ | heavy dh | ع | ʿayn | throat squeeze |
+| غ | ghayn | gargled gh | ف | fāʾ | f |
+| ق | qāf | deep k | ك | kāf | k |
+| ل | lām | l | م | mīm | m |
+| ن | nūn | n | ه | hāʾ | h |
+| و | wāw | w / ū | ي | yāʾ | y / ī |
+
+Plus ء (hamza, the glottal stop) and ة (tāʾ marbūṭa, the feminine ending *-a*).
+
+## 2. Core grammar
+
+- **The article** is *al-* (ال), attached to the word: *kitāb* a book, *al-kitāb* the book. Before "sun letters" (t, d, r, s, sh, n...) the *l* assimilates: *ash-shams* (the sun), *ar-rajul* (the man).
+- **Gender**: nouns are masculine or feminine; most feminines end in ة *-a*: *mudarris* (male teacher), *mudarrisa* (female teacher).
+- **No "is" in the present**: *al-bayt kabīr* (البيت كبير), "the house (is) big". *anā min Dubay*, "I (am) from Dubai".
+- **Pronouns**: *anā* I, *anta / anti* you (m/f), *huwa* he, *hiya* she, *naḥnu* we, *antum* you all, *hum* they.
+- **Possession** with endings: *kitābī* my book, *kitābak / kitābik* your book (m/f), *kitābuh* his book.
+- **Roots and patterns** (below) build most of the vocabulary.
+
+## 3. Essential phrases (MSA, with Gulf variants)
+
+| Arabic | Transliteration | English |
+|---|---|---|
+| السلام عليكم | as-salāmu ʿalaykum | Peace be upon you (hello) |
+| وعليكم السلام | wa ʿalaykum as-salām | And upon you peace (reply) |
+| مرحبا | marḥaba | Hello |
+| كيف حالك؟ | kayfa ḥāluk? (Gulf: *shlōnak?*) | How are you? |
+| بخير، الحمد لله | bikhayr, al-ḥamdu lillāh | Fine, thank God |
+| اسمي ... | ismī ... | My name is ... |
+| شكرا | shukran | Thank you |
+| عفوا | ʿafwan | You're welcome; excuse me |
+| من فضلك | min faḍlak | Please |
+| نعم / لا | naʿam / lā (Gulf: *ē* / *lā*) | Yes / No |
+| أريد ... / ما أريد | urīd ... (Gulf: *abī ...*) | I want ... |
+| لا أفهم | lā afham | I don't understand |
+| مع السلامة | maThe digits explained one by one, with the letter charts from my old cards, are on [Arabic: The Arabizi Alphabet](arabizi.md).
 
 ## A worked example: one root, many words
 
@@ -56,7 +103,7 @@ Learn a root and a dozen patterns, and you can often guess words you've never se
 
 ## Arabizi: Arabic in Latin letters
 
-When people began texting on phones without Arabic keyboards, they invented **Arabizi** (Arabic + *Englizi*), writing Arabic with Latin letters and using **numbers for sounds English lacks**, chosen because the digit looks like the Arabic letter. That's what my list below records:
+When people began texting on phones without Arabic keyboards, they invented **Arabizi** (Arabic + *Englizi*), writing Arabic with Latin letters and using **numbers for sounds English lacks**, chosen because the digit looks like the Arabic letter. That is what my [Arabizi page](arabizi.md) records:
 
 | Number | Arabic letter | Sound |
 |---|---|---|
@@ -87,21 +134,13 @@ Arabizi is the Arabic equivalent of writing "gr8" or "l8r" in English: a playful
 - [Swahili](swahili.md): a Bantu language with many Arabic loanwords.
 - [How to Learn Languages](howtolearnlanguages.md)
 
-Below, the Arabizi letters, with a page for each.
+The digits explained one by one, with the letter charts from my old cards, are on [Arabic: The Arabizi Alphabet](arabizi.md).
 
-#### Arabizy
+## The learning path
 
-` 2 A ` [arabizi-hamza](arabizihamza.md)
-` 3 A`  [arabizi-ayn](arabiziayn.md)
-`'3 Gh` [arabizi-gh](arabizigh.md)
-` 5 Kh` [arabizi-kh](arabizikh.md)
-` 6 T ` [arabizi-t](arabizit.md)
-`'6 Dh` [arabizi-dh](arabizidh.md)
-` 7 (H)` [arabizi-h](arabizih.md)
-` 8 Q` [arabizi-q](arabiziq.md)
-` 9 S` [arabizi-s](arabizis.md)
+{{< langpath >}}
 
-#### Videos & Audio
+## Videos and audio
 
 - [Emirati Arabic - I want and I don't want](https://youtu.be/4Y8hb6LLAAE)
 - [زاد الحكايا - قصص اطفال - قصص قبل النوم - سنجوب الخارق Zad Al Hakaya - Children's Stories - Bedtime Stories - Snjoub the Superb](https://www.youtube.com/watch?v=TiIaLeOp8cA)

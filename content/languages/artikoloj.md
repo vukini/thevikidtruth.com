@@ -1,7 +1,7 @@
 ---
-title: Artikoloj
+title: 'Esperanto: Artikoloj (Articles)'
 date: '2021-08-24T23:02:02+04:00'
-lastmod: '2023-04-06T01:49:00+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1415}'
 original_name: artikoloj
 original_blob: blob/B/12/031.txt
@@ -16,17 +16,13 @@ wikislug: artikoloj
 draft: false
 topics:
 - esperanto
+path_step: 12
 ---
 
-[Esperanto](esperanto.md) |  [Plean Ilustrita Vortaro](https://vortaro.net) | [Artikoloj](artikoloj.md) | [Esperanto Legaĵo](esperantolegajo.md) |
 [Esperanto Scripts and Phrases](esperantoscripts.md)}
-[Vortaro](vortaro.md) | [Dao de Jing](daodejing.md) | [Bibilio](bibilio.md) | [Citiloj](citiloj.md) | [Sidarto](sidarto.md) |
-[Notes](learnesperanto.md) | [La Unua Intervjuo](launuaintervjuo.md) |
-[La Kvara Intervjuo](lakvaraintervjuo.md) | [Universala Esperanto Methodo](uem.md)
 
-|  [text-to-speech](https://ttsmp3.com/text-to-speech/US%20Spanish/) | [Vortaro](https://vortaro.net)
 
-# Artikoloj
+# Esperanto: Artikoloj (Articles)
 
 - [Egipto](egipto.md)
 - [Insulo de la Rozoj](insulodelarozoj.md)

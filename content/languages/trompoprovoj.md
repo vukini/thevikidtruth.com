@@ -1,7 +1,7 @@
 ---
-title: Trompo-provoj Trompo-provoj per Esperanto
+title: 'Esperanto: Trompo-Provoj per Esperanto'
 date: '2022-04-24T03:23:48+04:00'
-lastmod: '2022-04-24T03:23:48+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1660}'
 original_name: trompoprovoj
 original_blob: blob/B/10/425.txt
@@ -16,11 +16,11 @@ wikislug: trompoprovoj
 draft: false
 topics:
 - esperanto
+path_step: 18
 ---
 
-[Arabic](arabic.md) | [Esperanto](esperanto.md) |[Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) | [Swahili](swahili.md) | [French](french.md) | [Hindi](hindi.md) | [Artikoloj](artikoloj.md) | [Quick Links](quicklinks.md)
 
-# Trompo-provoj Trompo-provoj per Esperanto
+# Esperanto: Trompo-Provoj per Esperanto
 
 [The Article with Audio](https://uea.facila.org/artikoloj/%C4%9Denerale/trompo-provoj-per-esperanto-r295/)
 

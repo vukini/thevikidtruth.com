@@ -1,7 +1,7 @@
 ---
-title: PREGUNTAS Y RESPUESTAS
+title: 'Spanish: Preguntas y Respuestas (Questions and Answers)'
 date: '2021-09-08T00:59:06+04:00'
-lastmod: '2021-09-08T01:00:29+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1635}'
 original_name: questions
 original_blob: blob/B/10/343.txt
@@ -16,259 +16,257 @@ wikislug: questions
 draft: false
 topics:
 - spanish
+path_step: 6
 ---
 
-[Languages](languages.md) | [Arabic](arabic.md) | [Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) | [Hindi](hindi.md) | [Tokipona](tokipona.md) |
-[Vocab 1](spanishvocab1.md) | [Articulos en Español](sparticle.md) | [Frases en español](frasesenespa-ol.md) |
-[Notes](synergyspanish.md) | [Songs](spsongs.md)
 
-# PREGUNTAS Y RESPUESTAS
+# Spanish: Preguntas y Respuestas (Questions and Answers)
 
 - [preguntas (mp3)](/assets/preguntas.mp3)
 - [Youtube Link](https://www.youtube.com/watch?v=YYjU_xmdbrs)
 
-Cuando aprendes un Idioma, una de las mas útiles dotes es la abilidad de
+Cuando aprendes un idioma, una de las habilidades más útiles es la de
 hacer buenas preguntas.
 
 El siguiente escrito te da una variedad de situaciones en las cuales
-hacer preguntas, especialmente relacionadas con el aprendizaje de
-Español.
+hacer preguntas, especialmente relacionadas con el aprendizaje del
+español.
 
-#### GRUPO PRIMERO
+#### Grupo primero
 
-1.Como te llamas?
+1. ¿Cómo te llamas?
 
-2.Mi nombre es Sami.
+2. Mi nombre es Sami.
 
-3.Quien eres tu?
+3. ¿Quién eres tú?
 
-4.Yo soy Sami
+4. Yo soy Sami
 
-5.Quien es esa?
+5. ¿Quién es esa?
 
-6.Esa es mi Esposa
+6. Esa es mi esposa
 
-7.Quienes son ellos?
+7. ¿Quiénes son ellos?
 
-8.Ellos son mis Hijos
+8. Ellos son mis hijos
 
-9.Cuantos anos tienes tu?
+9. ¿Cuántos años tienes tú?
 
-10.Yo tengo cuarenta anos
+10. Yo tengo cuarenta años
 
-11.Donde naciste tu?
+11. ¿Dónde naciste tú?
 
-12.Yo nací en Muscat
+12. Yo nací en Muscat
 
-13.Que haces para ganarte la vida?
+13. ¿Qué haces para ganarte la vida?
 
-14.Yo soy un Ingeniero. Mi Jefe es el gerente
+14. Yo soy un ingeniero. Mi jefe es el gerente
 
-15.Si, yo tengo una Esposa, Su nombre es Linda y ella es una Doctora.
+15. Sí, yo tengo una esposa, su nombre es Linda y ella es una doctora.
 
-16.Tu tienes hijos?
+16. ¿Tú tienes hijos?
 
-17.S, tengo dos. La primera es una Nina y tiene quince anos. El segundo
+17. Sí, tengo dos. La primera es una niña y tiene quince años. El segundo
 es un chico y tiene ocho anos
 
-18.Cuales son sus nombres?
+18. ¿Cuáles son sus nombres?
 
-19.Sarah Y James
+19. Sarah y James
 
-20.Que hacen ellos?
+20. ¿Qué hacen ellos?
 
-21.Ellos van a el colegio
+21. Ellos van al colegio
 
-22.Como vas a trabajar?
+22. ¿Cómo vas a trabajar?
 
-23.Yo tengo un Coche bonito. Yo voy a trabajar en mi Coche bonito
+23. Yo tengo un coche bonito. Yo voy a trabajar en mi coche bonito
 
-24.Tu llevas a los ninos a el colegio?
+24. ¿Tú llevas a los niños al colegio?
 
-25.No, ellos van en Autobús. En un Autobús grande y Amarillo
+25. No, ellos van en autobús. En un autobús grande y amarillo
 
-26.En donde vives
+26. ¿Dónde vives?
 
-27.yo vivo en Dubai, yo vivo en una casa grande.
+27. Yo vivo en Dubai, yo vivo en una casa grande.
 
-#### GRUPO SEGUNDO
+#### Grupo segundo
 
-28.Que tal estas?
+28. ¿Qué tal estás?
 
-29.yo estoy bien, gracias
+29. Yo estoy bien, gracias
 
-30.Como te sientes?
+30. ¿Cómo te sientes?
 
-31.yo me siento muy bien!
+31. ¡yo me siento muy bien!
 
-32.Estas bien?
+32. ¿Estás bien?
 
-33.yo estoy bien.
+33. Yo estoy bien.
 
-#### GRUPO TERCERO
+#### Grupo tercero
 
-34.Que es una(Manzana)en español?
+34. ¿Qué es una(Manzana)en español?
 
-35.Una (Manzana)en Español es(MANZANA)
+35. Una (Manzana)en español es(MANZANA)
 
-36.As dicho(MANZANA)QUE ES ESO EN ingles?
+36. ¿Has dicho(MANZANA)QUE ES ESO EN inglés?
 
-37.(MANZANA)es (APPLE)en Ingles.
+37. (MANZANA)es (APPLE)en inglés.
 
-38.Puedes hablar un poco mas despacio? No te puedo escuchar.
+38. ¿Puedes hablar un poco más despacio? No te puedo escuchar.
 
-39.Que es esto?
+39. ¿Qué es esto?
 
-40.Este es Ruffus, mi Perro!
+40. Este es Ruffus, ¡mi perro!
 
-41.Que es eso?
+41. ¿Qué es eso?
 
-42.Esa es mi Casa grande.
+42. Esa es mi casa grande.
 
-#### GRUPO CUARTO
+#### Grupo cuarto
 
-43.Que te gusta a ti?
+43. ¿Qué te gusta a ti?
 
-44.A mi me gustan las Manzanas
+44. A mí me gustan las manzanas
 
-45.Te gustan las Manzanas?
+45. ¿Te gustan las manzanas?
 
-46.Si, me gustan mucho, especialmente las Rojas.
+46. Sí, me gustan mucho, especialmente las rojas.
 
-47.Quieres comer?
+47. ¿Quieres comer?
 
-48.Si, yo quiero comer.
+48. Sí, yo quiero comer.
 
-49.Tienes sed?
+49. ¿Tienes sed?
 
-50.Si, yo tengo sed
+50. Sí, yo tengo sed
 
-51.Tienes agua?
+51. ¿Tienes agua?
 
-52.Si, yo tengo agua
+52. Sí, yo tengo agua
 
-#### GRUPO QUINTO
+#### Grupo quinto
 
-53.Cuantas habitaciones hay en to Casa?
+53. ¿Cuántas habitaciones hay en tu casa?
 
-54.Mi Casa tiene seis habitaciones
+54. Mi casa tiene seis habitaciones
 
-55.Mi Casa tiene un Árbol Verde y muchos pájaros viven en el Árbol.
+55. Mi casa tiene un árbol verde y muchos pájaros viven en el árbol.
 
-56.Cuanto cuesta esa Camisa?
+56. ¿Cuánto cuesta esa camisa?
 
-57.Esa Camisa cuesta Diez Dirhams
+57. Esa camisa cuesta diez dirhams
 
-58.Cuanto cuesta?
+58. ¿Cuánto cuesta?
 
-59.Cuesta Diez Dirhams
+59. Cuesta diez dirhams
 
-60.Cuantos ojos tienes tu?
+60. ¿Cuántos ojos tienes tú?
 
-61.Yo tengo dos ojos.
+61. Yo tengo dos ojos.
 
-62.Cuanto dinero tienes tu?
+62. ¿Cuánto dinero tienes tú?
 
-63.Yo tengo cien Dólares conmigo
+63. Yo tengo cien dólares conmigo
 
-#### GRUPO SEXTO
+#### Grupo sexto
 
-64.Pesa mucho?
+64. ¿Pesa mucho?
 
-65.Si, es muy pesado
+65. Sí, es muy pesado
 
-66.Es esto ligero?
+66. ¿Es esto ligero?
 
-67.No, esto es muy pesado
+67. No, esto es muy pesado
 
-#### GRUPO SEPTIMO
+#### Grupo séptimo
 
-68.A que distancia esta el edificio?
+68. ¿A qué distancia está el edificio?
 
-69.El edificio esta muy lejos
+69. El edificio está muy lejos
 
-70.A que distancia esta tu trabajo?
+70. ¿A qué distancia está tu trabajo?
 
-71.Esta cerca de aquí.
+71. Está cerca de aquí.
 
-#### GRUPO OCTAVO
+#### Grupo octavo
 
-72.Cuando viniste a Dubai
+72. ¿Cuándo viniste a Dubai?
 
-73.Ayer
+73. Ayer
 
-74.Cuando vas a ir a Madrid?
+74. ¿Cuándo vas a ir a Madrid?
 
-75.Mañana
+75. Mañana
 
-76.Cuando aprenda Español
+76. Cuando aprenda español
 
-77.Hoy
+77. Hoy
 
-#### {GRUPO NOVENO
+#### Grupo noveno
 
-78.Que Coche es tuyo?
+78. ¿Qué coche es tuyo?
 
-79.El coche Grande.
+79. El coche grande.
 
-80.Que Manzana te gusta?
+80. ¿Qué manzana te gusta?
 
-81.A mi me gusta la Roja
+81. A mí me gusta la roja
 
-82.Que complexión te gusta?
+82. ¿Qué complexión te gusta?
 
-83.A mi me gusta la alta.
+83. A mí me gusta la alta.
 
-84.Que barco te gusta?
+84. ¿Qué barco te gusta?
 
-85.A mi me gusta el barco hecho de madera
+85. A mí me gusta el barco hecho de madera
 
-86.Que camisa te gusta a ti?
+86. ¿Qué camisa te gusta a ti?
 
-87.A mi me gusta la primera
+87. A mí me gusta la primera
 
-88.Que chica te gusta?
+88. ¿Qué chica te gusta?
 
-89.A mi me gusta la guapa
+89. A mí me gusta la guapa
 
-90.Que chico te gusta a ti?
+90. ¿Qué chico te gusta a ti?
 
-#### GRUPO DECIMO
+#### Grupo décimo
 
-91.Por que?
+91. ¿Por qué?
 
-92.Por que el mundo es redondo?
+92. ¿Por qué el mundo es redondo?
 
-93.Por que es grande.
+93. Porque es grande.
 
-94.Por que es el sol Amarillo?
+94. ¿Por qué es el sol amarillo?
 
-95.Por que tiene alta densidad
+95. Porque tiene alta densidad
 
-98.Por que la pelota es redonda?
+98. ¿Por qué la pelota es redonda?
 
-99.Para que puedas jugar con ella
+99. Para que puedas jugar con ella
 
-100.Por que ves cosas?
+100. ¿Por qué ves cosas?
 
-101.Por que tu tienes ojos.
+101. Porque tú tienes ojos.
 
-102.Por que puedes escuchar cosas?
+102. ¿Por qué puedes escuchar cosas?
 
-103.Por que tu tienes orejas
+103. Porque tú tienes orejas
 
-104.Por que puedes oler cosas?
+104. ¿Por qué puedes oler cosas?
 
-105.Por que tu tienes una nariz
+105. Porque tú tienes una nariz
 
-106.Por que puedes saborear cosas?
+106. ¿Por qué puedes saborear cosas?
 
-107.Por que tienes una boca y una lengua.
+107. Porque tienes una boca y una lengua.
 
-108.Por que puedes sentir cosas?
+108. ¿Por qué puedes sentir cosas?
 
-109.Por que tienes un Corazón
+109. Porque tienes un corazón
 
-110.Por que puedes pensar cosas?
+110. ¿Por qué puedes pensar cosas?
 
-111.por que tienes una mente
+111. Porque tienes una mente

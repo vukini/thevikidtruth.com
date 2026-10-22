@@ -1,7 +1,7 @@
 ---
-title: Reading 101
+title: 'Swahili: Reading 1 – Jane and Tom'
 date: '2021-03-23T06:12:18+04:00'
-lastmod: '2021-03-23T06:45:55+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1251}'
 original_name: swreading101
 original_blob: blob/B/6/406.txt
@@ -16,47 +16,40 @@ wikislug: swreading101
 draft: false
 topics:
 - swahili
+path_step: 6
 ---
 
-[Swahili Home](swahili.md) | [Swahili 101](sw101.md) | [Basic Vocabulary](swvocab001.md)
-| [Basic Grammar](swgrammar001.md) | [Reading101](swreading101.md)
+# Swahili: Reading 1 – Jane and Tom
 
-# Reading 101
+A short graded reader using only words from the earlier pages. Read the Swahili first, then check the translation.
 
-Jane [ni](ni.md) [mwanafunzi](mwanafunzi.md).
+| Swahili | English |
+|---|---|
+| Jane ni mwanafunzi. | Jane is a student. |
+| Yeye anatoka Marekani. | She comes from America. |
+| Anaishi New York. | She lives in New York. |
+| Yeye anasoma Kiswahili. | She studies Swahili. |
+| Yeye anapenda Kiswahili. | She likes Swahili. |
+| Tom ni rafiki wa Jane. | Tom is Jane's friend (friend of Jane). |
+| Yeye pia anatoka Marekani. | He also comes from America. |
+| Tom pia anasoma Kiswahili. | Tom also studies Swahili. |
+| Tom na Jane ni wanafunzi na wanapenda Kiswahili. | Tom and Jane are students and they like Swahili. |
+| Wao wanakaa Tanzania sasa. | They live in Tanzania now. |
+| Wanasoma Kiswahili huko Tanzania. | They study Swahili there in Tanzania. |
+| Jane na Tom si Watanzania, wao ni Wamarekani. | Jane and Tom are not Tanzanians, they are Americans. |
+| Jane na Tom wanasema Kiswahili kidogo tu. | Jane and Tom speak only a little Swahili. |
+| Wao wanasoma Kiswahili sasa. | They are studying Swahili now. |
+| Bob na Alice wanatoka Tanzania. | Bob and Alice come from Tanzania. |
+| Wao wanakaa Dar es Salaam. | They live in Dar es Salaam. |
+| Bob na Alice si Wamarekani, wao ni Watanzania. | Bob and Alice are not Americans, they are Tanzanians. |
+| Wao wanasema Kiswahili na Kiingereza. | They speak Swahili and English. |
+| Baba yake Bob ni Mtanzania. | Bob's father is Tanzanian. |
+| Yeye anatoka Tanzania na anakaa Tanzania pia. | He comes from Tanzania and lives in Tanzania too. |
 
-[Yeye](yeye.md) [anatoka](anatoka.md) [Marekani](marekani.md).
+## Notice
 
-[Anaishi](anaishi.md) New York
+- **a-** (he/she) becomes **wa-** (they) when the subject is plural: *anasoma* → *wanasoma*.
+- **ni** / **si**: *ni Wamarekani* (are Americans), *si Watanzania* (are not Tanzanians).
+- **Kiswahili, Kiingereza**: languages take *Ki-*; people take *M-/Wa-*.
 
-[Yeye](yeye.md) [anasoma](anasoma.md) [Kiswahili](kiswahili.md "MISSING PAGE").
-
-[Yeye](yeye.md) [anapenda](anapenda.md) [Kiswahili](kiswahili.md "MISSING PAGE").
-
-[Tom](tom.md "MISSING PAGE") [ni](ni.md) [rafiki](rafiki.md) [wa](wa.md "MISSING PAGE") [Jane](jane.md "MISSING PAGE").
-
-[yeye](yeye.md) [pia](pia.md) [anatoka](anatoka.md) [Marekani](marekani.md).
-
-[Tom](tom.md "MISSING PAGE") [pia](pia.md) [anasoma](anasoma.md) [Kiswahili](kiswahili.md "MISSING PAGE")
-
-[Tom](tom.md "MISSING PAGE") [na](na.md) [Jane](jane.md "MISSING PAGE") [ni](ni.md) [wanafunzi](wanafunzi.md "MISSING PAGE") [na](na.md) [wanapenda](wanapenda.md "MISSING PAGE") [Kiswahili](kiswahili.md "MISSING PAGE").
-
-[Wao](wao.md) [wanakaa](wanakaa.md) [Tanaznia](tanaznia.md "MISSING PAGE") [sasa](sasa.md).
-
-[Wanasoma](wanasoma.md) [Kiswahili](kiswahili.md "MISSING PAGE") [hili](hili.md) [Tanzania](tanzania.md "MISSING PAGE")
-
-[Jane](jane.md "MISSING PAGE") [na](na.md) [Tom](tom.md "MISSING PAGE") [si](si.md) [Watanzania](watanzania.md "MISSING PAGE"), [wao](wao.md) [ni](ni.md) [Wamerkani](wamerkani.md "MISSING PAGE").
-
-[Jane](jane.md "MISSING PAGE") [na](na.md) [Tom](tom.md "MISSING PAGE") [wanasema](wanasema.md) [Kiswahili](kiswahili.md "MISSING PAGE") [kidogo](kidogo.md) [tu](tu.md).
-
-[Wao](wao.md) [wanasoma](wanasoma.md) [Kiswahili](kiswahili.md "MISSING PAGE") [sasa](sasa.md).
-
-[Bob](bob.md "MISSING PAGE") [na](na.md) [Alice](alice.md "MISSING PAGE") [wanatoka](wanatoka.md) [Tanzania](tanzania.md "MISSING PAGE").
-
-[Wao](wao.md) [wanakaa](wanakaa.md) Dar es Salaam.
-
-[Bob](bob.md "MISSING PAGE") [na](na.md) [Alice](alice.md "MISSING PAGE") [si](si.md) [Wamarekani](wamarekani.md), [Wao](wao.md) [ni](ni.md) [Watanzania](watanzania.md "MISSING PAGE").
-
-[Wao](wao.md) [wanasema](wanasema.md) [Kiswahili](kiswahili.md "MISSING PAGE") [na](na.md) [Kiingereza](kiingereza.md "MISSING PAGE").
-
-[Baba](baba.md "MISSING PAGE") [Bob](bob.md "MISSING PAGE") [ni](ni.md) [Mtanzania](mtanzania.md). [Yeye](yeye.md) [anatoka](anatoka.md) [Tanzania](tanzania.md "MISSING PAGE") [na](na.md) [anakaa](anakaa.md) [Tazania](tazania.md "MISSING PAGE") [pia](pia.md).
+Corrected from the original: "Tanaznia", "Tazania" → *Tanzania*; "Wamerkani" → *Wamarekani*; "hili Tanzania" → *huko Tanzania*; "Baba Bob" → *Baba yake Bob*.

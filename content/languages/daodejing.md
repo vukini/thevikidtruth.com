@@ -1,7 +1,7 @@
 ---
-title: Dao De Jing
+title: 'Esperanto: Dao De Jing'
 date: '2016-05-10T08:05:31+04:00'
-lastmod: '2021-08-26T07:30:52+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A14}'
 original_name: daodejing
 original_blob: blob/B/7/360.txt
@@ -16,9 +16,10 @@ wikislug: daodejing
 draft: false
 topics:
 - esperanto
+path_step: 20
 ---
 
-# Dao De Jing
+# Esperanto: Dao De Jing
 
 I decided to translate the first verse of the Dao de Jing into Esperanto.
 There are probably a few mistakes and I’ve left the

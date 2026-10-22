@@ -1,7 +1,7 @@
 ---
-title: The Kings Secret - A Santali folktale
+title: 'French: The King''s Secret (A Santali Folktale)'
 date: '2021-08-23T02:29:39+04:00'
-lastmod: '2021-08-29T06:23:05+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1336}'
 original_name: thekingssecret
 original_blob: blob/B/7/646.txt
@@ -15,12 +15,12 @@ categories:
 wikislug: thekingssecret
 draft: false
 topics:
-- asian
+- french
+path_step: 6
 ---
 
-[Arabic](arabic.md) | [Esperanto](esperanto.md) |[Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) | [Swahili](swahili.md) | [French](french.md) | [Hindi](hindi.md)
 
-## The Kings Secret - A Santali folktale
+# French: The King's Secret (A Santali Folktale)
 
 [YouTube: The Kings Secret](https://www.youtube.com/watch?v=aTHaN_d_DMI)
 

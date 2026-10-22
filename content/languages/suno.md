@@ -1,7 +1,7 @@
 ---
-title: Suno
+title: 'Esperanto: Suno'
 date: '2021-08-30T03:15:33+04:00'
-lastmod: '2021-08-31T05:59:22+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1506}'
 original_name: suno
 original_blob: blob/B/10/101.txt
@@ -16,11 +16,11 @@ wikislug: suno
 draft: false
 topics:
 - esperanto
+path_step: 13
 ---
 
-[languages](languages.md) | [esperanto](esperanto.md) | [arabic](arabic.md) | [spanish](spanish.md) | [mandrin](mandrin.md) | [japanese](japanese.md) | [tokipona](tokipona.md) | [Hindi](hindi.md) | [Artikoloj](artikoloj.md)
 
-#### Suno
+# Esperanto: Suno
 
 [Wikipedia: Suno](https://eo.m.wikipedia.org/wiki/Suno)
 
@@ -68,11 +68,3 @@ The light from the stars of that system takes 4.35 years to reach Earth.
 La lumo de la Suno bezonas nur 8,3 minutojn por atingi nin.
 ```
 The light from the Sun takes only 8.3 minutes to reach us.
-
-#### Aliaj Artikuloj
-
-- [Egipto](egipto.md)
-- [Insulo de la Rozoj](insulodelarozoj.md)
-- [Maldolĉa ĉokolado](maldol-a-okolado.md)
-- [Tertremo](tertremo.md)
-- [Suno](suno.md)

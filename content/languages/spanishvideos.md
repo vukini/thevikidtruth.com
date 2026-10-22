@@ -1,7 +1,7 @@
 ---
-title: Spanish
+title: 'Spanish: Videos'
 date: '2023-02-09T04:50:34+04:00'
-lastmod: '2023-02-09T04:56:06+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1734}'
 original_name: spanishvideos
 original_blob: blob/B/11/503.txt
@@ -16,13 +16,11 @@ wikislug: spanishvideos
 draft: false
 topics:
 - spanish
+path_step: 21
 ---
 
-[quicklinks](quicklinks.md) |[Languages](languages.md) | [Arabic](arabic.md) | [Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) | [Hindi](hindi.md) | [Tokipona](tokipona.md) |
-[Vocab 1](spanishvocab1.md) | [Articulos en Español](sparticle.md) | [Frases en español](frasesenespa-ol.md) |
-[Notes](synergyspanish.md) | [Songs](spsongs.md)
 
-# Spanish
+# Spanish: Videos
 
 - [La historia de Jacob | Mi Primera Biblia | Colección](https://youtube.com/watch?v=FuyTvFWJ8gA&feature=share)
 - [Películas Cristianas Infantiles | Las Aventuras De Carlos Caterpilar](https://youtube.com/watch?v=CNu7fbFdNRw&feature=share)

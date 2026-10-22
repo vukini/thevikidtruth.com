@@ -1,7 +1,7 @@
 ---
-title: La Negra Tiene Tumbao
+title: 'Spanish: La Negra Tiene Tumbao'
 date: '2021-09-02T01:18:55+04:00'
-lastmod: '2021-09-02T01:26:23+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1614}'
 original_name: lanegra
 original_blob: blob/B/10/213.txt
@@ -16,13 +16,11 @@ wikislug: lanegra
 draft: false
 topics:
 - spanish
+path_step: 20
 ---
 
-[Languages](languages.md) | [Arabic](arabic.md) | [Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) | [Hindi](hindi.md) | [Tokipona](tokipona.md) |
-[Vocab 1](spanishvocab1.md) | [Articulos en Español](sparticle.md) | [Frases en español](frasesenespa-ol.md) |
-[Notes](synergyspanish.md) | [Songs](spsongs.md)
 
-# La Negra Tiene Tumbao
+# Spanish: La Negra Tiene Tumbao
 
 [video list on youtube](https://www.youtube.com/results?search_query=la+negra+tiene+tumbao+celia+cruz)
 

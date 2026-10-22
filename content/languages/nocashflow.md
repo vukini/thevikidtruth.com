@@ -1,7 +1,7 @@
 ---
-title: No Cash Flow
+title: 'Spanish: No Cash Flow'
 date: '2021-09-02T02:21:47+04:00'
-lastmod: '2021-09-02T02:21:47+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1615}'
 original_name: nocashflow
 original_blob: blob/B/10/221.txt
@@ -16,12 +16,11 @@ wikislug: nocashflow
 draft: false
 topics:
 - spanish
+path_step: 14
 ---
 
-[Arabic](arabic.md) | [Esperanto](esperanto.md) |[Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) |
-[Swahili](swahili.md) | [French](french.md) | [Hindi](hindi.md) | [Quick Links](quicklinks.md) | [Multilingual Texts](multilingual.md)
 
-# No Cash Flow
+# Spanish: No Cash Flow
 
 ```
 buenos dias leonardo. es tarde aquí.

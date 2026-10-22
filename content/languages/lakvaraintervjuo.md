@@ -1,7 +1,7 @@
 ---
-title: La Kvara Intervjuo
+title: 'Esperanto: La Kvara Intervjuo (Katalin Kovats)'
 date: '2021-09-08T01:55:28+04:00'
-lastmod: '2021-09-08T02:37:07+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1641}'
 original_name: lakvaraintervjuo
 original_blob: blob/B/10/372.txt
@@ -16,11 +16,11 @@ wikislug: lakvaraintervjuo
 draft: false
 topics:
 - esperanto
+path_step: 25
 ---
 
-[Arabic](arabic.md) | [Esperanto](esperanto.md) |[Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) | [Swahili](swahili.md) | [French](french.md) | [Hindi](hindi.md) | [Artikoloj](artikoloj.md) | [Quick Links](quicklinks.md)
 
-## La Kvara Intervjuo
+# Esperanto: La Kvara Intervjuo (Katalin Kovats)
 
 [Link to Video](https://www.youtube.com/watch?v=soVoR_eFmMk&t=785s)
 
@@ -472,40 +472,3 @@ topics:
 - 43:17	This was a big month, but I have more videos for you in the future	`	Ĉi tio estis bonega monato, sed mi havas pli da filmetoj por vi estontece.		`
 - 43:22	And if you want to, join my Patreon	`	Kaj se vi volas, aliĝu al mia Patreon.		`
 - 43:25	I hope that you liked my video	`	Mi esperas, ke vi ŝatis mian filmeton.		`
-
-#### Aliaj
-
-- [Artikoloj](artikoloj.md)
-- [Esperanto Legaĵo](esperantolegajo.md)
-- [Esperanto Scripts and Phrases](esperantoscripts.md)
-- [Vortaro](vortaro.md)
-- [Dao de Jing](daodejing.md)
-- [La Sankta Bibilio](bibilio.md)
-- [Citiloj](citiloj.md)
-- [Sidarto by Hermann Hesse](sidarto.md)
-- [My Notes from Learn.Esperanto.com](learnesperanto.md)
-- [La Kvara Intervjuo: Katalin Kovats](lakvaraintervjuo.md)
-
-#### Links
-
-- [Lernu: a great site to get you started](http://en.lernu.net/)
-- [Esenco kaj Estonteco de Ideo de Lingvo internacia per D-ro L. L. Zamenhof](http://www.steloj.de/esperanto/esenco/index.html)
-       Written by the Creator of Esperanto
-- [Vikipedio](https://eo.m.wikipedia.org)
-- [ Partio Politiko](https://eo.m.wikipedia.org/wiki/Partio_(politiko))
-- [Esperanta Kulturo](https://eo.m.wikipedia.org/wiki/Esperanto-kulturo)
-- Rules of Esperanto
-- - [Grammar Rules by Wikiversity](https://en.m.wikiversity.org/wiki/Esperanto/Grammar_Rules)
-    - [Grammer Rules by literaturo](http://literaturo.org/HARLOW-Don/Esperanto/rules.html)
-- [La Sankta Biblio Website](http://terry.on-rev.com/LaSanktaBiblio.html)
-- [Literaturo Esperanto](http://literaturo.esperanto.net/bk/bk90.html)
-- [UEA Facila](https://uea.facila.org/)
-- [Learn Esperanto](https://learn.esperanto.com/en/)
-- [mac keyboard esperanto](https://jakwings.github.io/mac-keyboard-Esperanto/)
-- [Bertilow](https://bertilow.com/index.html)
-
-## Vortoj
-
-[deirpunkto](deirpunkto.md)
-[gufujo](gufujo.md)
-[senpere](senpere.md)

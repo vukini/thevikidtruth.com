@@ -1,7 +1,7 @@
 ---
-title: Frases en español
+title: 'Spanish: Frases en Español (Phrases)'
 date: '2021-08-30T02:36:53+04:00'
-lastmod: '2021-08-31T04:50:00+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1505}'
 original_name: frasesenespañol
 original_blob: blob/B/10/062.txt
@@ -16,11 +16,11 @@ wikislug: frasesenespa-ol
 draft: false
 topics:
 - spanish
+path_step: 12
 ---
 
-[Languages](languages.md) | [Arabic](arabic.md) | [Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) | [Hindi](hindi.md) | [Tokipona](tokipona.md)
 
-# Frases en español
+# Spanish: Frases en Español (Phrases)
 
 [Vocab 1](spanishvocab1.md), [Articulos en Español](sparticle.md), [Frases en español](frasesenespa-ol.md)
 

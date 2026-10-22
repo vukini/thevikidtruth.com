@@ -1,7 +1,7 @@
 ---
-title: Numerales
+title: 'Spanish: Numerales (Numbers)'
 date: '2021-09-08T00:39:54+04:00'
-lastmod: '2021-09-08T00:41:09+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1633}'
 original_name: numerales
 original_blob: blob/B/10/336.txt
@@ -16,13 +16,11 @@ wikislug: numerales
 draft: false
 topics:
 - spanish
+path_step: 3
 ---
 
-[Languages](languages.md) | [Arabic](arabic.md) | [Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) | [Hindi](hindi.md) | [Tokipona](tokipona.md) |
-[Vocab 1](spanishvocab1.md) | [Articulos en Español](sparticle.md) | [Frases en español](frasesenespa-ol.md) |
-[Notes](synergyspanish.md) | [Songs](spsongs.md)
 
-# Numerales
+# Spanish: Numerales (Numbers)
 
 - 1-uno
 - 2-dos
@@ -31,7 +29,7 @@ topics:
 - 5-cinco
 - 6-seis
 - 7-siete
-- 8—ocho
+- 8-ocho
 - 9-nueve
 - 10-diez
 - 1 + 1 = 2, uno y uno son dos

@@ -1,7 +1,7 @@
 ---
-title: Tertremo
+title: 'Esperanto: Tertremo'
 date: '2021-08-29T07:37:35+04:00'
-lastmod: '2021-08-31T05:59:10+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1504}'
 original_name: tertremo
 original_blob: blob/B/10/100.txt
@@ -16,11 +16,11 @@ wikislug: tertremo
 draft: false
 topics:
 - esperanto
+path_step: 14
 ---
 
-[languages](languages.md) | [arabic](arabic.md) | [spanish](spanish.md) | [mandrin](mandrin.md) | [japanese](japanese.md) | [tokipona](tokipona.md) | [Hindi](hindi.md) | [Artikoloj](artikoloj.md) | [Artikoloj](artikoloj.md)
 
-#### Tertremo
+# Esperanto: Tertremo
 
 [Wikipedia:Tertremo](https://eo.m.wikipedia.org/wiki/Tertremo)
 

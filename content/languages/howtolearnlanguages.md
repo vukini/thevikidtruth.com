@@ -1,7 +1,7 @@
 ---
-title: How to Learn Languages
+title: 'Learning Methods: How to Learn Languages'
 date: '2022-08-02T02:42:37+04:00'
-lastmod: '2022-08-02T02:42:37+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1674}'
 original_name: howtolearnlanguages
 original_blob: blob/B/10/654.txt
@@ -16,14 +16,14 @@ wikislug: howtolearnlanguages
 draft: false
 topics:
 - learning
+path_step: 2
 ---
 
-[Languages](languages.md) | [Arabic](arabic.md) | [Esperanto](esperanto.md) |[Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) | [Swahili](swahili.md) | [French](french.md) | [Hindi](hindi.md) | [Quick Links](quicklinks.md)
 
 ![lang-talk-854](/assets/lang-talk-854.jpg)
 {.center}
 
-# How to Learn Languages
+# Learning Methods: How to Learn Languages
 
 1. **Comprehensible input** - We learn by "understanding messages" - See Krashen
 1. **Read, Listen & Watch** in target language. Mags, music, shows, youtube, books, etc...

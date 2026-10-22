@@ -1,7 +1,7 @@
 ---
-title: Wake up Early
+title: 'Multilingual: Wake Up Early'
 date: '2021-08-31T00:47:00+04:00'
-lastmod: '2021-08-31T04:47:07+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1510}'
 original_name: wakeupearly
 original_blob: blob/B/10/057.txt
@@ -15,13 +15,12 @@ categories:
 wikislug: wakeupearly
 draft: false
 topics:
-- learning
+- multilingual
+path_step: 4
 ---
 
-[Arabic](arabic.md) | [Esperanto](esperanto.md) |[Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) |
-[Swahili](swahili.md) | [French](french.md) | [Hindi](hindi.md) | [Quick Links](quicklinks.md) | [Multilingual Texts](multilingual.md)
 
-# Wake up Early
+# Multilingual: Wake Up Early
 
 I like to wake up early in the morning. It is nice. It is nice because
 the house is quiet. The Children are asleep. The televisions are off.

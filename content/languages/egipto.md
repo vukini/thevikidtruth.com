@@ -1,7 +1,7 @@
 ---
-title: Egiptio
+title: 'Esperanto: Egiptio'
 date: '2021-08-24T23:10:18+04:00'
-lastmod: '2023-04-06T01:36:44+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1416}'
 original_name: egipto
 original_blob: blob/B/12/023.txt
@@ -16,11 +16,11 @@ wikislug: egipto
 draft: false
 topics:
 - esperanto
+path_step: 15
 ---
 
-[languages](languages.md) | [esperanto](esperanto.md) | [arabic](arabic.md) | [spanish](spanish.md) | [mandrin](mandrin.md) | [japanese](japanese.md) | [tokipona](tokipona.md) | [Hindi](hindi.md) | [Artikoloj](artikoloj.md)
 
-## Egiptio
+# Esperanto: Egiptio
 
 [Wikipedia-Egiptio](https://eo.wikipedia.org/wiki/Egiptio)
 

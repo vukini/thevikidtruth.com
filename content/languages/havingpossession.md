@@ -1,7 +1,7 @@
 ---
-title: Teniendo
+title: 'Spanish: Teniendo (Having and Possession)'
 date: '2021-09-02T05:21:11+04:00'
-lastmod: '2021-09-02T05:35:29+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1622}'
 original_name: havingpossession
 original_blob: blob/B/10/240.txt
@@ -16,297 +16,295 @@ wikislug: havingpossession
 draft: false
 topics:
 - spanish
+path_step: 9
 ---
 
-[Languages](languages.md) | [Arabic](arabic.md) | [Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) | [Hindi](hindi.md) | [Tokipona](tokipona.md) |
-[Vocab 1](spanishvocab1.md) | [Articulos en Español](sparticle.md) | [Frases en español](frasesenespa-ol.md) |
-[Notes](synergyspanish.md) | [Songs](spsongs.md)
 
-# Teniendo
+# Spanish: Teniendo (Having and Possession)
 
 - [teni (mp3)](/assets/teni.mp3)
 - [Youtube Link](https://www.youtube.com/watch?v=CtXmdk00yxY)
 
-GRUPO PRIMERO
+#### Grupo primero
 
-1.Yo tengo un Coche
+1. Yo tengo un coche
 
-2.Este coche es mío
+2. Este coche es mío
 
-3.Yo tengo una manzana
+3. Yo tengo una manzana
 
-4.La manzana es mía
+4. La manzana es mía
 
-5.Yo tengo una guitarra
+5. Yo tengo una guitarra
 
-6.La guitarra es mía
+6. La guitarra es mía
 
-7.mi guitarra es muy buena
+7. Mi guitarra es muy buena
 
-8.Mi Coche es rápido
+8. Mi coche es rápido
 
-9.Mi Manzana es Roja
+9. Mi manzana es roja
 
-10.Mi Manzana es Dulce
+10. Mi manzana es dulce
 
-11.Yo tengo una casa
+11. Yo tengo una casa
 
-12.Mi Casa es grande
+12. Mi casa es grande
 
-13.La Casa es mía
+13. La casa es mía
 
-14.Yo tengo un Barco
+14. Yo tengo un barco
 
-15.Mi Barco flota en el agua
+15. Mi barco flota en el agua
 
-16.El Barco es mío.
+16. El barco es mío.
 
-GRUPO SEGUNDO
+#### Grupo segundo
 
-17.Tu tienes un Coche
+17. Tú tienes un coche
 
-18.El coche es tuyo
+18. El coche es tuyo
 
-19.Tu tienes una Manzana
+19. Tú tienes una manzana
 
-20.La Manzana es tuya
+20. La manzana es tuya
 
-21.Tu tienes una guitarra
+21. Tú tienes una guitarra
 
-22.La guitarra es tuya
+22. La guitarra es tuya
 
-23.Tu Guitarra es muy buena
+23. Tu guitarra es muy buena
 
-24.Tu Coche es rápido
+24. Tu coche es rápido
 
-25.tu manzana es Roja
+25. Tu manzana es roja
 
-26.Tu manzana es dulce
+26. Tu manzana es dulce
 
-27.Tu tienes una Casa
+27. Tú tienes una casa
 
-28.Tu casa es grande
+28. Tu casa es grande
 
-29.la Casa es tuya
+29. La casa es tuya
 
-30.Tu tienes un Barco
+30. Tú tienes un barco
 
-31.Tu barco flota en el agua
+31. Tu barco flota en el agua
 
-32.El Barco es tuyo
+32. El barco es tuyo
 
-GRUPO TERCERO
+#### Grupo tercero
 
-33.Nosotros tenemos un coche
+33. Nosotros tenemos un coche
 
-34.El coche es nuestro
+34. El coche es nuestro
 
-35.Nosotros tenemos una Manzana
+35. Nosotros tenemos una manzana
 
-36.La manzana es nuestra
+36. La manzana es nuestra
 
-37.Nosotros tenemos una Guitarra
+37. Nosotros tenemos una guitarra
 
-38.La guitarra es nuestra
+38. La guitarra es nuestra
 
-39.Nuestra guitarra es muy buena
+39. Nuestra guitarra es muy buena
 
-40.nuestro coche es rápido
+40. Nuestro coche es rápido
 
-41.Nuestra manzana es roja
+41. Nuestra manzana es roja
 
-42.Nuestra manzana es dulce
+42. Nuestra manzana es dulce
 
-43.Nosotros tenemos una Casa
+43. Nosotros tenemos una casa
 
-44.Nuestra casa es grande
+44. Nuestra casa es grande
 
-45.La casa es nuestra
+45. La casa es nuestra
 
-46.Nosotros tenemos un Barco
+46. Nosotros tenemos un barco
 
-47.Nuestro barco flota en el Agua
+47. Nuestro barco flota en el agua
 
-48.El Barco es nuestro
+48. El barco es nuestro
 
-GRUPO CUARTO
+#### Grupo cuarto
 
-49.El tiene un Coche
+49. Él tiene un coche
 
-50.El coche es de el
+50. El coche es de él
 
-52.La Manzana es de el
+52. La manzana es de él
 
-53.El tiene una guitarra
+53. Él tiene una guitarra
 
-54.La Guitarra es de el
+54. La guitarra es de él
 
-55.Su guitarra es muy buena
+55. Su guitarra es muy buena
 
-56.Su Coche es rápido
+56. Su coche es rápido
 
-57.Su Manzana es Roja
+57. Su manzana es roja
 
-58.Su Manzana es dulce
+58. Su manzana es dulce
 
-59.El tiene una Casa
+59. Él tiene una casa
 
-60.Su casa es grande
+60. Su casa es grande
 
-61.La casa es de el
+61. La casa es de él
 
-62.He has a boat
+62. Él tiene un barco
 
-63.Su barco flota en el agua
+63. Su barco flota en el agua
 
-64.El barco es de el
+64. El barco es de él
 
-GRUPO QUINTO
+#### Grupo quinto
 
-65.Ella tiene un coche
+65. Ella tiene un coche
 
-66.El coche es de ella
+66. El coche es de ella
 
-67.Ella tiene un Manzana
+67. Ella tiene un manzana
 
-68.La manzana es de ella
+68. La manzana es de ella
 
-69.Ella tiene una guitarra
+69. Ella tiene una guitarra
 
-70.La guitarra es de ella
+70. La guitarra es de ella
 
-71.Su guitarra es muy buena
+71. Su guitarra es muy buena
 
-72.Su coche es rápido
+72. Su coche es rápido
 
-73.Su Manzana es Roja
+73. Su manzana es roja
 
-74.Su Manzana es dulce
+74. Su manzana es dulce
 
-75.Ella tiene una Casa
+75. Ella tiene una casa
 
-76.Su casa es grande
+76. Su casa es grande
 
-77.La Casa es de ella
+77. La casa es de ella
 
-78.Ella tiene un barco
+78. Ella tiene un barco
 
-79.Su barco flota en el agua
+79. Su barco flota en el agua
 
-80.El Barco es de ella
+80. El barco es de ella
 
-GRUPO SEXTO
+#### Grupo sexto
 
-81.Ellos tienen un Coche
+81. Ellos tienen un coche
 
-82.El coche es de ellos
+82. El coche es de ellos
 
-83.Ellos tienen una Manzana
+83. Ellos tienen una manzana
 
-84.La manzana es de ellos
+84. La manzana es de ellos
 
-85.Ellos tienen una guitarra
+85. Ellos tienen una guitarra
 
-86.La Guitarra es de ellos
+86. La guitarra es de ellos
 
-87.Su Guitarra es muy buena
+87. Su guitarra es muy buena
 
-88.Su coche es rápido
+88. Su coche es rápido
 
-89.Su Manzana es roja
+89. Su manzana es roja
 
-90.Su Manzana es dulce
+90. Su manzana es dulce
 
-91.Ellos tienen una casa
+91. Ellos tienen una casa
 
-92.Su casa es grande
+92. Su casa es grande
 
-93.La Casa es de ellos
+93. La casa es de ellos
 
-94.Ellos tienen un barco
+94. Ellos tienen un barco
 
-95.El barco de ellos flota en el agua
+95. El barco de ellos flota en el agua
 
-96.El Barco es de ellos
+96. El barco es de ellos
 
-GRUPO SEPTIMO
+#### Grupo séptimo
 
-97.Tienes tu un coche grande?
+97. ¿Tienes tu un coche grande?
 
-98.Si , nosotros tenemos un coche grande
+98. Si, nosotros tenemos un coche grande
 
-99.Si, yo tengo un coche grande
+99. Sí, yo tengo un coche grande
 
-100.Tienes tu un Plátano amarillo
+100. Tienes tu un Plátano amarillo
 
-101.No , tenemos un plátano verde
+101. No, tenemos un plátano verde
 
-102.Tenes tu una casa grande?
+102. ¿Tenes tu una casa grande?
 
-103.Si, yo tengo una casa grande
+103. Sí, yo tengo una casa grande
 
-104.Tienes tu un perro bueno?
+104. ¿Tienes tu un perro bueno?
 
-105.Si, yo tengo un perro bueno
+105. Sí, yo tengo un perro bueno
 
-106.Tienes tu una pelota redonda?
+106. ¿Tienes tu una pelota redonda?
 
-107.Si, yo tengo una pelota redonda
+107. Sí, yo tengo una pelota redonda
 
-108.Tu tienes ojos?
+108. ¿Tú tienes ojos?
 
-109.Si, yo tengo dos ojos
+109. Sí, yo tengo dos ojos
 
-110.tu tienes orejas?
+110. ¿tú tienes orejas?
 
-111.Si, yo oigo con mis Orejas
+111. Sí, yo oigo con mis orejas
 
-GRUPO OCTAVO
+#### Grupo octavo
 
-1.Este es mi coche y ese es tu coche
+1. Este es mi coche y ese es tu coche
 
-2.Este es nuestro coche y ese es el coche de ellos
+2. Este es nuestro coche y ese es el coche de ellos
 
-3.Este es el coche de el y ese es el coche de ella
+3. Este es el coche de él y ese es el coche de ella
 
-4.estos son mis coches y esos son tus coches
+4. Estos son mis coches y esos son tus coches
 
-5.esta es mi casa y esa es tu casa
+5. Esta es mi casa y esa es tu casa
 
-6.Esta es nuestra casa y esa es la casa de ellos
+6. Esta es nuestra casa y esa es la casa de ellos
 
-7.esta es la casa de el y esa es la casa de ella
+7. Esta es la casa de él y esa es la casa de ella
 
-8.Estas son las casas de el y esas son las casas de ella
+8. Estas son las casas de él y esas son las casas de ella
 
-9.Este es mi Árbol y ese es tu Árbol
+9. Este es mi árbol y ese es tu árbol
 
-10.Este es nuestro Árbol y ese es el Árbol de ellos
+10. Este es nuestro árbol y ese es el árbol de ellos
 
-11.Este es el árbol de el y ese es el Árbol de ella
+11. Este es el árbol de él y ese es el árbol de ella
 
-12.Estos son los Árboles de el y esos son los Árboles de ella
+12. Estos son los árboles de él y esos son los árboles de ella
 
-13.esta es mi pelota y esa es tu pelota
+13. Esta es mi pelota y esa es tu pelota
 
-14.Esta es nuestra pelota y esa es la pelota de ellos
+14. Esta es nuestra pelota y esa es la pelota de ellos
 
-15.Esta es la pelota de el y esa es la pelota de ella
+15. Esta es la pelota de él y esa es la pelota de ella
 
-16.Estas son las pelotas de el y esas son las pelotas de ella.
+16. Estas son las pelotas de él y esas son las pelotas de ella.
 
-17.este es mi bolígrafo y ese es tu bolígrafo
+17. Este es mi bolígrafo y ese es tu bolígrafo
 
-18.Este es nuestro bolígrafo y ese es el bolígrafo de ellos
+18. Este es nuestro bolígrafo y ese es el bolígrafo de ellos
 
-19.Este es el bolígrafo de el y ese es el bolígrafo de ella
+19. Este es el bolígrafos de él y ese es el bolígrafo de ella
 
-20.Estos son los bolígrafo de el y esos son los bolígrafos de ella
+20. Estos son los bolígrafos de él y esos son los bolígrafos de ella
 
-21.este coche es mío y ese coche es tuyo
+21. Este coche es mío y ese coche es tuyo
 
-22.Estos coches son míos y esos coches son tuyos
+22. Estos coches son míos y esos coches son tuyos
 
-23.Estos coches son de el y esos coches son de el
+23. Estos coches son de él y esos coches son de ella
 
-24.Estos coches son de ellos y esos coches son de ellos también
+24. Estos coches son de ellos y esos coches son de ellos también

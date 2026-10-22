@@ -1,7 +1,7 @@
 ---
-title: Warning
+title: 'Spanish: Advertencia (A Warning)'
 date: '2016-12-03T22:25:24+04:00'
-lastmod: '2016-12-04T21:35:18+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A626}'
 original_name: advertencia
 original_blob: blob/B/4/216.txt
@@ -16,11 +16,12 @@ wikislug: advertencia
 draft: false
 topics:
 - spanish
+path_step: 2
 ---
 
 [Spanish](spanish.md)
 
-# Warning
+# Spanish: Advertencia (A Warning)
 
 Welcome to the vikid truth. I say a lot of weird and strange things in my videos. It is a memory technique. Please don’t think that I believe them. It is well known that outrageous things are easier to remember than boring or normal things.
 
@@ -28,10 +29,10 @@ If you are really offended by something. Please let me know in the comments and 
 
 # ADVERTENCIA
 
-**Bienvenido a la verdad de Vikid. Yo suelo decir un [montón](mont-n.md) de cosas raras y [extrañas](extra-as.md) en mis videos,
+**Bienvenido a la verdad de Vikid. Yo suelo decir un [montón](spanishvocab1.md) de cosas raras y [extrañas](spanishvocab1.md) en mis videos,
 es una técnica para la memoria. Por favor, no penséis que creo en ellas. Está demostrado que las cosas
- extravagantes son más fáciles de recordar que las cosas [corrientes](corrientes.md) o [aburridas](aburrido.md).**
-**Si te sientes ofendido por algo. Por favor, [házmelo saber](h-zmelosaber.md) en los comentarios y [trataré](tratar.md) de responderte.**
+ extravagantes son más fáciles de recordar que las cosas [corrientes](spanishvocab1.md) o [aburridas](spanishvocab1.md).**
+**Si te sientes ofendido por algo. Por favor, [házmelo saber](spanishvocab1.md) en los comentarios y [trataré](spanishvocab1.md) de responderte.**
 
 ## End of Video
 
@@ -44,22 +45,22 @@ Life is Beautiful.
 
 ### Final del video
 
-**Muchas gracias por ver el video. Espero que te ayude en tus objetivos. Si quieres, suscríbete para [acceder](acceder.md) a más y más contenidos interesantes.
+**Muchas gracias por ver el video. Espero que te ayude en tus objetivos. Si quieres, suscríbete para [acceder](spanishvocab1.md) a más y más contenidos interesantes.
 Por favor, mira también mi video de introducción, donde te explico lo que estoy intentando hacer con esta serie de videos.
 Y sobre todo ¡diviértete!
 La vida es bella.**
 
 ## Hi There!
 
-**Hola!, ique tal!**
+**¡Hola! ¿Qué tal?**
 
 Hello! My name is Vidyuth but you can call me VikiD.
 
-**Hola!, mi nombre es Vidyuth, pero puedes llamarme VikiD**
+**¡Hola! Mi nombre es Vidyuth, pero puedes llamarme VikiD**
 
 I want to try something new here, well new for me at least.
 
-**Quiero probar algo nuevo aquí, bueno, ¡por lo menos, es algo nuevo para mi!**
+**Quiero probar algo nuevo aquí, bueno, ¡por lo menos, es algo nuevo para mí!**
 
 I got the idea while watching some YouTube  and TED videos about language learning.
 
@@ -74,15 +75,15 @@ I have always been interested in languages. My father could speak 7 languages, m
 
 I went to boarding school in England when I was only 8 years old and missed out on a lot of natural language learning that you get when part of an Indian family.
 
-**Fui a un internado en Inglaterra cuando tenía sólo 8 años de edad y eso me hizo perder gran cantidad del aprendizaje natural del lenguaje que se obtiene cuando se convive en una familia india .**
+**Fui a un internado en Inglaterra cuando tenía sólo 8 años de edad y eso me hizo perder gran cantidad del aprendizaje natural del lenguaje que se obtiene cuando se convive en una familia india.**
 
 The English people are very bad at learning languages. Most English people only speak English.
 
-**Los Ingleses son muy malos aprendiendo idiomas. La mayoría de los ingleses sólo hablan Inglés.**
+**Los ingleses son muy malos aprendiendo idiomas. La mayoría de los ingleses sólo hablan inglés.**
 
 Indians however, naturally speak several language.
 
-**Los Hindúes,(*2) sin embargo, hablan varios idiomas de forma natural.**
+**Los indios,(*2) sin embargo, hablan varios idiomas de forma natural.**
 
 Literally everyone I know speaks multiple languages fluently.
 
@@ -94,11 +95,11 @@ So this got me thinking.
 
 One. I had French lessons in School, but I was terrible, even after 7 years of French Classes.
 
-**Uno. Yo recibí clases de Francés en el colegio, e incluso después de 7 años lo hablo muy mal.**
+**Uno. Yo recibí clases de francés en el colegio, e incluso después de 7 años lo hablo muy mal.**
 
 Two. I tried to Learn Esperanto.
 
-**Dos. Intenté aprender  Esperanto.**
+**Dos. Intenté aprender esperanto.**
 
 Esperanto is meant to be a simple language but still I was terrible at it.
 
@@ -106,7 +107,7 @@ Esperanto is meant to be a simple language but still I was terrible at it.
 
 Three. I tried spanish and no luck there either.
 
-**Tres. Lo intenté con el Español, pero tampoco tuve suerte**
+**Tres. Lo intenté con el español, pero tampoco tuve suerte**
 
 Four. Same with Arabic. No luck there.
 
@@ -142,15 +143,15 @@ My idea is pure and simple.
 
 Each month, I will put together a compilation of everything I have learned into a script that I will have translated into Spanish. Since I don’t know spanish very well, I will you native spanish speaking translators to help me.
 
-**Cada mes, haré una recopilación de todo lo que he aprendido en un resumen que traduciré al Español. Dado que no hablo este idioma bien, voy a necesitar a un hablante nativo para que me ayude.**
+**Cada mes, haré una recopilación de todo lo que he aprendido en un resumen que traduciré al español. Dado que no hablo este idioma bien, voy a necesitar a un hablante nativo para que me ayude.**
 
 I will then upload the scripts with both the English and Spanish translation onto my website vidyuthkini.com and record a video of me reading the script.
 
-**Subiré los resúmenes en Inglés y Español a mi web vidyuthkini.com y grabaré un video leyéndolos.**
+**Subiré los resúmenes en inglés y español a mi web vidyuthkini.com y grabaré un video leyéndolos.**
 
 I hope to make it interesting and to explain the translations in a simple format that helps you the listener learn spanish with with me.
 
-**Espero hacerlo interesante y ser capaz de explicar las traducciones de manera sencilla para que ayude a los oyentes a aprender el idioma español con conmigo.**
+**Espero hacerlo interesante y ser capaz de explicar las traducciones de manera sencilla para que ayude a los oyentes a aprender el idioma español conmigo.**
 
 I will speak very slowly.
 
@@ -166,15 +167,15 @@ You can let me know if it interests you, make suggestions on how I can improve t
 
 And most of all we can see if I actually learn Spanish in the end. A handy experiment, done in public so everyone can see how it works for themselves.
 
-**Y sobre todo podremos comprobar si, al final, aprendo Español. Es un experimento artesano, mostrado en público y todo el mundo puede comprobar si funciona o no en ellos mismos.**
+**Y sobre todo podremos comprobar si, al final, aprendo español. Es un experimento artesano, mostrado en público y todo el mundo puede comprobar si funciona o no en ellos mismos.**
 
 All I can promise you is that currently I don’t speak Spanish. I have done some self study over the years but not much and I am not that great.  So any success can be measured here on this channel.
 
-**Lo que puedo asegurar es que actualmente no hablo Español. He estudiado por mi mismo algunos años pero no mucho y no soy bueno. Por lo que cualquier éxito podrá medirse en este canal.**
+**Lo que puedo asegurar es que actualmente no hablo español. He estudiado por mí mismo algunos años pero no mucho y no soy bueno. Por lo que cualquier éxito podrá medirse en este canal.**
 
 I have a book collection of over 2000 books and I take an active interest in a wide variety of subjects. I am hoping that all these interesting topics will help keep both you and me learning Spanish without all the boredom involved in most language courses.
 
-**Tengo una colección de mas de 2000 libros y un interés activo en una amplia variedad de materias. Espero que todos esos temas interesantes nos unan para aprender juntos Español lejos del aburrimiento que provocan la mayoría de los cursos de idiomas.**
+**Tengo una colección de más de 2000 libros y un interés activo en una amplia variedad de materias. Espero que todos esos temas interesantes nos unan para aprender juntos español lejos del aburrimiento que provocan la mayoría de los cursos de idiomas.**
 
 I really do hope that you like this channel. If you do. Please subscribe and get involved. Please let your friends know about this experiment and let them follow too. Perhaps, it will catch on and you can make your own version and experiment with the various ideas put forward in the videos.
 

@@ -1,7 +1,7 @@
 ---
-title: Time in a Day
+title: 'Multilingual: Time in a Day'
 date: '2021-08-31T01:06:17+04:00'
-lastmod: '2021-08-31T04:47:19+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1511}'
 original_name: timeinaday
 original_blob: blob/B/10/060.txt
@@ -15,13 +15,12 @@ categories:
 wikislug: timeinaday
 draft: false
 topics:
-- learning
+- multilingual
+path_step: 3
 ---
 
-[Arabic](arabic.md) | [Esperanto](esperanto.md) |[Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) |
-[Swahili](swahili.md) | [French](french.md) | [Hindi](hindi.md) | [Quick Links](quicklinks.md) | [Multilingual Texts](multilingual.md)
 
-# Time in a Day
+# Multilingual: Time in a Day
 
 There is only so much time in a day.
 

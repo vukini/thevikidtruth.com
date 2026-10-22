@@ -1,7 +1,7 @@
 ---
-title: whatisdifficult
+title: 'Multilingual: What Is Difficult'
 date: '2021-08-24T09:45:46+04:00'
-lastmod: '2021-08-29T07:36:28+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1367}'
 original_name: whatisdifficult
 original_blob: blob/B/7/667.txt
@@ -15,10 +15,12 @@ categories:
 wikislug: whatisdifficult
 draft: false
 topics:
-- learning
+- multilingual
+path_step: 2
 ---
 
-[Arabic](arabic.md) | [Esperanto](esperanto.md) |[Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) | [Swahili](swahili.md) | [French](french.md) | [Hindi](hindi.md) | [Quick Links](quicklinks.md)
+# Multilingual: What Is Difficult
+
 
 What does it mean that something is difficult. It means that you find it hard to do what you want. Maybe you don’t understand the subject, or that you need to have better skills, perhaps it relies or the cooperation of many people.
 
@@ -26,7 +28,7 @@ Difficult things can be complex or they can be simple but require a lot of effor
 
 ```
 Kion signifas, ke io estas malfacila.
-Gxi signifas, ke vi malfacile faras tion, kion vi volas.
+Ĝi signifas, ke vi malfacile faras tion, kion vi volas.
 Eble vi ne komprenas la temon, aŭ ke vi bezonas
 pli bonajn kapablojn, eble ĝi fidas aŭ la kunlaboron
 de multaj homoj. Malfacilaj aferoj povas esti kompleksaj

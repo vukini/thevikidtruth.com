@@ -1,8 +1,11 @@
-- {slug: spanish, title: "Spanish", color: "#E05A4F", intro: "Vocabulary, phrases, songs, articles and translations en español."}
-- {slug: french, title: "French", color: "#7FA7E0", intro: "Word studies with example sentences, stories and translations en français."}
-- {slug: esperanto, title: "Esperanto", color: "#8FB86B", intro: "Artikoloj, interviews, scripts, the Verda Bibilio and Dao De Jing in Esperanto."}
-- {slug: tokipona, title: "Toki Pona", color: "#F2B544", intro: "The minimalist language, one word at a time: jan, kala, sona, waso and the rest."}
-- {slug: swahili, title: "Swahili", color: "#E8D36A", intro: "Kiswahili 101: pronouns, phrases, basic vocabulary and reading."}
-- {slug: arabic, title: "Arabic", color: "#6FC2B4", intro: "Arabic and Arabizi, the Latin-letter-and-numeral way of writing it."}
-- {slug: asian, title: "Japanese, Mandarin & Hindi", color: "#D98FA0", intro: "Japanese colours and kana, Mandarin, Hindi and a Santali folktale."}
-- {slug: learning, title: "Learning languages", color: "#A89C86", intro: "How to learn languages, multilingual texts and practice pieces."}
+- {slug: spanish, title: "Spanish", color: "#E05A4F", intro: "Start here, then my Synergy Spanish scripts, vocabulary, phrases, readings and songs en español."}
+- {slug: french, title: "French", color: "#7FA7E0", intro: "Pronunciation and core grammar, a themed vocabulary page, then stories and translations en français."}
+- {slug: esperanto, title: "Esperanto", color: "#8FB86B", intro: "The alphabet and the word endings, lessons, my scripts, vocabulary, then artikoloj, interviews and longer readings."}
+- {slug: tokipona, title: "Toki Pona", color: "#F2B544", intro: "The minimalist language: sounds, grammar in a few rules, and all my word cards on one page."}
+- {slug: swahili, title: "Swahili", color: "#E8D36A", intro: "Kiswahili from the ground up: pronunciation, greetings, grammar, vocabulary by theme and two readings."}
+- {slug: arabic, title: "Arabic", color: "#6FC2B4", intro: "The script, roots and patterns, Gulf phrases, and Arabizi, the Latin-letter-and-numeral way of writing it."}
+- {slug: japanese, title: "Japanese", color: "#D98FA0", intro: "Hiragana, katakana and kanji, core grammar, essential phrases and colours."}
+- {slug: hindi, title: "Hindi", color: "#C9875B", intro: "Devanagari, core grammar and essential phrases."}
+- {slug: mandarin, title: "Mandarin", color: "#B86B7A", intro: "Tones and pinyin, core grammar and essential phrases."}
+- {slug: learning, title: "Learning Methods", color: "#A89C86", intro: "How I learn languages: comprehensible input, a daily routine and my favourite resources."}
+- {slug: multilingual, title: "Multilingual Texts", color: "#9AA6B8", intro: "Short pieces written side by side in several languages."}

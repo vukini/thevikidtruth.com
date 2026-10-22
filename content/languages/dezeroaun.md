@@ -1,7 +1,7 @@
 ---
-title: De Zéro à Un
+title: 'French: De Zéro à Un'
 date: '2021-08-26T10:23:59+04:00'
-lastmod: '2021-08-31T04:46:44+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1442}'
 original_name: dezeroaun
 original_blob: blob/B/10/055.txt
@@ -16,12 +16,11 @@ wikislug: dezeroaun
 draft: false
 topics:
 - french
+path_step: 5
 ---
 
-[Arabic](arabic.md) | [Esperanto](esperanto.md) |[Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) |
-[Swahili](swahili.md) | [French](french.md) | [Hindi](hindi.md) | [Quick Links](quicklinks.md) | [Multilingual Texts](multilingual.md)
 
-# De Zéro à Un
+# French: De Zéro à Un
 
 ```
 Préface

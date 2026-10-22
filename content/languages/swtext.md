@@ -1,7 +1,7 @@
 ---
-title: Vikid Swahili Text
+title: 'Swahili: Reading 2 – The Farmer and His Donkey'
 date: '2023-04-12T00:40:02+04:00'
-lastmod: '2023-04-12T00:44:25+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1763}'
 original_name: swtext
 original_blob: blob/B/12/204.txt
@@ -16,34 +16,35 @@ wikislug: swtext
 draft: false
 topics:
 - swahili
+path_step: 7
 ---
 
-[Swahili Home](swahili.md) | [Swahili 101](sw101.md) | [Basic Vocabulary](swvocab001.md)
-| [Basic Grammar](swgrammar001.md) | [Reading101](swreading101.md) | [Phrases101](swphrases101.md) | [Swahili Text](swtext.md)
+# Swahili: Reading 2 – The Farmer and His Donkey
 
-# Vikid Swahili Text
+The opening of a traditional story, line by line.
 
-```
-Mkulima alikuwa na punda wake.
-Siku moja mkulima alimwambia mwanawe
-"Huyu punda wetu ni mzuri sana, tukimauza tutapata pesa nyingi.
-```
+> Mkulima alikuwa na punda wake.
+> Siku moja mkulima alimwambia mwanawe:
+> "Huyu punda wetu ni mzuri sana, tukimuuza tutapata pesa nyingi."
 
-```
-The farmer had his donkey.
-One day the farmer told his son
-"This donkey of ours is very good, if we sell it we will get a lot of money.
-```
+> The farmer had his donkey.
+> One day the farmer said to his son:
+> "This donkey of ours is very good; if we sell him, we will get a lot of money."
 
-```
-Mkulima alikuwa na                  The farmer had
-punda                               donkey
-wake.                               his.
-Siku moja                           one Day
-mkulima alimwambia                  the farmer told him
-mwanawe                             his son
-"Huyu punda wetu                    "This is our donkey
-ni mzuri sana,                      it's very nice,
-tukimauza tutapata                  if we sell it we will get it
-pesa nyingi.                        a lot of money.
-```
+## Word by word
+
+| Swahili | Pieces | English |
+|---|---|---|
+| Mkulima | m-kulima | farmer (from *-lima*, cultivate) |
+| alikuwa na | a-li-kuwa na | he had ("was with") |
+| punda wake | | his donkey |
+| Siku moja | | one day |
+| alimwambia | a-li-mw-ambia | he told him |
+| mwanawe | mwana + -ake | his son |
+| Huyu punda wetu | | this donkey of ours |
+| ni mzuri sana | | is very good |
+| tukimuuza | tu-ki-m-uza | if we sell him (*-ki-* = if; *-m-* = him) |
+| tutapata | tu-ta-pata | we will get |
+| pesa nyingi | | a lot of money |
+
+Corrected: the original had *tukimauza*; the object marker for the donkey is *-m-*, so it's *tukimuuza*.

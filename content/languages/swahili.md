@@ -1,7 +1,7 @@
 ---
-title: Vikid Swahili
+title: 'Swahili: Start Here'
 date: '2021-03-21T05:11:39+04:00'
-lastmod: '2023-04-12T00:39:06+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1205}'
 original_name: swahili
 original_blob: blob/B/12/202.txt
@@ -16,29 +16,15 @@ wikislug: swahili
 draft: false
 topics:
 - swahili
+path_step: 1
 ---
 
-[Languages](languages.md) | [Arabic](arabic.md) | [Artikoloj](artikoloj.md)  | [Esperanto](esperanto.md) |  [French](french.md)  | [Hindi](hindi.md) | [Japanese](japanese.md)  | [Mandrin](mandrin.md) |[Spanish](spanish.md)   | [Swahili](swahili.md)  | [Tokipona](tokipona.md)
-|  [text-to-speech](https://ttsmp3.com/text-to-speech/US%20Spanish/)
+# Swahili: Start Here
 
- [Swahili Home](swahili.md) | [Swahili 101](sw101.md) | [Basic Vocabulary](swvocab001.md)
-| [Basic Grammar](swgrammar001.md) | [Reading101](swreading101.md) | [Phrases101](swphrases101.md) | [Swahili Text](swtext.md)
+I travelled to Tanzania for the first time in 2019. It's been a few years now, but I thought it would be great to learn a little Swahili for whenever I go back. This page is the front door: what the language is, how it sounds, how it is built, the phrases to learn first, and then a numbered path through everything else on the site.
 
-# Vikid Swahili
+![Swahili](/assets/swimg.jpg)
 
-I travelled to Tanzania for the first time in 2019. It's been a few years now but I thought it would be great to learn a
-little Swahili for whenever I go back.
-
-- [Swahili 101](sw101.md)
-- [Basic Vocabulary](swvocab001.md)
-- [Basic Grammar](swgrammar001.md)
-- [Reading101](swreading101.md)
-- [Swahili Text](swtext.md)
-
-#### Swahili is primarily spoken in East Afria and comes from the Bantu family of languages.
-
-![swimg](/assets/swimg.jpg)
-{.center}
 
 ## The plain idea
 
@@ -46,15 +32,31 @@ little Swahili for whenever I go back.
 
 Today it is the most widely spoken language of sub-Saharan Africa: estimates range from around 100 to over 200 million speakers, most of whom learned it as a second language. It is a national or official language of Tanzania, Kenya, Uganda, Rwanda and the Democratic Republic of the Congo, and an official language of the African Union and the East African Community. Since 2022 UNESCO has marked **7 July as World Kiswahili Language Day**.
 
-## Why learn it
+## 1. Alphabet and pronunciation
 
-- **Reach:** one language opens conversations from Mombasa to Kinshasa.
-- **Ease:** for an African language it is famously learner-friendly. It is written in the Latin alphabet, spelled almost exactly as it sounds, and stress nearly always falls on the second-to-last syllable.
-- **Culture:** Swahili poetry (*utenzi*) goes back centuries, and Tanzanian-born Abdulrazak Gurnah, Nobel laureate in Literature in 2021, grew up on Zanzibar speaking it (though he writes in English).
+Swahili uses the Latin alphabet and is spelled almost exactly as it sounds. There is no *q* or *x*, and *c* only appears in *ch*.
 
-## How it works: words built like Lego
+| Letter(s) | Sounds like | Example |
+|---|---|---|
+| a | *a* in "father" | **baba** father |
+| e | *e* in "bed" | **wewe** you |
+| i | *ee* in "see" | **mimi** I |
+| o | *o* in "more" (short) | **moto** fire |
+| u | *oo* in "food" | **tu** only |
+| ch | *ch* in "church" | **chai** tea |
+| dh | *th* in "this" | **dhambi** sin |
+| th | *th* in "think" | **thelathini** thirty |
+| gh | a gargled g (like French *r*) | **ghali** expensive |
+| ng' | *ng* in "singer" | **ng'ombe** cow |
+| ny | *ñ* in Spanish "niño" | **nyumba** house |
 
-Swahili is **agglutinative**: verbs are built by snapping prefixes onto a root. Take the root *-soma*, "read":
+- Every vowel is pronounced, and always the same way: *ma-ji*, *ka-ri-bu*.
+- **Stress falls on the second-to-last syllable**: ka-RI-bu, a-SAN-te, ha-BA-ri.
+- An *m* or *n* before a consonant can be a syllable on its own: *m-tu* (person), *n-chi* (country).
+
+## 2. How it works: words built like Lego
+
+Swahili is **agglutinative**: verbs are built by snapping prefixes onto a root. Take the root *-soma*, "read, study":
 
 | Swahili | Pieces | English |
 |---|---|---|
@@ -63,48 +65,52 @@ Swahili is **agglutinative**: verbs are built by snapping prefixes onto a root. 
 | anasoma | a + na + soma | he/she is reading |
 | nilisoma | ni + li + soma | I read (past) |
 | nitasoma | ni + ta + soma | I will read |
+| nimesoma | ni + me + soma | I have read |
 | sisomi | si + som + i | I don't read |
 
-Learn the subject markers (ni, u, a, tu, m, wa) and the tense markers (na present, li past, ta future, me perfect), and you can generate hundreds of sentences from every new verb. You'll recognise these from my pages like *anasoma* and *wanasoma*.
+Learn the subject markers (*ni, u, a, tu, m, wa*) and the tense markers (*na* present, *li* past, *ta* future, *me* perfect), and every new verb gives you hundreds of sentences. The full tables are on [Swahili: Basic Grammar](swgrammar001.md).
 
-## Noun classes: the big surprise
+### Noun classes: the big surprise
 
-Instead of masculine and feminine, Swahili sorts nouns into about **eight pairs of noun classes**, each with its own singular and plural prefix, and the prefix echoes through the sentence:
+Instead of masculine and feminine, Swahili sorts nouns into **noun classes**, each with its own singular and plural prefix, and the prefix echoes through the sentence:
 
 - **m-/wa-** (people): *mtoto* child, *watoto* children
 - **ki-/vi-** (many things): *kitabu* book, *vitabu* books
 - **m-/mi-** (trees, plants, some objects): *mti* tree, *miti* trees
 
-"The child is reading" is *mtoto anasoma*; "the children are reading" is *watoto wanasoma*. The verb agrees with the class. It sounds complicated, but it makes sentences very predictable once the patterns click.
+"The child is reading" is *mtoto anasoma*; "the children are reading" is *watoto wanasoma*. The verb agrees with the class. Think of noun classes as colour-coded cables: plug a blue noun in and every word that connects to it needs a blue end.
 
-## An everyday analogy: colour-coded cables
+## 3. Essential phrases
 
-Think of noun classes as colour-coded cables: plug a blue noun in and every word that connects to it needs a blue end. Once you see the colours, you always know which plug fits.
+| Swahili | English | Notes |
+|---|---|---|
+| **Hujambo?** | How are you? | literally "you have no matter?" |
+| **Sijambo.** | I'm fine. | "I have no matter" |
+| **Hamjambo?** / **Hatujambo.** | How are you all? / We are fine. | plural forms |
+| **Habari gani?** | How are things? | literally "what news?" |
+| **Nzuri (sana).** | Good (very good). | the standard reply |
+| **Shikamoo.** / **Marahaba.** | (respectful greeting to an elder) / (the elder's reply) | |
+| **Jina lako nani?** | What is your name? | |
+| **Jina langu ni ...** | My name is ... | |
+| **Nimefurahi kukuona.** | I'm glad to see / meet you. | |
+| **Karibu (sana).** | Welcome; you're welcome. | |
+| **Asante (sana).** | Thank you (very much). | |
+| **Tafadhali.** | Please. | |
+| **Samahani.** | Sorry, excuse me. | |
+| **Ndiyo / Hapana.** | Yes / No. | |
+| **Sielewi.** | I don't understand. | |
+| **Kwaheri.** / **Kwaherini.** | Goodbye (to one / to several). | |
 
-## A worked example: a first conversation
-
-- **Hujambo?** – How are you? (literally, "you have no matter?")
-- **Sijambo.** – I'm fine ("I have no matter").
-- **Habari gani?** – What's the news? (a very common greeting)
-- **Nzuri.** – Good.
-- **Jina lako nani?** – What is your name?
-- **Jina langu ni ...** – My name is ...
-- **Asante sana.** – Thank you very much.
-- **Karibu.** – Welcome / you're welcome.
-- **Kwaheri.** – Goodbye.
-
-Notice *-ko* "your" and *-ngu* "my" attaching to *jina* (name): *lako*, *langu*. That's the noun-class agreement at work again.
+More are on [Swahili: Greetings and Essentials](sw101.md) and [Swahili: Everyday Phrases](swphrases101.md).
 
 ## Common misconceptions
 
 - **"Swahili is a mix of Arabic and African languages."** Its structure is Bantu through and through; Arabic contributed vocabulary, not grammar.
-- **"Hakuna matata is a common everyday phrase."** It's genuine Swahili ("no problems") but is far more common in tourist contexts than in daily conversation; *hakuna shida* is often heard.
+- **"Hakuna matata is a common everyday phrase."** It's genuine Swahili ("no problems") but far more common in tourist contexts than in daily conversation; *hakuna shida* is often heard.
 - **"There's one standard everyone speaks."** Standard Swahili is based on the Zanzibar dialect, but Kenyan, Tanzanian and Congolese varieties differ, and Nairobi's youth slang Sheng mixes in English.
 
-## How it connects
+## The learning path
 
-- [Swahili 101](sw101.md), [Phrases 101](swphrases101.md), [Reading 101](swreading101.md) and [Swahili Text](swtext.md)
-- [How to Learn Languages](howtolearnlanguages.md)
-- [Arabic](arabic.md), the source of many Swahili loanwords.
+{{< langpath >}}
 
 Karibu sana. The truth revealed: Swahili is a language built for meeting strangers, which is exactly what it has been doing for a thousand years.

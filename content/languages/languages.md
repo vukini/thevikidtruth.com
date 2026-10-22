@@ -1,7 +1,7 @@
 ---
-title: viKid Languages
+title: 'Learning Methods: Overview and Resources'
 date: '2016-07-23T06:43:12+04:00'
-lastmod: '2023-03-27T08:33:14+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A153}'
 original_name: languages
 original_blob: blob/B/11/573.txt
@@ -16,18 +16,15 @@ wikislug: languages
 draft: false
 topics:
 - learning
+path_step: 1
 ---
 
-[Languages](languages.md) | [Arabic](arabic.md) | [Artikoloj](artikoloj.md)  | [Esperanto](esperanto.md) |  [French](french.md)  | [Hindi](hindi.md) | [Japanese](japanese.md)  | [Mandrin](mandrin.md) |[Spanish](spanish.md)   | [Swahili](swahili.md)  | [Tokipona](tokipona.md)
-|  [text-to-speech](https://ttsmp3.com/text-to-speech/US%20Spanish/)
 
-[Spanish Vocab 1](spanishvocab1.md) | [Articulos en Español](sparticle.md) | [Frases en español](frasesenespa-ol.md) |
-[Notes](synergyspanish.md) | [Spanish Songs](spsongs.md)
 
 ![lang-talk-854](/assets/lang-talk-854.jpg)
 {.center}
 
-# viKid Languages
+# Learning Methods: Overview and Resources
 
 I have flown to many lands of this world and not. I have cruised the cyberworld in the dark
 and light Net. The most import part of every journey is the language spoken,

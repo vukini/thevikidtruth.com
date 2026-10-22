@@ -220,6 +220,16 @@ pre.mermaid{background:var(--card);border:1px solid var(--line);border-radius:8p
 .catlist li{break-inside:avoid;padding:.25rem 0;border-bottom:1px dotted var(--line)}
 .catlist a{text-decoration:none;color:var(--ink);font-size:1.05rem}
 .catlist a:hover{color:var(--c)}
+.langcards{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:1rem;margin:2.5rem 0 1rem}
+.langcard{display:flex;flex-direction:column;gap:.35rem;padding:1.1rem 1.2rem;border:1px solid var(--line);border-top:4px solid var(--c);border-radius:10px;background:var(--card);text-decoration:none;color:var(--ink)}
+.langcard:hover{border-color:var(--c)}
+.langcard h2{font:600 1.5rem/1.1 var(--display);margin:0;letter-spacing:-.02em}
+.langcard .meta{margin:0}
+.langcard-intro{color:var(--muted);font-size:.95rem;margin:0;flex:1}
+.langcard-go{font:400 .78rem var(--mono);color:var(--c)}
+.langpn .pnstep{font:400 .78rem var(--mono);color:var(--muted);align-self:center}
+ol.langpath{padding-left:1.6rem}
+ol.langpath li{padding:.15rem 0}
 .crumbcat{color:var(--c)!important}
 .related{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem 2rem;margin:3rem 0 1rem;padding:1.4rem;border:1px solid var(--line);border-left:3px solid var(--c);border-radius:10px;background:var(--card)}
 .related h2{font:400 .78rem var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--amber);margin:0 0 .6rem}

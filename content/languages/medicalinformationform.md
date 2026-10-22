@@ -1,7 +1,7 @@
 ---
-title: MEDICAL INFORMATION FORM
+title: 'French: Medical Information Form'
 date: '2021-08-31T23:24:32+04:00'
-lastmod: '2021-08-31T23:31:20+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1564}'
 original_name: medicalinformationform
 original_blob: blob/B/10/126.txt
@@ -16,12 +16,11 @@ wikislug: medicalinformationform
 draft: false
 topics:
 - french
+path_step: 8
 ---
 
-[Arabic](arabic.md) | [Esperanto](esperanto.md) |[Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) |
-[Swahili](swahili.md) | [French](french.md) | [Hindi](hindi.md) | [Quick Links](quicklinks.md) | [Multilingual Texts](multilingual.md)
 
-# MEDICAL INFORMATION FORM
+# French: Medical Information Form
 
 ```
 Nom : Numéro de téléphone :

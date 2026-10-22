@@ -1,7 +1,7 @@
 ---
-title: Articulos en Español
+title: 'Spanish: En Brasil 2009'
 date: '2021-08-26T23:52:08+04:00'
-lastmod: '2021-08-27T00:31:34+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1455}'
 original_name: enbrasil2009
 original_blob: blob/B/7/435.txt
@@ -16,11 +16,11 @@ wikislug: enbrasil2009
 draft: false
 topics:
 - spanish
+path_step: 16
 ---
 
-[Languages](languages.md) | [Arabic](arabic.md) | [Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) | [Hindi](hindi.md) | [Tokipona](tokipona.md)
 
-# Articulos en Español
+# Spanish: En Brasil 2009
 
 [Vocab 1](spanishvocab1.md), [Articulos en Español](sparticle.md)
 
@@ -37,13 +37,3 @@ Ayer estuvo un muy buen dia, y el sol brille bastante fuerte.
 ```
 Ayer llegamos a Puerto Iguazú luego de un largo viaje en bus desde Buenos Aires.
 ```
-
-``
-``
-``
-``
-``
-``
-``
-``
-``

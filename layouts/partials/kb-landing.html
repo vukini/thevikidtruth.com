@@ -13,6 +13,17 @@
 </header>
 {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
 {{ $other := slice }}{{ range $pages }}{{ if not (intersect (.Params.topics | default slice) $slugs) }}{{ $other = $other | append . }}{{ end }}{{ end }}
+{{ if eq $sec "languages" }}
+<section class="langcards" aria-label="Languages" data-pagefind-ignore>
+{{ range $cats }}{{ $c := . }}{{ $ps := where $pages "Params.topics" "intersect" (slice .slug) }}{{ if $ps }}
+{{ $start := index (sort (where $ps "Params.path_step" "!=" nil) "Params.path_step") 0 }}
+<a class="langcard" href="{{ with $start }}{{ .RelPermalink }}{{ else }}{{ printf "/%s/category/%s/" $sec $c.slug | relURL }}{{ end }}" style="--c:{{ .color }}">
+  <h2>{{ .title }}</h2><p class="meta">{{ len $ps }} {{ cond (eq (len $ps) 1) "page" "pages" }}</p>
+  <p class="langcard-intro">{{ .intro }}</p>
+  <span class="langcard-go">{{ with $start }}Start here →{{ else }}Browse →{{ end }}</span>
+</a>{{ end }}{{ end }}
+</section>
+{{ end }}
 <nav class="catindex" aria-label="Categories" data-pagefind-ignore>
 {{ range $cats }}{{ $n := len (where $pages "Params.topics" "intersect" (slice .slug)) }}{{ if $n }}<a href="#{{ .slug }}" style="--c:{{ .color }}"><i></i>{{ .title }} <span>{{ $n }}</span></a>{{ end }}{{ end }}
 {{ with $other }}<a href="#other" style="--c:#B5AC9A"><i></i>Other <span>{{ len . }}</span></a>{{ end }}

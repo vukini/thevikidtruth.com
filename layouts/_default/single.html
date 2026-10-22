@@ -19,9 +19,11 @@
 {{ if eq .Section "writing" }}{{ partial "writing-related.html" . }}{{ else if and .Params.topics (index hugo.Data.topics .Section) }}{{ partial "related.html" . }}{{ else }}{{ partial "essays-on.html" . }}{{ end }}
 {{ if in (slice "writing" "essays") .Section }}{{ partial "subscribe.html" . }}{{ end }}
 {{ with .GetTerms "tags" }}<p class="meta tags" data-pagefind-ignore>Tags: {{ range . }}<a href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a> {{ end }}</p>{{ end }}
+{{ if .Params.path_step }}{{ partial "langpath-nav.html" . }}{{ else }}
 <nav class="pn" aria-label="More in {{ $sec.Title }}" data-pagefind-ignore>
   {{ $list := cond (eq .Section "writing") $sec.RegularPages.ByDate $sec.RegularPages.ByTitle }}
   {{ with $list.Prev . }}<a href="{{ .RelPermalink }}">← {{ .Title }}</a>{{ else }}<span></span>{{ end }}
   {{ with $list.Next . }}<a href="{{ .RelPermalink }}">{{ .Title }} →</a>{{ end }}
 </nav>
+{{ end }}
 {{ end }}

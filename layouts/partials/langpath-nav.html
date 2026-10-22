@@ -1,0 +1,8 @@
+{{/* Prev/next along a language's numbered learning path. ctx: page with path_step */}}
+{{ $ps := partial "langpath-list.html" . }}{{ $me := . }}{{ $i := 0 }}{{ $prev := false }}{{ $next := false }}
+{{ range $k, $p := $ps }}{{ if eq $p $me }}{{ $i = add $k 1 }}{{ if gt $k 0 }}{{ $prev = index $ps (sub $k 1) }}{{ end }}{{ if lt (add $k 1) (len $ps) }}{{ $next = index $ps (add $k 1) }}{{ end }}{{ end }}{{ end }}
+<nav class="pn langpn" aria-label="Learning path" data-pagefind-ignore>
+  {{ with $prev }}<a href="{{ .RelPermalink }}">← {{ .Title }}</a>{{ else }}<span></span>{{ end }}
+  <span class="pnstep">Step {{ $i }} of {{ len $ps }}</span>
+  {{ with $next }}<a href="{{ .RelPermalink }}">{{ .Title }} →</a>{{ else }}<span></span>{{ end }}
+</nav>

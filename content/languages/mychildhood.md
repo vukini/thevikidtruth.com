@@ -1,7 +1,7 @@
 ---
-title: Mon Enfance - My Childhood
+title: 'French: Mon Enfance (My Childhood)'
 date: '2021-09-05T23:11:57+04:00'
-lastmod: '2021-09-05T23:11:57+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1630}'
 original_name: mychildhood
 original_blob: blob/B/10/320.txt
@@ -16,12 +16,11 @@ wikislug: mychildhood
 draft: false
 topics:
 - french
+path_step: 4
 ---
 
-[Arabic](arabic.md) | [Esperanto](esperanto.md) |[Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) |
-[Swahili](swahili.md) | [French](french.md) | [Hindi](hindi.md) | [Quick Links](quicklinks.md) | [Multilingual Texts](multilingual.md)
 
-# Mon Enfance - My Childhood
+# French: Mon Enfance (My Childhood)
 
 ```
 Mon enfance

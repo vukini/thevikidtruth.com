@@ -1,0 +1,4 @@
+{{/* Pages on the same learning path as ctx (same first topic, with path_step), in step order. */}}
+{{ $t := index (.Params.topics | default slice) 0 }}
+{{ $ps := where (where .CurrentSection.RegularPages "Params.path_step" "!=" nil) "Params.topics" "intersect" (slice $t) }}
+{{ return (sort $ps "Params.path_step") }}

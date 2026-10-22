@@ -1,7 +1,7 @@
 ---
-title: Swahili Basic Vocabulary
+title: 'Swahili: Vocabulary'
 date: '2021-03-21T05:15:10+04:00'
-lastmod: '2021-03-23T07:07:05+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1207}'
 original_name: swvocab001
 original_blob: blob/B/6/415.txt
@@ -16,606 +16,455 @@ wikislug: swvocab001
 draft: false
 topics:
 - swahili
+path_step: 4
+aliases:
+- /languages/anaishi/
+- /languages/anakaa/
+- /languages/anapenda/
+- /languages/anasoma/
+- /languages/anatoka/
+- /languages/asubuhi/
+- /languages/damu/
+- /languages/gani/
+- /languages/habari/
+- /languages/hapa/
+- /languages/hawajambo/
+- /languages/hili/
+- /languages/hujambo/
+- /languages/huko/
+- /languages/huyu/
+- /languages/iko/
+- /languages/inaishi/
+- /languages/jani/
+- /languages/jina/
+- /languages/karibu/
+- /languages/kidogo/
+- /languages/kukuona/
+- /languages/kupata/
+- /languages/kwaheri/
+- /languages/lake/
+- /languages/lako/
+- /languages/langu/
+- /languages/maji/
+- /languages/marekani/
+- /languages/mhindi/
+- /languages/mimi/
+- /languages/moto/
+- /languages/mpaka/
+- /languages/mtanzania/
+- /languages/mwanafunzi/
+- /languages/mwanamume/
+- /languages/na/
+- /languages/nani/
+- /languages/naweza/
+- /languages/ni/
+- /languages/nimefurahi/
+- /languages/ninaishi/
+- /languages/ninakiu/
+- /languages/njaa/
+- /languages/nyinyi/
+- /languages/nyumba/
+- /languages/nyumbani/
+- /languages/nzuri/
+- /languages/pembe/
+- /languages/pia/
+- /languages/rafiki/
+- /languages/salama/
+- /languages/sana/
+- /languages/sasa/
+- /languages/si/
+- /languages/sisi/
+- /languages/tu/
+- /languages/tutakapofikia/
+- /languages/wamarekani/
+- /languages/wanakaa/
+- /languages/wanasema/
+- /languages/wanasoma/
+- /languages/wanatoka/
+- /languages/wao/
+- /languages/wapi/
+- /languages/wewe/
+- /languages/yangu/
+- /languages/yeye/
+- /languages/za/
+wikialiases:
+- anaishi
+- anakaa
+- anapenda
+- anasoma
+- anatoka
+- asubuhi
+- damu
+- gani
+- habari
+- hapa
+- hawajambo
+- hili
+- hujambo
+- huko
+- huyu
+- iko
+- inaishi
+- jani
+- jina
+- karibu
+- kidogo
+- kukuona
+- kupata
+- kwaheri
+- lake
+- lako
+- langu
+- maji
+- marekani
+- mhindi
+- mimi
+- moto
+- mpaka
+- mtanzania
+- mwanafunzi
+- mwanamume
+- na
+- nani
+- naweza
+- ni
+- nimefurahi
+- ninaishi
+- ninakiu
+- njaa
+- nyinyi
+- nyumba
+- nyumbani
+- nzuri
+- pembe
+- pia
+- rafiki
+- salama
+- sana
+- sasa
+- si
+- sisi
+- tu
+- tutakapofikia
+- wamarekani
+- wanakaa
+- wanasema
+- wanasoma
+- wanatoka
+- wao
+- wapi
+- wewe
+- yangu
+- yeye
+- za
 ---
 
-[Swahili Home](swahili.md) | [Swahili 101](sw101.md) | [Basic Vocabulary](swvocab001.md)
-| [Basic Grammar](swgrammar001.md) | [Reading101](swreading101.md)
-
-# Swahili Basic Vocabulary
-
-- [wewe](wewe.md)
-- [yeye](yeye.md)
-- [sisi](sisi.md)
-- [nyinyi](nyinyi.md)
-- [wao](wao.md)
-- [huyu](huyu.md) (person), [hii](hii.md "MISSING PAGE"), [hiki](hiki.md "MISSING PAGE"), [hili](hili.md), [huu](huu.md "MISSING PAGE")
-- [lile](lile.md "MISSING PAGE"), [ule](ule.md "MISSING PAGE"), [yule](yule.md "MISSING PAGE"), [ile](ile.md "MISSING PAGE"), [kile](kile.md "MISSING PAGE")
-- [hapa](hapa.md)
-- [pale](pale.md "MISSING PAGE")
-- [nani](nani.md)
-- [nini](nini.md "MISSING PAGE")
-- [wapi](wapi.md)
-- [lini](lini.md "MISSING PAGE")
-- [vipi](vipi.md "MISSING PAGE")
-- [si](si.md)
-- [ote](ote.md "MISSING PAGE")
-- [sana](sana.md) *(very)* / -ingi *(numerous)*
-- [baadhi ya](baadhi-ya.md "MISSING PAGE") / [chache](chache.md "MISSING PAGE")
-- [kidogo](kidogo.md)
-- [ingine](ingine.md "MISSING PAGE")
-- [moja](moja.md "MISSING PAGE")
-- [mbili](mbili.md "MISSING PAGE")
-- [tatu](tatu.md "MISSING PAGE")
-- [nne](nne.md "MISSING PAGE")
-- [tano](tano.md "MISSING PAGE")
-- [kubwa](kubwa.md "MISSING PAGE")
-- [refu](refu.md "MISSING PAGE")
-- [pana](pana.md "MISSING PAGE")
-- [nene](nene.md "MISSING PAGE")
-- [zito](zito.md "MISSING PAGE")
-- [dogo](dogo.md "MISSING PAGE")
-- [fupi](fupi.md "MISSING PAGE")
-- [embamba](embamba.md "MISSING PAGE")
-- [anana](anana.md "MISSING PAGE")
-- [bibi](bibi.md "MISSING PAGE"), [gashi](gashi.md "MISSING PAGE")
-- [mwanamume](mwanamume.md)
-- [mtu](mtu.md "MISSING PAGE")
-- [mtoto](mtoto.md "MISSING PAGE")
-- [mke](mke.md "MISSING PAGE")
-- [mume](mume.md "MISSING PAGE")
-- [mama](mama.md "MISSING PAGE")
-- [baba](baba.md "MISSING PAGE")
-- [mnyama](mnyama.md "MISSING PAGE")
-- [samaki](samaki.md "MISSING PAGE")
-- [ndege](ndege.md "MISSING PAGE")
-- [mbwa](mbwa.md "MISSING PAGE")
-- [chawa](chawa.md "MISSING PAGE")
-- [nyoka](nyoka.md "MISSING PAGE")
-- [funza](funza.md "MISSING PAGE"), [uchango](uchango.md "MISSING PAGE")
-- [mti](mti.md "MISSING PAGE")
-- [msitu](msitu.md "MISSING PAGE")
-- [fimbo](fimbo.md "MISSING PAGE")
-- [tunda](tunda.md "MISSING PAGE")
-- [mbegu](mbegu.md "MISSING PAGE")
-- [jani](jani.md)
-- [mzizi](mzizi.md "MISSING PAGE")
-- [gamba](gamba.md "MISSING PAGE")
-- [ua](ua.md "MISSING PAGE")
-- [nyasi](nyasi.md "MISSING PAGE")
-- [kamba](kamba.md "MISSING PAGE")
-- [ngozi](ngozi.md "MISSING PAGE")
-- [nyama](nyama.md "MISSING PAGE")
-- [damu](damu.md)
-- [mfupa](mfupa.md "MISSING PAGE")
-- [mori](mori.md "MISSING PAGE")
-- [yai](yai.md "MISSING PAGE")
-- [pembe](pembe.md)
-- [mkia](mkia.md "MISSING PAGE")
-- [unyoya](unyoya.md "MISSING PAGE")
-- [nywele](nywele.md "MISSING PAGE")
-- [kichwa](kichwa.md "MISSING PAGE")
-- [sikio](sikio.md "MISSING PAGE")
-- [jicho](jicho.md "MISSING PAGE")
-- [pua](pua.md "MISSING PAGE")
-- [kinywa](kinywa.md "MISSING PAGE")
-- [jino](jino.md "MISSING PAGE")
-- [ulimi](ulimi.md "MISSING PAGE")
-- [ukucha](ukucha.md "MISSING PAGE")
-- [mguu](mguu.md "MISSING PAGE")
-- [mguu](mguu.md "MISSING PAGE")
-- [goti](goti.md "MISSING PAGE")
-- [mkono](mkono.md "MISSING PAGE")
-- [bawa](bawa.md "MISSING PAGE"), [ubawa](ubawa.md "MISSING PAGE")
-- [tumbo](tumbo.md "MISSING PAGE")
-- [utumbo](utumbo.md "MISSING PAGE")
-- [shingo](shingo.md "MISSING PAGE")
-- [mgongo](mgongo.md "MISSING PAGE")
-- [kifua](kifua.md "MISSING PAGE")
-- [moyo](moyo.md "MISSING PAGE")
-- [ini](ini.md "MISSING PAGE")
-- [nywa](nywa.md "MISSING PAGE")
-- [la](la.md "MISSING PAGE")
-- [donoa](donoa.md "MISSING PAGE")
-- [amwa](amwa.md "MISSING PAGE")
-- [tema](tema.md "MISSING PAGE")
-- [tapika](tapika.md "MISSING PAGE")
-- [puliza](puliza.md "MISSING PAGE")
-- [pumua](pumua.md "MISSING PAGE")
-- [cheka](cheka.md "MISSING PAGE")
-- [ona](ona.md "MISSING PAGE")
-- [sikia](sikia.md "MISSING PAGE")
-- [fahamu](fahamu.md "MISSING PAGE"), -[jua](jua.md "MISSING PAGE")
-- [dhani](dhani.md "MISSING PAGE"), -[waza](waza.md "MISSING PAGE")
-- [nukilia](nukilia.md "MISSING PAGE")
-- [ogopa](ogopa.md "MISSING PAGE")
-- [lala](lala.md "MISSING PAGE")
-- [ishi](ishi.md "MISSING PAGE") (in a place)
-- [fa](fa.md "MISSING PAGE")
-- [ua](ua.md "MISSING PAGE")
-- [pigana](pigana.md "MISSING PAGE")
-- [winda](winda.md "MISSING PAGE")
-- [gonga](gonga.md "MISSING PAGE"), [-](untitled.md "MISSING PAGE")piga
-- [kata](kata.md "MISSING PAGE")
-- [pasua](pasua.md "MISSING PAGE")
-- [choma](choma.md "MISSING PAGE")
-- [kuna](kuna.md "MISSING PAGE"), -[parua](parua.md "MISSING PAGE")
-- [chimba](chimba.md "MISSING PAGE")
-- [ogelea](ogelea.md "MISSING PAGE")
-- [paa](paa.md "MISSING PAGE")
-- [tembea](tembea.md "MISSING PAGE")
-- [ja](ja.md "MISSING PAGE")
-- [gona](gona.md "MISSING PAGE") *(action)*
-- [kaa](kaa.md "MISSING PAGE")
-- [simama](simama.md "MISSING PAGE") *(action)*
-- [pindua](pindua.md "MISSING PAGE")
-- [anguka](anguka.md "MISSING PAGE")
-- [pa](pa.md "MISSING PAGE")
-- [shika](shika.md "MISSING PAGE")
-- [kaba](kaba.md "MISSING PAGE"), -[minya](minya.md "MISSING PAGE"), -[kamua](kamua.md "MISSING PAGE")
-- [sugua](sugua.md "MISSING PAGE")
-- [safisha](safisha.md "MISSING PAGE")
-- [futa](futa.md "MISSING PAGE")
-- [vuta](vuta.md "MISSING PAGE")
-- [guta](guta.md "MISSING PAGE")
-- [tupa](tupa.md "MISSING PAGE")
-- [funga](funga.md "MISSING PAGE")
-- [shona](shona.md "MISSING PAGE")
-- [hesabu](hesabu.md "MISSING PAGE")
-- [sema](sema.md "MISSING PAGE")
-- [imba](imba.md "MISSING PAGE")
-- [cheza](cheza.md "MISSING PAGE")
-- [elea](elea.md "MISSING PAGE")
-- [tiririka](tiririka.md "MISSING PAGE")
-- [ganda](ganda.md "MISSING PAGE")
-- [fura](fura.md "MISSING PAGE")
-- [jua](jua.md "MISSING PAGE")
-- [mwezi](mwezi.md "MISSING PAGE")
-- [nyota](nyota.md "MISSING PAGE")
-- [maji](maji.md)
-- [mvua](mvua.md "MISSING PAGE")
-- [mto](mto.md "MISSING PAGE")
-- [ziwa](ziwa.md "MISSING PAGE")
-- [bahari](bahari.md "MISSING PAGE")
-- [chumvi](chumvi.md "MISSING PAGE")
-- [jiwe](jiwe.md "MISSING PAGE")
-- [mchanga](mchanga.md "MISSING PAGE")
-- [vumbi](vumbi.md "MISSING PAGE")
-- [ardhi](ardhi.md "MISSING PAGE")
-- [wingu](wingu.md "MISSING PAGE")
-- [ukungu](ukungu.md "MISSING PAGE")
-- [mbingu](mbingu.md "MISSING PAGE")
-- [homu](homu.md "MISSING PAGE")
-- [theluji](theluji.md "MISSING PAGE")
-- [barafu](barafu.md "MISSING PAGE")
-- [moshi](moshi.md "MISSING PAGE")
-- [moto](moto.md)
-- [majivu](majivu.md "MISSING PAGE")
-- [waka](waka.md "MISSING PAGE")
-- [barabara](barabara.md "MISSING PAGE")
-- [mlima](mlima.md "MISSING PAGE")
-- [ekundu](ekundu.md "MISSING PAGE")
-- [kijani](kijani.md "MISSING PAGE")
-- [manjano](manjano.md "MISSING PAGE")
-- [eupe](eupe.md "MISSING PAGE")
-- [eusi](eusi.md "MISSING PAGE")
-- [usiku](usiku.md "MISSING PAGE")
-- [siku](siku.md "MISSING PAGE")
-- [mwaka](mwaka.md "MISSING PAGE")
-- [moto](moto.md)
-- [baridi](baridi.md "MISSING PAGE")
-- [nene](nene.md "MISSING PAGE")
-- [pya](pya.md "MISSING PAGE")
-- [zee](zee.md "MISSING PAGE")
-- [ema](ema.md "MISSING PAGE")
-- [baya](baya.md "MISSING PAGE")
-- [bovu](bovu.md "MISSING PAGE")
-- [chafu](chafu.md "MISSING PAGE")
-- [nyofu](nyofu.md "MISSING PAGE")
-- [duara](duara.md "MISSING PAGE")
-- [chungu](chungu.md "MISSING PAGE")
-- [butu](butu.md "MISSING PAGE")
-- [ororo](ororo.md "MISSING PAGE")
-- [kimaji](kimaji.md "MISSING PAGE")
-- [kavu](kavu.md "MISSING PAGE")
-- [sahihi](sahihi.md "MISSING PAGE")
-- [karibu](karibu.md)
-- [mbali](mbali.md "MISSING PAGE")
-- [kuume](kuume.md "MISSING PAGE"), [kulia](kulia.md "MISSING PAGE")
-
-[I -- mimi]
-
-[you -- [wewe](wewe.md)]
-
-[he -- [yeye](yeye.md)]
-
-[we -- [sisi](sisi.md)]
-
-[you -- [nyinyi](nyinyi.md)]
-
-[they -- [wao](wao.md)]
-
-[this -- [huyu](huyu.md) (person), [hii](hii.md "MISSING PAGE"), [hiki](hiki.md "MISSING PAGE"), [hili](hili.md), [huu](huu.md "MISSING PAGE")]
-
-[that -- [lile](lile.md "MISSING PAGE"), [ule](ule.md "MISSING PAGE"), [yule](yule.md "MISSING PAGE"), [ile](ile.md "MISSING PAGE"), [kile](kile.md "MISSING PAGE")]
-
-[here -- [hapa](hapa.md)]
-
-[there -- [pale](pale.md "MISSING PAGE")]
-
-[who -- [nani](nani.md) ]
-
-[what -- [nini](nini.md "MISSING PAGE") ]
-
-[where -- [wapi](wapi.md) ]
-
-[when -- [lini](lini.md "MISSING PAGE") ]
-
-[how -- [vipi](vipi.md "MISSING PAGE") ]
-
-[not -- [si](si.md)]
-
-[all -- -[ote](ote.md "MISSING PAGE")]
-
-[many -- [sana](sana.md) *(very)* / -ingi *(numerous)*]
-
-[some -- [baadhi ya](baadhi-ya.md "MISSING PAGE") / [chache](chache.md "MISSING PAGE")]
-
-[few -- [kidogo](kidogo.md)]
-
-[other -- -[ingine](ingine.md "MISSING PAGE")]
-
-[one -- [moja](moja.md "MISSING PAGE")]
-
-[two -- [mbili](mbili.md "MISSING PAGE")]
-
-[three -- [tatu](tatu.md "MISSING PAGE")]
-
-[four -- [nne](nne.md "MISSING PAGE")]
-
-[five -- [tano](tano.md "MISSING PAGE")]
-
-[big -- -[kubwa](kubwa.md "MISSING PAGE")]
-
-[long -- -[refu](refu.md "MISSING PAGE")]
-
-[wide -- -[pana](pana.md "MISSING PAGE")]
-
-[thick -- -[nene](nene.md "MISSING PAGE")]
-
-[heavy -- -[zito](zito.md "MISSING PAGE")]
-
-[small -- -[dogo](dogo.md "MISSING PAGE")]
-
-[short -- -[fupi](fupi.md "MISSING PAGE")]
-
-[narrow -- -[embamba](embamba.md "MISSING PAGE")]
-
-[thin -- -[anana](anana.md "MISSING PAGE")]
-
-[woman -- [bibi](bibi.md "MISSING PAGE"), [gashi](gashi.md "MISSING PAGE")]
-
-[man (adult male) -- [mwanamume](mwanamume.md)]
-
-[man (human being) -- [mtu](mtu.md "MISSING PAGE")]
-
-[child -- [mtoto](mtoto.md "MISSING PAGE")]
-
-[wife -- [mke](mke.md "MISSING PAGE")]
-
-[husband -- [mume](mume.md "MISSING PAGE")]
-
-[mother -- [mama](mama.md "MISSING PAGE")]
-
-[father -- [baba](baba.md "MISSING PAGE")]
-
-[animal -- [mnyama](mnyama.md "MISSING PAGE")]
-
-[fish -- [samaki](samaki.md "MISSING PAGE")]
-
-[bird -- [ndege](ndege.md "MISSING PAGE")]
-
-[dog -- [mbwa](mbwa.md "MISSING PAGE")]
-
-[louse -- [chawa](chawa.md "MISSING PAGE")]
-
-[snake -- [nyoka](nyoka.md "MISSING PAGE")]
-
-[worm -- [funza](funza.md "MISSING PAGE"), [uchango](uchango.md "MISSING PAGE")]
-
-[tree -- [mti](mti.md "MISSING PAGE")]
-
-[forest -- [msitu](msitu.md "MISSING PAGE")]
-
-[stick -- [fimbo](fimbo.md "MISSING PAGE")]
-
-[fruit -- [tunda](tunda.md "MISSING PAGE")]
-
-[seed -- [mbegu](mbegu.md "MISSING PAGE")]
-
-[leaf -- [jani](jani.md)]
-
-[root -- [mzizi](mzizi.md "MISSING PAGE")]
-
-[bark (of a tree) -- [gamba](gamba.md "MISSING PAGE")]
-
-[flower -- [ua](ua.md "MISSING PAGE")]
-
-[grass -- [nyasi](nyasi.md "MISSING PAGE")]
-
-[rope -- [kamba](kamba.md "MISSING PAGE")]
-
-[skin -- [ngozi](ngozi.md "MISSING PAGE")]
-
-[meat -- [nyama](nyama.md "MISSING PAGE")]
-
-[blood -- [damu](damu.md)]
-
-[bone -- [mfupa](mfupa.md "MISSING PAGE")]
-
-[fat (noun) -- [mori](mori.md "MISSING PAGE")]
-
-[egg -- [yai](yai.md "MISSING PAGE")]
-
-[horn -- [pembe](pembe.md)]
-
-[tail -- [mkia](mkia.md "MISSING PAGE")]
-
-[feather -- [unyoya](unyoya.md "MISSING PAGE")]
-
-[hair -- [nywele](nywele.md "MISSING PAGE")]
-
-[head -- [kichwa](kichwa.md "MISSING PAGE")]
-
-[ear -- [sikio](sikio.md "MISSING PAGE")]
-
-[eye -- [jicho](jicho.md "MISSING PAGE")]
-
-[nose -- [pua](pua.md "MISSING PAGE")]
-
-[mouth -- [kinywa](kinywa.md "MISSING PAGE")]
-
-[tooth -- [jino](jino.md "MISSING PAGE")]
-
-[tongue  -- [ulimi](ulimi.md "MISSING PAGE")]
-
-[fingernail -- [ukucha](ukucha.md "MISSING PAGE")]
-
-[foot -- [mguu](mguu.md "MISSING PAGE")]
-
-[leg -- [mguu](mguu.md "MISSING PAGE")]
-
-[knee -- [goti](goti.md "MISSING PAGE")]
-
-[hand -- [mkono](mkono.md "MISSING PAGE")]
-
-[wing -- [bawa](bawa.md "MISSING PAGE"), [ubawa](ubawa.md "MISSING PAGE")]
-
-[belly -- [tumbo](tumbo.md "MISSING PAGE")]
-
-[guts -- [utumbo](utumbo.md "MISSING PAGE")]
-
-[neck -- [shingo](shingo.md "MISSING PAGE")]
-
-[back -- [mgongo](mgongo.md "MISSING PAGE")]
-
-[breast -- [kifua](kifua.md "MISSING PAGE")]
-
-[heart -- [moyo](moyo.md "MISSING PAGE")]
-
-[liver -- [ini](ini.md "MISSING PAGE")]
-
-[to drink -- -[nywa](nywa.md "MISSING PAGE")]
-
-[to eat -- -[la](la.md "MISSING PAGE")]
-
-[to bite -- -[donoa](donoa.md "MISSING PAGE")]
-
-[to suck -- -[amwa](amwa.md "MISSING PAGE")]
-
-[to spit -- -[tema](tema.md "MISSING PAGE")]
-
-[to vomit -- -[tapika](tapika.md "MISSING PAGE")]
-
-[to blow -- -[puliza](puliza.md "MISSING PAGE")]
-
-[to breathe -- -[pumua](pumua.md "MISSING PAGE")]
-
-[to laugh -- -[cheka](cheka.md "MISSING PAGE")]
-
-[to see -- -[ona](ona.md "MISSING PAGE")]
-
-[to hear -- -[sikia](sikia.md "MISSING PAGE")]
-
-[to know -- -[fahamu](fahamu.md "MISSING PAGE"), -[jua](jua.md "MISSING PAGE")]
-
-[to think -- -fikiri, [dhani](dhani.md "MISSING PAGE"), -[waza](waza.md "MISSING PAGE")]
-
-[to smell -- -[nukilia](nukilia.md "MISSING PAGE")]
-
-[to fear -- -[ogopa](ogopa.md "MISSING PAGE")]
-
-[to sleep -- -[lala](lala.md "MISSING PAGE")]
-
-[to live -- -[ishi](ishi.md "MISSING PAGE") (in a place)]
-
-[to die -- -[fa](fa.md "MISSING PAGE")]
-
-[to kill -- -[ua](ua.md "MISSING PAGE")]
-
-[to fight -- -[pigana](pigana.md "MISSING PAGE")]
-
-[to hunt -- -[winda](winda.md "MISSING PAGE")]
-
-[to hit -- -[gonga](gonga.md "MISSING PAGE"), [-](untitled.md "MISSING PAGE")piga]
-
-[to cut -- -[kata](kata.md "MISSING PAGE")]
-
-[to split -- -[pasua](pasua.md "MISSING PAGE")]
-
-[to stab -- -[choma](choma.md "MISSING PAGE")]
-
-[to scratch -- -[kuna](kuna.md "MISSING PAGE"), -[parua](parua.md "MISSING PAGE")]
-
-[to dig -- -[chimba](chimba.md "MISSING PAGE")]
-
-[to swim -- -[ogelea](ogelea.md "MISSING PAGE")]
-
-[to fly -- -[paa](paa.md "MISSING PAGE")]
-
-[to walk -- -[tembea](tembea.md "MISSING PAGE")]
-
-[to come -- -[ja](ja.md "MISSING PAGE")]
-
-[to lie (as in a bed) -- -[gona](gona.md "MISSING PAGE") *(action)*]
-
-[to sit -- -[kaa](kaa.md "MISSING PAGE")]
-
-[to stand -- -[simama](simama.md "MISSING PAGE") *(action)*]
-
-[to turn (intransitive) -- -[pindua](pindua.md "MISSING PAGE")]
-
-[to fall -- -[anguka](anguka.md "MISSING PAGE")]
-
-[to give -- -[pa](pa.md "MISSING PAGE")]
-
-[to hold -- -[shika](shika.md "MISSING PAGE")]
-
-[to squeeze -- -[kaba](kaba.md "MISSING PAGE"), -[minya](minya.md "MISSING PAGE"), -[kamua](kamua.md "MISSING PAGE")]
-
-[to rub -- -[sugua](sugua.md "MISSING PAGE")]
-
-[to wash -- -[safisha](safisha.md "MISSING PAGE")]
-
-[to wipe -- -[futa](futa.md "MISSING PAGE")]
-
-[to pull -- -[vuta](vuta.md "MISSING PAGE")]
-
-[to push -- -[guta](guta.md "MISSING PAGE")]
-
-[to throw -- -[tupa](tupa.md "MISSING PAGE")]
-
-[to tie -- -[funga](funga.md "MISSING PAGE")]
-
-[to sew -- -[shona](shona.md "MISSING PAGE")]
-
-[to count -- -[hesabu](hesabu.md "MISSING PAGE")]
-
-[to say -- -[sema](sema.md "MISSING PAGE")]
-
-[to sing -- -[imba](imba.md "MISSING PAGE")]
-
-[to play -- -[cheza](cheza.md "MISSING PAGE")]
-
-[to float -- -[elea](elea.md "MISSING PAGE")]
-
-[to flow -- -[tiririka](tiririka.md "MISSING PAGE")]
-
-[to freeze -- -[ganda](ganda.md "MISSING PAGE")]
-
-[to swell -- -[fura](fura.md "MISSING PAGE")]
-
-[sun -- [jua](jua.md "MISSING PAGE")]
-
-[moon -- [mwezi](mwezi.md "MISSING PAGE")]
-
-[star -- [nyota](nyota.md "MISSING PAGE")]
-
-[water -- [maji](maji.md)]
-
-[rain -- [mvua](mvua.md "MISSING PAGE")]
-
-[river -- [mto](mto.md "MISSING PAGE")]
-
-[lake -- [ziwa](ziwa.md "MISSING PAGE")]
-
-[sea -- [bahari](bahari.md "MISSING PAGE")]
-
-[salt -- [chumvi](chumvi.md "MISSING PAGE")]
-
-[stone -- [jiwe](jiwe.md "MISSING PAGE")]
-
-[sand -- [mchanga](mchanga.md "MISSING PAGE")]
-
-[dust -- [vumbi](vumbi.md "MISSING PAGE")]
-
-[earth -- [ardhi](ardhi.md "MISSING PAGE")]
-
-[cloud -- [wingu](wingu.md "MISSING PAGE")]
-
-[fog -- [ukungu](ukungu.md "MISSING PAGE")]
-
-[sky -- [mbingu](mbingu.md "MISSING PAGE")]
-
-[wind -- [homu](homu.md "MISSING PAGE")]
-
-[snow -- [theluji](theluji.md "MISSING PAGE")]
-
-[ice -- [barafu](barafu.md "MISSING PAGE")]
-
-[smoke -- [moshi](moshi.md "MISSING PAGE")]
-
-[fire -- [moto](moto.md)]
-
-[ash -- [majivu](majivu.md "MISSING PAGE")]
-
-[to burn -- -[waka](waka.md "MISSING PAGE")]
-
-[road -- njia, [barabara](barabara.md "MISSING PAGE")]
-
-[mountain -- [mlima](mlima.md "MISSING PAGE")]
-
-[red -- -[ekundu](ekundu.md "MISSING PAGE")]
-
-[green -- [kijani](kijani.md "MISSING PAGE")]
-
-[yellow -- [manjano](manjano.md "MISSING PAGE")]
-
-[white -- -[eupe](eupe.md "MISSING PAGE")]
-
-[black -- -[eusi](eusi.md "MISSING PAGE")]
-
-[night -- [usiku](usiku.md "MISSING PAGE")]
-
-[day -- [siku](siku.md "MISSING PAGE")]
-
-[year -- [mwaka](mwaka.md "MISSING PAGE")]
-
-[warm -- [moto](moto.md)]
-
-[cold -- [baridi](baridi.md "MISSING PAGE")]
-
-[full -- -[nene](nene.md "MISSING PAGE")]
-
-[new -- -[pya](pya.md "MISSING PAGE")]
-
-[old -- -[zee](zee.md "MISSING PAGE")]
-
-[good -- -[ema](ema.md "MISSING PAGE")]
-
-[bad -- -[baya](baya.md "MISSING PAGE")]
-
-[rotten -- -[bovu](bovu.md "MISSING PAGE")]
-
-[dirty -- -[chafu](chafu.md "MISSING PAGE")]
-
-[straight -- [nyofu](nyofu.md "MISSING PAGE")]
-
-[round -- [duara](duara.md "MISSING PAGE")]
-
-[sharp (as a knife) -- [chungu](chungu.md "MISSING PAGE")]
-
-[dull (as a knife) -- [butu](butu.md "MISSING PAGE")]
-
-[smooth -- -[ororo](ororo.md "MISSING PAGE")]
-
-[wet -- [kimaji](kimaji.md "MISSING PAGE")]
-
-[dry -- -[kavu](kavu.md "MISSING PAGE")]
-
-[correct -- [sahihi](sahihi.md "MISSING PAGE")]
-
-[near -- [karibu](karibu.md)]
-
-[far -- [mbali](mbali.md "MISSING PAGE")]
-
-[right -- [kuume](kuume.md "MISSING PAGE"), [kulia](kulia.md "MISSING PAGE")]
+# Swahili: Vocabulary
+
+All the Swahili words from the old one-word cards, gathered into themed tables. Nouns show their **noun class** (singular/plural prefix pair) because that decides how every other word agrees with them. Adjective stems are written with a hyphen (*-zuri*) because they take a class prefix (*mtu mzuri*, a good person; *kitabu kizuri*, a good book).
+
+Memory hooks from my original cards are kept in the notes column.
+
+## People and family
+
+| Swahili | English | Class / notes |
+|---|---|---|
+| mtu, watu | person, people | m-/wa- |
+| mwanamume, wanaume | man, men | m-/wa- (also *mwanaume*) |
+| mwanamke, wanawake | woman, women | m-/wa- |
+| mtoto, watoto | child, children | m-/wa- |
+| mume / mke | husband / wife | m-/wa- |
+| baba / mama | father / mother | n- class, but agrees like m-/wa- (people) |
+| rafiki | friend | n- class; plural *marafiki* also common |
+| mwanafunzi, wanafunzi | student, students | m-/wa-. *Alice ni mwanafunzi.* Alice is a student. |
+| familia | family | n-. *Familia yangu inaishi Dubai.* My family lives in Dubai. |
+
+## Countries and nationalities
+
+The pattern: **U-/Ki-/M-/Wa-** gives country, language, person, people. *Kiswahili* is the language; *Waswahili* are the Swahili people.
+
+| Swahili | English | Notes |
+|---|---|---|
+| Marekani | America (USA) | |
+| Mmarekani, Wamarekani | an American, Americans | |
+| Tanzania | Tanzania | |
+| Mtanzania, Watanzania | a Tanzanian, Tanzanians | |
+| Uhindi / India | India | |
+| Mhindi, Wahindi | an Indian (person), Indians | not "India" (my old card had this wrong) |
+| Kiingereza | English (language) | |
+| Kiswahili | Swahili (language) | |
+
+## Pronouns and possessives
+
+| Swahili | English | Notes |
+|---|---|---|
+| mimi | I, me | |
+| wewe | you (one person) | "**you** just *wewe* all the time!" |
+| yeye | he, she | no gender distinction |
+| sisi | we | |
+| nyinyi (ninyi) | you all, y'all | |
+| wao | they | |
+| -angu | my | *yangu* (n- class: *nyumba yangu*, my house), *langu* (ji-/ma- class: *jina langu*, my name) |
+| -ako | your | *yako*, *lako*: *jina lako*, your name |
+| -ake | his, her | *yake*, *lake*: *jina lake*, his/her name |
+
+## Greetings and courtesy
+
+| Swahili | English | Notes |
+|---|---|---|
+| habari | news | *Habari gani?* How are you? (literally "what news?") |
+| gani | which, what kind | *Habari gani?* |
+| nzuri | good, fine | the standard reply to *habari*: "I'm good, I'm fine" |
+| hujambo? | how are you? (to one) | reply *sijambo* |
+| hawajambo | they are fine | *Hawajambo?* Are they well? |
+| salama | peace, safe | *Habari za asubuhi? Salama.* How's the morning? Peaceful. |
+| za | of (n- class plural) | "**Za** men **of**": *habari za hapa*, news of here |
+| karibu | welcome; near | *Karibu!* Welcome! |
+| kwaheri | goodbye | *kwaherini* to several people |
+| nimefurahi | I'm glad, I'm happy | *Nimefurahi kukuona.* I'm glad to meet you. |
+| kukuona | to see you, to meet you | ku- (infinitive) + ku- (you) + ona (see) |
+| jina | name | ji-/ma-. *Jina lako nani?* What is your name? |
+
+## Small words
+
+| Swahili | English | Notes |
+|---|---|---|
+| ni | is, am, are | *Mimi ni Mhindi.* I am Indian. |
+| si | is not, am not, are not | *Wao si Watanzania.* They are not Tanzanians. |
+| na | and; with | *Tom na Jane*; *nina* (ni + na) = I have |
+| pia | also, too | |
+| tu | just, only | *kidogo tu*, just a little |
+| sana | very, very much, a lot | *Asante sana.* Thank you very much. |
+| kidogo | a little, few | |
+| sasa | now | |
+| mpaka | until; border | *mpaka tutakapofikia*, until we get there |
+
+## Question words
+
+| Swahili | English | Example |
+|---|---|---|
+| nani? | who? | *Huyu ni nani?* Who is this? |
+| nini? | what? | *Unataka nini?* What do you want? |
+| wapi? | where? | *Benki iko wapi?* Where is the bank? |
+| lini? | when? | |
+| vipi? | how? | *Mambo vipi?* How's it going? |
+| gani? | which? | |
+
+## Here, there, this, that
+
+| Swahili | English | Notes |
+|---|---|---|
+| hapa | here | *Habari za hapa?* How are things here? |
+| huko | there (over there, far) | *Ni joto sana huko Dubai.* It's very hot there in Dubai. |
+| pale | there (that spot) | |
+| huyu / yule | this / that (person, m-/wa-) | *Huyu ni rafiki yangu.* This is my friend. |
+| hiki / kile | this / that (ki-/vi-) | *kitabu hiki*, this book |
+| hili / lile | this / that (ji-/ma-) | *jina hili*, this name. My old card said "in", which was wrong. |
+| huu / ule | this / that (m-/mi-) | *mti huu*, this tree |
+| hii / ile | this / that (n-) | *nyumba hii*, this house |
+| iko | it is (located), n- class | *Benki iko wapi?* Where is the bank? |
+
+## Home, food and needs
+
+| Swahili | English | Notes |
+|---|---|---|
+| nyumba | house | n- |
+| nyumbani | at home, home | nyumba + locative *-ni* |
+| maji | water | ma- class |
+| chakula | food | ki-/vi- |
+| njaa | hunger | *Nina njaa.* I'm hungry (I have hunger). |
+| kiu | thirst | *Nina kiu.* I'm thirsty. Two words: not *ninakiu*. |
+| moto | fire; hot (of things) | for weather say *joto*: *Kuna joto.* It's hot. |
+| asubuhi | morning | |
+
+## Verbs from the cards
+
+Each card was a conjugated form. Here they are with their root, so the pattern shows:
+
+| Form | Pieces | English | Root |
+|---|---|---|---|
+| ninaishi | ni-na-ishi | I live | -ishi live |
+| anaishi | a-na-ishi | he/she lives | -ishi |
+| inaishi | i-na-ishi | it lives (n- class, e.g. *familia*) | -ishi |
+| anakaa | a-na-kaa | he/she lives, stays, sits | -kaa stay |
+| wanakaa | wa-na-kaa | they live, stay | -kaa |
+| anapenda | a-na-penda | he/she likes, loves | -penda |
+| anasoma | a-na-soma | he/she studies, reads | -soma |
+| wanasoma | wa-na-soma | they study | -soma |
+| anatoka | a-na-toka | he/she comes from | -toka |
+| wanatoka | wa-na-toka | they come from | -toka |
+| wanasema | wa-na-sema | they speak, say | -sema |
+| naweza | n(i)-a-weza | I can | -weza |
+| kupata | ku-pata | to get | -pata. *Naweza kupata maji?* Can I get water? |
+| tutakapofikia | tu-ta-kapo-fikia | when we get there | -fikia arrive at |
+
+## Nature, body and the Swadesh list
+
+The core of my original Swadesh list (the 200 most basic concepts), cleaned up and corrected.
+
+### Animals and plants
+
+| Swahili | English | Class / notes |
+|---|---|---|
+| mnyama | animal | m-/wa- (animals agree like people) |
+| samaki | fish | n- |
+| ndege | bird; also aeroplane | n- |
+| mbwa | dog | n- |
+| chawa | louse | n- |
+| nyoka | snake | n- |
+| funza | worm, maggot | n- |
+| mti, miti | tree | m-/mi- |
+| msitu | forest | m-/mi- |
+| fimbo | stick | n- |
+| tunda, matunda | fruit | ji-/ma- |
+| mbegu | seed | n- |
+| jani, majani | leaf; also grass | ji-/ma- |
+| mzizi | root | m-/mi- |
+| gamba | bark (of a tree) | ji-/ma- |
+| ua, maua | flower | ji-/ma- |
+| nyasi | grass | n- |
+| kamba | rope | n- |
+
+### Body
+
+| Swahili | English | Class / notes |
+|---|---|---|
+| ngozi | skin | n- |
+| nyama | meat, flesh | n- |
+| damu | blood | n- |
+| mfupa | bone | m-/mi- |
+| mafuta | fat, grease, oil | ma- (old list had "mori", wrong) |
+| yai, mayai | egg | ji-/ma- |
+| pembe | horn | n- |
+| mkia | tail | m-/mi- |
+| unyoya | feather | u-/n- (plural *manyoya*) |
+| nywele | hair (of the head) | n- (singular *unywele*) |
+| kichwa | head | ki-/vi- |
+| sikio, masikio | ear | ji-/ma- |
+| jicho, macho | eye | ji-/ma- |
+| pua | nose | n- |
+| mdomo / kinywa | mouth | |
+| jino, meno | tooth | ji-/ma- |
+| ulimi | tongue | u-/n- |
+| ukucha | fingernail | u-/n- (plural *kucha*) |
+| mguu, miguu | foot, leg | m-/mi- |
+| goti, magoti | knee | ji-/ma- |
+| mkono, mikono | hand, arm | m-/mi- |
+| bawa, mabawa | wing | ji-/ma- |
+| tumbo | belly | ji-/ma- |
+| utumbo | intestines, guts | u- |
+| shingo | neck | n- |
+| mgongo | back | m-/mi- |
+| kifua | chest | ki-/vi- |
+| moyo, mioyo | heart | m-/mi- |
+| ini, maini | liver | ji-/ma- |
+
+### Actions (verb roots)
+
+Infinitives add *ku-*: *kunywa*, to drink.
+
+| Swahili | English | Swahili | English |
+|---|---|---|---|
+| -nywa | drink | -la | eat |
+| -uma | bite | -nyonya | suck |
+| -tema | spit | -tapika | vomit |
+| -puliza | blow | -pumua | breathe |
+| -cheka | laugh | -ona | see |
+| -sikia | hear | -jua | know |
+| -fikiri, -waza | think | -nusa | smell |
+| -ogopa | fear | -lala | sleep; lie down |
+| -ishi | live | -fa | die |
+| -ua | kill | -pigana | fight |
+| -winda | hunt | -piga | hit |
+| -kata | cut | -pasua | split |
+| -choma | stab; burn, roast | -kuna | scratch |
+| -chimba | dig | -ogelea | swim |
+| -ruka | fly; jump | -tembea | walk |
+| -ja | come | -kaa | sit; stay |
+| -simama | stand | -geuka | turn |
+| -anguka | fall | -pa | give |
+| -shika | hold | -minya | squeeze |
+| -sugua | rub | -osha | wash |
+| -futa | wipe | -vuta | pull |
+| -sukuma | push | -tupa | throw |
+| -funga | tie; close | -shona | sew |
+| -hesabu | count | -sema | say |
+| -imba | sing | -cheza | play |
+| -elea | float | -tiririka | flow |
+| -ganda | freeze | -vimba | swell |
+| -waka | burn (of a fire) | | |
+
+### The world around us
+
+| Swahili | English | Class / notes |
+|---|---|---|
+| jua | sun | ji-/ma- |
+| mwezi | moon; month | m-/mi- |
+| nyota | star | n- |
+| maji | water | ma- |
+| mvua | rain | n- |
+| mto, mito | river | m-/mi- |
+| ziwa, maziwa | lake | ji-/ma- (*maziwa* also means milk) |
+| bahari | sea | n- |
+| chumvi | salt | n- |
+| jiwe, mawe | stone | ji-/ma- |
+| mchanga | sand | m-/mi- |
+| vumbi | dust | ji-/ma- |
+| ardhi, nchi | earth, land | n- |
+| wingu, mawingu | cloud | ji-/ma- |
+| ukungu | fog | u- |
+| mbingu | sky, heavens | n- |
+| upepo | wind | u- (old list had "homu", wrong) |
+| theluji | snow | n- |
+| barafu | ice | n- |
+| moshi | smoke | m-/mi- |
+| moto | fire | m-/mi- |
+| majivu | ash | ma- |
+| njia, barabara | path, road | n- |
+| mlima, milima | mountain | m-/mi- |
+| usiku | night | u- |
+| siku | day | n- |
+| mwaka, miaka | year | m-/mi- |
+
+### Describing things (adjective stems)
+
+| Swahili | English | Swahili | English |
+|---|---|---|---|
+| -kubwa | big | -dogo | small |
+| -refu | long, tall | -fupi | short |
+| -pana | wide | -embamba | narrow, thin |
+| -nene | thick, fat | -zito | heavy |
+| -ekundu | red | -eupe | white |
+| -eusi | black | kijani | green (invariable) |
+| manjano | yellow (invariable) | -pya | new |
+| -zee | old | -ema / -zuri | good |
+| -baya | bad | -bovu | rotten |
+| -chafu | dirty | -nyoofu | straight |
+| duara | round | -kali | sharp; fierce |
+| butu | blunt | laini | smooth, soft |
+| -bichi | wet; raw, unripe | -kavu | dry |
+| sahihi | correct | -jaa (verb) | be full |
+| karibu | near | mbali | far |
+| kushoto | left | kulia | right |
+| moto | hot | baridi | cold |
+
+### Numbers and quantities
+
+| Swahili | English | Swahili | English |
+|---|---|---|---|
+| moja | one | mbili | two |
+| tatu | three | nne | four |
+| tano | five | sita | six |
+| saba | seven | nane | eight |
+| tisa | nine | kumi | ten |
+| -ote | all | -ingi | many |
+| baadhi ya | some | chache | few |
+| -ingine | other | | |
+
+## Corrections from the old cards and list
+
+- *Mhindi* is "an Indian (person)", not "India".
+- *hili* is "this" (ji-/ma- class), not "in".
+- *iko* is "it is (located)", not "it".
+- "I am thirsty" is *Nina kiu* (two words), and "I'm hungry" is *Nina njaa* (not *niza njaa*).
+- Fixed Swadesh entries: woman *mwanamke* (not *bibi, gashi*), fat *mafuta*, push *-sukuma*, smell *-nusa*, bite *-uma*, wind *upepo*, thin *-embamba*, wet *-bichi*, sharp *-kali*, full *-jaa*, fly *-ruka*, turn *-geuka*, wash *-osha*, lie down *-lala*, swell *-vimba*.

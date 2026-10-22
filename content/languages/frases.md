@@ -1,7 +1,7 @@
 ---
-title: Frases
+title: 'Spanish: Frases (Basic Sentences)'
 date: '2021-09-08T00:50:07+04:00'
-lastmod: '2022-07-28T02:37:15+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1634}'
 original_name: frases
 original_blob: blob/B/10/534.txt
@@ -16,13 +16,11 @@ wikislug: frases
 draft: false
 topics:
 - spanish
+path_step: 4
 ---
 
-[Languages](languages.md) | [Arabic](arabic.md) | [Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) | [Hindi](hindi.md) | [Tokipona](tokipona.md) |
-[Vocab 1](spanishvocab1.md) | [Articulos en Español](sparticle.md) | [Frases en español](frasesenespa-ol.md) |
-[Notes](synergyspanish.md) | [Songs](spsongs.md)
 
-# Frases
+# Spanish: Frases (Basic Sentences)
 
 [Spanish Text to Speech](https://imtranslator.net/translate-and-speak/speak/spanish/)
 
@@ -30,11 +28,11 @@ topics:
 
 ```
 Yo soy alumno.
-El es profesor.
+Él es profesor.
 Usted es alumno también.
 Juan es alumno.
-El es americano.
-El es de Nueva York.
+Él es americano.
+Él es de Nueva York.
 ```
 
 ```

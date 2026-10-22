@@ -1,7 +1,7 @@
 ---
-title: El  Festival  Wesak 2019
+title: 'Spanish: El Festival Wesak 2019'
 date: '2022-04-24T02:19:24+04:00'
-lastmod: '2022-04-24T02:27:54+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1657}'
 original_name: elfestivalwesak2019
 original_blob: blob/B/10/423.txt
@@ -16,15 +16,14 @@ wikislug: elfestivalwesak2019
 draft: false
 topics:
 - spanish
+path_step: 17
 ---
 
-[Languages](languages.md) | [Arabic](arabic.md) | [Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) | [Hindi](hindi.md) | [Tokipona](tokipona.md)
-[Vocab 1](spanishvocab1.md) |  [Articulos en Español](sparticle.md)
 
 - [En Brasil 2009](enbrasil2009.md)
 - [El  Festival  Wesak 2019](elfestivalwesak2019.md)
 
-# El  Festival  Wesak 2019
+# Spanish: El Festival Wesak 2019
 
 [The Article](https://www.sabiduriarcana.org/wesak.html)
 

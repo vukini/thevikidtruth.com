@@ -1,7 +1,7 @@
 ---
-title: La Ruse du Cerf
+title: 'Multilingual: La Ruse du Cerf'
 date: '2021-08-31T21:16:08+04:00'
-lastmod: '2021-08-31T21:28:30+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1561}'
 original_name: laruseducerf
 original_blob: blob/B/10/112.txt
@@ -15,13 +15,12 @@ categories:
 wikislug: laruseducerf
 draft: false
 topics:
-- french
+- multilingual
+path_step: 5
 ---
 
-[Arabic](arabic.md) | [Esperanto](esperanto.md) |[Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) |
-[Swahili](swahili.md) | [French](french.md) | [Hindi](hindi.md) | [Quick Links](quicklinks.md) | [Multilingual Texts](multilingual.md)
 
-# La Ruse du Cerf
+# Multilingual: La Ruse du Cerf
 
 ```
 Un conte chinois

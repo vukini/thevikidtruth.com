@@ -1,4 +1,6 @@
-{{/* slug -> RelPermalink for every published wiki page. Drafts are excluded by Hugo. */}}
+{{/* slug -> RelPermalink for every published wiki page. Drafts are excluded by Hugo.
+     A page may also claim old slugs of pages merged into it via `wikialiases:`. */}}
 {{ $s := newScratch }}
+{{ range $p := site.RegularPages }}{{ range $p.Params.wikialiases }}{{ $s.SetInMap "m" (string .) $p.RelPermalink }}{{ end }}{{ end }}
 {{ range $p := site.RegularPages }}{{ with $p.Params.wikislug }}{{ $s.SetInMap "m" (string .) $p.RelPermalink }}{{ end }}{{ end }}
 {{ return ($s.Get "m") }}

@@ -1,7 +1,7 @@
 ---
-title: Mornings
+title: 'Esperanto: Mornings'
 date: '2021-08-26T00:58:10+04:00'
-lastmod: '2021-08-26T01:00:15+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1444}'
 original_name: mornings1
 original_blob: blob/B/7/302.txt
@@ -16,11 +16,11 @@ wikislug: mornings1
 draft: false
 topics:
 - esperanto
+path_step: 7
 ---
 
-[languages](languages.md) | [arabic](arabic.md) | [spanish](spanish.md) | [mandrin](mandrin.md) | [japanese](japanese.md) | [tokipona](tokipona.md) | [Hindi](hindi.md) | [Esperanto Scripts](esperantoscripts.md)
 
-## [Mornings](mornings1.md)
+# Esperanto: Mornings
 
 Every morning I wake up, I have a coffee and drink lots of water.
 

@@ -1,7 +1,7 @@
 ---
-title: Learn Esperanto Website Notes
+title: 'Esperanto: Notes from Learn.Esperanto.com'
 date: '2021-08-24T00:52:56+04:00'
-lastmod: '2021-09-08T01:31:22+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1340}'
 original_name: learnesperanto
 original_blob: blob/B/10/345.txt
@@ -16,11 +16,11 @@ wikislug: learnesperanto
 draft: false
 topics:
 - esperanto
+path_step: 2
 ---
 
-[languages](languages.md) | [esperanto](esperanto.md) | [arabic](arabic.md) | [spanish](spanish.md) | [mandrin](mandrin.md) | [japanese](japanese.md) | [tokipona](tokipona.md) | [Hindi](hindi.md)
 
-## Learn Esperanto Website Notes
+# Esperanto: Notes from Learn.Esperanto.com
 
 The following notes are from [https://learn.esperanto.com/](https://learn.esperanto.com/). Please visit the site, its really simple and a great
 resource.

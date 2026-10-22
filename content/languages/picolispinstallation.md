@@ -1,7 +1,7 @@
 ---
-title: Picolisp Installation
+title: 'Esperanto: Picolisp Installation'
 date: '2021-09-01T01:17:10+04:00'
-lastmod: '2021-09-01T02:22:17+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1612}'
 original_name: picolispinstallation
 original_blob: blob/B/10/177.txt
@@ -15,13 +15,12 @@ categories:
 wikislug: picolispinstallation
 draft: false
 topics:
-- learning
+- esperanto
+path_step: 26
 ---
 
-[Arabic](arabic.md) | [Esperanto](esperanto.md) |[Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) |
-[Swahili](swahili.md) | [French](french.md) | [Hindi](hindi.md) | [Quick Links](quicklinks.md) | [Multilingual Texts](multilingual.md)
 
-# Picolisp Installation
+# Esperanto: Picolisp Installation
 
 ```
 # 21nov20 Software Lab. Aleksandro Burger

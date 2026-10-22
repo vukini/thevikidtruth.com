@@ -1,7 +1,7 @@
 ---
-title: La Sankta Bibilio
+title: 'Esperanto: La Sankta Biblio'
 date: '2016-05-10T08:16:07+04:00'
-lastmod: '2023-04-05T04:13:29+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A15}'
 original_name: bibilio
 original_blob: blob/B/11/773.txt
@@ -16,9 +16,10 @@ wikislug: bibilio
 draft: false
 topics:
 - esperanto
+path_step: 21
 ---
 
-# La Sankta Bibilio
+# Esperanto: La Sankta Biblio
 
 As a part of learning and enjoying esperanto I have decided to copy/translate
 parts of the Holy Bible. I am doing this because I find it interesting and
@@ -50,7 +51,7 @@ I’m just picking whatever is of interest and going forward from there.
 
 3. Kaj Dio diris: Estu lumo; kaj fariĝis lumo.
 
-4. Kaj Dio vidis la lumon, ke ĉi estas bona;
+4. Kaj Dio vidis la lumon, ke ĝi estas bona;
    kaj Dio apartigis la lumon de la mallumo.
 
 5. Kaj Dio nomis la lumon Tago, kaj la mallumon Li nomis Nokto.
@@ -58,13 +59,13 @@ I’m just picking whatever is of interest and going forward from there.
 ```
 
 ```
-6. Kaj Dio diris: Estu firmaĉo inter la akvo, kaj ĉi apartigu akvon de
+6. Kaj Dio diris: Estu firmaĵo inter la akvo, kaj ĉi apartigu akvon de
    akvo.
 
 7. Kaj Dio kreis la firmaĵo, kaj apartigis la akvon, kiu estas sub la
-   firmaĉo, de la akvo, kiu estas super la fimaĵo; kaj farigis tiel.
+   firmaĵo, de la akvo, kiu estas super la firmaĵo; kaj fariĝis tiel.
 
-8. Kaj Dio nomis la firmaĉon ĉielo. Kaj estis vespero, kaj estis
+8. Kaj Dio nomis la firmaĵon ĉielo. Kaj estis vespero, kaj estis
    mateno, la dua tago.
 ```
 
@@ -72,8 +73,8 @@ I’m just picking whatever is of interest and going forward from there.
 9.  Kaj Dio diris: Kolektiĝu la akvo de sub la ĉielo en unu lokon, kaj
     aperu la sekeco; kaj fariĝis tiel.
 
-10. Kaj Dio nomis la sekacon Tero, kaj la kolekton de la akvo Li nomis
-    Maroj. Kaj Dio vidis, ke ĉi estas bona.
+10. Kaj Dio nomis la sekecon Tero, kaj la kolekton de la akvo Li nomis
+    Maroj. Kaj Dio vidis, ke ĝi estas bona.
 
 11. Kaj Dio diris: Kreskigu de la tero verdaĵon, herbon, kiu naskas
     semon, frukrarbon, kiu donas laŭ sia speco frukton, kies semo estas
@@ -81,7 +82,7 @@ I’m just picking whatever is of interest and going forward from there.
 
 12. Kaj de la tero elkreskigis verdaĵon, herbon, kiu naskas semon laŭ
     sia speco, kaj arbon, kiu donas frukton, kies semo estas en ĉi mem
-    laŭ sia speco. Kaj Dio vidi, ke ĉi estas bona.
+    laŭ sia speco. Kaj Dio vidi, ke ĝi estas bona.
 
 13. Kaj estis vespero, kaj estis mateno, la tria tago.
 ```
@@ -102,7 +103,7 @@ I’m just picking whatever is of interest and going forward from there.
     teron,
 
 18. kaj por ke ili regu la tagon kaj la nokton kaj faru diferencon
-    inter la lumo kaj la mallumo. Kaj Dio vidis, ke ĉi estas bona.
+    inter la lumo kaj la mallumo. Kaj Dio vidis, ke ĝi estas bona.
 
 19. Kaj estis vespero, kaj estis mateno, la kvara tago.
 ```
@@ -113,7 +114,7 @@ I’m just picking whatever is of interest and going forward from there.
 
 21. Kaj Dio kreis la grandajn balenojn, kaj ĉiujn vivajn estaĵojn
     movecantajn, kiujn aperigis la akvo, laŭ ilia speco, kaj ĉiujn
-    flugilhavajn birdojn laŭ ilia speco. Kaj Dio vidis, ke ĉi estas
+    flugilhavajn birdojn laŭ ilia speco. Kaj Dio vidis, ke ĝi estas
     bona.
 
 22. Kaj Dio ilin benis, dirante: Fruktu kaj multigu, kaj plenigu la
@@ -128,7 +129,7 @@ I’m just picking whatever is of interest and going forward from there.
 ```
 25. Kaj Dio kreis la bestojn de la tero, laŭ ilia speco, kaj la
     brutojn, laŭ ilia speco, kaj ĉiuj rampaĵojn de la tero, laŭ ilia
-    speco. Kaj Dio vidis, ke ĉi estas bona.
+    speco. Kaj Dio vidis, ke ĝi estas bona.
 26. Kaj Dio diris: Ni Kreu homon laŭ Nia bildo, similan al Ni; kaj ili
     regu super la fiŝoj de la maro kaj super la birdoj de la ĉielo kaj
     super la brutoj, kaj super ĉiuj rampaĵoj, kiuj rampas sur la
@@ -152,7 +153,7 @@ I’m just picking whatever is of interest and going forward from there.
     al ĉiuj rampaĵoj sur la tero, kiuj havas en si vivan animon, la
     tutan verdan herbaĵon kiel manĵajo. Kaj fariĝis tiel.
 
-31. Kaj Dio regadis ĉion, kion Li kreis, kaj vidis, ke ĉi estas tre
+31. Kaj Dio regadis ĉion, kion Li kreis, kaj vidis, ke ĝi estas tre
     bona. Kaj estis vespero, kaj estis mateno, la ses tago.
 ```
 

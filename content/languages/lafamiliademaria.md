@@ -1,7 +1,7 @@
 ---
-title: La Familia de María
+title: 'Spanish: La Familia de María'
 date: '2021-08-26T10:42:01+04:00'
-lastmod: '2021-08-31T04:46:56+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1451}'
 original_name: lafamiliademaria
 original_blob: blob/B/10/056.txt
@@ -16,20 +16,19 @@ wikislug: lafamiliademaria
 draft: false
 topics:
 - spanish
+path_step: 13
 ---
 
-[Arabic](arabic.md) | [Esperanto](esperanto.md) |[Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) |
-[Swahili](swahili.md) | [French](french.md) | [Hindi](hindi.md) | [Quick Links](quicklinks.md) | [Multilingual Texts](multilingual.md)
 
-# La Familia de María
+# Spanish: La Familia de María
 
 - [iTalki Community Message](italkicommunity1.md)
 - [De Zéro à Un](dezeroaun.md)
 
 La madre de María es abogada y el padre
-de María es médico'.
+de María es médico.
 
-En la familia de María sólo hay tres personas: el padre, la madre у María.
+En la familia de María sólo hay tres personas: el padre, la madre y María.
 
 María no tiene hermanos. El padre de María se llama John y su madre se llama Anita.
 
@@ -41,7 +40,7 @@ Sus padres tienen muchos amigos estadounidenses, pero también tienen amigos lat
 
 Los padres de María no hablan español. Sólo hablan inglés.
 
-Cuandoº Enrique está de visita en la casa de María, él habla inglés con los padres de María.
+Cuando Enrique está de visita en la casa de María, él habla inglés con los padres de María.
 
 Cuando está con María, él habla inglés y español.
 

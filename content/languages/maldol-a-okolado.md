@@ -1,7 +1,7 @@
 ---
-title: Maldolĉa ĉokolado
+title: 'Esperanto: Maldolĉa Ĉokolado'
 date: '2021-08-26T02:54:22+04:00'
-lastmod: '2021-08-31T05:58:59+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1446}'
 original_name: maldolĉaĉokolado
 original_blob: blob/B/10/077.txt
@@ -16,11 +16,11 @@ wikislug: maldol-a-okolado
 draft: false
 topics:
 - esperanto
+path_step: 17
 ---
 
-[languages](languages.md) | [esperanto](esperanto.md) | [arabic](arabic.md) | [spanish](spanish.md) | [mandrin](mandrin.md) | [japanese](japanese.md) | [tokipona](tokipona.md) | [Esperanto Legaĵo](esperantolegajo.md) | [Artikoloj](artikoloj.md)
 
-## Maldolĉa ĉokolado
+# Esperanto: Maldolĉa Ĉokolado
 
 [Original Article](https://uea.facila.org/artikoloj/lega%C4%B5oj/maldol%C4%89a-%C4%89okolado-r250/), 
 [Maldolcxa-cxokolado (mp3)](/assets/maldolcxa-cxokolado.mp3)

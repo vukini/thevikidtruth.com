@@ -1,7 +1,7 @@
 ---
-title: Spiritual Wake Up
+title: 'Esperanto: Spiritual Wake Up'
 date: '2021-08-31T04:40:59+04:00'
-lastmod: '2021-08-31T04:46:07+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1557}'
 original_name: spiritualwakeup
 original_blob: blob/B/10/053.txt
@@ -16,12 +16,11 @@ wikislug: spiritualwakeup
 draft: false
 topics:
 - esperanto
+path_step: 8
 ---
 
-[Arabic](arabic.md) | [Esperanto](esperanto.md) |[Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) |
-[Swahili](swahili.md) | [French](french.md) | [Hindi](hindi.md) | [Quick Links](quicklinks.md) | [Multilingual Texts](multilingual.md)
 
-# Spiritual Wake Up
+# Esperanto: Spiritual Wake Up
 
 ```
 Tenu glason aŭ tason per ambaŭ manoj kaj asertu jenon:

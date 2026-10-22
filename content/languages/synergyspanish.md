@@ -1,7 +1,7 @@
 ---
-title: Notes
+title: 'Spanish: Synergy Spanish Notes'
 date: '2021-08-30T22:44:18+04:00'
-lastmod: '2021-09-02T01:34:22+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1507}'
 original_name: synergyspanish
 original_blob: blob/B/10/216.txt
@@ -16,13 +16,11 @@ wikislug: synergyspanish
 draft: false
 topics:
 - spanish
+path_step: 5
 ---
 
-[Languages](languages.md) | [Arabic](arabic.md) | [Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) | [Hindi](hindi.md) | [Tokipona](tokipona.md) |
-[Vocab 1](spanishvocab1.md) | [Articulos en Español](sparticle.md) | [Frases en español](frasesenespa-ol.md) |
-[Notes](synergyspanish.md) | [Songs](spsongs.md)
 
-# Notes
+# Spanish: Synergy Spanish Notes
 
 - `Hay` there is
 - `quiero`

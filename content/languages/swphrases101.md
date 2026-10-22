@@ -1,7 +1,7 @@
 ---
-title: Phrases 101
+title: 'Swahili: Everyday Phrases'
 date: '2021-03-23T07:17:02+04:00'
-lastmod: '2021-03-23T07:58:45+04:00'
+lastmod: '2026-10-22T22:00:00+04:00'
 original_id: '{A1300}'
 original_name: swphrases101
 original_blob: blob/B/6/432.txt
@@ -16,20 +16,28 @@ wikislug: swphrases101
 draft: false
 topics:
 - swahili
+path_step: 5
 ---
 
-[Swahili Home](swahili.md) | [Swahili 101](sw101.md) | [Basic Vocabulary](swvocab001.md)
-| [Basic Grammar](swgrammar001.md) | [Reading101](swreading101.md) | [Phrases101](swphrases101.md)
+# Swahili: Everyday Phrases
 
-# Phrases 101
+My first useful sentences, corrected and translated. Each one shows a pattern you can reuse.
 
-- [Mimi](mimi.md) [ni](ni.md) [Mhindi](mhindi.md).
-- [Ninaishi](ninaishi.md) Dubai.
-- [Ninaipenda](ninaipenda.md "MISSING PAGE") Tanzania.
-- Familia [yangu](yangu.md) [inaishi](inaishi.md) Dubai.
-- Ni [moto](moto.md) [huko](huko.md) Dubai.
-- [benki](benki.md "MISSING PAGE") [iko](iko.md) [wapi](wapi.md)
-- [ninakiu](ninakiu.md)
-- [naweza](naweza.md) [kupata](kupata.md) [maji](maji.md)
-- [niza](niza.md "MISSING PAGE") [njaa](njaa.md)
-- [mpaka](mpaka.md) [tutakapofikia](tutakapofikia.md)
+| Swahili | English | Pattern |
+|---|---|---|
+| **Mimi ni Mhindi.** | I am Indian. | X *ni* Y: X is Y |
+| **Ninaishi Dubai.** | I live in Dubai. | ni-na-ishi: I live |
+| **Ninaipenda Tanzania.** | I love Tanzania. | ni-na-**i**-penda: the *-i-* means "it" (Tanzania) |
+| **Familia yangu inaishi Dubai.** | My family lives in Dubai. | *familia* is n- class, so *yangu*, *inaishi* |
+| **Kuna joto sana huko Dubai.** | It's very hot there in Dubai. | weather heat is *joto*; *moto* is fire or hot things |
+| **Benki iko wapi?** | Where is the bank? | *iko* = it is (located) |
+| **Nina kiu.** | I'm thirsty. | *nina* = I have; *kiu* = thirst |
+| **Naweza kupata maji?** | Can I get some water? | *naweza* + infinitive |
+| **Nina njaa.** | I'm hungry. | *njaa* = hunger |
+| **Mpaka tutakapofikia.** | Until we get there. | *-kapo-* = "when" |
+| **Asante sana.** | Thank you very much. | |
+| **Samahani, sielewi.** | Sorry, I don't understand. | si-elew-i: negative present |
+| **Sema polepole, tafadhali.** | Speak slowly, please. | |
+| **Hii ni bei gani?** | How much is this? | *bei* = price |
+
+Fixes from my old notes: *ninakiu* is two words (*nina kiu*); *niza njaa* should be *nina njaa*; "it's hot" (weather) is *kuna joto* rather than *ni moto*.
