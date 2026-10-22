@@ -14,7 +14,6 @@ categories:
 - computing
 wikislug: linuxinstrospection
 draft: false
-review: retire
 ---
 
 # Linux Introspection

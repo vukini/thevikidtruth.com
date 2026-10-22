@@ -14,7 +14,6 @@ categories:
 - computing
 wikislug: commonlisp
 draft: false
-review: update
 ---
 
 [Read This!](caveatemptor.md) | | [Quick Links](quicklinks.md) | [Algorithms](algorithms.md) | [AssemblyLanguage](assemblylanguage.md) | [BASH](bash.md) |   [C-Programmming](cprogramming.md) |

@@ -14,7 +14,6 @@ categories:
 - computing
 wikislug: virtualbox
 draft: false
-review: update
 ---
 
 [Algorithms](algorithms.md) | [Apple](apple.md) | [AssemblyLanguage](assemblylanguage.md) |

@@ -14,7 +14,6 @@ categories:
 - computing
 wikislug: awk
 draft: false
-review: retire
 ---
 
 ### awk

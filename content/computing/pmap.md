@@ -14,7 +14,6 @@ categories:
 - computing
 wikislug: pmap
 draft: false
-review: retire
 ---
 
 [linuxtools](linuxtools.md)

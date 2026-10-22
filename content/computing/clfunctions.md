@@ -14,7 +14,6 @@ categories:
 - computing
 wikislug: clfunctions
 draft: false
-review: retire
 ---
 
 [Functions](clfunctions.md) | [with-output-to-string](withoutputtostring.md)

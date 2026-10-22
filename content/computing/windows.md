@@ -14,7 +14,6 @@ categories:
 - computing
 wikislug: windows
 draft: false
-review: retire
 ---
 
 [Windows](windows.md) | [Windows WSL](windowswsl.md) | [Operating Systems](os.md)

@@ -14,7 +14,6 @@ categories:
 - computing
 wikislug: rasberrypi
 draft: false
-review: retire
 ---
 
 # RasberryPi
