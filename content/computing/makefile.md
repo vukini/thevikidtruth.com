@@ -13,8 +13,7 @@ tags:
 categories:
 - computing
 wikislug: makefile
-draft: true
-review: update
+draft: false
 topics:
 - c-systems
 ---
@@ -36,6 +35,8 @@ topics:
   [Open Data Science](opendatascience.md)
 
 # [Makefile](makefile.md)
+
+> **Reading this in 2026.** This page reproduces a file from the PicoLisp sources, as I studied them around 2017 (the 32-bit C / pil32 implementation). PicoLisp is MIT-licensed, © Software Lab, Alexander Burger. Since 2020 the current PicoLisp is **pil21**, written in PicoLisp itself and compiled through LLVM, so the line-by-line details here belong to the older implementation; the ideas carry over. Current sources are at [software-lab.de](https://software-lab.de/down.html).
 
 ```
 # 02feb16abu

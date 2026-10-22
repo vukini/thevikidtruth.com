@@ -13,8 +13,7 @@ tags:
 categories:
 - computing
 wikislug: gcc
-draft: true
-review: update
+draft: false
 topics:
 - lisp
 ---
@@ -36,6 +35,12 @@ topics:
   [Open Data Science](opendatascience.md)
 
 # [gc.c](gcc.md)
+
+### What gc.c does
+
+This file is PicoLisp's **garbage collector**: the part of the interpreter that automatically reclaims memory no longer in use. In a language like Lisp you never call `free()`; you just make cells (`cons`, symbols, numbers) and let them go. The garbage collector periodically finds everything still reachable from the program's roots, keeps it, and recycles the rest. PicoLisp uses a classic **mark-and-sweep** collector: a first pass *marks* every cell reachable from the stack and global symbols, and a second pass *sweeps* the heap, returning unmarked cells to the free list. Reading it is a wonderfully compact way to see how automatic memory management actually works, in a few hundred lines rather than the tens of thousands a production JVM collector takes.
+
+> **Reading this in 2026.** This page reproduces a file from the PicoLisp sources, as I studied them around 2017 (the 32-bit C / pil32 implementation). PicoLisp is MIT-licensed, © Software Lab, Alexander Burger. Since 2020 the current PicoLisp is **pil21**, written in PicoLisp itself and compiled through LLVM, so the line-by-line details here belong to the older implementation; the ideas carry over. Current sources are at [software-lab.de](https://software-lab.de/down.html).
 
 ```
 /* 01may14abu

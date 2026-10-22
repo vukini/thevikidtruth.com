@@ -13,8 +13,7 @@ tags:
 categories:
 - computing
 wikislug: intelcpuarchitecture
-draft: true
-review: update
+draft: false
 topics:
 - os-hardware
 ---
@@ -89,3 +88,45 @@ Data can reside in:
 
 You need two apps on a phone for example. The apps will use the shared cache using the above to send info between
  the apps.
+
+### The plain idea
+
+A modern CPU is far faster than main memory, so between the two sits the **cache**: small, very fast memory holding recently-used data. As my notes show, each core has its own small private caches (L1, L2) and all cores share a big **Last Level Cache (LLC)**, split into slices. The cache is normally invisible, it just makes things fast, but its one observable side effect, *how long* a memory access takes, turns out to leak secrets. A cache *hit* is quick; a cache *miss* is slow. By measuring that difference, an attacker can learn what another program has been touching, even without reading its data.
+
+### Why it matters
+
+This is the heart of an entire class of **side-channel attacks**. They do not break encryption by maths; they watch the hardware's timing and infer the secret, a key, a password, a keystroke, from the pattern of cache hits and misses. The same shared-cache trick also builds a **covert channel**: two programs that are forbidden to talk can still signal each other by deliberately causing cache hits and misses. These ideas underpinned the famous **Spectre and Meltdown** vulnerabilities disclosed in 2018, which shook the whole industry precisely because the flaw was in the CPU design, not in any one program.
+
+### An everyday analogy: the library desk
+
+Imagine a shared library with a small "recently requested" shelf behind the desk. You cannot see what your rival checked out, but you *can* time the librarian. Ask for a book and if it comes back instantly, it was on the quick shelf, meaning someone requested it recently. By timing which books are fast to fetch, you deduce what your rival has been reading, without ever seeing their library card. That is a cache timing attack.
+
+### A worked example: Flush+Reload
+
+My notes sketch the classic Flush+Reload attack, which works when two processes share memory (such as a shared library):
+
+1. **Flush.** The attacker uses `clflush` to evict a specific shared cache line, so it is no longer cached.
+2. **Wait.** Let the victim run. If the victim accesses that line, it gets pulled back into the cache.
+3. **Reload.** The attacker reads the same line and *times* it. Fast means the victim touched it (a hit); slow means they did not (a miss).
+
+Repeat this on the cache lines of, say, a cryptographic table, and the pattern of hits reveals which entries the victim used, which can reconstruct the secret key. **Prime+Probe** is the sibling technique for when there is no shared memory: the attacker fills a cache set with its own data (prime), lets the victim run, then checks which of its lines got evicted (probe), inferring where the victim accessed.
+
+### A 2026 update
+
+Since these conference notes, the field exploded. **Spectre** and **Meltdown** (2018) showed that CPUs' *speculative execution* could be tricked into leaving secrets in the cache for exactly these attacks to read, affecting nearly every processor made for two decades. A long line of relatives followed (Foreshadow, ZombieLoad, and more recently Downfall and Inception in 2023). Mitigations now live everywhere, in CPU microcode, operating-system kernels and compilers, often at a real cost in performance. The deep lesson stands: **performance optimisations that are invisible to software can still be very visible to an attacker with a stopwatch.**
+
+### Common misconceptions
+
+- **"Cache attacks read memory directly."** They do not read content; they infer it from *timing*. That indirectness is what makes them so hard to stop.
+- **"Only encryption is at risk."** Keystroke timing, browsing behaviour and more have all been leaked this way.
+- **"A patch fixed it."** Many variants exist; mitigation is ongoing and often trades away speed.
+- **"This needs physical access."** Some variants have run from JavaScript in a web browser.
+
+### How it connects
+
+- [Stacks](stacks.md) and low-level memory layout.
+- [Encryption](encryption.md): the keys these attacks target.
+- [Exploitation](exploitation.md): where side channels fit the attacker's toolkit.
+- [Modern Operating Systems](modernoperatingsystems.md): the kernel-level mitigations.
+
+The truth revealed: the cache was built to make computers faster, and that very speed difference became a crack through which secrets leak, a reminder that in security, even time itself is a channel.

@@ -14,11 +14,22 @@ tags:
 categories:
 - computing
 wikislug: filesanddirectories
-draft: true
-review: update
+draft: false
 topics:
 - linux
 ---
+### The plain idea
+
+This page is a quick tour of how to move around the filesystem from *inside* a running [PicoLisp](picolisp.md) process, rather than from the shell. PicoLisp gives you a small set of functions, `pwd`, `dir`, `cd`, `chdir`, `dirname`, `basename`, that mirror the familiar Unix shell commands, so you can navigate directories and inspect files without ever leaving your Lisp session.
+
+### Why it matters
+
+When you write real programs you constantly need to find, list and read files. Knowing these functions means you can do file work interactively at the PicoLisp REPL, and script it, without shelling out. The `chdir` pattern in particular (do some work in another directory, then return) is the clean, safe way to handle a very common chore.
+
+### An everyday analogy
+
+Think of your PicoLisp session as a person walking through a building of rooms (directories). `pwd` is "which room am I in?", `dir` is "what is in this room?", `cd` is "walk into that room", and `chdir` is "pop into the next room, grab something, and come straight back to where I was". Keeping that last habit means you never get lost.
+
 
 ### Going MAD
 
@@ -89,3 +100,17 @@ then list directory **(dir)**, and finally restore back to the cwd.
 ```
 
 if you finally got the path to your file, you can get the path and filename with dirname and basname.
+
+### Common misconceptions
+
+- **"These return booleans."** They return strings or lists of strings (PicoLisp's *transient symbols*), and `NIL` on failure, which is how you test for success.
+- **"`cd` and `chdir` are the same."** `cd` changes directory and stays there; `chdir` runs some code elsewhere and restores your original directory afterwards.
+- **"This is the same as the shell."** The syntax is Lisp, and the return values feed straight into other Lisp code, which is the whole advantage.
+
+### How it connects
+
+- [PicoLisp](picolisp.md) and [Pil Sources](pilsource.md): the language these belong to.
+- [Bash](bash.md): the shell equivalents (`pwd`, `ls`, `cd`).
+- [storage_linkage](storagelinkage.md) and the rest of the computing notes.
+
+The truth revealed: a REPL that can walk your filesystem as easily as the shell blurs the line between "writing a program" and "using the computer", which is exactly the PicoLisp way.
