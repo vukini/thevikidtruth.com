@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: sasa
-draft: true
-review: retire
+draft: false
+topics:
+- swahili
 ---
 
 # Sasa -- Now

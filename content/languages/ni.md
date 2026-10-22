@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: ni
-draft: true
-review: retire
+draft: false
+topics:
+- swahili
 ---
 
 # ni -- is (present tense - to be)

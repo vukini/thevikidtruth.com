@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: yangu
-draft: true
-review: retire
+draft: false
+topics:
+- swahili
 ---
 
 # Yangu -- My

@@ -13,8 +13,7 @@ tags:
 categories:
 - languages
 wikislug: swgrammar001
-draft: true
-review: retire
+draft: false
 topics:
 - swahili
 ---

@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: pia
-draft: true
-review: retire
+draft: false
+topics:
+- swahili
 ---
 
 # Pia -- Also

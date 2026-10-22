@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: tu
-draft: true
-review: retire
+draft: false
+topics:
+- swahili
 ---
 
 # Tu - Just, Only

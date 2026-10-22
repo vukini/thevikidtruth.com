@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: nyumbani
-draft: true
-review: retire
+draft: false
+topics:
+- swahili
 ---
 
 # Nyumbani - home

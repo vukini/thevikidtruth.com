@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: nyumba
-draft: true
-review: retire
+draft: false
+topics:
+- swahili
 ---
 
 # Nyumba - House

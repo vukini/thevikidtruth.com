@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: rafiki
-draft: true
-review: retire
+draft: false
+topics:
+- swahili
 ---
 
 # Rafiki - Friend

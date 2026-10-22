@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: mwanamume
-draft: true
-review: retire
+draft: false
+topics:
+- swahili
 ---
 
 # mwanamume -- man

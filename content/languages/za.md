@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: za
-draft: true
-review: retire
+draft: false
+topics:
+- swahili
 ---
 
 # Za -- of

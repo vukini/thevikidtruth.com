@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: salama
-draft: true
-review: retire
+draft: false
+topics:
+- swahili
 ---
 
 # Salama -- Peace

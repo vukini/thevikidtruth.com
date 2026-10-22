@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: sana
-draft: true
-review: retire
+draft: false
+topics:
+- swahili
 ---
 
 # Sana -- Very much, A lot...

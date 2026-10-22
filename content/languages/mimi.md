@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: mimi
-draft: true
-review: retire
+draft: false
+topics:
+- swahili
 ---
 
 # Mimi - I

@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: mwanafunzi
-draft: true
-review: retire
+draft: false
+topics:
+- swahili
 ---
 
 # Mwanafunzi -- Student

@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: nimefurahi
-draft: true
-review: retire
+draft: false
+topics:
+- swahili
 ---
 
 # Nimefurahi - I'm glad

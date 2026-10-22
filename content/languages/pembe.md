@@ -13,8 +13,9 @@ tags:
 categories:
 - languages
 wikislug: pembe
-draft: true
-review: retire
+draft: false
+topics:
+- swahili
 ---
 
 # pembe -- horn
