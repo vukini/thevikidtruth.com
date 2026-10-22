@@ -6,11 +6,11 @@
   <p class="crumb"><a href="{{ "/" | relURL }}">Home</a> / {{ if eq .Section "writing" }}Writing{{ else if eq .Kind "section" }}Knowledge base{{ else }}{{ .Kind | title }}{{ end }}</p>
   <h1>{{ .Title }}</h1>
   {{ with .Description }}<p class="sub">{{ . }}</p>{{ end }}
-  <p class="meta">{{ len .RegularPages }} {{ if eq .Section "writing" }}essays{{ else }}entries{{ end }}</p>
+  <p class="meta">{{ len .RegularPages }} {{ if eq .Section "writing" }}essays{{ else if eq .Section "frontier-ai" }}roundups · <a href="{{ "frontier-ai/index.xml" | relURL }}">RSS feed</a>{{ else }}entries{{ end }}</p>
 </div>
   {{ partial "art.html" (dict "key" $key "eager" true) }}
 </header>
 {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
-<ol class="list">{{ range (cond (eq .Section "writing") .RegularPages.ByDate.Reverse .RegularPages.ByTitle) }}{{ partial "toc-item.html" . }}{{ end }}</ol>
+<ol class="list">{{ range (cond (in (slice "writing" "frontier-ai") .Section) .RegularPages.ByDate.Reverse .RegularPages.ByTitle) }}{{ partial "toc-item.html" . }}{{ end }}</ol>
 {{ end }}
 {{ end }}

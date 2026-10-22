@@ -38,6 +38,13 @@
   <a class="all" href="{{ "writing/" | relURL }}">All {{ len $writing }} essays →</a> <a class="all" href="{{ "writing/#topics" | relURL }}">Browse by topic →</a>
   {{ partial "subscribe.html" . }}
 </section>
+{{ $ai := (where site.RegularPages "Section" "frontier-ai").ByDate.Reverse }}{{ with $ai }}
+<section class="latest aistrip">
+  <h2 class="sec">Latest from Frontier AI</h2>
+  <ol class="list">{{ range first 3 . }}{{ partial "toc-item.html" . }}{{ end }}</ol>
+  <a class="all" href="{{ "frontier-ai/" | relURL }}">All Frontier AI roundups →</a> <a class="all" href="{{ "frontier-ai/index.xml" | relURL }}">RSS feed →</a>
+</section>
+{{ end }}
 <section class="kbsec">
   <h2 class="sec">Knowledge base</h2>
   <p><a class="mapcta" href="{{ "/map/" | relURL }}"><span class="mapcta-dots" aria-hidden="true"></span>See every section on one knowledge graph →</a></p>

@@ -56,6 +56,10 @@ enableRobotsTXT = true
     pageRef = "/essays"
     weight = 70
   [[menus.main]]
+    name = "Frontier AI"
+    pageRef = "/frontier-ai"
+    weight = 75
+  [[menus.main]]
     name = "Resources"
     pageRef = "/resources"
     weight = 80
