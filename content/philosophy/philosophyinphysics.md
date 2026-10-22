@@ -9,11 +9,13 @@ revisions: 6
 author: admin
 last_editor: admin
 tags:
-- science
+- philosophy
 categories:
-- science
+- philosophy
 wikislug: philosophyinphysics
 draft: false
+aliases:
+- /science/philosophyinphysics/
 ---
 
 # Philosophy in Physics

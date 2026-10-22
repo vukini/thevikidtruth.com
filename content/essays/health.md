@@ -9,11 +9,13 @@ revisions: 6
 author: admin
 last_editor: admin
 tags:
-- science
+- essays
 categories:
-- science
+- essays
 wikislug: health
 draft: false
+aliases:
+- /science/health/
 ---
 
 [Quicklinks](quicklinks.md) | [Favourites](favourites.md) | [Philosophy](philosophy.md) | [Music](music.md) |[Economics](economics.md) | [Finance](finance.md)

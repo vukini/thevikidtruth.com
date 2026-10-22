@@ -9,11 +9,13 @@ revisions: 5
 author: admin
 last_editor: admin
 tags:
-- science
+- essays
 categories:
-- science
+- essays
 wikislug: freemarkets
 draft: false
+aliases:
+- /science/freemarkets/
 ---
 
 # Free Markets

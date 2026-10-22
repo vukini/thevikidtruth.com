@@ -9,11 +9,13 @@ revisions: 7
 author: admin
 last_editor: admin
 tags:
-- science
+- essays
 categories:
-- science
+- essays
 wikislug: politics
 draft: false
+aliases:
+- /science/politics/
 ---
 
 # Politics

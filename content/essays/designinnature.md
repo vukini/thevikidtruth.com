@@ -9,11 +9,13 @@ revisions: 10
 author: admin
 last_editor: admin
 tags:
-- science
+- essays
 categories:
-- science
+- essays
 wikislug: designinnature
 draft: false
+aliases:
+- /science/designinnature/
 ---
 
 [Books](books.md)

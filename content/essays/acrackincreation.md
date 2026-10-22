@@ -9,11 +9,13 @@ revisions: 16
 author: admin
 last_editor: admin
 tags:
-- science
+- essays
 categories:
-- science
+- essays
 wikislug: acrackincreation
 draft: false
+aliases:
+- /science/acrackincreation/
 ---
 
 [Read This!](caveatemptor.md) | [Books](books.md) |
