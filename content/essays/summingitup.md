@@ -13,11 +13,14 @@ tags:
 categories:
 - misc
 wikislug: summingitup
-draft: true
-review: retire
+draft: false
 topics:
 - notebook
 ---
 
 ![sum](/assets/sum.jpg)
 {.center}
+
+### About the book
+
+*Summing It Up: From One Plus One to Modern Number Theory* by Avner Ash and Robert Gross (Princeton University Press, 2016) is a popular-but-serious tour of number theory, focused on the idea of summation, from simple arithmetic sums up through modular forms and the deep results at the frontier of modern research. It aims to give motivated general readers a genuine glimpse of advanced mathematics rather than only its easy outskirts.

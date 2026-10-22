@@ -13,8 +13,7 @@ tags:
 categories:
 - misc
 wikislug: quantumreality
-draft: true
-review: retire
+draft: false
 topics:
 - science
 ---
@@ -27,3 +26,7 @@ topics:
 
 ![quantumreality](/assets/quantumreality.jpg)
 {.right}
+
+### About the book
+
+*Quantum Reality: Beyond the New Physics* by Nick Herbert (1985) is a clear popular account of the interpretation problem in quantum mechanics. Herbert lays out the experimental facts and then surveys the rival "realities", Copenhagen, many-worlds, hidden variables and more, that physicists have proposed to explain what the equations actually mean. It is especially good on Bell's theorem and quantum entanglement, and remains a well-regarded introduction to why quantum mechanics is so philosophically strange.

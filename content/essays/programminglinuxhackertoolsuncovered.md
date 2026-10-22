@@ -13,8 +13,7 @@ tags:
 categories:
 - misc
 wikislug: programminglinuxhackertoolsuncovered
-draft: true
-review: retire
+draft: false
 topics:
 - math-tech
 ---
@@ -22,3 +21,7 @@ topics:
 [Books](books.md)
 
 # Programming Linux Hacker Tools Uncovered by Ivan Sklyarov
+
+### About the book
+
+*Programming Linux Hacker Tools Uncovered* by Ivan Sklyarov is a hands-on book about how security tools work by building them. It covers writing network scanners, sniffers, keyloggers and similar programs on Linux, explaining the underlying system and network programming. The aim, like much of my [security](exploitation.md) reading, is defensive understanding: you learn to protect systems by understanding how the tools that probe them are constructed.

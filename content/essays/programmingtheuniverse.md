@@ -13,8 +13,7 @@ tags:
 categories:
 - misc
 wikislug: programmingtheuniverse
-draft: true
-review: retire
+draft: false
 topics:
 - science
 ---
@@ -25,3 +24,7 @@ topics:
 # Programming the Universe
 
 ### by Seth Lloyd
+
+### About the book
+
+*Programming the Universe* by Seth Lloyd (2006) argues that the universe is, at bottom, a quantum computer: every particle carries information, and physical processes are literally computations. Lloyd, an MIT physicist and pioneer of quantum computing, explains how information theory and quantum mechanics combine to describe reality, and how this view sheds light on complexity, the arrow of time and the origins of structure in the cosmos. It connects naturally to my [Mathematics on Computers](mathoncomputers.md) and [binary](binary.md) notes.

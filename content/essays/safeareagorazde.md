@@ -13,8 +13,7 @@ tags:
 categories:
 - misc
 wikislug: safeareagorazde
-draft: true
-review: retire
+draft: false
 topics:
 - stories
 ---
@@ -23,3 +22,7 @@ topics:
 {.right}
 
 # Safe Area Gorazde
+
+### About the book
+
+*Safe Area Gorazde* by Joe Sacco (2000) is a landmark work of comics journalism. Sacco spent time in the Bosnian Muslim enclave of Gorazde during and after the 1992-95 war, and the book recounts, in detailed black-and-white comics, the experiences of ordinary people who survived the siege. It is widely praised for using the comics form to deliver serious, humane war reporting, and helped establish graphic journalism as a respected genre.

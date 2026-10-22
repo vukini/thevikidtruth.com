@@ -13,8 +13,7 @@ tags:
 categories:
 - misc
 wikislug: metamorphosis
-draft: true
-review: retire
+draft: false
 topics:
 - stories
 ---
@@ -23,3 +22,7 @@ topics:
 {.right}
 
 # Metamorphosis
+
+### About the book
+
+*The Metamorphosis* by Franz Kafka (1915) is one of the most famous works of 20th-century literature. It opens with the travelling salesman Gregor Samsa waking to find himself transformed into a giant insect, and follows how his family's care curdles into revulsion and neglect as he becomes a burden. A short, unsettling novella, it is read as a parable of alienation, the dehumanising pressure of work and duty, and the fragility of a person's place in their own family. The text is in the public domain.
