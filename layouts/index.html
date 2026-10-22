@@ -1,0 +1,9 @@
+{{ define "main" }}
+{{ with site.GetPage "/about/home" }}<article class="prose">{{ .Content }}</article>{{ end }}
+<section><h2>Latest writing</h2>
+{{ partial "page-list.html" (first 10 (where site.RegularPages "Section" "writing").ByDate.Reverse) }}
+<p><a href="{{ "writing/" | relURL }}">All writing →</a></p></section>
+<section><h2>Wiki</h2><ul class="page-list">
+{{ range site.Sections }}{{ if ne .Section "writing" }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a> <small>({{ len .RegularPages }})</small></li>{{ end }}{{ end }}
+</ul></section>
+{{ end }}

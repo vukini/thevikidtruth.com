@@ -1,0 +1,509 @@
+---
+title: La Kvara Intervjuo
+date: '2021-09-08T01:55:28+04:00'
+lastmod: '2021-09-08T02:37:07+04:00'
+original_id: '{A1641}'
+original_name: lakvaraintervjuo
+original_blob: blob/B/10/372.txt
+revisions: 3
+author: admin
+last_editor: admin
+tags:
+- languages
+categories:
+- languages
+wikislug: lakvaraintervjuo
+draft: false
+---
+
+[Arabic](arabic.md) | [Esperanto](esperanto.md) |[Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) | [Swahili](swahili.md) | [French](french.md) | [Hindi](hindi.md) | [Artikoloj](artikoloj.md) | [Quick Links](quicklinks.md)
+
+## La Kvara Intervjuo
+
+[Link to Video](https://www.youtube.com/watch?v=soVoR_eFmMk&t=785s)
+
+- 0s	Almost everyone guessed correctly	`	Preskaŭ ĉiuj ĝuste divenis		`
+- 11s	Welcome to the last interview of my Month of Interviews	`	Bonvenon al la lasta intervjuo de mia Monato de Intervjuoj		`
+- 17s	Apparently my clues weren't too hard, because almost everyone guessed correctly	`	Ŝajne miaj indikoj ne estis tro malfacilaj, ĉar preskaŭ ĉiuj divenis ĝuste		`
+- 25s	Who is the next person?	`	Kiu estas la sekva homo?		`
+- 27s	Katalin Kovats!	`	Katalin Kovats!		`
+- 29s	Of course, you all knew	`	Kompreneble, vi ĉiuj sciis, ke		`
+- 32s	She was the first person that I interviewed, and I have to say that I was really stressed	`	Ŝi estas la unua homo, kiun mi intervjuis, kaj mi devas diri, ke mi estis tre streĉita		`
+- 40s	in my mind, she's a celebrity	`	en mia menso, ŝi estas famulo,		`
+- 42s	But she is a really kind person and she has a lot of interesting things to say	`	sed ŝi estas tre afabla homo kaj ŝi havas multajn interesajn aferojn por diri.		`
+- 48s	I hope that you'll like the last interview of the Month of Interviews	`	esperas, ke plaĉos al vi la lasta intervjuo de la Monato de Intervjuoj		`
+- 54s	Hi, I'm with Katalin, the most famous Esperanto speaker - in my mind, in my opinion	`	Saluton, mi estas kun Katalin, la plej fama esperantisto - laŭ mi, laŭ mi		`
+- 1:02	This is the final interview for my channel	`	Ĉi tio estas la fina intervjuo por mia kanalo		`
+- 1:07	and I'm really thankful that I can speak with you	`	kaj mi vere dankas tion Mi povas paroli kun vi		`
+- 1:11	First I just want you to introduce yourself	`	Unue mi nur volas, ke vi prezentu vin.		`
+- 1:14	I know that a lot of people already know you	`	Mi scias, ke multaj homoj jam konas vin,		`
+- 1:19	but a lot of English speakers watch my videos	`	sed multaj anglalingvanoj spektas miajn filmetojn,		`
+- 1:24	so if they don't know you, I want you to introduce yourself now	`	do se ili ne konas vin, mi volas, ke vi prezentu vin nun		`
+- 1:30	Hello, Chelsea.	`	Saluton, Chelsea.		`
+- 1:31	It's also a big pleasure for me to talk with you, because when you started to learn Esperanto, you came to Edukado.net and I follow you	`	Estas ankaŭ granda plezuro por mi paroli kun vi, ĉar kiam vi eklernis Esperanton, vi venis al Edukado.net kaj mi sekvas vin		`
+- 1:45	And I'm very proud of you	`	Kaj mi tre fieras pri vi		`
+- 1:48	I admire your progress	`	Mi admiras vian progreson		`
+- 1:51	And yes, you said that I'm pretty well known in the Esperanto world	`	Kaj jes, vi diris, ke mi ' mi estas sufiĉe konata en la Esperantujo.		`
+- 1:57	I am Katalin Kovats, pedagogue, language teacher	`	Mi estas Katalin Kovats, pedagogo, lingvoinstruisto.		`
+- 2:03	I have four specialties: mathematics, Russian, Esperanto, and Italian	`	Mi havas kvar fakojn: matematiko, ruso, esperanto kaj italo.		`
+- 2:12	I've trained many teachers in Hungary	`	Mi trejnis multajn instruistojn en Hungario.		`
+- 2:17	I am Hungarian, but for the past twenty years I've lived in the Netherlands	`	Mi estas hungaro, sed dum la pasintaj dudek jaroj mi ' mi loĝis en Nederlando		`
+- 2:23	And in those twenty years, I've fully worked for Esperanto	`	Kaj en tiuj dudek jaroj, mi plene laboris por Esperanto.		`
+- 2:29	I have a French husband together we have a young polyglot son	`	Mi havas francan edzon kune, ni havas junan poliglotan filon.		`
+- 2:37	So my first question is, when and how did you learn about Esperanto?	`	Mia unua demando estas, kiam kaj kiel vi eksciis pri Esperanto?		`
+- 2:45	There were many meetings with Esperanto	`	Okazis multaj kunvenoj kun Esperanto.		`
+- 2:49	I was a small child when I saw an Esperanto book	`	Mi estis malgranda infano, kiam mi vidis Esperantan libron,		`
+- 2:54	which an aunt forgot in our house	`	kiun onklino forgesis en nia domo,		`
+- 2:57	I even have it - similar to it - here	`	mi eĉ havas - simile al ĝi - ĉi tie		`
+- 3:01	I liked it very much	`	mi tre ŝatis ĝin,		`
+- 3:03	I was maybe ten years old, but she took the book away, so I didn't learn it	`	mi havis eble dek jarojn, sed ŝi prenis la rezervu, do mi ne lernis ĝin		`
+- 3:08	Afterwards, a teacher spoke to us in Esperanto, but not about Esperanto	`	Poste, instruisto parolis al ni en Esperanto, sed ne pri Esperanto		`
+- 3:15	When I was nineteen years old, in my pedagogue college - or school, you call it	`	Kiam mi estis deknaŭjara, en mia pedagoga kolegio - aŭ lernejo, vi nomas ĝin		`
+- 3:25	The Russian teacher taught Esperanto	`	La rusa instruisto instruis Esperanton		`
+- 3:30	I wanted better grades in Russian	`	Mi volis pli bonan notojn en la rusa		`
+- 3:35	I thought, "I'll learn Esperanto and maybe my Russian will get better."	`	mi pensis, "Mi lernos Esperanton kaj eble mia ruso pliboniĝos."		`
+- 3:42	But the classes began at 6:30 in the morning	`	Sed la klasoj komenciĝis je 6:30 matene		`
+- 3:48	In the morning!	`	Matene!		`
+- 3:49	I said, "No, no, no. That's not for me."	`	Mi diris, "Ne, ne, ne. Tio ne estas por mi."		`
+- 3:54	But I promised Blazio Vaha - that was his name - that sometime, I swear, I'll learn Esperanto	`	Sed mi promesis al Blazio Vaha - tiel li nomiĝis - ke iam, mi ĵuras, mi lernos Esperanton		`
+- 4:03	When I was pregnant with my first son, who now will be forty years old, so I'll have a party now	`	Kiam mi gravediĝos kun mia unua filo, kiu nun havos kvardek jarojn, do mi festos nun, kiam		`
+- 4:12	I lay in a hospital for a long time	`	mi kuŝos hospitalon dum longa tempo		`
+- 4:16	I remembered in the last month, "I wanted to learn Esperanto!"	`	mi memoris en la lasta monato, "Mi volis lerni Esperanton!"		`
+- 4:20	I found a textbook, "Esperanto in Thirty Days"	`	Mi trovis lernolibron, "Esperanto en Tridek Tagoj"		`
+- 4:27	And I had thirty days, and I learned	`	Kaj mi havis tridek tagojn, kaj mi lernis		`
+- 4:30	Since then, I love it, and teach it, and do everything, my life is Esperanto, truly	`	De tiam, mi amas ĝin, instruas ĝin, kaj faras ĉion, mia vivo estas Esperanto, vere		`
+- 4:40	You, of course, speak more than one language	`	Vi, kompreneble, parolas pli ol unu lingvo		`
+- 4:46	Why do you think that learning Esperanto is important, or -	`	Kial vi pensas, ke lerni Esperanton gravas, aŭ -		`
+- 4:52	because you speak many languages, so why learn Esperanto?	`	ĉar vi parolas multajn lingvojn, do kial lerni Esperanton?		`
+- 4:56	To learn Esperanto is maybe important, but I would say, "useful"	`	Lerni Esperanton eble gravas, sed mi dirus, "utila"		`
+- 5:04	It's even more interesting	`	Estas eĉ pli interese		`
+- 5:06	I - in fact, my dissertation, my doctorate dissertation was about that	`	mi - fakte, mia disertacio, mia doktora disertacio temis pri tio,		`
+- 5:14	How Esperanto helps learners, Hungarian learners, learn the Italian language	`	kiel Esperanto helpas lernantojn, hungarajn lernantojn, lerni la italan lingvon		`
+- 5:23	That is called propaedeutic value	`	Tio nomiĝas propedeŭtika valoro		`
+- 5:27	Introductory value	`	Enkonduka valoro		`
+- 5:29	When languages are very different, structurally and vocabulary wise, it's very useful to first take a step with an easier language	`	Kiam lingvoj estas tre malsamaj, strukture kaj vortprovize, estas tre utile unue fari paŝon per pli facila lingvo		`
+- 5:45	You yourself experienced that	`	Vi mem spertis, ke		`
+- 5:47	To immediately learn a complicated language? Not everyone is capable of that	`	Por tuj lerni komplikan lingvon? Ne ĉiuj kapablas tion		`
+- 5:52	But if you psychologically have a huge success in the first, easier language	`	Sed se vi psikologie havas grandegan sukceson en la unua, pli facila lingvo		`
+- 6:02	Additionally it can be even a different structure than your own, that's double the profit	`	Aldone ĝi povas esti eĉ malsama strukturo ol la via, tio estas duobla profito		`
+- 6:10	But it's first important, and that's why I wrote my dissertation	`	Sed unue gravas, kaj tial mi verkis mian disertacion,		`
+- 6:16	that for children it's extremely important to first learn an easy language,	`	ke por infanoj treege gravas unue lerni facilan lingvon		`
+- 6:22	have success, and that success gives courage to learn the next one	`	, sukcesi, kaj tiu sukceso donas kuraĝon lerni la sekvan		`
+- 6:30	and gives information, awareness about your own language	`	kaj donas informon, konscion pri via propra lingvo		`
+- 6:36	Because when you learn a new language, you compare yours with the new language	`	Ĉar kiam vi lernas novan lingvon, vi komparas la vian kun la nova lingvo		`
+- 6:43	And learning a new language, we always also learn things about our own language	`	Kaj lernas nova lingvo, ni ĉiam ankaŭ lernas aferojn pri nia propra lingvo		`
+- 6:50	That's why it's important	`	Tial gravas		`
+- 6:52	Esperanto is, as the English say, a "spring board"	`	Esperanto estas, kiel diras la angloj, "saltotabulo		`
+- 6:57	A jumping board	`	" Saltotabulo		`
+- 7:00	You jump, and immediately go, and afterwards you learn other languages	`	Vi saltas, kaj tuj iras, kaj poste vi lernas aliajn lingvojn		`
+- 7:05	I agree. I'm not - of course, I'm not a language expert	`	Mi konsentas. Mi ne - kompreneble, mi ne estas lingva spertulo		`
+- 7:10	When I started learning Esperanto, I found that it helps me learn more about English	`	Kiam mi eklernis Esperanton, mi trovis, ke tio helpas min lerni pli pri la angla		`
+- 7:20	And yes, I can't imagine if I had wanted to learn Yiddish without Esperanto	`	Kaj jes, mi ne povas imagi, ĉu mi volis lerni la jidan sen Esperanto		`
+- 7:28	So yes, I agree	`	Do jes , Mi konsentas		`
+- 7:30	Yes, it's that, you're totally right	`	Jes, estas tio, vi tute pravas		`
+- 7:33	You - I said the theory as a linguist	`	Vi - mi diris la teorion kiel lingvisto		`
+- 7:37	But you know, because you experienced it	`	Sed vi scias, ĉar vi spertis ĝin		`
+- 7:39	So, I was right	`	Do, mi pravis		`
+- 7:41	When and where was your first congress, Esperanto congress?	`	Kiam kaj kie estis via unua kongreso, Esperanto-kongreso?		`
+- 7:47	I have to look at the year	`	Mi devas rigardi la jaron		`
+- 7:50	but the first congress was in Vienna, in the beginning of the 90s	`	sed la unua kongreso estis en Vieno, en la komenco de la 90-aj jaroj		`
+- 7:56	I remember, Vienna was very close to where I lived in Hungary	`	mi memoras, Vieno estis tre proksima al kie mi loĝis en Hungario		`
+- 8:03	It was maybe two hours by car	`	. Estis eble du horoj aŭte.		`
+- 8:05	So of course, we could go	`	Kompreneble, ni povus iri		`
+- 8:08	I'll say to you very shortly, that it's in a congress - you'll see in your first congress	`	I ' Mi diros al vi tre baldaŭ, ke ĝi estas en kongreso - vi vidos en via unua kongreso.		`
+- 8:17	Every person is in a big room for the opening ceremony	`	Ĉiu persono estas en granda ĉambro por la malferma ceremonio.		`
+- 8:23	When I entered, I saw thousands of people	`	Kiam mi eniris, mi vidis milojn da homoj.		`
+- 8:28	I was relatively new	`	Mi estis relative nova.		`
+- 8:31	My heart beat, and when every person started singing the Esperanto hymn together in one language, I cried	`	Mia koro batis, kaj kiam ĉiu homo ekkantis la esperantan himnon kune en unu lingvo, mi kriis		`
+- 8:45	It was such an emotional moment	`	Estis tiel emocia momento		`
+- 8:49	And of course, meetings, programs, all are wonderful	`	Kaj kompreneble, renkontiĝoj, programoj, ĉiuj estas mirindaj		`
+- 8:54	But the feeling of the opening and one hymn sang together is an unforgettable thing	`	Sed la sento de la malfermo kaj unu himno kantis kune estas neforgesebla afero, kiun		`
+- 9:03	I look forward to my first congress	`	mi antaŭĝojas al mia unua kongreso		`
+- 9:06	Soon, without COVID, yes	`	Baldaŭ, sen COVID, jes		`
+- 9:09	Do you - I think that the answer will be yes - have you traveled often because of Esperanto?	`	Ĉu vi - mi pensas ke la respondo estos jes - ĉu vi vojaĝis ofte pro Esperanto?		`
+- 9:18	Where was your favorite travel experience, and why?	`	Kie estis via plej ŝatata vojaĝa sperto, kaj kial?		`
+- 9:24	Yes, of course, the situation now is out of the ordinary	`	Jes, kompreneble, la situacio nun estas eksterordinara.		`
+- 9:31	I travel a lot virtually now	`	Mi vojaĝas multe praktike nun.		`
+- 9:34	But not long ago, I made a list for my project, to write a book	`	Sed antaŭ nelonge, mi faris liston por mia projekto, verki libron		`
+- 9:41	about the countries where I led Esperanto courses	`	pri la landoj, kie mi gvidis kursojn de Esperanto.		`
+- 9:44	It's more than thirty countries in every continent	`	Estas pli ol tridek landoj en ĉiu kontinento		`
+- 9:49	Africa, Australia, Asia, Europe, really - and also America, North and South	`	Afriko, Aŭstralio, Azio, Eŭropo, vere - kaj ankaŭ Ameriko, Nordo kaj Sudo		`
+- 9:58	So really I can say that I had a very interesting life teaching Esperanto in many, many countries	`	Do vere mi povas diri, ke mi havis tre interesan vivon instruante Esperanton en multaj, multaj landoj		`
+- 10:08	In many I wasn't there just once	`	En multaj mi ne estis tie nur unufoje		`
+- 10:12	The teaching, the courses, were totally unique	`	La instruado, la kursoj estis tute unikaj		`
+- 10:17	People who travel a lot with tourist agencies	`	Homoj, kiuj multe vojaĝas kun turismaj agentejoj,		`
+- 10:24	have a picture that someone organizes for them	`	havas bildon, kiun iu organizas por ili		`
+- 10:29	Hotel and sightseeing	`	Hotelon kaj turismadon.		`
+- 10:32	But Esperanto speakers who live with other Esperanto speakers in their home, eat, live with them, have an absolutely different experience and life	`	Sed esperantistoj, kiuj loĝas kun aliaj esperantistoj en sia hejmo, manĝas, loĝas kun ili, havas tute alian sperton kaj vivo		`
+- 10:45	In almost every country I lived with Esperanto speakers	`	En preskaŭ ĉiuj landoj, kiujn mi vivis kun esperantistoj, kiujn		`
+- 10:51	I experienced - for example, in one country they said, "Katalin, I hope that you're a vegetarian."	`	mi spertis - ekzemple, en unu lando ili diris, "Katalin, mi esperas, ke vi estas vegetarano."		`
+- 10:58	After one week, "Katalin, I hope that you aren't a vegetarian." etc.	`	Post unu semajno, "Katalin, mi esperas, ke vi ne estas vegetarano." ktp.		`
+- 11:03	You have to adapt a lot	`	Vi devas multe adaptiĝi.		`
+- 11:07	It's difficult to work in that way, because you live with them and then talk at night	`	Estas malfacile labori tiel, ĉar vi loĝas kun ili kaj poste parolas nokte.		`
+- 11:13	But the most beautiful experiences were the visits and living with local Esperanto speakers	`	Sed la plej belaj spertoj estis la vizitoj kaj loĝado kun lokaj Esperanto-parolantoj.		`
+- 11:21	I wouldn't say a country, I don't want to hurt anyone	`	Mi ne dirus landon, mi ne donos. Mi volas vundi iun ajn,		`
+- 11:26	but because of those interesting parts of my travels, course trips, I am now starting to write a book	`	sed pro tiuj interesaj partoj de miaj vojaĝoj, kursvojaĝoj, mi nun komencas verki libron		`
+- 11:37	Maybe sometime you can read it	`	Eble iam vi povas legi ĝin		`
+- 11:40	Did you ever use Pasporta Servo?	`	Ĉu vi iam uzis Pasporta Servon?		`
+- 11:43	I'll say, officially no, because I always had invitations, but I know it	`	Mi diros, oficiale ne, ĉar mi ĉiam havis invitojn, sed mi scias ĝin		`
+- 11:49	Many times I stayed with a person who, in fact, was part of Pasporta Servo	`	Multfoje mi restis kun persono, kiu fakte estis parto de Pasporta Servo,		`
+- 11:56	I've never - I don't think - had to call someone and ask to stay with them	`	kiun mi neniam - mi kredas - devis telefoni al iu kaj petu resti kun ili		`
+- 12:02	But I lived with hosts	`	Sed mi loĝis kun gastigantoj -		`
+- 12:05	I am - maybe luckily, I myself didn't have to request a place to stay the night	`	mi feliĉe, mi mem ne devis peti lokon por tranokti,		`
+- 12:14	but people said, "Katalin, stay with me, stay with me."	`	sed homoj diris: "Katalin, restu kun mi, restu kun mi."		`
+- 12:17	It was a more favorable situation	`	Estis pli favora situacio, ke		`
+- 12:21	I also taught Esperanto in a college, and to other young people, and I always said in Hungary,	`	mi ankaŭ instruis Esperanton en kolegio, kaj al aliaj junuloj, kaj mi ĉiam diris en Hungario,		`
+- 12:29	"You can travel, you don't have to pay. You'll pay through speaking Esperanto. It's your money, your currency."	`	"Vi povas vojaĝi, vi ne devas pagi. Vi pagos per parolado de Esperanto. Ĝi estas via mono, via valuto. "		`
+- 12:39	Many have traveled thanks to that, it's a wonderful service	`	Multaj vojaĝis danke al tio, ĝi estas mirinda servo		`
+- 12:44	And there's an American, Amanda, maybe you heard about her, from Sacramento	`	Kaj estas usonano, Amanda, eble vi aŭdis pri ŝi, el Sakramento,		`
+- 12:50	who, if I remember well, more than one year - maybe two years, traveled through Europe through Pasporta Servo	`	kiu, se mi bone memoras, pli ol unu jaro - eble du jarojn, vojaĝis tra Eŭropo tra Pasporta Servo		`
+- 12:59	It was more than twenty years ago	`	Estis antaŭ pli ol dudek jaroj		`
+- 13:02	She now has native Esperanto speaking children	`	Ŝi nun havas denaskajn esperantoparolantajn infanojn.		`
+- 13:06	She really did that	`	Ŝi vere faris tion, ke		`
+- 13:08	I know that for the most part, you - or maybe I'm wrong - but I think that for the most part, you speak Esperanto with your family	`	mi scias, ke plejparte vi - aŭ eble mi eraras - sed mi pensas, ke vi plejparte parolas Esperanton kun via		`
+- 13:20	Do you ever get tired because you don't speak your native language?	`	familio. iam laciĝas ĉar vi ne parolas vian gepatran lingvon?		`
+- 13:26	Maybe it was that way in the beginning	`	Eble tiel estis en la komenco		`
+- 13:28	I'm Hungarian and came to the Netherlands to live with my French husband	`	mi estas hungaro kaj venis al Nederlando por loĝi kun mia franca edzo		`
+- 13:35	But my husband doesn't know Hungarian, I don't know French, I don't know Dutch	`	Sed mia edzo ne scias la hungaran, mi ne scias la francan, mi ne scias la nederlandan		`
+- 13:41	It was absolutely necessary to have a common, neutral language	`	. Estis absolute necese havas komunan, neŭtralan lingvon		`
+- 13:45	We started speaking Esperanto totally naturally	`	Ni ekparolis Esperanton tute nature		`
+- 13:50	That didn't tire me out	`	Tio ne lacigis min		`
+- 13:53	Now, after twenty years, I dream in Esperanto, I think in Esperanto	`	Nun, post dudek jaroj, mi sonĝas en Esperanto, mi pensas ke en Esperanto		`
+- 13:59	I live in an Esperanto environment eighteen - sixteen, eighteen hours a day	`	mi loĝas en esperanta ĉirkaŭaĵo dek ok - dek ses, dek ok horoj tage		`
+- 14:07	I only speak Hungarian a little bit	`	mi nur paroli hungare iomete		`
+- 14:10	I have to think - so, I didn't forget Hungarian, I write - but Esperanto is an easier language for me than Hungarian	`	mi devas pensi - do, mi ne forgesis la hungaran, mi skribas - sed Esperanto estas pli facila lingvo por mi ol la hungara		`
+- 14:21	It doesn't tire me out	`	Ĝi ne lacigas min		`
+- 14:23	We have to be very careful at home	`	Ni devas esti tre singardaj hejme		`
+- 14:27	We speak a lot of languages together; with my son, my husband, more than twenty languages	`	Ni parolas multaj lingvoj kune; kun mia filo, mia edzo, pli ol dudek lingvoj		`
+- 14:33	Sometimes we mix languages and joke about it	`	Foje ni miksas lingvojn kaj ŝercas pri tio		`
+- 14:39	Sometimes it tires me out to not use other words in an Esperanto sentence	`	Foje ĝi lacigas min ne uzi aliajn vortojn en Esperanta frazo		`
+- 14:47	Because I have some really great, short words	`	Ĉar mi havas iujn bonegajn, mallongajn vortojn		`
+- 14:51	and they say, "No, don't mix."	`	kaj ili diras, "Ne, don Ne miksu. "		`
+- 14:56	Esperanto is my internal and external language now	`	Esperanto estas mia interna kaj ekstera lingvo nun		`
+- 15:01	It totally doesn't tire me out; not anymore	`	Ĝi tute ne lacigas min; ne plu		`
+- 15:05	And that's possible	`	Kaj tio eblas		`
+- 15:07	So Esperanto is almost your native language now	`	Do Esperanto estas preskaŭ via gepatra lingvo nun		`
+- 15:11	But I don't know everything in Esperanto - every bird	`	Sed mi ne scias ĉion en Esperanto - ĉiu birdo		`
+- 15:16	But I also don't know them in Hungarian	`	Sed ankaŭ mi ne konas ilin		`
+- 15:19	That's not why I don't know them, it's just not an interesting field	`	hungare Ne tial mi ne konas ilin, simple ne estas interesa kampo		`
+- 15:23	But I'm at a pretty good level in Esperanto	`	Sed mi havas sufiĉe bonan nivelon en Esperanto.		`
+- 15:29	I want to teach more than one language to my kids, when I have kids	`	Mi volas instrui pli ol unu lingvon al miaj infanoj, kiam mi havas infanojn		`
+- 15:37	Do you have advice?	`	. Ĉu vi havas konsilojn?		`
+- 15:39	If you could say one thing to yourself in the past about language and kids, what would you say?	`	Se vi povus diri unu aferon al vi en la pasinteco pri lingvo kaj infanoj, kion vi dirus?		`
+- 15:48	I hope that you'll have a partner	`	Mi esperas, ke vi havos		`
+- 15:51	It's ideal to educate a child with a partner, right	`	partneron. Idealas eduki infanon kun kunulo, ĝuste		`
+- 15:58	Then I'd say that your partner needs to accept that you'll use Esperanto, that's an important thing	`	Tiam mi dirus, ke via kunulo devas akcepti, ke vi uzos Esperanton, tio estas grava afero.		`
+- 16:05	Your partner should speak the local language, or their own language	`	Via kunulo parolu la lokan lingvon, aŭ sian propran lingvon		`
+- 16:11	And you, very disciplined, consequentially speak only Esperanto	`	Kaj vi, tre disciplinita, konsekvence parolas nur Esperanton		`
+- 16:19	Even to the baby in your stomach, in the uterus	`	Eĉ al la bebo en via stomako, en la utero		`
+- 16:23	Because they hear, they get used to the sound	`	Ĉar ili aŭdas, ili kutimiĝas al la sono		`
+- 16:27	Consequentially never cross, that's the best method	`	Konsekvence neniam kruciĝas, tio estas la plej bona metodo		`
+- 16:31	And then they learn	`	Kaj tiam ili lernas		`
+- 16:34	Our Martin learned in a different way because I spoke Hungarian, his father French, in the Netherlands	`	Nian Martin lernis alimaniere ĉar mi parolis hungare, lia patro la francan, en Nederlando		`
+- 16:41	So Esperanto wasn't very necessary	`	Do Esperanto ne estis tre necesa		`
+- 16:45	But he learned his father and I continue to speak only in Esperanto	`	Sed li lernis sian patron kaj mi daŭre parolas nur en Esperanto		`
+- 16:51	so he learned the "secret language"	`	do li lernis la "sekretan lingvon"		`
+- 16:55	and we quickly didn't have secrets in front of him	`	kaj ni rapide ne havas sekretojn antaŭ li		`
+- 16:59	So that can also work	`	Do ankaŭ tio povas funkcii		`
+- 17:01	But in the OPOL method, one person, one language	`	Sed en la metodo OPOL, unu persono, unu lingvo		`
+- 17:09	You in Esperanto, your partner - I don't know, in Japanese, English, it's not important	`	Vi en Esperanto, via partnero - mi ne scias, en la japana, angla, ne gravas		`
+- 17:14	If you do it this way, it works really well	`	Se vi faras ĝin tiel, ĝi funkcias tre bone,		`
+- 17:20	I asked my Patreon supporters if they had questions for you	`	mi demandis miajn Patreon-ojn subtenantoj se ili havis demandojn por vi		`
+- 17:26	and one supporter asked,	`	kaj unu subtenanto demandis,		`
+- 17:29	"Many people start learning Esperanto through Duolingo.	`	"Multaj homoj komencas lerni Esperanton per Duolingo.		`
+- 17:33	After a bit of learning with Duolingo, what do you suggest to do to better your capability to use the language?"	`	Post iom da lernado kun Duolingo, kion vi sugestas fari por plibonigi vian kapablon uzi la lingvon? "		`
+- 17:41	I don't just suggest it, I even did it, you know	`	Mi ne nur sugestas ĝin, mi eĉ faris ĝin, vi scias antaŭ		`
+- 17:45	Five or six years ago, I noticed that, that Duolingo started to produce a mass of Esperanto speakers	`	Kvin aŭ ses jaroj, mi rimarkis tion, ke Duolingo komencis produkti amason da Esperanto-parolantoj,		`
+- 17:56	who mainly learned grammar, less pronunciation, vocabulary, but didn't speak	`	kiuj ĉefe lernis gramatikon, malpli prononcon, vortprovizon, sed ne parolis		`
+- 18:03	Specifically to help them, I created the program, "Ekparolu"	`	Specife por helpi ilin, mi kreis la programon, "Ekparolu"		`
+- 18:08	I thought that everyone who learned Esperanto through Duolingo needed to start speaking the language, use it	`	Mi pensis, ke ĉiuj, kiuj lernis Esperanton per Duolingo, devas ekparoli. la lingvon, uzu ĝin		`
+- 18:20	In fact, those who came to us really liked and enjoyed the possibility to speak with help, with patient people who help them progress in the language	`	Fakte, tiuj, kiuj venis al ni, tre ŝatis kaj ĝuis la eblon paroli kun helpo, kun paciencaj homoj, kiuj helpas ilin progresi en la lingvo.		`
+- 18:36	I created a system - I can speak about it, right?	`	Mi kreis sistemon - mi povas paroli pri ĝi, ĉu ne?		`
+- 18:40	I created a system, and volunteers - not professional teachers, some are -	`	Mi kreis sistemo, kaj volontuloj - ne profesiaj instruistoj, iuj estas -		`
+- 18:47	dedicate their free time and give free, private lessons to upper beginners	`	dediĉas sian liberan tempon kaj donas senpagajn privatajn lecionojn al superaj komencantoj.		`
+- 18:57	Those who have finished the Duolingo course	`	Kiuj finis la kurson Duolingo		`
+- 19:00	Through Skype generally, Zoom, it doesn't matter	`	Tra Skajpo ĝenerale, Zoom, ne gravas.		`
+- 19:04	They have lessons, they give written advice, and the - I think that many become friends	`	Ili havas lecionojn, ili donas skribajn. konsilo, an d la - Mi pensas, ke multaj amikiĝas		`
+- 19:16	The "uncles" - because I wanted a family atmosphere - the "uncles" and "aunts" care about the "nephews" and "nieces"	`	La "onkloj" - ĉar mi volis familian etoson - la "onkloj" kaj "onklinoj" zorgas pri la "nevoj" kaj "nevinoj"		`
+- 19:27	They advise them to read, advise them to see what is Pasporta Servo? Which books? Which societies?	`	Ili konsilas ilin legi, konsilas ilin vidi kion ĉu Pasporta Servo? Kiuj libroj? Kiuj societoj?		`
+- 19:35	They help them integrate into the movement	`	Ili helpas ilin integriĝi en la movadon		`
+- 19:40	After that, as in a family, if you don't know something, you can ask your "uncle" or "aunt"	`	Post tio, kiel en familio, se vi ne scias ion, vi povas demandi vian "onklon" aŭ "onklinon"		`
+- 19:48	What to do, is a congress worth it?	`	Kion fari, ĉu kongreso indas?		`
+- 19:51	We help the people who have finished Duolingo to integrate	`	Ni helpas la homojn, kiuj finis Duolingo'n integriĝi.		`
+- 19:58	And that's an important thing	`	Kaj tio estas grava afero.		`
+- 20:00	So I didn't just have an opinion, or an idea, but I made it happen	`	Do mi ne nur havis opinion, nek ideon, sed mi realigis,		`
+- 20:05	I'm really glad that I did it	`	mi tre ĝojas, ke mi faris tion.		`
+- 20:08	That was and is very helpful to me	`	mi		`
+- 20:12	and many other people, of course	`	kaj multaj aliaj homoj, kompreneble		`
+- 20:15	I said the inspiration, but in fact, I wanted to help, because my page, Edukado.net, helps Esperanto teachers	`	mi diris la inspiron, sed fakte mi volis helpi, ĉar mia paĝo, Edukado.net, helpas esperantajn instruistojn, kiujn		`
+- 20:25	I didn't occupy myself with learners	`	mi ne okupis kun lernantoj		`
+- 20:28	Lernu.net was for learners	`	Lernu.net estis por lernantoj		`
+- 20:30	My page was for teachers	`	Mia paĝo estis por instruistoj		`
+- 20:34	But because I had thousands of teachers, I thought, "They could help work."	`	Sed ĉar mi havis milojn da instruistoj, mi pensis, "Ili povus helpi labori."		`
+- 20:41	And in fact, I invited them, I train them on how to patiently work with people	`	Kaj fakte, mi invitis ilin, mi trejnas ilin pri kiel pacience labori kun homoj		`
+- 20:49	First I had to find a good program, idea	`	Unue mi devis trovi bonan programon, ideon		`
+- 20:53	In the beginning I had wanted to work with italki	`	En la komenco mi volis labori kun italki		`
+- 20:59	and have a guided Esperanto group there	`	kaj havi gvidatan Esperanto-grupon tie		`
+- 21:03	We had a good relationship, but I wanted to do it for free and they didn't want to do it completely for free, so we separated	`	Ni havis bonan rilaton , sed mi volis fari ĝin senpage kaj ili ne volis fari ĝin tute senpage, do ni apartigis		`
+- 21:12	No big deal	`	Neniu granda afero		`
+- 21:13	I found people who were useful, who were at home, who could give their time, and created the program	`	Mi trovis homojn utilajn, kiuj estis hejme, kiuj povis doni sian tempon, kaj kreis la programon		`
+- 21:24	We tested it for one year with one hundred and fifty sessions to know what we wanted	`	Ni testis ĝin dum unu jaro kun cent kvindek sesioj por scii, kion ni volas.		`
+- 21:32	Afterwards, I paid with the money of Edukado.net to create the program, the agenda, the messages	`	Poste, mi pagis per la mono de Edukado.net por krei la programon, la tagordon, la mesaĝojn.		`
+- 21:41	And after that we started to search for the students	`	Kaj poste ni komencis serĉi la studentojn		`
+- 21:44	It was a two year job to get to where the system was working	`	. Estis dujara laboro por atingi, kie la sistemo funkciis		`
+- 21:50	Up until now we've had more or less five hundred "nephews" and "nieces"	`	Ĝis nun ni havis pli-malpli kvincent "nevojn" kaj "nevinoj"		`
+- 21:55	Some took only ten lessons, some took fifty lessons, the maximum	`	Iuj prenis nur dek lecionojn, iuj prenis kvindek lecionojn, maksimume		`
+- 22:01	Some love it, but not everyone	`	Iuj amas ĝin, sed ne ĉiuj		`
+- 22:04	Some were scared of the test to enter	`	Iuj timis la teston por eniri		`
+- 22:08	Maybe you're curious as to why we have tests	`	Eble vi scivolas kial ni havas testojn		`
+- 22:11	Those who don't have vocabulary, don't know basic grammar, they can't speak	`	Thos Kiuj ne havas vortprovizon, ne konas bazan gramatikon, ili ne povas paroli		`
+- 22:20	Only show that, "These are glasses. This is a battery, a mouse."	`	Nur montru tion, "Ĉi tiuj estas glasoj. Jen baterio, muso. "		`
+- 22:27	You should learn that before, and come to speak with the "uncles" and "aunts" when you can conversate	`	Vi devas lerni tion antaŭe, kaj veni paroli kun la" onkloj "kaj" onklinoj "kiam vi povas konversacii		`
+- 22:34	Because of that, we decided to create tests	`	Pro tio, ni decidis krei testojn		`
+- 22:39	Some say, "No, I don't want tests."	`	Iuj diras," Ne, mi ne ' Ne volas testojn. "		`
+- 22:42	Sorry, we can't help you then	`	Pardonu, ni ne povas helpi vin.		`
+- 22:45	You understand	`	Vi komprenas.		`
+- 22:46	There are some critiques, but I want my "uncles" and "aunts" to give their time to those who can already profit from it	`	Estas iuj kritikoj, sed mi volas, ke miaj" onkloj "kaj" onklinoj "donu sian tempon al tiuj, kiuj jam povas profiti el ĝi.		`
+- 23:00	That's the goal	`	Tio estas la celo, kiun		`
+- 23:02	I have to say that I was scared of the tests	`	mi devas diru, ke mi timis la testojn,		`
+- 23:06	because I don't like tests in general	`	ĉar mi ĝenerale ne ŝatas testojn.		`
+- 23:09	But I understand that if I had used Ekparolu when first started learning Esperanto, it wouldn't have been useful	`	Sed mi komprenas, ke se mi uzus Ekparolu kiam mi unue eklernis Esperanton, ĝi ne estus utila.		`
+- 23:18	And I also want to say that I think that the reason why I can speak Esperanto now is partly because of Ekparolu	`	Kaj mi ankaŭ volas diri, ke mi pensas, ke la kial mi povas paroli Esperanton nun estas parte pro Ekparolu		`
+- 23:29	Because I think that, in my opinion, the most important part of a language is speech	`	Ĉar mi pensas ke, laŭ mi, la plej grava parto de lingvo estas parolado		`
+- 23:37	So if you can't find people to speak with, you can't really speak	`	Do se vi ne povas trovi homojn kun kiuj paroli, vi ne vere povas paroli		`
+- 23:43	I'm really thankful for Ekparolu	`	mi ' Mi vere dankas pro Ekparolu		`
+- 23:46	And I have a lot of friends now from Ekparolu	`	Kaj mi havas multajn amikojn nun de Ekparolu Ankaŭ		`
+- 23:52	My mom loves it, too	`	mia panjo amas ĝin		`
+- 23:56	She is another character, a different language learner than you	`	Ŝi estas alia rolulo, alia lingvo pli ol vi		`
+- 24:01	Maybe she needs a totally different method to learn, but it's no big deal	`	Eble ŝi bezonas tute alian metodon por lerni, sed ne gravas		`
+- 24:07	Our "uncles" and "aunts" try to adapt and help	`	Niaj "onkloj" kaj "onklinoj" provas adaptiĝi kaj helpi, ke		`
+- 24:11	I always advise, speak with many diverse - dkon't always speak with the same - search for new teachers	`	mi ĉiam konsilas, parolas kun multaj diversaj - ne parolu ĉiam kun la sama - serĉu por novaj instruistoj		`
+- 24:19	After five or six tries, return to who helped you the most	`	Post kvin aŭ ses provoj, revenu al kiu plej helpis vin		`
+- 24:25	Not everyone is the same, some speak more, others advise less	`	Ne ĉiuj samas, iuj parolas pli, aliaj konsilas malpli		`
+- 24:32	It's how it is in a family, they help you with something	`	Estas kiel en familio, ili helpas vin pri io		`
+- 24:39	I think that you are a good example of that for us	`	Mi pensas ke vi estas bona ekzemplo pri tio por ni		`
+- 24:47	that yes, you were scared as everyone is scared to start talking	`	tio jes, vi timis kiel ĉiuj timas ekparoli		`
+- 24:52	but afterwards you enjoyed it, and like a big snow ball, became bigger and bigger	`	sed poste vi ĝuis ĝin, kaj kiel granda neĝa globo, fariĝis pli kaj pli granda.		`
+- 25:00	And in fact, you want to use the language	`	Fakte, vi volas uzi la lingvon		`
+- 25:04	Your videos - small in the beginning, simply Chelsea and snow, etc.	`	Viaj filmetoj - malgrandaj en la komenco, simple Chelsea kaj neĝo, ktp.		`
+- 25:12	And with your steps, you showed to us that you weren't ashamed, and people like that	`	Kaj per viaj paŝoj, vi montris al ni, ke vi ne hontas, kaj tiaj homoj		`
+- 25:18	You don't just learn, you apply it immediately	`	Vi ne nur lernas, vi tuj aplikas ĝin.		`
+- 25:22	You happily use it, you want to progress	`	Vi feliĉe uzas ĝin, vi volas progresi		`
+- 25:26	I'm very proud and glad that we could help you on that path	`	Mi Mi tre fieras kaj ĝojas, ke ni povus helpi vin sur tiu vojo.		`
+- 25:32	You also advertise for us, in a good way, because you tell people,	`	Ankaŭ vi reklamas por ni laŭ bona maniero, ĉar vi diras al homoj,		`
+- 25:39	"Yes, Ekparolu, the "uncles" and "aunts" helped me."	`	"Jes, Ekparolu, la" onkloj "kaj" onklinoj "helpis min."		`
+- 25:43	We have a large capacity in Ekparolu	`	Ni havas grandan kapaciton en Ekparolu		`
+- 25:49	Weekly we offer five hundred, six hundred hours, sessions	`	Semajna Ni ofertas kvincent, sescent horojn, kunsidojn		`
+- 25:56	And people use maybe thirty	`	Kaj homoj uzas eble tridek		`
+- 25:58	So we could have many more people who need help	`	Do ni povus havi multe pli da homoj, kiuj bezonas helpon		`
+- 26:04	Maybe with time it will grow	`	Eble kun la tempo kreskos		`
+- 26:07	We will have community group lessons again	`	Ni havos komunumajn grupajn lecionojn denove		`
+- 26:14	Let me say, congratulations, Chelsea	`	Lasu min diri, gratulon, Chelsea		`
+- 26:16	You do really well - you are, for us, the ideal language learner	`	Vi vere fartas bone - vi estas, por ni, la ideala lingvolernanto		`
+- 26:22	The model, whose enthusiasm, whose dedication, diligence, courage, we'd like to have in every learner	`	La modelo, kies entuziasmon, kies sindediĉon, diligentecon, kuraĝon, ni ŝatus havi en ĉiu lernanto		`
+- 26:34	Thank you. Do you think that since the beginning of the pandemic, Ekparolu has more students?	`	Dankon. Ĉu vi pensas, ke ekde la komenco de la pandemio, Ekparolu havas pli da studentoj?		`
+- 26:43	I don't know, but it seems that more people started learning or are learning Esperanto now because of the time in their lives	`	Mi ne scias, sed ŝajnas ke pli multaj homoj eklernis aŭ lernas Esperanton nun pro la tempo en sia vivo		`
+- 26:57	Yes, I noticed that growth, totally naturally	`	Jes, mi rimarkis ke kresko, tute nature		`
+- 27:04	Part of it is because of the pandemic, how the pandemic pushed people to Zoom and other virtual platforms, meetings	`	Parto de ĝi estas pro la pandemio, kiel la pandemio puŝis homojn al Zoom kaj aliaj virtualaj platformoj, kunvenoj		`
+- 27:14	Courses were born that wouldn't have existed without the pandemic	`	Naskiĝis kursoj, kiuj ne ekzistus sen la pandemio.		`
+- 27:20	And amazingly, students from every part of the world study in London	`	Kaj mirinde, studentoj de ĉiu mondoparto studas en Londono.		`
+- 27:26	From that viewpoint, the pandemic helped Esperanto	`	De tiu vidpunkto, la pandemio helpis Esperanton		`
+- 27:31	For those who could participate in congresses who never could travel to congresses	`	Por tiuj, kiuj povus partopreni kongresojn, kiuj neniam povus. vojaĝi al kongresoj		`
+- 27:38	At Ekparolu we did - parallel to the pandemic, we started to do community lessons, not only one on one	`	Ĉe Ekparolu ni faris - paralele al la pandemio, ni komencis fari komunumajn lecionojn, ne nur unu kontraŭ unu.		`
+- 27:47	Those also brought us a big wave of students	`	Ankaŭ tiuj alportis al ni grandan ondon da studentoj.		`
+- 27:54	The pandemic probably helped us more, but also those community lessons	`	La pandemio probable helpis nin pli, sed ankaŭ tiujn komunumajn lecionojn		`
+- 28:02	We are glad, however ,we'd like the pandemic to end	`	Ni ĝojas, tamen ni ŝatus, ke la pandemio finiĝu		`
+- 28:08	Yes, me too, me too	`	Jes, ankaŭ mi, ankaŭ		`
+- 28:10	I think that this is an interesting question, I hope	`	mi. Mi pensas, ke tio estas interesa demando, mi esperas.		`
+- 28:13	Have you experienced, or experience now, difficulties because you are a woman who speaks a language that, in my opinion, mostly men speak?	`	Ĉu vi spertis, aŭ spertis nun, malfacilaĵojn, ĉar vi estas virino, kiu parolas lingvon? ke, laŭ mi, plejparte viroj parolas?		`
+- 28:27	Why do you think that the community is mostly men, and do you think that could change?	`	Kial vi pensas, ke la komunumo plejparte estas viroj, kaj ĉu vi pensas, ke tio povus ŝanĝiĝi?		`
+- 28:34	Look, those kinds of questions are usually raised by men, not women	`	Vidu, tiajn demandojn kutime levas viroj, ne virinoj		`
+- 28:41	But, I heard - no, I myself am liberated and feminist, so I can totally accept that statement	`	Sed, mi aŭdis - ne, mi mem estas liberigita kaj feminisma, do mi povas tute akcepti tiun aserton		`
+- 28:54	Not that we women are equal, but in the movement, you're totally right, there are more men	`	Ne ke ni virinoj estas egalaj, sed en la movado, vi estas tute pravas, estas pli da viroj		`
+- 29:01	Especially the writers, the Academy, the important people on the UEA board are almost all men now	`	Precipe la verkistoj, la Akademio, la gravaj homoj en la estraro de UEA estas preskaŭ ĉiuj viroj nun		`
+- 29:12	The women work, they have to support a family; cook, bake, etc. That's a joke	`	La virinoj laboras, ili devas subteni familion; kuiri, baki, ktp. Tio estas		`
+- 29:20	It's sometimes a coincidence, because even between Esperanto speakers there are important women	`	ŝerco. Fojfoje estas hazardo, ĉar eĉ inter esperantoparolantoj estas gravaj virinoj		`
+- 29:26	We're not worth less, and I never had a negative remark like,	`	Ni ne valoras malpli, kaj mi neniam havis negativan rimarkon kiel		`
+- 29:35	"You women, don't say that."	`	"Vi virinoj, ne diru tion."		`
+- 29:37	It's the opposite	`	Estas la malo		`
+- 29:38	They say, "Finally, come to the Academy, we want women!"	`	Ili diras, "Fine, venu al la Akademio, ni volas virinojn!"		`
+- 29:44	I think that in "Esperantujo," they'd be glad to have more young women, even older women	`	Mi pensas, ke en "Esperantujo" ili ĝojus havi pli da junaj virinoj, eĉ pli maljunaj virinoj.		`
+- 29:53	They are glad, they trust - but because of the natural reasons, that's not always how it is	`	Ili ĝojas, ili fidas - sed pro la naturaj kialoj, ne ĉiam tiel estas		`
+- 30:02	In "Esperantujo," we have to travel a lot	`	en "Esperantujo", ni devas multe vojaĝas		`
+- 30:05	Women aren't always allowed to travel alone in every culture	`	Virinoj ne ĉiam rajtas vojaĝi solaj en ĉiu kulturo		`
+- 30:11	I had a course participant from Iran who had difficulties coming to the congress alone, for example	`	Mi havis kursan partoprenanton el Irano, kiu havis malfacilaĵojn veni al la kongreso sola, ekzemple		`
+- 30:21	It's also other countries	`	Estas ankaŭ aliaj landoj		`
+- 30:23	Some don't grow that much, or become famous, important people in "Esperantujo"	`	Iuj ne tiel kreskas, aŭ famiĝas, gravas homoj en "Esperantujo"		`
+- 30:32	and part of that, not all, but part, comes from that	`	kaj parto de tio, ne ĉiuj, sed parto, devenas de tio		`
+- 30:37	Maybe they're not that free because of their home conditions to participate in the movement	`	Eble ili ne estas tiel liberaj pro siaj hejmaj kondiĉoj por partopreni en la movado		`
+- 30:46	Not everyone is so open-minded	`	Ne ĉiuj estas tiel senantaŭjuĝaj		`
+- 30:49	I don't know, it's a very complex question, but I myself never experienced that	`	mi ne scias, ĝi estas tre kompleksa demando, sed mi mem neniam spertis tion		`
+- 30:55	and I would refuse even the thought that anyone is less valuable because they are a woman	`	kaj mi rifuzus eĉ la penson, ke iu malpli valoras ĉar ili estas virino		`
+- 31:03	Definitely not	`	Sendube ne		`
+- 31:04	That really doesn't characterize "Esperantujo"	`	Tio vere ne karakterizas "Esperantujon"		`
+- 31:07	Maybe some politicians, parties, but in Esperanto -	`	Eble iuj politikistoj, partioj, sed en Esperanto -		`
+- 31:13	It's lacking women, and everyone would like to have more women	`	Ĝi estas mankas virinoj, kaj ĉiuj volus havi pli da virinoj		`
+- 31:16	Chelsea, you're young, you have double the chance to do something in "Esperantujo"	`	Chelsea, vi estas juna, vi havas duoblan ŝancon fari ion en "Esperantujo"		`
+- 31:23	I agree that - I never experienced problems with that	`	Mi konsentas, ke - mi neniam spertis problemojn kun tio,		`
+- 31:29	I always want to know why more women Esperanto speakers don't exist	`	mi ĉiam volas scii, kial ne ekzistas pli da virinoj parolantaj esperantistojn		`
+- 31:36	Yes, that's one of the most interesting parts of Esperanto for me	`	Jes, tio estas unu el la plej interesaj partoj de Esperanto por mi		`
+- 31:43	You spoke about Iran	`	Vi parolis pri Irano		`
+- 31:46	In the USA - I don't know about other countries - but in the USA, and for me, we don't think about a lot of other cultures	`	En Usono - mi ne scias pri aliaj landoj - sed en Usono, kaj por mi, ni ne pensas pri multaj aliaj kulturoj		`
+- 31:58	Because we live in the big USA, and we don't travel often because it's very difficult to travel from the USA	`	Ĉar ni loĝas en la granda Usono, kaj ni ne ofte vojaĝas, ĉar tre malfacile vojaĝi el Usono		`
+- 32:07	Esperanto is wonderful, in my opinion, because I can learn about other cultures which I hadn't thought about before	`	Esperanto estas laŭ mi mirinda, ĉar mi povas lerni pri aliaj kulturoj, pri kiuj mi ne pensis antaŭe,		`
+- 32:17	I'll ask you something, if you allow me	`	mi demandos al vi ion, ĉu vi permesas al mi		`
+- 32:20	Were you totally aware of geography in Europe?	`	Ĉu vi estis tute konscia pri geografio en Eŭropo?		`
+- 32:26	Did you know before where Poland, Austria, or anything was?	`	Ĉu vi antaŭe sciis, kie estas Pollando, Aŭstrio aŭ io ajn?		`
+- 32:31	Was it clear to you as a young person?	`	Ĉu estis klare al vi kiel junulo?		`
+- 32:34	Yes, but only because I loved geography	`	Jes, sed nur ĉar mi amis geografion,		`
+- 32:39	I didn't go to school, I learned at home	`	mi ne iris al lernejo, mi lernis hejme		`
+- 32:44	So I could lean about anything I wanted	`	Do mi povis klini pri ĉio, kion mi volis, ke		`
+- 32:51	I loved that, so I memorized the entire map of the world	`	mi amis tion, do mi parkerigis la tutan mapon de la mondo		`
+- 32:59	For many, geography begins only when they have Esperanto friends and they see, "Powell lives there, Katalin lives there."	`	Por multaj, geografio komenciĝas nur kiam ili havas Esperantaj amikoj kaj ili vidas, "Powell loĝas tie, Katalin loĝas tie."		`
+- 33:10	I myself learned a lot about geography thanks courses and Esperanto speakers	`	Mi mem lernis multon pri geografio dank'e al kursoj kaj parolantoj de Esperanto.		`
+- 33:17	Now if there's a catastrophe somewhere or news, I immediately think,	`	Nun se estas katastrofo ie aŭ novaĵo, mi tuj pensas,		`
+- 33:23	"Is that Esperanto speaker, in the Dominican...I have to write and ask."	`	"Ĉu tiu esperantisto, en la dominikano ... Mi devas skribi kaj demandi."		`
+- 33:29	The world became part of my life through those personal friends	`	La mondo fariĝis parto de mia vivo per tiuj personaj amikoj.		`
+- 33:35	You're beginning to experience that now	`	Vi komencas sperti, ke nun		`
+- 33:40	I want that for you, that your world should grow, grow, grow	`	mi volas tion por vi, ke via mondo kresku, kresku, kresku.		`
+- 33:46	I thought before that I knew a lot about the world	`	Mi pensis antaŭe, ke mi sciis multon pri la mondo.		`
+- 33:51	I think that a lot of young people think that	`	Mi pensas, ke multe. de junuloj opinias,		`
+- 33:54	It's one thing if you read about countries	`	ke Unu afero estas, se vi legas pri landoj.		`
+- 33:59	It's another thing if you speak with people from the country and about the country and culture	`	Estas alia afero, se vi parolas kun homoj de la lando kaj pri la lando kaj kulturo.		`
+- 34:09	It's a totally different thing	`	Estas tute alia afero.		`
+- 34:11	It enriches people from that viewpoint as well	`	Ĝi riĉigas homojn ankaŭ laŭ tiu vidpunkto.		`
+- 34:16	In your opinion, what's the best way to talk to people about Esperanto so that they'll want to learn it?	`	Laŭ via opinio, kio estas la plej bona maniero paroli kun homoj pri Esperanto por ke ili volu lerni ĝin?		`
+- 34:26	When I speak with people about Esperanto, they totally don't know the language, they've never heard of the language	`	Kiam mi parolas kun homoj pri Esperanto, ili tute ne scias la lingvon, ili neniam aŭdis pri la lingvo		`
+- 34:36	And they don't know why - why should I learn Esperanto?	`	Kaj ili ne scias kial - kial mi lernu Esperanton?		`
+- 34:40	I don't want to sound to them like I'm in - I don't know the word in Esperanto - in a cult	`	Mi ne volas soni al ili kiel mi estas - mi ne konas la vorton en Esperanto - en kulto		`
+- 34:49	Crazy, small group, right?	`	Freneza, malgranda grupo, ĉu ne?		`
+- 34:51	In a sect, or something that is very imposing	`	En sekto, aŭ io tre impona,		`
+- 34:55	I'll say some things that you shouldn't do, and then you'll already get to that	`	mi diros iujn aferojn, kiujn vi ne faru, kaj tiam vi atingos tion		`
+- 35:02	Don't immediately say, "Esperanto is wonderful, you have to learn it, you have to learn!"	`	Ne tuj diru, "Esperanto estas mirinda, vi devas lerni ĝin, vi devas lerni! "		`
+- 35:06	Don't say that, because if you say to someone that they have to do something, people immediately get stuck	`	Ne diru tion, ĉar se vi diras al iu, ke ili devas fari ion, homoj tuj blokiĝas		`
+- 35:13	Totally no	`	Tute ne		`
+- 35:14	And don't say that Esperanto is so easy that in thirty days, or in seven months, you can learn it perfectly	`	Kaj ne diru, ke Esperanto estas tiel facila, ke post tridek tagoj aŭ post sep monatoj vi povas lerni ĝin perfekte.		`
+- 35:25	But you can say that Esperanto is way easier than other languages	`	Sed vi povas diri, ke Esperanto estas multe pli facila ol aliaj lingvoj.		`
+- 35:31	You need maybe a tenth or a third of the time for - so, be real, because if you lie, they'll catch you	`	Vi bezonas eble dekonon aŭ trionon de la tempo por - do estu reala, ĉar se vi mensogas, ili kaptos vin.		`
+- 35:42	But what is the most important thing, in my opinion?	`	Sed kio estas la plej grava, en mia opinio?		`
+- 35:46	Don't speak about Esperanto as a language and community	`	Ne parolu pri Esperanto kiel lingvo kaj komunumo		`
+- 35:51	That comes later	`	Tio venas poste		`
+- 35:53	Simply speak about the experiences, about the friends who you have thanks to Esperanto	`	Simple parolu pri la spertoj, pri la amikoj, kiujn vi havas danke al Esperanto		`
+- 36:01	After your first trip, first congress, first friendships, talk about the experiences that you enjoyed	`	Post via unua vojaĝo, unua kongreso, unuaj amikecoj, parolu pri la spertoj, kiujn vi ĝuis,		`
+- 36:11	Your videos are the same experiences	`	Viaj filmetoj estas la samaj spertoj		`
+- 36:14	"What language is she speaking so happily?"	`	"Kian lingvon ŝi parolas tiel feliĉe?"		`
+- 36:18	People will start to become interested	`	Homoj ekinteresiĝos		`
+- 36:20	We shouldn't try to force Esperanto, but we should tell about our wonderful experiences so that the desire will grow in people	`	Ni ne provu devigi Esperanton, sed ni rakontu pri niaj mirindaj spertoj por ke la deziro kresku ĉe homoj		`
+- 36:32	"I want to have that too, I want to travel too, I want friends in that country too!"	`	"Ankaŭ mi volas havi tion, mi ankaŭ volas vojaĝi, mi volas amikojn en tio ankaŭ lando! "		`
+- 36:38	Yes? So, learn Esperanto!	`	Jes? Do lernu Esperanton!		`
+- 36:41	Do you understand?	`	Ĉu vi komprenas?		`
+- 36:43	Let's not force them, let's not beg them to learn	`	Ni ne devigu ilin, ni ne petu ilin lerni		`
+- 36:47	They should beg us to give them the secret	`	Ili devas petegi nin doni al ili la sekreton		`
+- 36:50	And we need to say, "I need to think about if you're worthy of that secret."	`	Kaj ni devas diri, "Mi bezonas pripensi, ĉu vi indas tiun sekreton."		`
+- 36:56	Do you understand?	`	Ĉu vi komprenas?		`
+- 36:59	We have - I always say - we have a miracle in our hands, we Esperanto speakers	`	Ni havas - mi ĉiam diras - ni havas miraklon en niaj manoj, ni esperantoparolantoj		`
+- 37:06	Let's not throw pearls to pigs	`	Ni ne ĵetu perlojn al porkoj		`
+- 37:10	They should ask us, "Teach me, I want to have friends too."	`	Ili devas demandi nin: "Instruu min, mi ankaŭ volas havi amikojn."		`
+- 37:15	They'll have that if we tell them, show them things that enriched you thanks to Esperanto	`	Ili havos tion, se ni diros al ili, montros al ili aferojn, kiuj riĉigis vin danke al Esperanto.		`
+- 37:24	We need to go from another direction	`	Ni devas iri de alia direkto.		`
+- 37:28	Create the need in people so that they think, "I would like to be that happy, too. Travel, have friends."	`	Krei la bezonon ĉe homoj, por ke ili pensu: "Ankaŭ mi volus esti tiel feliĉa. Vojaĝu, havu amikoj. "		`
+- 37:39	That's it	`	Jen tio		`
+- 37:40	Many Esperanto speakers mess up the recruitment, the propaganda - I don't like that word, we should say, "information" - about Esperanto, by coercion	`	Multaj E-istoj fuŝas la varbadon, la propagandon - mi ne ŝatas tiun vorton, ni devus diri, "informoj" - pri Esperanto, per devigo		`
+- 37:55	To forcibly say, "You have to learn."	`	Por perforte diri: "Vi devas lerni."		`
+- 37:58	No, that doesn't help	`	Ne, tio ne helpas,		`
+- 38:01	I truly advise that you do that	`	mi vere konsilas, ke vi faru tion		`
+- 38:05	And then you'll be successful	`	Kaj tiam vi sukcesos		`
+- 38:07	If you could say - this is the last question - if you could give one pice of advice to beginners, what would you say?	`	Se vi povus diri - jen la lasta demando - se vi povus doni unu konsilon al komencantoj, kion vi dirus?		`
+- 38:17	One? One is very difficult	`	Unu? Unu estas tre malfacila		`
+- 38:22	Enthusiasm and diligence, that's two pieces of advice	`	Entuziasmo kaj diligento, tio estas du konsiloj		`
+- 38:27	Enthusiasm, diligence, and the other advice is, first learn the words and think about the words, and after that, create sentences	`	Entuziasmo, diligenteco, kaj la alia konsilo estas, unue lerni la vortojn kaj pensi pri la vortoj, kaj poste krei frazojn		`
+- 38:40	But without heart, without dedication, without enthusiasm, your own belief and desire to do it, you won't succeed	`	Sed sen koro, sen sindediĉo, sen entuziasmo, via propran kredon kaj deziron fari ĝin, vi ne sukcesos		`
+- 38:52	If your mother were to say to you, "Chelsea, you have to learn Esperanto," maybe that wouldn't work	`	Se via patrino dirus al vi "Chelsea, vi devas lerni Esperanton", eble tio ne funkcius		`
+- 39:00	Maybe it happened in the opposite way, you said to her, I don't know, maybe in that way	`	Eble ĝi okazis male, vi diris al ŝi , Mi ne scias, eble tiel		`
+- 39:05	If someone says that, you have to say no. You have to want to do it	`	Se iu diras tion, vi devas diri ne. Vi devas voli fari ĝin		`
+- 39:10	And if you want it, and persistently work - you succeed in nothing in life that you don't really want	`	Kaj se vi volas ĝin, kaj persiste laboras - vi sukcesas pri nenio en la vivo, kion vi ne vere volas.		`
+- 39:21	If you don't dedicate yourself - time, energy, give up movie theaters and movies, because -	`	Se vi ne dediĉas vin - tempon, energion, rezignu kinejojn kaj filmojn, ĉar -		`
+- 39:32	You have to give up things in favor of something else	`	Vi devas rezigni aferojn favore al io alia		`
+- 39:35	It's an investment	`	Estas		`
+- 39:37	To get married or love someone, that's also an investment	`	investo Edziĝi aŭ ami iun, tio ankaŭ estas investo		`
+- 39:42	To learn something new is an investment, and you have to believe in that	`	Lerni ion novan estas investo, kaj vi devas kredi je tio		`
+- 39:49	If you believe, you're not wasting yourself, you're giving yourself fully	`	Se vi kredas, vi ne malŝparas vi mem, vi donas vin plene		`
+- 39:55	That carries you to success	`	Tio portas vin al sukceso		`
+- 39:58	Enthusiasm, belief, love are the base for everything	`	Entuziasmo, kredo, amo estas la bazo por ĉio, kion		`
+- 40:04	I agree. I tried to learn Spanish when I was young, but I didn't really want to	`	mi konsentas. Mi provis lerni la hispanan kiam mi estis juna, sed mi ne vere volis.		`
+- 40:12	My mom wanted me to learn	`	Mia panjo volis, ke mi lernu.		`
+- 40:14	And I can't speak Spanish now	`	Kaj mi ne povas paroli la hispanan nun.		`
+- 40:19	So yes, I agree	`	Do jes, mi konsentas		`
+- 40:22	Do you want to say anything else that I didn't mention?	`	. Ĉu vi volas diri ion alian, kion mi ne menciis? ?		`
+- 40:25	I'd like to say a lot, but -	`	Mi ŝatus diri multon, sed -		`
+- 40:29	I don't want too long of an interview, people will fall asleep	`	mi ne volas tro longe intervjuon, homoj endormiĝos.		`
+- 40:33	I repeat that what you do - you are a new star for us in the movement	`	Mi ripetas tion, kion vi faras - vi estas nova stelo por ni en la movado		`
+- 40:42	Yes, people are starting to watch you	`	Jes, homoj komencas rigardi vi		`
+- 40:44	I could mention some others who did similar videos, etc., for one, two, three years, went in a direction	`	Mi povus mencii iujn aliajn, kiuj faris similajn filmetojn, ktp., dum unu, du, tri jaroj, iris laŭ direkto		`
+- 40:56	Now, people are starting to watch you, so do well, and we are thankful	`	Nun, homoj komencas rigardi vin, do faru bone, kaj ni dankas.		`
+- 41:02	We see the usefulness of Esperanto in real life	`	Ni vidas la utilecon de Esperanto en reala vivo		`
+- 41:08	It could change your world perception, your life, and you didn't just do lessons in books	`	Ĝi povus ŝanĝi vian mondpercepton, vian vivon, kaj vi ne nur faris lecionojn en libroj		`
+- 41:18	You immediately wanted to apply it, you want to travel, later you came with videos	`	Vi tuj volis apliki ĝin, vi volas vojaĝi, poste vi venis kun filmetoj		`
+- 41:23	Maybe you'll do plays in Esperanto later, I don't know, travel reports	`	Eble vi faros teatraĵojn en Esperanto poste, mi ne scias, vojaĝraportoj		`
+- 41:30	As long as you enjoy it	`	Dum vi ĝuas ĝin		`
+- 41:32	Grow your circle of friends, ask for help if you need it	`	Kreskigu vian amikaron, petu helpon se vi bezonas		`
+- 41:39	Never stop learning Esperanto, because even I can find new things to learn after forty years	`	Neniam ĉesu lerni Esperanton, ĉar eĉ mi povas trovi novajn aferojn lerni post kvardek jaroj		`
+- 41:49	We even find new things in our native languages	`	Ni eĉ trovas novajn aferojn en nia gepatraj lingvoj		`
+- 41:54	We never finish that	`	Ni neniam finas tion.		`
+- 41:57	That is - for me, I am already a full-fledged Esperanto speaker	`	Tio estas - por mi, mi jam estas plenvalora esperantisto.		`
+- 42:02	You are on a good path	`	Vi estas sur bona vojo		`
+- 42:04	Never leave it	`	Ne. lasu ĝin		`
+- 42:06	Maybe sometimes it'll be smaller, less important	`	Eble foje ĝi estos pli malgranda, malpli grava		`
+- 42:11	because love will come, children will come, but save it	`	ĉar amo venos, infanoj venos, sed konservu ĝin		`
+- 42:18	Take care of it, dedicate yourself when you have the opportunity	`	Prizorgu ĝin, dediĉu vin kiam vi havos la ŝancon		`
+- 42:23	But I think that you are already infected	`	Sed mi pensas ke vi jam estas infektita		`
+- 42:27	Yes, totally	`	Jes, tute		`
+- 42:28	And I wish for you big, great success and joy from that	`	Kaj mi deziras al vi grandan, grandan sukceson kaj ĝojon pro tio		`
+- 42:36	Thank you for the interview, and I hope to talk to you again soon	`	Dankon pro la intervjuo, kaj mi esperas paroli al vi baldaŭ		`
+- 42:44	Success, Chelsea. Thank you	`	Sukceson, Chelsea. Dankon		`
+- 42:51	Interesting, right?	`	Interese, ĉu ne?		`
+- 42:52	Thank you to Katalin for the interview, and many thanks to you, my supporters	`	Dankon al Katalin pro la intervjuo, kaj multajn dankojn al vi, miaj subtenantoj		`
+- 43:00	It was a long month for me, but I hope you enjoyed it	`	. Estis longa monato por mi, sed mi esperas, ke vi ĝuis ĝin.		`
+- 43:05	I certainly learned a lot	`	Mi certe lernis multon.		`
+- 43:07	Maybe I'll do interviews again, but first I need a break	`	Eble mi faros intervjuojn denove, sed unue mi bezonas paŭzon		`
+- 43:13	Do you want to see more interviews? Tell me in the comments!	`	. Faru ĉu vi volas vidi pli da intervjuoj? Diru al mi en la komentoj!		`
+- 43:17	This was a big month, but I have more videos for you in the future	`	Ĉi tio estis bonega monato, sed mi havas pli da filmetoj por vi estontece.		`
+- 43:22	And if you want to, join my Patreon	`	Kaj se vi volas, aliĝu al mia Patreon.		`
+- 43:25	I hope that you liked my video	`	Mi esperas, ke vi ŝatis mian filmeton.		`
+
+#### Aliaj
+
+- [Artikoloj](artikoloj.md)
+- [Esperanto Legaĵo](esperantolegajo.md)
+- [Esperanto Scripts and Phrases](esperantoscripts.md)
+- [Vortaro](vortaro.md)
+- [Dao de Jing](daodejing.md)
+- [La Sankta Bibilio](bibilio.md)
+- [Citiloj](citiloj.md)
+- [Sidarto by Hermann Hesse](sidarto.md)
+- [My Notes from Learn.Esperanto.com](learnesperanto.md)
+- [La Kvara Intervjuo: Katalin Kovats](lakvaraintervjuo.md)
+
+#### Links
+
+- [Lernu: a great site to get you started](http://en.lernu.net/)
+- [Esenco kaj Estonteco de Ideo de Lingvo internacia per D-ro L. L. Zamenhof](http://www.steloj.de/esperanto/esenco/index.html)
+       Written by the Creator of Esperanto
+- [Vikipedio](https://eo.m.wikipedia.org)
+- [ Partio Politiko](https://eo.m.wikipedia.org/wiki/Partio_(politiko))
+- [Esperanta Kulturo](https://eo.m.wikipedia.org/wiki/Esperanto-kulturo)
+- Rules of Esperanto
+- - [Grammar Rules by Wikiversity](https://en.m.wikiversity.org/wiki/Esperanto/Grammar_Rules)
+    - [Grammer Rules by literaturo](http://literaturo.org/HARLOW-Don/Esperanto/rules.html)
+- [La Sankta Biblio Website](http://terry.on-rev.com/LaSanktaBiblio.html)
+- [Literaturo Esperanto](http://literaturo.esperanto.net/bk/bk90.html)
+- [UEA Facila](https://uea.facila.org/)
+- [Learn Esperanto](https://learn.esperanto.com/en/)
+- [mac keyboard esperanto](https://jakwings.github.io/mac-keyboard-Esperanto/)
+- [Bertilow](https://bertilow.com/index.html)
+
+## Vortoj
+
+[deirpunkto](deirpunkto.md)
+[gufujo](gufujo.md)
+[senpere](senpere.md)

@@ -1,0 +1,14 @@
+{{ define "main" }}
+<article class="prose">
+  <header class="page-meta" data-pagefind-ignore>
+    {{ if eq .Section "writing" }}<h1 data-pagefind-meta="title">{{ .Title }}</h1>{{ with .Params.subtitle }}<p class="subtitle">{{ . }}</p>{{ end }}
+    <time>{{ .Date.Format "2 January 2006" }}</time>{{ end }}
+  </header>
+  {{ .Content }}
+  <footer class="page-meta" data-pagefind-ignore>
+    {{ with .GetTerms "tags" }}<p>Tags: {{ range . }}<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a> {{ end }}</p>{{ end }}
+    {{ with .Params.original_url }}<p><a href="{{ . }}">Originally published on Substack</a></p>{{ end }}
+    {{ if .Params.wikislug }}<p>Last edited {{ .Lastmod.Format "2 January 2006" }}</p>{{ end }}
+  </footer>
+</article>
+{{ end }}

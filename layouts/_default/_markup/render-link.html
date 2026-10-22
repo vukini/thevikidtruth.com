@@ -1,0 +1,14 @@
+{{- $dest := .Destination -}}
+{{- $m := findRESubmatch `^([A-Za-z0-9_\-]+)\.md(#.*)?$` $dest 1 -}}
+{{- if $m -}}
+  {{- $slug := index (index $m 0) 1 -}}
+  {{- $frag := index (index $m 0) 2 -}}
+  {{- $map := partialCached "wikimap.html" . "wikimap" -}}
+  {{- with index $map $slug -}}
+    <a href="{{ . }}{{ $frag }}">{{ $.Text }}</a>
+  {{- else -}}
+    <span class="missing-link">{{ $.Text }}</span>
+  {{- end -}}
+{{- else -}}
+  <a href="{{ $dest | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if strings.HasPrefix $dest "http" }} rel="noopener"{{ end }}>{{ .Text }}</a>
+{{- end -}}

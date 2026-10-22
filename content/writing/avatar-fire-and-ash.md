@@ -1,0 +1,85 @@
+---
+title: "Avatar Fire and Ash"
+subtitle: "A movie review (No Spoilers)"
+date: 2025-12-24T14:37:13.400Z
+original_url: "https://thevikidtruth.substack.com/p/avatar-fire-and-ash"
+tags: []
+paywalled: false
+---
+[](https://substackcdn.com/image/fetch/$s_!pAqv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc513667d-9071-4740-88ee-e5191da117a9_259x383.jpeg)
+
+![](/assets/avatar-fire-and-ash/9b26f175ce19.jpeg)
+
+![](data:image/svg+xml;base64,PHN2ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiB2aWV3Ym94PSIwIDAgMjAgMjAiIGZpbGw9Im5vbmUiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2U9InZhcigtLWNvbG9yLWZnLXByaW1hcnkpIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgY2xhc3M9Imljb24tbm9CNzlMIj48Zz48cGF0aCBkPSJNMi41MzAwMSA3LjgxNTk1QzMuNDkxNzkgNC43MzkxMSA2LjQzMjgxIDIuNSA5LjkxMTczIDIuNUMxMy4xNjg0IDIuNSAxNS45NTM3IDQuNDYyMTQgMTcuMDg1MiA3LjIzNjg0TDE3LjYxNzkgOC42NzY0N00xNy42MTc5IDguNjc2NDdMMTguNTAwMiA0LjI2NDcxTTE3LjYxNzkgOC42NzY0N0wxMy42NDczIDYuOTExNzZNMTcuNDk5NSAxMi4xODQxQzE2LjUzNzggMTUuMjYwOSAxMy41OTY3IDE3LjUgMTAuMTE3OCAxNy41QzYuODYxMTggMTcuNSA0LjA3NTg5IDE1LjUzNzkgMi45NDQzMiAxMi43NjMyTDIuNDExNjUgMTEuMzIzNU0yLjQxMTY1IDExLjMyMzVMMS41MjkzIDE1LjczNTNNMi40MTE2NSAxMS4zMjM1TDYuMzgyMjQgMTMuMDg4MiIgLz48L2c+PC9zdmc+)
+
+![](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld2JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLW1heGltaXplMiBsdWNpZGUtbWF4aW1pemUtMiBpY29uLW5vQjc5TCI+PHBvbHlsaW5lIHBvaW50cz0iMTUgMyAyMSAzIDIxIDkiPjwvcG9seWxpbmU+PHBvbHlsaW5lIHBvaW50cz0iOSAyMSAzIDIxIDMgMTUiPjwvcG9seWxpbmU+PGxpbmUgeDE9IjIxIiB4Mj0iMTQiIHkxPSIzIiB5Mj0iMTAiPjwvbGluZT48bGluZSB4MT0iMyIgeDI9IjEwIiB5MT0iMjEiIHkyPSIxNCI+PC9saW5lPjwvc3ZnPg==)
+
+**Can a movie change your life?**
+
+I didn’t think so, but maybe it can.
+
+Thanks for reading! Subscribe for free to receive new posts and support my work.
+
+Can somebody today create an epic like that of the Mahabaratha?
+
+Can we live is such an era that the greats are amongst us? The Buddha’s, the Vyasa’s, the Valmiki’s actually amongst us. Not in fiction and not in myth but with us, sharing the same space and time?
+
+I believe we are.
+
+In this life I have been lucky enough meet a few and even befriend them. True standouts. People I am sure are the Divine themselves, whose souls emanate radiant blue emeralds of light. Avatars.
+
+And then for the last two days have I been filled with divine visions myself. Dreams so deep that I entered another reality. And our reality became the counterfeit. Hmmm, no, but what I thought is reality merged with some beauty above comprehension and metamorphized into a new reality.
+
+*Everything became beautiful. Everything is beautiful.*
+
+But back to the movie. It acted as some kind of catalyst. It reminded my soul of what I have been looking over.
+
+The Navi have a saying “I see you”. It’s like the universe was saying that to me and I was saying it back,
+
+**“I see you”.**
+
+Avatar Fire and Ash is a masterpiece of film making but as I go online, to watch reviews, I see a lot of hate. A lot of love too, *but a lot of hate.*
+
+It dawned on me, that some people just can’t see, like the main antagonists in the story, a militarized mining and research corporation. *There is wonder all around them, but they are unable to open their eyes.*
+
+Others, like General Quaritch are too afraid to open their eyes. For they know in their souls that they can see, but admitting it would have grave consequences. Life changing consequences, the facing of guilt, shame, and other unpleasant emotions that are throughly explored in this movie.
+
+[](https://substackcdn.com/image/fetch/$s_!SzHG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fae981f14-5759-47d5-b061-0020e45459b5_474x266.jpeg)
+
+![](/assets/avatar-fire-and-ash/13a89c0ebe7b.jpeg)
+
+![](data:image/svg+xml;base64,PHN2ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiB2aWV3Ym94PSIwIDAgMjAgMjAiIGZpbGw9Im5vbmUiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2U9InZhcigtLWNvbG9yLWZnLXByaW1hcnkpIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgY2xhc3M9Imljb24tbm9CNzlMIj48Zz48cGF0aCBkPSJNMi41MzAwMSA3LjgxNTk1QzMuNDkxNzkgNC43MzkxMSA2LjQzMjgxIDIuNSA5LjkxMTczIDIuNUMxMy4xNjg0IDIuNSAxNS45NTM3IDQuNDYyMTQgMTcuMDg1MiA3LjIzNjg0TDE3LjYxNzkgOC42NzY0N00xNy42MTc5IDguNjc2NDdMMTguNTAwMiA0LjI2NDcxTTE3LjYxNzkgOC42NzY0N0wxMy42NDczIDYuOTExNzZNMTcuNDk5NSAxMi4xODQxQzE2LjUzNzggMTUuMjYwOSAxMy41OTY3IDE3LjUgMTAuMTE3OCAxNy41QzYuODYxMTggMTcuNSA0LjA3NTg5IDE1LjUzNzkgMi45NDQzMiAxMi43NjMyTDIuNDExNjUgMTEuMzIzNU0yLjQxMTY1IDExLjMyMzVMMS41MjkzIDE1LjczNTNNMi40MTE2NSAxMS4zMjM1TDYuMzgyMjQgMTMuMDg4MiIgLz48L2c+PC9zdmc+)
+
+![](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld2JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLW1heGltaXplMiBsdWNpZGUtbWF4aW1pemUtMiBpY29uLW5vQjc5TCI+PHBvbHlsaW5lIHBvaW50cz0iMTUgMyAyMSAzIDIxIDkiPjwvcG9seWxpbmU+PHBvbHlsaW5lIHBvaW50cz0iOSAyMSAzIDIxIDMgMTUiPjwvcG9seWxpbmU+PGxpbmUgeDE9IjIxIiB4Mj0iMTQiIHkxPSIzIiB5Mj0iMTAiPjwvbGluZT48bGluZSB4MT0iMyIgeDI9IjEwIiB5MT0iMjEiIHkyPSIxNCI+PC9saW5lPjwvc3ZnPg==)
+
+There are unspeakable acts of crime and loss. From both sides of the conflict. We no longer have one dimensional characters. There is pure madness and rage. It is a spectacle in immersion. But to immerse yourself, you too have to open your eyes and become vulnerable.
+
+You have to be able to turn off your mind. That incessant chatter. To tune in, you must tune out that chatter and flow to the experience. It is an act of surrender.
+
+I cried several times during the film. Something I haven’t done in years.
+
+And it gave me visions.
+
+I don’t know what effect it will have on you, though I do believe that you should give it a try, even if you missed the last one or even the one before that. Even if you didn’t like the saga up to now. And you never know, this time your eyes may actually open…
+
+Fire and Ash takes all previous concepts to new heights. It doesn’t shy away or go into some safe direction.
+
+The story of Avatar is our story. It is the story of Earth.
+
+The acting is spectacular, jaw-crackingly intense, Naytiri, Varang and Jake should be getting awards. But they won’t, the message of the story is anti-empire. *And that just won’t do, not while everyone is empire building from Silicon Valley to The Three Gorges.*
+
+If you want to see a movie as powerful as the Mahabarath, as soul piercing as the Gita itself, something Old Testament, Abrahamic and maybe just enough to get your visions flowing?
+
+Well this is as close to it you as you’re going to get on the silver screen.
+
+Watch in IMAX 3D.
+
+Aho.
+
+And That’s,
+
+### The Vikid Truth.
+
+(and a Merry Christmas!)
+
+Thanks for reading! Subscribe for free to receive new posts and support my work.

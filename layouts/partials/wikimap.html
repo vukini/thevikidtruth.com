@@ -1,0 +1,4 @@
+{{/* slug -> RelPermalink for every published wiki page. Drafts are excluded by Hugo. */}}
+{{ $s := newScratch }}
+{{ range $p := site.RegularPages }}{{ with $p.Params.wikislug }}{{ $s.SetInMap "m" (string .) $p.RelPermalink }}{{ end }}{{ end }}
+{{ return ($s.Get "m") }}

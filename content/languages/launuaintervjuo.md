@@ -1,0 +1,260 @@
+---
+title: La Kvara Intervjuo
+date: '2021-09-08T02:38:49+04:00'
+lastmod: '2021-09-08T02:38:49+04:00'
+original_id: '{A1654}'
+original_name: launuaintervjuo
+original_blob: blob/B/10/373.txt
+revisions: 1
+author: admin
+last_editor: admin
+tags:
+- languages
+categories:
+- languages
+wikislug: launuaintervjuo
+draft: false
+---
+
+[Arabic](arabic.md) | [Esperanto](esperanto.md) |[Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) | [Swahili](swahili.md) | [French](french.md) | [Hindi](hindi.md) | [Artikoloj](artikoloj.md) | [Quick Links](quicklinks.md)
+
+## La Kvara Intervjuo
+
+[Link to Video](https://www.youtube.com/watch?v=Fs5iOB5Kdbc)
+
+- 10s	`	conte ne je 18 m purigis la intervjuon al la mia mi esperas, ke eĉ hodiaŭ estas tro multe	`
+- 18s	`	villa la personala decida rivero a tokai	`
+- 46s	`	estas teksto pri rilata al pos tra vilao inviti en la sama pli-malpli	`
+- 51s	`	in europa league sos racism el you have me okcidenta vetkura semajno kun Acai li demandis min	`
+- 1:22	`	unua klako d'india roy honoro por hedwall ingolfate donini finis kurson	`
+- 1:30	`	je sep mimì the haggis attach in lerno main book	`
+- 1:33	`	to don ermete miss moore p2 lengo test dominique comenses ellaboras la aliĝokontojn	`
+- 1:42	`	la miano karobo ctn ostino, ke mi havas vin elpys min-asigna programo premiso estas	`
+- 1:50	`	vorto 2, kiu estas la ĉefo, kiu venigos a cie longo sings it or sessa soapy	`
+- 2:00	`	kaj imi comenses instruis patron Esperanton de norda londono al esperanta qiu bo	`
+- 2:08	`	Kyung Kim kun la direktoro al mi mi pensas, ke ĝi subtenas en da gs	`
+- 2:13	`	manĝeto, kiun vi lernas kaj pafas anton android	`
+- 2:19	`	tio signifas psalmojn pafitajn hieraŭ en Ĉilio la torentaĵoj aŭ la onklino, kiu ŝanĝas York	`
+- 2:32	`	en klara kaj tro ellaborita espero bill harris pereo la pandemio ne parolis min	`
+- 3:02	`	forgas sur la iphone alta al parto 1 estas pli bona sistemo de deprenoj por di	`
+- 3:23	`	elektro servu la londonan al vi ĉu vi nomas malnovajn ĝinzojn pluris-linioj	`
+- 3:30	`	electro serve cai legis to now in domo comenses malvarmaj armiloj g3 raboj caja	`
+- 3:40	`	mardon esti lineage mini policaj vinoj nell''s p radono kaj la aviadilo tiel feliĉa	`
+- 3:47	`	mi kaj sama amiko jam havas ĝin sufiĉa monato inter man lenihan por di	`
+- 3:52	`	electro servon donini justice league gajnis kun cai gi estis faktoro de esti	`
+- 4:00	`	bela aymen 5-a-side football bonanno nesti	`
+- 4:06	`	problemo kaj princo vi rompas makzelon kaj pipon kaj yahoo	`
+- 4:11	`	sed kenjo estis ĉe lo serve ardo mini plus por nole bonefro	`
+- 4:20	`	Justin 32 ne konscienco micronas, ke kiu ajn mi estas, tiu ŝanĝas jes	`
+- 4:34	`	multaj skriter nekrologoj kiu li estas kaj 2 language insert them prolis mohtaj lingua	`
+- 4:41	`	kristnaska aro mimì warfare or the slide prepare mib i	`
+- 4:48	`	pescheti unes acute ma ferrotto cv angela herbejo kiu estas ĝi devagas ling stato	`
+- 4:57	`	de bodom puerto rico hokayem puertorika lerna greneja sango	`
+- 5:02	`	rapidaj orientaj anglaj freŝaj vortoj aŭ dioj miaj adorantoj en mia kostumo mi loĝas	`
+- 5:10	`	posto e milanista.it alan e di masi e camille erni st franza en la universitato	`
+- 5:15	`	piedfingro sidigas min, vi aŭskultas al mi korpan muzikon fariĝis novaĵoj oriente en la hinda lingvo	`
+- 5:25	`	stai al la klara kaj smi miliare italia en la neĝa lingvo regis degelas mia helero	`
+- 5:33	`	bela mortigo igas min vortigi se-terminojn esperante je la citrono ĉiun etan vorton	`
+- 5:38	`	alan aula franzan conca miller nicely natale esti influinta la projekton	`
+- 5:45	`	manaĝero akao kie bianca prolapsas tiam a ni estas bifo-rezistebla maskalo en ĉi tiu	`
+- 5:52	`	kompanio cai lang la rescaldina statuo li ŝercas sian ironion pli vigle	`
+- 6:02	`	la jaroj ne estas la teorio, kiun vi estas chillingo servis ĝin dum longa tempo nun	`
+- 6:10	`	mil mi komensas verni las vegas call s6 universitata poŝlampo mia amiko antuni	`
+- 6:17	`	estu bela John cummings tra sia all'ila gli	`
+- 6:20	`	malfermas la ligon sur la psalmoj la sferaj n-roj formala por kompreni ilin	`
+- 6:25	`	se li povas mimì akiri la jaran kami-libron mi studu ĝin malkaŝas	`
+- 6:30	`	du un lingvoj kaj al posteuloj malkovris por anton kaj lapo de via lingo caimi	`
+- 6:38	`	Esperanta memoraĵo, kiun vi amas asistantoj masia kaj blemi fidas hodiaŭ	`
+- 6:44	`	fakte la provo, kiu estas klara nek de ras caimi to thaksin spertas fazzina	`
+- 6:50	`	caminita origis mia lerna de kie esperanto web proviz learning kailas	`
+- 6:54	`	medalovetkuro por antonsson-tempa servado minimuma konfuzita gis rella malkaŝas nic a kaj b	`
+- 7:01	`	kaj estas sur la mano premi sinis prijic kaj li diras al mi, ke miloj estis tiel truditaj	`
+- 7:07	`	ke eminem ii mallonga ĝeno	`
+- 7:11	`	la saman samaki ĉe find me if sprint on2 iriso al la ingota duopo kaj la eni tio sur	`
+- 7:19	`	lari spa de h kaj onklino vidis min se esperas, ke vi ne kaŭzas la riskojn de damaĝo e	`
+- 7:25	`	magistri astaranto.it al la milananoj stranka in emi amyris to the missiva la	`
+- 7:35	`	common foam comenses berni esperanto nur bone fiŝkaptis privatan fraŭlinon spana	`
+- 7:40	`	espagnol virinoj kaj asignas al mi kubonojn kuiri por vino bombe nilis kiel en kiu	`
+- 7:47	`	tri pacienco kaj la tenisa kostumo en konsilo ne pensis min skemoj kaj	`
+- 7:54	`	ĉi-vespere sed nur iliaj fizikaj korpoj min inkluzivas miajn pensmanierojn	`
+- 8:01	`	tranĉi panamp citronajn semojn kompletigitajn en miliono da Esperanta spiona temo mimì Moody	`
+- 8:09	`	sed kiu ajn pekas ĉe la vvv diri Mi vivas la antaŭan alvenon de studoj la sfero a	`
+- 8:18	`	santoni che mimì audis prigi andy muzion Dividu mian vivon al mi kun dolĉa hummler	`
+- 8:25	`	gene mimì lasu min resti julia sorto e lernante esperas, ke vi povas vg muson julie	`
+- 8:33	`	simple leggins prijic hi sim places i m Esperanto if the mime raschetti hamli	`
+- 8:41	`	vortoj almi pripri Esperanto la klubo mi min esp kaj moras, ke ili	`
+- 8:45	`	clarins cocaine pharoah imprima plural post sep monatoj en davis la flugilo kaj moderna	`
+- 8:53	`	jim semi spiritaj memoroj i mia panio Mi bedaŭras nenion pli kaj Blair luas vin	`
+- 9:02	`	nomu etulon orienten en la universitato kie fanfaronas pri bona korto jen la dirita bilal	`
+- 9:07	`	mencias, kia Esperanto estas la fenomeno la cai sidejo en roy cai post de malatesta	`
+- 9:15	`	regu, ke ni estas kun nova patrino karmino stice ke ankoraŭ neniu vorto	`
+- 9:22	`	Sim interesas, ke tiu bona senduba folio I live esperanto mimì ex ispri esperanto	`
+- 9:31	`	se estas larry singes, mi estas tie kaj ĝi erarvagas 140 la kunveno ĉe la kongreso kie tie	`
+- 9:41	`	li konservas en austin la bonan krudan muton hieraŭ vi memorigis la memoron, kiu mi estas	`
+- 9:50	`	post mi marŝis kaj meze sidis e bre.be.mi serĉo t.e. st stoch klubo bone	`
+- 9:57	`	malbona sento, ke la filmetoj estas la emblemo muntu bonajn kaj mallongajn vortojn, kiujn ili aĉetas	`
+- 10:05	`	semida dum mila sin ĝis la osto duonpolica komuna chigi, kiu povas min	`
+- 10:11	`	trovi malgraŭ ĝi aŭ trovi subskribojn gis	`
+- 10:15	`	I believe in miche esperanto estas di boasts cauda lingua also gigi vivigas la	`
+- 10:23	`	lincoln pormi dogi nestris daŭras sed tio ne provis ligi al la libro kaj alimaniere emil	`
+- 10:30	`	boc youtube vi povas sed laca kaj ĉio ekster la ordinara chigi por g andria stevardo	`
+- 10:37	`	sistri utila aspekto camillis nonni mi ankoraŭ nun en grekaj kontoj dwan sabate	`
+- 10:41	`	n'dour longe por inkluzivi nul por zoom serni ankoraŭ nun senĉese tie	`
+- 10:49	`	viva kaj agis Rusujo estis eksterlandaj amikoj a	`
+- 10:57	`	sperta majstro luca la vojaĝo de ni, kiuj bonkoraj teatraĵoj por Esperanto Feb 6 Mi havas	`
+- 11:09	`	spiris alia esperanta domini gestis nask nordameriko transprenos kursaal anoncon	`
+- 11:14	`	Esperanto kaj aĉeti masakron estas dominé basonis restos agitita por vi enow ai	`
+- 11:24	`	propra skribu ĝin la feroca naskiĝas ĉe 16 maina aldonos cusaro nord al carolino	`
+- 11:33	`	lasta sastri malsama la nivelo kaj tophost bazita mesa kiu superas cai o'neal	`
+- 11:41	`	endomaj hodgers maja kaj torje universitato pizoj kaj norda karolino android hejmo	`
+- 11:50	`	stremo jos Holy fuck the lodger in Esperanto I to a if anything there with	`
+- 11:56	`	en la universitato starigis 33 kaj tac al la fratoj est asp resca a morini a no more if anything	`
+- 12:02	`	ĝi ne kongruas kun la normala kurso en universitato de la universitato donas e	`
+- 12:11	`	dr Mayo kaj amo malantaŭa pordo meyers tagnokta kaj al nascano kaj cai allaman geo	`
+- 12:17	`	kaj android kaŝmemoraj aferoj 33 efikas alberto ovi faris loĝejon fariĝas	`
+- 12:23	`	Esperanto, se entute, ne kaj ĉielo ĉu suĉilo estas la ligo kaj la us kiom	`
+- 12:29	`	kreas nisa ne parto de ŝia luciano-aro iuj bomboj neniu aska ŝtona insulo	`
+- 12:37	`	teamo kaj faru ĝin malĝoja linioj de la superas kompreneble qt mesta sex earl mi iris al	`
+- 12:45	`	[Muziko] interretaj studentoj de havas foliojn	`
+- 12:51	`	internacia gisada intereso mimi kaj nur kvereloj aŭ pandemia poŝto en la	`
+- 12:58	`	paragi ekstazo por amy linda sperto kevin m m estas malfermita	`
+- 13:03	`	Mi ne estas hodiaŭ toms maino interalie Esperantisto kaj interalie kun kiu	`
+- 13:12	`	li volas de tie, kiu scias nenion 9 power spa ag al kiu ne kun centoj da	`
+- 13:23	`	retejoj kaj domajnoj vi faras min planis tio estas stila la universala a kongreso por aŭdi	`
+- 13:29	`	tonini biplanoj planas hundoj malaperis ankoraŭ povas studi ĉe venus	`
+- 13:35	`	ili aranĝas karieron ĉe montreal org ke la universala ĉeso ĉe la kongreso	`
+- 13:41	`	the useful akron ti over and mimì navas fines de libera tempo ĝiba yagi marŝis	`
+- 13:47	`	ĝi dependas ankaŭ de la fanoj en C min kaj poste vi skuu min ankaŭ sha trousse almenaŭ	`
+- 13:54	`	al la universalaĵo ĉe la kongreso komenciĝis sukcesoj de tablo kaj smi forgas	`
+- 13:59	`	ni skribas per f ne cv vorto mem sed ĝi ne devas regi en strusa lilio	`
+- 14:09	`	chispa nun kaim debil instrukciis la glacion pan am alive bancaja aspar anton mixed	`
+- 14:17	`	universalaj azenoj povas vas kredu al mi planojn nomitajn oficejoj kaj de	`
+- 14:23	`	malfatti industria lazo en linio Pafi, ke vi gajnas vorton, sinjoro, neniam estas	`
+- 14:30	`	espana kiu estas progreso okazis ostomio	`
+- 14:33	`	aisona vorto en hispana aĉetas ilin nas jeans oficejoj kaj bonaj faris ne tempon	`
+- 14:39	`	kaj mia en fano kaj kun prena tranĉaĵo pan al citrono aŭ ii a kaj ii detruos limojn	`
+- 14:47	`	racia licali aĉetas ĝin naskita i ĉefo inter dukoj ali el papi de forgeso	`
+- 14:57	`	aŭtomataj vortoj i vorto supreniris lee kaj la hispana cai duono inkluzivas iujn ĉielajn	`
+- 15:02	`	kiu inkluzivas pgt sukcedis nin estas ĉiam rilato sufiĉas	`
+- 15:07	`	problemo retiro de miale gi skalka inaf heroina lilio estas Esperanto en libro en	`
+- 15:16	`	an cai iliili to justin ended up rondaj flugiloj libere diri, ĉu laŭleĝe tio	`
+- 15:25	`	ne diros al mi, ĉu vi ilustras, kio ĝi estas estis belhaj ekzemplo la flugiloj al la ŝipanaro	`
+- 15:31	`	balon igas ilin iniciatitaj en versio kompleta angoro pri sciatiko	`
+- 15:37	`	sirio salutas cvd-riskon kaj inferon interrete inter skolta lingvo naskiĝas eĉ CV sen	`
+- 15:48	`	fortaj krucvojoj en unu interreta e nula hispana inter linio iam estis	`
+- 15:58	`	mil plus dias, kio estas, ke li donis al mi pafon siringo espana mi forgesas min mortinta	`
+- 16:05	`	cai ke li parolis al mi kaj anglani fuksas e trina ferro ekzemplaj prepozicioj e	`
+- 16:12	`	lang la that its a theme wrote that if mi seeds arolo clima rapide kuip en sus c	`
+- 16:18	`	plu kimi planas of mine mm semina blandine	`
+- 16:24	`	cto vorto de yasmina estas bimbe china fxi skymed malfermas larĝe emilian mine	`
+- 16:33	`	blu havas li bonan lingle duboj pri kio pardonu, se vi vizitis min sporta konsumo	`
+- 16:41	`	Mi vizitas ŝpinitan patronan esceptitan le poste mia retejo miaj vortoj tranĉas pan am	`
+- 16:47	`	unue parolas pri asm la bendoj ĉe ĉielo mi vi demandis min komenci per vortoj al mia en	`
+- 16:56	`	fano kaj la hispana sa strato smemo staves al mia hobio nek vorto andrea livi	`
+- 17:04	`	vorto nurchis panon igis bebojn diri salis mia vorto ekvilibrigas anglais provu denove	`
+- 17:12	`	cimin ridis espereble elŝutebla prezlisto	`
+- 17:19	`	dependis televidigi Rio en vi ŝuldas al mi benzinon lilio estas ĝis linioj hispana linio kaj estas tio	`
+- 17:28	`	interested in nitsch al n havas mine po do sed kies estis la testo scarole	`
+- 17:36	`	mutel info kaj savani ke la banko li donis al mi steri, kiu estas ĉe micam en la eni-kampo	`
+- 17:45	`	rekordo schia kudrilo gianni vorto aennini skipass ciao ciao di chio free	`
+- 17:55	`	zelandia celo mia baseno carolis esperante kihansi dormas kaj jes kaj malsukcesas	`
+- 18:05	`	sciencoj mila fanoj mi forgas estas mata damon kaj krias nola micro smith	`
+- 18:22	`	kline skalas a post kiam b b knabo interesiĝas fenomeno ludas vian vorton nomu a	`
+- 18:29	`	limba minejo aŭ retejoj ne esprimas per lingvo, kiun hodiaŭ mi nomas re vorto	`
+- 18:36	`	pri freŝaj inventoj por lasta homo cervo de kolero, kiu malheligas min	`
+- 18:42	`	Lincoln Trial Store Memories Abortion kaj la lia la senformaj okuloj je la horoj de	`
+- 18:48	`	leciono tie en Hispanio aŭ malestimis min en la ana glaso mi petas diri tranĉaĵon	`
+- 18:52	`	ventumilo, kiu parolis al mi anglais, tiras min ŝanĝita al céline austin ruze pafpafu min	`
+- 18:57	`	polisti egala a la strando komencis en rinestonoj kaj ŝprucaĵoj	`
+- 19:03	`	se vi povas marbordiĝi al peco de la konsilon por rekomendi al mia tria	`
+- 19:12	`	en la mezo de la simila sanktulo en rozaj punktoj	`
+- 19:19	`	1 jun nigra fabo lerno sport on l'air rugin kaj apartan frazon li sciis	`
+- 19:29	`	skribu vin kune kun kiel afiŝi muta e bonato kaj de hernando ankoraŭ aŭ globo	`
+- 19:38	`	ĉu memoroj ekzemplas la trans-direkton barboj example is always dark lerna	`
+- 19:47	`	larĝaj pafoj sur vinh nebrera stangoj rosti ianojn por antonio de pikilo inter	`
+- 19:55	`	pollica eboli servos kiel ekzemplo shipwreck nola admob all asi e miccoli	`
+- 20:02	`	ghisla a kun la dika akuzativa muro post bol.it duobla elpo svin atentanta la	`
+- 20:09	`	trans aktivigi la ĉielon min kalia Mi rekomendas tre sanajn paŝtistojn de lego-lego	`
+- 20:16	`	babili monile gas kun la sng am serĉo kiel nova kvanto en la portar okaka mi	`
+- 20:24	`	will ex finiani is always Lega pro.la Mi supozas, ke li ligas vivon	`
+- 20:36	`	I express in cai io pous tio estis ĉi tiu stando kaj domo unue kaj	`
+- 20:42	`	kivioj estas tre pravaj ial de kilie nesirky al amin kaj amas min via	`
+- 20:50	`	orson dekstra astmo caiti me onur ben sv El klasĉambroj sufiĉas la lango	`
+- 20:59	`	senvestigita lerno bortoni iuj kun frazoj kaj guŝojn mi nomas nile gas se blair	`
+- 21:08	`	Roman sur filozofiaj dorsoj al la organika oni oni estas kun sias vi kreas tion por kiu mi estas	`
+- 21:14	`	la koncerna butono klakas malrapide la en 33 de la tago estis ludita kaj tio	`
+- 21:21	`	en mia estas la komerco de la libro cai la calle blemi	`
+- 21:28	`	ibi islam orton l'un tiam mi havas hundon kun la subteno de sace ekde cai	`
+- 21:34	`	kun novaj vidaj paĝoj, kiujn mi neŭrono kaj mortis sidas kie ses monatoj	`
+- 21:38	`	la naŭ serio la kotizo, kiun vi nomas, kiu vi estas skarpa tuko estas mia edzino el heller	`
+- 21:43	`	ĉi aborto 3 bona recenzo porl erni bortolin m n de sentence inkluzivas regulon	`
+- 21:51	`	aborto estas neniu el la frazo estis vera che berkey store emas bekim somere	`
+- 21:58	`	ĉiuj aroloj silkaj mendes tabona kaj bown e lernado komplikas frazojn chardin ed	`
+- 22:09	`	eva sparo retiras komplikaĵon e portebla mi aplikas klakon kaj feron en b	`
+- 22:14	`	b plus implicas genajn ŝlosilojn homajn vortojn Mi pensas, ke se estas semanta vorto, kiun vi aŭdas	`
+- 22:22	`	homo kaj rozoj al viro, tamen, la mipamo bremsas kvin jarojn sed ŝercas pri ĝi	`
+- 22:29	`	sala rozkolora sed feliĉe mia vizaĝo komparoj de usonaj programoj	`
+- 22:38	`	la sama mallarĝa fero parolas pri ĝi kie En tempo kaj vi faros min temo mimì	`
+- 22:44	`	provu liboni de mian france ankaŭ mieri talan kaj sa Esperanto-intereso	`
+- 22:49	`	rapidaj ligoj estas vere regataj 10 red la dl bethel le gas libro en francujo	`
+- 22:57	`	b b thomas komprenas nesufiĉajn ĝuojn caja noemi comenses lagoj kaj france	`
+- 23:04	`	i a sky mimi komprenas al ni multan subtenon kaj krimo se vi demandas ilin pri la micheloni	`
+- 23:10	`	diru al la cto en francujo aŭ jes tion Mi legis sur la frazo mi li toooo oria jes	`
+- 23:16	`	lin amuzis la juĝistoj, kiujn li volis min ionaj satirusoj Ankaŭ mi lin vekas	`
+- 23:24	`	DS3 kreas al mi elfosadojn bonan praktikan ekzemplon kiu ne provis lenin afiŝi streĉojn	`
+- 23:32	`	timei tempo ĉiuj aŭdi estis la sekreto por frua Esperanto, kompreno estas	`
+- 23:38	`	deklaru la atutan opcion kaj zombi-studojn Esperanto refuse chul han han sistri	`
+- 23:46	`	Mi amas vin 106 fine fermis al jundi ago rosmini mi pensas	`
+- 23:53	`	en ili vi scias, ĉu mi konfuziĝas paŝon post paŝo lingva tempo mi pensas, ke la sekreto estas	`
+- 24:05:00	`	sos kiu vidis lasu nin fari r è bela sekreto kaj diversaj ion sas por	`
+- 24:12:00	`	esperanto c a tag on svs line malfacilas en c etikedo pri aĉeto de bastiono de	`
+- 24:19:00	`	tempa sekretario, kiu nomas la hakilon faru la vicajn spacojn viciĝi sed la ondo en	`
+- 24:26:00	`	artikolo en Esperanto cai Mi legis tiujn, kiuj amas la novan artikolon kaj aldo	`
+- 24:32:00	`	Niĝero Mi legis jim de havas fakte la perlojn de ĉ	`
+- 24:37:00	`	Mi aprobas la reflektorojn por la lingvo tiu miller nasone nn up up that via Serbian a	`
+- 24:43:00	`	por jesus alighieri kayak.com jen familio mi mokis min kiel ŝipestro jes	`
+- 24:52:00	`	li scias kiel teni sin sur la aro, li akiris al mi ŝtupetaron sekreto estas sasuke minetti mastri aradori	`
+- 24:59:00	`	se per rara okazis nek severa hipa skanado bremsoj min	`
+- 25:04:00	`	en hawaii-testoj kolizias trankvilajn mensojn Mi pensas, ke ĝi estas sankta kaj mi pensas	`
+- 25:08:00	`	make them nerve you love te havas asti perfecta parolata al kami-vorto skype tio	`
+- 25:17:00	`	kazo korpo iuj ŝlosilaj kordoj a indire aŭ minimumaj en la pasejoj charmin e	`
+- 25:24:00	`	ministro snagit savinien Mi provas sklavojn lerno snagit the samo prix lingle armed	`
+- 25:31:00	`	frostigas savinon kaj vorton sur la lango a mini hub la aerbuso paris maljusta	`
+- 25:36:00	`	nepra vorteto ŝtopu miajn multajn pafojn osè vip ĉe aŭkcio mia espero estas	`
+- 25:43:00	`	pafite unufoje per rando kaj pomobendo lingvo aŭ vortoj lingvo por	`
+- 25:53:00	`	lernado pri ĝi regas la hejmon en tempo en Esperanto jonica estis tion	`
+- 26:03:00	`	Bari meritas rimedon, se mica vidus a qeullo justin covas paroli aliajn	`
+- 26:11:00	`	Esperantisti perdas inter eto'o vi honesta tavoleto estas klara kaj honesta kaj klara	`
+- 26:17:00	`	kiu regis la restaĵon kunekzistas bolas perfecting are Esperanto la	`
+- 26:24:00	`	rimedo insistas pri qaim butelli s ekzemple vortoj ĉi se li pagas du	`
+- 26:30:00	`	retaj filioj restas sen gaido aŭ die loyal cobas Esperanto a tremor	`
+- 26:37:00	`	66 fluganta qaemi freneza tre sperta 1 kaj flugu serbojn kiel kajenan sanktulon	`
+- 26:45:00	`	Hufuma dujara ŝanĝo de sporto 1 kaj kiwi est ass.ti estas la jes all'irap	`
+- 26:50:00	`	live ipo estis raleigh kun la i vip o forestas ĉe la raportmesaĝo en	`
+- 26:55:00	`	hot 9 antal c'est ex estas klara kaj minessi south on the ever Esperantist tia	`
+- 27:00:00	`	mi polico skribis, ke ĝi estis tia iam ajn antaŭe muro kaj versailles mm	`
+- 27:06:00	`	kiu estas kiu kiu estas tie eksa teamo scalfari melodioj kaj facila tempo aŭ nepoj ĝis tri	`
+- 27:13:00	`	facila pri vortoj kun bona robo marko 19 stein estas ĉiam facile irigebla	`
+- 27:19:00	`	mia post iom da tempo por valutŝanĝaj tumoroj mi pensas, ke ĝi estas Francio	`
+- 27:25:00	`	inter esperanto ok alle a l in which nun, kiam ŝatas Francesco Evola	`
+- 27:32:00	`	ŝi pasigis la elekton kaj magis panaraba en angolo dum ekesto ĝi glitas	`
+- 27:40:00	`	sur ernage trudas fraŭlino la homamaso scienca kaj tre sperta kaj flugas al tio	`
+- 27:45:00	`	al la viro estas lerno kaj iuj mastroj elector divine electis larry lang lang	`
+- 27:52:00	`	syne ludu el cdg en la fina stacio port vila anglist factor domi for the	`
+- 27:59:00	`	sua noir by faris lenihan mimine bakeries lan wan sen esperanto essa	`
+- 28:04:00	`	elektu laŭvolan ĝojon de vasko-fibro iamm alvokoj de danĝero estis jam en kontoj	`
+- 28:10:00	`	iu esperantisto estis pli tavolo ekstazo ĉe ludo bonamika mira sarde vi trovas	`
+- 28:18:00	`	sas garantiis a sur la chiuri-tavolo aŭkcii nardajn ekranojn en pli novkazoj	`
+- 28:23:00	`	servi al liam de ang la vorton antonio	`
+- 28:29:00	`	[Muziko] scano mosaic mai word slam	`
+- 28:36:00	`	mancinetto, kiun vi amas tiam al jasmeno shyam progresi en en la vorto ankaŭ la	`
+- 28:43:00	`	nevino karolino esperas duonpruvon Esperantista ŝlima esploro, kiun vi faras	`
+- 28:53:00	`	vokas lapo amicu eldon i gis mirelli sprit mi donas fermitan por rompi	`
+- 29:01:00	`	dhaka shiite esperantista nia buŝo kaj mi vetludu acetum oscar en ekstazo	`
+- 29:08:00	`	Esperantista three next tione minimum kazoj sentis jes jes ĝustigi a	`
+- 29:14:00	`	rest studena sarde find Esperantist larĝa dekstra scivolema ankaŭ sed ankaŭ	`
+- 29:25:00	`	tra tamen malkonekti de 40 kun Haitio estas, ke la multaj sed kreos profesian diskotekon	`
+- 29:41:00	`	en la hundoj kaj esperoj senvestigas hejmen inter preter ne puŝis la idiotojn 61	`
+- 29:49:00	`	beinaschi ni invitas vin 28 skybox serĉo glata alojo al naskita kun linio kun thiès	`
+- 29:57:00	`	30 kaj sinti vilaĝaj retaj retoj sur la tuboj malriĉeco viani pafis jarojn kaj neniu komento	`
+- 30:04:00	`	la kajto ĉ	`

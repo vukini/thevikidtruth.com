@@ -1,0 +1,63 @@
+baseURL = "https://thevikidtruth.com/"
+locale = "en"
+title = "The viKid Truth"
+enableRobotsTXT = true
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+[markup.goldmark.parser.attribute]
+  block = true
+  title = true
+[markup.goldmark.renderer]
+  unsafe = false
+
+[menus]
+  [[menus.main]]
+    name = "Writing"
+    pageRef = "/writing"
+    weight = 10
+  [[menus.main]]
+    name = "Computing"
+    pageRef = "/computing"
+    weight = 20
+  [[menus.main]]
+    name = "Mathematics"
+    pageRef = "/mathematics"
+    weight = 30
+  [[menus.main]]
+    name = "Science"
+    pageRef = "/science"
+    weight = 40
+  [[menus.main]]
+    name = "Languages"
+    pageRef = "/languages"
+    weight = 50
+  [[menus.main]]
+    name = "Music"
+    pageRef = "/music"
+    weight = 60
+  [[menus.main]]
+    name = "Essays & Ideas"
+    pageRef = "/essays"
+    weight = 70
+  [[menus.main]]
+    name = "Resources"
+    pageRef = "/resources"
+    weight = 80
+  [[menus.main]]
+    name = "About"
+    pageRef = "/about"
+    weight = 90
+  [[menus.main]]
+    name = "Search"
+    pageRef = "/search"
+    weight = 100
+
+[sitemap]
+  changeFreq = "monthly"
