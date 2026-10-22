@@ -9,11 +9,13 @@ revisions: 2
 author: admin
 last_editor: admin
 tags:
-- science
+- philosophy
 categories:
-- science
+- philosophy
 wikislug: sentsan
 draft: false
+aliases:
+- /science/sentsan/
 ---
 
 # Sen Ts'an

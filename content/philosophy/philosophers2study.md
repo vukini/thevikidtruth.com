@@ -9,11 +9,13 @@ revisions: 22
 author: admin
 last_editor: admin
 tags:
-- math
+- philosophy
 categories:
-- math
+- philosophy
 wikislug: philosophers2study
 draft: false
+aliases:
+- /mathematics/philosophers2study/
 ---
 
 [Philosophy](philosophy.md) | [Economics](economics.md) | [Politics](politics.md)

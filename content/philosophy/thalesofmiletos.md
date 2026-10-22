@@ -9,11 +9,13 @@ revisions: 7
 author: admin
 last_editor: admin
 tags:
-- math
+- philosophy
 categories:
-- math
+- philosophy
 wikislug: thalesofmiletos
 draft: false
+aliases:
+- /mathematics/thalesofmiletos/
 ---
 
 [Philosophy](philosophy.md) | [Economics](economics.md) | [Politics](politics.md)

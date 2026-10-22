@@ -9,12 +9,14 @@ revisions: 1
 author: admin
 last_editor: admin
 tags:
-- science
+- philosophy
 categories:
-- science
+- philosophy
 wikislug: ethics
 draft: true
 review: retire
+aliases:
+- /science/ethics/
 ---
 
 # Ethics

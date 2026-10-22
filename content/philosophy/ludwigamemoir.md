@@ -9,11 +9,13 @@ revisions: 6
 author: admin
 last_editor: admin
 tags:
-- math
+- philosophy
 categories:
-- math
+- philosophy
 wikislug: ludwigamemoir
 draft: false
+aliases:
+- /mathematics/ludwigamemoir/
 ---
 
 [Books](books.md) | [Philosophy](philosophy.md) | [Economics](economics.md) | [Politics](politics.md)

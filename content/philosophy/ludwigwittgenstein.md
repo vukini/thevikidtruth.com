@@ -9,11 +9,13 @@ revisions: 19
 author: admin
 last_editor: admin
 tags:
-- math
+- philosophy
 categories:
-- math
+- philosophy
 wikislug: ludwigwittgenstein
 draft: false
+aliases:
+- /mathematics/ludwigwittgenstein/
 ---
 
 [Philosophy](philosophy.md) | [Economics](economics.md) | [Politics](politics.md)

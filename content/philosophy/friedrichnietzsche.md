@@ -9,12 +9,14 @@ revisions: 1
 author: admin
 last_editor: admin
 tags:
-- math
+- philosophy
 categories:
-- math
+- philosophy
 wikislug: friedrichnietzsche
 draft: true
 review: retire
+aliases:
+- /mathematics/friedrichnietzsche/
 ---
 
 # Friedrich Nietzsche

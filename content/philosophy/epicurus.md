@@ -9,11 +9,13 @@ revisions: 3
 author: admin
 last_editor: admin
 tags:
-- math
+- philosophy
 categories:
-- math
+- philosophy
 wikislug: epicurus
 draft: false
+aliases:
+- /mathematics/epicurus/
 ---
 
 [Philosophy](philosophy.md) | [Economics](economics.md) | [Politcs](politics.md)

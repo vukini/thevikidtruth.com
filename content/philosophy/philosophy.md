@@ -9,11 +9,13 @@ revisions: 21
 author: admin
 last_editor: admin
 tags:
-- science
+- philosophy
 categories:
-- science
+- philosophy
 wikislug: philosophy
 draft: false
+aliases:
+- /science/philosophy/
 ---
 
 [Favourites](favourites.md) | [Philosophy](philosophy.md) | [Music](music.md) |[Economics](economics.md) | [Finance](finance.md)

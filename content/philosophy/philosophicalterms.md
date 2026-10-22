@@ -9,11 +9,13 @@ revisions: 7
 author: admin
 last_editor: admin
 tags:
-- science
+- philosophy
 categories:
-- science
+- philosophy
 wikislug: philosophicalterms
 draft: false
+aliases:
+- /science/philosophicalterms/
 ---
 
 ![philo](/assets/philo.jpg)

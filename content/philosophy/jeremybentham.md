@@ -9,11 +9,13 @@ revisions: 5
 author: admin
 last_editor: admin
 tags:
-- math
+- philosophy
 categories:
-- math
+- philosophy
 wikislug: jeremybentham
 draft: false
+aliases:
+- /mathematics/jeremybentham/
 ---
 
 [Philosophy](philosophy.md) | [Economics](economics.md) | [Politics](politics.md)

@@ -9,11 +9,13 @@ revisions: 11
 author: admin
 last_editor: admin
 tags:
-- math
+- philosophy
 categories:
-- math
+- philosophy
 wikislug: jordanbpeterson
 draft: false
+aliases:
+- /mathematics/jordanbpeterson/
 ---
 
 [Maps of Meaning](mapsofmeaning.md) | [Philosophy](philosophy.md) | [Psychology](psychology.md)

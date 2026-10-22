@@ -9,14 +9,14 @@ revisions: 2
 author: admin
 last_editor: admin
 tags:
-- computing
+- essays
 categories:
-- computing
+- essays
 wikislug: renaissancemasters
 draft: true
 review: update
-topics:
-- reading
+aliases:
+- /computing/renaissancemasters/
 ---
 
 # Renaissance Masters

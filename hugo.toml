@@ -40,6 +40,10 @@ enableRobotsTXT = true
     pageRef = "/science"
     weight = 40
   [[menus.main]]
+    name = "Philosophy"
+    pageRef = "/philosophy"
+    weight = 45
+  [[menus.main]]
     name = "Languages"
     pageRef = "/languages"
     weight = 50

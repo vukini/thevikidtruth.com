@@ -9,11 +9,13 @@ revisions: 1
 author: admin
 last_editor: admin
 tags:
-- science
+- philosophy
 categories:
-- science
+- philosophy
 wikislug: teleology
 draft: false
+aliases:
+- /science/teleology/
 ---
 
 In a teleological world things are guided by their purpose or where they should be. Things happen to a kind of natural design.

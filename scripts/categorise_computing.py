@@ -2,7 +2,7 @@
 import re, pathlib
 M = {
  "lisp": "picolisp pilasm pildb piltutorials plbox plio plnew pltutorial pilmachine pilchat pilhealth pillife pilnumbers pilquote pilsource picolispbyexample pilexamplesexamined findboxes withoutputtostring cardocar cdrdocdr carstylefn commonlisp clfunctions scheme racket r6rs emacslisp asml httpl subrl applyc balancec bigc extc flowc gcc htc httpgatec ioc lat1c mainc netc picoh sslc startc subrc symc tabc utf2c mkvers versh pmap upd simplyarrayarithmetic",
- "c-systems": "32bitcsource 64bitasmsource assemblylanguage cchars cfloats cints cops cprogramming cstandardlibrary cstrings csytanx gbddebugger identifier literals object storagelinkage tokens trigraphs digraphs unicodeinc rust ziglang odin vlang thecompiler makefile objdump",
+ "c-systems": "systemsprogramming 32bitcsource 64bitasmsource assemblylanguage cchars cfloats cints cops cprogramming cstandardlibrary cstrings csytanx gbddebugger identifier literals object storagelinkage tokens trigraphs digraphs unicodeinc rust ziglang odin vlang thecompiler makefile objdump",
  "javascript": "javascript jscontrolflow jsdatatypes jsevents jsfunctions jsobjects jsprototypalinheritance jsscope jsthree js3makingshapes jsvariable jskata nodejs",
  "python": "python pykeywords ipython numpy scipy intropygame pythonspacy pythonlibrariestoolsandlinks",
  "functional": "functional haskell haskellkata purescript lambdacalculus",
@@ -13,7 +13,7 @@ M = {
  "networking-web": "networking ipdatagrams ipv6 datagramencapsulation tls sshlogin telnetemail zncserver linode onlinevps seedbox webdevelopment appdev dropbox",
  "cs-theory": "computerscience algorithms datastructuresandalgorithms stacks databases machinelearning opendatascience krep",
  "tools": "git emacs emacsnotes dotemacs initorg vim vikidvim gotolinevim",
- "reading": "computingvideosandarticles webdevelopmentreadinglist learningonline computerstudyplan becomingaguru guru renaissancemasters computingfreedom funkytechnology computing",
+ "reading": "computingvideosandarticles webdevelopmentreadinglist learningonline computerstudyplan becomingaguru guru computingfreedom funkytechnology computing",
 }
 slug2cat = {s: c for c, ss in M.items() for s in ss.split()}
 d = pathlib.Path(__file__).resolve().parent.parent / "content/computing"

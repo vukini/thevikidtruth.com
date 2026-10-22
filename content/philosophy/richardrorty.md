@@ -9,11 +9,13 @@ revisions: 3
 author: admin
 last_editor: admin
 tags:
-- math
+- philosophy
 categories:
-- math
+- philosophy
 wikislug: richardrorty
 draft: false
+aliases:
+- /mathematics/richardrorty/
 ---
 
 # Richard Rorty

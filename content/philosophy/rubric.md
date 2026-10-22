@@ -9,11 +9,13 @@ revisions: 3
 author: admin
 last_editor: admin
 tags:
-- science
+- philosophy
 categories:
-- science
+- philosophy
 wikislug: rubric
 draft: false
+aliases:
+- /science/rubric/
 ---
 
 [Philosophy](philosophy.md) | [Economics](economics.md) | [Politics](politics.md)

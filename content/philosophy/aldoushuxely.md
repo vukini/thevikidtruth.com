@@ -9,11 +9,13 @@ revisions: 13
 author: admin
 last_editor: admin
 tags:
-- math
+- philosophy
 categories:
-- math
+- philosophy
 wikislug: aldoushuxely
 draft: false
+aliases:
+- /mathematics/aldoushuxely/
 ---
 
 [Read This!](caveatemptor.md) |

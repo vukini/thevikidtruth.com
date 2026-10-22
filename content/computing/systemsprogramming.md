@@ -10,10 +10,14 @@ author: admin
 last_editor: admin
 tags: []
 categories:
-- orphan
+- computing
 wikislug: systemsprogramming
 draft: true
 review: update
+topics:
+- c-systems
+aliases:
+- /about/systemsprogramming/
 ---
 
 [computingFreedom](computingfreedom.md) |

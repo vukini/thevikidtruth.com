@@ -9,12 +9,14 @@ revisions: 2
 author: admin
 last_editor: admin
 tags:
-- math
+- science
 categories:
-- math
+- science
 wikislug: psychology
 draft: true
 review: retire
+aliases:
+- /mathematics/psychology/
 ---
 
 [Clinical Psychology](https://en.wikipedia.org/wiki/Clinical_psychology) |
