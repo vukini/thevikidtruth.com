@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: cinanutshell
 draft: false
+topics:
+- math-tech
 ---
 
 # C in a Nutshell

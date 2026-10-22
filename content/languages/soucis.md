@@ -14,6 +14,8 @@ categories:
 - languages
 wikislug: soucis
 draft: false
+topics:
+- french
 ---
 
 ```

@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: theupsideofinequality
 draft: false
+topics:
+- society
 ---
 
 [Books](books.md)

@@ -15,6 +15,8 @@ categories:
 wikislug: safeareagorazde
 draft: true
 review: retire
+topics:
+- stories
 ---
 
 ![safe](/assets/safe.jpg)

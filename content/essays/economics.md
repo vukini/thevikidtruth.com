@@ -16,6 +16,8 @@ wikislug: economics
 draft: false
 aliases:
 - /science/economics/
+topics:
+- society
 ---
 
 # Economics

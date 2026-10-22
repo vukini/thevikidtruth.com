@@ -15,6 +15,8 @@ categories:
 wikislug: thethirdplate
 draft: true
 review: retire
+topics:
+- notebook
 ---
 
 ![plate](/assets/plate.jpg)

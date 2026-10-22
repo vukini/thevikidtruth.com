@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: physicsandnarrative
 draft: false
+topics:
+- science
 ---
 
 # Physics and Narrative

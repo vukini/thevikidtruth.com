@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: amibeingtoosubtle
 draft: false
+topics:
+- notebook
 ---
 
 [Read This!](caveatemptor.md) | [Books](books.md) |

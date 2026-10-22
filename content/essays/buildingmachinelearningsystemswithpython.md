@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: buildingmachinelearningsystemswithpython
 draft: false
+topics:
+- math-tech
 ---
 
 [Read This!](caveatemptor.md) | [Books](books.md) |

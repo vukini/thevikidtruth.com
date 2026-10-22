@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: hackershandbook
 draft: false
+topics:
+- math-tech
 ---
 
 # Hackers' Handbook

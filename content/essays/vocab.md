@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: vocab
 draft: false
+topics:
+- notebook
 ---
 
 [Philosophy](philosophy.md) | [Economics](economics.md) | [Politics](politics.md)

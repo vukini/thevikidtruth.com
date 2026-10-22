@@ -14,6 +14,8 @@ categories:
 - languages
 wikislug: abatjour
 draft: false
+topics:
+- french
 ---
 
 ```

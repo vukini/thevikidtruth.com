@@ -16,6 +16,8 @@ wikislug: acrackincreation
 draft: false
 aliases:
 - /science/acrackincreation/
+topics:
+- science
 ---
 
 [Read This!](caveatemptor.md) | [Books](books.md) |

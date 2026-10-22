@@ -16,6 +16,8 @@ wikislug: designinnature
 draft: false
 aliases:
 - /science/designinnature/
+topics:
+- science
 ---
 
 [Books](books.md)

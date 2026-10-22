@@ -14,6 +14,8 @@ categories:
 - languages
 wikislug: sidarto
 draft: false
+topics:
+- esperanto
 ---
 
 [Books](books.md) | [Esperanto](esperanto.md) | [lernu](http://lernu.net)

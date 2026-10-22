@@ -14,6 +14,8 @@ categories:
 - music
 wikislug: amazinggrace
 draft: false
+topics:
+- songs
 ---
 
 [Music](music.md)

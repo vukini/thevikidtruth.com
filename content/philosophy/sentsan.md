@@ -16,6 +16,8 @@ wikislug: sentsan
 draft: false
 aliases:
 - /science/sentsan/
+topics:
+- philosophers
 ---
 
 # Sen Ts'an

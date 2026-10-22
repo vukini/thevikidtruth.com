@@ -15,6 +15,8 @@ categories:
 wikislug: anintroductiontothelanguageofcategorytheory
 draft: true
 review: update
+topics:
+- math-tech
 ---
 
 [Read This!](caveatemptor.md) | [Books](books.md) |

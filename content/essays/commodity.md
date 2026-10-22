@@ -15,6 +15,8 @@ categories:
 wikislug: commodity
 draft: true
 review: retire
+topics:
+- society
 ---
 
 ![como](/assets/como.jpg)

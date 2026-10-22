@@ -15,6 +15,8 @@ categories:
 wikislug: thecontenttrap
 draft: true
 review: retire
+topics:
+- society
 ---
 
 # The Content Trap by Bharat Anand

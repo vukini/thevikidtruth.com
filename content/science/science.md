@@ -14,6 +14,8 @@ categories:
 - science
 wikislug: science
 draft: false
+topics:
+- earth-society
 ---
 
 | [Quick Links](quicklinks.md) | [Physics](physics.md) | [Biology](biology.md) | [Chemistry](chemistry.md "MISSING PAGE") | [Climate](climate.md) | [Social](social.md "MISSING PAGE") | [Health](health.md) | [Philosophy](philosophy.md) | [Economics](economics.md) | [Politics](politics.md)

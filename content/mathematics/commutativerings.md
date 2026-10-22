@@ -14,6 +14,8 @@ categories:
 - math
 wikislug: commutativerings
 draft: false
+topics:
+- algebra
 ---
 
 [Abstract Algebra](abstractalgebra.md) | [ZF Axioms](zf.md) | [Math](math.md)

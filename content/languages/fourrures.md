@@ -14,6 +14,8 @@ categories:
 - languages
 wikislug: fourrures
 draft: false
+topics:
+- french
 ---
 
 ```

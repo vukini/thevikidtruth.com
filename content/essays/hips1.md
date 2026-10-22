@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: hips1
 draft: false
+topics:
+- science
 ---
 
 # hidden-in-plain-sight-by-andrew-thomas

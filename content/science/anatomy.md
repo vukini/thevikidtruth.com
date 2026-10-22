@@ -14,6 +14,8 @@ categories:
 - science
 wikislug: anatomy
 draft: false
+topics:
+- life
 ---
 
 [Physics](physics.md) | [Biology](biology.md) | [Medicine](medicine.md) | [Anatomy](anatomy.md) | [Chemistry](chemistry.md "MISSING PAGE")

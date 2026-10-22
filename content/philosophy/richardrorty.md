@@ -16,6 +16,8 @@ wikislug: richardrorty
 draft: false
 aliases:
 - /mathematics/richardrorty/
+topics:
+- philosophers
 ---
 
 # Richard Rorty

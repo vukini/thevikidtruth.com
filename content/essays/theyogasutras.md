@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: theyogasutras
 draft: false
+topics:
+- spirit
 ---
 
 [Spiritual](spiritual.md) | [TheYogaSutras](theyogasutras.md)

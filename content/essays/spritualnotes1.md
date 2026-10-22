@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: spritualnotes1
 draft: false
+topics:
+- spirit
 ---
 
 [Favourites](favourites.md) | [Philosophy](philosophy.md) | [Music](music.md) |[Economics](economics.md) | [Finance](finance.md)

@@ -16,6 +16,8 @@ wikislug: philosophicalterms
 draft: false
 aliases:
 - /science/philosophicalterms/
+topics:
+- ideas
 ---
 
 ![philo](/assets/philo.jpg)

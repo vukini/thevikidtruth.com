@@ -15,6 +15,8 @@ categories:
 wikislug: thefoundationofmath
 draft: false
 review: retire
+topics:
+- foundations
 ---
 
 # The Foundations of Mathematics

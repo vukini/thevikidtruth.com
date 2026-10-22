@@ -14,6 +14,8 @@ categories:
 - articles
 wikislug: holdingmybreath
 draft: false
+topics:
+- spirit
 ---
 
 # Holding My Breath

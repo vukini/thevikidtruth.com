@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: olympus
 draft: false
+topics:
+- stories
 ---
 
 [Read This!](caveatemptor.md) | [Books](books.md) |

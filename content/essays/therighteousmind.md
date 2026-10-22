@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: therighteousmind
 draft: false
+topics:
+- society
 ---
 
 [Books](books.md)

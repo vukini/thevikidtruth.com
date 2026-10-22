@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: immortality
 draft: false
+topics:
+- stories
 ---
 
 [Read This!](caveatemptor.md) | [Books](books.md) |

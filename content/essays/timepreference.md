@@ -14,6 +14,8 @@ categories:
 - articles
 wikislug: timepreference
 draft: false
+topics:
+- society
 ---
 
 ![hour-crystal](/assets/hour-crystal-2.jpg)

@@ -14,6 +14,8 @@ categories:
 - languages
 wikislug: sabots
 draft: false
+topics:
+- french
 ---
 
 ```

@@ -15,6 +15,8 @@ categories:
 wikislug: yourbrainonparasites
 draft: true
 review: retire
+topics:
+- science
 ---
 
 ![title](/assets/title-6.jpg)

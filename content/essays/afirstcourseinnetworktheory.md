@@ -17,6 +17,8 @@ draft: true
 review: retire
 aliases:
 - /science/afirstcourseinnetworktheory/
+topics:
+- math-tech
 ---
 
 [Books](books.md)

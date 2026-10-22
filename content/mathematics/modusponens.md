@@ -14,6 +14,8 @@ categories:
 - math
 wikislug: modusponens
 draft: false
+topics:
+- foundations
 ---
 
 # Logic - Modus Ponens

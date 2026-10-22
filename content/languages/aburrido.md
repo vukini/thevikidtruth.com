@@ -14,6 +14,8 @@ categories:
 - languages
 wikislug: aburrido
 draft: false
+topics:
+- spanish
 ---
 
 aburrido, (tedioso, no entretenido)	boring 

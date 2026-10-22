@@ -15,6 +15,8 @@ categories:
 wikislug: rogerpenrose
 draft: true
 review: retire
+topics:
+- science
 ---
 
 # Roger Penrose

@@ -15,6 +15,8 @@ categories:
 wikislug: favourites
 draft: true
 review: update
+topics:
+- notebook
 ---
 
 [Favourites](favourites.md) | [Philosophy](philosophy.md) | [Music](music.md) |[Economics](economics.md) | [Managment](managment.md) | [Politics](politics.md)

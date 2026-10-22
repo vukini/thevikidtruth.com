@@ -14,6 +14,8 @@ categories:
 - languages
 wikislug: howtolearnlanguages
 draft: false
+topics:
+- learning
 ---
 
 [Languages](languages.md) | [Arabic](arabic.md) | [Esperanto](esperanto.md) |[Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) | [Swahili](swahili.md) | [French](french.md) | [Hindi](hindi.md) | [Quick Links](quicklinks.md)

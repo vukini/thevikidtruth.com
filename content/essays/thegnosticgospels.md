@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: thegnosticgospels
 draft: false
+topics:
+- spirit
 ---
 
 [Read This!](caveatemptor.md) | [Books](books.md) |

@@ -14,6 +14,8 @@ categories:
 - languages
 wikislug: pierres
 draft: false
+topics:
+- french
 ---
 
 ```

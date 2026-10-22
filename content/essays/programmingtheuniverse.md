@@ -15,6 +15,8 @@ categories:
 wikislug: programmingtheuniverse
 draft: true
 review: retire
+topics:
+- science
 ---
 
 ![pu](/assets/pu.jpg)

@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: econpiketty
 draft: false
+topics:
+- society
 ---
 
 # The Economics of Inequality by Thomas Piketty

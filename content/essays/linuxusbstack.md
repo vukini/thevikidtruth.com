@@ -15,6 +15,8 @@ categories:
 wikislug: linuxusbstack
 draft: true
 review: retire
+topics:
+- math-tech
 ---
 
 # Bootstrap Yourself with Linux-USB stack by Rajram Regupathy

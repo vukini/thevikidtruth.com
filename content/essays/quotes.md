@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: quotes
 draft: false
+topics:
+- notebook
 ---
 
 # Quotes, Ideas and Little Sayings

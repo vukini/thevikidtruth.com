@@ -15,6 +15,8 @@ categories:
 wikislug: prometheusrising
 draft: true
 review: retire
+topics:
+- mind
 ---
 
 # Prometheus Rising

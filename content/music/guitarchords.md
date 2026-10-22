@@ -15,6 +15,8 @@ categories:
 wikislug: guitarchords
 draft: true
 review: retire
+topics:
+- guitar
 ---
 
 ![fchords1](/assets/fchords1.png)

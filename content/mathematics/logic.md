@@ -14,6 +14,8 @@ categories:
 - math
 wikislug: logic
 draft: false
+topics:
+- foundations
 ---
 
 [Everything Else](misc.md) | [Philosophy](philosophy.md) | [Logic](logic.md) | [Economics](economics.md) | [Politics](politics.md)

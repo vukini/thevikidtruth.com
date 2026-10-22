@@ -14,6 +14,8 @@ categories:
 - articles
 wikislug: whyeatingtoomuch
 draft: false
+topics:
+- mind
 ---
 
 [Important Read This!](caveatemptor.md) | [Quick Links](quicklinks.md) | [Everything Else](misc.md) | [Philosophy](philosophy.md) | [Economics](economics.md) | [Politics](politics.md)

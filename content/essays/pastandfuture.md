@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: pastandfuture
 draft: false
+topics:
+- science
 ---
 
 # The Difference between the Past and the Future

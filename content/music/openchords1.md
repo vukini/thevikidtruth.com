@@ -14,6 +14,8 @@ categories:
 - music
 wikislug: openchords1
 draft: false
+topics:
+- guitar
 ---
 
 [Everything Else](misc.md) | [Music](music.md) | [Guitar](guitar.md) | [Guitar Practice Ideas](guitarpractice.md) | [Pan Flute](panflute.md) | [MusicTheory](musictheory.md) | [Scales](scales.md) | [Chord Progressions](chordprogressions.md) |

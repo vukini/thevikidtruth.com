@@ -1,7 +1,8 @@
-{{/* ctx: section name. Returns dict: out/in maps keyed by RelPermalink -> slice of RelPermalinks,
+{{/* ctx: section name, or "all" for every section in data/kb_sections.yaml. Returns dict: out/in maps keyed by RelPermalink -> slice of RelPermalinks,
      built from [text](slug.md) wiki links in published pages of that section. Drafts are never in site.RegularPages. */}}
 {{ $map := partialCached "wikimap.html" . "wikimap" }}
-{{ $pages := where site.RegularPages "Section" . }}
+{{ $secs := slice . }}{{ if eq . "all" }}{{ $secs = slice }}{{ range hugo.Data.kb_sections }}{{ $secs = $secs | append .slug }}{{ end }}{{ end }}
+{{ $pages := where site.RegularPages "Section" "in" $secs }}
 {{ $in := dict }}{{ $out := dict }}
 {{ $ok := dict }}{{ range $pages }}{{ $ok = merge $ok (dict .RelPermalink true) }}{{ end }}
 {{ range $p := $pages }}

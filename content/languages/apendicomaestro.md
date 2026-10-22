@@ -14,6 +14,8 @@ categories:
 - languages
 wikislug: apendicomaestro
 draft: false
+topics:
+- esperanto
 ---
 
 # Apendico Maestro

@@ -15,6 +15,8 @@ categories:
 wikislug: frenchvocabulary
 draft: true
 review: retire
+topics:
+- notebook
 ---
 
 ![title](/assets/title-5.jpg)

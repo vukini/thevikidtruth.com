@@ -14,6 +14,8 @@ categories:
 - math
 wikislug: setrelations
 draft: false
+topics:
+- foundations
 ---
 
 # Set Relations

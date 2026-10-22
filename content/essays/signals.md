@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: signals
 draft: false
+topics:
+- society
 ---
 
 [Books](books.md)

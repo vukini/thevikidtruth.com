@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: georgeorwell
 draft: false
+topics:
+- society
 ---
 
 [Books](books.md)

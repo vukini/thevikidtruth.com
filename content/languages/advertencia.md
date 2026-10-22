@@ -14,6 +14,8 @@ categories:
 - languages
 wikislug: advertencia
 draft: false
+topics:
+- spanish
 ---
 
 [Spanish](spanish.md)

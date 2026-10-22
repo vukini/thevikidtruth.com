@@ -15,6 +15,8 @@ categories:
 wikislug: youarenotagadget
 draft: true
 review: retire
+topics:
+- math-tech
 ---
 
 # You Are Not A Gadget by Jaron Lanier

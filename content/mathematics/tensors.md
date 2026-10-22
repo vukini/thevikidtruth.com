@@ -14,6 +14,8 @@ categories:
 - math
 wikislug: tensors
 draft: false
+topics:
+- linear-algebra
 ---
 
 [Abstract Algebra](abstractalgebra.md) | [ZF Axioms](zf.md) | [Math](math.md)

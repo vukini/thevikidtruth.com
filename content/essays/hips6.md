@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: hips6
 draft: false
+topics:
+- science
 ---
 
 [Books](books.md) | [Science](science.md)

@@ -14,6 +14,8 @@ categories:
 - languages
 wikislug: capricieuses
 draft: false
+topics:
+- french
 ---
 
 ```

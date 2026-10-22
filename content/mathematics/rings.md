@@ -14,6 +14,8 @@ categories:
 - math
 wikislug: rings
 draft: false
+topics:
+- algebra
 ---
 
 [Abstract Algebra](abstractalgebra.md) | [ZF Axioms](zf.md) | [Math](math.md)

@@ -14,6 +14,8 @@ categories:
 - languages
 wikislug: mychildhood
 draft: false
+topics:
+- french
 ---
 
 [Arabic](arabic.md) | [Esperanto](esperanto.md) |[Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) |

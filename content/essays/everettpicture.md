@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: everettpicture
 draft: false
+topics:
+- science
 ---
 
 # Probability in the Everett Picture

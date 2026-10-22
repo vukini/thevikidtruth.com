@@ -1,0 +1,7 @@
+- {slug: science, title: "Physics, science & the cosmos", color: "#5FB0D8", intro: "Book notes on quantum foundations, time's arrow, the Everett picture, cosmology and biology."}
+- {slug: math-tech, title: "Mathematics & technology books", color: "#B9A3F0", intro: "Set theory, probability, networks, chaos, C programming, hacking and machine learning on the page."}
+- {slug: society, title: "Politics, economics & history", color: "#E07A3F", intro: "Sowell, Piketty, Varoufakis, Orwell, money, markets, power and the twentieth century."}
+- {slug: spirit, title: "Spirit, yoga & meditation", color: "#F2B544", intro: "Advaita, Raja Yoga, the Yoga Sutras, breathwork, meditation and the Gnostic Gospels."}
+- {slug: mind, title: "Mind, health & self", color: "#8FB86B", intro: "Learning, memory, motivation, management, diet and stretching."}
+- {slug: stories, title: "Myth, fiction & film", color: "#D98FA0", intro: "Devdutt Pattanaik's retellings, Kundera, science fiction and film reviews."}
+- {slug: notebook, title: "Notebook", color: "#A89C86", intro: "Book lists, quotes, glossaries, vocabulary and other odds and ends."}

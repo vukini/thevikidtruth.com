@@ -14,6 +14,8 @@ categories:
 - math
 wikislug: modustolens
 draft: false
+topics:
+- foundations
 ---
 
 # Logic - Modus Tollens

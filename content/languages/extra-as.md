@@ -14,6 +14,8 @@ categories:
 - languages
 wikislug: extra-as
 draft: false
+topics:
+- spanish
 ---
 
 ###### extrañar  - (añorar, echar de menos)	miss

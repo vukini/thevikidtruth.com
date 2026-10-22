@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: schadenfreude
 draft: false
+topics:
+- notebook
 ---
 
 # schadenfreude

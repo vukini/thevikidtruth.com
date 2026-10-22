@@ -1,0 +1,3 @@
+{{ $m := dict }}{{ $secs := slice }}{{ range hugo.Data.kb_sections }}{{ $secs = $secs | append .slug }}{{ end }}
+{{ range where site.RegularPages "Section" "in" $secs }}{{ $m = merge $m (dict .RelPermalink .) }}{{ end }}
+{{ return $m }}

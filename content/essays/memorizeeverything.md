@@ -15,6 +15,8 @@ categories:
 wikislug: memorizeeverything
 draft: true
 review: retire
+topics:
+- mind
 ---
 
 ![HTMA](/assets/htma.jpg)

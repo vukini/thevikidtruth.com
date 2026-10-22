@@ -17,6 +17,8 @@ draft: true
 review: update
 aliases:
 - /computing/renaissancemasters/
+topics:
+- stories
 ---
 
 # Renaissance Masters

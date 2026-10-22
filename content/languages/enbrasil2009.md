@@ -14,6 +14,8 @@ categories:
 - languages
 wikislug: enbrasil2009
 draft: false
+topics:
+- spanish
 ---
 
 [Languages](languages.md) | [Arabic](arabic.md) | [Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) | [Hindi](hindi.md) | [Tokipona](tokipona.md)

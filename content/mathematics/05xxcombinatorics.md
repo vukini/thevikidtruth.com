@@ -14,6 +14,8 @@ categories:
 - math
 wikislug: 05xxcombinatorics
 draft: false
+topics:
+- numbers-geometry
 ---
 
 ## Combinatorics: Combinatorics

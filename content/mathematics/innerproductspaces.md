@@ -14,6 +14,8 @@ categories:
 - math
 wikislug: innerproductspaces
 draft: false
+topics:
+- linear-algebra
 ---
 
 [Abstract Algebra](abstractalgebra.md) | [ZF Axioms](zf.md) | [Math](math.md)

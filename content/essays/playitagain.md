@@ -15,6 +15,8 @@ categories:
 wikislug: playitagain
 draft: true
 review: retire
+topics:
+- stories
 ---
 
 ![title](/assets/title-2.jpg)

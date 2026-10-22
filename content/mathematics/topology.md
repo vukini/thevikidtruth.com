@@ -14,6 +14,8 @@ categories:
 - math
 wikislug: topology
 draft: false
+topics:
+- numbers-geometry
 ---
 
 A **homeomorphism** or  **continuous transformation**, is an

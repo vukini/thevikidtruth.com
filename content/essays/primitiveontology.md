@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: primitiveontology
 draft: false
+topics:
+- science
 ---
 
 # Primitive Ontology

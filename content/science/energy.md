@@ -14,6 +14,8 @@ categories:
 - science
 wikislug: energy
 draft: false
+topics:
+- physics
 ---
 
 # Energy

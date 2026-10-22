@@ -14,6 +14,8 @@ categories:
 - languages
 wikislug: rennes
 draft: false
+topics:
+- french
 ---
 
 ```

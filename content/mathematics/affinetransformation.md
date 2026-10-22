@@ -15,6 +15,8 @@ categories:
 wikislug: affinetransformation
 draft: false
 review: retire
+topics:
+- linear-algebra
 ---
 
 **An affine transformation** is any transformation that preserves:

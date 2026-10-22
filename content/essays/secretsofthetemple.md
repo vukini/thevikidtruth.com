@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: secretsofthetemple
 draft: false
+topics:
+- society
 ---
 
 [Read This!](caveatemptor.md) | [Books](books.md) |

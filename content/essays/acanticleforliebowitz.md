@@ -15,6 +15,8 @@ categories:
 wikislug: acanticleforliebowitz
 draft: true
 review: retire
+topics:
+- stories
 ---
 
 ![canticle](/assets/canticle.jpg)

@@ -15,6 +15,8 @@ categories:
 wikislug: iamastrangeloop
 draft: true
 review: retire
+topics:
+- mind
 ---
 
 # I am a Strange Loop

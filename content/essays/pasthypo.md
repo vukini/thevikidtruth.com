@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: pasthypo
 draft: false
+topics:
+- science
 ---
 
 # The Past Hypothesis and Knowledge of the External World

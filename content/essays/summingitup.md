@@ -15,6 +15,8 @@ categories:
 wikislug: summingitup
 draft: true
 review: retire
+topics:
+- notebook
 ---
 
 ![sum](/assets/sum.jpg)

@@ -16,6 +16,8 @@ wikislug: philosophers2study
 draft: false
 aliases:
 - /mathematics/philosophers2study/
+topics:
+- overview
 ---
 
 [Philosophy](philosophy.md) | [Economics](economics.md) | [Politics](politics.md)

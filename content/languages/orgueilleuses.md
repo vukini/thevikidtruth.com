@@ -14,6 +14,8 @@ categories:
 - languages
 wikislug: orgueilleuses
 draft: false
+topics:
+- french
 ---
 
 ```

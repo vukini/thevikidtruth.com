@@ -15,6 +15,8 @@ categories:
 wikislug: n-odhana
 draft: true
 review: retire
+topics:
+- spirit
 ---
 
 Square Breathing Instruction

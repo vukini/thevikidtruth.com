@@ -15,6 +15,8 @@ categories:
 wikislug: metamorphosis
 draft: true
 review: retire
+topics:
+- stories
 ---
 
 ![meta](/assets/meta.jpg)

@@ -14,6 +14,8 @@ categories:
 - math
 wikislug: pythagoras
 draft: false
+topics:
+- numbers-geometry
 ---
 
 # Pythagoras

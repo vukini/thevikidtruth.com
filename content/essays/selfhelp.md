@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: selfhelp
 draft: false
+topics:
+- mind
 ---
 
 [Philosophy](philosophy.md) | [Music](music.md) |[Economics](economics.md) | [Managment](managment.md) | [Politics](politics.md)

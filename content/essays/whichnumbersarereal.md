@@ -15,6 +15,8 @@ categories:
 wikislug: whichnumbersarereal
 draft: true
 review: retire
+topics:
+- math-tech
 ---
 
 ![real](/assets/real.jpg)

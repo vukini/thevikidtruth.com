@@ -15,6 +15,8 @@ categories:
 wikislug: programminglinuxhackertoolsuncovered
 draft: true
 review: retire
+topics:
+- math-tech
 ---
 
 [Books](books.md)

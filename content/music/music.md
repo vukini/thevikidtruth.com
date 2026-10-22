@@ -15,6 +15,8 @@ categories:
 wikislug: music
 draft: true
 review: update
+topics:
+- listening
 ---
 
 [Chord Progressions](chordprogressions.md) | [Guitar](guitar.md) | [Guitar Practice Ideas](guitarpractice.md) |

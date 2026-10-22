@@ -1,29 +1,37 @@
 {{ define "mainclass" }}graphpage{{ end }}
 {{ define "main" }}
-{{ $sec := .Params.section_graph }}
+{{ $sec := .Params.section_graph }}{{ $all := eq $sec "all" }}
 {{ $g := partialCached "linkgraph.html" $sec $sec }}
-{{ $nodes := slice }}{{ $links := slice }}
-{{ range where site.RegularPages "Section" $sec }}
-  {{ $nodes = $nodes | append (dict "id" .RelPermalink "t" .Title "c" (index (.Params.topics | default (slice "other")) 0)) }}
-  {{ $src := .RelPermalink }}{{ range index $g.out .RelPermalink }}{{ $links = $links | append (dict "s" $src "t" .) }}{{ end }}
+{{ $secs := slice }}{{ range hugo.Data.kb_sections }}{{ $secs = $secs | append .slug }}{{ end }}
+{{ $cats := cond $all hugo.Data.kb_sections (index hugo.Data.topics $sec) }}
+{{ $pages := cond $all (where site.RegularPages "Section" "in" $secs) (where site.RegularPages "Section" $sec) }}
+{{ $secOf := dict }}{{ range $pages }}{{ $secOf = merge $secOf (dict .RelPermalink .Section) }}{{ end }}
+{{ $nodes := slice }}{{ $links := slice }}{{ $cross := 0 }}
+{{ range $pages }}
+  {{ $c := cond $all .Section (index (.Params.topics | default (slice "other")) 0) }}
+  {{ $nodes = $nodes | append (dict "id" .RelPermalink "t" .Title "c" $c) }}
+  {{ $src := .RelPermalink }}{{ $ss := .Section }}
+  {{ range index $g.out .RelPermalink }}{{ $x := ne (index $secOf .) $ss }}{{ if $x }}{{ $cross = add $cross 1 }}{{ end }}{{ $links = $links | append (dict "s" $src "t" . "x" $x) }}{{ end }}
 {{ end }}
+{{ $secpage := cond $all . (site.GetPage (printf "/%s" $sec)) }}
 <header class="ahead graphhead">
-  <p class="crumb"><a href="{{ "/" | relURL }}">Home</a> / <a href="{{ printf "/%s/" $sec | relURL }}">Computing</a> / Map</p>
-  <h1>The knowledge graph</h1>
-  <p class="sub">{{ len $nodes }} pages, {{ len $links }} links. Tap a node to highlight its neighbours, tap again to open it.</p>
+  <p class="crumb"><a href="{{ "/" | relURL }}">Home</a> / {{ if $all }}Knowledge base{{ else }}<a href="{{ $secpage.RelPermalink }}">{{ $secpage.Title }}</a>{{ end }} / Map</p>
+  <h1>{{ if $all }}The whole knowledge graph{{ else }}The {{ lower $secpage.Title }} knowledge graph{{ end }}</h1>
+  <p class="sub">{{ len $nodes }} pages, {{ len $links }} links{{ if $all }} ({{ $cross }} crossing sections, drawn brighter){{ end }}. Tap a node to highlight its neighbours, tap again to open it.</p>
+  <p class="meta graphnav">{{ if $all }}Section maps:{{ range hugo.Data.kb_sections }} <a href="{{ printf "/%s/map/" .slug | relURL }}" style="color:{{ .color }}">{{ .title }}</a>{{ end }}{{ else }}<a href="{{ "/map/" | relURL }}">See every section on the site-wide map →</a>{{ end }}</p>
 </header>
 <div class="kg" id="kg">
   <div class="kg-bar">
     <input type="search" id="kg-q" placeholder="Find a page…" aria-label="Find a page" autocomplete="off">
-    <div class="kg-cats" id="kg-cats" role="group" aria-label="Filter by category">
-      {{ range hugo.Data.computing_topics }}<button type="button" data-cat="{{ .slug }}" style="--c:{{ .color }}" aria-pressed="true"><i></i>{{ .title }}</button>{{ end }}
+    <div class="kg-cats" id="kg-cats" role="group" aria-label="Filter by {{ cond $all "section" "category" }}">
+      {{ range $cats }}<button type="button" data-cat="{{ .slug }}" style="--c:{{ .color }}" aria-pressed="true"><i></i>{{ .title }}</button>{{ end }}
     </div>
   </div>
-  <canvas id="kg-canvas" aria-label="Interactive graph of computing pages"></canvas>
+  <canvas id="kg-canvas" aria-label="Interactive graph of {{ cond $all "knowledge-base" (lower $secpage.Title) }} pages"></canvas>
   <div class="kg-tip" id="kg-tip" hidden></div>
-  <noscript><p>The graph needs JavaScript. Browse <a href="/computing/">by category</a> instead.</p></noscript>
+  <noscript><p>The graph needs JavaScript. Browse <a href="{{ cond $all "/" $secpage.RelPermalink }}">by category</a> instead.</p></noscript>
 </div>
-<script type="application/json" id="kg-data">{{ dict "nodes" $nodes "links" $links "cats" hugo.Data.computing_topics | jsonify | safeJS }}</script>
+<script type="application/json" id="kg-data">{{ dict "nodes" $nodes "links" $links "cats" $cats | jsonify | safeJS }}</script>
 {{ $js := resources.Get "js/kgraph.js" | minify | fingerprint }}
 <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
 {{ end }}

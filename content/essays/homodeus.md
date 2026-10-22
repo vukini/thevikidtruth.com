@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: homodeus
 draft: false
+topics:
+- society
 ---
 
 [Books](books.md)

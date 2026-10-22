@@ -14,6 +14,8 @@ categories:
 - languages
 wikislug: laharde
 draft: false
+topics:
+- french
 ---
 
 ```

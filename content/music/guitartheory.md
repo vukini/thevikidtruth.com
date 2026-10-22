@@ -14,6 +14,8 @@ categories:
 - music
 wikislug: guitartheory
 draft: false
+topics:
+- guitar
 ---
 
 [Everything Else](misc.md) | [Music](music.md) | [Guitar](guitar.md) | [Pan Flute](panflute.md) | [MusicTheory](musictheory.md) | [Scales](scales.md) | [Chord Progressions](chordprogressions.md) |

@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: thejazz
 draft: false
+topics:
+- science
 ---
 
 [Read This!](caveatemptor.md) | [Books](books.md) |

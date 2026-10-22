@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: learning
 draft: false
+topics:
+- mind
 ---
 
 [Favourites](favourites.md) | [Philosophy](philosophy.md) | [Music](music.md) |[Economics](economics.md) | [Finance](finance.md)

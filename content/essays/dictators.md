@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: dictators
 draft: false
+topics:
+- society
 ---
 
 ![dictator](/assets/dictator.jpg)

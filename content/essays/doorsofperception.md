@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: doorsofperception
 draft: false
+topics:
+- spirit
 ---
 
 [Read This!](caveatemptor.md) |

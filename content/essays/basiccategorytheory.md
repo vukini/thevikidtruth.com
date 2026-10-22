@@ -15,6 +15,8 @@ categories:
 wikislug: basiccategorytheory
 draft: true
 review: retire
+topics:
+- math-tech
 ---
 
 # Basic Category Theory by Tom Leinster

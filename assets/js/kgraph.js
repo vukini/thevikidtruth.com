@@ -11,7 +11,7 @@
     byId[n.id] = o; return o;
   });
   var links = D.links.filter(function (l) { return byId[l.s] && byId[l.t]; }).map(function (l) {
-    var s = byId[l.s], t = byId[l.t]; s.deg++; t.deg++; s.nb[t.id] = 1; t.nb[s.id] = 1; return { s: s, t: t };
+    var s = byId[l.s], t = byId[l.t]; s.deg++; t.deg++; s.nb[t.id] = 1; t.nb[s.id] = 1; return { s: s, t: t, x: !!l.x };
   });
   nodes.forEach(function (n) { n.r = 3.5 + Math.sqrt(n.deg) * 1.6; });
   // Category anchors on a ring so clusters form.
@@ -71,7 +71,7 @@
     links.forEach(function (l) {
       if (!visible(l.s) || !visible(l.t)) return;
       var hot = fs && fs[l.s.id] && fs[l.t.id] && (l.s === (hover || sel) || l.t === (hover || sel));
-      ctx.strokeStyle = hot ? "rgba(242,181,68,.85)" : dim ? "rgba(181,172,154,.06)" : "rgba(181,172,154,.16)";
+      ctx.strokeStyle = hot ? "rgba(242,181,68,.85)" : dim ? "rgba(181,172,154,.06)" : l.x ? "rgba(236,230,216,.42)" : "rgba(181,172,154,.16)";
       ctx.lineWidth = (hot ? 1.6 : 0.7) / view.k;
       ctx.beginPath(); ctx.moveTo(l.s.x, l.s.y); ctx.lineTo(l.t.x, l.t.y); ctx.stroke();
     });

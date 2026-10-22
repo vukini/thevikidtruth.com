@@ -14,6 +14,8 @@ categories:
 - science
 wikislug: thelawsofphysics
 draft: false
+topics:
+- physics
 ---
 
 [Physics](physics.md) | [Biology](biology.md) | [Chemistry](chemistry.md "MISSING PAGE") | [Climate](climate.md) | [Social](social.md "MISSING PAGE") | [Health](health.md) | [Philosophy](philosophy.md) | [Economics](economics.md) | [Politics](politics.md)

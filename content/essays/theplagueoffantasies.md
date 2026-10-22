@@ -15,6 +15,8 @@ categories:
 wikislug: theplagueoffantasies
 draft: true
 review: retire
+topics:
+- stories
 ---
 
 ![plague](/assets/plague.jpg)

@@ -14,6 +14,8 @@ categories:
 - languages
 wikislug: jam
 draft: false
+topics:
+- esperanto
 ---
 
 jam - **"I have already eaten too much Yam!"**

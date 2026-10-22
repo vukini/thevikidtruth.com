@@ -14,6 +14,8 @@ categories:
 - math
 wikislug: abstraction
 draft: false
+topics:
+- foundations
 ---
 
 [Abstract Algebra](abstractalgebra.md) | [ZF Axioms](zf.md) | [Math on Computers](mathoncomputers.md) | [Computing](computing.md)

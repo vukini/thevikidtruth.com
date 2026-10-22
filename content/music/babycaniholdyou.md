@@ -14,6 +14,8 @@ categories:
 - music
 wikislug: babycaniholdyou
 draft: false
+topics:
+- songs
 ---
 
 [Music](music.md) | [Songs to Learn](songs2learn.md)

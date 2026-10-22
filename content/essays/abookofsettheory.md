@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: abookofsettheory
 draft: false
+topics:
+- math-tech
 ---
 
 [Books](books.md) | [Math](math.md) | [SetTheory](settheory.md)

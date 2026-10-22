@@ -16,6 +16,8 @@ wikislug: philosophyinphysics
 draft: false
 aliases:
 - /science/philosophyinphysics/
+topics:
+- physics
 ---
 
 # Philosophy in Physics

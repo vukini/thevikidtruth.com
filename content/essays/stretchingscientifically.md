@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: stretchingscientifically
 draft: false
+topics:
+- mind
 ---
 
 ![stretch-600](/assets/stretch-600.jpg)

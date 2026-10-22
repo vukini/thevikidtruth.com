@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: hips
 draft: false
+topics:
+- science
 ---
 
 # Hidden in Plain Sight by Andrew Thomas

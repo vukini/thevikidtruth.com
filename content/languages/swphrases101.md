@@ -14,6 +14,8 @@ categories:
 - languages
 wikislug: swphrases101
 draft: false
+topics:
+- swahili
 ---
 
 [Swahili Home](swahili.md) | [Swahili 101](sw101.md) | [Basic Vocabulary](swvocab001.md)

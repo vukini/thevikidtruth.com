@@ -17,6 +17,8 @@ draft: true
 review: retire
 aliases:
 - /mathematics/friedrichnietzsche/
+topics:
+- philosophers
 ---
 
 # Friedrich Nietzsche

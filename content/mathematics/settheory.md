@@ -14,6 +14,8 @@ categories:
 - math
 wikislug: settheory
 draft: false
+topics:
+- foundations
 ---
 
 [Math](math.md) | [Abstract Algebra](abstractalgebra.md) | [ZF Axioms](zf.md) |

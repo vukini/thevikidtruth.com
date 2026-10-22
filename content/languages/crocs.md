@@ -14,6 +14,8 @@ categories:
 - languages
 wikislug: crocs
 draft: false
+topics:
+- french
 ---
 
 ```

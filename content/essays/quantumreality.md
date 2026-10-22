@@ -15,6 +15,8 @@ categories:
 wikislug: quantumreality
 draft: true
 review: retire
+topics:
+- science
 ---
 
 # Quantum Reality

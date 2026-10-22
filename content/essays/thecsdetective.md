@@ -15,6 +15,8 @@ categories:
 wikislug: thecsdetective
 draft: true
 review: retire
+topics:
+- math-tech
 ---
 
 ![csdetective](/assets/csdetective.jpg)

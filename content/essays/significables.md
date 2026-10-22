@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: significables
 draft: false
+topics:
+- math-tech
 ---
 
 # The Technique of Significables

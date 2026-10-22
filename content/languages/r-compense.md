@@ -14,6 +14,8 @@ categories:
 - languages
 wikislug: r-compense
 draft: false
+topics:
+- french
 ---
 
 ```

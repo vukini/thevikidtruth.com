@@ -16,6 +16,8 @@ wikislug: aldoushuxely
 draft: false
 aliases:
 - /mathematics/aldoushuxely/
+topics:
+- philosophers
 ---
 
 [Read This!](caveatemptor.md) |

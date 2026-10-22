@@ -14,6 +14,8 @@ categories:
 - languages
 wikislug: mont-n
 draft: false
+topics:
+- spanish
 ---
 
 montón - (gran cantidad de algo) -	lot, pile 

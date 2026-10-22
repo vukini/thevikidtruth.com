@@ -1,0 +1,12 @@
+{{/* Adds /science/map/ and /science/category/<slug>/ (from data/topics/science.yaml). These pages never appear in lists or graphs. Same file in every knowledge-base section; only $sec differs. */}}
+{{ $sec := "science" }}
+{{ $a := . }}{{ $nolist := dict "list" "never" "render" "always" "publishResources" true }}
+{{ $s := index (where hugo.Data.kb_sections "slug" $sec) 0 }}
+{{ $a.AddPage (dict "path" "map" "title" (printf "%s: the knowledge graph" $s.title) "kind" "page" "build" $nolist
+   "content" (dict "value" "")
+   "type" "graph" "params" (dict "section_graph" $sec "description" (printf "Every published %s page as a node, every internal link as an edge, coloured by category." (lower $s.title)))) }}
+{{ range index hugo.Data.topics $sec }}
+  {{ $a.AddPage (dict "path" (printf "category/%s" .slug) "title" .title "kind" "page" "build" $nolist
+     "content" (dict "value" "")
+     "type" "category" "params" (dict "kb_section" $sec "category" .slug "description" .intro)) }}
+{{ end }}

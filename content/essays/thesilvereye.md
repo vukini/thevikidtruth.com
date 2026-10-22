@@ -15,6 +15,8 @@ categories:
 wikislug: thesilvereye
 draft: true
 review: retire
+topics:
+- stories
 ---
 
 # The Silver Eye

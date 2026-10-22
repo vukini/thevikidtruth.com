@@ -16,6 +16,8 @@ wikislug: jeremybentham
 draft: false
 aliases:
 - /mathematics/jeremybentham/
+topics:
+- philosophers
 ---
 
 [Philosophy](philosophy.md) | [Economics](economics.md) | [Politics](politics.md)

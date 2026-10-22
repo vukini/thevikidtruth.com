@@ -14,6 +14,8 @@ categories:
 - math
 wikislug: 00xxgeneral
 draft: false
+topics:
+- overview
 ---
 
 [Map of Math](mathmap.md)

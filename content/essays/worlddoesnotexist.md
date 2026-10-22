@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: worlddoesnotexist
 draft: false
+topics:
+- science
 ---
 
 # Why the World Does Not Exist

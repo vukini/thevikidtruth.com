@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: mapsofmeaning
 draft: false
+topics:
+- mind
 ---
 
 # Maps of Meaning by Jordan Peterson

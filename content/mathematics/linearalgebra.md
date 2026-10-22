@@ -14,6 +14,8 @@ categories:
 - math
 wikislug: linearalgebra
 draft: false
+topics:
+- linear-algebra
 ---
 
 # Linear Algebra

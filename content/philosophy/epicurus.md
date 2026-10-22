@@ -16,6 +16,8 @@ wikislug: epicurus
 draft: false
 aliases:
 - /mathematics/epicurus/
+topics:
+- philosophers
 ---
 
 [Philosophy](philosophy.md) | [Economics](economics.md) | [Politcs](politics.md)

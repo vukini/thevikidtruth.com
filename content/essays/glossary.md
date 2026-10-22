@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: glossary
 draft: false
+topics:
+- notebook
 ---
 
 [Favourites](favourites.md) | [Philosophy](philosophy.md) | [Music](music.md) |[Economics](economics.md) | [Finance](finance.md)

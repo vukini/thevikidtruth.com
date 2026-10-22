@@ -16,6 +16,8 @@ wikislug: teleology
 draft: false
 aliases:
 - /science/teleology/
+topics:
+- ideas
 ---
 
 In a teleological world things are guided by their purpose or where they should be. Things happen to a kind of natural design.

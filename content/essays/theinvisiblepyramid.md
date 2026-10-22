@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: theinvisiblepyramid
 draft: false
+topics:
+- science
 ---
 
 ![pyr](/assets/pyr.jpg)

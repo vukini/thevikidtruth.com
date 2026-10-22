@@ -1,0 +1,35 @@
+{{/* Grouped landing page for a knowledge-base section with categories in data/topics/<section>.yaml. ctx: section page */}}
+{{ $sec := .Section }}{{ $cats := index hugo.Data.topics $sec }}
+{{ $pages := .RegularPages }}{{ $slugs := slice }}{{ range $cats }}{{ $slugs = $slugs | append .slug }}{{ end }}
+<header class="ahead withart">
+<div class="ahead-text">
+  <p class="crumb"><a href="{{ "/" | relURL }}">Home</a> / Knowledge base</p>
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p class="sub">{{ . }}</p>{{ end }}
+  <p class="meta">{{ len $pages }} entries · {{ len $cats }} categories</p>
+  <p><a class="mapcta" href="{{ printf "/%s/map/" $sec | relURL }}"><span class="mapcta-dots" aria-hidden="true"></span>Explore the knowledge graph →</a></p>
+</div>
+  {{ partial "art.html" (dict "key" $sec "eager" true) }}
+</header>
+{{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+{{ $other := slice }}{{ range $pages }}{{ if not (intersect (.Params.topics | default slice) $slugs) }}{{ $other = $other | append . }}{{ end }}{{ end }}
+<nav class="catindex" aria-label="Categories" data-pagefind-ignore>
+{{ range $cats }}{{ $n := len (where $pages "Params.topics" "intersect" (slice .slug)) }}{{ if $n }}<a href="#{{ .slug }}" style="--c:{{ .color }}"><i></i>{{ .title }} <span>{{ $n }}</span></a>{{ end }}{{ end }}
+{{ with $other }}<a href="#other" style="--c:#B5AC9A"><i></i>Other <span>{{ len . }}</span></a>{{ end }}
+</nav>
+{{ range $cats }}
+{{ $ps := where $pages "Params.topics" "intersect" (slice .slug) }}
+{{ if $ps }}
+<section class="catsec" id="{{ .slug }}" style="--c:{{ .color }}">
+  <div class="cathead"><h2><a href="{{ printf "/%s/category/%s/" $sec .slug | relURL }}">{{ .title }}</a></h2><p class="meta">{{ len $ps }} entries</p></div>
+  <p class="catintro">{{ .intro }}</p>
+  <ul class="catlist">{{ range $ps.ByTitle }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}</ul>
+</section>
+{{ end }}{{ end }}
+{{ with $other }}
+<section class="catsec" id="other" style="--c:#B5AC9A">
+  <div class="cathead"><h2>Other</h2><p class="meta">{{ len . }} entries</p></div>
+  <p class="catintro">New pages that have not been given a category yet.</p>
+  <ul class="catlist">{{ range sort . "Title" }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}</ul>
+</section>
+{{ end }}

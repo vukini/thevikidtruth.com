@@ -15,6 +15,8 @@ categories:
 wikislug: misc
 draft: true
 review: update
+topics:
+- notebook
 ---
 
 | [Quick Links](quicklinks.md) | [Books](books.md) | [Videos](videos.md) | [Favourites](favourites.md) | [Philosophy](philosophy.md) | [Music](music.md) |[Economics](economics.md) | [Finance](finance.md)

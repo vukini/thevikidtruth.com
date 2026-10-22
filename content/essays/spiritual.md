@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: spiritual
 draft: false
+topics:
+- spirit
 ---
 
 [Quicklinks](quicklinks.md) | [Favourites](favourites.md) | [Philosophy](philosophy.md) | [Music](music.md) |[Economics](economics.md) | [Finance](finance.md)

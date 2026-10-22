@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: where2invadenext
 draft: false
+topics:
+- stories
 ---
 
 ![w2i](/assets/w2i.jpg)

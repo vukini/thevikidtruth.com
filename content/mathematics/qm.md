@@ -14,6 +14,8 @@ categories:
 - math
 wikislug: qm
 draft: false
+topics:
+- math-physics
 ---
 
 # Quantum Mechanics

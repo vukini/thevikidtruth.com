@@ -14,6 +14,8 @@ categories:
 - math
 wikislug: numbertheory
 draft: false
+topics:
+- numbers-geometry
 ---
 
 [Math](math.md)

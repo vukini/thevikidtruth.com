@@ -253,3 +253,5 @@ main.graphpage{max-width:none}
   .kg-bar input{width:100%}
   #kg-canvas{height:68vh}
 }
+.related .xsec{font:400 .68rem var(--mono);color:var(--muted);border:1px solid var(--line);border-radius:99px;padding:0 .4rem;margin-left:.3rem;white-space:nowrap}
+.graphnav a{margin-left:.5rem;white-space:nowrap}

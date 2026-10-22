@@ -15,6 +15,8 @@ categories:
 wikislug: scifi
 draft: true
 review: retire
+topics:
+- stories
 ---
 
 [Philosophy](philosophy.md) | [Economics](economics.md) | [Politics](politics.md)

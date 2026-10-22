@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: breathwork
 draft: false
+topics:
+- spirit
 ---
 
 [Favourites](favourites.md) | [Philosophy](philosophy.md) | [Music](music.md) |[Economics](economics.md) | [Finance](finance.md)

@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: independence
 draft: false
+topics:
+- stories
 ---
 
 ![indi-470](/assets/indi-470.jpg)

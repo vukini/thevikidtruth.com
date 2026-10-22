@@ -14,6 +14,8 @@ categories:
 - math
 wikislug: categorytheory
 draft: false
+topics:
+- foundations
 ---
 
 ![algebra](/assets/algebra.png)

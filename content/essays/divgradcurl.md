@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: divgradcurl
 draft: false
+topics:
+- math-tech
 ---
 
 # Div Grad Curl and All That

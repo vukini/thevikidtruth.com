@@ -16,6 +16,8 @@ wikislug: thalesofmiletos
 draft: false
 aliases:
 - /mathematics/thalesofmiletos/
+topics:
+- philosophers
 ---
 
 [Philosophy](philosophy.md) | [Economics](economics.md) | [Politics](politics.md)

@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: worldstats
 draft: false
+topics:
+- society
 ---
 
 [Favourites](favourites.md) | [Philosophy](philosophy.md) | [Music](music.md) |[Economics](economics.md) | [Finance](finance.md)

@@ -15,6 +15,8 @@ categories:
 wikislug: thephilosophyofphysics
 draft: true
 review: retire
+topics:
+- science
 ---
 
 ![pop](/assets/pop.jpg)

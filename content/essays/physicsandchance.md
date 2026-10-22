@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: physicsandchance
 draft: false
+topics:
+- science
 ---
 
 # Physics and Chance

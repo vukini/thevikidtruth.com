@@ -15,6 +15,8 @@ categories:
 wikislug: thephilosophybook
 draft: true
 review: retire
+topics:
+- notebook
 ---
 
 ![pb](/assets/pb.jpg)

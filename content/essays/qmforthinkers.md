@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: qmforthinkers
 draft: false
+topics:
+- science
 ---
 
 [Read This!](caveatemptor.md) | [Back to Books](books.md)  | [Physics](physics.md)

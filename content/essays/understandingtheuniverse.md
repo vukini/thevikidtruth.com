@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: understandingtheuniverse
 draft: false
+topics:
+- science
 ---
 
 [Read This!](caveatemptor.md) |

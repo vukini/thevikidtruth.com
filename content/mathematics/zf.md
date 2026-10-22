@@ -14,6 +14,8 @@ categories:
 - math
 wikislug: zf
 draft: false
+topics:
+- foundations
 ---
 
 # The Zermelo-Frankel Axioms

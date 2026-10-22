@@ -16,6 +16,8 @@ wikislug: politics
 draft: false
 aliases:
 - /science/politics/
+topics:
+- society
 ---
 
 # Politics

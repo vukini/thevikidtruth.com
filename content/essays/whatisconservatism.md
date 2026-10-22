@@ -14,6 +14,8 @@ categories:
 - articles
 wikislug: whatisconservatism
 draft: false
+topics:
+- society
 ---
 
 # What is Conservatism

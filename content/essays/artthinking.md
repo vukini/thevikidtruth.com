@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: artthinking
 draft: false
+topics:
+- mind
 ---
 
 ![cover](/assets/cover.jpg)

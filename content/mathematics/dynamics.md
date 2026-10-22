@@ -14,6 +14,8 @@ categories:
 - math
 wikislug: dynamics
 draft: false
+topics:
+- numbers-geometry
 ---
 
 [Math](math.md) | [Physics](physics.md) | [Science](science.md)

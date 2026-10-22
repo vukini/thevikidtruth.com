@@ -15,6 +15,8 @@ categories:
 wikislug: letoverlambda
 draft: true
 review: retire
+topics:
+- math-tech
 ---
 
 ![letover](/assets/letover.jpg)

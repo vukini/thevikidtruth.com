@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: ordinarymen
 draft: false
+topics:
+- society
 ---
 
 [Books](books.md)

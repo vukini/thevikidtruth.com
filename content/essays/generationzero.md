@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: generationzero
 draft: false
+topics:
+- society
 ---
 
 [Important Caveat Emptor!](caveatemptor.md) | [Videos](videos.md)

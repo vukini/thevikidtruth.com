@@ -1,0 +1,7 @@
+# Ordered category list for /mathematics/. slug must match the `topics` front-matter value.
+- {slug: foundations, title: "Logic, sets & foundations", color: "#B9A3F0", intro: "Modus ponens and tollens, relations, set theory and the ZF axioms, category theory and what mathematics stands on."}
+- {slug: algebra, title: "Abstract algebra", color: "#F2B544", intro: "Groups and group actions, quotient groups, rings, fields, modules, polynomial rings and exterior algebras."}
+- {slug: linear-algebra, title: "Linear algebra & tensors", color: "#5FB0D8", intro: "Vector spaces, linear operators and matrices, inner products, affine maps and tensors."}
+- {slug: numbers-geometry, title: "Numbers, geometry & dynamics", color: "#8FB86B", intro: "Number theory, Pythagoras, topology, combinatorics and dynamical systems."}
+- {slug: math-physics, title: "Mathematics of physics", color: "#E07A3F", intro: "The mathematics behind quantum mechanics and relativity."}
+- {slug: overview, title: "Overview & history", color: "#A89C86", intro: "Where to start: the general map of mathematics and its history and biography."}

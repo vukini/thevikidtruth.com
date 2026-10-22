@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: wilderpeople
 draft: false
+topics:
+- stories
 ---
 
 ![wilder](/assets/wilder.png)

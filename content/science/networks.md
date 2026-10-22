@@ -15,6 +15,8 @@ categories:
 wikislug: networks
 draft: true
 review: update
+topics:
+- earth-society
 ---
 
 [Read This!](caveatemptor.md) | [Physics](physics.md) | [Biology](biology.md) | [Chemistry](chemistry.md "MISSING PAGE") | [Climate]](climate.md) | [Social](social.md "MISSING PAGE") | [Health](health.md) | [Philosophy](philosophy.md) | [Economics](economics.md) | [Politics](politics.md)

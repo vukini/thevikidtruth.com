@@ -16,6 +16,8 @@ wikislug: ludwigamemoir
 draft: false
 aliases:
 - /mathematics/ludwigamemoir/
+topics:
+- philosophers
 ---
 
 [Books](books.md) | [Philosophy](philosophy.md) | [Economics](economics.md) | [Politics](politics.md)

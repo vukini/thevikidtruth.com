@@ -17,6 +17,8 @@ draft: true
 review: retire
 aliases:
 - /science/ethics/
+topics:
+- ideas
 ---
 
 # Ethics

@@ -14,6 +14,8 @@ categories:
 - languages
 wikislug: arabiziayn
 draft: false
+topics:
+- arabic
 ---
 
 [Arabic](arabic.md) | [Esperanto](esperanto.md) |[Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) | [Swahili](swahili.md) | [French](french.md) | [Hindi](hindi.md) | [Quick Links](quicklinks.md)

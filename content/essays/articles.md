@@ -14,6 +14,8 @@ categories:
 - articles
 wikislug: articles
 draft: false
+topics:
+- notebook
 ---
 
 ![articles-soft-782](/assets/articles-soft-782.jpg)

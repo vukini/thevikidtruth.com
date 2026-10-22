@@ -1,0 +1,4 @@
+- {slug: philosophers, title: "Philosophers", color: "#C58BD8", intro: "Thales to Rorty: Epicurus, Bentham, Nietzsche, Wittgenstein, Huxley, Peterson and Sen Ts'an."}
+- {slug: ideas, title: "Ideas & terms", color: "#F2B544", intro: "Ethics, teleology and a working vocabulary of philosophical terms."}
+- {slug: physics, title: "Philosophy of physics", color: "#5FB0D8", intro: "What physics says, and doesn't say, about reality."}
+- {slug: overview, title: "Start here", color: "#A89C86", intro: "The VikiD approach to philosophy and a list of who to study next."}

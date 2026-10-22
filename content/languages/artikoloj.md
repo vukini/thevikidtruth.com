@@ -14,6 +14,8 @@ categories:
 - languages
 wikislug: artikoloj
 draft: false
+topics:
+- esperanto
 ---
 
 [Esperanto](esperanto.md) |  [Plean Ilustrita Vortaro](https://vortaro.net) | [Artikoloj](artikoloj.md) | [Esperanto Legaĵo](esperantolegajo.md) |

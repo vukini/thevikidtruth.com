@@ -14,6 +14,8 @@ categories:
 - articles
 wikislug: environmentsanchor
 draft: false
+topics:
+- notebook
 ---
 
 # Environments Anchor

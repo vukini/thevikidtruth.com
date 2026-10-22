@@ -15,6 +15,8 @@ categories:
 wikislug: themarvelousclouds
 draft: true
 review: retire
+topics:
+- stories
 ---
 
 # The Marvelous Clouds by John Durham Peters

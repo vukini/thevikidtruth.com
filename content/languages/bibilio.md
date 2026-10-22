@@ -14,6 +14,8 @@ categories:
 - languages
 wikislug: bibilio
 draft: false
+topics:
+- esperanto
 ---
 
 # La Sankta Bibilio

@@ -17,6 +17,8 @@ draft: true
 review: retire
 aliases:
 - /mathematics/psychology/
+topics:
+- life
 ---
 
 [Clinical Psychology](https://en.wikipedia.org/wiki/Clinical_psychology) |

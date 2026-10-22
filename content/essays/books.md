@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: books
 draft: false
+topics:
+- notebook
 ---
 
 | [Quick Links](quicklinks.md) |[Read This!](caveatemptor.md) | [Books](books.md) |

@@ -15,6 +15,8 @@ categories:
 wikislug: theroadtoreality
 draft: true
 review: retire
+topics:
+- science
 ---
 
 [Books](books.md)

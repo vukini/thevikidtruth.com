@@ -14,6 +14,8 @@ categories:
 - music
 wikislug: threelittlebirds
 draft: false
+topics:
+- songs
 ---
 
 [Quick Links](quicklinks.md) | [Everything Else](misc.md) | [Guitar](guitar.md) | [Guitar Practice Ideas](guitarpractice.md) | [Pan Flute](panflute.md) | [MusicTheory](musictheory.md) | [Scales](scales.md) | [Chord Progressions](chordprogressions.md) |

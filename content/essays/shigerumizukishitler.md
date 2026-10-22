@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: shigerumizukishitler
 draft: false
+topics:
+- society
 ---
 
 [Books](books.md)

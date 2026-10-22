@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: integralmeditation
 draft: false
+topics:
+- spirit
 ---
 
 ![IntegralMediation2](/assets/integralmediation2.jpg)

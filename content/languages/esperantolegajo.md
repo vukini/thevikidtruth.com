@@ -15,6 +15,8 @@ categories:
 wikislug: esperantolegajo
 draft: true
 review: update
+topics:
+- esperanto
 ---
 
 [Esperanto](esperanto.md) |  [Plean Ilustrita Vortaro](https://vortaro.net) | [Artikoloj](artikoloj.md) | [Legaĵo](esperantolegajo.md) |

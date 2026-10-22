@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: afterphysics
 draft: false
+topics:
+- science
 ---
 
 # After Physics by David Z. Albert

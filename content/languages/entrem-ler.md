@@ -14,6 +14,8 @@ categories:
 - languages
 wikislug: entrem-ler
 draft: false
+topics:
+- french
 ---
 
 ```

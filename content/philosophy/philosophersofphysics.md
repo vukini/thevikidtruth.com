@@ -17,6 +17,8 @@ draft: true
 review: retire
 aliases:
 - /science/philosophersofphysics/
+topics:
+- physics
 ---
 
 # PhilosophersofPhysics

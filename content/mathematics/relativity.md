@@ -14,6 +14,8 @@ categories:
 - math
 wikislug: relativity
 draft: false
+topics:
+- math-physics
 ---
 
 ![relativity](/assets/relativity-2.jpg)

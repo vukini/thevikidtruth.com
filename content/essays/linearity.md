@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: linearity
 draft: false
+topics:
+- math-tech
 ---
 
 # Linearity

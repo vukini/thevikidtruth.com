@@ -16,6 +16,8 @@ wikislug: jordanbpeterson
 draft: false
 aliases:
 - /mathematics/jordanbpeterson/
+topics:
+- philosophers
 ---
 
 [Maps of Meaning](mapsofmeaning.md) | [Philosophy](philosophy.md) | [Psychology](psychology.md)

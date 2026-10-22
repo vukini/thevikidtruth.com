@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: sclerotic
 draft: false
+topics:
+- notebook
 ---
 
 # sclerotic

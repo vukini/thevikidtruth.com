@@ -14,6 +14,8 @@ categories:
 - math
 wikislug: 03xxmathematicallogicandfoundations
 draft: false
+topics:
+- foundations
 ---
 
 ## Mathematical logic and foundations

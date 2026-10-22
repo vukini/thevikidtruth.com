@@ -14,6 +14,8 @@ categories:
 - languages
 wikislug: spiritualwakeup
 draft: false
+topics:
+- esperanto
 ---
 
 [Arabic](arabic.md) | [Esperanto](esperanto.md) |[Spanish](spanish.md) | [Mandrin](mandrin.md) | [Japanese](japanese.md) | [Tokipona](tokipona.md) |

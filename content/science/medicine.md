@@ -15,6 +15,8 @@ categories:
 wikislug: medicine
 draft: true
 review: retire
+topics:
+- life
 ---
 
 [Physics](physics.md) | [Biology](biology.md) | [Medicine](medicine.md) | [Chemistry](chemistry.md "MISSING PAGE")

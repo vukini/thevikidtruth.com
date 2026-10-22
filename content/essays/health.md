@@ -16,6 +16,8 @@ wikislug: health
 draft: false
 aliases:
 - /science/health/
+topics:
+- mind
 ---
 
 [Quicklinks](quicklinks.md) | [Favourites](favourites.md) | [Philosophy](philosophy.md) | [Music](music.md) |[Economics](economics.md) | [Finance](finance.md)

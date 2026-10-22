@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: halflifeoffacts
 draft: false
+topics:
+- society
 ---
 
 # The Half Life of Facts by Samuel Arbesman

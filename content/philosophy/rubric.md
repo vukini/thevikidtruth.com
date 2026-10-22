@@ -16,6 +16,8 @@ wikislug: rubric
 draft: false
 aliases:
 - /science/rubric/
+topics:
+- ideas
 ---
 
 [Philosophy](philosophy.md) | [Economics](economics.md) | [Politics](politics.md)

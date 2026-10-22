@@ -14,6 +14,8 @@ categories:
 - math
 wikislug: reflexivityrelation
 draft: false
+topics:
+- foundations
 ---
 
 - Let **S** be a set and **~** a relation between any two objects in the set:

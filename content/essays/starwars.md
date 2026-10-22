@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: starwars
 draft: false
+topics:
+- stories
 ---
 
 # Star Wars: Episode VII The Force Awakens

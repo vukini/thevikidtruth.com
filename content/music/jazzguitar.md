@@ -14,6 +14,8 @@ categories:
 - music
 wikislug: jazzguitar
 draft: false
+topics:
+- guitar
 ---
 
 [Everything Else](misc.md) | [Guitar](guitar.md) | [Pan Flute](panflute.md) | [MusicTheory](musictheory.md) | [Scales](scales.md) | [Chord Progressions](chordprogressions.md) |

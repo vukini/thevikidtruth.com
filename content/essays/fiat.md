@@ -15,6 +15,8 @@ categories:
 wikislug: fiat
 draft: true
 review: retire
+topics:
+- society
 ---
 
 ![title](/assets/title.jpg)

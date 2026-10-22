@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{ if and (eq .Kind "section") (index hugo.Data.topics .Section) }}{{ partial "kb-landing.html" . }}{{ else }}
 {{ $key := cond (eq .Kind "term") .Data.Plural .Section }}
 <header class="ahead withart">
 <div class="ahead-text">
@@ -11,4 +12,5 @@
 </header>
 {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
 <ol class="list">{{ range (cond (eq .Section "writing") .RegularPages.ByDate.Reverse .RegularPages.ByTitle) }}{{ partial "toc-item.html" . }}{{ end }}</ol>
+{{ end }}
 {{ end }}

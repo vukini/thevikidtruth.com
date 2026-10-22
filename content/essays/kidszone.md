@@ -15,6 +15,8 @@ categories:
 wikislug: kidszone
 draft: true
 review: retire
+topics:
+- notebook
 ---
 
 [Philosophy](philosophy.md) | [Economics](economics.md) | [Politics](politics.md)

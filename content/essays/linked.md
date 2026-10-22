@@ -17,6 +17,8 @@ draft: true
 review: retire
 aliases:
 - /science/linked/
+topics:
+- math-tech
 ---
 
 ![linked](/assets/linked.jpg)

@@ -15,6 +15,8 @@ categories:
 wikislug: thememorychalet
 draft: true
 review: retire
+topics:
+- mind
 ---
 
 ![memory](/assets/memory.jpg)

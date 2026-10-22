@@ -16,6 +16,8 @@ wikislug: philosophy
 draft: false
 aliases:
 - /science/philosophy/
+topics:
+- overview
 ---
 
 [Favourites](favourites.md) | [Philosophy](philosophy.md) | [Music](music.md) |[Economics](economics.md) | [Finance](finance.md)

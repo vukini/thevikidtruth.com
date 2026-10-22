@@ -15,6 +15,8 @@ categories:
 wikislug: capitalmarkets
 draft: true
 review: retire
+topics:
+- society
 ---
 
 ![capital](/assets/capital.jpg)

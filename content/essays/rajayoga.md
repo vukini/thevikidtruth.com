@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: rajayoga
 draft: false
+topics:
+- spirit
 ---
 
 [Books](books.md)

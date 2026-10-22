@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: quantummechandeveryday
 draft: false
+topics:
+- science
 ---
 
 # Quatum Mechanics and Everyday Life

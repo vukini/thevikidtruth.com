@@ -1,0 +1,9 @@
+# Knowledge-base sections that have categories, a grouped landing page and a /<section>/map/ graph.
+# Order and colours are used by the site-wide /map/.
+- {slug: computing, title: "Computing", color: "#F2B544"}
+- {slug: mathematics, title: "Mathematics", color: "#7FA7E0"}
+- {slug: science, title: "Science", color: "#6FC2B4"}
+- {slug: philosophy, title: "Philosophy", color: "#C58BD8"}
+- {slug: languages, title: "Languages", color: "#E07A3F"}
+- {slug: music, title: "Music", color: "#D98FA0"}
+- {slug: essays, title: "Essays & Ideas", color: "#8FB86B"}

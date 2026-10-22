@@ -27,6 +27,7 @@
 </section>
 <section class="kbsec">
   <h2 class="sec">Knowledge base</h2>
+  <p><a class="mapcta" href="{{ "/map/" | relURL }}"><span class="mapcta-dots" aria-hidden="true"></span>See every section on one knowledge graph →</a></p>
   <div class="grid">
   {{ range site.Sections.ByWeight }}{{ if ne .Section "writing" }}
     <a class="kb" href="{{ .RelPermalink }}"><span class="n">{{ len .RegularPages }}</span><h3>{{ .Title }}</h3><p>{{ .Description }}</p></a>

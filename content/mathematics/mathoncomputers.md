@@ -15,6 +15,8 @@ categories:
 wikislug: mathoncomputers
 draft: true
 review: update
+topics:
+- math-physics
 ---
 
 [Abstract Algebra](abstractalgebra.md) | [ZF Axioms](zf.md) | [Math on Computers](mathoncomputers.md)

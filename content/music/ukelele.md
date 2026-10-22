@@ -14,6 +14,8 @@ categories:
 - music
 wikislug: ukelele
 draft: false
+topics:
+- guitar
 ---
 
 [Chord Progressions](chordprogressions.md) | [Guitar](guitar.md) | [Guitar Practice Ideas](guitarpractice.md) | [Learning the Fretboard](learnthefretboard.md) | [Melodies](melodies.md)  |

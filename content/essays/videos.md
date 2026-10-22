@@ -15,6 +15,8 @@ categories:
 wikislug: videos
 draft: true
 review: update
+topics:
+- stories
 ---
 
 [Important Caveat Emptor!](caveatemptor.md) | [Quick Links](quicklinks.md)

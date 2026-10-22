@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: history
 draft: false
+topics:
+- society
 ---
 
 # History

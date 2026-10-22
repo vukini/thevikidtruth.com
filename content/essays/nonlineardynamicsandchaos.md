@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: nonlineardynamicsandchaos
 draft: false
+topics:
+- math-tech
 ---
 
 [Books](books.md)

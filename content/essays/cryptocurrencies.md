@@ -15,6 +15,8 @@ categories:
 wikislug: cryptocurrencies
 draft: true
 review: update
+topics:
+- society
 ---
 
 [Favourites](favourites.md) | [Philosophy](philosophy.md) | [Music](music.md) |[Economics](economics.md) | [Finance](finance.md)

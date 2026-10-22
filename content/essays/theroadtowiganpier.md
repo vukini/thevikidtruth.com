@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: theroadtowiganpier
 draft: false
+topics:
+- society
 ---
 
 [Books](books.md) | [George Orwell](georgeorwell.md)

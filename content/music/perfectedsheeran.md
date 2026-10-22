@@ -14,6 +14,8 @@ categories:
 - music
 wikislug: perfectedsheeran
 draft: false
+topics:
+- songs
 ---
 
 [Everything Else](misc.md) | [Music](music.md) |[Guitar](guitar.md) | [MusicTheory](musictheory.md) | [Scales](scales.md) | [Chord Progressions](chordprogressions.md) |

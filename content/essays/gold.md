@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: gold
 draft: false
+topics:
+- society
 ---
 
 # Gold by Mathew Hart

@@ -14,6 +14,8 @@ categories:
 - languages
 wikislug: paresseux
 draft: false
+topics:
+- french
 ---
 
 Le paresseux grimpe au palétuvier.

@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: burnmathclass
 draft: false
+topics:
+- math-tech
 ---
 
 ![math](/assets/math.jpg)

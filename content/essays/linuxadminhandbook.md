@@ -15,6 +15,8 @@ categories:
 wikislug: linuxadminhandbook
 draft: true
 review: update
+topics:
+- math-tech
 ---
 
 [Books](books.md)

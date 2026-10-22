@@ -15,6 +15,8 @@ categories:
 wikislug: louderthanwords
 draft: true
 review: retire
+topics:
+- stories
 ---
 
 ![louder](/assets/louder-2.jpg)

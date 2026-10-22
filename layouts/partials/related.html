@@ -1,13 +1,13 @@
-{{ $g := partialCached "linkgraph.html" .Section .Section }}
-{{ $self := .RelPermalink }}
+{{/* Backlinks (from any knowledge-base section) and more pages in the same category. */}}
+{{ $g := partialCached "linkgraph.html" "all" "all" }}
+{{ $self := .RelPermalink }}{{ $sec := .Section }}
 {{ $back := index $g.in $self | default slice }}
-{{ $outl := index $g.out $self | default slice }}
 {{ $slug := index .Params.topics 0 }}
-{{ $cat := index (where hugo.Data.computing_topics "slug" $slug) 0 }}
-{{ $same := where (where (where site.RegularPages "Section" .Section) "Params.topics" "intersect" (slice $slug)) "RelPermalink" "ne" $self }}
-{{ $byurl := dict }}{{ range where site.RegularPages "Section" .Section }}{{ $byurl = merge $byurl (dict .RelPermalink .) }}{{ end }}
-<aside class="related" data-pagefind-ignore style="--c:{{ $cat.color }}">
-  {{ with $back }}<div><h2>Linked from</h2><ul>{{ range . }}{{ with index $byurl . }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}{{ end }}</ul></div>{{ end }}
-  {{ with $same }}<div><h2>More in <a href="{{ printf "/computing/category/%s/" $slug | relURL }}">{{ $cat.title }}</a></h2><ul>{{ range first 8 .ByTitle }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}</ul></div>{{ end }}
-  <p class="meta"><a href="{{ "/computing/map/" | relURL }}?focus={{ $self }}">See this page on the knowledge graph →</a></p>
+{{ $cat := index (where (index hugo.Data.topics $sec) "slug" $slug) 0 }}
+{{ $same := where (where (where site.RegularPages "Section" $sec) "Params.topics" "intersect" (slice $slug)) "RelPermalink" "ne" $self }}
+{{ $byurl := partialCached "kb-byurl.html" "all" "all" }}
+<aside class="related" data-pagefind-ignore style="--c:{{ with $cat }}{{ .color }}{{ else }}#B5AC9A{{ end }}">
+  {{ with $back }}<div><h2>Linked from</h2><ul>{{ range . }}{{ with index $byurl . }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ if ne .Section $sec }} <span class="xsec">{{ .CurrentSection.Title }}</span>{{ end }}</li>{{ end }}{{ end }}</ul></div>{{ end }}
+  {{ with $cat }}{{ with $same }}<div><h2>More in <a href="{{ printf "/%s/category/%s/" $sec $slug | relURL }}">{{ $cat.title }}</a></h2><ul>{{ range first 8 .ByTitle }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}</ul></div>{{ end }}{{ end }}
+  <p class="meta"><a href="{{ printf "/%s/map/" $sec | relURL }}?focus={{ $self }}">See this page on the knowledge graph →</a> · <a href="{{ "/map/" | relURL }}?focus={{ $self }}">on the site-wide map →</a></p>
 </aside>

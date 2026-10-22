@@ -14,6 +14,8 @@ categories:
 - languages
 wikislug: daodejing
 draft: false
+topics:
+- esperanto
 ---
 
 # Dao De Jing

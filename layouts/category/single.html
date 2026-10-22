@@ -1,0 +1,19 @@
+{{ define "main" }}
+{{ $sec := .Params.kb_section }}{{ $slug := .Params.category }}
+{{ $cats := index hugo.Data.topics $sec }}{{ $cat := index (where $cats "slug" $slug) 0 }}
+{{ $secpage := site.GetPage (printf "/%s" $sec) }}
+{{ $ps := where (where site.RegularPages "Section" $sec) "Params.topics" "intersect" (slice $slug) }}
+<header class="ahead withart" style="--c:{{ $cat.color }}">
+<div class="ahead-text">
+  <p class="crumb"><a href="{{ "/" | relURL }}">Home</a> / <a href="{{ $secpage.RelPermalink }}">{{ $secpage.Title }}</a> / Category</p>
+  <h1>{{ $cat.title }}</h1>
+  <p class="sub">{{ $cat.intro }}</p>
+  <p class="meta">{{ len $ps }} entries · <a href="{{ printf "/%s/map/" $sec | relURL }}?cat={{ $slug }}">see on the graph →</a></p>
+</div>
+  {{ partial "art.html" (dict "key" $sec "eager" true) }}
+</header>
+<nav class="catindex" aria-label="Other categories" data-pagefind-ignore>
+{{ range $cats }}<a href="{{ printf "/%s/category/%s/" $sec .slug | relURL }}" style="--c:{{ .color }}"{{ if eq .slug $slug }} aria-current="page"{{ end }}><i></i>{{ .title }}</a>{{ end }}
+</nav>
+<ol class="list">{{ range $ps.ByTitle }}{{ partial "toc-item.html" . }}{{ end }}</ol>
+{{ end }}

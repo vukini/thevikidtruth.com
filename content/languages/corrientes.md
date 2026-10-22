@@ -14,6 +14,8 @@ categories:
 - languages
 wikislug: corrientes
 draft: false
+topics:
+- spanish
 ---
 
 [ADVERTENCIA](advertencia.md) |

@@ -14,6 +14,8 @@ categories:
 - languages
 wikislug: learnesperanto
 draft: false
+topics:
+- esperanto
 ---
 
 [languages](languages.md) | [esperanto](esperanto.md) | [arabic](arabic.md) | [spanish](spanish.md) | [mandrin](mandrin.md) | [japanese](japanese.md) | [tokipona](tokipona.md) | [Hindi](hindi.md)

@@ -15,6 +15,8 @@ categories:
 wikislug: booktemplate
 draft: true
 review: retire
+topics:
+- notebook
 ---
 
 [Read This!](caveatemptor.md) | [Books](books.md) |

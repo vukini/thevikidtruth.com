@@ -14,6 +14,8 @@ categories:
 - misc
 wikislug: expertcprogramming
 draft: false
+topics:
+- math-tech
 ---
 
 [Read This!](caveatemptor.md) | [Books](books.md) |

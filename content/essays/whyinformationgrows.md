@@ -15,6 +15,8 @@ categories:
 wikislug: whyinformationgrows
 draft: true
 review: retire
+topics:
+- society
 ---
 
 ![info](/assets/info.jpg)

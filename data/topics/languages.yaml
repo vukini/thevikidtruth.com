@@ -1,0 +1,8 @@
+- {slug: spanish, title: "Spanish", color: "#E05A4F", intro: "Vocabulary, phrases, songs, articles and translations en español."}
+- {slug: french, title: "French", color: "#7FA7E0", intro: "Word studies with example sentences, stories and translations en français."}
+- {slug: esperanto, title: "Esperanto", color: "#8FB86B", intro: "Artikoloj, interviews, scripts, the Verda Bibilio and Dao De Jing in Esperanto."}
+- {slug: tokipona, title: "Toki Pona", color: "#F2B544", intro: "The minimalist language, one word at a time: jan, kala, sona, waso and the rest."}
+- {slug: swahili, title: "Swahili", color: "#E8D36A", intro: "Kiswahili 101: pronouns, phrases, basic vocabulary and reading."}
+- {slug: arabic, title: "Arabic", color: "#6FC2B4", intro: "Arabic and Arabizi, the Latin-letter-and-numeral way of writing it."}
+- {slug: asian, title: "Japanese, Mandarin & Hindi", color: "#D98FA0", intro: "Japanese colours and kana, Mandarin, Hindi and a Santali folktale."}
+- {slug: learning, title: "Learning languages", color: "#A89C86", intro: "How to learn languages, multilingual texts and practice pieces."}

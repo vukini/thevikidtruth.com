@@ -16,6 +16,8 @@ wikislug: freemarkets
 draft: false
 aliases:
 - /science/freemarkets/
+topics:
+- society
 ---
 
 # Free Markets

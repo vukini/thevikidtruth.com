@@ -14,6 +14,8 @@ categories:
 - music
 wikislug: solfege
 draft: false
+topics:
+- theory
 ---
 
 [Everything Else](misc.md) | [Guitar](guitar.md) | [Guitar Practice Ideas](guitarpractice.md) | [Pan Flute](panflute.md) | [MusicTheory](musictheory.md) | [Scales](scales.md) | [Chord Progressions](chordprogressions.md) |

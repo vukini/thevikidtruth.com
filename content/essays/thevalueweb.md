@@ -15,6 +15,8 @@ categories:
 wikislug: thevalueweb
 draft: true
 review: retire
+topics:
+- society
 ---
 
 [Books](books.md)

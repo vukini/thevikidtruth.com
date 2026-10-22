@@ -16,6 +16,8 @@ wikislug: ludwigwittgenstein
 draft: false
 aliases:
 - /mathematics/ludwigwittgenstein/
+topics:
+- philosophers
 ---
 
 [Philosophy](philosophy.md) | [Economics](economics.md) | [Politics](politics.md)

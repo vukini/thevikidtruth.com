@@ -14,6 +14,8 @@ categories:
 - languages
 wikislug: boucles
 draft: false
+topics:
+- french
 ---
 
 ```

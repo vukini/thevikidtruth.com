@@ -15,6 +15,8 @@ categories:
 wikislug: thinking
 draft: true
 review: retire
+topics:
+- mind
 ---
 
 ![title](/assets/title-3.jpg)

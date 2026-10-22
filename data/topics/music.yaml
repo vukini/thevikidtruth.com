@@ -1,0 +1,4 @@
+- {slug: guitar, title: "Guitar & ukulele", color: "#E07A3F", intro: "Learning the fretboard, open chords, jazz guitar, tutorials and how to practise."}
+- {slug: theory, title: "Music theory", color: "#B9A3F0", intro: "The musical alphabet, keys, scales and modes, triads, chord progressions and solfège."}
+- {slug: songs, title: "Songs", color: "#F2B544", intro: "Chords and notes for songs to learn, from Amazing Grace to Riptide."}
+- {slug: listening, title: "Listening, instruments & software", color: "#6FC2B4", intro: "Playlists, pan flutes and music software."}
