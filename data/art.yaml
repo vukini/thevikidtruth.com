@@ -1,0 +1,13 @@
+writing: {img: writing, fb: png, kind: cutout, w: 395, h: 520, alt: "VikiD in his red suit and yellow cape, floating cross-legged while reading a book"}
+essays: {img: essays, fb: png, kind: cutout, w: 395, h: 520, alt: "VikiD, caped and floating, absorbed in a book"}
+resources: {img: resources, fb: jpg, kind: panel, w: 800, h: 800, alt: "VikiD reading on a clifftop above a misty valley"}
+computing: {img: computing, fb: jpg, kind: panel, w: 381, h: 700, alt: "VikiD in his yellow cape standing before a giant circuit board"}
+mathematics: {img: mathematics, fb: jpg, kind: panel, w: 850, h: 607, alt: "VikiD, arms folded, in front of a whiteboard full of equations"}
+languages: {img: languages, fb: png, kind: cutout, w: 640, h: 384, alt: "VikiD chatting in several languages with a red-haired heroine"}
+science: {img: ../vikid-badge, fb: png, kind: badge, w: 360, h: 360, alt: "ViKiD TRUTH badge: the caped hero punching forward"}
+music: {img: caricature, fb: png, kind: cutout, w: 369, h: 420, alt: "The VikiD Truth caricature: grinning, thick black glasses, yellow hooded cape"}
+about: {img: judge, fb: png, kind: cutout, w: 600, h: 501, alt: "VikiD at a judge's bench with a gavel: You will be judged", caption: "Read the disclaimer first", link: "/about/caveatemptor/"}
+tags: {img: ../vikid-badge, fb: png, kind: badge, w: 360, h: 360, alt: "ViKiD TRUTH badge: the caped hero punching forward"}
+series: {img: ../vikid-badge, fb: png, kind: badge, w: 360, h: 360, alt: "ViKiD TRUTH badge: the caped hero punching forward"}
+search: {img: neon, fb: png, kind: cutout, w: 369, h: 420, alt: "Neon-blue VikiD caricature, glowing like an X-ray: looking through everything"}
+notfound: {img: judge, fb: png, kind: cutout, w: 600, h: 501, alt: "VikiD at a judge's bench with a gavel: You will be judged"}

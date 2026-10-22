@@ -1,0 +1,11 @@
+{{ define "main" }}
+<section class="notfound withart">
+  <div class="ahead-text">
+    <p class="crumb">Error 404</p>
+    <h1>Nothing to reveal here.</h1>
+    <p class="sub">VikiD looked closer, and still found no truth at this address.</p>
+    <p class="lede">The page may have moved when the old PicoLisp wiki became this site. Try <a href="{{ "search/" | relURL }}">searching</a>, start from the <a href="{{ "/" | relURL }}">homepage</a>, or browse <a href="{{ "writing/" | relURL }}">all essays</a>.</p>
+  </div>
+  {{ partial "art.html" (dict "key" "notfound" "eager" true) }}
+</section>
+{{ end }}

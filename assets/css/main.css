@@ -181,3 +181,29 @@ main.article{max-width:calc(780px + 2*var(--pad))}
   background:radial-gradient(circle at 50% 45%,rgba(242,181,68,.16),transparent 68%)}
 .prose p.portrait img{display:block;width:100%;max-width:none;height:auto;margin:0;float:none}
 @media (max-width:760px){.prose p.portrait{float:none;width:220px;margin:0 auto 1.5rem}}
+
+/* ---- Section character art ---- */
+.withart{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:clamp(1rem,4vw,3rem)}
+.art{margin:0;justify-self:end}
+.art img{display:block;height:auto}
+.art-cutout img{max-height:260px;width:auto;max-width:min(320px,34vw);filter:drop-shadow(0 14px 24px rgba(0,0,0,.5))}
+.art-badge img{width:150px;height:150px}
+.art-panel{position:relative;border:1px solid rgba(242,181,68,.55);border-radius:14px;overflow:hidden;
+  box-shadow:0 0 0 6px rgba(242,181,68,.05),0 18px 40px rgba(0,0,0,.45);width:min(320px,34vw)}
+.art-panel img{width:100%;height:260px;object-fit:cover;object-position:50% 15%}
+.art-panel::after{content:"";position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(ellipse at 50% 45%,transparent 55%,rgba(20,18,15,.6) 100%)}
+.art a{text-decoration:none}
+.art figcaption{font:400 .75rem var(--mono);color:var(--amber);text-align:center;margin-top:.4rem}
+.notfound{padding:clamp(3rem,8vw,6rem) 0}
+.notfound h1{font:300 clamp(2.4rem,6vw,4.5rem)/1 var(--display);margin:.5rem 0 1rem}
+.foot-tag{display:flex;align-items:center;gap:.7rem}
+.foot-av{width:40px;height:auto;flex:none}
+@media (max-width:760px){
+  .withart{grid-template-columns:1fr}
+  .withart .art{order:-1;justify-self:start}
+  .art-cutout img{max-height:170px;max-width:70vw}
+  .withart .art-panel{justify-self:stretch;width:auto}
+  .art-panel img{height:180px}
+  .art-badge img{width:96px;height:96px}
+}

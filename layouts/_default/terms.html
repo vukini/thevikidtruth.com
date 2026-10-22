@@ -1,2 +1,2 @@
-{{ define "main" }}<header class="ahead"><p class="crumb"><a href="{{ "/" | relURL }}">Home</a> / Taxonomy</p><h1>{{ .Title }}</h1></header>
+{{ define "main" }}<header class="ahead withart"><div class="ahead-text"><p class="crumb"><a href="{{ "/" | relURL }}">Home</a> / Taxonomy</p><h1>{{ .Title }}</h1></div>{{ partial "art.html" (dict "key" .Data.Plural "eager" true) }}</header>
 <div class="grid">{{ range .Data.Terms.ByCount }}<a class="kb" href="{{ .Page.RelPermalink }}"><span class="n">{{ .Count }}</span><h3>{{ .Page.Title }}</h3></a>{{ end }}</div>{{ end }}
