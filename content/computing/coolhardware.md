@@ -88,6 +88,33 @@ Buy a Pico, flash MicroPython, blink an LED, then read a button. When that works
 - Budget for a good power supply; cheap ones cause "mysterious" SD corruption.
 - Start with one ecosystem (Pico **or** ESP32 **or** Pi) and go deep before spreading out.
 
+### The hardware this site runs on: Vikix
+
+My own daily machine, Vikix, is deliberately modest: [Void Linux](archlinux.md) with the StumpWM window manager, chosen so that the whole stack stays understandable. The hardware lessons that matter most there are not exotic:
+
+- **A keyboard remapped in hardware or firmware.** Caps Lock becomes Control, which saves the "Emacs pinky" and works before the OS even boots when done in firmware. See [KMonad](kmonad.md) for the software route and QMK/ZMK for the firmware route.
+- **A machine you can open.** RAM you can add, an SSD you can swap, a battery you can replace. Framework and ThinkPad-style repairability is a computing-freedom issue as much as a convenience one.
+- **Enough, not maximal.** StumpWM and a Lisp REPL do not need a flagship GPU. Spend the saved money on a good display and a mechanical keyboard you will touch ten thousand times a day.
+
+### RISC-V: hardware you can actually read
+
+The most exciting hardware story of the decade is **RISC-V**, an open instruction-set architecture that anyone may implement without a licence. By 2026 you can buy real boards: the Milk-V and StarFive boards run Linux, and microcontrollers like the ESP32-C series and the Raspberry Pi Pico 2 (whose RP2350 chip has RISC-V cores alongside ARM ones) put it on your desk for a few dollars.
+
+Why it belongs on a "cool hardware" shelf: for the first time the whole stack, from the gate-level CPU design up through the [assembly language](assemblylanguage.md), is open and documented. You can read the ISA manual in an afternoon, write a few instructions, and run them on silicon you did not have to sign an NDA to understand. That is [Build a Computer in Your Head](bciyh.md) made real.
+
+```bash
+# Cross-assemble a tiny RISC-V program on Vikix (install the toolchain first)
+# xbps-install -S cross-riscv64-linux-gnu qemu-user-static
+riscv64-linux-gnu-gcc -static hello.c -o hello-rv
+qemu-riscv64-static ./hello-rv      # run it without RISC-V hardware
+```
+
+`qemu-user-static` lets you run and debug RISC-V (or ARM) binaries on your x86 laptop, which is the cheapest way to start before a board arrives.
+
+### Radio: computing you can hear
+
+The radio gear at the top of this page is not nostalgia. A cheap **RTL-SDR** dongle turns a laptop into a software-defined radio: the antenna feeds raw samples to your CPU, and *software* does the demodulation that used to need a shelf of analogue circuitry. Decode aircraft transponders (ADS-B), read weather-satellite images, or just watch the spectrum. It is the clearest demonstration there is that "signal processing" is ordinary code running on samples, the same [data structures and algorithms](datastructuresandalgorithms.md) as everything else, just arriving through the air.
+
 ### Common misconceptions
 
 - **"More specs = cooler."** Support, documentation and community matter more than GHz.

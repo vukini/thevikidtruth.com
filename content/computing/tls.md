@@ -114,6 +114,36 @@ A leaf certificate for `example.com` is signed by an intermediate CA, which is s
 - **"More cipher options is better."** Fewer, modern ones are better. Let TLS 1.3 choose.
 - **"Certificates last forever."** Let's Encrypt's last 90 days on purpose. Automate renewal.
 
+### Post-quantum TLS has arrived
+
+The biggest change since the old notes below: TLS is going **post-quantum**. A future quantum computer could break the elliptic-curve key exchange that protects today's traffic, and attackers can record encrypted traffic now to decrypt later ("harvest now, decrypt later"). So the industry moved first on the key exchange.
+
+Since 2024 the major browsers and servers default to a **hybrid** key exchange, **X25519MLKEM768**: it combines the classical X25519 curve with ML-KEM (formerly Kyber), the lattice-based scheme NIST standardised as FIPS 203 in 2024. If either half holds, your session key is safe. By 2026 a large share of all HTTPS connections already use it, and OpenSSL 3.5 and recent BoringSSL negotiate it automatically. Signatures (the certificate side) are migrating more slowly, because certificates live for years.
+
+You can see what your own connection negotiated:
+
+```bash
+openssl s_client -connect thevikidtruth.com:443 -groups X25519MLKEM768 </dev/null 2>/dev/null \
+  | grep -E 'Protocol|Cipher|Negotiated|group'
+# Look for: TLSv1.3, and "Negotiated TLS1.3 group: X25519MLKEM768"
+```
+
+### A hands-on example: inspect and test a server
+
+```bash
+# Which TLS versions and ciphers does a server allow?
+nmap --script ssl-enum-ciphers -p 443 thevikidtruth.com
+
+# Full certificate chain and expiry
+echo | openssl s_client -connect thevikidtruth.com:443 -servername thevikidtruth.com 2>/dev/null \
+  | openssl x509 -noout -subject -issuer -dates
+
+# Grade a public server's configuration
+# (browser) https://www.ssllabs.com/ssltest/
+```
+
+For your own servers, the practical advice in 2026 is short: serve **TLS 1.3 and 1.2 only**, get free certificates from Let's Encrypt with automatic renewal (Caddy does this with zero configuration), and let the library pick the cipher suite. The era of hand-tuning long cipher strings is over, and that is a good thing.
+
 ### Connections
 
 - [Encryption](encryption.md), [Computer Security](computersecurity.md), [Securing Web Apps](securingwebapps.md).

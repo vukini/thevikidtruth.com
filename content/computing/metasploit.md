@@ -117,6 +117,35 @@ Running Metasploit against your *own* lab once a year teaches more about your ex
 
 Metasploit is a force multiplier *after* fundamentals, not a substitute for them.
 
+### Setting up a legal lab in 2026
+
+Never point Metasploit at anything you do not own or have written permission to test. Build a lab that is yours:
+
+```bash
+# On your own machine, an isolated host-only network, two VMs:
+#   attacker:  Kali or a Void box with metasploit-framework
+#   target:    an intentionally vulnerable image you downloaded on purpose
+#              (Metasploitable 3, or a deliberately old VulnHub box)
+
+msfconsole -q
+msf6 > db_status                      # make sure PostgreSQL is connected
+msf6 > workspace -a homelab           # keep engagements separate
+msf6 > setg RHOSTS 10.10.10.5         # the target VM, on the host-only net
+msf6 > search type:exploit platform:linux samba
+```
+
+The modern Metasploit stores everything in PostgreSQL, so `hosts`, `services` and `loot` build a picture of the lab as you work. `msfvenom` generates standalone payloads for testing detection; `msfdb init` sets the database up the first time.
+
+### Why study it at all
+
+Blue teams learn Metasploit to understand what the alerts in their intrusion-detection systems actually mean. If you have never seen a Meterpreter session open, the log line that reveals one means nothing to you. Running the attack in a lab, against a target you built to be broken, is how defenders learn to recognise the real thing. That is the only reason this page exists.
+
+### Common misconceptions, updated
+
+- **"Metasploit is point-and-click hacking."** The famous one-click exploits target old, unpatched software. Against a patched 2026 system, most of the work is reconnaissance, chaining small issues and social engineering, not firing a single module.
+- **"Antivirus will catch the payload."** Default payloads are well known and usually caught. That is a feature for learning detection, not evidence the technique is dead.
+- **"A shell is the goal."** On a real engagement the goal is a written report that helps the owner fix things. The shell is a step, not the prize.
+
 ### Connections
 
 - [Penetration Testing](penetrationtesting.md), [Exploitation](exploitation.md), [Enumeration](enumeration.md).
