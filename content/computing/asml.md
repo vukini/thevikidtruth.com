@@ -13,13 +13,15 @@ tags:
 categories:
 - computing
 wikislug: asml
-draft: true
-review: update
+draft: false
 topics:
 - lisp
 ---
 
 # asm.l
+
+> **Reading this in 2026.** This page reproduces `src64/lib/asm.l` from the PicoLisp sources (pil64), as I studied them around 2017. It is the generator that turned pil64's generic, PicoLisp-defined assembly language into real machine code for each CPU. PicoLisp is MIT-licensed, © Software Lab, Alexander Burger. Since 2020 the current PicoLisp is **pil21**, which is written in PicoLisp itself and compiled through LLVM, so the line-by-line details here belong to the older 64-bit assembly implementation; the ideas carry over. Current sources are at [software-lab.de](https://software-lab.de/down.html).
+
 
 [Computing](computing.md) | [Picolisp](picolisp.md) | [ASM](pilasm.md) | [pil sources](pilsource.md)
 

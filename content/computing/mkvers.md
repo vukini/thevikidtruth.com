@@ -13,8 +13,7 @@ tags:
 categories:
 - computing
 wikislug: mkvers
-draft: true
-review: update
+draft: false
 topics:
 - lisp
 ---
@@ -36,6 +35,9 @@ topics:
   [Open Data Science](opendatascience.md)
 
 # [mkVers](mkvers.md)
+
+> **Reading this in 2026.** This page reproduces `mkVers` from the PicoLisp sources (PicoLisp build tools), as I studied them around 2017. It is the script that stamps the current version number into the source files. PicoLisp is MIT-licensed, © Software Lab, Alexander Burger. Since 2020 the current PicoLisp is **pil21**, which is written in PicoLisp itself and compiled through LLVM, so the line-by-line details here belong to the older implementations; the ideas carry over. Current sources are at [software-lab.de](https://software-lab.de/down.html).
+
 
 ```
 #!../bin/picolisp ../lib.l
