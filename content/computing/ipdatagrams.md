@@ -13,17 +13,32 @@ tags:
 categories:
 - computing
 wikislug: ipdatagrams
-draft: true
-review: update
+draft: false
 topics:
 - networking-web
 ---
+### The plain idea
+
+An **IP datagram** (or packet) is the basic unit the internet uses to move data. Every datagram carries a *header*, a block of addressing and control information, followed by the actual data. This page is my reading of **RFC 791**, the 1981 document that defined IPv4, the protocol that still carries much of the internet (see [IPv6](ipv6.md) for its successor). The header fields the notes below walk through, version, addresses, fragmentation, TTL, checksum, are exactly what every router reads to decide where your data goes next.
+
+### Why it matters
+
+IP is the thin waist of the internet: every service, web, email, video, voice, ultimately rides inside IP datagrams, and IP runs over every kind of link, Ethernet, Wi-Fi, fibre, satellite. Understand the datagram and you understand how a message finds its way across the world through machines that have never heard of each other. Reading the original RFC, as my note says, is the clearest way to truly get it.
+
+### An everyday analogy: a postcard with a strict format
+
+An IP datagram is like a postcard. The header is everything printed on the address side, who it is from, who it is to, how many times it may be forwarded before being thrown away (the TTL), and a little checksum to catch smudges. The message side is your data. Each post office (router) reads only the address side, decides the next hop, and passes it on. Crucially, like postcards, datagrams are *best-effort*: they can arrive out of order, be duplicated, or be lost, and it is up to higher layers (TCP) to notice and fix that.
+
+### A note on reading these notes
+
+What follows is close to the RFC's own wording and diagrams, with my annotations. For the bigger picture of how this datagram sits inside an Ethernet frame and carries a TCP segment, see [Datagram Encapsulation](datagramencapsulation.md). For the modern successor with vastly more addresses and a simpler header, see [IPv6](ipv6.md). One historical note for 2026: the old "Type of Service" byte described here was later redefined as **DSCP** for modern quality-of-service, one of several small ways the 1981 design was quietly updated while the core stayed remarkably intact.
+
 
 [Networking](networking.md) -> [IPv6](ipv6.md)
 
 # IP Datagrams
 
-This is the original 1981 [RFC791](http://www.faqs.org/rfcs/rfc791.html) doc.
+This is the original 1981 [RFC 791](https://www.rfc-editor.org/rfc/rfc791) doc.
 
 I never really understood how IP worked until I read this document. So I highly recommend it.
 Following are my notes and interpretations:

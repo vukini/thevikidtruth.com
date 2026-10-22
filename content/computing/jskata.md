@@ -13,8 +13,7 @@ tags:
 categories:
 - computing
 wikislug: jskata
-draft: true
-review: update
+draft: false
 topics:
 - javascript
 ---

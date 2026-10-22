@@ -13,8 +13,7 @@ tags:
 categories:
 - computing
 wikislug: js3makingshapes
-draft: true
-review: update
+draft: false
 topics:
 - javascript
 ---
@@ -24,6 +23,34 @@ topics:
 [Prototypal Inheritance](jsprototypalinheritance.md) |
 
 [Three.js](jsthree.md) | [3DE Code Editor](https://www.code3dgames.com/3de/) | [Making Shapes](js3makingshapes.md)
+
+
+### The plain idea
+
+[Three.js](jsthree.md) is a [JavaScript](javascript.md) library that makes 3D graphics in the browser approachable. Raw WebGL (the browser's 3D interface) is powerful but punishingly low-level; Three.js wraps it in friendly objects, a *scene* to hold things, *meshes* (a shape plus a surface) to put in it, *lights* to see them by, and a *camera* to view from, then a *renderer* draws the result onto the page. This page is a hands-on kata: copy the code, run it, and build the muscle memory for the four pieces every 3D program needs.
+
+### The four ingredients
+
+Every Three.js sketch, including the one below, is built from the same cast:
+
+1. **Scene** – the stage that holds everything.
+2. **Camera** – the eye; where you look from and how wide your view is.
+3. **Geometry + Material = Mesh** – the shape (a sphere, a box) wrapped in a surface (its colour and how it responds to light).
+4. **Renderer** – the artist that draws the scene from the camera's viewpoint onto a canvas.
+
+### An everyday analogy
+
+It is exactly like setting up a photograph of toy models. You arrange objects on a table (the scene), you make each model by taking a shape and painting it (geometry + material = mesh), you switch on a lamp (light), and you decide where to stand and how much to frame (camera). Press the shutter and you get a picture (render).
+
+### A 2026 note on the code
+
+The snippets below still teach the right ideas, but Three.js has moved on since they were written, so two things to know when you run them today:
+
+- Load the library as a **module** from a current source, e.g. `import * as THREE from 'three';` via an import-map or a CDN like `https://unpkg.com/three`, rather than a local `/three.js` file.
+- **`MeshBasicMaterial` ignores light** (it always shows its flat colour), so the `AmbientLight` here has no visible effect on it. To actually see lighting, use `MeshStandardMaterial` or `MeshPhongMaterial`. The modern geometry classes (`SphereGeometry`, `BoxGeometry`) still work; the old generic `THREE.Geometry` was removed in favour of `BufferGeometry`, which these now use under the hood.
+
+With those tweaks the kata is as useful as ever: repetition until the four ingredients come without thinking.
+
 
 # Three.js: making Shapes
 

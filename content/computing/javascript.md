@@ -13,8 +13,7 @@ tags:
 categories:
 - computing
 wikislug: javascript
-draft: true
-review: update
+draft: false
 topics:
 - javascript
 ---
@@ -25,6 +24,34 @@ topics:
 [Three.js](jsthree.md) | [3DE Code Editor](https://www.code3dgames.com/3de/) |
 
 # Javascript
+
+### The plain idea
+
+JavaScript is the programming language of the web. It began in 1995 as a small scripting language to make web pages interactive, and it has grown into one of the most widely used languages in the world: it runs in every browser, on servers (via [Node.js](nodejs.md)), in desktop and mobile apps, and even on tiny devices. The language is formally called **ECMAScript**, and since the big **ES6 (2015)** update it has gained a modern yearly release (we are well past ES2015 now, with ES2024 shipped), adding features like `let`/`const`, arrow functions, classes, modules, promises and `async`/`await`.
+
+### Why it matters
+
+If you want to build anything people use in a browser, you will meet JavaScript; there is effectively no alternative that runs natively everywhere the web does (WebAssembly complements it, it does not replace it). Learning it well, especially its genuinely unusual parts, closures, prototypes, the event loop, "the weird parts" my links below explore, unlocks front-end, back-end and full-stack development with a single language.
+
+### A worked example: the variable keywords in my notes
+
+My notes above contrast `var`, `let` and `const`. The modern rule of thumb is simple: **use `const` by default, `let` when you must reassign, and avoid `var`.** Here is why `var` surprises people:
+
+```js
+function demo() {
+  if (true) { var x = 1; let y = 2; }
+  console.log(x);   // 1  -- var leaked out of the block
+  console.log(y);   // ReferenceError -- let stayed in the block
+}
+```
+
+`var` is function-scoped and "hoisted" (usable before its line, which breeds bugs); `let` and `const` are block-scoped and must be declared before use. That single change, blocks that actually contain their variables, removed a whole category of classic JavaScript mistakes.
+
+### An everyday analogy
+
+Think of a browser page as a stage. HTML is the set, CSS is the lighting and costumes, and JavaScript is the script the actors follow, deciding what happens when the audience (the user) claps, clicks or types. Without it the stage is a static tableau; with it the play comes alive.
+
+
 
 [Node JS](nodejs.md)
 `"use strict";`
