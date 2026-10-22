@@ -13,8 +13,7 @@ tags:
 categories:
 - misc
 wikislug: thevalueweb
-draft: true
-review: retire
+draft: false
 topics:
 - society
 ---
@@ -25,3 +24,7 @@ topics:
 
 ![vw](/assets/vw.jpg)
 {.center}
+
+### About the book
+
+*The Value Web* by Chris Skinner is a book about financial technology (fintech). Skinner examines how mobile technology, digital currencies and startups are reshaping banking and payments into a connected global network, "the value web", through which money and value move as easily as information does on the internet. It is aimed at readers interested in how finance and technology are converging.

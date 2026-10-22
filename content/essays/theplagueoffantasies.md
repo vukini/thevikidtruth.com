@@ -13,8 +13,7 @@ tags:
 categories:
 - misc
 wikislug: theplagueoffantasies
-draft: true
-review: retire
+draft: false
 topics:
 - stories
 ---
@@ -23,3 +22,7 @@ topics:
 {.right}
 
 # The Plague of Fantasies
+
+### About the book
+
+*The Plague of Fantasies* by Slavoj Žižek (1997) is a work of cultural theory applying Lacanian psychoanalysis and ideology critique to film, media and everyday life. Žižek examines how fantasy structures our desire and sustains ideology, ranging characteristically across high theory and popular culture. Like much of Žižek's work it is dense, digressive and provocative, aimed at readers with some grounding in critical theory.

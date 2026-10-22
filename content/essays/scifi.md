@@ -13,8 +13,7 @@ tags:
 categories:
 - misc
 wikislug: scifi
-draft: true
-review: retire
+draft: false
 topics:
 - stories
 ---

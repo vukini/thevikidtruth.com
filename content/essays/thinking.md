@@ -13,8 +13,7 @@ tags:
 categories:
 - misc
 wikislug: thinking
-draft: true
-review: retire
+draft: false
 topics:
 - mind
 ---
@@ -25,3 +24,7 @@ topics:
 # Think-ing
 
 ### By John Brockman
+
+### About the book
+
+*Thinking: The New Science of Decision-Making, Problem-Solving, and Prediction* edited by John Brockman (2013) is a collection of essays and interviews from leading psychologists and cognitive scientists, published through Brockman's Edge.org. Contributors including Daniel Kahneman and others discuss how the mind reasons, where it goes wrong (biases and heuristics), and what recent research reveals about judgment and decision-making. It is a readable survey of the field for a general audience.

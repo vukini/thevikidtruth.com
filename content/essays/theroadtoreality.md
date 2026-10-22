@@ -13,8 +13,7 @@ tags:
 categories:
 - misc
 wikislug: theroadtoreality
-draft: true
-review: retire
+draft: false
 topics:
 - science
 ---
@@ -23,3 +22,7 @@ topics:
 
 # The Road to Reality
  by [Roger Penrose](rogerpenrose.md)
+
+### About the book
+
+*The Road to Reality: A Complete Guide to the Laws of the Universe* by [Roger Penrose](rogerpenrose.md) (2004) is a monumental attempt to present all of fundamental physics, and the mathematics it requires, in a single volume. Starting from numbers and geometry, Penrose builds up through calculus, complex analysis, and the mathematics of modern physics to quantum theory, relativity and cosmology, not shying away from real equations. Famously demanding, it is less a casual read than a serious, self-contained education for the determined reader.

@@ -13,11 +13,14 @@ tags:
 categories:
 - misc
 wikislug: whichnumbersarereal
-draft: true
-review: retire
+draft: false
 topics:
 - math-tech
 ---
 
 ![real](/assets/real.jpg)
 {.center}
+
+### About the book
+
+*Which Numbers Are Real?* by Michael Henle (Mathematical Association of America, 2012) explores alternatives and extensions to the familiar real numbers. Henle surveys number systems beyond the reals, the complex numbers, quaternions, the hyperreals of non-standard analysis, the surreal numbers, and more, examining what it means for a number system to be useful or "real". It is aimed at undergraduate mathematics students and enthusiasts.

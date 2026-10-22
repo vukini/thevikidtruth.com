@@ -13,8 +13,7 @@ tags:
 categories:
 - misc
 wikislug: yourbrainonparasites
-draft: true
-review: retire
+draft: false
 topics:
 - science
 ---
@@ -25,3 +24,7 @@ topics:
 # This Is Your Brain On Parasites
 
 ### by Kathleen McAuliffe
+
+### About the book
+
+*This Is Your Brain on Parasites* by Kathleen McAuliffe (2016) is a popular-science book on how parasites and microbes can manipulate the behaviour of their hosts, including, provocatively, humans. McAuliffe surveys research on organisms like *Toxoplasma gondii* and asks how much of our behaviour, mood and even culture might be influenced by the tiny passengers we carry. A lively, well-sourced tour of an unsettling corner of biology.

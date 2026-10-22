@@ -13,8 +13,7 @@ tags:
 categories:
 - misc
 wikislug: kidszone
-draft: true
-review: retire
+draft: false
 topics:
 - notebook
 ---

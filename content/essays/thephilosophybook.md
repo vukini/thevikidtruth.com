@@ -13,8 +13,7 @@ tags:
 categories:
 - misc
 wikislug: thephilosophybook
-draft: true
-review: retire
+draft: false
 topics:
 - notebook
 ---
@@ -23,3 +22,7 @@ topics:
 {.right}
 
 # The Philosophy Book
+
+### About the book
+
+*The Philosophy Book* (DK, "Big Ideas Simply Explained" series) is an illustrated reference that surveys the history of Western and Eastern philosophy for general readers. It presents the key thinkers and ideas, from the ancient Greeks through to modern philosophy, in short, clearly laid-out entries with diagrams and quotations. It is designed as an accessible overview and starting point rather than a deep scholarly treatment.
