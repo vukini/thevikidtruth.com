@@ -13,8 +13,7 @@ tags:
 categories:
 - computing
 wikislug: linuxtoolsandsoftware
-draft: true
-review: update
+draft: false
 topics:
 - linux
 ---
@@ -31,6 +30,25 @@ topics:
   [Computer Security](computersecurity.md) |
   [Python](python.md) | [SimpleLinuxConfig](simplelinuxconfig.md) |
   [Tools and Software](linuxtoolsandsoftware.md)
+
+
+### The plain idea
+
+This is a running list of [Linux](linux.md) software I have found useful, sorted roughly by what each is for: admin tools, animation, speech, downloading, games and odds and ends. It is a personal toolbox, not a definitive guide, the kind of list I wish I had found when I switched to Linux.
+
+### Why Linux software is different
+
+On Linux you mostly install software from a **package manager** (`apt`, `pacman`, `dnf`) or a universal format (**Flatpak**, **Snap**, **AppImage**) rather than downloading installers from random websites. That means most of the tools below are a one-line install away and are kept updated for you, a big part of what makes Linux pleasant and safe to run.
+
+### A 2026 note on this list
+
+Software comes and goes, and a few entries here have aged out, so treat the list as a starting point rather than gospel:
+
+- **Nylas Mail** was discontinued years ago; good modern Linux mail clients include Thunderbird, Geary and Evolution.
+- **Keybase** still exists but has stagnated since its 2020 acquisition; for encrypted chat most people now use Signal or Element/Matrix.
+- The creative and admin staples below, **GIMP, Blender, Synfig, htop, Redshift**, are all alive and excellent; Blender in particular has become world-class.
+- For a terminal file manager and system monitor, newer favourites like `btop`, `bat` and `ripgrep` are worth adding to any toolbox.
+
 
 # Linux Tools and Sofware
 
