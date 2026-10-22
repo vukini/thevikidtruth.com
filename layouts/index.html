@@ -3,8 +3,8 @@
 <section class="hero">
   <div class="hero-text">
   <p class="kicker">{{ with .Params.tagline }}{{ . }} · {{ end }}A personal archive · est. on PicoLisp</p>
-  <h1 class="lens" tabindex="0" aria-label="Look closer. Truth below." aria-describedby="lens-help"><span class="under" aria-hidden="true">Truth below.</span><span class="over" aria-hidden="true">Look closer.</span></h1>
-  <p class="lede">{{ len $writing }} essays and a growing knowledge base on computing, mathematics, science, languages and music. <span id="lens-help">Move the lens over the headline (or focus it and use the arrow keys).</span></p>
+  <h1 class="headline">Look closer.<em>Truth below.</em></h1>
+  <p class="lede">{{ len $writing }} essays and a growing knowledge base on computing, mathematics, science, languages and music.</p>
   </div>
   <figure class="hero-char">
     <picture><source srcset="{{ "img/vikid-hero.webp" | relURL }}" type="image/webp"><img src="{{ "img/vikid-hero.png" | relURL }}" width="578" height="657" alt="The VikiD Truth: a grinning superhero caricature with black hair, thick black glasses and a yellow hooded cape" loading="eager" fetchpriority="high"></picture>
@@ -33,13 +33,4 @@
   {{ end }}{{ end }}
   </div>
 </section>
-<script>
-(()=>{const l=document.querySelector(".lens");if(!l)return;
-const set=(x,y)=>{l.style.setProperty("--x",x+"px");l.style.setProperty("--y",y+"px")};
-l.addEventListener("pointermove",e=>{const r=l.getBoundingClientRect();set(e.clientX-r.left,e.clientY-r.top)});
-let kx=null,ky=null;l.addEventListener("keydown",e=>{const r=l.getBoundingClientRect(),s=24;
-if(kx===null){kx=r.width*.6;ky=r.height*.5}
-const d={ArrowLeft:[-s,0],ArrowRight:[s,0],ArrowUp:[0,-s],ArrowDown:[0,s]}[e.key];if(!d)return;
-e.preventDefault();kx=Math.max(0,Math.min(r.width,kx+d[0]));ky=Math.max(0,Math.min(r.height,ky+d[1]));set(kx,ky)})})();
-</script>
 {{ end }}
