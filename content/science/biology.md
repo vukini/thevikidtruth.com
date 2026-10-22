@@ -67,6 +67,62 @@ a living software, its DNA.
 
 The **Genome** is like the **ROM (Read Only Memory)**, the **Epigenome** is like the **Flash Drive (i.e. State)**.
 
+### The plain idea of genetics
+
+Every living cell carries instructions written in **DNA**, a long molecule built from four chemical letters: A, C, G and T. A **gene** is a stretch of DNA that the cell reads to make something, usually a protein. The flow of information is often summarised as the "central dogma" of molecular biology:
+
+```mermaid
+graph LR
+  DNA -- "transcription" --> RNA["messenger RNA"]
+  RNA -- "translation" --> P[Protein]
+```
+
+The cell copies a gene into messenger RNA, and its ribosomes read the RNA three letters at a time (a **codon**), each codon calling for one of 20 amino acids. Chain the amino acids together and the chain folds into a protein: an enzyme, a hormone, a structural fibre, a pump. Proteins do almost all the work of life.
+
+The human genome has about 3.1 billion letters, and the first truly complete, gap-free sequence was only published in 2022 by the Telomere-to-Telomere consortium. Surprisingly, only around 20,000 genes code for proteins, about 1–2% of the DNA. Much of the rest is regulation: switches deciding which genes are on in which cell at which time. That is why a liver cell and a neuron, with identical DNA, are so different.
+
+### Why it matters
+
+Biology is the science of the most complex things we know of, and in the 21st century it has become, as I found out at Genspace, an engineering discipline:
+
+- **Reading DNA** got absurdly cheap. Sequencing the first human genome cost around \$3 billion and took 13 years; today a whole genome can be read for a few hundred dollars in about a day.
+- **Writing and editing DNA**: CRISPR-Cas9, adapted as an editing tool by Jennifer Doudna and Emmanuelle Charpentier (Nobel Prize in Chemistry 2020), lets scientists cut DNA at a chosen spot. In December 2023 the first CRISPR-based medicine, Casgevy, was approved in the US for sickle-cell disease, and newer techniques such as base editing and prime editing change single letters without cutting both strands.
+- **Predicting proteins**: AlphaFold (Nobel Prize in Chemistry 2024) predicts a protein's 3D shape from its sequence, a problem that had resisted 50 years of work.
+- **mRNA vaccines**, which deliver a gene's RNA so your own cells make a harmless piece of a virus, earned the 2023 Nobel Prize in Medicine.
+
+### An everyday analogy: the recipe book and the kitchen
+
+I like the operating-system analogy above. Another useful one: the genome is a giant recipe book, every cell has a full copy, and the epigenome is the set of bookmarks and sticky notes saying which recipes this particular kitchen cooks. A muscle cell's bookmarks open the muscle recipes; a skin cell's open the skin recipes. Change the sticky notes and you change the cell, without touching a word of the book. Epigenetic marks such as DNA methylation also drift with age in measurable ways, which is how "epigenetic clocks" like the Horvath clock estimate biological age.
+
+### A worked example: reading a gene
+
+Take the DNA coding sequence `ATG GGA TTC TAA`.
+
+1. Transcribe to RNA (T becomes U): `AUG GGA UUC UAA`.
+2. Translate with the genetic code: `AUG` = methionine (and "start"), `GGA` = glycine, `UUC` = phenylalanine, `UAA` = "stop".
+3. Result: a tiny peptide, Met–Gly–Phe.
+
+Now change one letter, `TTC` to `TGC`: the RNA codon becomes `UGC`, cysteine instead of phenylalanine. One letter, one different amino acid. In sickle-cell disease, a single-letter change in the beta-globin gene swaps glutamic acid for valine, and that alone makes red blood cells deform into sickles. Small typos, big consequences, which is exactly why precise editing is so powerful.
+
+### Evolution: the idea that makes sense of it all
+
+The geneticist Theodosius Dobzhansky wrote in 1973 that "nothing in biology makes sense except in the light of evolution." Copying DNA is extremely accurate but not perfect; variations arise; those that help an organism survive and reproduce in its environment become more common. Over billions of years that simple loop produced every species on Earth, all sharing the same genetic code, which is the strongest evidence that all life has a common ancestor.
+
+### Common misconceptions
+
+- **"There's a gene for X."** Most traits, from height to disease risk, are influenced by hundreds or thousands of genes plus environment.
+- **"Junk DNA is useless."** Some is genuinely non-functional, but much non-coding DNA regulates genes.
+- **"Genes are destiny."** Gene expression responds to diet, stress, exercise and age.
+- **"Organisms evolve because they need to."** Evolution has no foresight; variation is random, selection is not. See [Teleology](teleology.md).
+
+### How it connects
+
+- [Anatomy](anatomy.md) for the body's structure.
+- [Design in Nature](designinnature.md) and [Teleology](teleology.md) for purpose without a designer.
+- [Science](science.md) for the method.
+
+The truth revealed: life runs on a four-letter code that we can now read, write and edit, and we are still learning what most of it says.
+
 #### Some links:
 
 - [A Crack in Creation by Jennifer Doudna & Samuel Sternberg](acrackincreation.md) is a really wonderful
