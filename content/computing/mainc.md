@@ -13,8 +13,7 @@ tags:
 categories:
 - computing
 wikislug: mainc
-draft: true
-review: update
+draft: false
 topics:
 - lisp
 ---
@@ -36,6 +35,9 @@ topics:
   [Open Data Science](opendatascience.md)
 
 # [main.c](mainc.md)
+
+> **Reading this in 2026.** This page reproduces `main.c` from the PicoLisp sources (pil32), as I studied them around 2017. It contains the interpreter's entry point, start-up, the error handler and many core helpers. PicoLisp is MIT-licensed, © Software Lab, Alexander Burger. Since 2020 the current PicoLisp is **pil21**, which is written in PicoLisp itself and compiled through LLVM, so the line-by-line details here belong to the older 32-bit C implementation; the ideas carry over. Current sources are at [software-lab.de](https://software-lab.de/down.html).
+
 
 ```
 /* 09jan17abu

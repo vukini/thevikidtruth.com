@@ -13,8 +13,7 @@ tags:
 categories:
 - computing
 wikislug: httpl
-draft: true
-review: update
+draft: false
 topics:
 - lisp
 ---
@@ -37,6 +36,9 @@ topics:
   [Open Data Science](opendatascience.md) |
 
 # [http.l](httpl.md)
+
+> **Reading this in 2026.** This page reproduces `lib/http.l` from the PicoLisp sources (PicoLisp library), as I studied them around 2017. It is the HTTP server library behind every PicoLisp web application, handling requests, URL dispatch and responses. It still exists in pil21 in a similar form. PicoLisp is MIT-licensed, © Software Lab, Alexander Burger. Since 2020 the current PicoLisp is **pil21**, which is written in PicoLisp itself and compiled through LLVM, so the line-by-line details here belong to the older implementations; the ideas carry over. Current sources are at [software-lab.de](https://software-lab.de/down.html).
+
 
 ```
 # 24nov16abu
