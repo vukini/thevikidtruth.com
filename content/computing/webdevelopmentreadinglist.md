@@ -35,6 +35,9 @@ draft: false
 
 # Web Development Reading List
 
+The web moves fast; good primers don't. This list is a short shelf of pages that still repay reading – HTML structure, Open Graph tags, favicons done properly. I'll add to it when something earns a permanent place rather than a week of hype.
+
+
 - [https://www.sitepoint.com/a-basic-html5-template/](https://www.sitepoint.com/a-basic-html5-template/)
 - [https://ogp.me](https://ogp.me)
 - [how-to-favico](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs)

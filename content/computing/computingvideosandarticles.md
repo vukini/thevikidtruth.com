@@ -30,6 +30,9 @@ draft: false
 
 # Computing Videos and Articles
 
+A handful of talks and articles that changed how I think about software – not an algorithmically sorted ocean. Prefer one slow viewing with a notebook open over twenty tabs of background noise.
+
+
 - [Building the Software 2 0 Stack (Andrej Karpathy)](https://www.youtube.com/watch?v=y57wwucbXR8)
 - [Databricks](https://databricks.com/spark/getting-started-with-apache-spark)
 - [Install Brackets.io](https://itsfoss.com/install-brackets-ubuntu/)

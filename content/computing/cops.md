@@ -34,6 +34,9 @@ draft: false
 
 # Operators
 
+Operator tables for quick reference – arithmetic, assignment, bitwise, logical and relational. Pictures beat paragraphs when you just need to remember precedence. For deeper C notes see [C Programming](cprogramming.md) and [Literals](literals.md).
+
+
 ![arithmetic](/assets/arithmetic.png)
 {.center}
 
