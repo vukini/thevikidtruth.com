@@ -6,7 +6,6 @@ original_url: "https://thevikidtruth.substack.com/p/the-vikid-fast-day-5-of-20"
 tags: []
 paywalled: false
 ---
-[Subscribe now](https://thevikidtruth.substack.com/subscribe?)
 
 It’s day 5 and I feel like I’m cruising . Last night I went for a short cycle maybe 8 km and this morning I discovered a new way of walking. It’s called **The Vikid Freestyle.** It really is surprising that *I feel like going out and working out.* I am putting no pressure on myself to do this and I’m not over exerting myself either. My energy is better while fasting, go figure 🧐.
 
@@ -28,8 +27,6 @@ Now you know… You can do **The Vikid Freestyle** too!
 
 And remember to share the site, it really may help a friend of yours. You know a plump one, one with addictions to alcohol and drugs or just with some fears. We all have a few friends like these 😉 . It may just get them thinking in the right direction and taking some positive action…
 
-[Share](https://thevikidtruth.substack.com/p/the-vikid-fast-day-5-of-20?utm_source=substack&utm_medium=email&utm_content=share&action=share)
-
 In confession I’ve been having some coconut water. It’s a crutch but a crutch I am happy with.
 
 And lastly, I decided to quit reading books and watching YouTube too. So no reading, no watching, no websites, no listening, even to music and meditations. The rest of the fast will be a multidimensional fast.  
@@ -44,4 +41,3 @@ That’s all Folks,
 
 P.s. Please subscribe! The Substack system is simple and you get only an email with every post, which is the post itself. You then don’t even need to come this site. Just read the article in your email. The sign on process is like less the 30 seconds. Plus it gives me motivation!
 
-[Subscribe now](https://thevikidtruth.substack.com/subscribe?)

@@ -6,21 +6,14 @@ original_url: "https://thevikidtruth.substack.com/p/a-loss-for-words"
 tags: []
 paywalled: false
 ---
-[](https://substackcdn.com/image/fetch/$s_!vlrj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd72f50f0-68ad-47e8-b794-9a7a629c6bbc_2600x1733.jpeg)
 
 ![](/assets/a-loss-for-words/b58de7cbd905.jpeg)
-
-![](data:image/svg+xml;base64,PHN2ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiB2aWV3Ym94PSIwIDAgMjAgMjAiIGZpbGw9Im5vbmUiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2U9InZhcigtLWNvbG9yLWZnLXByaW1hcnkpIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgY2xhc3M9Imljb24tbm9CNzlMIj48Zz48cGF0aCBkPSJNMi41MzAwMSA3LjgxNTk1QzMuNDkxNzkgNC43MzkxMSA2LjQzMjgxIDIuNSA5LjkxMTczIDIuNUMxMy4xNjg0IDIuNSAxNS45NTM3IDQuNDYyMTQgMTcuMDg1MiA3LjIzNjg0TDE3LjYxNzkgOC42NzY0N00xNy42MTc5IDguNjc2NDdMMTguNTAwMiA0LjI2NDcxTTE3LjYxNzkgOC42NzY0N0wxMy42NDczIDYuOTExNzZNMTcuNDk5NSAxMi4xODQxQzE2LjUzNzggMTUuMjYwOSAxMy41OTY3IDE3LjUgMTAuMTE3OCAxNy41QzYuODYxMTggMTcuNSA0LjA3NTg5IDE1LjUzNzkgMi45NDQzMiAxMi43NjMyTDIuNDExNjUgMTEuMzIzNU0yLjQxMTY1IDExLjMyMzVMMS41MjkzIDE1LjczNTNNMi40MTE2NSAxMS4zMjM1TDYuMzgyMjQgMTMuMDg4MiIgLz48L2c+PC9zdmc+)
-
-![](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld2JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLW1heGltaXplMiBsdWNpZGUtbWF4aW1pemUtMiBpY29uLW5vQjc5TCI+PHBvbHlsaW5lIHBvaW50cz0iMTUgMyAyMSAzIDIxIDkiPjwvcG9seWxpbmU+PHBvbHlsaW5lIHBvaW50cz0iOSAyMSAzIDIxIDMgMTUiPjwvcG9seWxpbmU+PGxpbmUgeDE9IjIxIiB4Mj0iMTQiIHkxPSIzIiB5Mj0iMTAiPjwvbGluZT48bGluZSB4MT0iMyIgeDI9IjEwIiB5MT0iMjEiIHkyPSIxNCI+PC9saW5lPjwvc3ZnPg==)
 
 Vikid was staring into a white page. Fear wrapped around his being, a lack of expression, a loss for words. *Writers block.*
 
 It was like a nebula of depression had engulfed him. *Nothing to say,* a grey amorphous cloud… yet inside, he was a shaken up can of coke, bubbling with pent up desperation, a broken ring on the pull-tab, unable to open.
 
 He sat beside the bath tub, guitar in hand and an old tune he forgot found its way through muscle memory onto the woven spiral of half oxidized strings, *but the words to the song were missing*. It was something about a butterfly opening up, the flower of the heart unfolding. An old Icelandic friend had taught it to him once in what seemed a different era. They had played guitar late into the night when words were freer flowing.
-
-[Subscribe now](https://thevikidtruth.substack.com/subscribe?)
 
 He hummed the tune when his little princess came in, iPad in hand.
 
@@ -100,4 +93,3 @@ And that’s,
 
 Thanks for reading The Vikid Truth. No one will find this unless you share it!
 
-[Share](https://thevikidtruth.substack.com/p/a-loss-for-words?utm_source=substack&utm_medium=email&utm_content=share&action=share)

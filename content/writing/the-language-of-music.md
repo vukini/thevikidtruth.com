@@ -6,7 +6,6 @@ original_url: "https://thevikidtruth.substack.com/p/the-language-of-music"
 tags: []
 paywalled: false
 ---
-[Subscribe now](https://thevikidtruth.substack.com/subscribe?)
 
 # Guthrie the Great
 
@@ -205,8 +204,6 @@ I will be writing much about this over the next few weeks, as experience befrien
 
 So please look out for future articles or simply…
 
-[Subscribe now](https://thevikidtruth.substack.com/subscribe?)
-
 that way you won’t miss a thing.
 
 #### What to do
@@ -247,8 +244,6 @@ And here it is in Solfege:
 But how did I know what was Re, Mi, FA or so on?
 
 That’s a secret for the another article, so subscribe!
-
-[Subscribe now](https://thevikidtruth.substack.com/subscribe?)
 
 You do this as much as you can, with as much music as you can.
 

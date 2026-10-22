@@ -14,8 +14,6 @@ We were led by those who were shrewd and ruthless in the short term but lacked a
 
 There were a few interesting events that had happened a week prior.
 
-[Subscribe now](https://thevikidtruth.substack.com/subscribe?)
-
 One, he had met with an Italian mafioso. Who worked in oil and gas. The family were worth billions, with operations in several continents. What was interesting was the fact that this man had spent the last 5 years living in Moscow dealing with the top brass there. The very top. He had also conducted business all over the central asian countries. So as chance would have it, Vikid met the guy over a beer and he was clear. *Europe was trying to provoke a war because it’s leadership had destroyed their economies and had no where else to go.* No excuses left.
 
 > “When all else fails, go to war”

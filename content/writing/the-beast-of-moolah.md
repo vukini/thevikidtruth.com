@@ -8,17 +8,9 @@ paywalled: false
 ---
 The day had past and Vikid was lying down on his *Vehicle of Dreams*. It had been a lazy day, reading books, watching interviews and commentary. He had been preparing for the first camping of the season. The summer had past and as the days grew cooler, it opened the desert with her undulating dunes of soft sand like a vast dry ocean that could be walked upon.
 
-[Subscribe now](https://thevikidtruth.substack.com/subscribe?)
-
 As he started to relax, the earth started rumbling, groaning and pitching. The most enormous creature came into view. It was the most hideous thing he had ever seen. Razor sharp teeth, where it’s head began and ended he could not see. It was the texture of wood and stone, half tree, half worm, with tentacles for horns and dozens of limbs.
 
-[](https://substackcdn.com/image/fetch/$s_!WjeP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F86c52eb6-970f-4e95-9c26-94cdcf817f98_1200x2000.jpeg)
-
 ![](/assets/the-beast-of-moolah/a767144a47fd.jpeg)
-
-![](data:image/svg+xml;base64,PHN2ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiB2aWV3Ym94PSIwIDAgMjAgMjAiIGZpbGw9Im5vbmUiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2U9InZhcigtLWNvbG9yLWZnLXByaW1hcnkpIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgY2xhc3M9Imljb24tbm9CNzlMIj48Zz48cGF0aCBkPSJNMi41MzAwMSA3LjgxNTk1QzMuNDkxNzkgNC43MzkxMSA2LjQzMjgxIDIuNSA5LjkxMTczIDIuNUMxMy4xNjg0IDIuNSAxNS45NTM3IDQuNDYyMTQgMTcuMDg1MiA3LjIzNjg0TDE3LjYxNzkgOC42NzY0N00xNy42MTc5IDguNjc2NDdMMTguNTAwMiA0LjI2NDcxTTE3LjYxNzkgOC42NzY0N0wxMy42NDczIDYuOTExNzZNMTcuNDk5NSAxMi4xODQxQzE2LjUzNzggMTUuMjYwOSAxMy41OTY3IDE3LjUgMTAuMTE3OCAxNy41QzYuODYxMTggMTcuNSA0LjA3NTg5IDE1LjUzNzkgMi45NDQzMiAxMi43NjMyTDIuNDExNjUgMTEuMzIzNU0yLjQxMTY1IDExLjMyMzVMMS41MjkzIDE1LjczNTNNMi40MTE2NSAxMS4zMjM1TDYuMzgyMjQgMTMuMDg4MiIgLz48L2c+PC9zdmc+)
-
-![](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld2JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLW1heGltaXplMiBsdWNpZGUtbWF4aW1pemUtMiBpY29uLW5vQjc5TCI+PHBvbHlsaW5lIHBvaW50cz0iMTUgMyAyMSAzIDIxIDkiPjwvcG9seWxpbmU+PHBvbHlsaW5lIHBvaW50cz0iOSAyMSAzIDIxIDMgMTUiPjwvcG9seWxpbmU+PGxpbmUgeDE9IjIxIiB4Mj0iMTQiIHkxPSIzIiB5Mj0iMTAiPjwvbGluZT48bGluZSB4MT0iMyIgeDI9IjEwIiB5MT0iMjEiIHkyPSIxNCI+PC9saW5lPjwvc3ZnPg==)
 
 It towered over Vikid as it blocked out the moon and with a voice so deep that it rattled his whole body, it said,
 
@@ -126,13 +118,7 @@ I think you know who said that!
 
 “It took me a while to understand, and I don’t think I really got it until I came across an *American Sage* by the name of *Singer*. His song opened up my heart.”
 
-[](https://substackcdn.com/image/fetch/$s_!WX-A!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F025336ba-768f-451a-8150-6eb49a0a3bc2_480x640.jpeg)
-
 ![](/assets/the-beast-of-moolah/ba46224161bc.jpeg)
-
-![](data:image/svg+xml;base64,PHN2ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiB2aWV3Ym94PSIwIDAgMjAgMjAiIGZpbGw9Im5vbmUiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2U9InZhcigtLWNvbG9yLWZnLXByaW1hcnkpIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgY2xhc3M9Imljb24tbm9CNzlMIj48Zz48cGF0aCBkPSJNMi41MzAwMSA3LjgxNTk1QzMuNDkxNzkgNC43MzkxMSA2LjQzMjgxIDIuNSA5LjkxMTczIDIuNUMxMy4xNjg0IDIuNSAxNS45NTM3IDQuNDYyMTQgMTcuMDg1MiA3LjIzNjg0TDE3LjYxNzkgOC42NzY0N00xNy42MTc5IDguNjc2NDdMMTguNTAwMiA0LjI2NDcxTTE3LjYxNzkgOC42NzY0N0wxMy42NDczIDYuOTExNzZNMTcuNDk5NSAxMi4xODQxQzE2LjUzNzggMTUuMjYwOSAxMy41OTY3IDE3LjUgMTAuMTE3OCAxNy41QzYuODYxMTggMTcuNSA0LjA3NTg5IDE1LjUzNzkgMi45NDQzMiAxMi43NjMyTDIuNDExNjUgMTEuMzIzNU0yLjQxMTY1IDExLjMyMzVMMS41MjkzIDE1LjczNTNNMi40MTE2NSAxMS4zMjM1TDYuMzgyMjQgMTMuMDg4MiIgLz48L2c+PC9zdmc+)
-
-![](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld2JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLW1heGltaXplMiBsdWNpZGUtbWF4aW1pemUtMiBpY29uLW5vQjc5TCI+PHBvbHlsaW5lIHBvaW50cz0iMTUgMyAyMSAzIDIxIDkiPjwvcG9seWxpbmU+PHBvbHlsaW5lIHBvaW50cz0iOSAyMSAzIDIxIDMgMTUiPjwvcG9seWxpbmU+PGxpbmUgeDE9IjIxIiB4Mj0iMTQiIHkxPSIzIiB5Mj0iMTAiPjwvbGluZT48bGluZSB4MT0iMyIgeDI9IjEwIiB5MT0iMjEiIHkyPSIxNCI+PC9saW5lPjwvc3ZnPg==)
 
 “We all look for happiness in external things but happiness is a choice that comes from within.”
 

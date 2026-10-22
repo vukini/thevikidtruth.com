@@ -112,6 +112,4 @@ and that’s,
 
 ###### And as always, I would be humbled by your subscription.
 
-[Subscribe now](https://thevikidtruth.substack.com/subscribe?)
-
 **You never know when this superhero will slay ancient monsters. Come and join me!**

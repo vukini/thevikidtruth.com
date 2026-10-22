@@ -88,4 +88,3 @@ And that is,
 
 ### The Vikid Truth
 
-[Subscribe now](https://thevikidtruth.substack.com/subscribe?)

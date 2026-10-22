@@ -6,7 +6,6 @@ original_url: "https://thevikidtruth.substack.com/p/the-vikid-fast-day-9-of-20"
 tags: []
 paywalled: false
 ---
-[Subscribe now](https://thevikidtruth.substack.com/subscribe?)
 
 ------------------------------------------------------------------------
 
@@ -24,17 +23,11 @@ Hmm… Jim was a spiritual teacher and I had watched an [interview of him (watch
 
 ![](/assets/the-vikid-fast-day-9-of-20/bf78c586ec0d.jpeg)
 
-![](data:image/svg+xml;base64,PHN2ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiB2aWV3Ym94PSIwIDAgMjAgMjAiIGZpbGw9Im5vbmUiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2U9InZhcigtLWNvbG9yLWZnLXByaW1hcnkpIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgY2xhc3M9Imljb24tbm9CNzlMIj48Zz48cGF0aCBkPSJNMi41MzAwMSA3LjgxNTk1QzMuNDkxNzkgNC43MzkxMSA2LjQzMjgxIDIuNSA5LjkxMTczIDIuNUMxMy4xNjg0IDIuNSAxNS45NTM3IDQuNDYyMTQgMTcuMDg1MiA3LjIzNjg0TDE3LjYxNzkgOC42NzY0N00xNy42MTc5IDguNjc2NDdMMTguNTAwMiA0LjI2NDcxTTE3LjYxNzkgOC42NzY0N0wxMy42NDczIDYuOTExNzZNMTcuNDk5NSAxMi4xODQxQzE2LjUzNzggMTUuMjYwOSAxMy41OTY3IDE3LjUgMTAuMTE3OCAxNy41QzYuODYxMTggMTcuNSA0LjA3NTg5IDE1LjUzNzkgMi45NDQzMiAxMi43NjMyTDIuNDExNjUgMTEuMzIzNU0yLjQxMTY1IDExLjMyMzVMMS41MjkzIDE1LjczNTNNMi40MTE2NSAxMS4zMjM1TDYuMzgyMjQgMTMuMDg4MiIgLz48L2c+PC9zdmc+)
-
-![](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld2JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLW1heGltaXplMiBsdWNpZGUtbWF4aW1pemUtMiBpY29uLW5vQjc5TCI+PHBvbHlsaW5lIHBvaW50cz0iMTUgMyAyMSAzIDIxIDkiPjwvcG9seWxpbmU+PHBvbHlsaW5lIHBvaW50cz0iOSAyMSAzIDIxIDMgMTUiPjwvcG9seWxpbmU+PGxpbmUgeDE9IjIxIiB4Mj0iMTQiIHkxPSIzIiB5Mj0iMTAiPjwvbGluZT48bGluZSB4MT0iMyIgeDI9IjEwIiB5MT0iMjEiIHkyPSIxNCI+PC9saW5lPjwvc3ZnPg==)
-
 Well nothing out of the ordinary here. I made a donation, set a reminder and forgot about it. A few days later, no book had arrived in my email, so I wrote to him and asked how everything was and if he had received my donation. Well he replied by both attaching the book to the email and offering me a free Skype call!  
   
 This happens soon (during this fast) and I hope to write something about it. At any case, if I am going to speak with the man, I thought I better figure out where he comes from. I couldn’t remember the interview and so I thought I would pick up his book, as now I have already bought it. Well I think I like it a lot and I am willing to break my “no reading” rule in this case. Case well warranted.
 
 ------------------------------------------------------------------------
-
-[Subscribe now](https://thevikidtruth.substack.com/subscribe?)
 
 ------------------------------------------------------------------------
 
@@ -62,6 +55,3 @@ The Vikid Truth
 
 ###### p.s. Don’t forget to share and subscribe!
 
-[Share](https://thevikidtruth.substack.com/p/the-vikid-fast-day-9-of-20?utm_source=substack&utm_medium=email&utm_content=share&action=share)
-
-[Subscribe now](https://thevikidtruth.substack.com/subscribe?)

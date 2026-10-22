@@ -22,8 +22,6 @@ And that’s,
 
 ### The Vikid Truth
 
-[Subscribe now](https://thevikidtruth.substack.com/subscribe?)
-
 As a short bonus. Here’s a 10 minute primer on world commodities. A little realpolitik to contrast with Russell’s Dreamy Balls. You have to be able to hold both realities in your heart and mind.
 
 # حدث خطأ.

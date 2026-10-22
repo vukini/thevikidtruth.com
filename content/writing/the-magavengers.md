@@ -8,8 +8,6 @@ paywalled: false
 ---
 Being a superhero isn’t easy. We have to go out each day and live like ordinary men and women. Then, when there’s an emergency or a calamitous event threatening the world, we’re called for our services. *Ordinarily, no one knows who we are.* There’s not a clue. It could be your neighbor or the garbage man who’s saved mankind from a world ending threat you’ve never heard about, or something as simple saving your cat stuck up in a tree in the middle of the night.
 
-[Subscribe now](https://thevikidtruth.substack.com/subscribe?)
-
 The last few years however have been different. After the appearance of the Virus from Woohan, the world changed again. What most people don’t really realize is how it changed. It was changed by the *slight of pen*. On the auspices of a World Health Emergency and a fake insurrection that was staged, the wording of important laws, deep inside documents 1000’s of pages long were modified.
 
 These laws gave some very nasty people *god like powers* over their populaces. At the same time, under a different guise, new technologies were developed that merged biology and machine. Super AI’s were being developed using stolen data. Even certain advanced mathematics were being banned from the public, so much so that if you accidentally discovered them, you would be in violation grave terrorism laws.
@@ -26,13 +24,7 @@ End Game.
 
 ### Meet the MAGAvengers
 
-[](https://substackcdn.com/image/fetch/$s_!-TkC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1fe0f4d4-59f9-40e1-a661-5177fd860b32_1070x1071.jpeg)
-
 ![](/assets/the-magavengers/19916ba332a2.jpeg)
-
-![](data:image/svg+xml;base64,PHN2ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiB2aWV3Ym94PSIwIDAgMjAgMjAiIGZpbGw9Im5vbmUiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2U9InZhcigtLWNvbG9yLWZnLXByaW1hcnkpIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgY2xhc3M9Imljb24tbm9CNzlMIj48Zz48cGF0aCBkPSJNMi41MzAwMSA3LjgxNTk1QzMuNDkxNzkgNC43MzkxMSA2LjQzMjgxIDIuNSA5LjkxMTczIDIuNUMxMy4xNjg0IDIuNSAxNS45NTM3IDQuNDYyMTQgMTcuMDg1MiA3LjIzNjg0TDE3LjYxNzkgOC42NzY0N00xNy42MTc5IDguNjc2NDdMMTguNTAwMiA0LjI2NDcxTTE3LjYxNzkgOC42NzY0N0wxMy42NDczIDYuOTExNzZNMTcuNDk5NSAxMi4xODQxQzE2LjUzNzggMTUuMjYwOSAxMy41OTY3IDE3LjUgMTAuMTE3OCAxNy41QzYuODYxMTggMTcuNSA0LjA3NTg5IDE1LjUzNzkgMi45NDQzMiAxMi43NjMyTDIuNDExNjUgMTEuMzIzNU0yLjQxMTY1IDExLjMyMzVMMS41MjkzIDE1LjczNTNNMi40MTE2NSAxMS4zMjM1TDYuMzgyMjQgMTMuMDg4MiIgLz48L2c+PC9zdmc+)
-
-![](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld2JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLW1heGltaXplMiBsdWNpZGUtbWF4aW1pemUtMiBpY29uLW5vQjc5TCI+PHBvbHlsaW5lIHBvaW50cz0iMTUgMyAyMSAzIDIxIDkiPjwvcG9seWxpbmU+PHBvbHlsaW5lIHBvaW50cz0iOSAyMSAzIDIxIDMgMTUiPjwvcG9seWxpbmU+PGxpbmUgeDE9IjIxIiB4Mj0iMTQiIHkxPSIzIiB5Mj0iMTAiPjwvbGluZT48bGluZSB4MT0iMyIgeDI9IjEwIiB5MT0iMjEiIHkyPSIxNCI+PC9saW5lPjwvc3ZnPg==)
 
 **Captain Trumperica -** Takes the frontline, faces all the bullets real, metaphorical and legal. Team founder & organizer. Social Media Guru.
 
@@ -96,4 +88,3 @@ And that’s,
 
 Thanks for reading The Vikid Truth! This post is public so feel free to share it.
 
-[Share](https://thevikidtruth.substack.com/p/the-magavengers?utm_source=substack&utm_medium=email&utm_content=share&action=share)

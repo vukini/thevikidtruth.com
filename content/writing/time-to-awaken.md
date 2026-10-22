@@ -24,8 +24,3 @@ I cannot rest, this mind is so strong.
 
 Wake up Sleepy head, Wake up, Wake up.
 
-[Subscribe now](https://thevikidtruth.substack.com/subscribe?)
-
-[Leave a comment](https://thevikidtruth.substack.com/p/time-to-awaken/comments)
-
-[Share](https://thevikidtruth.substack.com/p/time-to-awaken?utm_source=substack&utm_medium=email&utm_content=share&action=share)

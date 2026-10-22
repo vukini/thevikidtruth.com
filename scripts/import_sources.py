@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """One-off importer: Substack + wiki exports -> Hugo content/. Re-runnable (overwrites content)."""
-import re, csv, shutil, sys, yaml
 from pathlib import Path
+import re, csv, shutil, sys, yaml
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from substack_clean import clean as substack_clean
 SITE = Path(__file__).resolve().parent.parent
 SUB = Path("/workspace/substack/out"); WIKI = Path("/workspace/wiki/out")
 SECTION = {"computing":"computing","math":"mathematics","science":"science","languages":"languages",
@@ -12,9 +14,9 @@ c = SITE/"content"; st = SITE/"static/assets"
 for d in ["writing",*set(SECTION.values())]:
     shutil.rmtree(c/d, ignore_errors=True); (c/d).mkdir(parents=True)
 st.mkdir(parents=True, exist_ok=True)
-# Substack: verbatim; images already reference /assets/<slug>/...
+# Substack: prose verbatim, export boilerplate stripped (see substack_clean.py); images reference /assets/<slug>/...
 for f in sorted((SUB/"articles").glob("*.md")):
-    shutil.copy(f, c/"writing"/f.name)
+    (c/"writing"/f.name).write_text(substack_clean(f.read_text()))
 shutil.copytree(SUB/"assets", st, dirs_exist_ok=True)
 shutil.copytree(WIKI/"assets", st, dirs_exist_ok=True)
 inv = {r["slug"]: r for r in csv.DictReader(open(WIKI/"inventory.csv"))}

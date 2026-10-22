@@ -12,8 +12,6 @@ That’s what Vikid was thinking on the way to a wedding.
 
 He had read the literature which actually correlated IQ to inheritance. Smart parents led to smart children, just as a merger between two tall people leads to equally lengthy kids. Cats also beget more cats, dogs to dogs, etc…
 
-[Subscribe now](https://thevikidtruth.substack.com/subscribe?)
-
 The wedding was a bit of a dull event set against a beautiful backdrop, picture perfect, on a beach under a golden sunset. Smart people, lovely location, another wedding following a *similar pattern.* Wows made, a jovial but traditional grooms speech, flowers and lackluster canapés. Couldn’t be anymore cliché.
 
 The bride was the daughter of a savvy business man, the guests consisting of family and his associates in trade. All quite smart almost by definition.
