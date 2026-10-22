@@ -14,6 +14,18 @@
   <div class="prose">{{ .Content }}</div>
   <p class="more-links"><a class="startcta" href="{{ "start/" | relURL }}">New here? Start here →</a> <a class="all" href="{{ "vikid/" | relURL }}">Meet VikiD: the character essays →</a> <a class="all" href="{{ "about/" | relURL }}">About →</a></p>
 </section>
+<section class="vikix-feature" aria-label="Featured project">
+  <a class="vxcard" href="{{ "computing/vikix/" | relURL }}">
+    <div class="vx-text">
+      <p class="kicker">Featured project · built by me</p>
+      <img class="vx-logo" src="{{ "img/vikix/logo-dark.webp" | relURL }}" width="720" height="179" alt="Vikix" loading="lazy">
+      <p>My own desktop on <strong>Void Linux</strong>, built around <strong>StumpWM</strong> and Emacs. Keyboard-driven, with AI workers in view and one command, <code>vikix update</code>, that keeps it all current. Free and open source.</p>
+      <span class="more">Read the write-up →</span>
+    </div>
+    <img class="vx-shot" src="{{ "img/vikix/work-vikix-dark.webp" | relURL }}" width="1920" height="1080" alt="A real Vikix desktop: editor, running program and system monitor tiled side by side" loading="lazy">
+  </a>
+  <p class="vx-links"><a href="https://vikix.dev">vikix.dev ↗</a> <a href="https://github.com/vukini/vikix">github.com/vukini/vikix ↗</a></p>
+</section>
 <section class="latest">
   <h2 class="sec">Latest from Writing</h2>
   {{ with index $writing 0 }}

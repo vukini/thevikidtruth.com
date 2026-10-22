@@ -4,6 +4,14 @@ welcome: >-
   The Writing is my essays from Substack; the knowledge base is years of notes on code, maths, philosophy,
   languages and music, all linked together. Don't read it in order. Pick a path below and follow the links.
 paths:
+  - title: "My big project: Vikix"
+    color: "#6FC2B4"
+    intro: "The desktop I use every day: Void Linux, StumpWM and Emacs, built by me and free to install. Try it at vikix.dev."
+    items:
+      - {wiki: vikix, note: "what it is, why, how to install"}
+      - {wiki: emacsvikix, note: "Emacs meets StumpWM"}
+      - {wiki: myemacsconfig, note: "the config it installs"}
+      - {wiki: commonlisp, note: "what StumpWM is written in"}
   - title: "New to Lisp & PicoLisp"
     color: "#F2B544"
     intro: "Where the site began. Start with the tutorial, then lift the lid on the machine."

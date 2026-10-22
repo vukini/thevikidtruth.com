@@ -11,7 +11,7 @@ groups:
   - title: "Tools & references"
     color: "#6FC2B4"
     intro: "Command-line tools, cookbooks and working references."
-    items: [linuxtools, vikidsbashcookbook, git, emacsnotes, vim, ncdu, glossary, vocab, quotes]
+    items: [vikix, linuxtools, vikidsbashcookbook, git, emacsnotes, vim, ncdu, glossary, vocab, quotes]
   - title: "Learning how to learn"
     color: "#C58BD8"
     intro: "Methods that work for code, maths and languages alike."

@@ -7,17 +7,19 @@ tags:
 categories:
 - computing
 draft: false
+wikislug: emacsvikix
 topics:
 - tools
 ---
 
 [Computing](computing.md) |
+[Vikix](vikix.md) |
 [Emacs Notes](emacsnotes.md) |
 [My Emacs Config Tour](myemacsconfig.md) |
 [Emacs on Vikix & StumpWM](emacsvikix.md) |
 [Common Lisp](commonlisp.md) | [i3](i3.md)
 
-Here is the truth about my desktop: **the window manager and the editor are both Lisp, and they can talk to each other.** [Vikix](https://github.com/vukini/vikix) is my Void Linux setup built around StumpWM, which is written in Common Lisp. Emacs is the editor. This page is about where they meet.
+Here is the truth about my desktop: **the window manager and the editor are both Lisp, and they can talk to each other.** [Vikix](vikix.md) ([vikix.dev](https://vikix.dev)) is my Void Linux setup built around StumpWM, which is written in Common Lisp. Emacs is the editor. This page is about where they meet.
 
 My Emacs config ([vukini/emacs-void](https://github.com/vukini/emacs-void/blob/main), toured in [My Emacs Config Tour](myemacsconfig.md)) works on any machine. On Vikix it picks up extra pieces. Everything here comes from those two repos.
 

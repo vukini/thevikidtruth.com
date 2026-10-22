@@ -24,7 +24,7 @@ topics:
 ![lpm](/assets/lpm.jpg)
 {.center}
 
-[Linux](linux.md) | [Linux Processes and Memory](linuxprocessesandmemory.md) | [Linux Tools](linuxtools.md) | [systemd](systemd.md)
+[Linux](linux.md) | [Linux Processes and Memory](linuxprocessesandmemory.md) | [Linux Tools](linuxtools.md) | [systemd](systemd.md) | [Vikix (Void + runit)](vikix.md)
 
 ## The core idea in plain words
 

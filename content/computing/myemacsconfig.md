@@ -7,11 +7,13 @@ tags:
 categories:
 - computing
 draft: false
+wikislug: myemacsconfig
 topics:
 - tools
 ---
 
 [Computing](computing.md) |
+[Vikix](vikix.md) |
 [Emacs Notes](emacsnotes.md) |
 [My Emacs Config Tour](myemacsconfig.md) |
 [Emacs on Vikix & StumpWM](emacsvikix.md) |
