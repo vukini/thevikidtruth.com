@@ -1,7 +1,7 @@
 ---
 title: Literals
 date: '2016-11-21T22:08:27+04:00'
-lastmod: '2023-03-28T07:50:56+04:00'
+lastmod: '2026-10-22T10:30:00+04:00'
 original_id: '{A314}'
 original_name: literals
 original_blob: blob/B/11/631.txt
@@ -17,6 +17,83 @@ draft: false
 ---
 
 # Literals
+
+Here is the truth about literals: **they are how values show up in source code before they have a name.** Every language has them; C's are small, strict and easy to get subtly wrong – especially once suffixes and escape sequences enter.
+
+### What it is, in plain words
+
+A **literal** is a notation that writes a value directly: `42`, `3.14`, `'a'`, `"hello"`, `true`. In C (and C-like languages) the form of the literal decides its **type** and how it's stored. Related pages cover each family in depth: [integers](cints.md), [floats](cfloats.md), [characters](cchars.md), [strings](cstrings.md).
+
+### Why it matters
+
+Write `1 << 32` on a machine where `int` is 32 bits and you've wandered into undefined behaviour – the literal `1` was too narrow. Write `"café"` without knowing the source encoding and you ship mojibake. Literals look trivial; they are load-bearing.
+
+### An everyday analogy: coins on the table
+
+A variable is a labelled jar. A literal is a coin you put on the table right now: a 1-euro coin, a 50-cent coin. The *shape* of the coin (the notation) tells everyone its value and denomination (the type). Put the wrong coin in the jar and the totals come out wrong.
+
+### A hands-on example (C)
+
+```c
+#include <stdio.h>
+int main(void) {
+    /* Integer literals */
+    int d = 42;            /* decimal */
+    int h = 0x2A;          /* hex */
+    int o = 052;           /* octal – easy to write by mistake */
+    int b = 0b101010;      /* binary – standard in C23 */
+    long L = 42L;
+    unsigned long long big = 1ULL << 40;
+    int million = 1'000'000;   /* digit separators – C23 */
+
+    /* Floating literals */
+    double pi = 3.14159;
+    float  f  = 1.0f;
+    double sci = 6.022e23;
+    double hexf = 0x1.8p1;     /* 3.0 */
+
+    /* Character and string */
+    char c = 'A';
+    char nl = '\n';
+    char *s = "Void Linux";    /* static storage, don't free */
+    char *u = u8"café";        /* UTF-8 string literal (C11/C23) */
+
+    printf("%d %d %llu %s\n", d, b, big, s);
+    return 0;
+}
+```
+
+```bash
+gcc -std=c23 -Wall literals.c -o literals && ./literals
+```
+
+In Python the same ideas feel softer – `1_000_000`, `0x2A`, `0b101010`, `"café"`, `b"bytes"`, `True` – and the type is the object's, not the literal's bit-width. In JavaScript, watch for octal legacy forms in non-strict mode; prefer `0o52` and `0b101010`.
+
+### Boolean and null-ish literals across languages
+
+| Language | True/False | Empty / null |
+|----------|------------|--------------|
+| C23 | `true` `false` (`bool`) | `NULL` |
+| Python | `True` `False` | `None` |
+| JavaScript | `true` `false` | `null`, `undefined` |
+| Lisp | `T` / `NIL` (PicoLisp: `T` / `NIL`) | `NIL` |
+| Rust | `true` `false` | `None` (Option) |
+
+Knowing what your language treats as a literal versus a built-in name avoids the classic Python mistake of writing `true` (NameError) or the C mistake of assuming `TRUE` exists without a header.
+
+### Common misconceptions
+
+- **"Leading zero means decimal."** In C, leading zero means *octal*. `010 == 8`.
+- **"String literals are `char *` you can write through."** They have static storage and must be treated as read-only. Use `char buf[] = "hi";` if you need a mutable copy.
+- **"`'AB'` is a character."** In C it's an *integer* character constant (implementation-defined value); not a string.
+- **"Binary literals aren't portable."** They're in C23 and have been a GCC/Clang extension for years.
+- **"Literals and constants are the same."** A literal is notation in source; a constant (`const`, `enum`, `#define`) is a named binding. Related, not identical.
+
+### Connections
+
+- [Integers in C](cints.md), [Floating-point numbers in C](cfloats.md), [Characters in C](cchars.md), [Strings in C](cstrings.md).
+- [C Programming](cprogramming.md), [Tokens](tokens.md), [Identifier](identifier.md).
+- [Binary](binary.md).
 
 [C Programming](cprogramming.md)
 
