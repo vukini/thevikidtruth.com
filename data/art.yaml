@@ -4,13 +4,13 @@ resources: {img: resources, fb: jpg, kind: panel, w: 800, h: 800, alt: "VikiD re
 computing: {img: computing, fb: jpg, kind: panel, w: 381, h: 700, alt: "VikiD in his yellow cape standing before a giant circuit board"}
 mathematics: {img: mathematics, fb: jpg, kind: panel, w: 850, h: 607, alt: "VikiD, arms folded, in front of a whiteboard full of equations"}
 languages: {img: languages, fb: png, kind: cutout, w: 640, h: 384, alt: "VikiD chatting in several languages with a red-haired heroine"}
-science: {img: science, fb: jpg, kind: panel, w: 800, h: 1067, alt: "VikiD holding a prism that splits a beam of light into a spectrum"}
-music: {img: music, fb: jpg, kind: panel, w: 800, h: 1067, alt: "VikiD playing an acoustic guitar on a stool under a single lamp"}
+science: {img: science, fb: jpg, kind: panel, w: 800, h: 1067, alt: "VikiD, the red V shield on his chest, holding a prism that splits a beam of light into a spectrum"}
+music: {img: music, fb: jpg, kind: panel, w: 800, h: 1067, alt: "VikiD, wearing his red V shield emblem, playing an acoustic guitar on a stool under a single lamp"}
 about: {img: judge, fb: png, kind: cutout, w: 600, h: 501, alt: "VikiD at a judge's bench with a gavel: You will be judged", caption: "Read the disclaimer first", link: "/about/caveatemptor/"}
 tags: {img: ../vikid-badge, fb: png, kind: badge, w: 360, h: 360, alt: "ViKiD TRUTH badge: the caped hero punching forward"}
 series: {img: ../vikid-badge, fb: png, kind: badge, w: 360, h: 360, alt: "ViKiD TRUTH badge: the caped hero punching forward"}
-search: {img: search, fb: jpg, kind: panel, w: 800, h: 1067, alt: "VikiD walking a dark library aisle, lantern raised to the shelves"}
-notfound: {img: notfound, fb: jpg, kind: panel, w: 800, h: 1067, alt: "VikiD, amused, in an empty dark room beside a blank signpost and an open door"}
-philosophy: {img: philosophy, fb: jpg, kind: panel, w: 800, h: 1067, alt: "VikiD deep in thought by a window at night, an old book open on his knee"}
+search: {img: search, fb: jpg, kind: panel, w: 800, h: 1067, alt: "VikiD, wearing the red V shield, walking a dark library aisle with a lantern raised"}
+notfound: {img: notfound, fb: jpg, kind: panel, w: 800, h: 1067, alt: "VikiD, the V shield on his chest, amused in an empty dark room beside a blank signpost and an open door"}
+philosophy: {img: philosophy, fb: jpg, kind: panel, w: 800, h: 1067, alt: "VikiD, his V shield emblem on his chest, deep in thought by a window at night with an old book open"}
 start: {img: start, fb: png, kind: cutout, w: 600, h: 784, alt: "VikiD in his red suit and yellow cape, floating cross-legged with an open book"}
-frontier-ai: {img: frontier-ai, fb: jpg, kind: panel, w: 800, h: 1067, alt: "VikiD lifting a glowing sheet of hype charts to reveal plain circuitry beneath"}
+frontier-ai: {img: frontier-ai, fb: jpg, kind: panel, w: 800, h: 1067, alt: "VikiD, the red V shield on his chest, lifting a glowing sheet of hype charts to reveal plain circuitry beneath"}
