@@ -13,8 +13,7 @@ tags:
 categories:
 - misc
 wikislug: favourites
-draft: true
-review: update
+draft: false
 topics:
 - notebook
 ---

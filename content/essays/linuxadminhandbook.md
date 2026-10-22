@@ -13,8 +13,7 @@ tags:
 categories:
 - misc
 wikislug: linuxadminhandbook
-draft: true
-review: update
+draft: false
 topics:
 - math-tech
 ---
@@ -22,6 +21,24 @@ topics:
 [Books](books.md)
 
 # The Linux Administration Handbook
+
+### About the book
+
+The *UNIX and Linux System Administration Handbook* (often just "the Linux Administration Handbook") by Evi Nemeth, Garth Snyder, Trent R. Hein, Ben Whaley and Dan Mackin is one of the most respected books in its field, sometimes called the system administrator's bible. First written for UNIX and now in its **5th edition (2017)**, it is a thick, practical reference covering how to actually *run* Linux and UNIX machines: user accounts and permissions, booting and startup, processes, storage and filesystems, backups, networking, logging, cron and automation, security, and the day-to-day craft of keeping systems alive and healthy.
+
+### Why it is so well regarded
+
+Most books teach you to *use* Linux; this one teaches you to *administer* it, the deeper, messier skill of looking after machines that other people depend on. It is famous for its blunt, experienced, sometimes funny tone (the authors are seasoned admins, not theorists) and for being genuinely useful at the terminal rather than merely examinable. The topics in my link list below, from `fsck` and RAID to `cron` and backups, are exactly the real-world chores it walks you through.
+
+### An everyday analogy
+
+If using Linux is like driving a car, this book is the workshop manual for the mechanic: how the engine actually works, how to service it, what to do when it will not start, and how to keep a whole fleet running. You do not need it to drive to the shops, but you absolutely need it the day something breaks and people are counting on you to fix it.
+
+### A note for today
+
+The core skills here are evergreen, but a modern edition reflects how administration has changed: **systemd** now handles startup and services (replacing the older init scripts the chapter list mentions), and much of the job has moved toward **cloud servers, containers and configuration-as-code** (Docker, Ansible, Terraform). The fundamentals, filesystems, permissions, processes, backups, networking, are unchanged, which is exactly why this book stays on so many shelves. The section links below are topics I plan to write up in my own words over time.
+
+
 
 ![lah](/assets/lah.jpg)
 {.center}

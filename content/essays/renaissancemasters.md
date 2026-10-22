@@ -13,8 +13,7 @@ tags:
 categories:
 - essays
 wikislug: renaissancemasters
-draft: true
-review: update
+draft: false
 aliases:
 - /computing/renaissancemasters/
 topics:

@@ -13,8 +13,7 @@ tags:
 categories:
 - misc
 wikislug: cryptocurrencies
-draft: true
-review: update
+draft: false
 topics:
 - society
 ---

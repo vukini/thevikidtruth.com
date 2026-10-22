@@ -13,8 +13,7 @@ tags:
 categories:
 - misc
 wikislug: videos
-draft: true
-review: update
+draft: false
 topics:
 - stories
 ---
