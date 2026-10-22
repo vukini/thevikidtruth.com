@@ -14,8 +14,7 @@ tags:
 categories:
 - computing
 wikislug: securingwebapps
-draft: true
-review: update
+draft: false
 topics:
 - security
 ---
@@ -151,3 +150,51 @@ Defense
 ```
 
 ```
+
+### The plain idea
+
+Securing web applications means defending the software people reach over the internet, the part of your system that is, by design, open to everyone, including everyone hostile. My notes above start with **denial-of-service (DoS)**, attacks on *availability*, flooding a service until it falls over, but web security is really about all three parts of the classic triad: keeping data secret (confidentiality), unaltered (integrity) and reachable (availability).
+
+### Why it matters
+
+A web app is your front door to the world, and it is always unlocked for business. Everything behind it, user data, payments, internal systems, is only as safe as that code. Most of the largest breaches in history were web-application flaws: an injection bug, a broken login, a misconfigured server. Understanding the common attack classes is how you stop being the next headline.
+
+### An everyday analogy: a shop open to the public
+
+A web server is a shop with its doors open to any passer-by. Most are customers; a few are shoplifters, and one is parked outside revving an engine to block the entrance so nobody can get in (that is DoS). You cannot lock the doors, that would end the business, so instead you watch behaviour, limit how much any one person can take at once, and design the shop so a troublemaker cannot reach the stockroom.
+
+### A worked example: the DoS attacks in my notes, and defence in depth
+
+My notes name three layers of flooding, and each has a matching defence:
+
+- **Network (MAC flooding).** Fill a switch's CAM table with `macof` and it fails open, broadcasting everything like a dumb hub. *Defence:* port security, limiting MAC addresses per port.
+- **Connection (SYN flood).** Open thousands of half-finished TCP handshakes (the "open state between SYN and ACK") so the server runs out of slots. *Defence:* SYN cookies, connection limits.
+- **Application (LOIC-style).** Hammer the app with expensive requests. *Defence:* rate limiting, a CDN/WAF, and today's cloud DDoS scrubbing services.
+
+Beyond availability, the modern baseline is the **OWASP Top Ten**: broken access control, injection (SQL, command), cryptographic failures, security misconfiguration and so on. A single well-known example, parameterised queries, kills SQL injection:
+
+```python
+# vulnerable: user input becomes part of the query
+cur.execute("SELECT * FROM users WHERE name = '" + name + "'")
+# safe: input is data, never code
+cur.execute("SELECT * FROM users WHERE name = %s", (name,))
+```
+
+### A 2026 update
+
+Since these notes, defence has consolidated: HTTPS everywhere (free via Let's Encrypt), a [WAF](applicationproxy.md) in front, content-security-policy headers against cross-site scripting, and framework defaults that are safe out of the box. DDoS has grown to terabit scale, handled by CDNs and scrubbing providers rather than a single server. And the attack surface has shifted to **APIs, dependencies (supply-chain attacks) and cloud misconfiguration**, which is why automated dependency scanning and least-privilege cloud roles now matter as much as the app code itself.
+
+### Common misconceptions
+
+- **"HTTPS means my app is secure."** It only encrypts the connection; it does nothing about injection, broken access control or weak passwords.
+- **"Small sites aren't targets."** Most attacks are automated and indiscriminate; bots probe everything.
+- **"A firewall protects the app."** A network firewall allows port 443 by definition; attacks ride in on allowed traffic, which is why you need app-level defences.
+
+### How it connects
+
+- [Application Proxy](applicationproxy.md) and [NG Firewalls](ngfirewall.md): WAFs and content inspection.
+- [Encryption](encryption.md): HTTPS, password hashing, salting.
+- [Exploitation](exploitation.md) and [Enumeration](enumeration.md): how attackers find and hit these flaws.
+- [Security Program](securityprogram.md): building testing into the process.
+
+The truth revealed: a web app cannot lock its doors, so security is not about keeping people out, it is about making sure that the ones who mean harm cannot reach anything that matters.

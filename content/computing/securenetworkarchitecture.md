@@ -13,8 +13,7 @@ tags:
 categories:
 - computing
 wikislug: securenetworkarchitecture
-draft: true
-review: update
+draft: false
 topics:
 - security
 ---
@@ -135,3 +134,44 @@ topics:
 - [Penetration Testing](penetrationtesting.md)
 - [Firewalls](firewalls.md)
 - [Security Programs](securityprogram.md)
+
+### The plain idea
+
+Secure network architecture is the art of *designing* a network so that a break-in anywhere does the least possible damage. The single biggest idea, running through every principle above, is **segmentation**: split the network into zones, keep the connections between them few and tightly controlled, and deny everything that is not explicitly allowed. My examples focus on the classic and vital case of keeping an [industrial control](icssecurity.md) network separate from the ordinary corporate network.
+
+### Why it matters
+
+A flat network, where everything can talk to everything, is a house with no internal doors: one compromised laptop and the attacker can reach the servers, the backups and the factory floor. Segmentation turns that into a house of locked rooms. It is why the 2016 Ukraine power-grid attack and countless ransomware outbreaks spread so far, and why zoning is the first thing any serious review looks for.
+
+### An everyday analogy: bulkheads in a ship
+
+A ship's hull is divided into watertight compartments. Hole the bow and one compartment floods, but the bulkheads stop the water reaching the rest, and the ship stays afloat. Network segments are bulkheads: a breach in one zone is contained instead of sinking everything.
+
+### A worked example: reading the diagrams
+
+My three sketches are three strengths of the same idea:
+
+1. **Dual-homed host.** One machine with two network cards bridges two zones. Cheap, but that single host is now the only thing between them, a weak bulkhead.
+2. **Firewall between zones.** A dedicated [firewall](firewalls.md) enforces the rules, far stronger because its only job is to police what crosses.
+3. **Firewall *and* router.** Adds a routed boundary and a second checkpoint. The strongest of the three, and the basis of the modern **DMZ** (demilitarised zone), where internet-facing services sit in a middle zone that can reach neither the internet nor the inside freely.
+
+The "filter ICMP, especially Destination Unreachable" principle is a nice detail: those messages leak network structure to an attacker mapping you (see [enumeration](enumeration.md)), so a careful design quietens them.
+
+### A 2026 update
+
+The frontier today is **zero-trust architecture**: stop trusting anything just because it is "inside" the network, and instead verify every request by identity and device, every time. Combined with **micro-segmentation** (segments as small as a single workload) it is segmentation taken to its logical end. For control systems, the **Purdue model** of layered zones and a **DMZ between IT and OT** remain the reference design.
+
+### Common misconceptions
+
+- **"A firewall at the edge is enough."** Edge defence does nothing once an attacker is inside; internal segmentation is what limits the blast radius.
+- **"Air-gapped means safe."** True air gaps are rare and leak via USB sticks and maintenance laptops (Stuxnet crossed one).
+- **"Segmentation kills performance."** Done well it barely costs anything and is invisible to users.
+
+### How it connects
+
+- [Firewalls](firewalls.md): the devices that enforce the boundaries.
+- [ICS Security](icssecurity.md): the control-network case these principles serve.
+- [IDS/IPS](idsips.md) and [Honeypots](honeypots.md): what watches the traffic crossing zones.
+- [Security Program](securityprogram.md): where architecture fits a wider plan.
+
+The truth revealed: you cannot stop every break-in, so the real skill is designing the network so that one break-in is never the whole story.

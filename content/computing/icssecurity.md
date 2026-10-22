@@ -13,8 +13,7 @@ tags:
 categories:
 - computing
 wikislug: icssecurity
-draft: true
-review: update
+draft: false
 topics:
 - security
 ---
@@ -162,3 +161,44 @@ to an Indexer
              V
         Search-Head [event corrolation happens here]
 ```
+
+### The plain idea
+
+Industrial control systems (ICS), and the SCADA systems that supervise them, are the computers that run physical things: power grids, water treatment, pipelines, factory lines. Securing them means protecting equipment that can *move, heat, and electrify the real world*. My notes above lay out the goals (the CIA triad plus the extra "A" services) and the standards to follow. The crucial twist, and the theme of this whole page, is that in ICS the priorities are **flipped**: in ordinary IT the order is Confidentiality, Integrity, Availability; in ICS it is **Availability and safety first**, because a turbine that stops, or runs wrong, can hurt people.
+
+### Why it matters
+
+An office breach leaks data; an ICS breach can flood a town, black out a city, or injure workers. These systems were designed decades ago for isolated, trusting networks, and then got connected to corporate networks and the internet (my "generations" list, ending in IoT). That collision, old, fragile, safety-critical equipment meeting modern threats, is one of the most serious problems in security today. Stuxnet (2010) destroyed Iranian centrifuges; attackers blacked out parts of Ukraine's grid in 2015 and 2016; the Oldsmar water-plant intrusion (2021) tried to poison a water supply.
+
+### An everyday analogy: a hospital versus a bank
+
+Rob a bank and money is lost, serious, but recoverable. Sabotage a hospital's life-support and the stakes are different in kind. ICS security is hospital security: you cannot simply "turn it off and patch it" when turning it off is itself the danger, and a wrong instruction has physical, sometimes fatal, consequences. That is why ICS cannot just copy IT security wholesale.
+
+### A worked example: why you cannot secure ICS like IT
+
+Imagine the standard IT playbook meeting a power plant:
+
+- **"Just patch it."** The controller runs 20-year-old firmware on hardware that cannot be taken offline without shutting down the plant; a patch may not even exist. *ICS answer:* compensating controls, segment and monitor instead.
+- **"Encrypt everything."** Many industrial protocols (Modbus, DNP3) have no security at all and real-time constraints that encryption can break. *ICS answer:* protect them at the network boundary rather than changing the protocol.
+- **"Require strong auth everywhere."** An operator must be able to hit an emergency stop *instantly*, so a login prompt in that path could cost lives. *ICS answer:* safety and availability win; secure the surrounding zones instead.
+
+The resulting design is the one on the [secure network architecture](securenetworkarchitecture.md) page: isolate the control (OT) network from the corporate (IT) network, allow only the few necessary, tightly filtered connections through a DMZ, deny by default, and watch everything that crosses.
+
+### A 2026 update
+
+The reference standard is now **IEC 62443**, the dedicated framework for industrial automation security, alongside the **NIST SP 800-82** guide to ICS. The **Purdue model** of layered zones remains the backbone. New pressures: ransomware increasingly hits OT (the 2021 Colonial Pipeline shutdown was triggered by an IT breach spilling toward OT), and the explosion of industrial IoT ("Fourth Generation" in my notes) multiplies the attack surface, making segmentation and monitoring more important than ever.
+
+### Common misconceptions
+
+- **"It's air-gapped, so it's safe."** True isolation is rare and bypassed by USB sticks, vendor laptops and quiet IT-to-OT links.
+- **"IT security tools work as-is."** Active scanning or forced patching can crash fragile controllers; ICS needs passive, protocol-aware tooling.
+- **"Obscure protocols are protection."** Their details are well documented and, worse, usually unauthenticated.
+
+### How it connects
+
+- [Secure Network Architecture](securenetworkarchitecture.md): the segmentation these systems depend on.
+- [Security Program](securityprogram.md): the risk and standards process (IEC 62443, NIST).
+- [IDS/IPS](idsips.md) and [Honeypots](honeypots.md): passive monitoring suited to OT.
+- [Encryption](encryption.md): the CIA services and their ICS-specific trade-offs.
+
+The truth revealed: ICS security is the one corner of the field where a bug is not measured in lost data but in lost water, power, or lives, which is exactly why its rules run backwards from everything else.
