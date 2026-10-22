@@ -1,5 +1,5 @@
 ---
-title: Logic - Modus Tollens
+title: Modus Tollens
 date: '2016-11-30T23:43:22+04:00'
 lastmod: '2021-08-24T01:37:03+04:00'
 original_id: '{A555}'

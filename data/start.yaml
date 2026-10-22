@@ -1,0 +1,67 @@
+# Curated paths for /start/. `wiki` items are wikislugs (only published pages are shown); `post` items are /writing/ slugs.
+welcome: >-
+  Hello, I'm VikiD. Look closer, truth below: that's the whole idea. This site is two things.
+  The Writing is my essays from Substack; the knowledge base is years of notes on code, maths, philosophy,
+  languages and music, all linked together. Don't read it in order. Pick a path below and follow the links.
+paths:
+  - title: "New to Lisp & PicoLisp"
+    color: "#F2B544"
+    intro: "Where the site began. Start with the tutorial, then lift the lid on the machine."
+    items:
+      - {wiki: picolisp, note: "what it is and why"}
+      - {wiki: pltutorial, note: "the Vikid tutorial"}
+      - {wiki: piltutorials}
+      - {wiki: pilmachine, note: "how the interpreter works"}
+      - {wiki: pildb}
+      - {wiki: lambdacalculus, note: "the theory underneath"}
+      - {wiki: commonlisp}
+      - {post: bciyh, note: "build a computer in your head"}
+  - title: "Maths: from relations to fields"
+    color: "#7FA7E0"
+    intro: "One climb, in order: what a relation is, then structure piled on structure."
+    items:
+      - {wiki: settheory}
+      - {wiki: setrelations}
+      - {wiki: reflexivityrelation}
+      - {wiki: symmetryrelation}
+      - {wiki: transitivityrelation}
+      - {wiki: groups}
+      - {wiki: quotientgroups}
+      - {wiki: rings}
+      - {wiki: commutativerings}
+      - {wiki: fields}
+      - {wiki: vectorspaces, note: "where it leads next"}
+  - title: "Philosophy picks"
+    color: "#C58BD8"
+    intro: "A way in, then a few thinkers worth the time."
+    items:
+      - {wiki: philosophy, note: "the VikiD approach"}
+      - {wiki: philosophers2study}
+      - {wiki: epicurus}
+      - {wiki: ludwigwittgenstein}
+      - {wiki: teleology}
+      - {wiki: philosophyinphysics}
+      - {post: liar-liar, note: "an essay on the liar's paradox"}
+  - title: "Languages"
+    color: "#E07A3F"
+    intro: "How I learn them, and the ones I keep coming back to."
+    items:
+      - {wiki: howtolearnlanguages, note: "the method"}
+      - {wiki: tokipona}
+      - {wiki: learnesperanto}
+      - {wiki: swahili}
+      - {wiki: arabic}
+      - {wiki: spanish}
+      - {post: the-tao-of-esperanto}
+  - title: "The best essays"
+    color: "#F6D58E"
+    intro: "If you only read a handful from Substack, read these."
+    items:
+      - {post: the-truth}
+      - {post: the-true-heart-of-a-computer}
+      - {post: the-hard-problem}
+      - {post: freewill-or-freewont}
+      - {post: the-coincidence-of-opposites}
+      - {post: the-sermon-of-the-vikid-truth}
+      - {post: the-vikid-fast-day-1}
+      - {post: why-write}

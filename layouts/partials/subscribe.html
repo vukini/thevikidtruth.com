@@ -1,0 +1,15 @@
+{{/* Substack subscribe box. ctx: page. Posts to Substack's free-signup endpoint; falls back to the /subscribe page link. */}}
+{{ $sub := strings.TrimSuffix "/" site.Params.substack }}
+<aside class="subscribe" data-pagefind-ignore aria-labelledby="sub-h">
+  <div class="subscribe-text">
+    <h2 id="sub-h">Get new essays by email</h2>
+    <p>One post when there is something worth saying. Free, via Substack; unsubscribe any time.</p>
+  </div>
+  <form class="subscribe-form" action="{{ $sub }}/api/v1/free" method="post" target="_blank">
+    <label class="vh" for="sub-email">Email address</label>
+    <input id="sub-email" type="email" name="email" required placeholder="you@example.com" autocomplete="email">
+    <input type="hidden" name="first_url" value="{{ .Permalink }}">
+    <button type="submit">Subscribe</button>
+  </form>
+  <p class="meta subscribe-alt">or <a href="{{ $sub }}/subscribe">subscribe on Substack →</a></p>
+</aside>

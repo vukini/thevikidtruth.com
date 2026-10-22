@@ -12,3 +12,4 @@ series: {img: ../vikid-badge, fb: png, kind: badge, w: 360, h: 360, alt: "ViKiD 
 search: {img: neon, fb: png, kind: cutout, w: 369, h: 420, alt: "Neon-blue VikiD caricature, glowing like an X-ray: looking through everything"}
 notfound: {img: judge, fb: png, kind: cutout, w: 600, h: 501, alt: "VikiD at a judge's bench with a gavel: You will be judged"}
 philosophy: {img: essays, fb: png, kind: cutout, w: 395, h: 520, alt: "VikiD, caped and floating, absorbed in a book"}
+start: {img: start, fb: png, kind: cutout, w: 600, h: 784, alt: "VikiD in his red suit and yellow cape, floating cross-legged with an open book"}

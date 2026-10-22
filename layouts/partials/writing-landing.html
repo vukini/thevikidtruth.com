@@ -1,0 +1,28 @@
+{{/* /writing/: topic view (data/topics/writing.yaml) above the full chronological archive. ctx: section page */}}
+{{ $cats := hugo.Data.topics.writing }}{{ $pages := .RegularPages.ByDate.Reverse }}
+<header class="ahead withart">
+<div class="ahead-text">
+  <p class="crumb"><a href="{{ "/" | relURL }}">Home</a> / Writing</p>
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p class="sub">{{ . }}</p>{{ end }}
+  <p class="meta">{{ len $pages }} essays · {{ len $cats }} topics · <a href="{{ "start/" | relURL }}">new here? start here →</a></p>
+</div>
+  {{ partial "art.html" (dict "key" "writing" "eager" true) }}
+</header>
+{{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+<nav class="catindex" aria-label="Essay topics" data-pagefind-ignore>
+<a href="#all" style="--c:#ECE6D8"><i></i>All, newest first <span>{{ len $pages }}</span></a>
+{{ range $cats }}{{ $n := len (where $pages "Params.topics" "intersect" (slice .slug)) }}{{ if $n }}<a href="#{{ .slug }}" style="--c:{{ .color }}"><i></i>{{ .title }} <span>{{ $n }}</span></a>{{ end }}{{ end }}
+</nav>
+<h2 class="sec" id="topics">Essays by topic</h2>
+{{ range $cats }}{{ $ps := where $pages "Params.topics" "intersect" (slice .slug) }}{{ if $ps }}
+<section class="catsec" id="{{ .slug }}" style="--c:{{ .color }}">
+  <div class="cathead"><h2><a href="{{ printf "/writing/category/%s/" .slug | relURL }}">{{ .title }}</a></h2><p class="meta">{{ len $ps }} essays</p></div>
+  <p class="catintro">{{ .intro }}</p>
+  <ul class="catlist">{{ range first 9 $ps }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}</ul>
+  {{ if gt (len $ps) 9 }}<p class="meta"><a href="{{ printf "/writing/category/%s/" .slug | relURL }}">All {{ len $ps }} {{ lower .title }} essays →</a></p>{{ end }}
+</section>
+{{ end }}{{ end }}
+<h2 class="sec" id="all">All essays, newest first</h2>
+<ol class="list">{{ range $pages }}{{ partial "toc-item.html" . }}{{ end }}</ol>
+{{ partial "subscribe.html" . }}

@@ -12,7 +12,7 @@
 </section>
 <section class="intro">
   <div class="prose">{{ .Content }}</div>
-  <p class="more-links"><a class="all" href="{{ "vikid/" | relURL }}">Meet VikiD: the character essays →</a> <a class="all" href="{{ "about/" | relURL }}">About →</a></p>
+  <p class="more-links"><a class="startcta" href="{{ "start/" | relURL }}">New here? Start here →</a> <a class="all" href="{{ "vikid/" | relURL }}">Meet VikiD: the character essays →</a> <a class="all" href="{{ "about/" | relURL }}">About →</a></p>
 </section>
 <section class="latest">
   <h2 class="sec">Latest from Writing</h2>
@@ -23,7 +23,8 @@
   </a>
   {{ end }}
   <ol class="list">{{ range after 1 (first 6 $writing) }}{{ partial "toc-item.html" . }}{{ end }}</ol>
-  <a class="all" href="{{ "writing/" | relURL }}">All {{ len $writing }} essays →</a>
+  <a class="all" href="{{ "writing/" | relURL }}">All {{ len $writing }} essays →</a> <a class="all" href="{{ "writing/#topics" | relURL }}">Browse by topic →</a>
+  {{ partial "subscribe.html" . }}
 </section>
 <section class="kbsec">
   <h2 class="sec">Knowledge base</h2>

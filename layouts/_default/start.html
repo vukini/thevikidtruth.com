@@ -1,0 +1,22 @@
+{{ define "mainclass" }}startpage{{ end }}
+{{ define "main" }}
+{{ $bys := partialCached "pages-byslug.html" "all" "all" }}{{ $d := hugo.Data.start }}
+<section class="start-hero">
+  {{ with index hugo.Data.art "start" }}<picture><source srcset="{{ printf "img/art/%s.webp" .img | relURL }}" type="image/webp"><img src="{{ printf "img/art/%s.%s" .img .fb | relURL }}" width="{{ .w }}" height="{{ .h }}" alt="{{ .alt }}" loading="eager"></picture>{{ end }}
+  <div>
+    <p class="crumb"><a href="{{ "/" | relURL }}">Home</a> / Start here</p>
+    <h1>Start here</h1>
+    <p class="bubble">{{ $d.welcome }}</p>
+    <p><a class="startcta" href="{{ "writing/" | relURL }}">Browse essays by topic</a><a class="startcta" href="{{ "map/" | relURL }}">See the knowledge graph</a></p>
+  </div>
+</section>
+<div class="paths">
+{{ range $d.paths }}
+  <section class="path" style="--c:{{ .color }}">
+    <h2>{{ .title }}</h2><p>{{ .intro }}</p>
+    <ol>{{ range .items }}{{ $it := . }}{{ $p := false }}{{ if .wiki }}{{ $p = index $bys .wiki }}{{ else }}{{ $p = site.GetPage (printf "/writing/%s" .post) }}{{ end }}{{ with $p }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ with $it.note }} <span>{{ . }}</span>{{ end }}</li>{{ end }}{{ end }}</ol>
+  </section>
+{{ end }}
+</div>
+{{ partial "subscribe.html" . }}
+{{ end }}

@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ if and (eq .Kind "section") (index hugo.Data.topics .Section) }}{{ partial "kb-landing.html" . }}{{ else }}
+{{ if and (eq .Kind "section") (eq .Section "writing") }}{{ partial "writing-landing.html" . }}{{ else if and (eq .Kind "section") (index hugo.Data.topics .Section) }}{{ partial "kb-landing.html" . }}{{ else }}
 {{ $key := cond (eq .Kind "term") .Data.Plural .Section }}
 <header class="ahead withart">
 <div class="ahead-text">

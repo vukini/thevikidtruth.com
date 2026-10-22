@@ -1,0 +1,18 @@
+# The /resources/ hub. Items are wikislugs; a group or item only shows once its page is published.
+groups:
+  - title: "Reading lists"
+    color: "#F2B544"
+    intro: "Books, tutorials and study plans, gathered over years."
+    items: [readinglist, study, books, webdevelopmentreadinglist, philosophers2study, articles, favourites]
+  - title: "Quicklinks"
+    color: "#7FA7E0"
+    intro: "The bookmarks bar: links I reach for daily."
+    items: [quicklinks, computingvideosandarticles, videos, learningonline]
+  - title: "Tools & references"
+    color: "#6FC2B4"
+    intro: "Command-line tools, cookbooks and working references."
+    items: [linuxtools, vikidsbashcookbook, git, emacsnotes, vim, ncdu, glossary, vocab, quotes]
+  - title: "Learning how to learn"
+    color: "#C58BD8"
+    intro: "Methods that work for code, maths and languages alike."
+    items: [learning, howtolearnlanguages, memorizeeverything, thememorychalet, dreams]

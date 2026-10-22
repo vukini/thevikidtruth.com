@@ -20,6 +20,10 @@ enableRobotsTXT = true
 
 [menus]
   [[menus.main]]
+    name = "Start here"
+    pageRef = "/start"
+    weight = 5
+  [[menus.main]]
     name = "Writing"
     pageRef = "/writing"
     weight = 10

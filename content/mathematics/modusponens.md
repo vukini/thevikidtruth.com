@@ -1,5 +1,5 @@
 ---
-title: Logic - Modus Ponens
+title: Modus Ponens
 date: '2016-11-30T23:42:52+04:00'
 lastmod: '2016-11-30T23:48:27+04:00'
 original_id: '{A554}'

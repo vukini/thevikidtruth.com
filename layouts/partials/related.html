@@ -1,13 +1,15 @@
 {{/* Backlinks (from any knowledge-base section) and more pages in the same category. */}}
 {{ $g := partialCached "linkgraph.html" "all" "all" }}
 {{ $self := .RelPermalink }}{{ $sec := .Section }}
-{{ $back := index $g.in $self | default slice }}
+{{ $allback := index $g.in $self | default slice }}
+{{ $back := slice }}{{ $essays := slice }}{{ range $allback }}{{ if hasPrefix . "/writing/" }}{{ $essays = $essays | append . }}{{ else }}{{ $back = $back | append . }}{{ end }}{{ end }}
 {{ $slug := index .Params.topics 0 }}
 {{ $cat := index (where (index hugo.Data.topics $sec) "slug" $slug) 0 }}
 {{ $same := where (where (where site.RegularPages "Section" $sec) "Params.topics" "intersect" (slice $slug)) "RelPermalink" "ne" $self }}
 {{ $byurl := partialCached "kb-byurl.html" "all" "all" }}
 <aside class="related" data-pagefind-ignore style="--c:{{ with $cat }}{{ .color }}{{ else }}#B5AC9A{{ end }}">
   {{ with $back }}<div><h2>Linked from</h2><ul>{{ range . }}{{ with index $byurl . }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ if ne .Section $sec }} <span class="xsec">{{ .CurrentSection.Title }}</span>{{ end }}</li>{{ end }}{{ end }}</ul></div>{{ end }}
+  {{ with $essays }}<div class="essays-on"><h2>Essays on this</h2><ul>{{ range first 8 . }}{{ with index $byurl . }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a> <span class="xsec">Writing</span></li>{{ end }}{{ end }}</ul></div>{{ end }}
   {{ with $cat }}{{ with $same }}<div><h2>More in <a href="{{ printf "/%s/category/%s/" $sec $slug | relURL }}">{{ $cat.title }}</a></h2><ul>{{ range first 8 .ByTitle }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}</ul></div>{{ end }}{{ end }}
   <p class="meta"><a href="{{ printf "/%s/map/" $sec | relURL }}?focus={{ $self }}">See this page on the knowledge graph →</a> · <a href="{{ "/map/" | relURL }}?focus={{ $self }}">on the site-wide map →</a></p>
 </aside>

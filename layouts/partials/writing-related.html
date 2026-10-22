@@ -1,0 +1,11 @@
+{{/* For a Substack post: knowledge-base pages it relates to (scripts/relate_writing.py) and more essays in its topics. */}}
+{{ $g := partialCached "linkgraph.html" "all" "all" }}{{ $byurl := partialCached "kb-byurl.html" "all" "all" }}
+{{ $self := .RelPermalink }}{{ $ts := .Params.topics | default slice }}
+{{ $cats := hugo.Data.topics.writing }}{{ $cat := index (where $cats "slug" (index $ts 0)) 0 }}
+{{ $kb := slice }}{{ range index $g.out $self }}{{ if not (hasPrefix . "/writing/") }}{{ $kb = $kb | append . }}{{ end }}{{ end }}
+{{ $same := where (where (where site.RegularPages "Section" "writing") "Params.topics" "intersect" $ts) "RelPermalink" "ne" $self }}
+<aside class="related" data-pagefind-ignore style="--c:{{ with $cat }}{{ .color }}{{ else }}#B5AC9A{{ end }}">
+  {{ with $kb }}<div><h2>Related in the knowledge base</h2><ul>{{ range . }}{{ with index $byurl . }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a> <span class="xsec">{{ .CurrentSection.Title }}</span></li>{{ end }}{{ end }}</ul></div>{{ end }}
+  {{ with $same }}<div><h2>More essays on {{ range $i, $t := $ts }}{{ with index (where $cats "slug" $t) 0 }}{{ if $i }} &amp; {{ end }}<a href="{{ printf "/writing/category/%s/" .slug | relURL }}" style="color:{{ .color }}">{{ .title }}</a>{{ end }}{{ end }}</h2><ul>{{ range first 6 .ByDate.Reverse }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}</ul></div>{{ end }}
+  <p class="meta"><a href="{{ "/map/" | relURL }}?focus={{ $self }}">See this essay on the site-wide map →</a></p>
+</aside>

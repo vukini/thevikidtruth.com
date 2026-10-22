@@ -15,5 +15,5 @@
 <nav class="catindex" aria-label="Other categories" data-pagefind-ignore>
 {{ range $cats }}<a href="{{ printf "/%s/category/%s/" $sec .slug | relURL }}" style="--c:{{ .color }}"{{ if eq .slug $slug }} aria-current="page"{{ end }}><i></i>{{ .title }}</a>{{ end }}
 </nav>
-<ol class="list">{{ range $ps.ByTitle }}{{ partial "toc-item.html" . }}{{ end }}</ol>
+<ol class="list">{{ range (cond (eq $sec "writing") $ps.ByDate.Reverse $ps.ByTitle) }}{{ partial "toc-item.html" . }}{{ end }}</ol>
 {{ end }}

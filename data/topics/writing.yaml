@@ -1,0 +1,9 @@
+# Topics for the Substack essays in /writing/. Assignment lives in data/writing_topics.yaml (scripts/relate_writing.py), applied via config/_default/cascade.yaml.
+- {slug: society, title: "Politics & society", color: "#E07A3F", intro: "Elections, lockdowns, money, media, history and the games people in power play."}
+- {slug: mind, title: "Mind, logic & science", color: "#7FA7E0", intro: "Paradoxes, physics, intelligence and stupidity: thinking about thinking."}
+- {slug: spirit, title: "Spirit & non-duality", color: "#C58BD8", intro: "Meditation, awareness, God and light: the inner place."}
+- {slug: health, title: "Body, health & fasting", color: "#8FB86B", intro: "The 20-day Vikid Fast diary, water and dry fasting, bulking, cutting and staying alive."}
+- {slug: culture, title: "Film, books & culture", color: "#D98FA0", intro: "Reviews and riffs: Avatar, Nolan, Dune, The Expanse, Pulp Fiction and the stories we tell."}
+- {slug: music, title: "Music & guitar", color: "#F2B544", intro: "The fretboard, the language of music and the Vikid School of Music."}
+- {slug: tech, title: "Technology & AI", color: "#6FC2B4", intro: "Computers, artificial intelligence and digital identity."}
+- {slug: life, title: "Life & stories", color: "#A89C86", intro: "Everything else: lessons, adventures and why write at all."}

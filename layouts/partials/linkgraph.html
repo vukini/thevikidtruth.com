@@ -12,6 +12,10 @@
   {{ range findRESubmatch `\]\(([A-Za-z0-9_\-]+)\.md(?:#[^)]*)?\)` $body }}
     {{ with index $map (index . 1) }}{{ if and (index $ok .) (ne . $p.RelPermalink) (not (in $targets .)) }}{{ $targets = $targets | append . }}{{ end }}{{ end }}
   {{ end }}
+  {{/* Substack posts have no wiki links: use their computed knowledge-base relations (data/writing_related.yaml). */}}
+  {{ if eq $p.Section "writing" }}{{ with $p.File }}{{ range index hugo.Data.writing_related .ContentBaseName }}
+    {{ with index $map . }}{{ if and (index $ok .) (not (in $targets .)) }}{{ $targets = $targets | append . }}{{ end }}{{ end }}
+  {{ end }}{{ end }}{{ end }}
   {{ $out = merge $out (dict $p.RelPermalink $targets) }}
   {{ range $targets }}{{ $in = merge $in (dict . ((index $in . | default slice) | append $p.RelPermalink)) }}{{ end }}
 {{ end }}

@@ -1,0 +1,20 @@
+{{ define "main" }}
+{{ $bys := partialCached "pages-byslug.html" "all" "all" }}
+<header class="ahead withart">
+<div class="ahead-text">
+  <p class="crumb"><a href="{{ "/" | relURL }}">Home</a> / Resources</p>
+  <h1>{{ .Title }}</h1>
+  <p class="sub">Reading lists, quicklinks and tools from across the site, in one place. New to it all? <a href="{{ "start/" | relURL }}">Start here</a>.</p>
+</div>
+  {{ partial "art.html" (dict "key" "resources" "eager" true) }}
+</header>
+{{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+<div class="paths">
+{{ range $g := hugo.Data.resources.groups }}{{ $ps := slice }}{{ range .items }}{{ with index $bys . }}{{ $ps = $ps | append . }}{{ end }}{{ end }}
+{{ with $ps }}<section class="path" style="--c:{{ $g.color }}">
+    <h2>{{ $g.title }}</h2><p>{{ $g.intro }}</p>
+    <ul>{{ range . }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ if ne .Section "resources" }} <span>{{ .CurrentSection.Title }}</span>{{ end }}</li>{{ end }}</ul>
+  </section>{{ end }}
+{{ end }}
+</div>
+{{ end }}

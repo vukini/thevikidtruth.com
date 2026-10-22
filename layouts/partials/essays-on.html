@@ -1,0 +1,4 @@
+{{/* "Essays on this" for wiki pages that have no category (and so no related.html aside). */}}
+{{ $g := partialCached "linkgraph.html" "all" "all" }}{{ $byurl := partialCached "kb-byurl.html" "all" "all" }}
+{{ $es := slice }}{{ range index $g.in .RelPermalink }}{{ if hasPrefix . "/writing/" }}{{ $es = $es | append . }}{{ end }}{{ end }}
+{{ with $es }}<aside class="related" data-pagefind-ignore style="--c:#F6D58E"><div class="essays-on"><h2>Essays on this</h2><ul>{{ range first 8 . }}{{ with index $byurl . }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}{{ end }}</ul></div></aside>{{ end }}

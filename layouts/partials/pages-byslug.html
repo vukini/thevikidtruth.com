@@ -1,0 +1,3 @@
+{{/* wikislug -> Page for every published page with a wikislug (drafts excluded by Hugo). */}}
+{{ $m := dict }}{{ range $p := site.RegularPages }}{{ with $p.Params.wikislug }}{{ $m = merge $m (dict (string .) $p) }}{{ end }}{{ end }}
+{{ return $m }}

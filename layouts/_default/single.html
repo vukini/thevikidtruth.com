@@ -16,7 +16,8 @@
 <div class="prose" data-pagefind-body>{{ .Content }}</div>
 <p class="meta">Last edited <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "2 Jan 2006" }}</time>{{ with .Params.revisions }} · {{ . }} revisions{{ end }}</p>
 {{ end }}
-{{ if and .Params.topics (index hugo.Data.topics .Section) }}{{ partial "related.html" . }}{{ end }}
+{{ if eq .Section "writing" }}{{ partial "writing-related.html" . }}{{ else if and .Params.topics (index hugo.Data.topics .Section) }}{{ partial "related.html" . }}{{ else }}{{ partial "essays-on.html" . }}{{ end }}
+{{ if in (slice "writing" "essays") .Section }}{{ partial "subscribe.html" . }}{{ end }}
 {{ with .GetTerms "tags" }}<p class="meta tags" data-pagefind-ignore>Tags: {{ range . }}<a href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a> {{ end }}</p>{{ end }}
 <nav class="pn" aria-label="More in {{ $sec.Title }}" data-pagefind-ignore>
   {{ $list := cond (eq .Section "writing") $sec.RegularPages.ByDate $sec.RegularPages.ByTitle }}
