@@ -1,0 +1,1 @@
+{{ $cur := . }}{{ range site.Menus.main }}<a href="{{ .URL }}"{{ if or ($cur.IsMenuCurrent "main" .) ($cur.HasMenuCurrent "main" .) (and .Page (eq .Page.Section $cur.Section) (not $cur.IsHome)) }} aria-current="page"{{ end }}>{{ .Name }}</a>{{ end }}<a href="{{ "search/" | relURL }}">Search</a>

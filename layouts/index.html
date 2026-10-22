@@ -1,9 +1,36 @@
 {{ define "main" }}
-{{ with site.GetPage "/about/home" }}<article class="prose">{{ .Content }}</article>{{ end }}
-<section><h2>Latest writing</h2>
-{{ partial "page-list.html" (first 10 (where site.RegularPages "Section" "writing").ByDate.Reverse) }}
-<p><a href="{{ "writing/" | relURL }}">All writing →</a></p></section>
-<section><h2>Wiki</h2><ul class="page-list">
-{{ range site.Sections }}{{ if ne .Section "writing" }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a> <small>({{ len .RegularPages }})</small></li>{{ end }}{{ end }}
-</ul></section>
+{{ $writing := (where site.RegularPages "Section" "writing").ByDate.Reverse }}
+<section class="hero">
+  <p class="kicker">A personal archive · est. on PicoLisp</p>
+  <h1 class="lens" tabindex="0" aria-label="Look closer. Truth below." aria-describedby="lens-help"><span class="under" aria-hidden="true">Truth below.</span><span class="over" aria-hidden="true">Look closer.</span></h1>
+  <p class="lede">{{ len $writing }} essays and a growing knowledge base on computing, mathematics, science, languages and music. <span id="lens-help">Move the lens over the headline (or focus it and use the arrow keys).</span></p>
+</section>
+<section class="latest">
+  <h2 class="sec">Latest from Writing</h2>
+  {{ with index $writing 0 }}
+  <a class="feature" href="{{ .RelPermalink }}">
+    {{ with partial "cover.html" . }}<img src="{{ . }}" alt="" loading="eager">{{ end }}
+    <div><time>{{ .Date.Format "2 Jan 2006" }}</time><h3>{{ .Title }}</h3>{{ with .Params.subtitle }}<p>{{ . }}</p>{{ end }}<span class="more">Read the {{ .ReadingTime }}-minute essay →</span></div>
+  </a>
+  {{ end }}
+  <ol class="list">{{ range after 1 (first 6 $writing) }}{{ partial "toc-item.html" . }}{{ end }}</ol>
+  <a class="all" href="{{ "writing/" | relURL }}">All {{ len $writing }} essays →</a>
+</section>
+<section class="kbsec">
+  <h2 class="sec">Knowledge base</h2>
+  <div class="grid">
+  {{ range site.Sections.ByWeight }}{{ if ne .Section "writing" }}
+    <a class="kb" href="{{ .RelPermalink }}"><span class="n">{{ len .RegularPages }}</span><h3>{{ .Title }}</h3><p>{{ .Description }}</p></a>
+  {{ end }}{{ end }}
+  </div>
+</section>
+<script>
+(()=>{const l=document.querySelector(".lens");if(!l)return;
+const set=(x,y)=>{l.style.setProperty("--x",x+"px");l.style.setProperty("--y",y+"px")};
+l.addEventListener("pointermove",e=>{const r=l.getBoundingClientRect();set(e.clientX-r.left,e.clientY-r.top)});
+let kx=null,ky=null;l.addEventListener("keydown",e=>{const r=l.getBoundingClientRect(),s=24;
+if(kx===null){kx=r.width*.6;ky=r.height*.5}
+const d={ArrowLeft:[-s,0],ArrowRight:[s,0],ArrowUp:[0,-s],ArrowDown:[0,s]}[e.key];if(!d)return;
+e.preventDefault();kx=Math.max(0,Math.min(r.width,kx+d[0]));ky=Math.max(0,Math.min(r.height,ky+d[1]));set(kx,ky)})})();
+</script>
 {{ end }}

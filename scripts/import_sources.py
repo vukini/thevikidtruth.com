@@ -36,6 +36,6 @@ for f in sorted((WIKI/"articles").glob("*.md")):
     out = "---\n" + yaml.safe_dump(fm, sort_keys=False, allow_unicode=True) + "---\n" + body
     (c/sec/f.name).write_text(out)
     counts.setdefault(sec, [0,0]); counts[sec][0 if judg=="keep" else 1] += 1
-TITLES={"writing":"Writing","computing":"Computing","mathematics":"Mathematics","science":"Science","languages":"Languages","music":"Music","essays":"Essays & Ideas","resources":"Resources","about":"About"}
-for k,v in TITLES.items(): (c/k/"_index.md").write_text(f'---\ntitle: "{v}"\n---\n')
+TITLES={"writing":("Writing","Essays first published on Substack"),"computing":("Computing","PicoLisp, programming languages, Linux, networking & security"),"mathematics":("Mathematics","Sets, algebra, logic, category theory"),"science":("Science","Physics, chemistry, biology"),"languages":("Languages","Kiswahili, Arabic, Esperanto and more"),"music":("Music","Theory, practice, listening"),"essays":("Essays & Ideas","Philosophy, politics, economics, film"),"resources":("Resources","Quicklinks and reading lists"),"about":("About","Who is The VikiD Truth?")}
+for w,(k,(v,d)) in enumerate(TITLES.items()): (c/k/"_index.md").write_text(f'---\ntitle: "{v}"\ndescription: "{d}"\nweight: {w}\n---\n')
 print("section: published, draft", counts)

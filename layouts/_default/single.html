@@ -1,14 +1,25 @@
+{{ define "mainclass" }}article{{ end }}
 {{ define "main" }}
-<article class="prose">
-  <header class="page-meta" data-pagefind-ignore>
-    {{ if eq .Section "writing" }}<h1 data-pagefind-meta="title">{{ .Title }}</h1>{{ with .Params.subtitle }}<p class="subtitle">{{ . }}</p>{{ end }}
-    <time>{{ .Date.Format "2 January 2006" }}</time>{{ end }}
-  </header>
-  {{ .Content }}
-  <footer class="page-meta" data-pagefind-ignore>
-    {{ with .GetTerms "tags" }}<p>Tags: {{ range . }}<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a> {{ end }}</p>{{ end }}
-    {{ with .Params.original_url }}<p><a href="{{ . }}">Originally published on Substack</a></p>{{ end }}
-    {{ if .Params.wikislug }}<p>Last edited {{ .Lastmod.Format "2 January 2006" }}</p>{{ end }}
-  </footer>
-</article>
+{{ $sec := .CurrentSection }}
+{{ if eq .Section "writing" }}
+<header class="ahead">
+  <p class="crumb"><a href="{{ $sec.RelPermalink }}">Writing</a></p>
+  <h1 data-pagefind-meta="title">{{ .Title }}</h1>
+  {{ with .Params.subtitle }}<p class="sub">{{ . }}</p>{{ end }}
+  <p class="meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan 2006" }}</time> · {{ .ReadingTime }} min read{{ with .Params.original_url }} · <a href="{{ . }}">Originally on Substack</a>{{ end }}</p>
+</header>
+<div class="prose dropcap" data-pagefind-body>{{ .Content }}</div>
+{{ else }}
+<header class="ahead wikihead" data-pagefind-ignore>
+  <p class="crumb"><a href="{{ "/" | relURL }}">Knowledge base</a> / <a href="{{ $sec.RelPermalink }}">{{ $sec.Title }}</a></p>
+</header>
+<div class="prose" data-pagefind-body>{{ .Content }}</div>
+<p class="meta">Last edited <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "2 Jan 2006" }}</time>{{ with .Params.revisions }} · {{ . }} revisions{{ end }}</p>
+{{ end }}
+{{ with .GetTerms "tags" }}<p class="meta tags" data-pagefind-ignore>Tags: {{ range . }}<a href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a> {{ end }}</p>{{ end }}
+<nav class="pn" aria-label="More in {{ $sec.Title }}" data-pagefind-ignore>
+  {{ $list := cond (eq .Section "writing") $sec.RegularPages.ByDate $sec.RegularPages.ByTitle }}
+  {{ with $list.Prev . }}<a href="{{ .RelPermalink }}">← {{ .Title }}</a>{{ else }}<span></span>{{ end }}
+  {{ with $list.Next . }}<a href="{{ .RelPermalink }}">{{ .Title }} →</a>{{ end }}
+</nav>
 {{ end }}

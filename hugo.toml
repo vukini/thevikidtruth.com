@@ -54,10 +54,11 @@ enableRobotsTXT = true
     name = "About"
     pageRef = "/about"
     weight = 90
-  [[menus.main]]
-    name = "Search"
-    pageRef = "/search"
-    weight = 100
-
 [sitemap]
   changeFreq = "monthly"
+
+[params]
+  substack = "https://thevikidtruth.substack.com/"
+
+[markup.highlight]
+  noClasses = false

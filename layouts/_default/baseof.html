@@ -4,15 +4,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
-  {{ with .Description }}<meta name="description" content="{{ . }}">{{ end }}
+  {{ with (.Description | default .Params.subtitle) }}<meta name="description" content="{{ . }}">{{ end }}
   {{ range .AlternativeOutputFormats }}<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ site.Title }}">{{ end }}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
   {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
   {{ block "head" . }}{{ end }}
 </head>
-<body>
+<body class="{{ if .IsHome }}home{{ else if eq .Section "writing" }}post{{ else }}wiki{{ end }}">
+  <a class="skip" href="#main">Skip to content</a>
   {{ partial "header.html" . }}
-  <main class="container" data-pagefind-body>{{ block "main" . }}{{ end }}</main>
+  <main id="main" class="{{ block "mainclass" . }}{{ end }}">{{ block "main" . }}{{ end }}</main>
   {{ partial "footer.html" . }}
 </body>
 </html>

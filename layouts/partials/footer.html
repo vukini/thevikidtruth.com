@@ -1,3 +1,4 @@
-<footer class="site-footer" data-pagefind-ignore>
-  <div class="container">© {{ now.Year }} {{ site.Title }} · <a href="{{ "index.xml" | absURL }}">RSS</a> · <a href="{{ "tags/" | relURL }}">Tags</a></div>
+<footer class="foot" data-pagefind-ignore>
+  <p>The VikiD Truth — revealing what’s underneath since the PicoLisp wiki days.</p>
+  <p><a href="{{ "index.xml" | relURL }}">RSS</a> · <a href="{{ site.Params.substack }}">Substack</a> · <a href="{{ "writing/" | relURL }}">Archive ({{ len (where site.RegularPages "Section" "writing") }})</a> · <a href="{{ "tags/" | relURL }}">Tags</a></p>
 </footer>

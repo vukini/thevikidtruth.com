@@ -1,8 +1,5 @@
-<header class="site-header" data-pagefind-ignore>
-  <div class="container">
-    <a class="site-title" href="{{ "/" | relURL }}">{{ site.Title }}</a>
-    <nav class="site-nav">
-      {{ range site.Menus.main }}<a href="{{ .URL }}"{{ if $.IsMenuCurrent "main" . }} aria-current="page"{{ end }}>{{ .Name }}</a>{{ end }}
-    </nav>
-  </div>
+<header class="top" data-pagefind-ignore>
+  <a class="brand" href="{{ "/" | relURL }}"><span class="mark" aria-hidden="true"></span><span class="name">The VikiD <i>Truth</i></span></a>
+  <details class="menu"><summary>Menu</summary><nav aria-label="Main (mobile)">{{ partial "nav.html" . }}</nav></details>
+  <nav class="full" aria-label="Main">{{ partial "nav.html" . }}</nav>
 </header>

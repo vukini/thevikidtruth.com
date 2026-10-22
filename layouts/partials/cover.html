@@ -1,0 +1,3 @@
+{{/* first local image of an essay, or "" */}}
+{{ $m := findRE `/assets/[^)\s"]+\.(?:jpe?g|png|webp|gif)` .RawContent 1 }}
+{{ return (index $m 0 | default "") }}

@@ -1,2 +1,2 @@
-{{ define "main" }}<h1>{{ .Title }}</h1>
-<ul class="page-list">{{ range .Data.Terms.ByCount }}<li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a> <small>({{ .Count }})</small></li>{{ end }}</ul>{{ end }}
+{{ define "main" }}<header class="ahead"><p class="crumb"><a href="{{ "/" | relURL }}">Home</a> / Taxonomy</p><h1>{{ .Title }}</h1></header>
+<div class="grid">{{ range .Data.Terms.ByCount }}<a class="kb" href="{{ .Page.RelPermalink }}"><span class="n">{{ .Count }}</span><h3>{{ .Page.Title }}</h3></a>{{ end }}</div>{{ end }}
