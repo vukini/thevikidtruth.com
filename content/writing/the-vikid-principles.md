@@ -3,8 +3,9 @@ title: "The Vikid Principles"
 subtitle: "Where there's Only One Principle and We Live on the Edge. "
 date: 2020-09-20T08:29:56.941Z
 original_url: "https://thevikidtruth.substack.com/p/the-vikid-principles"
-tags: []
+tags: ["vikid"]
 paywalled: false
+series: ["vikid"]
 ---
 **The Vikid Principles** is a book I wanted to write for several years but for one reason or the other the idea wouldn’t solidify over something substantial. That is until now. The mind is a machine that likes to over complicate everything and my mind has been on hyper-drive for several years now.
 

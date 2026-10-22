@@ -6,6 +6,7 @@ enableRobotsTXT = true
 [taxonomies]
   tag = "tags"
   category = "categories"
+  series = "series"
 
 [outputs]
   home = ["HTML", "RSS"]
@@ -50,6 +51,10 @@ enableRobotsTXT = true
     name = "Resources"
     pageRef = "/resources"
     weight = 80
+  [[menus.main]]
+    name = "VikiD"
+    pageRef = "/vikid"
+    weight = 85
   [[menus.main]]
     name = "About"
     pageRef = "/about"

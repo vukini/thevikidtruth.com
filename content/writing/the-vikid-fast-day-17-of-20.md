@@ -3,7 +3,7 @@ title: "The Vikid Fast - Day 17 of 20"
 subtitle: "Doubts, Norio Kushi & The Phantom"
 date: 2020-08-24T04:51:05.800Z
 original_url: "https://thevikidtruth.substack.com/p/the-vikid-fast-day-17-of-20"
-tags: []
+tags: ["vikid", "vikid-fast"]
 paywalled: false
 ---
 ## Doubts

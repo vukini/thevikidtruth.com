@@ -3,8 +3,9 @@ title: "Auguries of Vikidness"
 subtitle: "The Man who saw Infinity and Held it in the Palm of his Hand"
 date: 2024-09-30T04:27:48.581Z
 original_url: "https://thevikidtruth.substack.com/p/auguries-of-vikidness"
-tags: []
+tags: ["vikid"]
 paywalled: false
+series: ["vikid"]
 ---
 He had spent such a long time searching for answers that at some point he figured out he’d forgotten the question.
 

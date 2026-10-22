@@ -3,7 +3,7 @@ title: "The Vikid Fast - Day 4 of 20"
 subtitle: "On Giving Up and Quiting the News"
 date: 2020-08-11T05:03:22.925Z
 original_url: "https://thevikidtruth.substack.com/p/the-vikid-fast-day-4-of-20"
-tags: []
+tags: ["vikid", "vikid-fast"]
 paywalled: false
 ---
 

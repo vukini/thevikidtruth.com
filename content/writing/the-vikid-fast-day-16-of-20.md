@@ -3,7 +3,7 @@ title: "The Vikid Fast - Day 16 of 20"
 subtitle: "Adventure & The Brahmamuhurta"
 date: 2020-08-23T12:44:20.185Z
 original_url: "https://thevikidtruth.substack.com/p/the-vikid-fast-day-16-of-20"
-tags: []
+tags: ["vikid", "vikid-fast"]
 paywalled: false
 ---
 ## Adventure

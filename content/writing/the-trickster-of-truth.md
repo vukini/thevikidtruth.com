@@ -3,8 +3,9 @@ title: "The Trickster of Truth"
 subtitle: "Breaking out of the Confusion "
 date: 2022-11-18T03:47:59.466Z
 original_url: "https://thevikidtruth.substack.com/p/the-trickster-of-truth"
-tags: []
+tags: ["vikid"]
 paywalled: false
+series: ["vikid"]
 ---
 > Man is born free, and everywhere he is in chains.
 

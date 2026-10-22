@@ -3,8 +3,9 @@ title: "The Sermon of The Vikid Truth"
 subtitle: "Can Awareness Save the Day?"
 date: 2023-03-24T16:19:05.197Z
 original_url: "https://thevikidtruth.substack.com/p/the-sermon-of-the-vikid-truth"
-tags: []
+tags: ["vikid"]
 paywalled: false
+series: ["vikid"]
 ---
 
 ![](/assets/the-sermon-of-the-vikid-truth/baef7e34f91d.jpeg)

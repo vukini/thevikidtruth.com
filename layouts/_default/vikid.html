@@ -1,0 +1,20 @@
+{{ define "main" }}
+{{ $all := (index site.Taxonomies.tags "vikid").Pages.ByDate.Reverse }}
+{{ $fast := where $all "Params.tags" "intersect" (slice "vikid-fast") }}
+{{ $series := where $all "Params.series" "intersect" (slice "vikid") }}
+<header class="ahead vikidhead">
+  <img class="badge" src="{{ "img/vikid-badge.webp" | relURL }}" width="180" height="180" alt="ViKiD TRUTH badge: the caped hero punching forward">
+  <div>
+    <p class="crumb"><a href="{{ "/" | relURL }}">Home</a> / Series</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="sub">{{ . }}</p>{{ end }}
+    <p class="meta">{{ len $series }} character essays · {{ len $fast }} days of the VikiD Fast</p>
+  </div>
+</header>
+<div class="prose">{{ .Content }}</div>
+<h2 class="sec">The character essays</h2>
+<ol class="list">{{ range $series }}{{ partial "toc-item.html" . }}{{ end }}</ol>
+<h2 class="sec">The VikiD Fast</h2>
+<ol class="list">{{ range $fast.ByDate }}{{ partial "toc-item.html" . }}{{ end }}</ol>
+<p class="meta"><a href="{{ "tags/vikid/" | relURL }}">All posts tagged #vikid →</a></p>
+{{ end }}

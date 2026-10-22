@@ -3,7 +3,7 @@ title: "The Vikid Fast - Day 13 of 20"
 subtitle: "Trinity & Mountain Top"
 date: 2020-08-20T04:59:29.983Z
 original_url: "https://thevikidtruth.substack.com/p/the-vikid-fast-day-13-of-20"
-tags: []
+tags: ["vikid", "vikid-fast"]
 paywalled: false
 ---
 ## Trinity

@@ -1,9 +1,18 @@
 {{ define "main" }}
 {{ $writing := (where site.RegularPages "Section" "writing").ByDate.Reverse }}
 <section class="hero">
-  <p class="kicker">A personal archive · est. on PicoLisp</p>
+  <div class="hero-text">
+  <p class="kicker">{{ with .Params.tagline }}{{ . }} · {{ end }}A personal archive · est. on PicoLisp</p>
   <h1 class="lens" tabindex="0" aria-label="Look closer. Truth below." aria-describedby="lens-help"><span class="under" aria-hidden="true">Truth below.</span><span class="over" aria-hidden="true">Look closer.</span></h1>
   <p class="lede">{{ len $writing }} essays and a growing knowledge base on computing, mathematics, science, languages and music. <span id="lens-help">Move the lens over the headline (or focus it and use the arrow keys).</span></p>
+  </div>
+  <figure class="hero-char">
+    <picture><source srcset="{{ "img/vikid-hero.webp" | relURL }}" type="image/webp"><img src="{{ "img/vikid-hero.png" | relURL }}" width="578" height="657" alt="The VikiD Truth: a grinning superhero caricature with black hair, thick black glasses and a yellow hooded cape" loading="eager" fetchpriority="high"></picture>
+  </figure>
+</section>
+<section class="intro">
+  <div class="prose">{{ .Content }}</div>
+  <p class="more-links"><a class="all" href="{{ "vikid/" | relURL }}">Meet VikiD: the character essays →</a> <a class="all" href="{{ "about/" | relURL }}">About →</a></p>
 </section>
 <section class="latest">
   <h2 class="sec">Latest from Writing</h2>

@@ -3,7 +3,7 @@ title: "The Vikid Fast - Day 5 of 20"
 subtitle: "Cruisin\u2019"
 date: 2020-08-12T05:16:12.712Z
 original_url: "https://thevikidtruth.substack.com/p/the-vikid-fast-day-5-of-20"
-tags: []
+tags: ["vikid", "vikid-fast"]
 paywalled: false
 ---
 

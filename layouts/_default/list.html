@@ -5,6 +5,6 @@
   {{ with .Description }}<p class="sub">{{ . }}</p>{{ end }}
   <p class="meta">{{ len .RegularPages }} {{ if eq .Section "writing" }}essays{{ else }}entries{{ end }}</p>
 </header>
-{{ .Content }}
+{{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
 <ol class="list">{{ range (cond (eq .Section "writing") .RegularPages.ByDate.Reverse .RegularPages.ByTitle) }}{{ partial "toc-item.html" . }}{{ end }}</ol>
 {{ end }}

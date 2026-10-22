@@ -3,7 +3,7 @@ title: "The Vikid Truth - Day 14 of 20"
 subtitle: "Energy & Emanations, Michael J. Roads "
 date: 2020-08-21T08:16:43.938Z
 original_url: "https://thevikidtruth.substack.com/p/the-vikid-truth-day-14-of-20"
-tags: []
+tags: ["vikid", "vikid-fast"]
 paywalled: false
 ---
 ## Energy & Emanations

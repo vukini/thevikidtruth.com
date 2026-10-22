@@ -3,7 +3,7 @@ title: "The Vikid Fast - Day 8 of 20"
 subtitle: "Coconut meets coconut & Adipose Power"
 date: 2020-08-15T06:26:45.050Z
 original_url: "https://thevikidtruth.substack.com/p/the-vikid-fast-day-8-of-20"
-tags: []
+tags: ["vikid", "vikid-fast"]
 paywalled: false
 ---
 

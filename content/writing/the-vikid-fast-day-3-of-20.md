@@ -3,7 +3,7 @@ title: "The Vikid Fast - Day 3 of 20"
 subtitle: "Yogani, Ramakrishna, Frank & Going Deep Again and Again..."
 date: 2020-08-10T10:04:46.600Z
 original_url: "https://thevikidtruth.substack.com/p/the-vikid-fast-day-3-of-20"
-tags: []
+tags: ["vikid", "vikid-fast"]
 paywalled: false
 ---
 ##### Summary First…

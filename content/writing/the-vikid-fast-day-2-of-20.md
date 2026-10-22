@@ -3,7 +3,7 @@ title: "The Vikid Fast - Day 2 of 20"
 subtitle: "Guacamole, Coconuts & Sufi Dreams "
 date: 2020-08-09T07:47:37.683Z
 original_url: "https://thevikidtruth.substack.com/p/the-vikid-fast-day-2-of-20"
-tags: []
+tags: ["vikid", "vikid-fast"]
 paywalled: false
 ---
 So last night I went out to a really cute Mexican restaurant with the hosts, a couple with two kids the same age as ours. They have had a rotten time with the lockdown. It’s hard to fathom how bad the lockdowns have destroyed people’s lives. It does really make me question what we are doing as a society and what we can do better.

@@ -3,8 +3,9 @@ title: "Vikid-Energy"
 subtitle: "On Chameleons with No Head"
 date: 2020-09-29T07:21:00.813Z
 original_url: "https://thevikidtruth.substack.com/p/vikid-energy"
-tags: []
+tags: ["vikid"]
 paywalled: false
+series: ["vikid"]
 ---
 
 ###### (Please remember to ‘Load Images’ in your email app!)

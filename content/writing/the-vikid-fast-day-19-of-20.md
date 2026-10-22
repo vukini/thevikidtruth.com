@@ -3,7 +3,7 @@ title: "The Vikid Fast - Day 19 of 20"
 subtitle: "Cannes, Aviation & Breakfast"
 date: 2020-08-26T18:01:10.976Z
 original_url: "https://thevikidtruth.substack.com/p/the-vikid-fast-day-19-of-20"
-tags: []
+tags: ["vikid", "vikid-fast"]
 paywalled: false
 ---
 ## Cannes

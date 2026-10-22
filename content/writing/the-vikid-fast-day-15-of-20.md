@@ -3,7 +3,7 @@ title: "The Vikid Fast - Day 15 of 20"
 subtitle: "Hunger, Stillness and Ants"
 date: 2020-08-22T12:54:06.781Z
 original_url: "https://thevikidtruth.substack.com/p/the-vikid-fast-day-15-of-20"
-tags: []
+tags: ["vikid", "vikid-fast"]
 paywalled: false
 ---
 

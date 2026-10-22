@@ -3,7 +3,7 @@ title: "The Vikid Fast - Day 11 of 20"
 subtitle: "Novelty, The Ribhu Gita, On Having No Thoughts & Being Buddha"
 date: 2020-08-18T09:07:12.595Z
 original_url: "https://thevikidtruth.substack.com/p/the-vikid-fast-day-11-of-20"
-tags: []
+tags: ["vikid", "vikid-fast"]
 paywalled: false
 ---
 ## Novelty

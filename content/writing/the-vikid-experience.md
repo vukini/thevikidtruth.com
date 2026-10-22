@@ -3,8 +3,9 @@ title: "The Vikid Experience "
 subtitle: "Moving Minds - A Tale of the Inexplicable "
 date: 2024-09-16T04:12:21.843Z
 original_url: "https://thevikidtruth.substack.com/p/the-vikid-experience"
-tags: []
+tags: ["vikid"]
 paywalled: false
+series: ["vikid"]
 ---
 
 ![](/assets/the-vikid-experience/424ee34b27a4.jpeg)

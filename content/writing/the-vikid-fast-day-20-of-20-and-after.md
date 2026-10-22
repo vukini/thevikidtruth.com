@@ -3,7 +3,7 @@ title: "The Vikid Fast - Day 20 of 20 and After"
 subtitle: "Break Fast Sensibilities Feast Refast"
 date: 2020-08-30T08:57:28.487Z
 original_url: "https://thevikidtruth.substack.com/p/the-vikid-fast-day-20-of-20-and-after"
-tags: []
+tags: ["vikid", "vikid-fast"]
 paywalled: false
 ---
 

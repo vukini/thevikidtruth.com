@@ -3,7 +3,7 @@ title: "The Vikid Fast - Day 18 of 20"
 subtitle: "Jexi, C\u00f4te d'Azur & Pool Meditation "
 date: 2020-08-25T17:54:24.877Z
 original_url: "https://thevikidtruth.substack.com/p/the-vikid-fast-day-18-of-20"
-tags: []
+tags: ["vikid", "vikid-fast"]
 paywalled: false
 ---
 ## Jexi

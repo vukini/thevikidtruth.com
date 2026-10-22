@@ -3,7 +3,7 @@ title: "The Vikid Fast - Day 7 of 20"
 subtitle: "Celebrating Good Times, Come On!"
 date: 2020-08-14T02:36:51.925Z
 original_url: "https://thevikidtruth.substack.com/p/the-vikid-fast-day-7-of-20"
-tags: []
+tags: ["vikid", "vikid-fast"]
 paywalled: false
 ---
 ## Celebrate

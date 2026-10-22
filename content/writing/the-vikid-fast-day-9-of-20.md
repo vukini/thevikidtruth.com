@@ -3,7 +3,7 @@ title: "The Vikid Fast - Day 9 of 20"
 subtitle: "Breaking Rules, Tension, Dreams & The Third Eye"
 date: 2020-08-16T04:59:59.112Z
 original_url: "https://thevikidtruth.substack.com/p/the-vikid-fast-day-9-of-20"
-tags: []
+tags: ["vikid", "vikid-fast"]
 paywalled: false
 ---
 

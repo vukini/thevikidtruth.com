@@ -3,8 +3,9 @@ title: "On Becoming a Hero"
 subtitle: "The path from Ordinary to Extraordinary "
 date: 2020-08-07T18:34:49.579Z
 original_url: "https://thevikidtruth.substack.com/p/on-becoming-a-hero"
-tags: []
+tags: ["vikid"]
 paywalled: false
+series: ["vikid"]
 ---
 
 I’ve read two amazing books this year ([Can’t Hurt Me](https://www.amazon.co.uk/Cant-Hurt-Me-Master-Your/dp/1544512279/ref=mp_s_a_1_1?dchild=1&keywords=goggins+cant+hurt+me&qid=1596809833&sprefix=goggins&sr=8-1) and [The Art of Resilience](https://www.amazon.co.uk/Art-Resilience-Ross-Edgley/dp/000835698X/ref=mp_s_a_1_1?dchild=1&keywords=ross+edgley+art+of+resilience&qid=1596809893&sprefix=ross&sr=8-1) ) that have convinced me to attempt something heroic. Ah the dreams to become a hero, every child to have ever lived has had these dreams.

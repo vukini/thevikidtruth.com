@@ -3,8 +3,9 @@ title: "Opposite Thinking"
 subtitle: "A Continuous Practice of Inversion"
 date: 2020-06-22T05:21:54.408Z
 original_url: "https://thevikidtruth.substack.com/p/opposite-thinking"
-tags: []
+tags: ["vikid"]
 paywalled: false
+series: ["vikid"]
 ---
 I want you to consider a practice. A practice that can be done at any time and at any place, a practice that can actually be made so automatic that it is done subconsciously at the speed of thought itself.
 

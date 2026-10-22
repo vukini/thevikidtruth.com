@@ -3,8 +3,9 @@ title: "Vikid Truth and The Holy Grail"
 subtitle: "Come, have a drink from the Chalice"
 date: 2026-07-25T00:55:32.179Z
 original_url: "https://thevikidtruth.substack.com/p/vikid-truth-and-the-holy-grail"
-tags: []
+tags: ["vikid"]
 paywalled: false
+series: ["vikid"]
 ---
 
 ![](/assets/vikid-truth-and-the-holy-grail/35a944e7947e.jpeg)

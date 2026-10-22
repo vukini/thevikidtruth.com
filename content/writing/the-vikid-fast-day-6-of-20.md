@@ -3,7 +3,7 @@ title: "The Vikid Fast - Day 6 of 20"
 subtitle: "Furry Crashin\u2019 Loneliness "
 date: 2020-08-13T05:01:32.701Z
 original_url: "https://thevikidtruth.substack.com/p/the-vikid-fast-day-6-of-20"
-tags: []
+tags: ["vikid", "vikid-fast"]
 paywalled: false
 ---
 

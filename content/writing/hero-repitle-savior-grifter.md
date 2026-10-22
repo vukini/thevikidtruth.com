@@ -3,8 +3,9 @@ title: "Hero, Repitle, Savior, Grifter"
 subtitle: "One Screen, Many Movies"
 date: 2022-10-24T03:22:34.150Z
 original_url: "https://thevikidtruth.substack.com/p/hero-repitle-savior-grifter"
-tags: []
+tags: ["vikid"]
 paywalled: false
+series: ["vikid"]
 ---
 *“It is a well established fact that Art is subjective”*, these were the thoughts running through Vikid’s mind when a friend online posted a photo with the caption:
 

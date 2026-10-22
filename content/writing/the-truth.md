@@ -3,8 +3,9 @@ title: "The Truth"
 subtitle: "So very Vikid"
 date: 2022-10-14T10:26:25.624Z
 original_url: "https://thevikidtruth.substack.com/p/the-truth"
-tags: []
+tags: ["vikid"]
 paywalled: false
+series: ["vikid"]
 ---
 So I spotted this earlier today:
 

@@ -3,7 +3,7 @@ title: "The Vikid Fast - Day 1 of 20"
 subtitle: "A Lavatorial Initiation - Aug 8, 2020"
 date: 2020-08-08T09:52:54.707Z
 original_url: "https://thevikidtruth.substack.com/p/the-vikid-fast-day-1"
-tags: []
+tags: ["vikid", "vikid-fast"]
 paywalled: false
 ---
 

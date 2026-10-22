@@ -3,7 +3,7 @@ title: "The Vikid Fast - Day 10 of 20!"
 subtitle: "On Curves and Chinese Feelings"
 date: 2020-08-17T05:02:48.383Z
 original_url: "https://thevikidtruth.substack.com/p/the-vikid-fast-day-10-of-20"
-tags: []
+tags: ["vikid", "vikid-fast"]
 paywalled: false
 ---
 

@@ -3,7 +3,7 @@ title: "The Vikid Fast - Day 12 of 20"
 subtitle: "Bowels, Jim, Healthwise & Rules"
 date: 2020-08-19T10:16:29.445Z
 original_url: "https://thevikidtruth.substack.com/p/the-vikid-fast-day-12-of-20"
-tags: []
+tags: ["vikid", "vikid-fast"]
 paywalled: false
 ---
 ## Bowels

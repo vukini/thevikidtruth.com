@@ -3,8 +3,9 @@ title: "The Many Faces of Vikid"
 subtitle: "On Building Genuine Character and a Heavenly Meeting with God and Drake."
 date: 2022-11-30T09:30:03.987Z
 original_url: "https://thevikidtruth.substack.com/p/the-many-faces-of-vikid"
-tags: []
+tags: ["vikid"]
 paywalled: false
+series: ["vikid"]
 ---
 
 ![](/assets/the-many-faces-of-vikid/d4f03ba3b8a3.webp)
