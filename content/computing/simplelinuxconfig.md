@@ -125,6 +125,19 @@ ssh-keygen -t ed25519 -N "" -f ~/.ssh/id_ed25519
 git clone git@github.com:you/dotfiles.git ~/dotfiles && ~/dotfiles/install.sh
 ```
 
+### Firmware and microcode
+
+On bare metal, install CPU microcode and keep firmware current – a boring security and stability win:
+
+```bash
+# Debian/Ubuntu
+sudo apt install intel-microcode amd64-microcode
+# Void
+sudo xbps-install -S linux-firmware
+```
+
+Then reboot after kernel or firmware updates when prompted.
+
 ### Common misconceptions
 
 - **"Configuration means editing a Windows-style registry."** On Linux it's almost always a file you can comment, diff and put in Git.
