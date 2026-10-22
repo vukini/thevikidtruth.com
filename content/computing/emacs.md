@@ -13,8 +13,7 @@ tags:
 categories:
 - computing
 wikislug: emacs
-draft: true
-review: update
+draft: false
 topics:
 - tools
 ---
@@ -52,6 +51,65 @@ In the months and years that follow, I will be posting many of my emacs exploits
  tip and tricks here on these pages. I hope that they will help you on your
 journey.
 
+### The plain idea
+
+Emacs is a text editor the way a workshop is a hammer. Underneath the windows and buffers sits a small core written in C and a large Lisp interpreter, and almost everything you touch, from the way a key moves the cursor to the mail client, is a Lisp function you can read, change or replace while the editor is running. You do not so much use Emacs as grow it.
+
+In 2026 that core is in good health. The Emacs 29 and 30 releases folded in things people used to bolt on by hand: `use-package` is built in, Eglot gives you language-server support (completion, go-to-definition, renames) out of the box, tree-sitter powers fast and accurate syntax highlighting for many languages, native compilation of Lisp to machine code is a standard build option, and `which-key` ships with the editor. A fresh Emacs is far less bare than the one I first met.
+
+### Why it matters
+
+Most tools ask you to adapt to them. Emacs adapts to you. Once your editing, notes, agenda, Git, shell and writing all live in one programmable place, the friction between them disappears. A keyboard macro you record for code works just as well in an email. A function you write to clean up a log file can clean up a chapter of a book.
+
+It also matters because it lasts. Emacs has been around since the 1970s and GNU Emacs since 1985. The hours you put into it are not thrown away when a company changes its pricing or a plugin store closes. Your config is a text file you own.
+
+### An everyday analogy: a kitchen you build yourself
+
+A modern IDE is a fitted kitchen from a showroom: everything is where the designer put it, and it works well until you want the sink somewhere else. Emacs is an empty room with excellent plumbing and a pile of good timber. The first week you cook on a camping stove. A year later every drawer is exactly where your hand reaches for it, and nobody else's kitchen feels right.
+
+### A worked example: making Emacs yours in ten lines
+
+Here is a tiny but real start, the kind of thing that goes in `~/.emacs.d/init.el` (or in an [init.org](initorg.md) file if you like literate configs):
+
+```elisp
+;; Show line numbers in programming buffers
+(add-hook 'prog-mode-hook #'display-line-numbers-mode)
+
+;; Remember recently opened files
+(recentf-mode 1)
+
+;; Language servers via the built-in Eglot
+(add-hook 'python-mode-hook #'eglot-ensure)
+
+;; A command of my own, bound to a key
+(defun vikid/insert-date ()
+  "Insert today's date at point."
+  (interactive)
+  (insert (format-time-string "%Y-%m-%d")))
+(global-set-key (kbd "C-c d") #'vikid/insert-date)
+```
+
+Evaluate the buffer with `M-x eval-buffer` and the changes take effect immediately, no restart. That last function is the whole point: four lines of [Emacs Lisp](emacslisp.md) and the editor has a new feature that nobody shipped. Use `C-h f` on any function or `C-h k` on any key to see its documentation and jump to its source.
+
+### Common misconceptions
+
+- **"Emacs is just for old-timers."** It has a lively community: Protesilaos Stavrou's themes and packages, System Crafters, and a steady stream of new packages for completion (Vertico, Corfu, Consult) keep it modern.
+- **"You must use a starter kit."** Doom Emacs and Spacemacs are excellent if you want a ready-made setup, and Crafted Emacs is a gentle middle ground. I still think you learn far more by crafting your own, a little at a time.
+- **"Emacs vs Vim is a war."** Plenty of people use both. Evil mode gives Emacs Vim's keys, and I reach for [vim](vim.md) on servers without a second thought.
+- **"Emacs needs a giant config."** A useful setup can be fifty lines. Mine is gargantuan because I enjoy it, not because it must be.
+
+### How it connects
+
+- [Emacs Lisp](emacslisp.md): the language that makes all of this possible.
+- [My .emacs file](dotemacs.md) and [init.org](initorg.md): how I organise my own configuration.
+- [PicoLisp](picolisp.md) and [Common Lisp](commonlisp.md): Emacs is many people's first Lisp, and a good doorway to the rest of the family.
+- [Git](git.md): Magit, the Emacs Git interface, is reason enough to install Emacs.
+- [vim](vim.md): the other great editor, and a fine companion.
+
+The truth revealed: Emacs is not hard because it is old. It is hard because it hands you the keys to the whole machine, and learning to drive takes time.
+
+## Links
+
 - [Emacs Notes](emacsnotes.md)
 - [EmacsLisp](emacslisp.md)
 - [My .emacs file - an exploration](dotemacs.md)
@@ -63,7 +121,7 @@ journey.
 - [GitHub - emacs-dashboard/emacs-dashboard: An extensible emacs dashboard](https://github.com/emacs-dashboard/emacs-dashboard)
 - [ Emacs: display ugly ^L page breaks as tidy horizontal lines](https://github.com/purcell/page-break-lines)
 - [A utility package to collect various Icon Fonts and propertize them within Emacs.](https://github.com/domtronn/all-the-icons.el)
-- [Next-generation, purely functional package manager for the Emacs hacker.](https://github.com/raxod502/straight.el)
+- [Next-generation, purely functional package manager for the Emacs hacker.](https://github.com/radian-software/straight.el)
 - [exwm-x](https://github.com/tumashu/exwm-x)
 - [Emacs from Scratch](https://github.com/daviwil/emacs-from-scratch)
 - [Skewer-mode](https://github.com/skeeto/skewer-mode)
