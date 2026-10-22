@@ -1,7 +1,7 @@
 ---
 title: Emacs Notes
 date: '2022-08-28T12:15:52+04:00'
-lastmod: '2022-09-15T06:05:53+04:00'
+lastmod: '2026-10-22T15:00:00+04:00'
 original_id: '{A1713}'
 original_name: emacsnotes
 original_blob: blob/B/11/363.txt
@@ -98,8 +98,18 @@ Note the clipboard variable in the notes below, `x-select-enable-clipboard`, is 
 - **"Emacs means no vim keys."** Evil mode gives you a very complete vim inside Emacs. See [vim](vim.md).
 - **"Emacs pinky is inevitable."** Remap Caps Lock to Control (see [KMonad](kmonad.md)) and the problem mostly disappears.
 
+### My own config
+
+My real setup is public as [vukini/emacs-void](https://github.com/vukini/emacs-void): one literate `config.org` loaded by a small `init.el`. Two pages walk through it:
+
+- [My Emacs Config Tour](myemacsconfig.md): the packages and why, my keys, how the file is laid out, and the snippets I'm proudest of.
+- [Emacs on Vikix & StumpWM](emacsvikix.md): how it plugs into my desktop, including a SLIME REPL inside the running window manager.
+
+On Vikix the daemon is started at login, and Super+x opens a frame with `emacsclient -c -a ''`.
+
 ### Connections
 
+- [My Emacs Config Tour](myemacsconfig.md), [Emacs on Vikix & StumpWM](emacsvikix.md).
 - [vim](vim.md), [Common Lisp](commonlisp.md), [PicoLisp](picolisp.md), [Scheme](scheme.md), [Racket](racket.md).
 - [Git](git.md), [KMonad](kmonad.md), [Penti](penti.md), [The i3 Window Manager](i3.md).
 - [with-output-to-string](withoutputtostring.md) – a Lisp idea you will use from the Emacs REPL.
