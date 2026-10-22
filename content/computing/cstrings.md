@@ -100,6 +100,44 @@ Prefer `snprintf` over `sprintf`, never use `gets`, and treat `strncpy`'s paddin
 
 If you need rich Unicode text processing, stop pretending libc strings are enough and use a dedicated library.
 
+### Building strings safely in 2026
+
+Three patterns cover nearly every real need:
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main(void) {
+    /* 1. Fixed buffer: snprintf truncates and tells you if it did */
+    char path[32];
+    int n = snprintf(path, sizeof path, "/home/%s/notes/%s", "vikid", "inbox.org");
+    if (n < 0 || (size_t)n >= sizeof path)
+        fprintf(stderr, "truncated: needed %d bytes\n", n + 1);
+
+    /* 2. Exact size on the heap: ask snprintf for the length first */
+    const char *user = "vikid";
+    int len = snprintf(NULL, 0, "Hello, %s!", user);
+    char *msg = malloc((size_t)len + 1);
+    if (msg) {
+        snprintf(msg, (size_t)len + 1, "Hello, %s!", user);
+        puts(msg);
+        free(msg);
+    }
+
+    /* 3. Duplicate: strdup is standard since C23 */
+    char *copy = strdup("Void Linux");
+    if (copy) { copy[0] = 'v'; puts(copy); free(copy); }
+}
+```
+
+On glibc and musl, `asprintf` does pattern 2 in one call (a GNU/BSD extension, not ISO C). Avoid `strncpy` for general copying: it does not always add the terminating zero and pads with zeros otherwise, which surprises everyone. `strlcpy` and `strlcat`, long available on the BSDs, are now in glibc (2.38+) and musl too, and are fine choices when you need truncating copies.
+
+### Strings and Unicode
+
+A C string is bytes, not characters. With UTF-8, `strlen("café")` is **5**, because `é` takes two bytes. That is usually fine for storing and passing text around, but never cut a UTF-8 string at an arbitrary byte, and do not index it expecting the nth character. Use a library like libunistring or ICU when you need characters, or a language with real Unicode strings. PicoLisp, for example, treats its transient symbols as UTF-8 text and `(length "café")` gives **4**.
+
 ### Connections
 
 - [Characters in C](cchars.md), [Literals](literals.md), [C Standard Library](cstandardlibrary.md).

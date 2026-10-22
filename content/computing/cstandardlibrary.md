@@ -115,6 +115,50 @@ ISO C defines **hosted** environments (with full libc) and **freestanding** ones
 
 When reading man pages, check whether a function is ISO C, POSIX, or a GNU extension – portability depends on it.
 
+### What C23 added to the library
+
+The library grows slowly, but C23 brought several genuinely useful additions. GCC 15 and recent glibc and musl support most of them:
+
+| Header / function | What it gives you |
+|---|---|
+| `<stdckdint.h>`: `ckd_add`, `ckd_sub`, `ckd_mul` | integer arithmetic that **reports overflow** instead of silently wrapping or invoking undefined behaviour |
+| `<stdbit.h>`: `stdc_count_ones`, `stdc_leading_zeros`, `stdc_bit_width` | portable bit operations that compile to single CPU instructions |
+| `memccpy` | copy until a byte (such as `'\0'`) is found, with a size limit: the building block for safe string concatenation |
+| `strdup`, `strndup` | duplicate a string onto the heap (finally standard, after decades in POSIX) |
+| `memset_explicit` | clear memory (passwords, keys) in a way the optimiser may not remove |
+| `timespec_getres`, `gmtime_r`, `localtime_r` | thread-safe time functions |
+
+Overflow checking is the one I would adopt today:
+
+```c
+#include <stdckdint.h>
+#include <stdio.h>
+#include <stdint.h>
+
+int main(void) {
+    int32_t total;
+    if (ckd_mul(&total, 70000, 70000))           /* true means it overflowed */
+        puts("overflow: refusing to continue");
+    else
+        printf("%d\n", total);
+}
+```
+
+### Reading the library like a map
+
+You do not need to memorise libc. You need to know where to look:
+
+```bash
+man 3 snprintf          # section 3 = library functions
+man 3 stdio             # overview of a whole header
+man 2 open              # section 2 = system calls underneath
+apropos -s 3 string     # search library pages by keyword
+```
+
+On Void, install `man-pages` and `man-pages-devel`; pick between `glibc` and `musl` at install time, which is why some of the edge-case behaviour above can differ between two Vikix machines. If a program behaves differently on musl, the first question is "does it rely on something glibc-specific?"
+
+Compared with PicoLisp, which provides its own I/O, strings and bignums, C's library is deliberately bare: it is the thin layer that languages like PicoLisp, Python and Node are themselves built on.
+
 ### Connections
 
 - [C Programming](cprogramming.md), [Strings](cstrings.md), [Literals](literals.md).

@@ -95,6 +95,49 @@ Browse the class with the Browser, set a breakpoint, and enjoy a debugger that *
 
 Save often. Use commits of the image or FileOut packages when you experiment. The debugger is not a failure state – it is the normal way to understand a running object. If you come from file-oriented languages, schedule a week to unlearn "edit-compile-restart" and learn "change-the-object-while-it-runs". That week is the whole point of Smalltalk.
 
+### Getting Cuis running on Vikix
+
+Cuis is distributed as a Git repository containing the image, the sources and a script to fetch the right OpenSmalltalk VM:
+
+```bash
+git clone --depth 1 https://github.com/Cuis-Smalltalk/Cuis-Smalltalk-Dev.git cuis
+cd cuis
+./RunCuisOnLinux.sh            # downloads the VM on first run, then starts the image
+```
+
+The image opens as one X window, which StumpWM treats like any other application; giving it its own group (virtual desktop) works well, since you will live inside it for a while. Packages are loaded from `.pck.st` files in the repository with `Feature require: #PackageName`, for example `Feature require: #'VectorGraphics'` for the newer anti-aliased graphics.
+
+### How Cuis differs from Pharo and Squeak
+
+All three descend from the same Squeak image of the late 1990s:
+
+| | Cuis | Pharo | Squeak |
+|---|---|---|---|
+| Goal | small and understandable | modern industrial platform | the classic, education and research |
+| Size | a few thousand classes | many more | in between |
+| Source in Git | text files (`.pck.st`) | Iceberg / Tonel format | Monticello |
+| Style | stability, careful pruning | fast-moving, many tools | conservative |
+
+If you want to *understand* a whole Smalltalk system, Cuis is the one. If you want many libraries and a large community, Pharo is. The language is nearly the same, so moving between them is easy; see the [Cuis Terse Guide](cuisterseguide.md) for the syntax.
+
+### A tiny class, from start to finish
+
+In a System Browser, create a category `Vikid`, then define:
+
+```smalltalk
+Object subclass: #Counter
+    instanceVariableNames: 'count'
+    classVariableNames: ''
+    poolDictionaries: ''
+    category: 'Vikid'
+
+Counter >> increment
+    count := (count ifNil: [0]) + 1.
+    ^ count
+```
+
+Then in a Workspace, `c := Counter new. c increment; increment. c increment` prints **3**. Change `increment` to add 10, accept with Ctrl-S, and the *same* `c` object immediately behaves the new way. No restart, no recompiling: that live change is what people mean when they say Smalltalk is a living system. Compare PicoLisp's `(class +Counter)` and [new](plnew.md), which give you the same message-passing style in a Lisp.
+
 ### Connections
 
 - [Pharo](pharo.md), [Learn Pharo](learnpharo.md), [GNU Smalltalk](gnusmalltalk.md).

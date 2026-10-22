@@ -35,6 +35,75 @@ topics:
 
 # Cuis Terse Guide
 
+
+Here is the truth about Smalltalk syntax: **it fits on a postcard.** There are no `if` statements, no loops and no operators built into the language. There are only objects and messages, and everything else, including conditionals and loops, is just messages sent to objects. This guide is the postcard, written out long-hand for [Cuis Smalltalk](cuissmalltalk.md).
+
+### What it is, in plain words
+
+A terse guide is a page of runnable snippets you can paste into a **Workspace** and evaluate, one line at a time, to remind yourself how something is spelled. The tradition comes from the Squeak community; this is my Cuis version.
+
+Everything in it uses three kinds of message, which differ only in how they look and in precedence:
+
+| Kind | Example | Precedence |
+|---|---|---|
+| **Unary** – a single word | `3 factorial`, `x class` | highest |
+| **Binary** – symbols | `3 + 4`, `a = b`, `x @ y` | middle |
+| **Keyword** – words ending in colons | `x between: 1 and: 10`, `d at: #k put: 5` | lowest |
+
+Evaluation is strictly left to right within each level, so `3 + 4 * 2` is **14**, not 11. Use parentheses when you mean otherwise.
+
+A few more marks complete the grammar: `.` separates statements, `;` cascades several messages to the same receiver, `^` returns a value, `[ ... ]` is a block (a closure), `#sym` is a symbol, `$a` is a character, `'text'` is a string, and `"double quotes"` are comments.
+
+### A note on `_`
+
+Many lines below use `_` for assignment, as in `x _ 4.` That is the original Smalltalk-80 left-arrow assignment; Cuis still accepts it and displays it as `←`. The portable spelling that works in Pharo, Squeak and GNU Smalltalk is `:=`, as in `z := 5.` Use `:=` in code you share.
+
+### Why it matters
+
+Because there are no special forms, once you know how messages are sent you can read *any* Smalltalk code. `ifTrue:` is a method on `Boolean`; `whileTrue:` is a method on blocks; `do:` is a method on collections. You can browse to their source with one click and see that they are ordinary Smalltalk. That is the opposite of most languages, where control structures are locked inside the compiler. It is also the same lesson Lisp teaches, from the other direction.
+
+### An everyday analogy: a phrasebook
+
+A traveller's phrasebook does not teach grammar. It gives you the twenty sentences you actually need, in a form you can say right now. This guide is a phrasebook for the Cuis image: you point at the line you need, evaluate it, and the image answers.
+
+### A hands-on example: how to use this page
+
+In Cuis 7, open a Workspace from the World menu, paste a block of lines, select one and press:
+
+- **Ctrl-D** – *do it*: evaluate for its effect;
+- **Ctrl-P** – *print it*: evaluate and paste the result after the selection;
+- **Ctrl-I** – *inspect it*: open an inspector on the result;
+- **Ctrl-B** – *browse it*: open the class browser on the selected class name.
+
+Try this first, so the precedence rules become muscle memory:
+
+```smalltalk
+3 + 4 * 2.                          "print it -> 14"
+3 + (4 * 2).                        "print it -> 11"
+(1 to: 10) inject: 0 into: [:a :b | a + b].   "-> 55"
+#(3 1 2) asSortedCollection asArray.          "-> #(1 2 3)"
+(3 > 2) ifTrue: ['yes'] ifFalse: ['no'].      "-> 'yes'"
+Transcript show: 'hello'; cr; show: 'world'; cr.   "a cascade"
+```
+
+Then browse the implementation of `ifTrue:ifFalse:` in class `True` and see that it is one line of Smalltalk.
+
+### Common misconceptions
+
+- **"Arithmetic follows maths precedence."** It does not. Binary messages go strictly left to right.
+- **"`x _ 4` is a typo."** It is the historical assignment arrow; `:=` is the modern spelling.
+- **"`ifTrue:` is a keyword of the language."** It is a message understood by `true` and `false`.
+- **"Copy means a deep copy."** `copy` is usually `shallowCopy` plus `postCopy`; `veryDeepCopy` follows the whole object graph. Pick deliberately.
+
+### Connections
+
+- [Cuis Smalltalk](cuissmalltalk.md), [GNU Smalltalk](gnusmalltalk.md), [Objects in C](object.md) for the contrasting meaning of "object".
+- [JS Objects](jsobjects.md), [Prototypal Inheritance](jsprototypalinheritance.md), [new](plnew.md) – PicoLisp's message-passing objects.
+- [Lambda Calculus](lambdacalculus.md) – blocks are closures, the same idea in its purest form.
+
+## The guide
+
+
 ```
 x _ 4.
 

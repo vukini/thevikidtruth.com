@@ -102,6 +102,45 @@ Ask, in order: what must I talk to (C ABI, browser, GPU)? what failure modes can
 - **"Polyglot is diluting."** Polyglot with depth beats monolingual with dogma.
 - **"AI means languages don't matter."** Models are fluent in popular syntax. Architecture, types and taste still land on you.
 
+### The landscape in 2026
+
+A few honest observations about where languages stand right now:
+
+- **Python** is the default for data, machine learning, scripting and teaching. Version 3.14 brought an officially supported free-threaded build, so the GIL is finally becoming optional.
+- **JavaScript and TypeScript** own the browser and much of the server through Node, Deno and Bun. Node can now run TypeScript files directly by stripping types.
+- **C** is still the foundation of operating systems and embedded work, with C23 the current standard. **Rust** is the main newcomer in systems code, including parts of the Linux kernel. **Zig** and **Odin** offer simpler alternatives that interoperate tightly with C.
+- **Go**, **Java**, **Kotlin** and **C#** carry most business back-ends.
+- **Lisps** remain the place where language ideas are born and tested: Common Lisp (SBCL), Scheme and Racket, Clojure on the JVM, and small, sharp systems like PicoLisp. Emacs Lisp runs one of the most extensible programs ever written.
+- **AI coding assistants** changed how code gets written, not which languages matter. If anything, they reward languages that are easy to *read and check*, since you review more code than you type.
+
+### A quick way to compare languages yourself
+
+Pick a task small enough to finish in an evening and write it in three languages from different families. Word frequency in a text file works well:
+
+```bash
+# Shell (pipes)
+tr -cs '[:alpha:]' '\n' < file.txt | tr A-Z a-z | sort | uniq -c | sort -rn | head
+```
+
+```python
+# Python
+from collections import Counter; import re
+print(Counter(re.findall(r"[a-z]+", open("file.txt").read().lower())).most_common(10))
+```
+
+```picolisp
+# PicoLisp
+(let Idx NIL
+   (in "file.txt"
+      (until (eof)
+         (let W (lowc (till " \t\n.,;:!?\"()" T))
+            (and W (accu 'Idx W 1)) )
+         (char) ) )
+   (head 10 (flip (by cdr sort Idx))) )
+```
+
+A longer, commented version is the worked exercise on [PicoLisp Tutorials](piltutorials.md). Notice what each language makes easy: the shell composes existing tools, Python has a library for it, and Lisp lets you build the exact tool from lists and symbols. That difference is the whole story of language families in one exercise.
+
 ### Connections
 
 - [Computer Science](computerscience.md), [Functional Programming](functional.md).

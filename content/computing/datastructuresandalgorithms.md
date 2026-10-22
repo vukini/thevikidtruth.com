@@ -99,6 +99,45 @@ Implement each structure once in a language you like. Then solve a handful of pr
 
 When reading production code, ask: which structure is this, and which question was it optimised to answer? That habit alone levels up design reviews.
 
+### The same structures in PicoLisp
+
+PicoLisp gives you the main structures with almost no ceremony, which makes it a good place to *feel* their trade-offs:
+
+```picolisp
+# Stack: push and pop on the front of a list, O(1)
+(setq S NIL)
+(push 'S 1 2 3)          # S = (3 2 1)
+(pop 'S)                 # -> 3
+
+# Queue: fifo uses a circular list, O(1) at both ends
+(setq Q NIL)
+(fifo 'Q 'a 'b 'c)
+(fifo 'Q)                # -> a
+
+# Balanced binary tree: idx, O(log n) insert and lookup, kept sorted
+(setq T1 NIL)
+(for W '("vim" "emacs" "pil" "ed") (idx 'T1 W T))
+(idx 'T1)                # -> ("ed" "emacs" "pil" "vim")
+(idx 'T1 "pil")          # found: returns the node
+
+# Association list: fine for small maps
+(setq Ports '((ssh . 22) (http . 80)))
+(cdr (assoc 'ssh Ports)) # -> 22
+```
+
+`idx` is the one most people miss. It is a self-balancing binary tree built from ordinary cells, and it is what you should reach for when an association list gets long.
+
+### Measuring instead of guessing
+
+Big-O tells you how things *grow*, not how fast they are for your data. Measure:
+
+```bash
+python3 -m timeit -s "L=list(range(10**6)); S=set(L)" "999999 in L"   # list: linear scan
+python3 -m timeit -s "L=list(range(10**6)); S=set(L)" "999999 in S"   # set: hash lookup
+```
+
+The list membership test takes milliseconds; the set takes tens of nanoseconds, a difference of about five orders of magnitude. In PicoLisp, `(bench ...)` does the same job at the REPL. Five minutes of measuring beats an hour of arguing about which structure "should" be faster, and it is how you discover that cache-friendly arrays often beat theoretically better linked structures for small sizes.
+
 ### Connections
 
 - [Algorithms](algorithms.md), [Computer Science](computerscience.md), [Stacks](stacks.md).

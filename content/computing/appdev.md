@@ -20,106 +20,94 @@ topics:
 
 # Application Development
 
-Here is the truth about application development: **shipping software is less about frameworks and more about feedback loops – build something small, put it in front of reality, learn, repeat.** Tools change; that loop does not.
+Here is the truth about building applications in PicoLisp: **there is no framework to learn on top of the language. The web server, the HTML generator, the form library and the database are all part of the same small system, written in the same Lisp you are writing.** An application is a few functions that print a page, plus a database model. That is it.
 
 ### What it is, in plain words
 
-**Application development** is the craft of turning a need into a running program people can use: clarifying the problem, designing a thin slice, implementing, testing, deploying, observing, iterating. It spans CLI tools, desktop apps, mobile, embedded and the web – different skins, same skeleton.
+PicoLisp applications are **web applications**. You open them in a browser, but the logic lives on the server, in Lisp:
+
+- `@lib/http.l` – an HTTP server. `(server 8080 "!work")` listens and calls your function `work` for each new visitor.
+- `@lib/xhtml.l` – functions that print HTML: `html`, `<h2>`, `<table>`, `<ul>` and so on.
+- `@lib/form.l` – a GUI component library: `+TextField`, `+NumField`, `+Button`, `+Chart` (a table), with JavaScript progressively enhancing the page.
+- `@lib/db.l` and friends – the built-in database: entity classes, relations, indexes and transactions (see [PicoLisp DB](pildb.md)).
+
+The unusual and clever part is **sessions**. When a browser connects, the server **forks** a child process for that user, and the child gets its own port. Everything the user does from then on is handled by "their" process, which keeps all the state in ordinary Lisp variables. No session tables, no serialising state into cookies. When the user goes idle, the process times out and exits.
+
+```mermaid
+sequenceDiagram
+  participant B as Browser
+  participant S as pil server :8088
+  participant C as forked child :57881
+  B->>S: GET /
+  S->>C: fork, pass connection
+  C-->>B: page (base href = :57881)
+  B->>C: form posts, clicks
+  C-->>B: updated page
+  Note over C: exits after timeout
+```
 
 ### Why it matters
 
-Ideas don't help people until they run. Appdev is the bridge from "wouldn't it be nice" to "here, click this". Whether you write PicoLisp forms on Vikix or a React SPA, the discipline of shipping is what turns programming skill into leverage.
+- **Tiny, understandable stack.** You can read the whole HTTP and form library source in an afternoon. When something breaks, the answer is in a file you can open.
+- **State is easy.** Because each user has a process, "remember what they selected" is just a variable. Much of the complexity of mainstream web frameworks simply is not there.
+- **Database-first.** Entities and relations are declared in Lisp and are immediately queryable, editable through forms, and transactional. Business applications are where PicoLisp has earned its living for decades.
 
-### An everyday analogy: cooking for guests
+### An everyday analogy: a personal waiter for every guest
 
-Reading recipes is study. Cooking for friends who will arrive at eight is appdev: constraints, taste, timing, recovery when the sauce splits. You learn faster with guests than with cookbooks alone.
+A typical web framework is a canteen: one counter, a numbered ticket for every customer, and the staff look up your ticket each time you come back. PicoLisp gives every guest a personal waiter at their own table. The waiter remembers your order without a ticket. When you leave, the waiter goes home.
 
-```mermaid
-flowchart LR
-  Need --> Slice[thinnest useful slice]
-  Slice --> Build
-  Build --> Ship
-  Ship --> Observe
-  Observe --> Slice
-```
+### A hands-on example: a working form in 20 lines
 
-### A hands-on example: a one-evening app
+```picolisp
+# hello.l
+(allowed ()
+   "!work" "@lib.css" )
 
-Goal: a page that records a daily mood score to a SQLite file.
+(load "@lib/http.l" "@lib/xhtml.l" "@lib/form.l")
 
-```bash
-mkdir mood && cd mood
-python -m venv .venv && . .venv/bin/activate
-pip install flask
-```
+(de work ()
+   (app)                                  # start a session (fork)
+   (action
+      (html 0 "Hello" "@lib.css" NIL
+         (<h2> NIL "Who are you?")
+         (form NIL
+            (gui 'nm '(+TextField) 20 "Name")
+            (gui '(+Button) "Greet"
+               '(alert NIL "Hello, " (val> (: home nm)) "!") ) ) ) ) )
 
-```python
-# app.py
-from flask import Flask, request, redirect, render_template_string
-import sqlite3, datetime
-
-app = Flask(__name__)
-DB = "mood.db"
-
-def db():
-    c = sqlite3.connect(DB)
-    c.execute("CREATE TABLE IF NOT EXISTS mood (day TEXT PRIMARY KEY, score INT)")
-    return c
-
-PAGE = """
-<!doctype html><title>Mood</title>
-<h1>How is today?</h1>
-<form method="post">
-  <input type="number" name="score" min="1" max="5" required>
-  <button>Save</button>
-</form>
-<ul>{% for day, score in rows %}<li>{{ day }}: {{ score }}</li>{% endfor %}</ul>
-"""
-
-@app.get("/")
-def index():
-    with db() as c:
-        rows = c.execute("SELECT day, score FROM mood ORDER BY day DESC").fetchall()
-    return render_template_string(PAGE, rows=rows)
-
-@app.post("/")
-def save():
-    score = int(request.form["score"])
-    day = datetime.date.today().isoformat()
-    with db() as c:
-        c.execute("INSERT OR REPLACE INTO mood VALUES (?, ?)", (day, score))
-    return redirect("/")
-
-if __name__ == "__main__":
-    app.run(port=5000)
+(de go ()
+   (server 8088 "!work") )
 ```
 
 ```bash
-python app.py
+pil hello.l -go -wait        # then open http://localhost:8088
 ```
 
-Ship it on a [VPS](onlinevps.md) behind Caddy with [TLS](tls.md) when you're ready. Replace Flask with PicoLisp forms if that's your stack – the loop is what matters.
+Look at the page source in your browser and you will see the `<base href>` pointing to a new port. That is your forked session process. `allowed` is a whitelist of URLs the server may serve, a simple security default. Add `+` (`pil hello.l + -go -wait`) to get debug mode and a REPL in the terminal while the app runs.
 
-### Practices that survive fashion
-
-- Version control ([Git](git.md)) from commit one.
-- Automate tests for the logic you fear.
-- Keep secrets out of the repo.
-- Log what you'll need at 2 a.m.
-- Prefer boring technology for the load-bearing parts.
+From here the official tutorial (linked below) adds a database model with `class`, `rel` and `+Ref` indexes, search dialogs and charts. The Health Application tutorial on the PicoLisp site shows a complete app.
 
 ### Common misconceptions
 
-- **"I need microservices to start."** You need a working monolith you understand.
-- **"Real apps use the cloud."** Real apps solve problems. A Pi on a shelf counts.
-- **"UI first / DB first is the rule."** Vertical slices beat layers that don't meet.
-- **"10× engineers ship alone."** Most good software is communication with a compiler and other people.
+- **"Forking per session cannot scale."** Forks on Linux are cheap (copy-on-write), and each session costs a few hundred kilobytes. It handles the user counts of real business apps comfortably; for millions of anonymous visitors you would serve static pages anyway, as this site does.
+- **"There is no JavaScript, so it is not a modern web app."** The form library uses JavaScript for live updates when available, and still works without it.
+- **"You must use the built-in GUI."** You can print any HTML you like with `xhtml.l`, or serve JSON (`@lib/json.l`) to a JavaScript front end.
+- **"Deploying means containers and orchestration."** It means copying files to a [VPS](onlinevps.md), running `pil` under a supervisor (runit on Void, [systemd](systemd.md) elsewhere), and putting a reverse proxy with [TLS](tls.md) in front.
+
+### Practices that survive fashion
+
+- Version control with [Git](git.md) from the first commit.
+- Keep the database model in one file and change it through migrations you can replay.
+- Test the logic at the REPL first, then wire it into forms.
+- Log to stderr with `(out 2 ...)` so you can follow problems on the server.
 
 ### Connections
 
-- [Web Development](webdevelopment.md), [Databases](databases.md), [Git](git.md).
-- [PicoLisp](picolisp.md) / [Health Application](pilhealth.md) – a different stack, same craft.
-- [Computer Study Plan](computerstudyplan.md), [Learning Online](learningonline.md).
+- [PicoLisp](picolisp.md), [PicoLisp DB](pildb.md), [Input/Output](plio.md), [new](plnew.md), [PicoLisp Tutorials](piltutorials.md), [The Vikid PicoLisp Tutorial](pltutorial.md).
+- [Web Development](webdevelopment.md), [Databases](databases.md), [Node Js](nodejs.md) – the one-thread, event-loop opposite of forked sessions.
+- [Online VPS](onlinevps.md), [Using Linode](linode.md), [TLS](tls.md).
+
+### The official tutorial
 
 The main tutorial can be found [here](http://software-lab.de/doc/app.html).
 Please

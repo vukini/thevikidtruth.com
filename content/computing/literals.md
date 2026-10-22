@@ -91,6 +91,45 @@ Knowing what your language treats as a literal versus a built-in name avoids the
 - **"Binary literals aren't portable."** They're in C23 and have been a GCC/Clang extension for years.
 - **"Literals and constants are the same."** A literal is notation in source; a constant (`const`, `enum`, `#define`) is a named binding. Related, not identical.
 
+### What C23 changed
+
+C23 is the biggest update to C literals in decades:
+
+```c
+#include <stdio.h>
+
+int main(void) {
+    bool ok = true;               /* bool, true, false are keywords now */
+    int *p = nullptr;             /* typed null pointer constant */
+    unsigned mask = 0b1111'0000;  /* binary literal with a digit separator */
+    long big = 9'223'372'036'854'775'807;
+    auto x = 42u;                 /* auto infers unsigned int from the literal */
+    constexpr double tau = 6.283'185'307;   /* a compile-time constant object */
+
+    printf("%d %p %u %ld %u %.3f\n", ok, (void *)p, mask, big, x, tau);
+    printf("%zu\n", sizeof(u8"é"));          /* char8_t array: 3 bytes */
+}
+```
+
+So the table above should read `nullptr` (or `NULL`) for C23. `nullptr` has its own type, `nullptr_t`, which avoids the old ambiguity where `NULL` might be plain `0` and match the wrong overload in generic code. `u8"..."` literals now have type `char8_t[]`-compatible `unsigned char` elements, which matters when you pass them to functions expecting `char *`.
+
+### Literals in Lisp: the reader decides
+
+In C, the *compiler* decides what a literal means. In Lisp, the *reader* does, and you can watch it:
+
+```picolisp
+: (read)
+123456789012345678901234567890     # arbitrary-size integer, no suffix needed
+-> 123456789012345678901234567890
+: (scl 2) (read)
+3.14                                # fixed-point: stored as the integer 314
+-> 314
+: '(a "b" 7)                        # symbol, transient symbol (string), number
+-> (a "b" 7)
+```
+
+PicoLisp numbers have no size suffixes because they never overflow, and decimals are integers scaled by `*Scl`. That is the honest version of what C's `3.14` really is: an approximation chosen by the literal's type.
+
 ### Connections
 
 - [Integers in C](cints.md), [Floating-point numbers in C](cfloats.md), [Characters in C](cchars.md), [Strings in C](cstrings.md).

@@ -35,6 +35,95 @@ topics:
 
 [The GBD Tutorial](http://www.gdbtutorial.com), [Online Docs](https://sourceware.org/gdb/current/onlinedocs/gdb/index.html#SEC_Contents)
 
+
+Here is the truth about debuggers: **a debugger is a time machine with a pause button.** Instead of guessing what your program did and sprinkling `printf` everywhere, you stop it at the moment that matters and look at everything: every variable, the whole call stack, even the CPU registers. GDB, the GNU Debugger, is that time machine for C (and C++, Rust, Zig, Go, Fortran and assembly).
+
+### What it is, in plain words
+
+GDB was written by Richard Stallman in 1986 and is still actively developed (the 16.x series is current in 2026). It runs your program under its control using the kernel's `ptrace` interface, and uses the **debug information** that `gcc -g` puts into the binary (in DWARF format) to map machine addresses back to your source lines and variable names.
+
+The core loop is always the same:
+
+1. **Stop** – with a *breakpoint* (stop at this line or function), a *watchpoint* (stop when this variable changes) or a *catchpoint* (stop on a signal, exception or system call). Or the program stops itself by crashing.
+2. **Look** – `print` variables, `backtrace` the stack, `info locals`, `x` to examine raw memory.
+3. **Move** – `next` (step over calls), `step` (step into calls), `finish` (run until this function returns), `continue`.
+4. **Change** – `set var x = 5` and carry on to test a theory without recompiling.
+
+### Why it matters
+
+- **Crashes become answers.** A segmentation fault tells you nothing. GDB on the same crash tells you the exact line, the bad pointer and how you got there.
+- **You learn how C really works.** Watching the stack grow, pointers change and arrays decay is the best possible teacher for [Objects in C](object.md) and [Strings in C](cstrings.md).
+- **It works on things you did not write.** Core dumps from production, running processes (`gdb -p PID`), and programs with no source (in assembly view).
+
+### An everyday analogy: a video replay referee
+
+In a football match you see a blur and argue about whether it was a foul. The video referee pauses the replay, steps forward frame by frame, zooms in on the boot and checks the angle from another camera. GDB is the replay booth for your program. You do not argue about what happened; you look.
+
+### A hands-on example: find the bug in 60 seconds
+
+```c
+/* buggy.c */
+#include <stdio.h>
+#include <string.h>
+
+int count_vowels(const char *s) {
+    int n = 0;
+    for (size_t i = 0; i <= strlen(s); i++)      /* bug: <= */
+        if (strchr("aeiou", s[i])) n++;
+    return n;
+}
+
+int main(void) {
+    printf("%d\n", count_vowels("vikix"));      /* expect 2 */
+}
+```
+
+It prints `3`. Why?
+
+```bash
+gcc -g -O0 buggy.c -o buggy
+gdb -q ./buggy
+(gdb) break count_vowels
+(gdb) run
+(gdb) display i
+(gdb) display s[i]
+(gdb) next            # press Enter to repeat; watch i and s[i]
+...
+1: i = 5
+2: s[i] = 0 '\000'
+(gdb) print strchr("aeiou", 0)
+```
+
+At `i = 5`, `s[i]` is the terminating zero byte, and `strchr` counts the string's *own* terminator as a match. The loop should be `i < strlen(s)`. Found by looking, not guessing.
+
+Habits that pay off:
+
+```bash
+gdb -tui ./buggy                  # split screen: source above, commands below
+ulimit -c unlimited               # allow core dumps, then after a crash:
+gdb ./buggy core                  # post-mortem: 'bt' shows where it died
+gdb -batch -ex run -ex bt ./buggy # run and print a backtrace, non-interactive
+```
+
+Put settings in `~/.gdbinit`, for example `set history save on` and `set print pretty on`. Inside Emacs, `M-x gdb` gives a multi-window IDE-style debugger; see [Emacs Notes](emacsnotes.md).
+
+### Common misconceptions
+
+- **"Debuggers are for beginners; experts use printf."** Experts use both. Printing is good for a history of events; a debugger is better for a single moment examined in depth.
+- **"`-O2` code debugs fine."** The optimiser reorders and removes variables, so you see `<optimized out>`. Debug with `-O0 -g` (or `-Og`), then test optimised builds separately.
+- **"GDB only works for C."** It debugs any language whose compiler emits DWARF, and has Python scripting for custom views.
+- **"Sanitizers replace the debugger."** They find *that* something is wrong (`-fsanitize=address` reports the bad access); GDB shows you *why*. Use them together.
+- **"`step` and `next` are the same."** `step` goes into function calls; `next` runs them in one go. Use `finish` to climb back out.
+
+### Connections
+
+- [C Programming](cprogramming.md), [The Compiler](thecompiler.md), [Objects in C](object.md), [Strings in C](cstrings.md), [C Standard Library](cstandardlibrary.md).
+- [Assembly Language](assemblylanguage.md), [objdump](objdump.md), [pmap](pmap.md), [Linux Processes and Memory](linuxprocessesandmemory.md), [Linux Introspection](linuxinstrospection.md).
+- [Emacs Notes](emacsnotes.md), [Penetration Testing](penetrationtesting.md) (debuggers are the core tool of exploit development).
+
+## GDB command reference
+
+
 - Compile your program with '-g'
 - ```
   gcc -g main.c
