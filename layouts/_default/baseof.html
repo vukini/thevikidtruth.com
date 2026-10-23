@@ -8,10 +8,13 @@
   {{ range .AlternativeOutputFormats }}<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ site.Title }}">{{ end }}
   {{ $css := slice (resources.Get "css/fonts.css") (resources.Get "css/main.css") | resources.Concat "css/site.css" | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
-  <link rel="icon" href="{{ "favicon.ico" | relURL }}" sizes="any">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32x32.png" | relURL }}">
-  <link rel="icon" type="image/png" sizes="512x512" href="{{ "icon-512.png" | relURL }}">
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon.png" | relURL }}">
+  <link rel="icon" href="{{ "favicon-v2.ico" | relURL }}" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="{{ "favicon-v2.svg" | relURL }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32x32-v2.png" | relURL }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "favicon-16x16-v2.png" | relURL }}">
+  <link rel="icon" type="image/png" sizes="192x192" href="{{ "icon-192-v2.png" | relURL }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon-v2.png" | relURL }}">
+  <link rel="manifest" href="{{ "site-v2.webmanifest" | relURL }}">
   <meta name="theme-color" content="#14120F">
   {{ if .IsPage }}{{ $_ := .Content }}{{ end }}
   {{ if .Store.Get "hasMath" }}<link rel="stylesheet" href="{{ "katex/katex.min.css" | relURL }}">{{ end }}
