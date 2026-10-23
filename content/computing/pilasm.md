@@ -1,7 +1,7 @@
 ---
-title: Picolisp ASM
+title: 'PicoLisp ASM'
 date: '2016-11-26T11:39:51+04:00'
-lastmod: '2022-09-15T00:46:40+04:00'
+lastmod: '2026-10-23T12:00:00+04:00'
 original_id: '{A360}'
 original_name: pilasm
 original_blob: blob/B/11/306.txt
@@ -18,7 +18,30 @@ topics:
 - lisp
 ---
 
-# Picolisp ASM
+# PicoLisp ASM
+
+[The PicoLisp Reference](https://software-lab.de/doc/ref.html#vm) | [ASM](pilasm.md)
+
+### A page about history (updated October 2026)
+
+From about 2009 to 2020, 64-bit PicoLisp (**pil64**) was written in its own **generic assembly language**. The instruction set below was defined in PicoLisp (`src64/arch/*.l`), and PicoLisp itself translated those generic instructions into real x86-64, ARM64, PowerPC or emulated code. It was a brilliant way to get a fast, portable interpreter with complete control over the machine: registers, stack layout and the tagged-pointer tricks described in [The PicoLisp Machine](pilmachine.md).
+
+**pil64 is no longer maintained.** Since 2020 PicoLisp is **pil21** (current release 26.9). Alexander Burger kept the idea of writing the system in PicoLisp, but swapped his own assembler for **LLVM**. The sources (`src/*.l`) are written in a PicoLisp DSL defined in `src/lib/llvm.l`, which emits LLVM IR. LLVM then handles register allocation, optimisation and code generation for every CPU it supports. The result runs on more platforms (including Linux on ARM, Android/Termux and macOS) with far less machine-specific code.
+
+To see the difference, here is the whole of `car` in pil21 (`src/subr.l`). In pil64 the same function was a dozen hand-written VM instructions that evaluated the argument, tested the tag bits and jumped to an error handler:
+
+```picolisp
+(de _Car (Exe)
+   (chkA (eval (cadr Exe))) )
+```
+
+The data model is unchanged: same cells, same tag bits, same symbols. What changed is that nobody has to write register moves by hand any more.
+
+### Why I keep this page
+
+I studied this VM when I first went deep into PicoLisp, and it is still the clearest picture I know of what a Lisp interpreter *does* at the machine level: registers named for their role (**A**ccumulator, **C**ount, **E**xpression, **X**/**Y**/**Z** index), a stack (**S**), and a carry/zero/sign flag model that maps directly onto real CPUs. If you want to understand LLVM IR or real assembly, this is a friendly stepping stone. The original reference follows, unchanged.
+
+## The pil64 VM reference (archive)
 
  [Quicklinks](quicklinks.md) | [Readinglist](readinglist.md) |  [Computing](computing.md) | [Picolisp](picolisp.md) |
 [The Picolisp Reference](http://software-lab.de/doc/ref.html#vm) | [ASM](pilasm.md)

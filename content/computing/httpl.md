@@ -1,7 +1,7 @@
 ---
 title: http.l
 date: '2017-06-24T07:13:15+04:00'
-lastmod: '2017-06-24T07:13:51+04:00'
+lastmod: '2026-10-23T12:00:00+04:00'
 original_id: '{A1151}'
 original_name: httpl
 original_blob: blob/B/5/733.txt
@@ -18,40 +18,60 @@ topics:
 - lisp
 ---
 
-[Read This!](caveatemptor.md) |
-  [Picolisp](picolisp.md) | [Picolisp Machine](pilmachine.md) | [Pil Sources](pilsource.md) | [Pil Tutorials](piltutorials.md) |
-  [Picolisp By Example](picolispbyexample.md) |
-  [Linux](linux.md) | [BASH](bash.md) |
-  [C-Programmming](cprogramming.md) | [Javascipt](javascript.md) | [Python](python.md) | [Scheme](scheme.md) |
-  [Operating Systems](os.md) | [AssemblyLanguage](assemblylanguage.md) |
-  [Computer Security](computersecurity.md) |
-  [Firewalls](firewalls.md) |
-  [Exploitation](exploitation.md) | [Social Engineering](internetexploitation.md) | [Metasploit](metasploit.md) |
-  [Emacs](emacs.md) | [vim](vim.md) |
-  [Pharo Smalltalk](pharo.md) |
-  [Databases](databases.md) | [Networking](networking.md) | [Machine Learning](machinelearning.md) |
-  [Git](git.md) |
-  [Machine Learning](machinelearning.md) |
-  [Algorithms](algorithms.md) |
-  [Open Data Science](opendatascience.md) |
-
 # [http.l](httpl.md)
 
-> **Reading this in 2026.** This page reproduces `lib/http.l` from the PicoLisp sources (PicoLisp library), as I studied them around 2017. It is the HTTP server library behind every PicoLisp web application, handling requests, URL dispatch and responses. It still exists in pil21 in a similar form. PicoLisp is MIT-licensed, © Software Lab, Alexander Burger. Since 2020 the current PicoLisp is **pil21**, which is written in PicoLisp itself and compiled through LLVM, so the line-by-line details here belong to the older implementations; the ideas carry over. Current sources are at [software-lab.de](https://software-lab.de/down.html).
+`@lib/http.l` is the HTTP server library behind every PicoLisp web application. It accepts connections, forks a process per session, parses requests, dispatches URLs to Lisp functions or files, and writes responses. I first studied the 2016 version. This page now walks through the version in **pil21 26.9** (dated 06aug26, 487 lines) and reproduces it in full below.
 
+### The shape of a PicoLisp web server
 
+```picolisp
+(load "@lib/http.l" "@lib/xhtml.l")
+
+(allowed () "!work")
+
+(de work ()
+   (html 0 "Hello" NIL NIL
+      (<h1> NIL "Hello from PicoLisp")
+      (<p> NIL "Time is " (ht:Prin (tim$ (time) T))) ) )
+
+(server 8080 "!work")
 ```
-# 24nov16abu
-# (c) Software Lab. Alexander Burger
+
+Run it with `pil hello.l -wait` (or `+` to debug) and open `http://localhost:8080`. I tested this on 26.9. Note that inside HTML functions literal strings are printed, but computed values must be printed explicitly with `ht:Prin`, which also escapes them. Key pieces:
+
+- **`(server Port Url)`** opens the port, then loops on `listen`. For every connection it **forks**; the child handles the request. If the app creates a session, the child opens its own port (`*SesId`, the number you see in session URLs) and keeps talking to that one browser. That is the same fork-per-client pattern as the [Chat](pilchat.md) program.
+- **URLs.** `!fun` calls the Lisp function `fun`. Plain paths serve files (with MIME types from `*Mimes`). Arguments after `?` are passed to the function, and arguments named `*Var` set that global, but only if it was allowed.
+- **Security.** Only functions and files you list with `(allowed ...)` or `allow` can be reached. Everything else gives 403/404 (`forbidden`, `http404`).
+- **Responses.** `httpHead`, `httpEcho`, `respond`, `redirect`, `noContent` and `http404` write responses; `ht.so` (built from `src/ht.l`) speeds up HTML escaping and chunked output.
+- **`(retire Min)`** makes the parent exit after the last session has been idle for `Min` minutes, so [httpGate](httpgatec.md) can restart it on demand.
+- **`client`** is the matching HTTP client: `(client "host" 80 "path" (while (line) (println @)))`.
+- **`psh`** connects a terminal REPL to a running server's session (`bin/psh`), which is a great debugging trick.
+
+### What changed since the 2016 version
+
+- Namespace hygiene: internal helpers are declared with `(private)`, so they don't leak into your program.
+- `*Uri` (the raw request URI) and `*Retire` were added; `*SesAdr` is gone.
+- A clearer "Not Implemented" response (2026).
+- HTTPS is still terminated outside (by httpGate or a reverse proxy), not inside `http.l`.
+
+For HTML, see `@lib/xhtml.l`. For forms with server-side state, see `@lib/form.l` and [Application Development](appdev.md). A complete example is [The Health Application](pilhealth.md).
+
+## The source (pil21 26.9, `lib/http.l`)
+
+
+```picolisp
+# 06aug26 Software Lab. Alexander Burger
 
 # *HPorts *Home *Gate *Host *Port *Port1 *Port% *Http1 *Chunked
 # *Sock *Agent *ContL *ContLen *MPartLim *MPartEnd "*HtSet"
-# *Post *Url *Timeout *SesAdr *SesId *ConId
+# *Post *Uri *Url *Timeout *SesId *ConId *Retire
 # *Referer *Cookies "*Cookies"
 
 (default
    *HPorts 0
    *Timeout (* 300 1000) )
+
+(private) (Host Port Sock How Prg)
 
 (mapc allow '(*Adr *Gate *Cipher *Host *ContL))
 
@@ -63,6 +83,7 @@ topics:
    (`(chop "au") "audio/basic" 3600)
    (`(chop "wav") "audio/x-wav" 3600)
    (`(chop "mp3") "audio/x-mpeg" 3600)
+   (`(chop "mp4") "video/mp4" 3600)
    (`(chop "gif") "image/gif" 3600)
    (`(chop "tif") "image/tiff" 3600)
    (`(chop "tiff") "image/tiff" 3600)
@@ -72,11 +93,13 @@ topics:
    (`(chop "jpeg") "image/jpeg" 3600)
    (`(chop "txt") "text/octet-stream" 1 T)
    (`(chop "csv") "text/csv; charset=utf-8" 1 T)
-   (`(chop "css") "text/css" 3600)
+   (`(chop "css") "text/css" 86400)
    (`(chop "js") "application/x-javascript" 86400)
    (`(chop "ps") "application/postscript" 1)
    (`(chop "pdf") "application/pdf" 1)
+   (`(chop "epub") "application/epub+zip" 86400)
    (`(chop "zip") "application/zip" 1)
+   (`(chop "apk") "application/vnd.android.package-archive" 1)
    (`(chop "jar") "application/java-archive" 86400) )
 
 (de mime (S . @)
@@ -95,13 +118,13 @@ topics:
       (prog1
          (out Sock
             (if (atom How)
-               (prinl "GET /" How " HTTP/1.0^M")
-               (prinl "POST /" (car How) " HTTP/1.0^M")
-               (prinl "Content-Length: " (size (cdr How)) "^M") )
-            (prinl "User-Agent: PicoLisp^M")
-            (prinl "Host: " Host "^M")
-            (prinl "Accept-Charset: utf-8^M")
-            (prinl "^M")
+               (prinl "GET /" How " HTTP/1.0\r")
+               (prinl "POST /" (car How) " HTTP/1.0\r")
+               (prinl "Content-Length: " (size (cdr How)) "\r") )
+            (prinl "User-Agent: PicoLisp\r")
+            (prinl "Host: " Host "\r")
+            (prinl "Accept-Charset: utf-8\r")
+            (prinl "\r")
             (and (pair How) (prin (cdr @)))
             (flush)
             (in Sock (run Prg 1)) )
@@ -110,17 +133,26 @@ topics:
 # Local Password
 (de pw (N)
    (if N
-      (out ".pw" (prinl (in "/dev/urandom" (rd N))))
-      (in ".pw" (line T)) ) )
+      (out "~/.pil/pw"
+         (prinl (in "/dev/urandom" (rd N))) )
+      (in "~/.pil/pw"
+         (line T) ) ) )
 
 # PicoLisp Shell
-(de psh (Pw Tty)
-   (nond
-      (Pw (println *Port) (bye))
-      ((nand (= Pw (pw)) (ctty Tty))
-         (off *Run)
+(de psh (Pw Tty Term)
+   (cond
+      ((not Pw) (println *Port) (bye))
+      ((<> Pw (pw)) (quit "Bad pw"))
+      ((ctty Tty)
+         (sys "TERM" Term)
+         (or *SesId (off *Run))
          (println *Pid)
-         (load (if *Dbg "@lib/too.l" "@dbg.l"))
+         (unless *Dbg
+            (on *Dbg)
+            (symbols '(pico)
+               (and (info "~/.pil/rc") (load @@))
+               (load "@lib/lint.l" "@lib/debug.l" "@lib/vip.l" "@lib/sq.l") ) )
+         (load "@lib/too.l")
          (off *Err)
          (quit) ) ) )
 
@@ -128,22 +160,26 @@ topics:
 (de -server ()
    (server (format (opt)) (opt)) )
 
-(de server (P H)
+(de server (Port Home Flg)
    (setq
-      *Port P
-      *Port1 (or (sys "NAME") P)
-      *Home (cons H (chop H))
-      P (port *Port) )
+      *Port Port
+      *Port1 (or (sys "NAME") Port)
+      *Home (cons Home (chop Home))
+      Port (port *Port) )
    (gc)
    (loop
-      (setq *Sock (listen P))
-      (NIL (fork) (close P))
+      (setq *Sock (listen Port))
+      (T Flg
+         (task Port
+            (when (accept @)
+               (task @ (let *SesId NIL (http @))) ) ) )
+      (NIL (fork) (close Port))
       (close *Sock) )
    (task *Sock (http @))
    (http *Sock)
    (or *SesId (bye))
    (task *Sock
-      (when (accept *Sock)
+      (when (accept @)
          (task @ (http @)) ) ) )
 
 (de retire (Min . Prg)
@@ -151,9 +187,8 @@ topics:
       (task -60000 60000  X (cons Min Min Prg)
          (cond
             (*Adr (off *Adr) (set X (cadr X)))
-            ((kids) (set X (cadr X)))
-            ((=0 (dec X)) (run (cddr X)) (bye)) ) )
-      (forked) ) )
+            ((diff (kids) *Retire) (set X (cadr X)))
+            ((=0 (dec X)) (run (cddr X)) (bye)) ) ) ) )
 
 (de baseHRef (Port . @)
    (pass pack
@@ -174,9 +209,7 @@ topics:
       (not (idx *Allow *Url))
       (or
          (sub? ".." *Url)
-         (nor
-            (and *Tmp (pre? *Tmp *Url))
-            (find pre? (cdr *Allow) (circ *Url)) ) ) ) )
+         (not (find pre? (cdr *Allow) *Url)) ) ) )
 
 (de notAllowed (X)
    (unless (= X "favicon.ico")
@@ -186,52 +219,60 @@ topics:
 (de app ()
    (unless *SesId
       (setq
-         *Port% (not *Gate)
-         *SesAdr *Adr
          *SesId (pack (in "/dev/urandom" (rd 7)) "~")
-         *Sock (port *HPorts '*Port) )
-      (timeout *Timeout) ) )
+         *Sock (port *HPorts '*Port)
+         *Port% (not *Gate) )
+      (timeout *Timeout)
+      (out 2 (prinl *Pid " = " *Port " " *SesId)) ) )
 
 # Set a cookie
 (de cookie @
-   (if (assoc (next) "*Cookies")
-      (con @ (rest))
-      (push '"*Cookies" (cons (arg) (rest))) ) )
+   (let A (next)
+      (if (assoc A "*Cookies")
+         (con @ (rest))
+         (push '"*Cookies" (cons A (rest))) ) ) )
 
 # Handle HTTP-Transaction
-(de http (S)
+(de http (*HtSock)
    (use (*Post U L @X)
       (off *Post *Port% *ContL *ContLen *Cookies "*Cookies" "*HtSet")
       (catch 'http
-         (in S
-            (case (till " " T)
-               ("GET" (_htHead))
-               ("POST"
-                  (on *Post)
-                  (off *MPartLim *MPartEnd)
-                  (_htHead)
-                  (cond
-                     (*MPartLim (_htMultipart))
-                     ((=0 *ContLen))
-                     ((cond (*ContL (line)) (*ContLen (ht:Read @)))
-                        (for L (split @ '&)
-                           (when (setq L (split L "="))
-                              (let? S (_htSet (car L) (ht:Pack (cadr L) T))
-                                 (and
-                                    (cddr L)
-                                    (format (car @))
-                                    (unless (out (tmp S) (echo @))
-                                       (call "rm" "-f" (tmp S)) ) ) ) ) ) )
-                     (T (throw 'http)) ) )
-               (T
-                  (and @ (out S (httpStat 400 "Bad Request")))
-                  (task (close S))
-                  (off S)
-                  (throw 'http) ) )
-            (if (or (<> *ConId *SesId) (and *SesAdr (<> @ *Adr)))
-               (prog (task (close S)) (off S))
+         (in *HtSock
+            (finally (alarm 0)
+               (case
+                  (prog2
+                     (alarm 2 (throw 'http))
+                     (till " " T)
+                     (alarm 1200 (throw 'http)) )
+                  ("GET" (_htHead))
+                  ("POST"
+                     (on *Post)
+                     (off *MPartLim *MPartEnd)
+                     (_htHead)
+                     (cond
+                        (*MPartLim (_htMultipart))
+                        ((=0 *ContLen))
+                        ((cond (*ContL (line)) (*ContLen (ht:Read @)))
+                           (for L (split @ '&)
+                              (when (setq L (split L "="))
+                                 (let? S (_htSet (car L) (ht:Pack (cadr L) T))
+                                    (and
+                                       (cddr L)
+                                       (format (car @))
+                                       (unless (out (tmp S) (echo @))
+                                          (%@ "unlink" NIL (tmp S)) ) ) ) ) ) )
+                        (T (throw 'http)) ) )
+                  (T
+                     (when @
+                        (out *HtSock
+                           (httpStat 501 (text "HTTP @1: Not Implemented" @)) ) )
+                     (task (close *HtSock))
+                     (off *HtSock)
+                     (throw 'http) ) ) )
+            (if (<> *ConId *SesId)
+               (prog (task (close *HtSock)) (off *HtSock))
                (setq
-                  L (split U "?")
+                  L (split (setq *Uri U) "?")
                   U (car L)
                   L (mapcan
                      '((A)
@@ -244,7 +285,7 @@ topics:
                      (split (cadr L) "&") ) )
                (unless (setq *Url (ht:Pack U T))
                   (setq  *Url (car *Home)  U (cdr *Home)) )
-               (out S
+               (out *HtSock
                   (cond
                      ((match '("-" @X "." "h" "t" "m" "l") U)
                         (and *SesId (timeout *Timeout))
@@ -255,6 +296,9 @@ topics:
                      ((= "!" (car U))
                         (and *SesId (timeout *Timeout))
                         (apply (val (intern (ht:Pack (cdr U) T))) L) )
+                     ((head '("%" "2" "1") U)
+                        (and *SesId (timeout *Timeout))
+                        (apply (val (intern (ht:Pack (cdddr U) T))) L) )
                      ((tail '("." "l") U)
                         (and *SesId (timeout *Timeout))
                         (apply script L *Url) )
@@ -265,7 +309,7 @@ topics:
                      ((assoc (stem U ".") *Mimes)
                         (apply httpEcho (cdr @) *Url) )
                      (T (httpEcho *Url "application/octet-stream" 1 T)) ) ) ) ) )
-      (and S (=0 *Http1) (task (close S))) ) )
+      (and *HtSock (=0 *Http1) (task (close *HtSock))) ) )
 
 (de _htHead ()
    (unless
@@ -276,8 +320,8 @@ topics:
          (= "HTTP/1" (till "." T))
          (char)
          (setq *Http1 (format (line T))) )
-      (task (close S))
-      (off S)
+      (task (close *HtSock))
+      (off *HtSock)
       (throw 'http) )
    (setq *Chunked (gt0 *Http1))
    (if (index "~" U)
@@ -287,7 +331,7 @@ topics:
          *ConId (pack (if (member "/" *ConId) (cdr @) *ConId)) )
       (off *ConId) )
    (while
-      (case (lowc (till " ^M^J" T))
+      (case (lowc (till " \r\n" T))
          ("host:" (setq *Host (cdr (line))))
          ("referer:" (setq *Referer (cdr (line))))
          ("cookie:"
@@ -300,16 +344,14 @@ topics:
          ("user-agent:" (setq *Agent (cdr (line))))
          ("content-length:" (setq *ContLen (format (cdr (line)))))
          ("content-type:"
-            (if (= " multipart/form-data; boundary" (lowc (till "=" T)))
+            (if (= " multipart/form-data; boundary" (lowc (till "=\r\n" T)))
                (setq
                   *MPartLim (append '(- -) (cdr (line)))
                   *MPartEnd (append *MPartLim '(- -)) )
                (line) ) )
          ("x-pil:"
-            (char)
-            (when (till "=")
-               (_htSet @ (ht:Pack (cdr (line)) T))
-               T ) )
+            (for (L (split (cdr (line)) "," "=")  L)
+               (_htSet (++ L) (ht:Pack (++ L) T)) ) )
          (T (if (eol) (char) (line T))) ) )
    (unless *Gate
       (and (member ":" *Host) (con (prior @ *Host))) ) )
@@ -338,7 +380,7 @@ topics:
                               (when (eof)
                                  (throw 'http) )
                               (when (made)
-                                 (link "^J") )
+                                 (link "\n") )
                               (link (trim L)) ) ) ) ) )
                ((head '`(chop "; filename=") (setq L @))
                   (while (line)) )
@@ -347,9 +389,9 @@ topics:
                   (setq L (cdr (rot (nth L 13))))
                   (if (_htSet Var (pack (stem L "/" "\\")))
                      (let F (tmp @)
-                        (unless (out F (echo (pack "^M^J" *MPartLim)))
-                           (call "rm" "-f" F) ) )
-                     (out "/dev/null" (echo (pack "^M^J" *MPartLim))) )
+                        (unless (out F (echo (pack "\r\n" *MPartLim)))
+                           (%@ "unlink" NIL F) ) )
+                     (out "/dev/null" (echo (pack "\r\n" *MPartLim))) )
                   (setq L (if (= "-" (car (line))) *MPartEnd *MPartLim)) ) ) ) ) ) )
 
 (de _htSet (L Val)
@@ -392,20 +434,20 @@ topics:
 
 # Http Transfer Header
 (de http1 (Typ Upd File Att)
-   (prinl "HTTP/1." *Http1 " 200 OK^M")
-   (prinl "Server: PicoLisp^M")
+   (prinl "HTTP/1." *Http1 " 200 OK\r")
+   (prinl "Server: PicoLisp\r")
    (prin "Date: ")
    (httpDate (date T) (time T))
    (when Upd
-      (prinl "Cache-Control: max-age=" Upd "^M")
+      (prinl "Cache-Control: max-age=" Upd "\r")
       (when (=0 Upd)
-         (prinl "Cache-Control: private, no-store, no-cache^M") ) )
-   (prinl "Content-Type: " (or Typ "text/html; charset=utf-8") "^M")
+         (prinl "Cache-Control: no-store\r") ) )
+   (prinl "Content-Type: " (or Typ "text/html; charset=utf-8") "\r")
    (when File
       (prinl
          "Content-Disposition: "
          (if Att "attachment" "inline")
-         "; filename=\"" File "\"^M" ) ) )
+         "; filename=\"" File "\"\r" ) ) )
 
 (de httpCookies ()
    (mapc
@@ -422,14 +464,14 @@ topics:
 
 (de respond (S)
    (http1 "application/octet-stream" 0)
-   (prinl "Content-Length: " (size S) "^M^J^M")
+   (prinl "Content-Length: " (size S) "\r\n\r")
    (prin S) )
 
 (de httpHead (Typ Upd File Att)
    (http1 Typ Upd File Att)
-   (and *Chunked (prinl "Transfer-Encoding: chunked^M"))
+   (and *Chunked (prinl "Transfer-Encoding: chunked\r"))
    (httpCookies)
-   (prinl "^M") )
+   (prinl "\r") )
 
 (de httpDate (Dat Tim)
    (let D (date Dat)
@@ -438,19 +480,23 @@ topics:
          (pad 2 (caddr D)) " "
          (get *Mon (cadr D)) " "
          (car D) " "
-         (tim$ Tim T) " GMT^M" ) ) )
+         (tim$ Tim T) " GMT\r" ) ) )
 
 # Http Echo
-(de httpEcho (File Typ Upd Att)
+(de httpEcho (File Typ Upd Att Name)
    (and *Tmp (pre? *Tmp File) (one Upd))
    (ifn (info File)
       (http404)
       (let I @
-         (http1 (or Typ (mimetype File)) Upd (stem (chop File) "/") Att)
-         (prinl "Content-Length: " (car I) "^M")
+         (http1
+            (or Typ (mimetype File))
+            Upd
+            (or Name (stem (chop File) "/"))
+            Att )
+         (prinl "Content-Length: " (car I) "\r")
          (prin "Last-Modified: ")
          (httpDate (cadr I) (cddr I))
-         (prinl "^M")
+         (prinl "\r")
          (in File (echo)) ) ) )
 
 (de srcUrl (Url)
@@ -474,32 +520,31 @@ topics:
       (if (pair X)
          (setq X (car X))
          (setq B (pack "<H1>" B "</H1>")) )
-      (prinl "HTTP/1." *Http1 " " N " " X "^M")
-      (prinl "Server: PicoLisp^M")
+      (prinl "HTTP/1." *Http1 " " N " " X "\r")
+      (prinl "Server: PicoLisp\r")
       (while (args)
-         (prinl (next) "^M") )
-      (prinl "Content-Type: text/html^M")
+         (prinl (next) "\r") )
+      (prinl "Content-Type: text/html\r")
       (httpCookies)
-      (prinl "Content-Length: " (+ 59 (length N) (length X) (length B)) "^M")
-      (prinl "^M")
+      (prinl "Content-Length: " (+ 59 (length N) (length X) (length B)) "\r")
+      (prinl "\r")
       (prinl "<HTML>")
       (prinl "<HEAD><TITLE>" N " " X "</TITLE></HEAD>")
       (prinl "<BODY>" B "</BODY>")
       (prinl "</HTML>") ) )
 
 (de noContent ()
-   (prinl "HTTP/1.0 204 No Content^M")
-   (prinl "^M") )
+   (prinl "HTTP/1.0 204 No Content\r")
+   (prinl "\r") )
 
 (de redirect @
    (httpStat 303 "See Other" (pass pack "Location: ")) )
 
-(de forbidden ()
+(de forbidden (X)
    (httpStat 403 "No Permission")
+   (and X (msg *Pid " No permission: " @))
    (throw 'http) )
 
 (de http404 ()
    (httpStat 404 "Not Found") )
-
-# vi:et:ts=3:sw=3
 ```

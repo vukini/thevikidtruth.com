@@ -1,7 +1,7 @@
 ---
 title: Input / Output IO
 date: '2021-08-28T07:09:06+04:00'
-lastmod: '2026-10-22T10:30:00+04:00'
+lastmod: '2026-10-23T12:00:00+04:00'
 original_id: '{A1502}'
 original_name: plio
 original_blob: blob/B/7/611.txt
@@ -89,8 +89,8 @@ flowchart LR
 # HTTP server fragment (after loading http/xhtml)
 (de go ()
    (html 0 "Hi" NIL NIL
-      (<h1> "Hello")
-      (<p> "Uptime thoughts go here") ) )
+      (<h1> NIL "Hello")
+      (<p> NIL "Uptime thoughts go here") ) )
 ```
 
 `print` produces a readable, `read`-able representation (with quotes); `prin` prints raw. Choose consciously – especially when emitting HTML (where `@lib/xhtml.l` helpers already escape).
@@ -163,7 +163,7 @@ flowchart LR
 
 ### Connections
 
-- [PicoLisp](picolisp.md), [PicoLisp Tutorials](piltutorials.md), [Pil Box](plbox.md).
+- [PicoLisp](picolisp.md), [PicoLisp Tutorials](piltutorials.md), [box](plbox.md).
 - [PicoLisp DB](pildb.md), [with-output-to-string](withoutputtostring.md) (CL cousin).
 
 Comments can be embedded in the input stream with the hash # character.
@@ -179,3 +179,5 @@ A comment spanning several lines (a block comment) may be enclosed between
 ```
 #{ and }#
 ```
+
+*Examples checked on PicoLisp 26.9, October 2026. Note that the xhtml tag functions take a CSS/attribute argument first, NIL if you have none.*

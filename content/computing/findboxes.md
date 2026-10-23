@@ -1,7 +1,7 @@
 ---
 title: Find Boxes in Lists
 date: '2017-06-21T13:31:50+04:00'
-lastmod: '2026-10-22T10:30:00+04:00'
+lastmod: '2026-10-23T12:00:00+04:00'
 original_id: '{A1146}'
 original_name: findboxes
 original_blob: blob/B/5/703.txt
@@ -147,3 +147,5 @@ Often you do not know the position, only what you are looking for.
 - [box](plbox.md) – how to create brand-new anonymous symbols, the other kind of "box".
 - [The PicoLisp Machine](pilmachine.md) – how cells sit in memory.
 - [Common Lisp](commonlisp.md), [Scheme](scheme.md), [Lambda Calculus](lambdacalculus.md) – the same boxes in other Lisps.
+
+*All examples on this page tested on PicoLisp 26.9, October 2026.*

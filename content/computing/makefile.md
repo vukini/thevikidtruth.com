@@ -1,7 +1,7 @@
 ---
 title: Makefile
 date: '2017-06-29T02:02:18+04:00'
-lastmod: '2017-06-29T02:07:57+04:00'
+lastmod: '2026-10-23T12:00:00+04:00'
 original_id: '{A1164}'
 original_name: makefile
 original_blob: blob/B/6/101.txt
@@ -18,209 +18,161 @@ topics:
 - c-systems
 ---
 
-[Read This!](caveatemptor.md) |
-  [Picolisp](picolisp.md) | [Picolisp Machine](pilmachine.md) | [Pil Sources](pilsource.md) | [Pil Tutorials](piltutorials.md) |
-  [Linux](linux.md) | [BASH](bash.md) |
-  [C-Programmming](cprogramming.md) | [Javascipt](javascript.md) | [Python](python.md) | [Scheme](scheme.md) |
-  [Operating Systems](os.md) | [AssemblyLanguage](assemblylanguage.md) |
-  [Computer Security](computersecurity.md) |
-  [Firewalls](firewalls.md) |
-  [Exploitation](exploitation.md) | [Social Engineering](internetexploitation.md) | [Metasploit](metasploit.md) |
-  [Emacs](emacs.md) | [vim](vim.md) |
-  [Pharo Smalltalk](pharo.md) |
-  [Databases](databases.md) | [Networking](networking.md) | [Machine Learning](machinelearning.md) |
-  [Git](git.md) |
-  [Machine Learning](machinelearning.md) |
-  [Algorithms](algorithms.md) |
-  [Open Data Science](opendatascience.md)
+[Open Data Science](opendatascience.md)
 
 # [Makefile](makefile.md)
 
-> **Reading this in 2026.** This page reproduces a file from the PicoLisp sources, as I studied them around 2017 (the 32-bit C / pil32 implementation). PicoLisp is MIT-licensed, © Software Lab, Alexander Burger. Since 2020 the current PicoLisp is **pil21**, written in PicoLisp itself and compiled through LLVM, so the line-by-line details here belong to the older implementation; the ideas carry over. Current sources are at [software-lab.de](https://software-lab.de/down.html).
+The `src/Makefile` is how PicoLisp builds itself. When I first studied it (2016–17) it was the pil32 Makefile: `gcc -m32` compiling `main.c`, `gc.c` and the rest. Today's **pil21** Makefile (26.9, dated 13mar26) is reproduced in full below, and it tells a very different story.
 
+### What the pil21 build does
+
+```mermaid
+flowchart LR
+  L["src/*.l (PicoLisp)"] -- "pil lib/llvm.l" --> IR["base.ll (LLVM IR)"]
+  IR -- "opt -O2" --> BC[base.bc]
+  C["lib.c + pico.h"] -- "clang -emit-llvm" --> LBC[lib.bc]
+  BC --> LINK["llvm-link -> picolisp.bc"]
+  LBC --> LINK
+  LINK -- "llc + clang" --> BIN[bin/picolisp]
 ```
-# 02feb16abu
-# (c) Software Lab. Alexander Burger
 
-bin = ../bin
-lib = ../lib
+1. **PicoLisp compiles PicoLisp.** `$(PIL) lib/llvm.l lib/ex.l main.l -bye > base.ll` runs the LLVM front end (`src/lib/llvm.l`) over the interpreter's sources and writes LLVM IR.
+2. **Bootstrapping.** The tarball ships the generated `.ll` files. The line `$(shell $(PIL) -bye 2>/dev/null || touch *.ll)` checks whether a working `../pil` exists yet. If it doesn't, it marks the `.ll` files as up to date, so the very first build needs only LLVM, not PicoLisp.
+3. `opt -O2` optimises the IR. `lib.c` (the small C helper layer, see [pico.h](picoh.md)) is compiled to bitcode with clang, `llvm-link` joins both, and `llc` plus `clang` produce the native `bin/picolisp`, linked with readline and libffi.
+4. The same route builds `lib/ext.so` and `lib/ht.so`. Plain C tools follow: `bin/httpGate` and `bin/ssl` (with `-lssl -lcrypto`), `bin/balance`, and `lib/sysdefs` (from `sysdefs.c`, which records the OS's struct sizes and constants for `native`).
+5. `make so` builds PicoLisp as a shared library (`lib/picolisp.so`) for embedding.
+6. There are separate `Makefile.macos` and `Makefile.openbsd`. The LLVM version is detected with `llvm-config`; versions 15–16 get `-opaque-pointers`.
 
-picoFiles = main.c gc.c apply.c flow.c sym.c subr.c big.c io.c net.c tab.c
+### Using it
 
-CC = gcc
-# CCLD is the cc (compiler frontend) to use for the link step.
-CCLD = gcc
+```bash
+sudo apt install binutils make clang llvm libreadline-dev libffi-dev libssl-dev pkg-config
+cd pil21/src
+make            # everything
+make clean      # remove *.ll *.bc *.s  (careful: you then need a working pil to rebuild)
+```
 
-CFLAGS = -c -O2 -pipe \
-	-falign-functions=32 -fomit-frame-pointer -fno-strict-aliasing \
-	-W -Wimplicit -Wreturn-type -Wunused -Wformat \
-	-Wuninitialized -Wstrict-prototypes \
-	-D_GNU_SOURCE  -D_FILE_OFFSET_BITS=64
+Compare the two Makefiles and you can see the whole history of PicoLisp: from hand-written C, to a home-made assembler (pil64), to letting LLVM do the machine-specific work so that PicoLisp runs anywhere LLVM does.
 
-ifeq ($(shell uname), Linux)
-	OS = Linux
-	CFLAGS += -m32
-	PICOLISP-FLAGS = -m32 -rdynamic
-	LIB-FLAGS = -lm -ldl
-	DYNAMIC-LIB-FLAGS = -m32 -shared -export-dynamic
-	LCRYPT = -lcrypt
-	STRIP = strip
-else
-ifeq ($(shell uname), OpenBSD)
-	OS = OpenBSD
-	CFLAGS += -m32
-	PICOLISP-FLAGS = -m32 -rdynamic -Wl,-E
-	LIB-FLAGS = -lm
-	DYNAMIC-LIB-FLAGS = -Wl,-E -Wl,-shared
-	LCRYPT = -lcrypto
-	STRIP = strip
-else
-ifeq ($(shell uname), FreeBSD)
-	OS = FreeBSD
-	CC = gcc
-	CCLD = clang
-	CFLAGS += -m32
-	PICOLISP-FLAGS = -m32 -rdynamic
-	LIB-FLAGS = -lm
-	DYNAMIC-LIB-FLAGS = -m32 -shared -export-dynamic
-	LCRYPT = -lcrypt
-	STRIP = strip
-else
-ifeq ($(shell uname), NetBSD)
-	OS = NetBSD
-	CFLAGS += -m32
-	PICOLISP-FLAGS = -m32 -rdynamic
-	LIB-FLAGS = -lm
-	DYNAMIC-LIB-FLAGS = -m32 -shared -export-dynamic
-	LCRYPT = -lcrypto
-	STRIP = strip
-else
-ifeq ($(shell uname), Darwin)
-	OS = Darwin
-	CFLAGS += -m32
-	PICOLISP-FLAGS = -m32
-	LIB-FLAGS = -lc -lm -ldl
-	DYNAMIC-LIB-FLAGS = -m32 -dynamiclib -undefined dynamic_lookup
-	LCRYPT = -lcrypto
-	STRIP = strip -x
-else
-ifeq ($(shell uname), SunOS)
-	OS = SunOS
-	CFLAGS += -m32
-	PICOLISP-FLAGS =
-	LIB-FLAGS = -lm -lnsl -lsocket
-	DYNAMIC-LIB-FLAGS = -G
-	LCRYPT = -lcrypt
-	STRIP = strip
-else
-ifeq ($(shell uname), AIX)
-	OS = AIX
-	CFLAGS += -maix32
-	PICOLISP-FLAGS = -maix32 -Wl,-brtl -Wl,-bexpall
-	LIB-FLAGS = -lm
-	DYNAMIC-LIB-FLAGS = -maix32 -Wl,-G -shared -lm
-	LCRYPT = -lcrypt
-	STRIP = strip
-else
-ifeq ($(shell uname), HP-UX)
-	OS = HP-UX
-	CFLAGS +=
-	PICOLISP-FLAGS = -m32 -rdynamic
-	LIB-FLAGS = -lm -ldl
-	DYNAMIC-LIB-FLAGS = -m32 -shared
-	LCRYPT =
-	STRIP = strip
-else
-ifeq ($(shell uname), IRIX64)
-    OS = IRIX64
-    CFLAGS += -std=gnu99
-    DYNAMIC-LIB-FLAGS = -shared
-    STRIP = strip -f
-else
-ifeq ($(shell uname -o), Cygwin)
-	OS = Cygwin
-	CFLAGS += -m32
-	DYNAMIC-LIB-FLAGS = -shared
-	PICOLISP-FLAGS =
-	DLL-DEFS = $(bin)/picolisp.dll
-	LCRYPT = -lcrypt
-	STRIP = strip
-	exe = .exe
-	dll = .dll
-endif
-endif
-endif
-endif
-endif
-endif
-endif
-endif
-endif
+## The pil21 Makefile (26.9)
+
+
+```make
+# 13mar26 Software Lab. Alexander Burger
+
+.SILENT:
+
+CC = clang
+PIL = ../pil
+ASM = opt -O2
+LLC = llc
+LINK = llvm-link
+SHARED = -shared
+STRIP = strip
+
+$(shell $(PIL) -bye 2>/dev/null || touch *.ll)
+
+LLVM = $(shell llvm-config --version | cut -d. -f1)
+ifeq ($(shell test $(LLVM) -ge 15 -a $(LLVM) -lt 17; echo $$?), 0)
+	ASM += -opaque-pointers
 endif
 
-picolisp: $(bin)/picolisp $(lib)/ext$(dll) $(lib)/ht$(dll)
-tools: $(bin)/lat1 $(bin)/utf2 $(bin)/balance
-gate: $(bin)/ssl $(bin)/httpGate
+OS = $(shell uname)
+CPU = $(shell uname -m)
 
-all: picolisp tools gate
+BIN = ../bin
+LIB = ../lib
 
-.c.o:
-	$(CC) $(CFLAGS) -D_OS='"$(OS)"' $*.c
+INC = lib/llvm.l vers.l defs.l glob.l dec.l
+SRC = main.l gc.l big.l sym.l io.l db.l apply.l flow.l subr.l
 
-$(picoFiles:.c=.o) ext.o ht.o: pico.h
-main.o: vers.h
+all: $(LIB)/sysdefs $(BIN)/picolisp $(LIB)/ext.so $(LIB)/ht.so $(BIN)/balance $(BIN)/ssl $(BIN)/httpGate
+so: $(LIB)/picolisp.so
 
-ifeq ($(OS), Cygwin)
+# System definitions
+$(LIB)/sysdefs: sysdefs.c
+	$(CC) -w -D_OS='"$(OS)"' -D_CPU='"$(CPU)"' sysdefs.c  &&  ./a.out > $(LIB)/sysdefs  &&  rm ./a.out
 
-$(bin)/picolisp$(dll): $(picoFiles:.c=.o)
-	$(CCLD) -o $(bin)/picolisp$(dll) $(DYNAMIC-LIB-FLAGS) $(picoFiles:.c=.o)
-	$(STRIP) $(bin)/picolisp$(dll)
+# Base system
+$(BIN)/picolisp: picolisp.bc
+	mkdir -p $(BIN)
+	$(LLC) picolisp.bc -relocation-model=pic -o picolisp.s
+	$(CC) picolisp.s -o $(BIN)/picolisp -rdynamic -lc -lutil -lm -ldl `pkg-config --libs readline libffi`
+	$(STRIP) $(BIN)/picolisp
 
-$(bin)/picolisp: $(picoFiles:.c=.o) $(bin)/picolisp$(dll) start.o
-	mkdir -p $(bin) $(lib)
-	$(CCLD) -o $(bin)/picolisp$(exe) $(PICOLISP-FLAGS) start.o -L$(bin) -l$(bin)/picolisp
-	$(STRIP) $(bin)/picolisp$(exe)
+picolisp.bc: base.bc lib.bc
+	$(LINK) -o picolisp.bc base.bc lib.bc
 
-else
+base.bc: base.ll
+	$(ASM) -o base.bc base.ll
 
-$(bin)/picolisp: $(picoFiles:.c=.o)
-	mkdir -p $(bin) $(lib)
-	$(CCLD) -o $(bin)/picolisp$(exe) $(PICOLISP-FLAGS) $(picoFiles:.c=.o) $(LIB-FLAGS)
-	$(STRIP) $(bin)/picolisp$(exe)
+base.ll: $(INC) $(SRC) lib/ex.l
+	$(PIL) lib/llvm.l lib/ex.l main.l -bye > base.ll
+	mv base.map $(LIB)/map
 
-endif
+lib.bc: pico.h lib.c
+	$(CC) -O3 -w -c -o lib.bc -D_OS='"$(OS)"' -D_CPU='"$(CPU)"' `pkg-config --cflags libffi` -emit-llvm lib.c
 
-$(lib)/ext$(dll): ext.o
-	$(CCLD) -o $(lib)/ext$(dll) $(DYNAMIC-LIB-FLAGS) ext.o $(DLL-DEFS) $(LCRYPT)
-	$(STRIP) $(lib)/ext$(dll)
+# Base system as shared library
+$(LIB)/picolisp.so: picolisp.so.bc
+	$(LLC) picolisp.so.bc -relocation-model=pic -o picolisp.so.s
+	$(CC) picolisp.so.s -o $(LIB)/picolisp.so $(SHARED)
+	$(STRIP) $(LIB)/picolisp.so
 
-$(lib)/ht$(dll): ht.o
-	$(CCLD) -o $(lib)/ht$(dll) $(DYNAMIC-LIB-FLAGS) ht.o $(DLL-DEFS)
-	$(STRIP) $(lib)/ht$(dll)
+picolisp.so.bc: base.so.bc lib.so.bc
+	$(LINK) -o picolisp.so.bc base.so.bc lib.so.bc
 
-$(bin)/lat1: lat1.c
-	$(CC) -o $(bin)/lat1$(exe) lat1.c
-	$(STRIP) $(bin)/lat1$(exe)
+base.so.bc: base.so.ll
+	$(ASM) -o base.so.bc base.so.ll
 
-$(bin)/utf2: utf2.c
-	$(CC) -o $(bin)/utf2$(exe) utf2.c
-	$(STRIP) $(bin)/utf2$(exe)
+base.so.ll: $(INC) $(SRC) lib/so.l
+	$(PIL) lib/llvm.l -quiche lib/so.l main.l -bye > base.so.ll
+	rm base.map
 
-$(bin)/balance: balance.c
-	$(CC) -o $(bin)/balance$(exe) balance.c
-	$(STRIP) $(bin)/balance$(exe)
+lib.so.bc: pico.h lib.so.c
+	$(CC) -O3 -w -c -fPIC -o lib.so.bc -D_OS='"$(OS)"' -D_CPU='"$(CPU)"' `pkg-config --cflags libffi` -emit-llvm lib.so.c
 
-$(bin)/ssl: ssl.c
-	$(CC) -o $(bin)/ssl$(exe) ssl.c -lssl -lcrypto
-	$(STRIP) $(bin)/ssl$(exe)
+# Extension libraries
+$(LIB)/ext.so: ext.bc
+	$(LLC) ext.bc -relocation-model=pic -o ext.s
+	$(CC) ext.s -o $(LIB)/ext.so $(SHARED)
+	$(STRIP) $(LIB)/ext.so
 
-$(bin)/httpGate: httpGate.c
-	$(CC) -o $(bin)/httpGate$(exe) httpGate.c -lssl -lcrypto
-	$(STRIP) $(bin)/httpGate$(exe)
+ext.bc: ext.ll
+	$(ASM) -o ext.bc ext.ll
+
+ext.ll: $(INC) ext.l
+	$(PIL) lib/llvm.l ext.l -bye > ext.ll
+
+$(LIB)/ht.so: ht.bc
+	$(LLC) ht.bc -relocation-model=pic -o ht.s
+	$(CC) ht.s -o $(LIB)/ht.so $(SHARED)
+	$(STRIP) $(LIB)/ht.so
+
+ht.bc: ht.ll
+	$(ASM) -o ht.bc ht.ll
+
+ht.ll: $(INC) ht.l
+	$(PIL) lib/llvm.l ht.l -bye > ht.ll
+
+# Tools
+$(BIN)/balance: balance.c
+	$(CC) -O3 -w -o $(BIN)/balance balance.c
+	$(STRIP) $(BIN)/balance
+
+# Gate
+$(BIN)/ssl: ssl.c
+	$(CC) -O3 -w -o $(BIN)/ssl ssl.c -lssl -lcrypto
+	$(STRIP) $(BIN)/ssl
+
+$(BIN)/httpGate: httpGate.c
+	$(CC) -O3 -w -o $(BIN)/httpGate httpGate.c -lssl -lcrypto
+	$(STRIP) $(BIN)/httpGate
 
 # Clean up
 clean:
-	rm -f *.o
+	rm -f *.ll *.bc *.s
 
-# vi:noet:ts=4:sw=4
+clean2: clean
+	rm -f $(LIB)/sysdefs $(BIN)/balance $(BIN)/ssl $(BIN)/httpGate
 ```

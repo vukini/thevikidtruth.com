@@ -1,7 +1,7 @@
 ---
 title: mkVers
 date: '2017-06-29T02:03:06+04:00'
-lastmod: '2017-06-29T02:07:30+04:00'
+lastmod: '2026-10-23T12:00:00+04:00'
 original_id: '{A1165}'
 original_name: mkvers
 original_blob: blob/B/6/100.txt
@@ -18,26 +18,13 @@ topics:
 - lisp
 ---
 
-[Read This!](caveatemptor.md) |
-  [Picolisp](picolisp.md) | [Picolisp Machine](pilmachine.md) | [Pil Sources](pilsource.md) | [Pil Tutorials](piltutorials.md) |
-  [Linux](linux.md) | [BASH](bash.md) |
-  [C-Programmming](cprogramming.md) | [Javascipt](javascript.md) | [Python](python.md) | [Scheme](scheme.md) |
-  [Operating Systems](os.md) | [AssemblyLanguage](assemblylanguage.md) |
-  [Computer Security](computersecurity.md) |
-  [Firewalls](firewalls.md) |
-  [Exploitation](exploitation.md) | [Social Engineering](internetexploitation.md) | [Metasploit](metasploit.md) |
-  [Emacs](emacs.md) | [vim](vim.md) |
-  [Pharo Smalltalk](pharo.md) |
-  [Databases](databases.md) | [Networking](networking.md) | [Machine Learning](machinelearning.md) |
-  [Git](git.md) |
-  [Machine Learning](machinelearning.md) |
-  [Algorithms](algorithms.md) |
-  [Open Data Science](opendatascience.md)
+[Open Data Science](opendatascience.md)
 
 # [mkVers](mkvers.md)
 
-> **Reading this in 2026.** This page reproduces `mkVers` from the PicoLisp sources (PicoLisp build tools), as I studied them around 2017. It is the script that stamps the current version number into the source files. PicoLisp is MIT-licensed, © Software Lab, Alexander Burger. Since 2020 the current PicoLisp is **pil21**, which is written in PicoLisp itself and compiled through LLVM, so the line-by-line details here belong to the older implementations; the ideas carry over. Current sources are at [software-lab.de](https://software-lab.de/down.html).
+`mkVers` was a tiny PicoLisp script from the 2010s source tree. It stamped the current version into the C header `vers.h`, so that the C interpreter (pil32) reported the same version as the 64-bit one (pil64). I studied it in 2017; this page is updated for 2026.
 
+### What it did
 
 ```
 #!../bin/picolisp ../lib.l
@@ -56,3 +43,24 @@ topics:
 
 # vi:et:ts=3:sw=3
 ```
+
+1. **The shebang** runs `../bin/picolisp` with `../lib.l`. Back then the interpreter binary and the base library were given explicitly. Today that is the job of the `pil` wrapper script.
+2. **`(load "../src64/version.l")`** read the single source of truth, `*Version`, from the pil64 tree.
+3. **`(out "vers.h" ...)`** redirected output into the header file, and `glue` joined the numbers with commas: `(17 6 13)` became `17,6,13`.
+
+It is a neat example of PicoLisp as a build tool: five lines of Lisp generating C.
+
+### What happened to it
+
+**pil21 has no `mkVers`.** There is no C interpreter left to stamp. The version lives directly in `src/vers.l` as `(pico~de *Version 26 9 25)`, which the LLVM build compiles straight into the binary. One file, nothing generated. See [vers.h](versh.md).
+
+The same trick is still useful in your own projects:
+
+```picolisp
+(out "version.h"
+   (prinl "#define APP_VERSION \"" (glue "." (version T)) "\"") )
+```
+
+On 26.9 that writes `#define APP_VERSION "26.9.25"`.
+
+See also: [Makefile](makefile.md), [PicoLisp Sources](pilsource.md).

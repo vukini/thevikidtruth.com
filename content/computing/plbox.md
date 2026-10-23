@@ -1,7 +1,7 @@
 ---
 title: box
 date: '2021-08-28T06:45:21+04:00'
-lastmod: '2026-10-22T10:30:00+04:00'
+lastmod: '2026-10-23T12:00:00+04:00'
 original_id: '{A1500}'
 original_name: plbox
 original_blob: blob/B/7/601.txt
@@ -122,3 +122,5 @@ $134425627 (A B C)
 ```
 
 see [new](plnew.md)
+
+*All examples on this page tested on PicoLisp 26.9, October 2026.*

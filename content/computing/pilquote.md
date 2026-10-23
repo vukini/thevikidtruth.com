@@ -1,7 +1,7 @@
 ---
 title: quote
 date: '2017-06-24T08:08:02+04:00'
-lastmod: '2017-06-25T03:55:35+04:00'
+lastmod: '2026-10-23T12:00:00+04:00'
 original_id: '{A1152}'
 original_name: pilquote
 original_blob: blob/B/6/033.txt
@@ -37,9 +37,7 @@ topics:
 
 # [quote](pilquote.md)
 
-> **Reading this in 2026.** These are my study notes from around 2017, when the 32-bit C (pil32) and 64-bit assembly (pil64) implementations were current. Since 2020 PicoLisp is **pil21**, written in PicoLisp itself and compiled through LLVM; the language, libraries and examples are largely the same, so the ideas here still apply, but file names and internals differ. See [Pil Sources](pilsource.md) and [software-lab.de](https://software-lab.de/down.html).
-
-This article is under construction. There will be plenty of errors so please keep it in mind.
+I first wrote this essay in 2017 and finished it in October 2026. The examples are tested on PicoLisp 26.9.
 
 ![quote](/assets/quote.png)
 {.left}
@@ -269,3 +267,92 @@ Basically, it does so by applying the following three rules:
     - the rest of the elements are considered data to the function
     - This data is in turn evaluated using the same 3 rules
 1. [reference](https://software-lab.de/doc/ref.html)
+
+## Back to 'Hello
+
+Now we can keep the promise from the start of this article. Typing `Hello` gives `NIL` because of **rule 2**: a symbol evaluates to its value, and a fresh symbol's value is `NIL`. Typing `'Hello` gives `Hello` because the quote stops evaluation. You get the symbol itself, not its value.
+
+The same goes for lists. `(+ 4 4)` is evaluated by **rule 3** and gives `8`. `'(+ 4 4)` is just data: a list of three things, the symbol `+` and two numbers. That is the recipe on the shelf versus the cake in the oven.
+
+These examples are tested on PicoLisp 26.9:
+
+```picolisp
+: Hello
+-> NIL
+: 'Hello
+-> Hello
+: '(+ 4 4)
+-> (+ 4 4)
+: (+ 4 4)
+-> 8
+```
+
+## How quote really works in PicoLisp
+
+Here PicoLisp differs from other Lisps in a way that surprised me. **`quote` returns *all* its arguments, unevaluated, as a list.** In Common Lisp or Scheme, `(quote x)` returns `x`. In PicoLisp:
+
+```picolisp
+: (quote a b c)
+-> (a b c)
+: (quote Hello)
+-> (Hello)          # a list, not the symbol!
+```
+
+So why does `'Hello` give `Hello`? Because the reader turns `'Hello` into the cell `(quote . Hello)`, a dotted pair. `quote` returns its CDR, which here is the symbol itself. It is a lovely example of PicoLisp's minimalism: one tiny function, `(cdr Exe)`, and the read macro does the rest. You can see the dotted form with `lit`, which quotes a value only if it needs it:
+
+```picolisp
+: (lit 'a)
+-> 'a               # i.e. (quote . a)
+: (lit 5)
+-> 5                # numbers need no quote
+```
+
+Two related surprises:
+
+- **Lists that start with a number evaluate to themselves.** `(1 2 3)` returns `(1 2 3)`, so you often don't need a quote for numeric data.
+- **A function is just a quoted list.** `(de square (X) (* X X))` sets `square` to the list `((X) (* X X))`. You can call such a list directly: `((quote (X) (* X X)) 9)` → `81`. Code really is data.
+
+## From data back to code: eval and run
+
+The opposite of quote is `eval`. It takes data and runs it as code:
+
+```picolisp
+: (setq Recipe '(* 3 (+ 1 2)))
+-> (* 3 (+ 1 2))
+: (car Recipe)       # inspect the recipe as data...
+-> *
+: (eval Recipe)      # ...or bake it
+-> 9
+: (run '((setq Z 2) (* Z 3)))   # run a list of expressions
+-> 6
+```
+
+That is the cake recipe again: read it, store it, edit it, and bake it only when you choose to.
+
+## Partly quoted: backquote, fill and macro
+
+Often you want a template that is mostly data with a few computed holes:
+
+- **Backquote** `` ` `` evaluates the next expression *at read time*. `` '(a `(+ 1 2) c) `` is read as `(a 3 c)`. It is used a lot for constants in libraries.
+- **`fill`** fills in pattern variables at run time. Symbols starting with `@` are substituted by default, or you name the symbols to replace:
+
+```picolisp
+: (let @X 7 (fill '(a @X c)))
+-> (a 7 c)
+: (let X 7 (fill '(a X c) 'X))
+-> (a 7 c)
+```
+
+- **`macro`** fills a body and then evaluates it, with `^` splicing in a list: `(macro (+ 1 ^(list 2 3)))` → `6`. PicoLisp has no compile-time macros (there is no compiler), so `macro` and `fill` are how you generate code.
+
+## Common misconceptions
+
+- **"`quote` takes one argument."** In PicoLisp it takes any number and returns them all as a list. The `'x` read macro is what gives you a single value.
+- **"Quoting is about strings."** Strings in PicoLisp are transient symbols (`"like this"`) and evaluate to themselves. Quote is about *symbols and lists*.
+- **"Quoted lists are copies."** A quoted list in your code is the very cells that `read` produced. Destructively changing one (with `set`, `con`, `conc`) changes your program. Use `copy` first if you need to modify it.
+
+## Further reading
+
+- The official [ArticleQuote](https://picolisp.com/wiki/?ArticleQuote) on the PicoLisp wiki.
+- [quote](https://software-lab.de/doc/refQ.html#quote), [fill](https://software-lab.de/doc/refF.html#fill), [macro](https://software-lab.de/doc/refM.html#macro) and [lit](https://software-lab.de/doc/refL.html#lit) in the reference.
+- [The Vikid PicoLisp Tutorial](pltutorial.md), [The PicoLisp Machine](pilmachine.md), [PicoLisp](picolisp.md).

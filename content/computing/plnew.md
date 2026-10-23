@@ -1,7 +1,7 @@
 ---
 title: new
 date: '2021-08-28T06:47:27+04:00'
-lastmod: '2021-08-28T06:53:26+04:00'
+lastmod: '2026-10-23T12:00:00+04:00'
 original_id: '{A1501}'
 original_name: plnew
 original_blob: blob/B/7/576.txt
@@ -106,13 +106,13 @@ For the database you normally use `new!`, which wraps the creation in a transact
 
 
 ```
-(new ['flg|num] ['typ ['any ..]]) -> obj 
+(new ['flg|num|sym] ['typ ['any ..]]) -> obj 
 ```
 
 Creates and returns a new object.
 
 If **flg** is given and **non-NIL**, the new object will be an **external symbol**
-(created in database file 1 if T, or in the corresponding database file if num is given).
+(created in database file 1 if T, or in the corresponding database file if num is given). If a symbol is given instead, the new object is created in that namespace (pil21).
 
 **typ** (typically a list of classes) is assigned to the VAL,
 and the *initial T message* is sent with the arguments any to the new object.
@@ -146,3 +146,5 @@ See also request!, set!, put! and inc!.
 ```
 
 see also [box](plbox.md), object, class, type, isa, send and Database.
+
+*Checked against the PicoLisp 26.9 reference, October 2026.*

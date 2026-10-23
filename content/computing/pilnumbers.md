@@ -1,7 +1,7 @@
 ---
 title: Working With Numbers
 date: '2016-11-27T23:42:57+04:00'
-lastmod: '2016-11-27T23:57:28+04:00'
+lastmod: '2026-10-23T12:00:00+04:00'
 original_id: '{A423}'
 original_name: pilnumbers
 original_blob: blob/B/2/365.txt
@@ -22,17 +22,9 @@ topics:
 
 # Working With Numbers
 
-## Fixed-Point vs Floats
-
-[Read About It](http://the-m6.net/blog/fixed-point-arithmetic-in-picolisp.html)
-
 There are a few in built functions that help us deal effectively with Numbers
 
-## Arithmetic
-
-## Conversion / Reprsentation
-
-format, pad, hex, oct, bin and round.
+The ones I use most: `*/`, `format`, `round`, `pad`, `hex`, `oct` and `bin`.
 
 ### The plain idea
 
@@ -57,6 +49,26 @@ Instead of measuring in metres and fractions of a metre (where the fractions get
 ```
 
 `scl` sets the scale (how many decimal places the reader applies to literals like `19.95`), `format` turns a scaled integer back into a human string, and `*/` multiplies then divides with proper rounding, the workhorse for percentages and tax. For base conversions, `(hex 255)` gives `"FF"` and `(bin 5)` gives `"101"`.
+
+### More examples, tested on PicoLisp 26.9
+
+```picolisp
+(scl 2)
+19.95                       # -> 1995    the reader scales literals
+(*/ 19.95 1.5 1.0)          # -> 2993    19.95 x 1.5 = 29.93 (rounded)
+(format (*/ 19.95 1.05 1.0) 2)   # -> "20.95"  add 5% tax
+(round 1234567 2)           # -> "12,345.67"  thousands separator included
+(format 1234567 2 "." ",")  # -> "12,345.67"  same, explicit separators
+1.5e3                       # -> 150000  e-notation works too (1500.00)
+(format (sqrt 2.0 1.0) *Scl)     # -> "1.41"  sqrt with a scale factor
+(= (+ 0.1 0.2) 0.3)         # -> T       exact, unlike floating point
+(pad 5 42)                  # -> "00042"
+(oct 8)                     # -> "10"
+```
+
+The rule of thumb for multiplying two scaled numbers is `(*/ A B 1.0)`: multiply, then divide by one unit of the scale to put the decimal point back, with rounding. To divide, use `(*/ A 1.0 B)`. If you really need IEEE floats (for example, to call a C library), the `native` FFI can pass and return doubles, converting to and from scaled integers at the boundary.
+
+The old blog post I used to link here about fixed-point arithmetic is gone. The best current explanation is the [Numbers section of the reference](https://software-lab.de/doc/ref.html#number) and the [`*/`](https://software-lab.de/doc/refS.html#*/) and [`format`](https://software-lab.de/doc/refF.html#format) entries.
 
 ### Common misconceptions
 

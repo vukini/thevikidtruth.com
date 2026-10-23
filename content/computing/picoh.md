@@ -1,7 +1,7 @@
 ---
 title: pico.h
 date: '2017-06-19T03:25:59+04:00'
-lastmod: '2017-06-29T02:38:17+04:00'
+lastmod: '2026-10-23T12:00:00+04:00'
 original_id: '{A1131}'
 original_name: picoh
 original_blob: blob/B/6/116.txt
@@ -18,25 +18,49 @@ topics:
 - lisp
 ---
 
-[Read This!](caveatemptor.md) |
-  [Picolisp](picolisp.md) | [Picolisp Machine](pilmachine.md) | [Pil Sources](pilsource.md) |
-  [Linux](linux.md) | [BASH](bash.md) |
-  [C-Programmming](cprogramming.md) | [Javascipt](javascript.md) | [Python](python.md) | [Scheme](scheme.md) |
-  [Operating Systems](os.md) | [AssemblyLanguage](assemblylanguage.md) |
-  [Computer Security](computersecurity.md) |
-  [Firewalls](firewalls.md) |
-  [Exploitation](exploitation.md) | [Social Engineering](internetexploitation.md) | [Metasploit](metasploit.md) |
-  [Emacs](emacs.md) | [vim](vim.md) |
-  [Pharo Smalltalk](pharo.md) |
-  [Databases](databases.md) | [Networking](networking.md) | [Machine Learning](machinelearning.md) |
-  [Git](git.md) |
-  [Machine Learning](machinelearning.md) |
-  [Algorithms](algorithms.md) |
-  [Open Data Science](opendatascience.md)
+[Open Data Science](opendatascience.md)
 
 # [pico.h](picoh.md)
 
-> **Reading this in 2026.** These are my study notes from around 2017, when the 32-bit C (pil32) and 64-bit assembly (pil64) implementations were current. Since 2020 PicoLisp is **pil21**, written in PicoLisp itself and compiled through LLVM; the language, libraries and examples are largely the same, so the ideas here still apply, but file names and internals differ. See [Pil Sources](pilsource.md) and [software-lab.de](https://software-lab.de/down.html).
+`pico.h` is the C header that describes PicoLisp's data from the C side. It has two lives:
+
+- In **pil32** (the original C implementation) it was *the* central header, defining cells, numbers, symbols and every macro the interpreter was built from. My 2017 line-by-line study of that version is kept below as an archive.
+- In **pil21** (current, 26.9) the interpreter itself is written in PicoLisp and compiled through LLVM. `src/pico.h` still exists, but it is now a small (69-line) header for the **C helper layer** `src/lib.c`. That file wraps libc things that are easier to call from C: readline, terminal modes, signals, `fcntl`, and the libffi glue behind `native`.
+
+### Reading the pil21 pico.h
+
+The heart of it is a handful of macros that mirror [The PicoLisp Machine](pilmachine.md) exactly:
+
+```c
+typedef uint64_t any;              // every Lisp value is a 64-bit word
+
+#define cnt(x) ((x) & 2)           // short number?   ...S010
+#define num(x) ((x) & 6)           // any number?     ...S010 or ...S100
+#define sym(x) ((x) & 8)           // symbol?         ...1000
+#define atom(x) ((x) & 15)         // not a pair?     pairs end in 0000
+
+#define car(x) (*(uint64_t*)(x))
+#define cdr(x) (*(uint64_t*)((x) + 8))
+#define val(x) (*(uint64_t*)(x))   // a symbol pointer points AT its value
+#define tail(x) ((x) - 8)          // ...and its tail is the word before
+#define dig(x) ((x) - 4)           // bignum pointers are offset by 4
+#define big(x) ((x) + 4)
+```
+
+These few lines are the whole tagging scheme. The low four bits of a pointer tell you the type, a symbol's pointer lands on its value, and bignum pointers are offset by 4. The rest of the header declares a few interpreter functions that C may call (`name`, `number`, `boxNum`, `bufString`, `err`…), the indexes of well-known symbols (`Nil`, `T`…) in the symbol table, and `sighandler_t`.
+
+To read it yourself, build pil21 (see [PicoLisp Installation](../languages/picolispinstallation.md)) and open `src/pico.h` next to `src/lib.c`. If you don't have the C library man pages:
+
+```
+$ sudo apt install manpages-dev manpages-posix-dev
+$ man 3 fcntl
+```
+
+See also: [PicoLisp Sources](pilsource.md), [C Programming](cprogramming.md), [C Standard Library](cstandardlibrary.md).
+
+## pil32 pico.h: my 2017 study notes (archive)
+
+The rest of this page is my original walk through the **pil32** header. That code is no longer maintained, but it is still a lovely, readable model of a Lisp in C.
 
 #### Include statements
 

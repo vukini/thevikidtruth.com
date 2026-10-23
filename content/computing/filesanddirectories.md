@@ -1,7 +1,7 @@
 ---
 title: Going MAD
 date: '2016-05-18T11:59:35+04:00'
-lastmod: '2016-05-18T15:11:23+04:00'
+lastmod: '2026-10-23T12:00:00+04:00'
 original_id: '{A31}'
 original_name: filesanddirectories
 original_blob: blob/B/200.txt
@@ -18,6 +18,7 @@ draft: false
 topics:
 - linux
 ---
+
 ### The plain idea
 
 This page is a quick tour of how to move around the filesystem from *inside* a running [PicoLisp](picolisp.md) process, rather than from the shell. PicoLisp gives you a small set of functions, `pwd`, `dir`, `cd`, `chdir`, `dirname`, `basename`, that mirror the familiar Unix shell commands, so you can navigate directories and inspect files without ever leaving your Lisp session.
@@ -72,7 +73,7 @@ of all picolisp functions. You mostly get **NIL** results for failures.
 
 you can **cd** into any directory just like in the **shell**. 
 
-The return value is your **cwd** and **NIL** if you
+The return value is the directory you were in *before* the change (handy for going back), and **NIL** if you
 gave a non existing directory.
 
 ```
@@ -114,3 +115,5 @@ if you finally got the path to your file, you can get the path and filename with
 - [storage_linkage](storagelinkage.md) and the rest of the computing notes.
 
 The truth revealed: a REPL that can walk your filesystem as easily as the shell blurs the line between "writing a program" and "using the computer", which is exactly the PicoLisp way.
+
+*Every function on this page checked on PicoLisp 26.9, October 2026.*

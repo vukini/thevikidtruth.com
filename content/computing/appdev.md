@@ -1,7 +1,7 @@
 ---
 title: Application Development
 date: '2016-05-18T05:18:22+04:00'
-lastmod: '2026-10-22T10:30:00+04:00'
+lastmod: '2026-10-23T12:00:00+04:00'
 original_id: '{A30}'
 original_name: appdev
 original_blob: blob/B/12/326.txt
@@ -120,3 +120,5 @@ Within the underlying picolisp process, each instance is actually a forked proce
 which is linked with the browser session.
 
 - [picolisp-explored: web-app](https://picolisp-explored.com/series/web-app)
+
+*All examples on this page tested on PicoLisp 26.9, October 2026.*

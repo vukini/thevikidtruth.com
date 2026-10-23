@@ -1,7 +1,7 @@
 ---
-title: Picolisp Sources
+title: 'PicoLisp Sources'
 date: '2016-11-26T21:48:16+04:00'
-lastmod: '2017-06-29T02:04:04+04:00'
+lastmod: '2026-10-23T12:00:00+04:00'
 original_id: '{A375}'
 original_name: pilsource
 original_blob: blob/B/6/070.txt
@@ -18,53 +18,77 @@ topics:
 - lisp
 ---
 
-# Picolisp Sources
-
-[Read This!](caveatemptor.md) |
-  [Picolisp](picolisp.md) | [Picolisp Machine](pilmachine.md) | [Pil Sources](pilsource.md) | [Pil Tutorials](piltutorials.md) |
-  [Picolisp By Example](picolispbyexample.md) |
-  [Linux](linux.md) | [BASH](bash.md) |
-  [C-Programmming](cprogramming.md) | [Javascipt](javascript.md) | [Python](python.md) | [Scheme](scheme.md) |
-  [Operating Systems](os.md) | [AssemblyLanguage](assemblylanguage.md) |
-  [Computer Security](computersecurity.md) |
-  [Firewalls](firewalls.md) |
-  [Exploitation](exploitation.md) | [Social Engineering](internetexploitation.md) | [Metasploit](metasploit.md) |
-  [Emacs](emacs.md) | [vim](vim.md) |
-  [Pharo Smalltalk](pharo.md) |
-  [Databases](databases.md) | [Networking](networking.md) | [Machine Learning](machinelearning.md) |
-  [Git](git.md) |
-  [Machine Learning](machinelearning.md) |
-  [Algorithms](algorithms.md) |
-  [Open Data Science](opendatascience.md) |
+# PicoLisp Sources
 
 ### The plain idea
 
-PicoLisp has been implemented three times, and this page indexes my reading of the first two:
+PicoLisp has been implemented three times. This page is the index of my reading of all three, updated in October 2026:
 
-- **pil32**, written in C. Small, readable and the easiest place to start. Its files (`pico.h`, `main.c`, `sym.c` and the rest) are listed below. Its spirit lives on in *miniPicoLisp*, a minimal C version still available from Software Lab.
-- **pil64**, written in a generic assembly language that is itself defined in PicoLisp (`asm.l`), then translated to x86-64, ARM64, PowerPC and others. Fast, with a full 64-bit object database.
-- **pil21**, the current PicoLisp since 2020. Alexander Burger rewrote the system again, this time in PicoLisp itself, generating LLVM intermediate code. It keeps the same language and libraries (`@lib/http.l`, `form.l`, the database) while being portable to any platform LLVM supports. If you download PicoLisp today, this is what you get.
+- **pil32**, written in C. It is small, readable, and the easiest place to start. Its files (`pico.h`, `main.c`, `sym.c` and the rest) are listed below as I studied them in 2017. They are kept here as an archive. pil32 is no longer maintained, but its spirit lives on in *miniPicoLisp*, a minimal C version.
+- **pil64**, written in a generic assembly language that was itself defined in PicoLisp, then translated to x86-64, ARM64, PowerPC and others. It was fast and had a full 64-bit object database. It is also archived now (see [PicoLisp ASM](pilasm.md)).
+- **pil21**, the current PicoLisp since 2020 (latest release **26.9**). Alexander Burger rewrote the system again, this time in PicoLisp itself, generating **LLVM IR**. It keeps the same language and libraries (`@lib/*.l`) and adds namespaces. If you want to read the code that actually runs today, read this one.
 
 ### Why read interpreter sources at all?
 
-Because PicoLisp is small enough to read. The whole of pil32 is a few thousand lines. You can see exactly how a cell is laid out, how a symbol stores its value and properties, how the garbage collector marks and sweeps, and how `eval` walks a list. Few languages let you hold the entire machine in your head, and doing it once changes how you write code in any language.
+Because PicoLisp is small enough to read. All of pil21's `src/*.l` is about 16,000 lines. You can see exactly how a cell is laid out, how a symbol stores its value and properties, how the garbage collector marks, and how `eval` walks a list. See [The PicoLisp Machine](pilmachine.md) for the data model.
 
 ### An analogy
 
 Reading a novel tells you the story. Reading the author's drafts tells you how stories are built. These pages are the drafts.
 
+### The pil21 source tree (src/)
+
+From `pil21.tgz`, version 26.9:
+
+| File | What it holds |
+|---|---|
+| `lib/llvm.l` | The **LLVM front end**: a PicoLisp DSL that emits LLVM IR. Everything else is written in it. |
+| `vers.l` | The version, `(pico~de *Version 26 9 25)`. See [vers.l](versh.md). |
+| `defs.l`, `glob.l`, `dec.l` | Constants, global symbols and the symbol table, and declarations. |
+| `main.l` | Startup, the REPL, `eval`/`apply`, error handling, signals. |
+| `gc.l` | The mark-and-sweep garbage collector and heap. |
+| `big.l` | Numbers: short numbers and bignums, arithmetic. |
+| `sym.l` | Symbols, names, namespaces, properties, list functions. |
+| `io.l` | The reader, printer, files, sockets and pipes. |
+| `db.l` | External symbols: the database engine. |
+| `apply.l`, `flow.l`, `subr.l` | Function application, control flow (`if`, `loop`, `co`…), and list built-ins. |
+| `ext.l`, `ht.l` | The `ext.so` and `ht.so` extension libraries (`ht.so` speeds up HTTP and HTML output). |
+| `lib.c`, `pico.h` | A small C helper layer for things easier done in C (terminal, signals, `native` calls). See [pico.h](picoh.md). |
+| `httpGate.c`, `ssl.c`, `balance.c`, `sysdefs.c` | Standalone tools in C: the HTTPS proxy ([httpGate](httpgatec.md)), the SSL client, a load balancer, and the generator for `lib/sysdefs`. |
+| `Makefile` | Builds it all with `clang`, `opt`, `llc` and `llvm-link`. See [Makefile](makefile.md). |
+
+A built-in function in pil21 looks like this (from `src/subr.l`):
+
+```picolisp
+# (cdr 'lst) -> any
+(de _Cdr (Exe)
+   (chkD (eval (cadr Exe))) )
+```
+
+That is PicoLisp code, but it is compiled, not interpreted: `lib/llvm.l` turns it into LLVM IR (`base.ll`), and LLVM optimises it into machine code. The tarball ships the generated `.ll` files, so you can build pil21 without having PicoLisp installed first.
+
 ### How to use this page
 
-Start with [pico.h](picoh.md) for the data structures, then [main.c](mainc.md) and [flow.c](flowc.md) to see evaluation, then [sym.c](symc.md) and [subr.c](subrc.md) for symbols and lists. Each source page has a short note saying what the file does. When you are ready for the current system, download pil21 from [software-lab.de](https://software-lab.de/down.html) and compare: the ideas are the same, written a third time.
+For **today's PicoLisp**, start with `src/defs.l` and `src/glob.l` for the data structures, then `main.l` for evaluation, then `sym.l` and `subr.l`. Read the [reference VM section](https://software-lab.de/doc/ref.html#vm) alongside.
+
+For the **historical C version**, start with [pico.h](picoh.md), then [main.c](mainc.md) and [flow.c](flowc.md) to see evaluation, then [sym.c](symc.md) and [subr.c](subrc.md) for symbols and lists.
 
 ## [Examples Examined](pilexamplesexamined.md)
 
-- [misc/life.l](pillife.md)
-- [misc/chat](pilchat.md)
+- [Life](pillife.md)
+- [Chat](pilchat.md)
+- [The Health Application](pilhealth.md)
 
-## [32 Bit C Source](32bitcsource.md)
+## Libraries (current)
 
-- [pico.h](picoh.md)
+- [http.l](httpl.md): the HTTP server.
+- [httpGate](httpgatec.md): the HTTPS front-end proxy.
+
+## [32 Bit C Source (pil32, archive)](32bitcsource.md)
+
+These are my 2017 reading notes on the pil32 sources, kept as they were:
+
+- [pico.h](picoh.md) (now also covers pil21's `pico.h`)
 - [main.c](mainc.md)
 - [apply.c](applyc.md)
 - [balance.c](balancec.md)
@@ -84,116 +108,9 @@ Start with [pico.h](picoh.md) for the data structures, then [main.c](mainc.md) a
 - [subr.c](subrc.md)
 - [sym.c](symc.md)
 - [tab.c](tabc.md)
-- [TAGS](tags.md "MISSING PAGE")
 - [utf2.c](utf2c.md)
 - [vers.h](versh.md)
 
-## [64 Bit Asm Source](64bitasmsource.md)
+## [64 Bit Asm Source (pil64, archive)](64bitasmsource.md)
 
-- [apply.l](apply-l.md "MISSING PAGE")
-- [arch](arch.md "MISSING PAGE")
-- [big.l](big-l.md "MISSING PAGE")
-- [db.l](db-l.md "MISSING PAGE")
-- [defs.l](defs-l.md "MISSING PAGE")
-- [err.l](err-l.md "MISSING PAGE")
-- [ext.l](ext-l.md "MISSING PAGE")
-- [flow.l](flow-l.md "MISSING PAGE")
-- [gc.l](gc-l.md "MISSING PAGE")
-- [glob.l](glob-l.md "MISSING PAGE")
-- [ht.l](ht-l.md "MISSING PAGE")
-- [io.l](io-l.md "MISSING PAGE")
-- [lib](lib.md "MISSING PAGE")
-- [main.l](main-l.md "MISSING PAGE")
-- [Makefile](makefile.md)
-- [mkAsm](mkasm.md "MISSING PAGE")
-- [mkAsm.l](mkasm-l.md "MISSING PAGE")
-- [net.l](net-l.md "MISSING PAGE")
-- [src-list](src-list.md "MISSING PAGE")
-- [subr.l](subrl.md)
-- [sym.l](sym-l.md "MISSING PAGE")
-- [sys](sys.md "MISSING PAGE")
-- [sysdefs.c](sysdefs-c.md "MISSING PAGE")
-- [tags](tags.md "MISSING PAGE")
-- [version.l](version-l.md "MISSING PAGE")
-- [x86-64.linux.base.o](x86-64-linux-base-o.md "MISSING PAGE")
-- [x86-64.linux.base.s](x86-64-linux-base-s.md "MISSING PAGE")
-- [x86-64.linux.ext.o](x86-64-linux-ext-o.md "MISSING PAGE")
-- [x86-64.linux.ext.s](x86-64-linux-ext-s.md "MISSING PAGE")
-- [x86-64.linux.ht.o](x86-64-linux-ht-o.md "MISSING PAGE")
-- [x86-64.linux.ht.s](x86-64-linux-ht-s.md "MISSING PAGE")
-
-## [Picolisp Libraries](pillibraries.md "MISSING PAGE")
-
-- [adm.l](adm-l.md "MISSING PAGE")
-- [android.l](android-l.md "MISSING PAGE")
-- [app.l](app-l.md "MISSING PAGE")
-- [bash_completion](bash-completion.md "MISSING PAGE")
-- [boss.l](boss-l.md "MISSING PAGE")
-- [btree.l](btree-l.md "MISSING PAGE")
-- [cal.l](cal-l.md "MISSING PAGE")
-- [canvas.js](canvas-js.md "MISSING PAGE")
-- [canvas.l](canvas-l.md "MISSING PAGE")
-- [complete.l](complete-l.md "MISSING PAGE")
-- [conDbgc.l](condbgc-l.md "MISSING PAGE")
-- [db32-64.l](db32-64-l.md "MISSING PAGE")
-- [dbase.l](dbase-l.md "MISSING PAGE")
-- [db.l](db-l.md "MISSING PAGE")
-- [debug.l](debug-l.md "MISSING PAGE")
-- [edit.l](edit-l.md "MISSING PAGE")
-- [ed.l](ed-l.md "MISSING PAGE")
-- [eedit.l](eedit-l.md "MISSING PAGE")
-- [el](el.md "MISSING PAGE")
-- [eled.l](eled-l.md "MISSING PAGE")
-- [ext](ext.md "MISSING PAGE")
-- [form.js](form-js.md "MISSING PAGE")
-- [form.l](form-l.md "MISSING PAGE")
-- [frac.l](frac-l.md "MISSING PAGE")
-- [gcc.l](gcc-l.md "MISSING PAGE")
-- [gis.l](gis-l.md "MISSING PAGE")
-- [glyphlist.txt](glyphlist-txt.md "MISSING PAGE")
-- [head.ps](head-ps.md "MISSING PAGE")
-- [heartbeat.l](heartbeat-l.md "MISSING PAGE")
-- [ht](ht.md "MISSING PAGE")
-- [http.l](httpl.md)
-- [import.l](import-l.md "MISSING PAGE")
-- [json.l](json-l.md "MISSING PAGE")
-- [led.l](led-l.md "MISSING PAGE")
-- [led.min.l](led-min-l.md "MISSING PAGE")
-- [lint.l](lint-l.md "MISSING PAGE")
-- [list](list.md "MISSING PAGE")
-- [map](map.md "MISSING PAGE")
-- [math32.l](math32-l.md "MISSING PAGE")
-- [math64.l](math64-l.md "MISSING PAGE")
-- [math.l](math-l.md "MISSING PAGE")
-- [misc.l](misc-l.md "MISSING PAGE")
-- [native.l](native-l.md "MISSING PAGE")
-- [nodroid.l](nodroid-l.md "MISSING PAGE")
-- [note.l](note-l.md "MISSING PAGE")
-- [openGl.l](opengl-l.md "MISSING PAGE")
-- [phone.css](phone-css.md "MISSING PAGE")
-- [pilog.l](pilog-l.md "MISSING PAGE")
-- [plio.js](plio-js.md "MISSING PAGE")
-- [prof.l](prof-l.md "MISSING PAGE")
-- [ps.l](ps-l.md "MISSING PAGE")
-- [readline.l](readline-l.md "MISSING PAGE")
-- [role.l](role-l.md "MISSING PAGE")
-- [rsa.l](rsa-l.md "MISSING PAGE")
-- [scrape.l](scrape-l.md "MISSING PAGE")
-- [simul.l](simul-l.md "MISSING PAGE")
-- [socialshareprivacy](socialshareprivacy.md "MISSING PAGE")
-- [sq.l](sq-l.md "MISSING PAGE")
-- [svg.l](svg-l.md "MISSING PAGE")
-- [term.l](term-l.md "MISSING PAGE")
-- [test.l](test-l.md "MISSING PAGE")
-- [tex.l](tex-l.md "MISSING PAGE")
-- [tinymce.l](tinymce-l.md "MISSING PAGE")
-- [too.l](too-l.md "MISSING PAGE")
-- [tsm.l](tsm-l.md "MISSING PAGE")
-- [user.l](user-l.md "MISSING PAGE")
-- [vim](vim.md)
-- [xhtml.l](xhtml-l.md "MISSING PAGE")
-- [xm.l](xm-l.md "MISSING PAGE")
-- [xml.l](xml-l.md "MISSING PAGE")
-- [xmlrpc.l](xmlrpc-l.md "MISSING PAGE")
-- [z3d.l](z3d-l.md "MISSING PAGE")
-- [zahlwort.l](zahlwort-l.md "MISSING PAGE")
+- [PicoLisp ASM](pilasm.md): the pil64 virtual machine and its registers.

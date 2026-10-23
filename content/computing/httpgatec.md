@@ -1,7 +1,7 @@
 ---
-title: httpgate.c
+title: 'httpGate.c'
 date: '2017-06-19T03:31:08+04:00'
-lastmod: '2017-06-29T01:57:43+04:00'
+lastmod: '2026-10-23T12:00:00+04:00'
 original_id: '{A1141}'
 original_name: httpgatec
 original_blob: blob/B/6/057.txt
@@ -18,31 +18,70 @@ topics:
 - lisp
 ---
 
-[Read This!](caveatemptor.md) |
-  [Picolisp](picolisp.md) | [Picolisp Machine](pilmachine.md) | [Pil Sources](pilsource.md) |
-  [Linux](linux.md) | [BASH](bash.md) |
-  [C-Programmming](cprogramming.md) | [Javascipt](javascript.md) | [Python](python.md) | [Scheme](scheme.md) |
-  [Operating Systems](os.md) | [AssemblyLanguage](assemblylanguage.md) |
-  [Computer Security](computersecurity.md) |
-  [Firewalls](firewalls.md) |
-  [Exploitation](exploitation.md) | [Social Engineering](internetexploitation.md) | [Metasploit](metasploit.md) |
-  [Emacs](emacs.md) | [vim](vim.md) |
-  [Pharo Smalltalk](pharo.md) |
-  [Databases](databases.md) | [Networking](networking.md) | [Machine Learning](machinelearning.md) |
-  [Git](git.md) |
-  [Machine Learning](machinelearning.md) |
-  [Algorithms](algorithms.md) |
-  [Open Data Science](opendatascience.md)
+[Open Data Science](opendatascience.md)
 
-# [httpgate.c](httpgatec.md)
+# [httpGate.c](httpgatec.md)
 
-> **Reading this in 2026.** This page reproduces `httpGate.c` from the PicoLisp sources (pil32), as I studied them around 2017. httpGate is the small proxy that sits on port 80/443 and forwards requests to PicoLisp application servers on other ports; it is still part of current PicoLisp. PicoLisp is MIT-licensed, © Software Lab, Alexander Burger. Since 2020 the current PicoLisp is **pil21**, which is written in PicoLisp itself and compiled through LLVM, so the line-by-line details here belong to the older 32-bit C implementation; the ideas carry over. Current sources are at [software-lab.de](https://software-lab.de/down.html).
+**httpGate** is the small proxy that sits in front of PicoLisp web applications. It listens on port 80 or 443, handles TLS, starts application servers on demand, and forwards each request to the right PicoLisp process on a high port. That way the apps never run as root. I first studied it in 2017 in its pil32 form. This page is updated to the version that ships with **pil21 26.9** (`src/httpGate.c`, 528 lines of C, still by Alexander Burger, with documentation by Mattias Sundblad).
 
+### What it does
+
+A request of the form
 
 ```
-/* 12apr17abu
- * (c) Software Lab. Alexander Burger
- */
+https://server.org/12345/path/file
+```
+
+is forwarded to a PicoLisp server listening on `localhost:12345`, asking for `path/file`. Only ports of 1024 and above are forwarded. With a **names** config file you can use readable names instead:
+
+```
+https://server.org/app/path/file
+```
+
+and httpGate starts the `app` server automatically if it isn't already running. For each connection it forks two child processes, one per direction, which exit after 7 minutes of idle time.
+
+### Building and running it (pil21)
+
+`httpGate` is now built by the normal `make` in `src/`, along with `ssl` and `balance`. It needs `libssl-dev`. Then:
+
+```bash
+# one app, plain HTTP and HTTPS
+sudo bin/httpGate 80 8080
+sudo bin/httpGate 443 8080 pem/www.domain.key,pem/domain.crt
+
+# many apps, from a names file
+sudo bin/httpGate 80 names
+sudo bin/httpGate 443 names pem/www.domain.key,pem/domain.crt
+```
+
+A `names` line has six whitespace-separated tokens: name, port, user, working directory, log file, and the command:
+
+```
+app 12345 tom /home/tom log/app ./pil app/main.l lib/app.l -main -go -wait
+@   8080  tom /home/tom ^       ./pil home.l -main -go -wait
+old 0     https://domain/new/place
+```
+
+- `@` is the default app for URLs without a name.
+- `^` stands for an empty token.
+- Port `0` means "redirect with 302 to this URL".
+- For big files, sort them with `cat config | bin/balance -sort > names`.
+- Reload after editing with `sudo pkill -HUP -P1 httpGate`.
+- If an app can't be reached (typically because its session timed out), the contents of a file called `void` in its directory are sent instead.
+
+Apps should call `(retire 20)` before `(server ...)`. The app server then exits 20 minutes after its last session ends, and httpGate restarts it on the next request. See [http.l](httpl.md).
+
+### Is it still the right tool in 2026?
+
+For a box running many small PicoLisp apps, yes: it is tiny, it understands PicoLisp's session-per-port model, and it starts apps on demand. If you already run nginx or Caddy, you can also reverse-proxy to the app port directly. You then lose on-demand start, and must forward the per-session ports too, which httpGate does for free. Certificates usually come from Let's Encrypt, as the `key,crt` pair above.
+
+Full documentation: [httpGate.html](https://software-lab.de/doc/httpGate.html).
+
+## The source (pil21 26.9, `src/httpGate.c`)
+
+
+```c
+// 06nov25 Software Lab. Alexander Burger
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -68,18 +107,19 @@ topics:
 typedef enum {NO,YES} bool;
 
 typedef struct name {
-   char *key;
+   char *key, *ins;
    struct name *less, *more;
    int port;
    uid_t uid;
    gid_t gid;
-   char *dir, *log, *ev[4], *av[1];
+   char *dir, *log, *ev[5], *av[1];
 } name;
 
 static bool Hup;
 static name *Names;
 static char *Config;
-static char Ciphers[] = "ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-SHA256:ECDHE-RSA-AES128-SHA:AES128-GCM-SHA256:AES128-SHA256:AES128-SHA:DES-CBC3-SHA";
+static int CliSock, SrvSock;
+static char Ciphers[] = "EECDH+AESGCM:EDH+AESGCM:AES256+EECDH:AES256+EDH";
 
 static char Head_302[] =
    "HTTP/1.0 302 Found\r\n"
@@ -103,7 +143,7 @@ static int readNames(void) {
    name *np, **t;
    int port, cnt;
    struct passwd *pw;
-   char *p, *ps, line[4096];
+   char *p, *q, *ps, line[4096];
    static char delim[] = " \n";
 
    if (!(fp = fopen(Config, "r")))     // Lines ordered by
@@ -114,8 +154,14 @@ static int readNames(void) {
          ++p;
       if (*p  &&  *p != '\n'  &&  *p != '#') {
          np = malloc(sizeof(name));
-         np->key = strdup(strtok(p, delim));
          np->less = np->more = NULL;
+         p = strtok(p, delim);
+         np->ins = NULL;
+         if (q = strchr(p, '/')) {
+            *q++ = '\0';
+            np->ins = strdup(q);
+         }
+         np->key = strdup(p);
          if ((np->port = atoi(ps = strtok(NULL, delim))) == 0)
             np->dir = strdup(strtok(NULL, delim));
          else {
@@ -132,7 +178,9 @@ static int readNames(void) {
             strcpy(p, "HOME="), strcpy(p+5, pw->pw_dir);
             p = np->ev[2] = malloc(5 + strlen(ps) + 1);
             strcpy(p, "PORT="), strcpy(p+5, ps);
-            np->ev[3] = NULL;
+            p = np->ev[3] = malloc(5 + strlen(q = getenv("LANG")) + 1);
+            strcpy(p, "LANG="), strcpy(p+5, q);
+            np->ev[4] = NULL;
             np->dir = strdup(strtok(NULL, delim));
             np->log = *(p = strtok(NULL, delim)) == '^'? NULL : strdup(p);
             cnt = 0;
@@ -170,7 +218,7 @@ static void freeNames(name *np) {
    free(np->dir);
    if (np->port) {
       free(np->log);
-      for (i = 0; i < 3; ++i)
+      for (i = 0; i < 4; ++i)
          free(np->ev[i]);
       for (i = 0; np->av[i]; ++i)
          free(np->av[i]);
@@ -195,13 +243,6 @@ static name *findName(char *p, char *q) {
       }
    *q = c;
    return NULL;
-}
-
-static inline bool pre(char *p, char *s) {
-   while (*s)
-      if (*p++ != *s++)
-         return NO;
-   return YES;
 }
 
 static int slow(SSL *ssl, int fd, char *p, int cnt) {
@@ -267,8 +308,10 @@ static int gatePort(unsigned short port) {
    if ((sd = socket(AF_INET6, SOCK_STREAM, 0)) < 0)
       exit(1);
    n = 0;
+#ifndef __OpenBSD__
    if (setsockopt(sd, IPPROTO_IPV6, IPV6_V6ONLY, &n, sizeof(n)) < 0)
       exit(1);
+#endif
    memset(&addr, 0, sizeof(addr));
    addr.sin6_family = AF_INET6;
    addr.sin6_addr = in6addr_any;
@@ -348,10 +391,13 @@ static int gateConnect(int port, name *np) {
    return -1;
 }
 
+
 static pid_t Buddy;
 
 static void doSigAlarm(int n __attribute__((unused))) {
    kill(Buddy, SIGTERM);
+   shutdown(CliSock, SHUT_RDWR);
+   shutdown(SrvSock, SHUT_RDWR);
    exit(0);
 }
 
@@ -373,7 +419,9 @@ static void iSignal(int n, void (*foo)(int)) {
 }
 
 int main(int ac, char *av[]) {
-   int cnt = ac>4? ac-3 : 1, ports[cnt], n, sd, cli, srv;
+   int cnt = ac>5? ac-4 : 1, ports[cnt];
+   int lsn = ac>4? atoi(av[4]) : 1;
+   int sd, n;
    struct sockaddr_in6 addr;
    char s[INET6_ADDRSTRLEN];
    char *p, *q, *gate;
@@ -381,7 +429,7 @@ int main(int ac, char *av[]) {
    SSL *ssl;
 
    if (ac < 3)
-      giveup("port dflt [pem [deny ..]]");
+      giveup("port dflt [pem [lsn [deny ..]]]");
    sd = gatePort(atoi(av[1]));  // e.g. 80 or 443
    ports[0] = (int)strtol(p = av[2], &q, 10);  // e.g. 8080
    if (q == p  ||  *q != '\0')
@@ -403,20 +451,28 @@ int main(int ac, char *av[]) {
          giveup("SSL init");
       }
       SSL_CTX_set_options(ctx,
-         SSL_OP_NO_SSLv2 | SSL_OP_NO_SSLv3 | SSL_OP_ALL |
-         SSL_OP_CIPHER_SERVER_PREFERENCE | SSL_OP_NO_COMPRESSION );
+         SSL_OP_NO_SSLv2 | SSL_OP_NO_SSLv3 | SSL_OP_NO_TLSv1 | SSL_OP_NO_TLSv1_1 |
+         SSL_OP_ALL | SSL_OP_CIPHER_SERVER_PREFERENCE | SSL_OP_NO_COMPRESSION );
       ssl = SSL_new(ctx),  gate = "X-Pil: *Gate=https\r\nX-Pil: *Adr=%s\r\n";
    }
    for (n = 1; n < cnt; ++n)
-      ports[n] = atoi(av[n+3]);
-   signal(SIGCHLD,SIG_IGN);  /* Prevent zombies */
-   if ((n = fork()) < 0)
-      giveup("detach");
-   if (n)
-      return 0;
+      ports[n] = atoi(av[n+4]);
+   signal(SIGCHLD, SIG_IGN);  /* Prevent zombies */
+   for (n = lsn;;) {
+      pid_t pid;
+
+      if ((pid = fork()) < 0)
+         giveup("detach");
+      if (pid == 0)
+         break;
+      if (--n == 0)
+         return 0;
+   }
    setsid();
    if (Config)
       iSignal(SIGHUP, doSigHup);
+   else
+      signal(SIGHUP, SIG_IGN);
    for (;;) {
       if (Hup) {
          Hup = NO;
@@ -425,8 +481,8 @@ int main(int ac, char *av[]) {
          ports[0] = readNames();
       }
       socklen_t len = sizeof(addr);
-      if ((cli = accept(sd, (struct sockaddr*)&addr, &len)) >= 0 && (n = fork()) >= 0) {
-         if (!n) {
+      if ((CliSock = accept(sd, (struct sockaddr*)&addr, &len)) >= 0) {
+         if (fork() == 0) {
             name *np;
             int fd, port, i;
             char buf[4096], buf2[64];
@@ -435,11 +491,11 @@ int main(int ac, char *av[]) {
 
             alarm(420);
             if (ssl) {
-               SSL_set_fd(ssl, cli);
+               SSL_set_fd(ssl, CliSock);
                if (SSL_accept(ssl) < 0)
                   return 1;
             }
-            n = rdLine(ssl, cli, buf, sizeof(buf));
+            n = rdLine(ssl, CliSock, buf, sizeof(buf));
             alarm(0);
             if (n < 6)
                return 1;
@@ -449,10 +505,8 @@ int main(int ac, char *av[]) {
              * "POST /url HTTP/1.x"
              * "POST /8080/url HTTP/1.x"
              */
-            if (pre(buf, "GET /"))
-               p = buf + 5;
-            else if (pre(buf, "POST /"))
-               p = buf + 6;
+            if ((p = strchr(buf, ' ')) && *++p == '/')
+               ++p;
             else
                return 1;
 
@@ -462,7 +516,7 @@ int main(int ac, char *av[]) {
                if ((q = strpbrk(p, " /?")) && (np = findName(p, q)))
                   port = np->port;
                else
-                  port = ports[0],  q = p;
+                  q = p,  port = (np = findName(p, q))? np->port : ports[0];  // "@"?
             }
             else if (port < 1024) {
                if (np = findName(p, q))
@@ -480,10 +534,10 @@ int main(int ac, char *av[]) {
                if (ssl)
                   sslWrite(ssl, buf, i);
                else
-                  wrBytes(cli, buf, i);
+                  wrBytes(CliSock, buf, i);
                return 0;
             }
-            if ((srv = gateConnect(port, np)) < 0) {
+            if ((SrvSock = gateConnect(port, np)) < 0) {
                if (!memchr(q,'~', buf + n - q))
                   return 1;
                if ((fd = open("void", O_RDONLY)) < 0)
@@ -492,64 +546,66 @@ int main(int ac, char *av[]) {
                if (ssl)
                   sslWrite(ssl, Head_410, strlen(Head_410));
                else
-                  wrBytes(cli, Head_410, strlen(Head_410));
+                  wrBytes(CliSock, Head_410, strlen(Head_410));
                alarm(0);
                while ((n = read(fd, buf, sizeof(buf))) > 0) {
                   alarm(420);
                   if (ssl)
                      sslWrite(ssl, buf, n);
                   else
-                     wrBytes(cli, buf, n);
+                     wrBytes(CliSock, buf, n);
                   alarm(0);
                }
                return 0;
             }
 
-            wrBytes(srv, buf, p - buf);
-            if (*q == '/')
+            wrBytes(SrvSock, buf, p - buf);
+            if (np  &&  (p = np->ins))
+               wrBytes(SrvSock, p, strlen(p));
+            else if (*q == '/')
                ++q;
             p = q;
             while (*p++ != '\n')
                if (p >= buf + n)
                   return 1;
-            wrBytes(srv, q, p - q);
+            wrBytes(SrvSock, q, p - q);
             inet_ntop(AF_INET6, &addr.sin6_addr, s, INET6_ADDRSTRLEN);
-            wrBytes(srv, buf2, sprintf(buf2, gate, s));
+            wrBytes(SrvSock, buf2, sprintf(buf2, gate, s));
             if (ssl)
-               wrBytes(srv, buf2, sprintf(buf2, "X-Pil: *Cipher=%s\r\n", SSL_get_cipher(ssl)));
-            wrBytes(srv, p, buf + n - p);
+               wrBytes(SrvSock, buf2, sprintf(buf2, "X-Pil: *Cipher=%s\r\n", SSL_get_cipher(ssl)));
+            wrBytes(SrvSock, p, buf + n - p);
 
             iSignal(SIGALRM, doSigAlarm);
             iSignal(SIGUSR1, doSigUsr1);
             if (Buddy = fork()) {
                for (;;) {
                   alarm(420);
-                  n = slow(ssl, cli, buf, sizeof(buf));
+                  n = slow(ssl, CliSock, buf, sizeof(buf));
                   alarm(0);
                   if (!n)
                      break;
-                  wrBytes(srv, buf, n);
+                  wrBytes(SrvSock, buf, n);
                }
-               shutdown(cli, SHUT_RD);
-               shutdown(srv, SHUT_WR);
+               shutdown(CliSock, SHUT_RD);
+               shutdown(SrvSock, SHUT_WR);
             }
             else {
                Buddy = getppid();
-               while ((n = read(srv, buf, sizeof(buf))) > 0) {
+               while ((n = read(SrvSock, buf, sizeof(buf))) > 0) {
                   kill(Buddy, SIGUSR1);
                   alarm(420);
                   if (ssl)
                      sslWrite(ssl, buf, n);
                   else
-                     wrBytes(cli, buf, n);
+                     wrBytes(CliSock, buf, n);
                   alarm(0);
                }
-               shutdown(srv, SHUT_RD);
-               shutdown(cli, SHUT_WR);
+               shutdown(SrvSock, SHUT_RD);
+               shutdown(CliSock, SHUT_WR);
             }
             return 0;
          }
-         close(cli);
+         close(CliSock);
       }
    }
 }

@@ -1,7 +1,7 @@
 ---
-title: The Picolisp Machine
+title: 'The PicoLisp Machine'
 date: '2016-11-25T22:39:56+04:00'
-lastmod: '2022-09-15T00:45:42+04:00'
+lastmod: '2026-10-23T12:00:00+04:00'
 original_id: '{A345}'
 original_name: pilmachine
 original_blob: blob/B/11/305.txt
@@ -18,20 +18,23 @@ topics:
 - lisp
 ---
 
-[Quicklinks](quicklinks.md) | [Readinglist](readinglist.md) |  [Computing](computing.md) | [Picolisp](picolisp.md) | [The Picolisp Reference](http://software-lab.de/doc/ref.html#vm) | [ASM](pilasm.md) |
-[Pil Tutorials](piltutorials.md) |
+# The PicoLisp Machine
 
-# The Picolisp Machine
+One of the key features of PicoLisp is that high-level constructs of the language map directly onto the underlying machinery, which makes the whole system both understandable and predictable. These are my notes on that machinery. I first wrote them in the pil64 days and revised them in October 2026 against **pil21 (26.9)** and its [reference manual](https://software-lab.de/doc/ref.html#vm). The good news is that the data model described here is **the same in pil21**. Only the implementation underneath changed: from C (pil32) to a PicoLisp-written assembler (pil64) to PicoLisp-generated LLVM IR (pil21).
 
-One of the key features of the picolisp language is that high-level constructs
-of the language directly map to the underlying machinery,
-making the whole system both understandable and predictable.
+### Everything is a cell
 
-**Also please note that there are still a number of possible errors in this Document, it is under active development**
+The most fundamental data type is **the cell**, the building block for all other data types. On 64-bit PicoLisp a cell is two machine words, 16 bytes:
 
-#### Data Types
+```
+         +-----+-----+
+         | CAR | CDR |
+         +-----+-----+
+```
 
-These are the fundamental datatypes in Picolisp:
+All memory is a free list of cells. The garbage collector (mark and sweep) returns cells to it. There are no extra string spaces or special areas, except the interpreter's own code and globals and the hardware stack.
+
+### Data types
 
 ```
                        cell
@@ -42,282 +45,94 @@ These are the fundamental datatypes in Picolisp:
         S010 S100      1000        0000
        (cnt | big)      |
                         |
-   +--------+----- --------+-----------+
-   |        |              |           |
-  NIL   Internal       Transient    External
-              \\           /            |
-             0010 Short name        1010 Short name
-             0100 Long name         1000 Properties
-             0000 Properties
+   +--------+-----------+-----------+
+   |        |           |           |
+  NIL   Internal    Transient    External
 ```
 
-#### The Cell
-
-The most fundamental datatype is **the cell** which is the building block for all
-other data types.
+The interpreter knows the type of every value from the **lowest four bits of the pointer** itself. Cells are 16-byte aligned, so those bits are free to use as tags:
 
 ```
-         +-----+-----+
-         | CAR | CDR |
-         +-----+-----+
+   pair  xxxxxxxx ... xxxx 0000    points at the start of a cell
+   cnt   xxxxxxxx ... xxxx S010    short number, value is IN the pointer
+   big   xxxxxxxx ... xxxx S100    bignum, points 4 bytes into a cell
+   sym   xxxxxxxx ... xxxx 1000    symbol, points at the CDR (8 bytes in)
 ```
 
-Consider **memory** as an array of bytes growing downwards.
+`S` is the sign bit. A number is recognised when bit 1 (short) or bit 2 (big) is set; a symbol when bit 3 is set and bits 1 and 2 are clear. During garbage collection a spare low bit in each cell serves as the mark bit.
 
-```
-each x, c, i is a bit (0 or 1)
-x means "address  bit, unimportant if it is 0 or 1"
-i mean  "special  bit for the Interpreter"
-c means "contents bit"
-S means "Sign bit, 1 means negative, 0 positive"
+You can see this from the REPL with `adr`, which returns the raw address:
 
-          Them Address are 64 bits in Length                                          the lowest 4 bits are used by the interpreter
-                                                                                      to figure out which type the value is
-                                                                                                    |
-             B8       B7       B6       B5       B4       B3       B2       B1   |          ContentsV
---------------------------------------------------------------------------------------------------------
-ADDRESS: xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxx 0000, BYTE  0: cccc iiii  |
-         xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxx 0001, BYTE  1: cccc cccc  |
-         xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxx 0010, BYTE  2: cccc cccc  |
-         xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxx 0011, BYTE  3: cccc cccc  |__ CAR (8 Bytes long, 64 bits)
-         xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxx 0100, BYTE  4: cccc cccc  |
-         xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxx 0101, BYTE  5: cccc cccc  |
-         xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxx 0110, BYTE  6: cccc cccc  |
-         xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxx 0111, BYTE  7: cccc cccc  |
---------------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------
-ADDRESS: xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxx 1000, BYTE  8: cccc iiii  |
-         xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxx 1001, BYTE  9: cccc cccc  |
-         xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxx 1010, BYTE 10: cccc cccc  |
-         xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxx 1011, BYTE 11: cccc cccc  |__ CDR (8 Bytes long, 64 bits)
-         xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxx 1100, BYTE 12: cccc cccc  |
-         xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxx 1101, BYTE 13: cccc cccc  |
-         xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxx 1110, BYTE 14: cccc cccc  |
-         xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxx 1111, BYTE 15: cccc cccc  |
---------------------------------------------------------------------------------------------------------__ Beginning of Next Cell
-ADDRESS: xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxx1 0000, BYTE 16: cccc iiii  |
-         xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxx1 0001, BYTE 17: cccc cccc  |
-                                                                                                       V
+```picolisp
+: (& 15 (adr (box 7)))       # a symbol: low bits 1000
+-> 8
+: (& 15 (adr (cons 1 2)))    # a pair: low bits 0000
+-> 0
 ```
 
-The Same Contents can be written linearly like:
+### Numbers
+
+Values of **up to 60 bits** are "short numbers" (`cnt`). The value lives in the pointer itself and takes no heap space:
 
 ```
-          BYTE 7   BYTE 6   BYTE 5   BYTE 4   BYTE 3   BYTE 2   BYTE 1   BYTE 0
-
-   pair  cccccccc cccccccc cccccccc cccccccc cccccccc cccccccc cccccccc cccc 0000
-
-   cnt   cccccccc cccccccc cccccccc cccccccc cccccccc cccccccc cccccccc cccc S010
-
-   big   cccccccc cccccccc cccccccc cccccccc cccccccc cccccccc cccccccc cccc S100
-
-   sym   cccccccc cccccccc cccccccc cccccccc cccccccc cccccccc cccccccc cccc 1000
+      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxS010
 ```
 
-The **lowest bit (M)** of a cell is set for garbage collection.
+Larger values are **bignums**: a chain of cells whose CARs hold 64-bit "digits", least significant first. The final CDR holds the remaining bits as a short number:
 
 ```
-                                                                          [bit0]
-                                                                            |
-         B8       B7       B6       B5       B4       B3       B2       B1  |
-      xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxx000M
-                                                                            |
-                                                                            v
-                                                    [Mark for garbage collection]
+      +-----+-----+     +-----+-----+     +-----+-----+
+      | DIG |  ---+---> | DIG |  ---+---> | DIG | CNT |
+      +-----+-----+     +-----+-----+     +-----+-----+
 ```
 
-#### Numbers
+That is why `(** 2 100)` just works, and why fixed-point decimals (see [Working With Numbers](pilnumbers.md)) never lose precision.
 
-Internally, numeric values of **up to 60 bits** are stored in
-**"short" numbers or count (CNT)**
+### Symbols
 
-```
-                                                                         [bit1 set]
-                                                                           |
-         B8       B7       B6       B5       B4       B3       B2       B1 |
-      xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxS010  - 10 = 2 in Binary
-                                                                         |
-                                                                         v
-                                                                   [sign-bit]
-```
+A symbol is a cell whose CDR is its **value** (VAL) and whose CAR is its **tail**: a property list, terminated by the symbol's name stored as a number (UTF-8 bytes packed into a short number or bignum):
 
 ```
- BYTE 1: xxxxS010
- BYTE 2: xxxxxxxx
- BYTE 3: xxxxxxxx
- BYTE 4: xxxxxxxx
- BYTE 5: xxxxxxxx
- BYTE 6: xxxxxxxx
- BYTE 7: xxxxxxxx
- BYTE 8: xxxxxxxx
-```
-
-i.e. the value is directly represented in the pointer, and doesn't take any
-heap space.
-
-Numbers **larger than 60 bits** are called **"big nums"** and are stored like this:
-
-```
-         Bignum
-         |
-         V
-      +-----+-----+
-      | DIG |  |  |
-      +-----+--+--+
-               |
-               V
-            +-----+-----+
-            | DIG |  |  |
-            +-----+--+--+
-                     |
-                     V
-                  +-----+-----+
-                  | DIG | CNT |
-                  +-----+-----+
-```
-
-```
-                                                                        [bit2 set]
-                                                                          |
-         B8       B7       B6       B5       B4       B3       B2       B1|
-      xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxS100    - 100 = 4 in binary
-                                                                         |
-                                                                         v
-                                                                   [sign-bit]
-```
-
-#### Symbols
-
-```
-           Symbol
+            Symbol
             |
             V
       +-----+-----+
-      |  /  | VAL |  Getting the Value of a symbol is super efficient as the
-      +-----+-----+  pointer points directly to it.
-          _____
-         |     |
-         V     V
-      +-----+-----+
-      | CAR | CDR |
-      +-----+-----+
+      |  |  | VAL |      reading a value is one memory access:
+      +--+--+-----+      the pointer points straight at VAL
+         | tail
+         V
+      +-----+-----+     +-----+-----+
+      |  |  |  ---+---> | KEY |  ---+---> name
+      +--+--+-----+     +-----+-----+
          |
          V
-       'tail' is kept in the CAR
+      +-----+-----+
+      | VAL | KEY |       a KEY/VAL property; a lone KEY means T
+      +-----+-----+
 ```
 
-```
-                                                                       [bit3 set]
-                                                                         |
-         B8       B7       B6       B5       B4       B3       B2      B1|
-      xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxxxxxx xxxx1000  - 1000 = 8 in binary
-                                                                         |
-                                                                         v
-                                                         Notice the Symbol always
-                                                         points to the 8th Byte
-```
+The four kinds of symbol all share this layout:
 
-##### Property Lists and Symbol Names
+- **NIL** exists exactly once, and has a special structure so that both `(car NIL)` and `(cdr NIL)` are NIL. It is the empty list, false, the empty string and end-of-file all at once.
+- **Internal** symbols are interned into a **namespace**, an index tree, so they can be found by name. In pil21, namespaces are first-class: `pico` is the default, and `(symbols 'myns 'pico)` creates and switches between them.
+- **Transient** symbols (`"strings"`) are interned only while the current file is being read, so they act like strings and file-local statics. `box` and `new` create anonymous ones (see [box](plbox.md) and [new](plnew.md)).
+- **External** symbols (`{A1}`) are database objects. Their name encodes the file and block, and they are loaded and saved transparently (see [PicoLisp DB](pildb.md)).
 
-- A property is a **key-value pair**, represented by a **cons pair** in the
-     symbol's **tail**.
-- This is called a **"property list"**.
-- The property list may be terminated by a **number** representing the symbol's name.
-- Each property in a symbol's tail is either a **symbol**
-     or a **cons pair** with the **property key in its CDR** and the
-     **property value in its CAR.**
-    if it is a **symbol**, then it represents the **boolean value T** and the **key is is the CAR**
-   The **name** of a symbol is **stored as a number** at the end of the tail. 
-   It contains the characters of the name in **UTF-8 encoding**, **using between one and seven bytes
-     in a short number, or eight bytes in a bignum cell.**
-   The first byte of the first character, for example, is stored in the lowest 8 bits of the number.
-- ###### Sample Symbols
-- ```
-              Symbol
-              |
-              V
-        +-----+-----+                                +----------+---------+
-        |  |  | VAL |                                |'hgfedcba'|'onmlkji'|
-        +--+--+-----+                                +----------+---------+
-          tail                                          ^
-           |                                            |
-           |                                            |
-           |                                            |
-           V                                          name
-           +-----+-----+     +-----+-----+     +-----+--+--+
-           |  |  |  ---+---> | KEY |  ---+---> |  |  |  |  |
-           +--+--+-----+     +-----+-----+     +--+--+-----+
-              |                                   |
-              V                                   V
-              +-----+-----+                       +-----+-----+
-              | VAL | KEY |                       | VAL | KEY |
-              +-----+-----+                       +-----+-----+
-  ```
-- ###### Bit Representations in Symbol Tails
-- ```
-     Symbol tail
-        Internal/Transient
-           0010 Short name
-           0100 Long name
-           0000 Properties
-        External
-           1010 Short name
-           1000 Properties
-           ^
-           |
-     [addition tag bit]
-     Name final short
-        Internals, Transients
-           0000.xxxxxxx.xxxxxxx.xxxxxxx.xxxxxxx.xxxxxxx.xxxxxxx.xxxxxxx0010
-             60      52      44      36      28      20      12       4
-  ```
-- ###### The Symbol NIL
-- ```
-        NIL:  /
-              |
-              V
-        +-----+-----+-----+-----+
-        |'LIN'|  /  |  /  |  /  |
-        +-----+--+--+-----+-----+
-  ```
-- #### Pairs & Lists
-- ```
-        |
-        V
-        +-----+-----+
-        | any |  |  |
-        +-----+--+--+
-                 |
-                 V
-                 +-----+-----+
-                 | any |  |  |
-                 +-----+--+--+
-                          |
-                          V
-                          ...
-  ```
-- #### Internal Symbols
-- *There cannot be two different symbols with the same name in the same namespace.*
-- *NIL*
-- #### Transient Symbols
-- - as text strings
-    - as identifiers with a limited access scope (like, for example, static identifiers in the C language family)
-    - as anonymous, dynamically created objects (without a name)
-- **Initially, a new transient symbol's VAL is that symbol itself.**
-- [box](plbox.md)
-- [new](plnew.md)
-- #### External Symbols
-- **additional tag bit**
-- **tail structure**
-- **names**
-- ` { and } `
-- **The characters of the symbol's name itself identify the physical location of the external object.**
-- - in the 64-bit version: The number of the database file minus 1 in "hax" notation
-    - ```
-      (i.e. hexadecimal/alpha notation, where '@' is zero, 'A' is 1 and 'O' is 15 (from
-        "alpha" to "omega")),
-        immediately followed (without a hyphen) the starting block in octal ('0' through '7').
-      ```
-- #### Memory Management
-- [see: mark-and-sweep garbage collector external link](https://www.geeksforgeeks.org/mark-and-sweep-garbage-collection-algorithm/
-  Please)
+### Evaluation
+
+The evaluator follows three rules:
+
+1. A number evaluates to itself.
+2. A symbol evaluates to its VAL.
+3. A list is a function call: evaluate the CAR to get a function, then apply it to the rest.
+
+A function is either a built-in (a number: the address of machine code) or a **list** `(params . body)`. That is why `(de f (X) ...)` is just `(setq f '((X) ...))` (see [quote](pilquote.md)).
+
+Binding is **dynamic and shallow**. When a function is called, the old values of its parameter symbols are saved on the stack, the new ones are stored directly in VAL, and the old ones are restored on return. Looking up a variable therefore costs nothing; it is always "the current VAL". That is the main reason the interpreter can be fast without a compiler. It is also why naming conventions (capitalised locals, `*Globals`) and, in pil21, `private` and namespaces matter.
+
+### Where to read further
+
+- The official reference's [VM section](https://software-lab.de/doc/ref.html#vm), which these diagrams follow.
+- [PicoLisp Sources](pilsource.md): the pil21 `src/*.l` files that implement all this (`gc.l`, `big.l`, `sym.l`, `main.l`).
+- [PicoLisp ASM](pilasm.md): the pil64 virtual machine, now historical.
+- [Find Boxes in Lists](findboxes.md): the cell model from the programmer's side.
