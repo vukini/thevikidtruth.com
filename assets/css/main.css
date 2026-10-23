@@ -283,7 +283,7 @@ main.graphpage{max-width:none}
 
 /* ---- Start here ---- */
 .start-hero{display:grid;grid-template-columns:auto 1fr;gap:2rem;align-items:center;padding:3rem 0 2rem;border-bottom:1px solid var(--line)}
-.start-hero img{width:min(240px,40vw);height:auto;filter:drop-shadow(0 14px 24px rgba(0,0,0,.5))}
+.start-hero img{width:min(300px,40vw);height:auto;border-radius:14px;border:1px solid rgba(242,181,68,.55);filter:drop-shadow(0 14px 24px rgba(0,0,0,.5))}
 .start-hero h1{font:600 clamp(2.2rem,5vw,3.6rem)/1.05 var(--display);letter-spacing:-.02em;margin:.3rem 0 1rem}
 .start-hero .bubble{position:relative;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1rem 1.3rem;margin:0;font-style:italic;max-width:60ch}
 .paths{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.2rem;margin:2.5rem 0}
