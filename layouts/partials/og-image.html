@@ -1,0 +1,17 @@
+{{/* Per-page 1200x630 share card: dark Lumen base + section + title + small V shield. Returns an image resource. */}}
+{{- $base := resources.Get "og/base.png" -}}
+{{- $serif := resources.Get "og/fraunces-semibold.ttf" -}}
+{{- $mono := resources.Get "og/jbmono.ttf" -}}
+{{- $title := cond .IsHome "Revealing what’s underneath" (.Title | plainify | htmlUnescape) -}}
+{{- if gt (len $title) 80 }}{{ $title = printf "%s…" (substr $title 0 78) }}{{ end -}}
+{{- $size := cond (gt (len $title) 40) 64 84 -}}
+{{- $sec := "" -}}
+{{- if .IsHome }}{{ $sec = "THE VIKID TRUTH" }}{{ else }}{{ with .FirstSection }}{{ $sec = upper (.Title | plainify | htmlUnescape) }}{{ end }}{{ end -}}
+{{- if or (eq $sec "") (eq $sec (upper (.Title | plainify | htmlUnescape))) }}{{ if not .IsHome }}{{ $sec = "THE VIKID TRUTH" }}{{ end }}{{ end -}}
+{{- $f := slice
+  (images.Text $sec (dict "font" $mono "color" "#F2B544" "size" 26 "x" 80 "y" 70))
+  (images.Text $title (dict "font" $serif "color" "#ECE6D8" "size" $size "linespacing" 10 "x" 80 "y" 130))
+  (images.Text "thevikidtruth.com" (dict "font" $mono "color" "#A89F8E" "size" 24 "x" 160 "y" 570))
+-}}
+{{- $img := $base | images.Filter $f -}}
+{{- return ($img.Process "jpg q82") -}}
