@@ -1,5 +1,5 @@
 ---
-title: affinetransformation
+title: "Affine Transformation"
 date: '2016-12-08T10:53:33+04:00'
 lastmod: '2016-12-08T10:53:33+04:00'
 original_id: '{A1016}'

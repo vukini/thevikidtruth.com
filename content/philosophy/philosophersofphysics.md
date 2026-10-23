@@ -1,5 +1,5 @@
 ---
-title: PhilosophersofPhysics
+title: "Philosophers of Physics"
 date: '2016-12-08T03:22:58+04:00'
 lastmod: '2026-10-22T21:30:00+04:00'
 original_id: '{A773}'

@@ -1,5 +1,5 @@
 ---
-title: Javascript
+title: "JavaScript"
 date: '2016-07-25T09:47:24+04:00'
 lastmod: '2023-04-11T04:15:01+04:00'
 original_id: '{A165}'

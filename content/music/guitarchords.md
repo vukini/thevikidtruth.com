@@ -1,5 +1,5 @@
 ---
-title: guitarchords
+title: "Guitar Chords"
 date: '2021-08-24T23:57:21+04:00'
 lastmod: '2026-10-22T21:30:00+04:00'
 original_id: '{A1420}'

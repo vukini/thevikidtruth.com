@@ -1,5 +1,5 @@
 ---
-title: schadenfreude
+title: "Schadenfreude"
 date: '2016-12-06T04:57:29+04:00'
 lastmod: '2016-12-06T04:57:29+04:00'
 original_id: '{A715}'

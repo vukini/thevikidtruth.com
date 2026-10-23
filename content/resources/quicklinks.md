@@ -1,5 +1,5 @@
 ---
-title: quicklinks
+title: "Quick Links"
 date: '2021-08-23T00:31:12+04:00'
 lastmod: '2023-04-27T01:19:47+04:00'
 original_id: '{A1334}'

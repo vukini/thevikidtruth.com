@@ -1,5 +1,5 @@
 ---
-title: telnetemail
+title: "Telnet Email"
 date: '2016-11-28T05:04:44+04:00'
 lastmod: '2016-11-28T05:07:00+04:00'
 original_id: '{A433}'

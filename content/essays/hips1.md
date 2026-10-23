@@ -1,5 +1,5 @@
 ---
-title: hidden-in-plain-sight-by-andrew-thomas
+title: "Hidden in Plain Sight 1"
 date: '2016-12-08T13:01:10+04:00'
 lastmod: '2016-12-08T13:08:44+04:00'
 original_id: '{A1023}'

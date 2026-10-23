@@ -1,5 +1,5 @@
 ---
-title: Crytography
+title: "Cryptography"
 date: '2016-11-29T05:18:10+04:00'
 lastmod: '2016-12-01T02:40:48+04:00'
 original_id: '{A460}'

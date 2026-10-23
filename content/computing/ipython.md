@@ -1,5 +1,5 @@
 ---
-title: iPython
+title: "IPython"
 date: '2016-12-03T00:34:08+04:00'
 lastmod: '2026-10-22T10:30:00+04:00'
 original_id: '{A617}'

@@ -1,5 +1,5 @@
 ---
-title: Ubuntu CommonTasks
+title: "Ubuntu Common Tasks"
 date: '2016-12-10T06:21:07+04:00'
 lastmod: '2026-10-22T10:30:00+04:00'
 original_id: '{A1027}'

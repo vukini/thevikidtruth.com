@@ -1,5 +1,5 @@
 ---
-title: RasberryPi
+title: "Raspberry Pi"
 date: '2017-06-18T06:20:17+04:00'
 lastmod: '2026-10-22T10:30:00+04:00'
 original_id: '{A1125}'

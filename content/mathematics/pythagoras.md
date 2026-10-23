@@ -1,5 +1,5 @@
 ---
-title: pythagoras
+title: "Pythagoras"
 date: '2017-07-28T09:04:21+04:00'
 lastmod: '2017-07-28T09:04:21+04:00'
 original_id: '{A1203}'

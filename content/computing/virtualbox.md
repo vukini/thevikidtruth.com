@@ -1,5 +1,5 @@
 ---
-title: Virtualbox
+title: "VirtualBox"
 date: '2023-05-21T00:38:02+04:00'
 lastmod: '2026-10-22T10:30:00+04:00'
 original_id: '{A1771}'

@@ -1,5 +1,5 @@
 ---
-title: sclerotic
+title: "Sclerotic"
 date: '2016-12-05T06:53:36+04:00'
 lastmod: '2016-12-05T06:53:36+04:00'
 original_id: '{A700}'

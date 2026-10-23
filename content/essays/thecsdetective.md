@@ -1,5 +1,5 @@
 ---
-title: thecsdetective
+title: "The CS Detective"
 date: '2016-12-04T23:04:27+04:00'
 lastmod: '2016-12-04T23:04:27+04:00'
 original_id: '{A666}'

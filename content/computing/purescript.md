@@ -1,5 +1,5 @@
 ---
-title: Purescript
+title: "PureScript"
 date: '2022-08-27T00:18:37+04:00'
 lastmod: '2026-10-22T10:30:00+04:00'
 original_id: '{A1711}'

@@ -1,5 +1,5 @@
 ---
-title: philosophicalterms
+title: "Philosophical Terms"
 date: '2016-12-08T03:57:33+04:00'
 lastmod: '2017-06-15T11:53:48+04:00'
 original_id: '{A776}'

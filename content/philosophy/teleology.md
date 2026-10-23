@@ -1,5 +1,5 @@
 ---
-title: teleology
+title: "Teleology"
 date: '2016-12-08T03:59:24+04:00'
 lastmod: '2016-12-08T03:59:24+04:00'
 original_id: '{A777}'

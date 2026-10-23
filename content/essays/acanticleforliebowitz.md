@@ -1,5 +1,5 @@
 ---
-title: acanticleforliebowitz
+title: "A Canticle for Leibowitz"
 date: '2016-06-28T01:22:16+04:00'
 lastmod: '2016-06-28T01:22:16+04:00'
 original_id: '{A65}'
