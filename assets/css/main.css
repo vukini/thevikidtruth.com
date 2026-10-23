@@ -311,3 +311,12 @@ main.graphpage{max-width:none}
 .vx-links{font:400 .85rem var(--mono);margin:.7rem 0 0}.vx-links a{margin-right:1.2rem;color:var(--muted)}
 @media(max-width:760px){.vxcard{grid-template-columns:1fr}}
 .vikix-note{border-left:4px solid #6FC2B4;background:var(--card);padding:.8rem 1.1rem;border-radius:8px}
+/* Computing landing: featured Vikix banner */
+.prose a.vxbanner,.vxbanner{display:grid;grid-template-columns:200px 1fr;gap:1.3rem;align-items:center;text-decoration:none;color:var(--ink);background:var(--card);border:1px solid var(--line);border-left:4px solid #6FC2B4;border-radius:14px;padding:1rem;margin:0 0 .4rem}
+.vxbanner:hover{border-color:#6FC2B4}
+.vxbanner img{width:100%;height:150px;object-fit:cover;object-position:60% 30%;border-radius:8px;display:block;margin:0;max-width:none}
+.vxb-text{display:block}.vxb-text .kicker{display:block;font:400 .75rem var(--mono);text-transform:uppercase;letter-spacing:.08em;color:#6FC2B4;margin:0 0 .3rem}
+.vxb-text strong{display:block;font:600 1.5rem var(--display);margin:0 0 .3rem}
+.vxb-text p{margin:0 0 .5rem;color:var(--muted);font-size:1rem}
+.vxb-text .more{display:block;margin-top:.4rem;font:400 .8rem var(--mono);color:var(--amber)}
+@media(max-width:560px){.vxbanner{grid-template-columns:1fr}.vxbanner img{height:170px}}
