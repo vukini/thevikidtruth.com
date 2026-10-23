@@ -320,3 +320,21 @@ main.graphpage{max-width:none}
 .vxb-text p{margin:0 0 .5rem;color:var(--muted);font-size:1rem}
 .vxb-text .more{display:block;margin-top:.4rem;font:400 .8rem var(--mono);color:var(--amber)}
 @media(max-width:560px){.vxbanner{grid-template-columns:1fr}.vxbanner img{height:170px}}
+
+/* ---- Markets ---- */
+.mkt-wrap{overflow-x:auto;margin:1rem 0 2rem;-webkit-overflow-scrolling:touch}
+.mkt{border-collapse:collapse;width:100%;font:400 .85rem/1.35 var(--mono);min-width:760px}
+.mkt th,.mkt td{padding:.5rem .6rem;border-bottom:1px solid var(--line);text-align:left;vertical-align:middle}
+.mkt thead th{color:var(--muted);font-weight:400;text-transform:lowercase}
+.mkt tbody th{font-weight:600;color:var(--ink)}
+.mkt tbody th small{display:block;font-weight:400;color:var(--muted);font-size:.72rem;max-width:22rem}
+.mkt .grp th{color:#E8A33D;padding-top:1.2rem;font:600 1rem var(--display)}
+.mkt .num{text-align:right;white-space:nowrap}
+.mkt .up{color:#8FB86B}.mkt .dn{color:#E07A3F}
+.mkt .spark{color:#E8A33D;display:block}
+.mkt .src{font-size:.75rem;white-space:nowrap}
+.mkt .flag{color:var(--bg);background:var(--muted);padding:0 .3rem;border-radius:3px}
+.mkt .st-unavailable td{color:var(--muted)}
+.mkt-note{margin:1rem 0 2rem}
+.mktstrip .mkchip{display:inline-block;margin:0 1rem .3rem 0;font:.8rem var(--mono);white-space:nowrap}
+.mktstrip .up{color:#8FB86B}.mktstrip .dn{color:#E07A3F}

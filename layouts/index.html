@@ -45,6 +45,14 @@
   <a class="all" href="{{ "frontier-ai/" | relURL }}">All Frontier AI roundups →</a> <a class="all" href="{{ "frontier-ai/index.xml" | relURL }}">RSS feed →</a>
 </section>
 {{ end }}
+{{ $mk := (where site.RegularPages "Section" "markets").ByDate.Reverse }}{{ with $mk }}
+<section class="latest aistrip mktstrip">
+  <h2 class="sec">Markets, daily</h2>
+  {{ with hugo.Data.markets.latest }}<p class="meta">{{ range where .instruments "id" "in" (slice "copper" "aluminium" "hrc" "brent" "gold" "ust10") }}{{ if ne .status "unavailable" }}<span class="mkchip">{{ .name }} <b>{{ lang.FormatNumber (int .decimals) .value }}</b>{{ $c := .chg_1d }}{{ if not (eq $c nil) }} <span class="{{ if gt $c 0 }}up{{ else if lt $c 0 }}dn{{ end }}">{{ if gt $c 0 }}+{{ end }}{{ if eq .chg_unit "bp" }}{{ lang.FormatNumber 0 $c }} bp{{ else }}{{ lang.FormatNumber 1 $c }}%{{ end }}</span>{{ end }}</span> {{ end }}{{ end }}</p>{{ end }}
+  <ol class="list">{{ range first 2 . }}{{ partial "toc-item.html" . }}{{ end }}</ol>
+  <a class="all" href="{{ "markets/" | relURL }}">Today's board →</a> <a class="all" href="{{ "markets/index.xml" | relURL }}">RSS feed →</a>
+</section>
+{{ end }}
 <section class="kbsec">
   <h2 class="sec">Knowledge base</h2>
   <p><a class="mapcta" href="{{ "/map/" | relURL }}"><span class="mapcta-dots" aria-hidden="true"></span>See every section on one knowledge graph →</a></p>

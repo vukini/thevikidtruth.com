@@ -60,6 +60,10 @@ enableRobotsTXT = true
     pageRef = "/frontier-ai"
     weight = 75
   [[menus.main]]
+    name = "Markets"
+    pageRef = "/markets"
+    weight = 77
+  [[menus.main]]
     name = "Resources"
     pageRef = "/resources"
     weight = 80

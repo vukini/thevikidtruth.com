@@ -1,0 +1,19 @@
+{{ define "main" }}
+<header class="ahead">
+  <p class="crumb"><a href="{{ "/" | relURL }}">Home</a> / Markets</p>
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p class="sub">{{ . }}</p>{{ end }}
+  <p class="meta">Updated daily · <a href="{{ "markets/index.xml" | relURL }}">RSS feed of daily notes</a></p>
+</header>
+{{ with index .RegularPages.ByDate.Reverse 0 }}
+<section class="mkt-note">
+  <h2 class="sec">Today's note: {{ .Date.Format "2 Jan 2006" }}</h2>
+  <div class="prose">{{ .Content }}</div>
+</section>
+{{ end }}
+<h2 class="sec">The board</h2>
+{{ partial "markets-table.html" . }}
+{{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+<h2 class="sec">Daily notes</h2>
+<ol class="list">{{ range .RegularPages.ByDate.Reverse }}{{ partial "toc-item.html" . }}{{ end }}</ol>
+{{ end }}

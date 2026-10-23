@@ -1,0 +1,32 @@
+name: Markets data (daily)
+# Refreshes data/markets/*.json from free keyless sources (Yahoo Finance, FRED, Trading Economics),
+# commits it, then triggers the Pages deploy. The daily note itself is written separately (scripts/markets-update.md).
+on:
+  schedule:
+    - cron: "30 1 * * *"   # 05:30 Dubai (UTC+4)
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: markets-data
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Fetch market data
+        run: python3 scripts/markets_update.py
+      - name: Commit and push if changed
+        run: |
+          git add data/markets
+          if git diff --cached --quiet; then echo "no change"; exit 0; fi
+          git -c user.name='The VikiD Truth' -c user.email=noreply@thevikidtruth.com commit -m "markets: daily data $(TZ=Asia/Dubai date +%F)"
+          for i in 1 2 3; do git pull --rebase origin main && git push origin HEAD:main && break; sleep 5; done
+          echo "pushed=1" >> "$GITHUB_ENV"
+      - name: Deploy site
+        if: env.pushed == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run hugo.yml --ref main

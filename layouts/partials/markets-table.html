@@ -1,0 +1,27 @@
+{{/* Market table from data/markets/latest.json (written by scripts/markets_update.py). */}}
+{{ $d := hugo.Data.markets.latest }}
+{{ $groups := slice "Metals" "Steel" "Construction" "Energy" "Equities" "Rates & FX" }}
+<p class="meta">Data updated {{ (time $d.updated).Format "2 Jan 2006, 15:04" }} Dubai time (UTC+4). Changes compare the latest close with the previous close, about a week earlier and about a month earlier. Monthly indexes compare with the previous month. "n/a" means there's not enough stored history yet.</p>
+<div class="mkt-wrap">
+<table class="mkt">
+<thead><tr><th scope="col">Instrument</th><th scope="col" class="num">Price</th><th scope="col">Unit</th><th scope="col" class="num">Day</th><th scope="col" class="num">Week</th><th scope="col" class="num">Month</th><th scope="col">Trend</th><th scope="col">Source · as of</th></tr></thead>
+{{ range $g := $groups }}
+<tbody><tr class="grp"><th colspan="8" scope="rowgroup">{{ $g }}</th></tr>
+{{ range where $d.instruments "group" $g }}
+<tr class="st-{{ .status }}">
+  <th scope="row">{{ .name }}{{ with .note }}<small>{{ . }}</small>{{ end }}</th>
+  {{ if eq .status "unavailable" }}
+  <td class="num" colspan="5">unavailable</td>
+  {{ else }}
+  <td class="num">{{ lang.FormatNumber (int .decimals) .value }}</td>
+  {{ $u := .chg_unit }}
+  <td>{{ .unit }}</td>
+  {{ range slice .chg_1d .chg_1w .chg_1m }}<td class="num {{ if not (eq . nil) }}{{ if gt . 0 }}up{{ else if lt . 0 }}dn{{ end }}{{ end }}">{{ if eq . nil }}n/a{{ else }}{{ if gt . 0 }}+{{ end }}{{ if eq $u "bp" }}{{ lang.FormatNumber 0 . }} bp{{ else }}{{ lang.FormatNumber 1 . }}%{{ end }}{{ end }}</td>{{ end }}
+  {{ end }}
+  <td>{{ with .spark }}{{ if gt (len .) 1 }}{{ $mn := index (sort .) 0 }}{{ $mx := index (sort . "value" "desc") 0 }}{{ $rng := cond (eq $mx $mn) 1.0 (sub $mx $mn) }}{{ $n := sub (len .) 1 }}{{ $pts := slice }}{{ range $i, $v := . }}{{ $pts = $pts | append (printf "%.1f,%.1f" (mul (div (float $i) $n) 96.0) (add 2.0 (mul 20.0 (sub 1.0 (div (sub $v $mn) $rng))))) }}{{ end }}<svg class="spark" viewBox="0 0 96 24" width="96" height="24" role="img" aria-label="trend over the last {{ len . }} observations"><polyline fill="none" stroke="currentColor" stroke-width="1.5" points="{{ delimit $pts " " }}"/></svg>{{ end }}{{ end }}</td>
+  <td class="src"><a href="{{ .source_url }}">{{ .source }}</a>{{ with .asof }} · <time datetime="{{ . }}">{{ (time .).Format "2 Jan" }}</time>{{ end }}{{ if eq .status "stale" }} <span class="flag">stale</span>{{ else if eq .status "fetch-failed" }} <span class="flag">last fetch failed</span>{{ else if eq .status "unavailable" }} <span class="flag">unavailable</span>{{ end }}</td>
+</tr>
+{{ end }}</tbody>
+{{ end }}
+</table>
+</div>

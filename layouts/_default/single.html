@@ -17,6 +17,14 @@
   <p class="meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan 2006" }}</time>{{ with .Params.period }} · covers {{ . }}{{ end }} · {{ .ReadingTime }} min read · <a href="{{ "frontier-ai/index.xml" | relURL }}">RSS</a></p>
 </header>
 <div class="prose" data-pagefind-body>{{ .Content }}</div>
+{{ else if eq .Section "markets" }}
+<header class="ahead">
+  <p class="crumb"><a href="{{ "/" | relURL }}">Home</a> / <a href="{{ $sec.RelPermalink }}">Markets</a></p>
+  <h1 data-pagefind-meta="title">{{ .Title }}</h1>
+  {{ with .Params.subtitle }}<p class="sub">{{ . }}</p>{{ end }}
+  <p class="meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan 2006" }}</time>{{ with .Params.data_asof }} · prices as of {{ . }}{{ end }} · <a href="{{ $sec.RelPermalink }}">Today's board</a> · <a href="{{ "markets/index.xml" | relURL }}">RSS</a></p>
+</header>
+<div class="prose" data-pagefind-body>{{ .Content }}</div>
 {{ else }}
 <header class="ahead wikihead" data-pagefind-ignore>
   <p class="crumb"><a href="{{ "/" | relURL }}">Knowledge base</a> / <a href="{{ $sec.RelPermalink }}">{{ $sec.Title }}</a>{{ with .Params.topics }}{{ with index (where (index hugo.Data.topics $.Section | default slice) "slug" (index . 0)) 0 }} / <a href="{{ printf "/%s/category/%s/" $.Section .slug | relURL }}" class="crumbcat" style="--c:{{ .color }}">{{ .title }}</a>{{ end }}{{ end }}</p>
@@ -24,12 +32,12 @@
 <div class="prose" data-pagefind-body>{{ .Content }}</div>
 <p class="meta">Last edited <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "2 Jan 2006" }}</time>{{ with .Params.revisions }} · {{ . }} revisions{{ end }}</p>
 {{ end }}
-{{ if eq .Section "frontier-ai" }}{{ else if eq .Section "writing" }}{{ partial "writing-related.html" . }}{{ else if and .Params.topics (index hugo.Data.topics .Section) }}{{ partial "related.html" . }}{{ else }}{{ partial "essays-on.html" . }}{{ end }}
+{{ if in (slice "frontier-ai" "markets") .Section }}{{ else if eq .Section "writing" }}{{ partial "writing-related.html" . }}{{ else if and .Params.topics (index hugo.Data.topics .Section) }}{{ partial "related.html" . }}{{ else }}{{ partial "essays-on.html" . }}{{ end }}
 {{ if in (slice "writing" "essays") .Section }}{{ partial "subscribe.html" . }}{{ end }}
 {{ with .GetTerms "tags" }}<p class="meta tags" data-pagefind-ignore>Tags: {{ range . }}<a href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a> {{ end }}</p>{{ end }}
 {{ if .Params.path_step }}{{ partial "langpath-nav.html" . }}{{ else }}
 <nav class="pn" aria-label="More in {{ $sec.Title }}" data-pagefind-ignore>
-  {{ $list := cond (in (slice "writing" "frontier-ai") .Section) $sec.RegularPages.ByDate $sec.RegularPages.ByTitle }}
+  {{ $list := cond (in (slice "writing" "frontier-ai" "markets") .Section) $sec.RegularPages.ByDate $sec.RegularPages.ByTitle }}
   {{ with $list.Prev . }}<a href="{{ .RelPermalink }}">← {{ .Title }}</a>{{ else }}<span></span>{{ end }}
   {{ with $list.Next . }}<a href="{{ .RelPermalink }}">{{ .Title }} →</a>{{ end }}
 </nav>
