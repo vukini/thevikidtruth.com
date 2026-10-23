@@ -26,8 +26,9 @@ whos work continually delights me. I hope that one day, this wiki, will achieve 
  similar status, depth and breath of content. **What this site will achieve however is
 Superhero stardom.**
 
-Please note that this site is powered by [picolisp](picolisp.md), a wonderful little language
+This site began as a wiki powered by [picolisp](picolisp.md), a wonderful little language
 and virtual machine that I believe has a great future. It is built by another Superhero.
+Today the site is built with Hugo.
 
 Yours,
 

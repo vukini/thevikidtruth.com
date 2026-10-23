@@ -2,7 +2,7 @@
 {{ $writing := (where site.RegularPages "Section" "writing").ByDate.Reverse }}
 <section class="hero">
   <div class="hero-text">
-  <p class="kicker">{{ with .Params.tagline }}{{ . }} · {{ end }}A personal archive · est. on PicoLisp</p>
+  <p class="kicker">{{ with .Params.tagline }}{{ . }} · {{ end }}A personal archive · built with Hugo</p>
   <h1 class="headline">Look closer.<em>Truth below.</em></h1>
   <p class="lede">{{ len $writing }} essays and a growing knowledge base on computing, mathematics, science, languages and music.</p>
   </div>
