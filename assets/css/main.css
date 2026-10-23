@@ -148,9 +148,9 @@ main.article{max-width:calc(780px + 2*var(--pad))}
 .logo{height:34px;width:auto;display:block}
 .hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(180px,34%);align-items:center;gap:clamp(1rem,4vw,3rem)}
 .hero-char{margin:0;position:relative;justify-self:center;max-width:420px;width:100%}
-.hero-char::before{content:"";position:absolute;inset:8% 4% 2%;border-radius:50%;
-  border:1px solid var(--amber);box-shadow:0 0 0 10px rgba(242,181,68,.06),inset 0 0 80px rgba(242,181,68,.12);z-index:0}
-.hero-char img{position:relative;z-index:1;width:100%;height:auto;display:block;filter:drop-shadow(0 18px 30px rgba(0,0,0,.45))}
+.hero-char::before{content:"";position:absolute;inset:-10px;border-radius:22px;border:1px solid rgba(242,181,68,.35);z-index:0;pointer-events:none}
+.hero-char img{position:relative;z-index:1;width:100%;height:auto;display:block;aspect-ratio:3/4;object-fit:cover;border-radius:16px;
+  border:1px solid rgba(242,181,68,.55);box-shadow:0 22px 44px rgba(0,0,0,.55),0 0 60px rgba(242,181,68,.08)}
 .intro{max-width:68ch;padding:2.5rem 0 0}
 .intro .prose p:first-child{font-size:1.25rem}
 .prose .sig,.prose img[src*="sig-light"]{width:150px;height:auto;margin:.5rem 0}
@@ -159,7 +159,7 @@ main.article{max-width:calc(780px + 2*var(--pad))}
 .vikidhead .badge{width:150px;height:150px}
 @media (max-width:760px){
   .hero{grid-template-columns:1fr}
-  .hero-char{order:-1;max-width:220px}
+  .hero-char{order:-1;max-width:min(280px,72vw);margin-top:.5rem}
 }
 .prose p.portrait{float:right;width:min(300px,40%);margin:0 0 1rem 2rem;border-radius:50%;
   background:radial-gradient(circle at 50% 45%,rgba(242,181,68,.16),transparent 68%)}
