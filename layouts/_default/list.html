@@ -11,6 +11,6 @@
   {{ partial "art.html" (dict "key" $key "eager" true) }}
 </header>
 {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
-<ol class="list">{{ range (cond (in (slice "writing" "frontier-ai" "markets") .Section) .RegularPages.ByDate.Reverse .RegularPages.ByTitle) }}{{ partial "toc-item.html" . }}{{ end }}</ol>
+<ol class="list">{{ range (cond (in (slice "writing" "frontier-ai" "markets" "truth-checks") .Section) .RegularPages.ByDate.Reverse .RegularPages.ByTitle) }}{{ partial "toc-item.html" . }}{{ end }}</ol>
 {{ end }}
 {{ end }}

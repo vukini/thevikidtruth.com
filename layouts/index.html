@@ -45,6 +45,13 @@
   <a class="all" href="{{ "frontier-ai/" | relURL }}">All Frontier AI roundups →</a> <a class="all" href="{{ "frontier-ai/index.xml" | relURL }}">RSS feed →</a>
 </section>
 {{ end }}
+{{ $tc := (where site.RegularPages "Section" "truth-checks").ByDate.Reverse }}{{ with $tc }}
+<section class="latest aistrip tcstrip">
+  <h2 class="sec">Latest Truth Checks</h2>
+  <ol class="tclist">{{ range first 3 . }}<li><a href="{{ .RelPermalink }}">{{ partial "verdict-badge.html" . }}<span>{{ .Params.claim }}</span></a></li>{{ end }}</ol>
+  <a class="all" href="{{ "truth-checks/" | relURL }}">All Truth Checks →</a> <a class="all" href="{{ "truth-checks/index.xml" | relURL }}">RSS feed →</a>
+</section>
+{{ end }}
 {{ $mk := (where site.RegularPages "Section" "markets").ByDate.Reverse }}{{ with $mk }}
 <section class="latest aistrip mktstrip">
   <h2 class="sec">Markets, daily</h2>

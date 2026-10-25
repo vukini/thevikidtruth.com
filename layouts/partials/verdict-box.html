@@ -1,0 +1,7 @@
+<aside class="vbox v-{{ .Params.verdict | urlize }}" aria-label="Claim and verdict">
+  <p class="vbox-k">The claim</p>
+  <p class="vbox-claim">“{{ .Params.claim }}”</p>
+  <p class="vbox-k">Verdict</p>
+  <p>{{ partial "verdict-badge.html" . }}</p>
+  {{ with .Params.truth }}<p class="vbox-truth"><b>The truth:</b> {{ . }}</p>{{ end }}
+</aside>

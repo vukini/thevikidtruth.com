@@ -1,0 +1,21 @@
+{{ define "main" }}
+<header class="ahead withart">
+<div class="ahead-text">
+  <p class="crumb"><a href="{{ "/" | relURL }}">Home</a> / Truth Checks</p>
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p class="sub">{{ . }}</p>{{ end }}
+  <p class="meta">{{ len .RegularPages }} checks · <a href="{{ "truth-checks/index.xml" | relURL }}">RSS feed</a></p>
+</div>
+  {{ partial "art.html" (dict "key" "truth-checks" "eager" true) }}
+</header>
+{{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+<ul class="vlegend">
+  <li><span class="verdict v-true">True</span> the evidence backs it up.</li>
+  <li><span class="verdict v-half-true">Half-true</span> part of it holds, but an important piece is missing.</li>
+  <li><span class="verdict v-misleading">Misleading</span> the numbers may be real, but the impression they give is wrong.</li>
+  <li><span class="verdict v-false">False</span> the evidence says no.</li>
+</ul>
+<ol class="tccards">{{ range .RegularPages.ByDate.Reverse }}
+  <li><a href="{{ .RelPermalink }}">{{ partial "verdict-badge.html" . }}<h3>{{ .Title }}</h3><p class="tcclaim">“{{ .Params.claim }}”</p><p class="meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan 2006" }}</time>{{ with .Params.topic }} · {{ . }}{{ end }}</p></a></li>
+{{ end }}</ol>
+{{ end }}
