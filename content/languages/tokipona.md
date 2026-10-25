@@ -21,6 +21,9 @@ path_step: 1
 
 # Toki Pona: Start Here
 
+**Practise:** [Toki Pona flashcards and quizzes](tokipona-practice.md) (works on any phone).
+
+
 ![tokipona](/assets/tokipona.png)
 
 You can find the official website [here](http://tokipona.org/).

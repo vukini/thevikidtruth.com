@@ -21,6 +21,9 @@ path_step: 1
 
 # French: Start Here
 
+**Practise:** [French flashcards and quizzes](french-practice.md) (works on any phone).
+
+
 I had seven years of French at school and was still terrible at it, so this is my second attempt, this time with comprehensible input, parallel texts and a lot of patience. This page covers how French sounds, the grammar you need first, the essential phrases, and then a numbered path through my French pages.
 
 ## 1. Alphabet and pronunciation

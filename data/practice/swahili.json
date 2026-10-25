@@ -1,0 +1,1805 @@
+{
+"lang": "swahili",
+"title": "Swahili",
+"code": "sw",
+"sources": [
+"swvocab001",
+"swphrases101"
+],
+"cards": [
+{
+"f": "mtu, watu",
+"b": "person, people",
+"s": "swvocab001",
+"g": "People and family",
+"h": "class / notes: m-/wa-"
+},
+{
+"f": "mwanamume, wanaume",
+"b": "man, men",
+"s": "swvocab001",
+"g": "People and family",
+"h": "class / notes: m-/wa- (also mwanaume)"
+},
+{
+"f": "mwanamke, wanawake",
+"b": "woman, women",
+"s": "swvocab001",
+"g": "People and family",
+"h": "class / notes: m-/wa-"
+},
+{
+"f": "mtoto, watoto",
+"b": "child, children",
+"s": "swvocab001",
+"g": "People and family",
+"h": "class / notes: m-/wa-"
+},
+{
+"f": "mume / mke",
+"b": "husband / wife",
+"s": "swvocab001",
+"g": "People and family",
+"h": "class / notes: m-/wa-"
+},
+{
+"f": "baba / mama",
+"b": "father / mother",
+"s": "swvocab001",
+"g": "People and family",
+"h": "class / notes: n- class, but agrees like m-/wa- (people)"
+},
+{
+"f": "rafiki",
+"b": "friend",
+"s": "swvocab001",
+"g": "People and family",
+"h": "class / notes: n- class; plural marafiki also common"
+},
+{
+"f": "mwanafunzi, wanafunzi",
+"b": "student, students",
+"s": "swvocab001",
+"g": "People and family",
+"h": "class / notes: m-/wa-. Alice ni mwanafunzi. Alice is a student."
+},
+{
+"f": "familia",
+"b": "family",
+"s": "swvocab001",
+"g": "People and family",
+"h": "class / notes: n-. Familia yangu inaishi Dubai. My family lives in Dubai."
+},
+{
+"f": "Marekani",
+"b": "America (USA)",
+"s": "swvocab001",
+"g": "Countries and nationalities"
+},
+{
+"f": "Mmarekani, Wamarekani",
+"b": "an American, Americans",
+"s": "swvocab001",
+"g": "Countries and nationalities"
+},
+{
+"f": "Mtanzania, Watanzania",
+"b": "a Tanzanian, Tanzanians",
+"s": "swvocab001",
+"g": "Countries and nationalities"
+},
+{
+"f": "Uhindi / India",
+"b": "India",
+"s": "swvocab001",
+"g": "Countries and nationalities"
+},
+{
+"f": "Mhindi, Wahindi",
+"b": "an Indian (person), Indians",
+"s": "swvocab001",
+"g": "Countries and nationalities",
+"h": "notes: not \"India\" (my old card had this wrong)"
+},
+{
+"f": "Kiingereza",
+"b": "English (language)",
+"s": "swvocab001",
+"g": "Countries and nationalities"
+},
+{
+"f": "Kiswahili",
+"b": "Swahili (language)",
+"s": "swvocab001",
+"g": "Countries and nationalities"
+},
+{
+"f": "mimi",
+"b": "I, me",
+"s": "swvocab001",
+"g": "Pronouns and possessives"
+},
+{
+"f": "wewe",
+"b": "you (one person)",
+"s": "swvocab001",
+"g": "Pronouns and possessives",
+"h": "notes: \"you just wewe all the time!\""
+},
+{
+"f": "yeye",
+"b": "he, she",
+"s": "swvocab001",
+"g": "Pronouns and possessives",
+"h": "notes: no gender distinction"
+},
+{
+"f": "sisi",
+"b": "we",
+"s": "swvocab001",
+"g": "Pronouns and possessives"
+},
+{
+"f": "nyinyi (ninyi)",
+"b": "you all, y'all",
+"s": "swvocab001",
+"g": "Pronouns and possessives"
+},
+{
+"f": "wao",
+"b": "they",
+"s": "swvocab001",
+"g": "Pronouns and possessives"
+},
+{
+"f": "-angu",
+"b": "my",
+"s": "swvocab001",
+"g": "Pronouns and possessives",
+"h": "notes: yangu (n- class: nyumba yangu, my house), langu (ji-/ma- class: jina langu, my name)"
+},
+{
+"f": "-ako",
+"b": "your",
+"s": "swvocab001",
+"g": "Pronouns and possessives",
+"h": "notes: yako, lako: jina lako, your name"
+},
+{
+"f": "-ake",
+"b": "his, her",
+"s": "swvocab001",
+"g": "Pronouns and possessives",
+"h": "notes: yake, lake: jina lake, his/her name"
+},
+{
+"f": "habari",
+"b": "news",
+"s": "swvocab001",
+"g": "Greetings and courtesy",
+"h": "notes: Habari gani? How are you? (literally \"what news?\")"
+},
+{
+"f": "gani",
+"b": "which, what kind",
+"s": "swvocab001",
+"g": "Greetings and courtesy",
+"h": "notes: Habari gani?"
+},
+{
+"f": "nzuri",
+"b": "good, fine",
+"s": "swvocab001",
+"g": "Greetings and courtesy",
+"h": "notes: the standard reply to habari: \"I'm good, I'm fine\""
+},
+{
+"f": "hujambo?",
+"b": "how are you? (to one)",
+"s": "swvocab001",
+"g": "Greetings and courtesy",
+"h": "notes: reply sijambo"
+},
+{
+"f": "hawajambo",
+"b": "they are fine",
+"s": "swvocab001",
+"g": "Greetings and courtesy",
+"h": "notes: Hawajambo? Are they well?"
+},
+{
+"f": "salama",
+"b": "peace, safe",
+"s": "swvocab001",
+"g": "Greetings and courtesy",
+"h": "notes: Habari za asubuhi? Salama. How's the morning? Peaceful."
+},
+{
+"f": "za",
+"b": "of (n- class plural)",
+"s": "swvocab001",
+"g": "Greetings and courtesy",
+"h": "notes: \"Za men of\": habari za hapa, news of here"
+},
+{
+"f": "karibu",
+"b": "welcome; near",
+"s": "swvocab001",
+"g": "Greetings and courtesy",
+"h": "notes: Karibu! Welcome!"
+},
+{
+"f": "kwaheri",
+"b": "goodbye",
+"s": "swvocab001",
+"g": "Greetings and courtesy",
+"h": "notes: kwaherini to several people"
+},
+{
+"f": "nimefurahi",
+"b": "I'm glad, I'm happy",
+"s": "swvocab001",
+"g": "Greetings and courtesy",
+"h": "notes: Nimefurahi kukuona. I'm glad to meet you."
+},
+{
+"f": "kukuona",
+"b": "to see you, to meet you",
+"s": "swvocab001",
+"g": "Greetings and courtesy",
+"h": "notes: ku- (infinitive) + ku- (you) + ona (see)"
+},
+{
+"f": "jina",
+"b": "name",
+"s": "swvocab001",
+"g": "Greetings and courtesy",
+"h": "notes: ji-/ma-. Jina lako nani? What is your name?"
+},
+{
+"f": "ni",
+"b": "is, am, are",
+"s": "swvocab001",
+"g": "Small words",
+"h": "notes: Mimi ni Mhindi. I am Indian."
+},
+{
+"f": "si",
+"b": "is not, am not, are not",
+"s": "swvocab001",
+"g": "Small words",
+"h": "notes: Wao si Watanzania. They are not Tanzanians."
+},
+{
+"f": "na",
+"b": "and; with",
+"s": "swvocab001",
+"g": "Small words",
+"h": "notes: Tom na Jane; nina (ni + na) = I have"
+},
+{
+"f": "pia",
+"b": "also, too",
+"s": "swvocab001",
+"g": "Small words"
+},
+{
+"f": "tu",
+"b": "just, only",
+"s": "swvocab001",
+"g": "Small words",
+"h": "notes: kidogo tu, just a little"
+},
+{
+"f": "sana",
+"b": "very, very much, a lot",
+"s": "swvocab001",
+"g": "Small words",
+"h": "notes: Asante sana. Thank you very much."
+},
+{
+"f": "kidogo",
+"b": "a little, few",
+"s": "swvocab001",
+"g": "Small words"
+},
+{
+"f": "sasa",
+"b": "now",
+"s": "swvocab001",
+"g": "Small words"
+},
+{
+"f": "mpaka",
+"b": "until; border",
+"s": "swvocab001",
+"g": "Small words",
+"h": "notes: mpaka tutakapofikia, until we get there"
+},
+{
+"f": "nani?",
+"b": "who?",
+"s": "swvocab001",
+"g": "Question words",
+"x": "Huyu ni nani? Who is this?"
+},
+{
+"f": "nini?",
+"b": "what?",
+"s": "swvocab001",
+"g": "Question words",
+"x": "Unataka nini? What do you want?"
+},
+{
+"f": "wapi?",
+"b": "where?",
+"s": "swvocab001",
+"g": "Question words",
+"x": "Benki iko wapi? Where is the bank?"
+},
+{
+"f": "lini?",
+"b": "when?",
+"s": "swvocab001",
+"g": "Question words"
+},
+{
+"f": "vipi?",
+"b": "how?",
+"s": "swvocab001",
+"g": "Question words",
+"x": "Mambo vipi? How's it going?"
+},
+{
+"f": "gani?",
+"b": "which?",
+"s": "swvocab001",
+"g": "Question words"
+},
+{
+"f": "hapa",
+"b": "here",
+"s": "swvocab001",
+"g": "Here, there, this, that",
+"h": "notes: Habari za hapa? How are things here?"
+},
+{
+"f": "huko",
+"b": "there (over there, far)",
+"s": "swvocab001",
+"g": "Here, there, this, that",
+"h": "notes: Ni joto sana huko Dubai. It's very hot there in Dubai."
+},
+{
+"f": "pale",
+"b": "there (that spot)",
+"s": "swvocab001",
+"g": "Here, there, this, that"
+},
+{
+"f": "huyu / yule",
+"b": "this / that (person, m-/wa-)",
+"s": "swvocab001",
+"g": "Here, there, this, that",
+"h": "notes: Huyu ni rafiki yangu. This is my friend."
+},
+{
+"f": "hiki / kile",
+"b": "this / that (ki-/vi-)",
+"s": "swvocab001",
+"g": "Here, there, this, that",
+"h": "notes: kitabu hiki, this book"
+},
+{
+"f": "hili / lile",
+"b": "this / that (ji-/ma-)",
+"s": "swvocab001",
+"g": "Here, there, this, that",
+"h": "notes: jina hili, this name. My old card said \"in\", which was wrong."
+},
+{
+"f": "huu / ule",
+"b": "this / that (m-/mi-)",
+"s": "swvocab001",
+"g": "Here, there, this, that",
+"h": "notes: mti huu, this tree"
+},
+{
+"f": "hii / ile",
+"b": "this / that (n-)",
+"s": "swvocab001",
+"g": "Here, there, this, that",
+"h": "notes: nyumba hii, this house"
+},
+{
+"f": "iko",
+"b": "it is (located), n- class",
+"s": "swvocab001",
+"g": "Here, there, this, that",
+"h": "notes: Benki iko wapi? Where is the bank?"
+},
+{
+"f": "nyumba",
+"b": "house",
+"s": "swvocab001",
+"g": "Home, food and needs",
+"h": "notes: n-"
+},
+{
+"f": "nyumbani",
+"b": "at home, home",
+"s": "swvocab001",
+"g": "Home, food and needs",
+"h": "notes: nyumba + locative -ni"
+},
+{
+"f": "maji",
+"b": "water",
+"s": "swvocab001",
+"g": "Home, food and needs",
+"h": "notes: ma- class"
+},
+{
+"f": "chakula",
+"b": "food",
+"s": "swvocab001",
+"g": "Home, food and needs",
+"h": "notes: ki-/vi-"
+},
+{
+"f": "njaa",
+"b": "hunger",
+"s": "swvocab001",
+"g": "Home, food and needs",
+"h": "notes: Nina njaa. I'm hungry (I have hunger)."
+},
+{
+"f": "kiu",
+"b": "thirst",
+"s": "swvocab001",
+"g": "Home, food and needs",
+"h": "notes: Nina kiu. I'm thirsty. Two words: not ninakiu."
+},
+{
+"f": "moto",
+"b": "fire; hot (of things)",
+"s": "swvocab001",
+"g": "Home, food and needs",
+"h": "notes: for weather say joto: Kuna joto. It's hot."
+},
+{
+"f": "asubuhi",
+"b": "morning",
+"s": "swvocab001",
+"g": "Home, food and needs"
+},
+{
+"f": "ninaishi",
+"b": "I live",
+"s": "swvocab001",
+"g": "Verbs from the cards",
+"h": "pieces: ni-na-ishi · root: -ishi live"
+},
+{
+"f": "anaishi",
+"b": "he/she lives",
+"s": "swvocab001",
+"g": "Verbs from the cards",
+"h": "pieces: a-na-ishi · root: -ishi"
+},
+{
+"f": "inaishi",
+"b": "it lives (n- class, e.g. familia)",
+"s": "swvocab001",
+"g": "Verbs from the cards",
+"h": "pieces: i-na-ishi · root: -ishi"
+},
+{
+"f": "anakaa",
+"b": "he/she lives, stays, sits",
+"s": "swvocab001",
+"g": "Verbs from the cards",
+"h": "pieces: a-na-kaa · root: -kaa stay"
+},
+{
+"f": "wanakaa",
+"b": "they live, stay",
+"s": "swvocab001",
+"g": "Verbs from the cards",
+"h": "pieces: wa-na-kaa · root: -kaa"
+},
+{
+"f": "anapenda",
+"b": "he/she likes, loves",
+"s": "swvocab001",
+"g": "Verbs from the cards",
+"h": "pieces: a-na-penda · root: -penda"
+},
+{
+"f": "anasoma",
+"b": "he/she studies, reads",
+"s": "swvocab001",
+"g": "Verbs from the cards",
+"h": "pieces: a-na-soma · root: -soma"
+},
+{
+"f": "wanasoma",
+"b": "they study",
+"s": "swvocab001",
+"g": "Verbs from the cards",
+"h": "pieces: wa-na-soma · root: -soma"
+},
+{
+"f": "anatoka",
+"b": "he/she comes from",
+"s": "swvocab001",
+"g": "Verbs from the cards",
+"h": "pieces: a-na-toka · root: -toka"
+},
+{
+"f": "wanatoka",
+"b": "they come from",
+"s": "swvocab001",
+"g": "Verbs from the cards",
+"h": "pieces: wa-na-toka · root: -toka"
+},
+{
+"f": "wanasema",
+"b": "they speak, say",
+"s": "swvocab001",
+"g": "Verbs from the cards",
+"h": "pieces: wa-na-sema · root: -sema"
+},
+{
+"f": "naweza",
+"b": "I can",
+"s": "swvocab001",
+"g": "Verbs from the cards",
+"h": "pieces: n(i)-a-weza · root: -weza"
+},
+{
+"f": "kupata",
+"b": "to get",
+"s": "swvocab001",
+"g": "Verbs from the cards",
+"h": "pieces: ku-pata · root: -pata. Naweza kupata maji? Can I get water?"
+},
+{
+"f": "tutakapofikia",
+"b": "when we get there",
+"s": "swvocab001",
+"g": "Verbs from the cards",
+"h": "pieces: tu-ta-kapo-fikia · root: -fikia arrive at"
+},
+{
+"f": "mnyama",
+"b": "animal",
+"s": "swvocab001",
+"g": "Animals and plants",
+"h": "class / notes: m-/wa- (animals agree like people)"
+},
+{
+"f": "samaki",
+"b": "fish",
+"s": "swvocab001",
+"g": "Animals and plants",
+"h": "class / notes: n-"
+},
+{
+"f": "ndege",
+"b": "bird; also aeroplane",
+"s": "swvocab001",
+"g": "Animals and plants",
+"h": "class / notes: n-"
+},
+{
+"f": "mbwa",
+"b": "dog",
+"s": "swvocab001",
+"g": "Animals and plants",
+"h": "class / notes: n-"
+},
+{
+"f": "chawa",
+"b": "louse",
+"s": "swvocab001",
+"g": "Animals and plants",
+"h": "class / notes: n-"
+},
+{
+"f": "nyoka",
+"b": "snake",
+"s": "swvocab001",
+"g": "Animals and plants",
+"h": "class / notes: n-"
+},
+{
+"f": "funza",
+"b": "worm, maggot",
+"s": "swvocab001",
+"g": "Animals and plants",
+"h": "class / notes: n-"
+},
+{
+"f": "mti, miti",
+"b": "tree",
+"s": "swvocab001",
+"g": "Animals and plants",
+"h": "class / notes: m-/mi-"
+},
+{
+"f": "msitu",
+"b": "forest",
+"s": "swvocab001",
+"g": "Animals and plants",
+"h": "class / notes: m-/mi-"
+},
+{
+"f": "fimbo",
+"b": "stick",
+"s": "swvocab001",
+"g": "Animals and plants",
+"h": "class / notes: n-"
+},
+{
+"f": "tunda, matunda",
+"b": "fruit",
+"s": "swvocab001",
+"g": "Animals and plants",
+"h": "class / notes: ji-/ma-"
+},
+{
+"f": "mbegu",
+"b": "seed",
+"s": "swvocab001",
+"g": "Animals and plants",
+"h": "class / notes: n-"
+},
+{
+"f": "jani, majani",
+"b": "leaf; also grass",
+"s": "swvocab001",
+"g": "Animals and plants",
+"h": "class / notes: ji-/ma-"
+},
+{
+"f": "mzizi",
+"b": "root",
+"s": "swvocab001",
+"g": "Animals and plants",
+"h": "class / notes: m-/mi-"
+},
+{
+"f": "gamba",
+"b": "bark (of a tree)",
+"s": "swvocab001",
+"g": "Animals and plants",
+"h": "class / notes: ji-/ma-"
+},
+{
+"f": "ua, maua",
+"b": "flower",
+"s": "swvocab001",
+"g": "Animals and plants",
+"h": "class / notes: ji-/ma-"
+},
+{
+"f": "nyasi",
+"b": "grass",
+"s": "swvocab001",
+"g": "Animals and plants",
+"h": "class / notes: n-"
+},
+{
+"f": "kamba",
+"b": "rope",
+"s": "swvocab001",
+"g": "Animals and plants",
+"h": "class / notes: n-"
+},
+{
+"f": "ngozi",
+"b": "skin",
+"s": "swvocab001",
+"g": "Body",
+"h": "class / notes: n-"
+},
+{
+"f": "nyama",
+"b": "meat, flesh",
+"s": "swvocab001",
+"g": "Body",
+"h": "class / notes: n-"
+},
+{
+"f": "damu",
+"b": "blood",
+"s": "swvocab001",
+"g": "Body",
+"h": "class / notes: n-"
+},
+{
+"f": "mfupa",
+"b": "bone",
+"s": "swvocab001",
+"g": "Body",
+"h": "class / notes: m-/mi-"
+},
+{
+"f": "mafuta",
+"b": "fat, grease, oil",
+"s": "swvocab001",
+"g": "Body",
+"h": "class / notes: ma- (old list had \"mori\", wrong)"
+},
+{
+"f": "yai, mayai",
+"b": "egg",
+"s": "swvocab001",
+"g": "Body",
+"h": "class / notes: ji-/ma-"
+},
+{
+"f": "pembe",
+"b": "horn",
+"s": "swvocab001",
+"g": "Body",
+"h": "class / notes: n-"
+},
+{
+"f": "mkia",
+"b": "tail",
+"s": "swvocab001",
+"g": "Body",
+"h": "class / notes: m-/mi-"
+},
+{
+"f": "unyoya",
+"b": "feather",
+"s": "swvocab001",
+"g": "Body",
+"h": "class / notes: u-/n- (plural manyoya)"
+},
+{
+"f": "nywele",
+"b": "hair (of the head)",
+"s": "swvocab001",
+"g": "Body",
+"h": "class / notes: n- (singular unywele)"
+},
+{
+"f": "kichwa",
+"b": "head",
+"s": "swvocab001",
+"g": "Body",
+"h": "class / notes: ki-/vi-"
+},
+{
+"f": "sikio, masikio",
+"b": "ear",
+"s": "swvocab001",
+"g": "Body",
+"h": "class / notes: ji-/ma-"
+},
+{
+"f": "jicho, macho",
+"b": "eye",
+"s": "swvocab001",
+"g": "Body",
+"h": "class / notes: ji-/ma-"
+},
+{
+"f": "pua",
+"b": "nose",
+"s": "swvocab001",
+"g": "Body",
+"h": "class / notes: n-"
+},
+{
+"f": "mdomo / kinywa",
+"b": "mouth",
+"s": "swvocab001",
+"g": "Body"
+},
+{
+"f": "jino, meno",
+"b": "tooth",
+"s": "swvocab001",
+"g": "Body",
+"h": "class / notes: ji-/ma-"
+},
+{
+"f": "ulimi",
+"b": "tongue",
+"s": "swvocab001",
+"g": "Body",
+"h": "class / notes: u-/n-"
+},
+{
+"f": "ukucha",
+"b": "fingernail",
+"s": "swvocab001",
+"g": "Body",
+"h": "class / notes: u-/n- (plural kucha)"
+},
+{
+"f": "mguu, miguu",
+"b": "foot, leg",
+"s": "swvocab001",
+"g": "Body",
+"h": "class / notes: m-/mi-"
+},
+{
+"f": "goti, magoti",
+"b": "knee",
+"s": "swvocab001",
+"g": "Body",
+"h": "class / notes: ji-/ma-"
+},
+{
+"f": "mkono, mikono",
+"b": "hand, arm",
+"s": "swvocab001",
+"g": "Body",
+"h": "class / notes: m-/mi-"
+},
+{
+"f": "bawa, mabawa",
+"b": "wing",
+"s": "swvocab001",
+"g": "Body",
+"h": "class / notes: ji-/ma-"
+},
+{
+"f": "tumbo",
+"b": "belly",
+"s": "swvocab001",
+"g": "Body",
+"h": "class / notes: ji-/ma-"
+},
+{
+"f": "utumbo",
+"b": "intestines, guts",
+"s": "swvocab001",
+"g": "Body",
+"h": "class / notes: u-"
+},
+{
+"f": "shingo",
+"b": "neck",
+"s": "swvocab001",
+"g": "Body",
+"h": "class / notes: n-"
+},
+{
+"f": "mgongo",
+"b": "back",
+"s": "swvocab001",
+"g": "Body",
+"h": "class / notes: m-/mi-"
+},
+{
+"f": "kifua",
+"b": "chest",
+"s": "swvocab001",
+"g": "Body",
+"h": "class / notes: ki-/vi-"
+},
+{
+"f": "moyo, mioyo",
+"b": "heart",
+"s": "swvocab001",
+"g": "Body",
+"h": "class / notes: m-/mi-"
+},
+{
+"f": "ini, maini",
+"b": "liver",
+"s": "swvocab001",
+"g": "Body",
+"h": "class / notes: ji-/ma-"
+},
+{
+"f": "-nywa",
+"b": "drink",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-uma",
+"b": "bite",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-tema",
+"b": "spit",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-puliza",
+"b": "blow",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-cheka",
+"b": "laugh",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-sikia",
+"b": "hear",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-fikiri, -waza",
+"b": "think",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-ogopa",
+"b": "fear",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-ishi",
+"b": "live",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-ua",
+"b": "kill",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-winda",
+"b": "hunt",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-kata",
+"b": "cut",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-choma",
+"b": "stab; burn, roast",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-chimba",
+"b": "dig",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-ruka",
+"b": "fly; jump",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-ja",
+"b": "come",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-simama",
+"b": "stand",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-anguka",
+"b": "fall",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-shika",
+"b": "hold",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-sugua",
+"b": "rub",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-futa",
+"b": "wipe",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-sukuma",
+"b": "push",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-funga",
+"b": "tie; close",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-hesabu",
+"b": "count",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-imba",
+"b": "sing",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-elea",
+"b": "float",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-ganda",
+"b": "freeze",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-waka",
+"b": "burn (of a fire)",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-la",
+"b": "eat",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-nyonya",
+"b": "suck",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-tapika",
+"b": "vomit",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-pumua",
+"b": "breathe",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-ona",
+"b": "see",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-jua",
+"b": "know",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-nusa",
+"b": "smell",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-lala",
+"b": "sleep; lie down",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-fa",
+"b": "die",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-pigana",
+"b": "fight",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-piga",
+"b": "hit",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-pasua",
+"b": "split",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-kuna",
+"b": "scratch",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-ogelea",
+"b": "swim",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-tembea",
+"b": "walk",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-kaa",
+"b": "sit; stay",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-geuka",
+"b": "turn",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-pa",
+"b": "give",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-minya",
+"b": "squeeze",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-osha",
+"b": "wash",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-vuta",
+"b": "pull",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-tupa",
+"b": "throw",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-shona",
+"b": "sew",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-sema",
+"b": "say",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-cheza",
+"b": "play",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-tiririka",
+"b": "flow",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "-vimba",
+"b": "swell",
+"s": "swvocab001",
+"g": "Actions (verb roots)"
+},
+{
+"f": "jua",
+"b": "sun",
+"s": "swvocab001",
+"g": "The world around us",
+"h": "class / notes: ji-/ma-"
+},
+{
+"f": "mwezi",
+"b": "moon; month",
+"s": "swvocab001",
+"g": "The world around us",
+"h": "class / notes: m-/mi-"
+},
+{
+"f": "nyota",
+"b": "star",
+"s": "swvocab001",
+"g": "The world around us",
+"h": "class / notes: n-"
+},
+{
+"f": "mvua",
+"b": "rain",
+"s": "swvocab001",
+"g": "The world around us",
+"h": "class / notes: n-"
+},
+{
+"f": "mto, mito",
+"b": "river",
+"s": "swvocab001",
+"g": "The world around us",
+"h": "class / notes: m-/mi-"
+},
+{
+"f": "ziwa, maziwa",
+"b": "lake",
+"s": "swvocab001",
+"g": "The world around us",
+"h": "class / notes: ji-/ma- (maziwa also means milk)"
+},
+{
+"f": "bahari",
+"b": "sea",
+"s": "swvocab001",
+"g": "The world around us",
+"h": "class / notes: n-"
+},
+{
+"f": "chumvi",
+"b": "salt",
+"s": "swvocab001",
+"g": "The world around us",
+"h": "class / notes: n-"
+},
+{
+"f": "jiwe, mawe",
+"b": "stone",
+"s": "swvocab001",
+"g": "The world around us",
+"h": "class / notes: ji-/ma-"
+},
+{
+"f": "mchanga",
+"b": "sand",
+"s": "swvocab001",
+"g": "The world around us",
+"h": "class / notes: m-/mi-"
+},
+{
+"f": "vumbi",
+"b": "dust",
+"s": "swvocab001",
+"g": "The world around us",
+"h": "class / notes: ji-/ma-"
+},
+{
+"f": "ardhi, nchi",
+"b": "earth, land",
+"s": "swvocab001",
+"g": "The world around us",
+"h": "class / notes: n-"
+},
+{
+"f": "wingu, mawingu",
+"b": "cloud",
+"s": "swvocab001",
+"g": "The world around us",
+"h": "class / notes: ji-/ma-"
+},
+{
+"f": "ukungu",
+"b": "fog",
+"s": "swvocab001",
+"g": "The world around us",
+"h": "class / notes: u-"
+},
+{
+"f": "mbingu",
+"b": "sky, heavens",
+"s": "swvocab001",
+"g": "The world around us",
+"h": "class / notes: n-"
+},
+{
+"f": "upepo",
+"b": "wind",
+"s": "swvocab001",
+"g": "The world around us",
+"h": "class / notes: u- (old list had \"homu\", wrong)"
+},
+{
+"f": "theluji",
+"b": "snow",
+"s": "swvocab001",
+"g": "The world around us",
+"h": "class / notes: n-"
+},
+{
+"f": "barafu",
+"b": "ice",
+"s": "swvocab001",
+"g": "The world around us",
+"h": "class / notes: n-"
+},
+{
+"f": "moshi",
+"b": "smoke",
+"s": "swvocab001",
+"g": "The world around us",
+"h": "class / notes: m-/mi-"
+},
+{
+"f": "moto",
+"b": "fire",
+"s": "swvocab001",
+"g": "The world around us",
+"h": "class / notes: m-/mi-"
+},
+{
+"f": "majivu",
+"b": "ash",
+"s": "swvocab001",
+"g": "The world around us",
+"h": "class / notes: ma-"
+},
+{
+"f": "njia, barabara",
+"b": "path, road",
+"s": "swvocab001",
+"g": "The world around us",
+"h": "class / notes: n-"
+},
+{
+"f": "mlima, milima",
+"b": "mountain",
+"s": "swvocab001",
+"g": "The world around us",
+"h": "class / notes: m-/mi-"
+},
+{
+"f": "usiku",
+"b": "night",
+"s": "swvocab001",
+"g": "The world around us",
+"h": "class / notes: u-"
+},
+{
+"f": "siku",
+"b": "day",
+"s": "swvocab001",
+"g": "The world around us",
+"h": "class / notes: n-"
+},
+{
+"f": "mwaka, miaka",
+"b": "year",
+"s": "swvocab001",
+"g": "The world around us",
+"h": "class / notes: m-/mi-"
+},
+{
+"f": "-kubwa",
+"b": "big",
+"s": "swvocab001",
+"g": "Describing things (adjective stems)"
+},
+{
+"f": "-refu",
+"b": "long, tall",
+"s": "swvocab001",
+"g": "Describing things (adjective stems)"
+},
+{
+"f": "-pana",
+"b": "wide",
+"s": "swvocab001",
+"g": "Describing things (adjective stems)"
+},
+{
+"f": "-nene",
+"b": "thick, fat",
+"s": "swvocab001",
+"g": "Describing things (adjective stems)"
+},
+{
+"f": "-ekundu",
+"b": "red",
+"s": "swvocab001",
+"g": "Describing things (adjective stems)"
+},
+{
+"f": "-eusi",
+"b": "black",
+"s": "swvocab001",
+"g": "Describing things (adjective stems)"
+},
+{
+"f": "manjano",
+"b": "yellow (invariable)",
+"s": "swvocab001",
+"g": "Describing things (adjective stems)"
+},
+{
+"f": "-zee",
+"b": "old",
+"s": "swvocab001",
+"g": "Describing things (adjective stems)"
+},
+{
+"f": "-baya",
+"b": "bad",
+"s": "swvocab001",
+"g": "Describing things (adjective stems)"
+},
+{
+"f": "-chafu",
+"b": "dirty",
+"s": "swvocab001",
+"g": "Describing things (adjective stems)"
+},
+{
+"f": "duara",
+"b": "round",
+"s": "swvocab001",
+"g": "Describing things (adjective stems)"
+},
+{
+"f": "butu",
+"b": "blunt",
+"s": "swvocab001",
+"g": "Describing things (adjective stems)"
+},
+{
+"f": "-bichi",
+"b": "wet; raw, unripe",
+"s": "swvocab001",
+"g": "Describing things (adjective stems)"
+},
+{
+"f": "sahihi",
+"b": "correct",
+"s": "swvocab001",
+"g": "Describing things (adjective stems)"
+},
+{
+"f": "karibu",
+"b": "near",
+"s": "swvocab001",
+"g": "Describing things (adjective stems)"
+},
+{
+"f": "kushoto",
+"b": "left",
+"s": "swvocab001",
+"g": "Describing things (adjective stems)"
+},
+{
+"f": "moto",
+"b": "hot",
+"s": "swvocab001",
+"g": "Describing things (adjective stems)"
+},
+{
+"f": "-dogo",
+"b": "small",
+"s": "swvocab001",
+"g": "Describing things (adjective stems)"
+},
+{
+"f": "-fupi",
+"b": "short",
+"s": "swvocab001",
+"g": "Describing things (adjective stems)"
+},
+{
+"f": "-embamba",
+"b": "narrow, thin",
+"s": "swvocab001",
+"g": "Describing things (adjective stems)"
+},
+{
+"f": "-zito",
+"b": "heavy",
+"s": "swvocab001",
+"g": "Describing things (adjective stems)"
+},
+{
+"f": "-eupe",
+"b": "white",
+"s": "swvocab001",
+"g": "Describing things (adjective stems)"
+},
+{
+"f": "kijani",
+"b": "green (invariable)",
+"s": "swvocab001",
+"g": "Describing things (adjective stems)"
+},
+{
+"f": "-pya",
+"b": "new",
+"s": "swvocab001",
+"g": "Describing things (adjective stems)"
+},
+{
+"f": "-ema / -zuri",
+"b": "good",
+"s": "swvocab001",
+"g": "Describing things (adjective stems)"
+},
+{
+"f": "-bovu",
+"b": "rotten",
+"s": "swvocab001",
+"g": "Describing things (adjective stems)"
+},
+{
+"f": "-nyoofu",
+"b": "straight",
+"s": "swvocab001",
+"g": "Describing things (adjective stems)"
+},
+{
+"f": "-kali",
+"b": "sharp; fierce",
+"s": "swvocab001",
+"g": "Describing things (adjective stems)"
+},
+{
+"f": "laini",
+"b": "smooth, soft",
+"s": "swvocab001",
+"g": "Describing things (adjective stems)"
+},
+{
+"f": "-kavu",
+"b": "dry",
+"s": "swvocab001",
+"g": "Describing things (adjective stems)"
+},
+{
+"f": "-jaa (verb)",
+"b": "be full",
+"s": "swvocab001",
+"g": "Describing things (adjective stems)"
+},
+{
+"f": "mbali",
+"b": "far",
+"s": "swvocab001",
+"g": "Describing things (adjective stems)"
+},
+{
+"f": "kulia",
+"b": "right",
+"s": "swvocab001",
+"g": "Describing things (adjective stems)"
+},
+{
+"f": "baridi",
+"b": "cold",
+"s": "swvocab001",
+"g": "Describing things (adjective stems)"
+},
+{
+"f": "moja",
+"b": "one",
+"s": "swvocab001",
+"g": "Numbers and quantities"
+},
+{
+"f": "tatu",
+"b": "three",
+"s": "swvocab001",
+"g": "Numbers and quantities"
+},
+{
+"f": "tano",
+"b": "five",
+"s": "swvocab001",
+"g": "Numbers and quantities"
+},
+{
+"f": "saba",
+"b": "seven",
+"s": "swvocab001",
+"g": "Numbers and quantities"
+},
+{
+"f": "tisa",
+"b": "nine",
+"s": "swvocab001",
+"g": "Numbers and quantities"
+},
+{
+"f": "-ote",
+"b": "all",
+"s": "swvocab001",
+"g": "Numbers and quantities"
+},
+{
+"f": "baadhi ya",
+"b": "some",
+"s": "swvocab001",
+"g": "Numbers and quantities"
+},
+{
+"f": "-ingine",
+"b": "other",
+"s": "swvocab001",
+"g": "Numbers and quantities"
+},
+{
+"f": "mbili",
+"b": "two",
+"s": "swvocab001",
+"g": "Numbers and quantities"
+},
+{
+"f": "nne",
+"b": "four",
+"s": "swvocab001",
+"g": "Numbers and quantities"
+},
+{
+"f": "sita",
+"b": "six",
+"s": "swvocab001",
+"g": "Numbers and quantities"
+},
+{
+"f": "nane",
+"b": "eight",
+"s": "swvocab001",
+"g": "Numbers and quantities"
+},
+{
+"f": "kumi",
+"b": "ten",
+"s": "swvocab001",
+"g": "Numbers and quantities"
+},
+{
+"f": "-ingi",
+"b": "many",
+"s": "swvocab001",
+"g": "Numbers and quantities"
+},
+{
+"f": "chache",
+"b": "few",
+"s": "swvocab001",
+"g": "Numbers and quantities"
+},
+{
+"f": "Mimi ni Mhindi.",
+"b": "I am Indian.",
+"s": "swphrases101",
+"g": "Swahili: Everyday Phrases",
+"h": "pattern: X ni Y: X is Y"
+},
+{
+"f": "Ninaishi Dubai.",
+"b": "I live in Dubai.",
+"s": "swphrases101",
+"g": "Swahili: Everyday Phrases",
+"h": "pattern: ni-na-ishi: I live"
+},
+{
+"f": "Ninaipenda Tanzania.",
+"b": "I love Tanzania.",
+"s": "swphrases101",
+"g": "Swahili: Everyday Phrases",
+"h": "pattern: ni-na-i-penda: the -i- means \"it\" (Tanzania)"
+},
+{
+"f": "Familia yangu inaishi Dubai.",
+"b": "My family lives in Dubai.",
+"s": "swphrases101",
+"g": "Swahili: Everyday Phrases",
+"h": "pattern: familia is n- class, so yangu, inaishi"
+},
+{
+"f": "Kuna joto sana huko Dubai.",
+"b": "It's very hot there in Dubai.",
+"s": "swphrases101",
+"g": "Swahili: Everyday Phrases",
+"h": "pattern: weather heat is joto; moto is fire or hot things"
+},
+{
+"f": "Benki iko wapi?",
+"b": "Where is the bank?",
+"s": "swphrases101",
+"g": "Swahili: Everyday Phrases",
+"h": "pattern: iko = it is (located)"
+},
+{
+"f": "Nina kiu.",
+"b": "I'm thirsty.",
+"s": "swphrases101",
+"g": "Swahili: Everyday Phrases",
+"h": "pattern: nina = I have; kiu = thirst"
+},
+{
+"f": "Naweza kupata maji?",
+"b": "Can I get some water?",
+"s": "swphrases101",
+"g": "Swahili: Everyday Phrases",
+"h": "pattern: naweza + infinitive"
+},
+{
+"f": "Nina njaa.",
+"b": "I'm hungry.",
+"s": "swphrases101",
+"g": "Swahili: Everyday Phrases",
+"h": "pattern: njaa = hunger"
+},
+{
+"f": "Mpaka tutakapofikia.",
+"b": "Until we get there.",
+"s": "swphrases101",
+"g": "Swahili: Everyday Phrases",
+"h": "pattern: -kapo- = \"when\""
+},
+{
+"f": "Asante sana.",
+"b": "Thank you very much.",
+"s": "swphrases101",
+"g": "Swahili: Everyday Phrases"
+},
+{
+"f": "Samahani, sielewi.",
+"b": "Sorry, I don't understand.",
+"s": "swphrases101",
+"g": "Swahili: Everyday Phrases",
+"h": "pattern: si-elew-i: negative present"
+},
+{
+"f": "Sema polepole, tafadhali.",
+"b": "Speak slowly, please.",
+"s": "swphrases101",
+"g": "Swahili: Everyday Phrases"
+},
+{
+"f": "Hii ni bei gani?",
+"b": "How much is this?",
+"s": "swphrases101",
+"g": "Swahili: Everyday Phrases",
+"h": "pattern: bei = price"
+}
+]
+}

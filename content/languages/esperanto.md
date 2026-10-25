@@ -21,6 +21,9 @@ path_step: 1
 
 # Esperanto: Start Here
 
+**Practise:** [Esperanto flashcards and quizzes](esperanto-practice.md) (works on any phone).
+
+
 ![esperanto-400](/assets/esperanto-400.jpg)
 
 Esperanto is a wonderful language that I have been studying for a few years now. Like all **language learning projects**, it's a little hard going, especially when **no one** around you speaks it and everyone thinks you're **crazy** for even trying! However, **I have fallen a little in love** with the **malgranda lingvo**.

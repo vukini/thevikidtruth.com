@@ -21,6 +21,9 @@ path_step: 1
 
 # Spanish: Start Here
 
+**Practise:** [Spanish flashcards and quizzes](spanish-practice.md) (works on any phone).
+
+
 My tours around the world have from time to time landed me in Spanish-speaking lands. The natives there are quite interesting and speak a very beautiful language called *español*.
 
 **Quiero hablar mucho con ellos, pero no es fácil ;-)**

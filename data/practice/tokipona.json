@@ -1,0 +1,322 @@
+{
+"lang": "tokipona",
+"title": "Toki Pona",
+"code": "tok",
+"sources": [
+"tokiponavocab"
+],
+"cards": [
+{
+"f": "lukin",
+"b": "n. eye, sight · vt. see, look at, watch, read · pre-verb: try to (mi lukin sona, I try to learn)",
+"s": "tokiponavocab",
+"g": "Senses, mind and feelings"
+},
+{
+"f": "oko",
+"b": "n. eye (an older synonym of lukin in the official book)",
+"s": "tokiponavocab",
+"g": "Senses, mind and feelings"
+},
+{
+"f": "kute",
+"b": "n. ear · vt. hear, listen; obey",
+"s": "tokiponavocab",
+"g": "Senses, mind and feelings"
+},
+{
+"f": "sona",
+"b": "n. knowledge, wisdom · vt. know, understand; know how to (mi sona toki, I know how to talk)",
+"s": "tokiponavocab",
+"g": "Senses, mind and feelings"
+},
+{
+"f": "pilin",
+"b": "n. heart, feeling, emotion · vt. feel, think, sense, touch",
+"s": "tokiponavocab",
+"g": "Senses, mind and feelings"
+},
+{
+"f": "olin",
+"b": "n. love, compassion, affection · vt. love, respect (a person or animal)",
+"s": "tokiponavocab",
+"g": "Senses, mind and feelings"
+},
+{
+"f": "nasa",
+"b": "mod. unusual, strange, silly, crazy, drunk",
+"s": "tokiponavocab",
+"g": "Senses, mind and feelings"
+},
+{
+"f": "moku",
+"b": "n. food, meal · vt. eat, drink, consume",
+"s": "tokiponavocab",
+"g": "Life, food and talk"
+},
+{
+"f": "toki",
+"b": "n. language, talking, speech · vt./vi. talk, say, speak · interj. hello!",
+"s": "tokiponavocab",
+"g": "Life, food and talk"
+},
+{
+"f": "moli",
+"b": "n. death · vi. die, be dead · vt. kill",
+"s": "tokiponavocab",
+"g": "Life, food and talk"
+},
+{
+"f": "unpa",
+"b": "n. sex, sexuality · vt./vi. have sex with",
+"s": "tokiponavocab",
+"g": "Life, food and talk"
+},
+{
+"f": "ijo",
+"b": "thing",
+"s": "tokiponavocab",
+"g": "Words from the tutorial"
+},
+{
+"f": "lipu",
+"b": "document, page, book",
+"s": "tokiponavocab",
+"g": "Words from the tutorial"
+},
+{
+"f": "telo",
+"b": "water, liquid",
+"s": "tokiponavocab",
+"g": "Words from the tutorial"
+},
+{
+"f": "mije",
+"b": "man, male",
+"s": "tokiponavocab",
+"g": "Words from the tutorial"
+},
+{
+"f": "sina",
+"b": "you",
+"s": "tokiponavocab",
+"g": "Words from the tutorial"
+},
+{
+"f": "sin",
+"b": "new",
+"s": "tokiponavocab",
+"g": "Words from the tutorial"
+},
+{
+"f": "lili",
+"b": "small",
+"s": "tokiponavocab",
+"g": "Words from the tutorial"
+},
+{
+"f": "pona",
+"b": "good, simple",
+"s": "tokiponavocab",
+"g": "Words from the tutorial"
+},
+{
+"f": "jo",
+"b": "have",
+"s": "tokiponavocab",
+"g": "Words from the tutorial"
+},
+{
+"f": "ala",
+"b": "no, not",
+"s": "tokiponavocab",
+"g": "Words from the tutorial"
+},
+{
+"f": "sewi",
+"b": "above, sacred",
+"s": "tokiponavocab",
+"g": "Words from the tutorial"
+},
+{
+"f": "ni",
+"b": "this, that",
+"s": "tokiponavocab",
+"g": "Words from the tutorial"
+},
+{
+"f": "tomo",
+"b": "house, building",
+"s": "tokiponavocab",
+"g": "Words from the tutorial"
+},
+{
+"f": "meli",
+"b": "woman, female",
+"s": "tokiponavocab",
+"g": "Words from the tutorial"
+},
+{
+"f": "mi",
+"b": "I, me, we",
+"s": "tokiponavocab",
+"g": "Words from the tutorial"
+},
+{
+"f": "kulupu",
+"b": "group, community",
+"s": "tokiponavocab",
+"g": "Words from the tutorial"
+},
+{
+"f": "wawa",
+"b": "strong, powerful",
+"s": "tokiponavocab",
+"g": "Words from the tutorial"
+},
+{
+"f": "suli",
+"b": "big, important",
+"s": "tokiponavocab",
+"g": "Words from the tutorial"
+},
+{
+"f": "ike",
+"b": "bad, complicated",
+"s": "tokiponavocab",
+"g": "Words from the tutorial"
+},
+{
+"f": "pali",
+"b": "do, make, work",
+"s": "tokiponavocab",
+"g": "Words from the tutorial"
+},
+{
+"f": "mute",
+"b": "many, much",
+"s": "tokiponavocab",
+"g": "Words from the tutorial"
+},
+{
+"f": "wan",
+"b": "one, united",
+"s": "tokiponavocab",
+"g": "Words from the tutorial"
+},
+{
+"f": "soweli li moku e kili.",
+"b": "The animal eats fruit.",
+"s": "tokiponavocab",
+"g": "Examples"
+},
+{
+"f": "mi lukin e waso.",
+"b": "I see a bird.",
+"s": "tokiponavocab",
+"g": "Examples"
+},
+{
+"f": "jan pona mi li olin e musi.",
+"b": "My friend loves games.",
+"s": "tokiponavocab",
+"g": "Examples"
+},
+{
+"f": "mi sona ala.",
+"b": "I don't know.",
+"s": "tokiponavocab",
+"g": "Examples"
+},
+{
+"f": "sina toki pona!",
+"b": "You speak well / You speak Toki Pona!",
+"s": "tokiponavocab",
+"g": "Examples"
+},
+{
+"f": "jan",
+"b": "person",
+"h": "n. person, people, human, being, somebody, anybody",
+"s": "tokiponavocab",
+"g": "Living things"
+},
+{
+"f": "soweli",
+"b": "animal",
+"h": "animal, especially land mammal, lovable animal",
+"s": "tokiponavocab",
+"g": "Living things"
+},
+{
+"f": "waso",
+"b": "bird",
+"h": "bird, winged animal",
+"s": "tokiponavocab",
+"g": "Living things"
+},
+{
+"f": "kala",
+"b": "fish",
+"h": "fish, sea creature",
+"s": "tokiponavocab",
+"g": "Living things"
+},
+{
+"f": "akesi",
+"b": "non-cute animal",
+"h": "n. non-cute animal, reptile, amphibian",
+"s": "tokiponavocab",
+"g": "Living things"
+},
+{
+"f": "pipi",
+"b": "bug",
+"h": "bug, insect, spider",
+"s": "tokiponavocab",
+"g": "Living things"
+},
+{
+"f": "kasi",
+"b": "plant",
+"h": "plant, leaf, herb, tree, wood",
+"s": "tokiponavocab",
+"g": "Plants and food"
+},
+{
+"f": "kili",
+"b": "fruit",
+"h": "fruit, pulpy vegetable, mushroom",
+"s": "tokiponavocab",
+"g": "Plants and food"
+},
+{
+"f": "pan",
+"b": "grain",
+"h": "grain, cereal",
+"s": "tokiponavocab",
+"g": "Plants and food"
+},
+{
+"f": "alasa",
+"b": "to gather",
+"h": "vt. to gather, to collect food, resources or material needed for daily life and survival; to gather, harvest",
+"s": "tokiponavocab",
+"g": "Doing and making"
+},
+{
+"f": "musi",
+"b": "fun",
+"h": "n. fun, playing, game, recreation, art, entertainment",
+"s": "tokiponavocab",
+"g": "Doing and making"
+},
+{
+"f": "sitelen",
+"b": "picture",
+"h": "n. picture, image",
+"s": "tokiponavocab",
+"g": "Doing and making"
+}
+]
+}

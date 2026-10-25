@@ -1,0 +1,153 @@
+{
+"lang": "esperanto",
+"title": "Esperanto",
+"code": "eo",
+"sources": [
+"esperantovortoj",
+"vortaro"
+],
+"cards": [
+{
+"f": "bosko",
+"b": "grove, small wood",
+"s": "esperantovortoj",
+"g": "Nature and animals",
+"x": "Ni promenis tra la bosko. We walked through the grove.",
+"h": "built from: bosk·o"
+},
+{
+"f": "falko",
+"b": "falcon",
+"s": "esperantovortoj",
+"g": "Nature and animals",
+"x": "La falko flugas alte. The falcon flies high.",
+"h": "built from: falk·o"
+},
+{
+"f": "svelta",
+"b": "slim, slender",
+"s": "esperantovortoj",
+"g": "Describing",
+"x": "Ŝi estas alta kaj svelta. She is tall and slender. The opposite is dika (fat, thick), not malsvelta.",
+"h": "built from: svelt·a"
+},
+{
+"f": "jam",
+"b": "already, yet, by now",
+"s": "esperantovortoj",
+"g": "Little words",
+"x": "Mi jam manĝis. I have already eaten. Memory hook: \"I have already eaten too much yam!\" Ĉu vi jam finis? Have you finished yet?"
+},
+{
+"f": "per",
+"b": "with, by means of, through",
+"s": "esperantovortoj",
+"g": "Little words",
+"x": "Mi skribas per krajono. I write with a pencil."
+},
+{
+"f": "senpere",
+"b": "directly, without an intermediary",
+"s": "esperantovortoj",
+"g": "Little words",
+"x": "Mi parolis senpere kun la direktoro. I spoke directly with the director.",
+"h": "built from: sen·per·e (without + by means of + adverb)"
+},
+{
+"f": "deiri",
+"b": "to set out from, to depart",
+"s": "esperantovortoj",
+"g": "Going places",
+"x": "Ni deiris de Dubajo matene. We set out from Dubai in the morning.",
+"h": "built from: de·ir·i (from + go)"
+},
+{
+"f": "deirpunkto",
+"b": "starting point (of a journey)",
+"s": "esperantovortoj",
+"g": "Going places",
+"x": "La stacidomo estas nia deirpunkto. The station is our starting point.",
+"h": "built from: de·ir·punkt·o"
+},
+{
+"f": "gufujo",
+"b": "chill-out room (at a congress)",
+"s": "esperantovortoj",
+"g": "Going places",
+"x": "Post la koncerto ni iris al la gufujo por trinki teon. After the concert we went to the chill-out room to drink tea.",
+"h": "built from: guf·uj·o (chill-out + container)"
+},
+{
+"f": "operaciumoj",
+"b": "operating system",
+"s": "vortaro",
+"g": "Words I am learning"
+},
+{
+"f": "datumtipo",
+"b": "data type",
+"s": "vortaro",
+"g": "Words I am learning"
+},
+{
+"f": "rezigni",
+"b": "to abandon, give up",
+"s": "vortaro",
+"g": "Words I am learning"
+},
+{
+"f": "esprimpovo",
+"b": "expressibility",
+"s": "vortaro",
+"g": "Words I am learning"
+},
+{
+"f": "je",
+"b": "upon, at, by, on",
+"s": "vortaro",
+"g": "Words I am learning"
+},
+{
+"f": "apogas",
+"b": "to lean, support",
+"s": "vortaro",
+"g": "Words I am learning"
+},
+{
+"f": "ĉelo",
+"b": "cell",
+"s": "vortaro",
+"g": "Words I am learning"
+},
+{
+"f": "ligillisto",
+"b": "bound list",
+"s": "vortaro",
+"g": "Words I am learning"
+},
+{
+"f": "interuzeblaj",
+"b": "interusable",
+"s": "vortaro",
+"g": "Words I am learning"
+},
+{
+"f": "trakti",
+"b": "to deal with, handle",
+"s": "vortaro",
+"g": "Words I am learning"
+},
+{
+"f": "tradukilo",
+"b": "compiler (computer) translator",
+"s": "vortaro",
+"g": "Words I am learning"
+},
+{
+"f": "konciza",
+"b": "concise",
+"s": "vortaro",
+"g": "Words I am learning"
+}
+]
+}

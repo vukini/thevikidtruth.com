@@ -1,0 +1,1238 @@
+{
+"lang": "spanish",
+"title": "Spanish",
+"code": "es",
+"sources": [
+"spanishvocab1"
+],
+"cards": [
+{
+"f": "aburrido / aburrida",
+"b": "boring, tedious; bored (with estar)",
+"s": "spanishvocab1",
+"g": "Words from my scripts",
+"x": "Lo que decía era tan aburrido que me quedé dormido. What he was saying was so boring that I fell asleep.",
+"h": "type: adj"
+},
+{
+"f": "acceder (a)",
+"b": "to access, get into; to agree to",
+"s": "spanishvocab1",
+"g": "Words from my scripts",
+"x": "Suscríbete para acceder a más contenidos. Subscribe to access more content.",
+"h": "type: verb"
+},
+{
+"f": "corriente",
+"b": "ordinary, common; (la corriente) current, electricity",
+"s": "spanishvocab1",
+"g": "Words from my scripts",
+"x": "Es un reloj corriente. It's an ordinary watch. Se ha ido la corriente. The power has gone. The common currents: the run of the mill!",
+"h": "type: adj; nf"
+},
+{
+"f": "extrañar",
+"b": "to miss (someone); to surprise",
+"s": "spanishvocab1",
+"g": "Words from my scripts",
+"x": "Cuando viaja, extraña mucho a sus perros. When she travels, she misses her dogs a lot. extraño / extraña = strange",
+"h": "type: verb"
+},
+{
+"f": "házmelo saber",
+"b": "let me know",
+"s": "spanishvocab1",
+"g": "Words from my scripts",
+"x": "haz (do/make!, imperative of hacer) + me (to me) + lo (it) + saber (to know): \"make it known to me\". The accent on há keeps the stress where it was.",
+"h": "type: phrase"
+},
+{
+"f": "malvado / malvada",
+"b": "wicked, evil; villain",
+"s": "spanishvocab1",
+"g": "Words from my scripts",
+"x": "Memory trick: mal = bad, so malvado = a bad person. (-ado isn't really a \"person\" suffix, but the trick works.)",
+"h": "type: adj; n"
+},
+{
+"f": "montón (el)",
+"b": "pile, heap; a lot",
+"s": "spanishvocab1",
+"g": "Words from my scripts",
+"x": "Había un montón de fotos antiguas. There were loads of old photos.",
+"h": "type: nm"
+},
+{
+"f": "tratar (de)",
+"b": "to try (to); to treat",
+"s": "spanishvocab1",
+"g": "Words from my scripts",
+"x": "Trataré de responderte. I will try to answer you. (trataré = future, \"I will try\")",
+"h": "type: verb"
+},
+{
+"f": "abajo",
+"b": "bottom",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "acciones",
+"b": "actions",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "actividad",
+"b": "activity",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "adecuados",
+"b": "suitable",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "además",
+"b": "also",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "agrupar",
+"b": "group",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "alcanzar",
+"b": "reach",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "analizar",
+"b": "analyze",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "anotar",
+"b": "to note down",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "anotándolas",
+"b": "writing them down",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "aprender",
+"b": "learn",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "asociar",
+"b": "associate",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "aunque",
+"b": "although",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "bajo",
+"b": "low; under",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "borrador",
+"b": "draft",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "cabo",
+"b": "(llevar a cabo) to carry out",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "característica",
+"b": "feature, characteristic",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "caso",
+"b": "case",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "centro",
+"b": "center",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "ciertas",
+"b": "certain",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "clara",
+"b": "clear",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "clase",
+"b": "class",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "clave",
+"b": "key",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "coloca",
+"b": "places",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "colocar",
+"b": "place",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "colocarlos",
+"b": "place them",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "colocarse",
+"b": "to be placed, to position oneself",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "colores",
+"b": "colors",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "componentes",
+"b": "components",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "comprensión",
+"b": "comprehension",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "comunes",
+"b": "common",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "concepto",
+"b": "concept",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "conceptos",
+"b": "concepts",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "conceptuales",
+"b": "conceptual",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "conectar",
+"b": "connect",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "construyendo",
+"b": "building",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "contiene",
+"b": "contains",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "contribuyen",
+"b": "(they) contribute",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "crea",
+"b": "creates",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "crear",
+"b": "create",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "creatividad",
+"b": "creativity",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "crece",
+"b": "grows",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "cuestión",
+"b": "question",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "cuál",
+"b": "which (one)",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "decisiones",
+"b": "decisions",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "deseas",
+"b": "you want",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "dichas",
+"b": "said, aforementioned (f pl)",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "diferencia",
+"b": "difference",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "diferentes",
+"b": "different",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "dinámica",
+"b": "dynamic",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "disponible",
+"b": "available",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "eficaz",
+"b": "effective",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "eficiente",
+"b": "efficient",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "ejemplo",
+"b": "example",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "elegir",
+"b": "choose",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "elementos",
+"b": "elements",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "embargo",
+"b": "(sin embargo) however",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "empresa",
+"b": "company",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "encapsular",
+"b": "encapsulate",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "encerrados",
+"b": "enclosed",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "encuentran",
+"b": "(they) are found",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "enlace",
+"b": "link",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "ensayos",
+"b": "essays; trials",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "entrada",
+"b": "entry, input",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "espacialmente",
+"b": "spatially",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "específicas",
+"b": "specific",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "esquema",
+"b": "scheme",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "estimulan",
+"b": "(they) stimulate",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "estudio",
+"b": "study",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "explicar",
+"b": "explain",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "extenderse",
+"b": "spread",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "extienden",
+"b": "(they) extend",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "final",
+"b": "final, end",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "flechas",
+"b": "arrows",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "flujo",
+"b": "flow",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "flujos",
+"b": "flows",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "funciona",
+"b": "works",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "función",
+"b": "function",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "fácil",
+"b": "easy",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "griego",
+"b": "Greek",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "gráfica",
+"b": "graph",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "gráficas",
+"b": "graphics",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "guías",
+"b": "guides",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "hacía",
+"b": "was doing, used to do (from hacer); not to be confused with hacia, towards",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "herramienta",
+"b": "tool",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "identificación",
+"b": "identification",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "identificar",
+"b": "identify",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "imagen",
+"b": "image",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "importancia",
+"b": "importance",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "importante",
+"b": "important",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "incluso",
+"b": "including",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "interactivo",
+"b": "interactive",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "interesar",
+"b": "interest",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "investigación",
+"b": "research",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "jerarquía",
+"b": "hierarchy",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "jerárquico",
+"b": "hierarchical",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "leer",
+"b": "read",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "ligados",
+"b": "linked",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "limpia",
+"b": "clean",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "lineal",
+"b": "linear",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "lista",
+"b": "list",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "llave",
+"b": "brace; key",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "llaves",
+"b": "braces { }; keys",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "llevan",
+"b": "(they) lead to, carry",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "llevar",
+"b": "carry",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "llevarse",
+"b": "(llevarse a cabo) to be carried out",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "líneas",
+"b": "lines",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "mapa-conceptual-esquema",
+"b": "concept-map diagram",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "memoria",
+"b": "memory",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "metas",
+"b": "goals",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "método",
+"b": "method",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "necesarias",
+"b": "needed",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "necesarios",
+"b": "needed",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "niveles",
+"b": "levels",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "numerados",
+"b": "numbered",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "orden",
+"b": "order",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "ordena",
+"b": "orders, arranges",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "organizarse",
+"b": "get organized",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "parten",
+"b": "(they) start from",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "partida",
+"b": "departure, starting point (punto de partida)",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "partiendo",
+"b": "starting from",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "pasos",
+"b": "steps",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "pensamientos",
+"b": "thoughts",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "permita",
+"b": "allows (subjunctive)",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "plasmar",
+"b": "translate",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "posiciones",
+"b": "positions",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "principal",
+"b": "main",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "principales",
+"b": "main",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "proceso",
+"b": "process",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "productividad",
+"b": "productivity",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "propósito",
+"b": "purpose",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "propósitos",
+"b": "purposes",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "provee",
+"b": "provides",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "proviene",
+"b": "comes from",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "proyecto",
+"b": "project",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "pude",
+"b": "I could, I was able to",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "pudiendo",
+"b": "being able to",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "pueden",
+"b": "(they) can",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "punto",
+"b": "point",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "quizás",
+"b": "maybe",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "rara",
+"b": "rare, strange",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "realizar",
+"b": "perform",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "realizarse",
+"b": "to be carried out",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "recopilar",
+"b": "collect",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "recordando",
+"b": "remembering",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "recordar",
+"b": "remember",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "rectángulos",
+"b": "rectangles",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "recuadros",
+"b": "boxes (in a diagram)",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "recursos",
+"b": "resources",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "relacionan",
+"b": "(they) relate",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "relacionar",
+"b": "relate",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "relevante",
+"b": "relevant",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "representaciones",
+"b": "renderings",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "representar",
+"b": "represent",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "resto",
+"b": "rest",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "resultados",
+"b": "results",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "sean",
+"b": "(they) be (subjunctive of ser)",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "según",
+"b": "according to",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "señalando",
+"b": "pointing",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "siempre",
+"b": "always",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "siendo",
+"b": "being",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "significa",
+"b": "means",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "sigue",
+"b": "follows, continues",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "siguientes",
+"b": "following",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "simbología",
+"b": "symbology",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "simular",
+"b": "simulate",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "sintetizar",
+"b": "synthesize",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "sinóptico",
+"b": "synoptic",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "subrayándolas",
+"b": "underlining",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "subtemas",
+"b": "subtopics",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "sucesivamente",
+"b": "successively",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "suele",
+"b": "usually (does)",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "surgen",
+"b": "(they) arise",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "tanto",
+"b": "both",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "tareas",
+"b": "tasks",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "tema",
+"b": "topic",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "terciarias",
+"b": "tertiary",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "tiene",
+"b": "has",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "tipo",
+"b": "type",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "tipos",
+"b": "types",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "trabajo",
+"b": "work",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "usuario",
+"b": "user",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "utiliza",
+"b": "uses",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "utilizados",
+"b": "used",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "utilizan",
+"b": "(they) use",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "variados",
+"b": "varied",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "veces",
+"b": "times",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "versión",
+"b": "version",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "vez",
+"b": "time, occasion (rara vez = rarely)",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "visuales",
+"b": "visuals",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "vuelven",
+"b": "(they) return",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "índices",
+"b": "indices",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "óvalos",
+"b": "ovals",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+},
+{
+"f": "útiles",
+"b": "useful",
+"s": "spanishvocab1",
+"g": "Study-skills word list"
+}
+]
+}

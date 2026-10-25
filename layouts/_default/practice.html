@@ -1,0 +1,30 @@
+{{ define "main" }}
+{{ $deck := index hugo.Data.practice .Params.deck }}
+{{ $sec := .CurrentSection }}
+<header class="ahead">
+  <p class="crumb"><a href="{{ "/" | relURL }}">Knowledge base</a> / <a href="{{ $sec.RelPermalink }}">{{ $sec.Title }}</a>{{ with .Params.start }} / <a href="{{ . | relURL }}">{{ $deck.title }}: Start Here</a>{{ end }}</p>
+  <h1 data-pagefind-meta="title">{{ .Title }}</h1>
+  <p class="sub">{{ len $deck.cards }} cards from {{ range $i, $s := $deck.sources }}{{ if $i }}, {{ end }}{{ with site.GetPage (printf "/languages/%s" $s) }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ else }}{{ $s }}{{ end }}{{ end }}. Flip, pick or type, and your progress is saved on this device.</p>
+</header>
+{{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+<noscript><p class="meta">This practice page needs JavaScript. The words themselves are on the vocabulary pages linked above.</p></noscript>
+<div class="pr" id="pr" hidden lang="en">
+  <div class="pr-controls">
+    <fieldset class="pr-modes"><legend class="vh">Mode</legend>
+      <label><input type="radio" name="pr-mode" value="flip" checked> Flip cards</label>
+      <label><input type="radio" name="pr-mode" value="mc"> Multiple choice</label>
+      <label><input type="radio" name="pr-mode" value="type"> Type it</label>
+    </fieldset>
+    <div class="pr-row">
+      <label class="pr-sel">Show <select id="pr-dir"><option value="fb">{{ $deck.title }} → English</option><option value="bf">English → {{ $deck.title }}</option></select></label>
+      <button type="button" class="pr-btn" id="pr-shuffle">Shuffle</button>
+    </div>
+    <label class="pr-chk"><input type="checkbox" id="pr-new"> Only cards I don't know yet</label>
+  </div>
+  <div class="pr-progress"><span id="pr-stats"></span> <span id="pr-count"></span><div class="pr-track"><div id="pr-bar"></div></div></div>
+  <div id="pr-card" class="pr-card" lang="{{ $deck.code }}"></div>
+  <p class="meta">Typed answers ignore accents, capitals and a single typo. A card counts as known once you've got it right at least twice and more often than wrong. <button type="button" class="pr-link" id="pr-reset">Reset progress</button></p>
+</div>
+<script type="application/json" id="pr-deck">{{ $deck | jsonify | safeJS }}</script>
+{{ with resources.Get "js/practice.js" | minify | fingerprint }}<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>{{ end }}
+{{ end }}

@@ -1,0 +1,109 @@
+{
+"lang": "japanese",
+"title": "Japanese",
+"code": "ja",
+"sources": [
+"jpcolors"
+],
+"cards": [
+{
+"f": "赤 / 赤い",
+"b": "red",
+"s": "jpcolors",
+"g": "Japanese: Colours",
+"x": "akai ringo a red apple",
+"alt": "aka / akai",
+"h": "romaji: aka / akai"
+},
+{
+"f": "青 / 青い",
+"b": "blue (traditionally also green)",
+"s": "jpcolors",
+"g": "Japanese: Colours",
+"x": "aoi sora the blue sky",
+"alt": "ao / aoi",
+"h": "romaji: ao / aoi"
+},
+{
+"f": "白 / 白い",
+"b": "white",
+"s": "jpcolors",
+"g": "Japanese: Colours",
+"x": "shiroi neko a white cat",
+"alt": "shiro / shiroi",
+"h": "romaji: shiro / shiroi"
+},
+{
+"f": "黒 / 黒い",
+"b": "black",
+"s": "jpcolors",
+"g": "Japanese: Colours",
+"x": "kuroi kutsu black shoes",
+"alt": "kuro / kuroi",
+"h": "romaji: kuro / kuroi"
+},
+{
+"f": "黄色 / 黄色い",
+"b": "yellow",
+"s": "jpcolors",
+"g": "Japanese: Colours",
+"x": "kiiroi hana a yellow flower",
+"alt": "kiiro / kiiroi",
+"h": "romaji: kiiro / kiiroi"
+},
+{
+"f": "茶色",
+"b": "brown (lit. \"tea colour\")",
+"s": "jpcolors",
+"g": "Japanese: Colours",
+"x": "chairo no kaban a brown bag",
+"alt": "chairo",
+"h": "romaji: chairo"
+},
+{
+"f": "緑",
+"b": "green",
+"s": "jpcolors",
+"g": "Japanese: Colours",
+"x": "midori no ha green leaves",
+"alt": "midori",
+"h": "romaji: midori"
+},
+{
+"f": "紫",
+"b": "purple",
+"s": "jpcolors",
+"g": "Japanese: Colours",
+"x": "murasaki no fuku purple clothes",
+"alt": "murasaki",
+"h": "romaji: murasaki"
+},
+{
+"f": "ピンク",
+"b": "pink",
+"s": "jpcolors",
+"g": "Japanese: Colours",
+"x": "pinku no T-shatsu a pink T-shirt",
+"alt": "pinku",
+"h": "romaji: pinku"
+},
+{
+"f": "オレンジ",
+"b": "orange",
+"s": "jpcolors",
+"g": "Japanese: Colours",
+"x": "orenji no bōshi an orange hat",
+"alt": "orenji",
+"h": "romaji: orenji"
+},
+{
+"f": "灰色",
+"b": "grey (lit. \"ash colour\")",
+"s": "jpcolors",
+"g": "Japanese: Colours",
+"x": "haiiro no kumo grey clouds",
+"alt": "haiiro",
+"h": "romaji: haiiro"
+}
+]
+}

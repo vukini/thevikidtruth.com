@@ -1,0 +1,518 @@
+{
+"lang": "french",
+"title": "French",
+"code": "fr",
+"sources": [
+"frenchvocabulary"
+],
+"cards": [
+{
+"f": "the",
+"b": "le",
+"s": "frenchvocabulary",
+"g": "The article cheat sheet",
+"h": "feminine: la · before a vowel or mute h: l' · plural: les"
+},
+{
+"f": "a / an",
+"b": "un",
+"s": "frenchvocabulary",
+"g": "The article cheat sheet",
+"h": "feminine: une · before a vowel or mute h: (un / une) · plural: des"
+},
+{
+"f": "some",
+"b": "du",
+"s": "frenchvocabulary",
+"g": "The article cheat sheet",
+"h": "feminine: de la · before a vowel or mute h: de l' · plural: des"
+},
+{
+"f": "la maison",
+"b": "house",
+"s": "frenchvocabulary",
+"g": "La maison — the house",
+"h": "gender: f"
+},
+{
+"f": "l'appartement (un)",
+"b": "flat, apartment",
+"s": "frenchvocabulary",
+"g": "La maison — the house",
+"h": "gender: m"
+},
+{
+"f": "la cuisine",
+"b": "kitchen; cooking",
+"s": "frenchvocabulary",
+"g": "La maison — the house",
+"h": "gender: f"
+},
+{
+"f": "la chambre",
+"b": "bedroom",
+"s": "frenchvocabulary",
+"g": "La maison — the house",
+"h": "gender: f"
+},
+{
+"f": "la salle de bains",
+"b": "bathroom",
+"s": "frenchvocabulary",
+"g": "La maison — the house",
+"h": "gender: f"
+},
+{
+"f": "le salon",
+"b": "living room",
+"s": "frenchvocabulary",
+"g": "La maison — the house",
+"h": "gender: m"
+},
+{
+"f": "le jardin",
+"b": "garden",
+"s": "frenchvocabulary",
+"g": "La maison — the house",
+"h": "gender: m"
+},
+{
+"f": "la porte",
+"b": "door",
+"s": "frenchvocabulary",
+"g": "La maison — the house",
+"h": "gender: f"
+},
+{
+"f": "la fenêtre",
+"b": "window",
+"s": "frenchvocabulary",
+"g": "La maison — the house",
+"h": "gender: f"
+},
+{
+"f": "le mur",
+"b": "wall",
+"s": "frenchvocabulary",
+"g": "La maison — the house",
+"h": "gender: m"
+},
+{
+"f": "l'escalier (un)",
+"b": "stairs",
+"s": "frenchvocabulary",
+"g": "La maison — the house",
+"h": "gender: m"
+},
+{
+"f": "le toit",
+"b": "roof",
+"s": "frenchvocabulary",
+"g": "La maison — the house",
+"h": "gender: m"
+},
+{
+"f": "la table",
+"b": "table",
+"s": "frenchvocabulary",
+"g": "Les meubles — furniture",
+"h": "gender: f"
+},
+{
+"f": "la chaise",
+"b": "chair",
+"s": "frenchvocabulary",
+"g": "Les meubles — furniture",
+"h": "gender: f"
+},
+{
+"f": "le lit",
+"b": "bed",
+"s": "frenchvocabulary",
+"g": "Les meubles — furniture",
+"h": "gender: m"
+},
+{
+"f": "le canapé",
+"b": "sofa",
+"s": "frenchvocabulary",
+"g": "Les meubles — furniture",
+"h": "gender: m"
+},
+{
+"f": "l'armoire (une)",
+"b": "wardrobe",
+"s": "frenchvocabulary",
+"g": "Les meubles — furniture",
+"h": "gender: f"
+},
+{
+"f": "le bureau",
+"b": "desk; office",
+"s": "frenchvocabulary",
+"g": "Les meubles — furniture",
+"h": "gender: m"
+},
+{
+"f": "la lampe",
+"b": "lamp",
+"s": "frenchvocabulary",
+"g": "Les meubles — furniture",
+"h": "gender: f"
+},
+{
+"f": "le miroir",
+"b": "mirror",
+"s": "frenchvocabulary",
+"g": "Les meubles — furniture",
+"h": "gender: m"
+},
+{
+"f": "le frigo / le réfrigérateur",
+"b": "fridge",
+"s": "frenchvocabulary",
+"g": "À la cuisine — in the kitchen",
+"h": "gender: m"
+},
+{
+"f": "le four",
+"b": "oven",
+"s": "frenchvocabulary",
+"g": "À la cuisine — in the kitchen",
+"h": "gender: m"
+},
+{
+"f": "l'assiette (une)",
+"b": "plate",
+"s": "frenchvocabulary",
+"g": "À la cuisine — in the kitchen",
+"h": "gender: f"
+},
+{
+"f": "le verre",
+"b": "glass",
+"s": "frenchvocabulary",
+"g": "À la cuisine — in the kitchen",
+"h": "gender: m"
+},
+{
+"f": "la tasse",
+"b": "cup",
+"s": "frenchvocabulary",
+"g": "À la cuisine — in the kitchen",
+"h": "gender: f"
+},
+{
+"f": "la fourchette",
+"b": "fork",
+"s": "frenchvocabulary",
+"g": "À la cuisine — in the kitchen",
+"h": "gender: f"
+},
+{
+"f": "le couteau (les couteaux)",
+"b": "knife",
+"s": "frenchvocabulary",
+"g": "À la cuisine — in the kitchen",
+"h": "gender: m"
+},
+{
+"f": "la cuillère",
+"b": "spoon",
+"s": "frenchvocabulary",
+"g": "À la cuisine — in the kitchen",
+"h": "gender: f"
+},
+{
+"f": "la casserole",
+"b": "saucepan",
+"s": "frenchvocabulary",
+"g": "À la cuisine — in the kitchen",
+"h": "gender: f"
+},
+{
+"f": "le pain",
+"b": "bread",
+"s": "frenchvocabulary",
+"g": "À la cuisine — in the kitchen",
+"h": "gender: m"
+},
+{
+"f": "l'eau (une)",
+"b": "water",
+"s": "frenchvocabulary",
+"g": "À la cuisine — in the kitchen",
+"h": "gender: f"
+},
+{
+"f": "le lait",
+"b": "milk",
+"s": "frenchvocabulary",
+"g": "À la cuisine — in the kitchen",
+"h": "gender: m"
+},
+{
+"f": "le fromage",
+"b": "cheese",
+"s": "frenchvocabulary",
+"g": "À la cuisine — in the kitchen",
+"h": "gender: m"
+},
+{
+"f": "la pomme",
+"b": "apple",
+"s": "frenchvocabulary",
+"g": "À la cuisine — in the kitchen",
+"h": "gender: f"
+},
+{
+"f": "le matin",
+"b": "morning",
+"s": "frenchvocabulary",
+"g": "La journée — the day",
+"h": "gender: m"
+},
+{
+"f": "l'après-midi (un)",
+"b": "afternoon",
+"s": "frenchvocabulary",
+"g": "La journée — the day",
+"h": "gender: m (or f)"
+},
+{
+"f": "le soir",
+"b": "evening",
+"s": "frenchvocabulary",
+"g": "La journée — the day",
+"h": "gender: m"
+},
+{
+"f": "la nuit",
+"b": "night",
+"s": "frenchvocabulary",
+"g": "La journée — the day",
+"h": "gender: f"
+},
+{
+"f": "le petit-déjeuner",
+"b": "breakfast",
+"s": "frenchvocabulary",
+"g": "La journée — the day",
+"h": "gender: m"
+},
+{
+"f": "le déjeuner",
+"b": "lunch",
+"s": "frenchvocabulary",
+"g": "La journée — the day",
+"h": "gender: m"
+},
+{
+"f": "le dîner",
+"b": "dinner",
+"s": "frenchvocabulary",
+"g": "La journée — the day",
+"h": "gender: m"
+},
+{
+"f": "le travail",
+"b": "work",
+"s": "frenchvocabulary",
+"g": "La journée — the day",
+"h": "gender: m"
+},
+{
+"f": "la clé",
+"b": "key",
+"s": "frenchvocabulary",
+"g": "La journée — the day",
+"h": "gender: f"
+},
+{
+"f": "le téléphone",
+"b": "phone",
+"s": "frenchvocabulary",
+"g": "La journée — the day",
+"h": "gender: m"
+},
+{
+"f": "l'ordinateur (un)",
+"b": "computer",
+"s": "frenchvocabulary",
+"g": "La journée — the day",
+"h": "gender: m"
+},
+{
+"f": "la harde",
+"b": "herd (of wild animals); pack",
+"s": "frenchvocabulary",
+"g": "Animals and nature",
+"x": "Une harde de sangliers traverse la route. A herd of wild boar is crossing the road.",
+"h": "gender: f"
+},
+{
+"f": "le renne",
+"b": "reindeer",
+"s": "frenchvocabulary",
+"g": "Animals and nature",
+"x": "Les rennes femelles portent aussi des bois. Female reindeer also have antlers.",
+"h": "gender: m"
+},
+{
+"f": "le sabot",
+"b": "hoof; clog; wheel clamp",
+"s": "frenchvocabulary",
+"g": "Animals and nature",
+"x": "Il est important d'entretenir les sabots des chevaux. It's important to look after horses' hooves.",
+"h": "gender: m"
+},
+{
+"f": "le croc",
+"b": "fang; hook",
+"s": "frenchvocabulary",
+"g": "Animals and nature",
+"x": "Ce chien a des crocs très aiguisés. This dog has very sharp fangs.",
+"h": "gender: m"
+},
+{
+"f": "la fourrure",
+"b": "fur; fur coat",
+"s": "frenchvocabulary",
+"g": "Animals and nature",
+"x": "La fourrure du vison sert à faire des manteaux. Mink fur is used to make coats.",
+"h": "gender: f"
+},
+{
+"f": "la pierre",
+"b": "stone, rock",
+"s": "frenchvocabulary",
+"g": "Animals and nature",
+"x": "Le diamant est une pierre précieuse. A diamond is a precious stone.",
+"h": "gender: f"
+},
+{
+"f": "le paresseux",
+"b": "sloth (the animal)",
+"s": "frenchvocabulary",
+"g": "Animals and nature",
+"x": "Le paresseux grimpe au palétuvier. The sloth climbs the mangrove tree.",
+"h": "gender: m"
+},
+{
+"f": "châtain / châtain(e)",
+"b": "chestnut-brown (hair)",
+"s": "frenchvocabulary",
+"g": "Describing people",
+"x": "Sa chevelure châtain est magnifique. Her chestnut hair is magnificent. (châtaine is also accepted)"
+},
+{
+"f": "paresseux / paresseuse",
+"b": "lazy",
+"s": "frenchvocabulary",
+"g": "Describing people",
+"x": "Cette élève paresseuse néglige ses devoirs. This lazy pupil neglects her homework."
+},
+{
+"f": "capricieux / capricieuse",
+"b": "temperamental, capricious",
+"s": "frenchvocabulary",
+"g": "Describing people",
+"x": "C'est une enfant capricieuse. She is a temperamental child."
+},
+{
+"f": "orgueilleux / orgueilleuse",
+"b": "proud, arrogant",
+"s": "frenchvocabulary",
+"g": "Describing people",
+"x": "Il est trop orgueilleux pour reconnaître ses erreurs. He is too proud to admit his mistakes."
+},
+{
+"f": "épais / épaisse",
+"b": "thick",
+"s": "frenchvocabulary",
+"g": "Describing people",
+"x": "J'aime les tranches de jambon épaisses. I love thick slices of ham."
+},
+{
+"f": "l'abat-jour (un)",
+"b": "lampshade",
+"s": "frenchvocabulary",
+"g": "Things and feelings",
+"x": "L'abat-jour de cette lampe tamise trop la lumière. This lamp's shade dims the light too much. (plural les abat-jour, or abat-jours since the 1990 spelling reform)",
+"h": "gender: m"
+},
+{
+"f": "la récompense",
+"b": "reward",
+"s": "frenchvocabulary",
+"g": "Things and feelings",
+"x": "La police offre une récompense de 50 000 $. The police are offering a $50,000 reward.",
+"h": "gender: f"
+},
+{
+"f": "le souci",
+"b": "worry; (also) marigold",
+"s": "frenchvocabulary",
+"g": "Things and feelings",
+"x": "Le souci du lendemain gâche le plaisir de l'instant présent. Worry about tomorrow spoils the pleasure of the present.",
+"h": "gender: m"
+},
+{
+"f": "la boucle",
+"b": "curl; loop; buckle",
+"s": "frenchvocabulary",
+"g": "Things and feelings",
+"x": "des boucles d'oreilles, earrings; une boucle de ceinture, a belt buckle",
+"h": "gender: f"
+},
+{
+"f": "boucler",
+"b": "to curl; to buckle; to close off; to wrap up; (computing) to loop",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"x": "Ses cheveux bouclent naturellement. Her hair is naturally curly. Ce programme boucle indéfiniment. This program loops forever."
+},
+{
+"f": "brocher",
+"b": "to bind (a paperback); to brocade",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"x": "Cette ouvrière broche les livres à la main. This worker binds the books by hand."
+},
+{
+"f": "entremêler",
+"b": "to intermingle, mix",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"x": "Les dates s'entremêlent dans ma tête. The dates are getting mixed up in my head."
+},
+{
+"f": "foncer (fonçant)",
+"b": "to darken; to rush, charge",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"x": "Sa peau a foncé avec le soleil. Her skin has darkened in the sun. Il fonce vers la sortie. He rushes towards the exit."
+},
+{
+"f": "grimper",
+"b": "to climb",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"x": "Mon chat grimpe souvent aux arbres. En primaire, j'ai appris à grimper à la corde. My cat often climbs trees. At primary school I learned to climb the rope."
+},
+{
+"f": "servir (il sert)",
+"b": "to serve; to be used for",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"x": "Puis-je vous servir un peu de vin ? May I pour you some wine? À quoi ça sert ? What is it for?"
+},
+{
+"f": "s'entraider",
+"b": "to help each other",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"x": "Les voisins s'entraident. The neighbours help one another."
+}
+]
+}
