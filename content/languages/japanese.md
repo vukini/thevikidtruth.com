@@ -21,7 +21,7 @@ path_step: 1
 
 # Japanese: Start Here
 
-**Practise:** [Japanese flashcards and quizzes](japanese-practice.md) (works on any phone).
+**Practise:** [Japanese flashcards and quizzes](/languages/japanese-practice/) (works on any phone).
 
 
 Japanese is on my list of languages to learn. So far I have been working on reading and writing: the two kana charts and my teacher's notes are below.

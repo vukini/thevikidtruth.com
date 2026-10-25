@@ -21,7 +21,7 @@ path_step: 1
 
 # Esperanto: Start Here
 
-**Practise:** [Esperanto flashcards and quizzes](esperanto-practice.md) (works on any phone).
+**Practise:** [Esperanto flashcards and quizzes](/languages/esperanto-practice/) (works on any phone).
 
 
 ![esperanto-400](/assets/esperanto-400.jpg)
