@@ -1,0 +1,14 @@
+{{ define "main" }}
+{{ $sub := strings.TrimSuffix "/" site.Params.substack }}
+<header class="ahead">
+  <p class="crumb"><a href="{{ "/" | relURL }}">Home</a> / Subscribe</p>
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p class="sub">{{ . }}</p>{{ end }}
+</header>
+<div class="prose">{{ .Content }}</div>
+<div class="sub-embed">
+  <iframe src="{{ $sub }}/embed" title="Subscribe to The VikiD Truth on Substack" width="480" height="320" loading="lazy" frameborder="0" scrolling="no"></iframe>
+</div>
+{{ partial "subscribe.html" . }}
+<p class="meta">Prefer feeds? <a href="{{ "index.xml" | relURL }}">Site RSS</a> · <a href="{{ "frontier-ai/index.xml" | relURL }}">Frontier AI RSS</a> · <a href="{{ "markets/index.xml" | relURL }}">Markets RSS</a> · <a href="{{ "truth-checks/index.xml" | relURL }}">Truth Checks RSS</a> · <a href="{{ $sub }}/feed">Substack RSS</a></p>
+{{ end }}
