@@ -6,9 +6,12 @@ The `/markets/` section is a daily board (`content/markets/_index.md` + `layouts
 ## Data
 
 - `scripts/markets_update.py` (Python 3, standard library only, no API keys) fetches every instrument and writes:
-  - `data/markets/history/<id>.json`: `{ "YYYY-MM-DD": value }`. This is merged, never truncated, so history builds up
-    (DFM, ADX and SHFE rebar have no free back history, so their weekly and monthly changes appear as days accumulate).
-  - `data/markets/latest.json`: per instrument value, unit, as-of date, day/week/month change, a 30-point sparkline,
+  - `data/markets/history/<id>.json`: `{ "YYYY-MM-DD": close }`, keyed by **trading date**, closes only. It is merged,
+    never truncated. On each run the closes in the fetch window replace the stored values for those dates, so a source's
+    later official close wins over anything stored earlier. Weekend keys are dropped (except for UAE markets).
+    SHFE rebar has no free back history, so its weekly and monthly changes appear as days accumulate.
+  - `data/markets/latest.json`: per instrument `quote` (`live` = the session is still trading, so this is the latest
+    quote, not a close, and it is never written to history; `close` = the last completed session), value, unit, as-of date, day/week/month change, a 30-point sparkline,
     source name and URL, and a status of `ok`, `stale` (older than expected), `fetch-failed` (shows the last stored value) or
     `unavailable` (no data at all).
 - Sources:
@@ -25,11 +28,22 @@ The `/markets/` section is a daily board (`content/markets/_index.md` + `layouts
   | brent / wti | BZ=F / CL=F | Yahoo Finance | USD/bbl |
   | gold | GC=F | Yahoo Finance | USD/oz |
   | spx / ndx | ^GSPC / ^IXIC | Yahoo Finance | |
-  | dfm / adx | DFMGI.AE / FADGI.FGI | Yahoo Finance | Yahoo serves only the latest value |
+  | dfm / adx | DFMGI.AE / FADGI.FGI | Yahoo Finance | UAE sessions; weekdays Mon–Fri |
   | em | EEM ETF | Yahoo Finance | free proxy for MSCI EM |
   | ust2 / ust10 | DGS2 / DGS10 | FRED | changes are in basis points |
   | dxy | DX-Y.NYB | Yahoo Finance | |
-- Futures values are the latest quote at fetch time, not official settlements. Never type a number into the data
+- How Yahoo instruments are read (one chart fetch per symbol, `range=3mo&interval=60m`):
+  - A session's close is its last hourly trade. Bars are assigned to trading dates with a 6-hour shift, so the
+    Sunday-evening futures session counts as Monday. This series matches Yahoo's own quoted previous close.
+  - Yahoo's `interval=1d` bars are *not* used when hourly data exists. On 26 Oct 2026 they put Friday's
+    Brent at $116.72 against a last trade of $111.70, and HRC at $1,292/st against $1,344/st. Those bars are what made a
+    fake −6% Brent and −4% aluminium day. Daily bars are only a fallback for symbols with no hourly data.
+  - A session is `live` while Yahoo's current regular trading period hasn't ended and the quote is inside it. The day
+    change is then live price vs the previous trading date's close from the same fetch. For a `close` it is the last
+    close vs the one before. Weekly and monthly changes compare against stored closes.
+  - Continuous front-month series jump at contract rolls (e.g. Brent in late September). Weekly or monthly changes that span a roll
+    can be misleading, so say so in the note.
+- Futures values are Yahoo's last trade, not exchange settlement prices. Never type a number into the data
   files by hand, and never invent one. If a source fails, leave the status the script sets.
 
 ## Daily run (Dubai morning, around 06:00 UTC+4)
@@ -37,7 +51,8 @@ The `/markets/` section is a daily board (`content/markets/_index.md` + `layouts
 1. `cd /workspace/site && git fetch && git rebase origin/main`
    (another worker commits here. The `Markets data (daily)` Actions cron, 05:30 Dubai, may already have committed
    fresh data. Re-running the script is harmless.)
-2. `python3 scripts/markets_update.py` and read the printed table (status, as-of, 1d/1w/1m).
+2. `python3 scripts/markets_update.py` and read the printed table (status, live/close, as-of, 1d/1w/1m). In the note,
+   call a `live` value a quote ("is around"), not a close.
 3. Write `content/markets/YYYY-MM-DD.md` (today's Dubai date) using the front matter of the last note as a template:
    `date: YYYY-MM-DDT05:00:00+04:00` (not later than the current time: Hugo skips future-dated pages), `slug`, `title: "Markets, D Month YYYY"`, a one-line `subtitle`,
    `data_asof`, `description`, `tags: ["markets"]`. Body:
