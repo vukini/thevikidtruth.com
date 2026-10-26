@@ -16,7 +16,8 @@
   // accent-, case- and punctuation-tolerant comparison
   const norm = (s) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase()
    .replace(/\([^)]*\)/g, " ").replace(/^(to|the|a|an|le|la|les|l'|el|los|las|un|une)\s+/, "")
-    .replace(/[^\p{L}\p{N}\s'-]/gu, " ").replace(/\s+/g, " ").trim();
+    .replace(/[^\p{L}\p{N}\s'-]/gu, " ").replace(/\s+/g, " ").trim()
+    .replace(deck.lang === "japanese" ? /o[ou]/g : /(?!)/g, "o").replace(deck.lang === "japanese" ? /uu/g : /(?!)/g, "u");
   const alts = (s) => s.split(/[,;\/·]| or /).map((x) => x.replace(/^\s*(n|mod|vi|vt|vt\.\/vi|prep|interj|conj|sep|num|pre-verb)\.?\s*[:.]?\s*/i, "")).map(norm).filter(Boolean);
   const front = (c) => (st.dir === "fb" ? c.f : c.b);
   const back = (c) => (st.dir === "fb" ? c.b : c.f);

@@ -4342,11 +4342,11 @@
 "k": "sentences"
 },
 {
-"f": "Kahawa ni ya moto.",
-"b": "The coffee is hot.",
+"f": "Chai hii ni tamu.",
+"b": "This tea is sweet.",
 "s": "swahili-sentences",
 "g": "Swahili: Example Sentences",
-"h": "note: ya moto = of heat",
+"h": "note: hii = this (n-class)",
 "k": "sentences"
 },
 {
@@ -4382,11 +4382,11 @@
 "k": "sentences"
 },
 {
-"f": "Kesho kutanyesha mvua.",
+"f": "Kesho mvua itanyesha.",
 "b": "It will rain tomorrow.",
 "s": "swahili-sentences",
 "g": "Swahili: Example Sentences",
-"h": "note: -ta- = future",
+"h": "note: i- agrees with mvua; -ta- = future",
 "k": "sentences"
 },
 {

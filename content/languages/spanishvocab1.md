@@ -431,7 +431,7 @@ High-frequency words, added October 2026. Words already in my notes above aren't
 | el avión | plane |  |
 | el tren | train |  |
 | el autobús | bus |  |
-| el coche | car | Spain; carro or auto in Latin America |
+| el coche | car | Spain and Mexico; carro or auto elsewhere in Latin America |
 | la estación | station; season |  |
 | el billete | ticket | Spain; boleto in Latin America |
 | el hotel | hotel |  |

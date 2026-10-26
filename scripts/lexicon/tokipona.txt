@@ -39,7 +39,7 @@ lon | at, in, on; to exist, true
 tawa | to, towards; for; to go, to move
 tan | from, because of
 poka | side, hip; nearby, with
-insa | inside, stomach
+insa | inside, centre, middle
 monsi | back, rear
 sinpin | front, face, wall
 anpa | down, below; humble
@@ -91,8 +91,8 @@ len | cloth, clothing; hidden
 poki | container, box, bag
 supa | flat surface: table, bed, floor
 palisa | stick, rod, long hard thing
-sike | circle, ball, cycle; year
-mani | money, wealth; large domestic animal
+sike | circle, ball, cycle | tenpo sike = year
+mani | money; thing of value, e.g. livestock
 esun | market, shop, trade
 kipisi | to cut; a piece | ku suli
 leko | square, block, stairs | ku suli
@@ -122,7 +122,7 @@ unpa | to have sex | official pu word
 jaki | dirty, gross, toxic
 ## Qualities
 pona | good, simple, fixed; thanks
-ike | bad, complex, negative
+ike | bad, negative, harmful
 wawa | strong, powerful, energetic
 sama | same, similar; like, as
 ante | different, other; to change
@@ -144,6 +144,7 @@ meso | middle, medium, average | ku suli
 epiku | epic, cool | ku suli
 lanpan | to take, to seize | ku suli
 misikeke | medicine | ku suli
+kokosila | to speak a non-Toki Pona language where Toki Pona would be more appropriate | ku suli
 pu | the official Toki Pona book; to interact with it
 ku | the Toki Pona dictionary book | ku suli
 # phrases

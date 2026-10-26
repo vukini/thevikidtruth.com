@@ -262,7 +262,7 @@ High-frequency words, added October 2026: all the official pu words plus the ku 
 | tawa | to, towards; for; to go, to move |  |
 | tan | from, because of |  |
 | poka | side, hip; nearby, with |  |
-| insa | inside, stomach |  |
+| insa | inside, centre, middle |  |
 | monsi | back, rear |  |
 | sinpin | front, face, wall |  |
 | anpa | down, below; humble |  |
@@ -313,8 +313,8 @@ High-frequency words, added October 2026: all the official pu words plus the ku 
 | poki | container, box, bag |  |
 | supa | flat surface: table, bed, floor |  |
 | palisa | stick, rod, long hard thing |  |
-| sike | circle, ball, cycle; year |  |
-| mani | money, wealth; large domestic animal |  |
+| sike | circle, ball, cycle | tenpo sike = year |
+| mani | money; thing of value, e.g. livestock |  |
 | esun | market, shop, trade |  |
 | kipisi | to cut; a piece | ku suli |
 | leko | square, block, stairs | ku suli |
@@ -357,6 +357,7 @@ High-frequency words, added October 2026: all the official pu words plus the ku 
 | epiku | epic, cool | ku suli |
 | lanpan | to take, to seize | ku suli |
 | misikeke | medicine | ku suli |
+| kokosila | to speak a non-Toki Pona language where Toki Pona would be more appropriate | ku suli |
 | pu | the official Toki Pona book; to interact with it |  |
 | ku | the Toki Pona dictionary book | ku suli |
 

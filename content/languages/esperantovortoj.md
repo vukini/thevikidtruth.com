@@ -203,7 +203,7 @@ High-frequency words, added October 2026. Words already in my notes above aren't
 | biero | beer |  |
 | suko | juice |  |
 | viando | meat |  |
-| kokido | chicken (as food) | koko = rooster, -id- = young |
+| kokaĵo | chicken (meat) | koko = chicken, -aĵ- = thing made from |
 | fiŝo | fish |  |
 | rizo | rice |  |
 | ovo | egg |  |
@@ -265,7 +265,7 @@ High-frequency words, added October 2026. Words already in my notes above aren't
 | domo | house |  |
 | loĝejo | flat, home | loĝi + -ej- |
 | ĉambro | room |  |
-| dormoĉambro | bedroom |  |
+| dormĉambro | bedroom |  |
 | kuirejo | kitchen | kuiri = to cook |
 | banĉambro | bathroom |  |
 | pordo | door |  |

@@ -140,7 +140,7 @@ el aeropuerto | airport
 el avión | plane
 el tren | train
 el autobús | bus
-el coche | car | Spain; carro or auto in Latin America
+el coche | car | Spain and Mexico; carro or auto elsewhere in Latin America
 la estación | station; season
 el billete | ticket | Spain; boleto in Latin America
 el hotel | hotel

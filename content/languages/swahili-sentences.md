@@ -21,12 +21,12 @@ Example sentences, roughly from simple to intermediate, each with a translation 
 |---|---|---|
 | Mimi ni mwanafunzi. | I am a student. | ni = is / am / are |
 | Yeye yuko nyumbani. | He/she is at home. | -ko for location |
-| Kahawa ni ya moto. | The coffee is hot. | ya moto = of heat |
+| Chai hii ni tamu. | This tea is sweet. | hii = this (n-class) |
 | Nina kaka wawili. | I have two brothers. | number agrees: wa- for people |
 | Ninapenda chokoleti. | I like chocolate. | ni- I + na- present + penda |
 | Tunaishi karibu na bahari. | We live near the sea. | tu- = we |
 | Leo kuna jua. | It's sunny today. | kuna = there is |
-| Kesho kutanyesha mvua. | It will rain tomorrow. | -ta- = future |
+| Kesho mvua itanyesha. | It will rain tomorrow. | i- agrees with mvua; -ta- = future |
 | Ninaenda pwani Jumapili. | I go to the beach on Sunday. |  |
 | Basi linaondoka saa mbili. | The bus leaves at eight. | saa mbili = 8 a.m. in Swahili time |
 | Unaweza kunisaidia? | Can you help me? | -ni- = me (object marker) |

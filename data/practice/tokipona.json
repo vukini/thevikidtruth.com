@@ -1,7 +1,7 @@
 {
 "lang": "tokipona",
 "counts": {
-"words": 141,
+"words": 142,
 "phrases": 100,
 "sentences": 48
 },
@@ -460,7 +460,7 @@
 },
 {
 "f": "insa",
-"b": "inside, stomach",
+"b": "inside, centre, middle",
 "s": "tokiponavocab",
 "g": "Time and place",
 "k": "words"
@@ -679,14 +679,15 @@
 },
 {
 "f": "sike",
-"b": "circle, ball, cycle; year",
+"b": "circle, ball, cycle",
 "s": "tokiponavocab",
 "g": "Things and tools",
+"h": "note: tenpo sike = year",
 "k": "words"
 },
 {
 "f": "mani",
-"b": "money, wealth; large domestic animal",
+"b": "money; thing of value, e.g. livestock",
 "s": "tokiponavocab",
 "g": "Things and tools",
 "k": "words"
@@ -921,6 +922,14 @@
 {
 "f": "misikeke",
 "b": "medicine",
+"s": "tokiponavocab",
+"g": "Qualities",
+"h": "note: ku suli",
+"k": "words"
+},
+{
+"f": "kokosila",
+"b": "to speak a non-Toki Pona language where Toki Pona would be more appropriate",
 "s": "tokiponavocab",
 "g": "Qualities",
 "h": "note: ku suli",
