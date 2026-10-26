@@ -1,0 +1,460 @@
+# words
+## Greetings and basics
+jambo | hello | to tourists; locals say hujambo
+hujambo | how are you? (are you well?) | reply: sijambo
+sijambo | I'm fine
+shikamoo | respectful greeting to an elder | reply: marahaba
+marahaba | reply to shikamoo
+karibu | welcome; come in
+kwaheri | goodbye
+asante | thank you
+tafadhali | please
+samahani | sorry, excuse me
+ndiyo | yes
+hapana | no
+sawa | OK, fine
+## People and family
+mtu | person | plural watu
+mwanamume | man | plural wanaume
+mwanamke | woman | plural wanawake
+mtoto | child | plural watoto
+mvulana | boy
+msichana | girl
+rafiki | friend
+familia | family
+baba | father
+mama | mother
+kaka | brother (older)
+dada | sister (older)
+ndugu | sibling, relative
+mwana | son, child
+binti | daughter; young woman
+babu | grandfather
+bibi | grandmother; madam
+mume | husband
+mke | wife
+mjomba | maternal uncle
+shangazi | paternal aunt
+jirani | neighbour
+watu | people
+## Numbers
+sifuri | zero
+moja | one
+mbili | two
+tatu | three
+nne | four
+tano | five
+sita | six
+saba | seven
+nane | eight
+tisa | nine
+kumi | ten
+kumi na moja | eleven
+ishirini | twenty
+thelathini | thirty
+arobaini | forty
+hamsini | fifty
+mia | hundred
+elfu | thousand
+-a kwanza | first
+-a pili | second
+-a mwisho | last
+## Time
+siku | day
+wiki | week
+mwezi | month; moon
+mwaka | year
+saa | hour; clock; watch | Swahili time: saa moja (hour one) is 7 a.m.
+dakika | minute
+leo | today
+kesho | tomorrow
+jana | yesterday
+sasa | now
+baadaye | later
+siku zote | always
+kamwe | never
+mara nyingine | sometimes
+mara nyingi | often
+mapema | early
+asubuhi | morning
+mchana | afternoon, daytime
+jioni | evening
+usiku | night
+Jumatatu | Monday
+Jumanne | Tuesday
+Jumatano | Wednesday
+Alhamisi | Thursday
+Ijumaa | Friday
+Jumamosi | Saturday
+Jumapili | Sunday
+## Food and drink
+chakula | food | plural vyakula
+maji | water
+mkate | bread
+maziwa | milk
+kahawa | coffee
+chai | tea
+juisi | juice
+nyama | meat
+kuku | chicken
+samaki | fish
+wali | cooked rice
+mchele | uncooked rice
+yai | egg | plural mayai
+matunda | fruit (plural)
+chungwa | orange
+ndizi | banana
+embe | mango
+mboga | vegetables
+chumvi | salt
+sukari | sugar
+ugali | maize porridge
+chakula cha asubuhi | breakfast
+chakula cha mchana | lunch
+chakula cha jioni | dinner
+bili | the bill
+## Travel and places
+mji | town | plural miji
+kijiji | village | plural vijiji
+nchi | country
+mtaa | street, neighbourhood
+duka | shop | plural maduka
+soko | market
+benki | bank
+hospitali | hospital
+shule | school
+kanisa | church
+msikiti | mosque
+pwani | coast, beach
+bahari | sea
+mlima | mountain
+mto | river
+uwanja wa ndege | airport
+ndege | plane; bird
+treni | train
+basi | bus
+gari | car | plural magari
+kituo | station, stop
+tiketi | ticket
+hoteli | hotel
+safari | journey, trip
+kushoto | left
+kulia | right
+moja kwa moja | straight on
+karibu na | near
+mbali | far
+hapa | here
+pale | there
+## Home
+nyumba | house
+chumba | room | plural vyumba
+jiko | kitchen; stove
+choo | toilet
+mlango | door
+dirisha | window
+meza | table
+kiti | chair | plural viti
+kitanda | bed
+ufunguo | key
+bustani | garden
+nguo | clothes
+viatu | shoes
+simu | phone
+kitabu | book | plural vitabu
+kompyuta | computer
+## Work and school
+kazi | work, job
+ofisi | office
+pesa | money
+mkutano | meeting
+swali | question | plural maswali
+jibu | answer
+neno | word | plural maneno
+lugha | language
+somo | lesson
+mwalimu | teacher | plural walimu
+mwanafunzi | student | plural wanafunzi
+## Body and health
+mwili | body
+kichwa | head
+mkono | hand, arm
+mguu | foot, leg
+jicho | eye | plural macho
+mdomo | mouth
+moyo | heart
+daktari | doctor
+mgonjwa | sick person; ill
+maumivu | pain
+## Nature and weather
+jua | sun
+anga | sky
+mvua | rain
+upepo | wind
+hali ya hewa | weather
+mti | tree | plural miti
+ua | flower | plural maua
+mbwa | dog
+paka | cat
+## Verbs
+kuwa | to be
+kuwa na | to have | literally to be with
+kufanya | to do, to make
+kwenda | to go
+kuja | to come
+kuweza | can, to be able
+kutaka | to want
+kusema | to say
+kuona | to see
+kupa | to give
+kujua | to know
+kuongea | to talk
+kuzungumza | to speak, converse
+kula | to eat
+kunywa | to drink
+kuishi | to live
+kufanya kazi | to work
+kusoma | to read; to study
+kujifunza | to learn
+kuelewa | to understand
+kuandika | to write
+kusikiliza | to listen
+kutazama | to watch
+kununua | to buy
+kulipa | to pay
+kufungua | to open
+kufunga | to close; to tie
+kufika | to arrive
+kuondoka | to leave
+kurudi | to return
+kusubiri | to wait
+kutafuta | to look for
+kupata | to get, to find
+kufikiri | to think
+kuamini | to believe
+kupenda | to love, to like
+kuchukua | to take
+kuweka | to put
+kuanza | to begin
+kumaliza | to finish
+kusaidia | to help
+kulala | to sleep
+kucheza | to play; to dance
+kuhitaji | to need
+kutumia | to use
+kupika | to cook
+kuuza | to sell
+kukaa | to sit; to stay
+## Adjectives
+-kubwa | big
+-dogo | small
+-zuri | good, beautiful
+-baya | bad
+-pya | new
+-zee | old (of people)
+-kuukuu | old, worn (of things)
+-refu | long, tall
+-fupi | short
+ghali | expensive
+rahisi | cheap; easy
+-gumu | hard, difficult
+haraka | fast, quickly
+polepole | slowly
+-enye furaha | happy
+-a huzuni | sad
+-chovu | tired
+moto | hot; fire
+baridi | cold
+safi | clean
+-chafu | dirty
+tupu | empty
+muhimu | important
+-ingine | other
+-ingi | many
+## Colours
+-ekundu | red
+bluu | blue
+kijani | green
+manjano | yellow
+-eupe | white
+-eusi | black
+kahawia | brown
+## Question and little words
+nini | what
+nani | who
+wapi | where
+lini | when
+vipi | how
+kwa nini | why
+ngapi | how many
+kiasi gani | how much
+kwa sababu | because
+lakini | but
+na | and; with
+au | or
+pia | also
+sana | very, a lot
+zaidi | more
+kidogo | a little
+bila | without
+kwa | for, by, with
+kati ya | between
+# phrases
+## Greetings and politeness
+Habari gani? | What's the news? (how are you?)
+Habari za asubuhi? | Good morning (how's the morning?)
+Habari za jioni? | Good evening
+Nzuri. | Fine, good. | the usual reply to habari
+Salama. | Fine, peaceful.
+Mambo? | What's up? | reply: poa
+Poa. | Cool, fine.
+Hamjambo? | How are you all? | reply: hatujambo
+Hatujambo. | We are fine.
+Karibu sana. | You're very welcome.
+Asante sana. | Thank you very much.
+Si kitu. | It's nothing; you're welcome.
+Pole. | Sorry (sympathy). | for someone's trouble, not an apology
+Pole sana. | I'm so sorry for you.
+Tutaonana. | See you.
+Tuonane kesho. | Let's see each other tomorrow.
+Lala salama. | Sleep well.
+Siku njema. | Have a good day.
+Safari njema. | Have a good journey.
+## Getting to know someone
+Jina lako nani? | What's your name?
+Jina langu ni… | My name is…
+Unatoka wapi? | Where are you from?
+Ninatoka… | I come from…
+Unaishi wapi? | Where do you live?
+Ninaishi Dubai. | I live in Dubai.
+Unafanya kazi gani? | What work do you do?
+Una miaka mingapi? | How old are you?
+Nina miaka thelathini. | I'm thirty years old.
+Unasema Kiingereza? | Do you speak English?
+Ninasema Kiswahili kidogo. | I speak a little Swahili.
+Ninajifunza Kiswahili. | I'm learning Swahili.
+## Understanding
+Sielewi. | I don't understand.
+Rudia, tafadhali. | Repeat, please.
+Sema polepole, tafadhali. | Speak slowly, please.
+Maana yake nini? | What does it mean?
+Unasemaje … kwa Kiswahili? | How do you say … in Swahili?
+Sijui. | I don't know.
+Nadhani hivyo. | I think so.
+Bila shaka. | Without doubt, of course.
+Kweli. | True, really.
+Ni kweli. | It's true.
+Hakuna matata. | No problem.
+Hakuna shida. | No problem.
+Haidhuru. | It doesn't matter.
+Inategemea. | It depends.
+Hongera! | Congratulations!
+## Getting around
+Choo kiko wapi? | Where is the toilet?
+Kituo cha basi kiko wapi? | Where is the bus stop?
+Nitafikaje…? | How will I get to…?
+Ni mbali? | Is it far?
+Ni karibu. | It's near.
+Nenda moja kwa moja. | Go straight on.
+Geuka kushoto. | Turn left.
+Geuka kulia. | Turn right.
+Simama hapa. | Stop here.
+Saa ngapi? | What time is it?
+Ni saa tatu asubuhi. | It's nine in the morning. | hours are counted from 6 a.m., so saa tatu = 9 a.m.
+Nimepotea. | I'm lost.
+## Shopping and eating
+Bei gani? | What's the price?
+Ni shilingi ngapi? | How many shillings is it?
+Ni ghali sana. | It's very expensive.
+Punguza bei. | Lower the price.
+Ninaangalia tu. | I'm just looking.
+Nataka… | I want…
+Ninaomba… | May I have… | polite request
+Una…? | Do you have…?
+Lete bili, tafadhali. | Bring the bill, please.
+Chakula ni kitamu. | The food is tasty.
+Karibu chakula. | Come and eat with us.
+Nimeshiba. | I'm full.
+## Feelings and help
+Nina njaa. | I'm hungry. | literally I have hunger
+Nina kiu. | I'm thirsty.
+Nina baridi. | I'm cold.
+Nimechoka. | I'm tired.
+Niko tayari. | I'm ready.
+Ninapenda. | I like it.
+Sipendi. | I don't like it.
+Nisaidie! | Help me!
+Ninahitaji daktari. | I need a doctor.
+Mwite polisi! | Call the police!
+Angalia! | Look out!
+Twende! | Let's go!
+Ngoja kidogo. | Wait a little.
+Subiri kidogo. | Wait a moment.
+Kuna nini? | What's the matter?
+Nini kimetokea? | What happened?
+Heri ya siku ya kuzaliwa! | Happy birthday!
+Bahati njema! | Good luck!
+Upone haraka. | Get well soon.
+Mungu akubariki. | God bless you.
+Haraka haraka haina baraka. | Hurry hurry has no blessing. | proverb
+Unaitwa nani? | What are you called?
+Ninaitwa… | I am called…
+Ninafurahi kukutana nawe. | I'm happy to meet you.
+Unaweza kunisaidia? | Can you help me?
+Tafadhali, andika. | Please write it down.
+Kwa heri ya kuonana. | Goodbye, until we meet again.
+Hodi! | May I come in? | said at the door; reply: karibu
+Ninakupenda. | I love you.
+Usijali. | Don't worry.
+Pamoja. | Together; agreed.
+# sentences
+Mimi ni mwanafunzi. | I am a student. | ni = is / am / are
+Yeye yuko nyumbani. | He/she is at home. | -ko for location
+Kahawa ni ya moto. | The coffee is hot. | ya moto = of heat
+Nina kaka wawili. | I have two brothers. | number agrees: wa- for people
+Ninapenda chokoleti. | I like chocolate. | ni- I + na- present + penda
+Tunaishi karibu na bahari. | We live near the sea. | tu- = we
+Leo kuna jua. | It's sunny today. | kuna = there is
+Kesho kutanyesha mvua. | It will rain tomorrow. | -ta- = future
+Ninaenda pwani Jumapili. | I go to the beach on Sunday.
+Basi linaondoka saa mbili. | The bus leaves at eight. | saa mbili = 8 a.m. in Swahili time
+Unaweza kunisaidia? | Can you help me? | -ni- = me (object marker)
+Siwezi kuja leo usiku. | I can't come tonight. | si- = I (negative)
+Ninataka kujifunza Kiswahili. | I want to learn Swahili.
+Ninahitaji kufanya kazi kesho. | I need to work tomorrow.
+Ninasoma kitabu. | I'm reading a book.
+Unafanya nini? | What are you doing?
+Dada yangu ni mrefu kuliko mimi. | My sister is taller than me. | kuliko = than
+Hiki ni chakula kizuri. | This is good food. | ki- agreement with chakula
+Kuna watu wengi barabarani. | There are many people on the road. | -ni = in / on (locative)
+Hakuna kitu kwenye friji. | There's nothing in the fridge. | hakuna = there isn't
+Sinywi kahawa usiku. | I don't drink coffee at night. | negative present ends in -i
+Jana nilikula wali. | Yesterday I ate rice. | -li- = past
+Tulienda sinema Jumamosi. | We went to the cinema on Saturday.
+Nilipokuwa mtoto, niliishi kijijini. | When I was a child, I lived in the village. | -po- = when
+Nimeshatembelea Kenya mara mbili. | I've already visited Kenya twice. | -me- = perfect; -sha- = already
+Umekula? | Have you eaten?
+Nimeishi hapa kwa miaka mitatu. | I've lived here for three years.
+Nilimpa mama yangu. | I gave it to my mother. | -m- = him/her object
+Niambie! | Tell me!
+Usimwambie. | Don't tell him/her. | u-si- negative subjunctive
+Natumaini uko salama. | I hope you're well.
+Nataka uje. | I want you to come. | subjunctive ends in -e
+Ukifika, nipigie simu. | When you arrive, call me. | -ki- = if / when
+Nikipata muda, nitakuja. | If I get time, I'll come.
+Kama ningekuwa na pesa, ningesafiri zaidi. | If I had money, I would travel more. | -nge- = conditional
+Kichwa kinaniuma. | My head hurts. | literally the head bites me
+Kiswahili kinazungumzwa hapa. | Swahili is spoken here. | -w- = passive
+Nimefika sasa hivi. | I've just arrived.
+Nitajaribu tena. | I'll try again.
+Jambo muhimu ni kujaribu. | The important thing is to try.
+Je, naweza kufungua dirisha? | May I open the window? | je marks a question
+Ingekuwa bora kusubiri. | It would be better to wait.
+Tulifurahi sana. | We enjoyed ourselves a lot.
+Hatimaye nimemaliza kazi. | I've finally finished the work.
+Ninasoma ili nijifunze. | I study so that I learn. | ili + subjunctive
+Asante kwa msaada wako. | Thanks for your help.
+Sikujua kwamba unasema Kifaransa. | I didn't know that you speak French. | si-ku- = negative past
+Kitabu hiki kiliandikwa na rafiki yangu. | This book was written by my friend.
+Watoto wanacheza nje. | The children are playing outside. | wa- agrees with watoto
+Mti huu ni mrefu sana. | This tree is very tall. | m-/mi- class
+Pole pole ndio mwendo. | Slowly is the way to go. | proverb

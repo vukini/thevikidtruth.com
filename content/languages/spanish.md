@@ -23,6 +23,8 @@ path_step: 1
 
 **Practise:** [Spanish flashcards and quizzes](/languages/spanish-practice/) (works on any phone).
 
+**Core lists:** [vocabulary by theme](/languages/spanishvocab1/#core-vocabulary-by-theme) · [everyday phrases](/languages/spanish-phrases/) · [example sentences](/languages/spanish-sentences/)
+
 
 My tours around the world have from time to time landed me in Spanish-speaking lands. The natives there are quite interesting and speak a very beautiful language called *español*.
 

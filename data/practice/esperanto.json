@@ -1,10 +1,17 @@
 {
 "lang": "esperanto",
+"counts": {
+"words": 343,
+"phrases": 95,
+"sentences": 53
+},
 "title": "Esperanto",
 "code": "eo",
 "sources": [
 "esperantovortoj",
-"vortaro"
+"vortaro",
+"esperanto-phrases",
+"esperanto-sentences"
 ],
 "cards": [
 {
@@ -13,7 +20,8 @@
 "s": "esperantovortoj",
 "g": "Nature and animals",
 "x": "Ni promenis tra la bosko. We walked through the grove.",
-"h": "built from: bosk·o"
+"h": "built from: bosk·o",
+"k": "words"
 },
 {
 "f": "falko",
@@ -21,7 +29,8 @@
 "s": "esperantovortoj",
 "g": "Nature and animals",
 "x": "La falko flugas alte. The falcon flies high.",
-"h": "built from: falk·o"
+"h": "built from: falk·o",
+"k": "words"
 },
 {
 "f": "svelta",
@@ -29,21 +38,24 @@
 "s": "esperantovortoj",
 "g": "Describing",
 "x": "Ŝi estas alta kaj svelta. She is tall and slender. The opposite is dika (fat, thick), not malsvelta.",
-"h": "built from: svelt·a"
+"h": "built from: svelt·a",
+"k": "words"
 },
 {
 "f": "jam",
 "b": "already, yet, by now",
 "s": "esperantovortoj",
 "g": "Little words",
-"x": "Mi jam manĝis. I have already eaten. Memory hook: \"I have already eaten too much yam!\" Ĉu vi jam finis? Have you finished yet?"
+"x": "Mi jam manĝis. I have already eaten. Memory hook: \"I have already eaten too much yam!\" Ĉu vi jam finis? Have you finished yet?",
+"k": "words"
 },
 {
 "f": "per",
 "b": "with, by means of, through",
 "s": "esperantovortoj",
 "g": "Little words",
-"x": "Mi skribas per krajono. I write with a pencil."
+"x": "Mi skribas per krajono. I write with a pencil.",
+"k": "words"
 },
 {
 "f": "senpere",
@@ -51,7 +63,8 @@
 "s": "esperantovortoj",
 "g": "Little words",
 "x": "Mi parolis senpere kun la direktoro. I spoke directly with the director.",
-"h": "built from: sen·per·e (without + by means of + adverb)"
+"h": "built from: sen·per·e (without + by means of + adverb)",
+"k": "words"
 },
 {
 "f": "deiri",
@@ -59,7 +72,8 @@
 "s": "esperantovortoj",
 "g": "Going places",
 "x": "Ni deiris de Dubajo matene. We set out from Dubai in the morning.",
-"h": "built from: de·ir·i (from + go)"
+"h": "built from: de·ir·i (from + go)",
+"k": "words"
 },
 {
 "f": "deirpunkto",
@@ -67,7 +81,8 @@
 "s": "esperantovortoj",
 "g": "Going places",
 "x": "La stacidomo estas nia deirpunkto. The station is our starting point.",
-"h": "built from: de·ir·punkt·o"
+"h": "built from: de·ir·punkt·o",
+"k": "words"
 },
 {
 "f": "gufujo",
@@ -75,79 +90,3440 @@
 "s": "esperantovortoj",
 "g": "Going places",
 "x": "Post la koncerto ni iris al la gufujo por trinki teon. After the concert we went to the chill-out room to drink tea.",
-"h": "built from: guf·uj·o (chill-out + container)"
+"h": "built from: guf·uj·o (chill-out + container)",
+"k": "words"
+},
+{
+"f": "saluton",
+"b": "hello",
+"s": "esperantovortoj",
+"g": "Greetings and basics",
+"k": "words"
+},
+{
+"f": "ĝis",
+"b": "bye",
+"s": "esperantovortoj",
+"g": "Greetings and basics",
+"h": "note: short for ĝis revido",
+"k": "words"
+},
+{
+"f": "ĝis revido",
+"b": "goodbye",
+"s": "esperantovortoj",
+"g": "Greetings and basics",
+"k": "words"
+},
+{
+"f": "dankon",
+"b": "thank you",
+"s": "esperantovortoj",
+"g": "Greetings and basics",
+"k": "words"
+},
+{
+"f": "bonvolu",
+"b": "please",
+"s": "esperantovortoj",
+"g": "Greetings and basics",
+"h": "note: bonvolu + infinitive",
+"k": "words"
+},
+{
+"f": "pardonon",
+"b": "sorry, excuse me",
+"s": "esperantovortoj",
+"g": "Greetings and basics",
+"k": "words"
+},
+{
+"f": "jes",
+"b": "yes",
+"s": "esperantovortoj",
+"g": "Greetings and basics",
+"k": "words"
+},
+{
+"f": "ne",
+"b": "no",
+"s": "esperantovortoj",
+"g": "Greetings and basics",
+"k": "words"
+},
+{
+"f": "bone",
+"b": "well, OK",
+"s": "esperantovortoj",
+"g": "Greetings and basics",
+"k": "words"
+},
+{
+"f": "persono",
+"b": "person",
+"s": "esperantovortoj",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "homo",
+"b": "human being, person",
+"s": "esperantovortoj",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "viro",
+"b": "man",
+"s": "esperantovortoj",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "virino",
+"b": "woman",
+"s": "esperantovortoj",
+"g": "People and family",
+"h": "note: -in- makes the feminine",
+"k": "words"
+},
+{
+"f": "infano",
+"b": "child",
+"s": "esperantovortoj",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "knabo",
+"b": "boy",
+"s": "esperantovortoj",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "knabino",
+"b": "girl",
+"s": "esperantovortoj",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "amiko",
+"b": "friend",
+"s": "esperantovortoj",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "familio",
+"b": "family",
+"s": "esperantovortoj",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "patro",
+"b": "father",
+"s": "esperantovortoj",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "patrino",
+"b": "mother",
+"s": "esperantovortoj",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "gepatroj",
+"b": "parents",
+"s": "esperantovortoj",
+"g": "People and family",
+"h": "note: ge- = both sexes",
+"k": "words"
+},
+{
+"f": "frato",
+"b": "brother",
+"s": "esperantovortoj",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "fratino",
+"b": "sister",
+"s": "esperantovortoj",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "gefratoj",
+"b": "brothers and sisters",
+"s": "esperantovortoj",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "filo",
+"b": "son",
+"s": "esperantovortoj",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "filino",
+"b": "daughter",
+"s": "esperantovortoj",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "avo",
+"b": "grandfather",
+"s": "esperantovortoj",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "avino",
+"b": "grandmother",
+"s": "esperantovortoj",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "edzo",
+"b": "husband",
+"s": "esperantovortoj",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "edzino",
+"b": "wife",
+"s": "esperantovortoj",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "onklo",
+"b": "uncle",
+"s": "esperantovortoj",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "onklino",
+"b": "aunt",
+"s": "esperantovortoj",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "kuzo",
+"b": "cousin (m)",
+"s": "esperantovortoj",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "najbaro",
+"b": "neighbour",
+"s": "esperantovortoj",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "homoj",
+"b": "people",
+"s": "esperantovortoj",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "nul",
+"b": "zero",
+"s": "esperantovortoj",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "unu",
+"b": "one",
+"s": "esperantovortoj",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "du",
+"b": "two",
+"s": "esperantovortoj",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "tri",
+"b": "three",
+"s": "esperantovortoj",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "kvar",
+"b": "four",
+"s": "esperantovortoj",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "kvin",
+"b": "five",
+"s": "esperantovortoj",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "ses",
+"b": "six",
+"s": "esperantovortoj",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "sep",
+"b": "seven",
+"s": "esperantovortoj",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "ok",
+"b": "eight",
+"s": "esperantovortoj",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "naŭ",
+"b": "nine",
+"s": "esperantovortoj",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "dek",
+"b": "ten",
+"s": "esperantovortoj",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "dek unu",
+"b": "eleven",
+"s": "esperantovortoj",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "dek du",
+"b": "twelve",
+"s": "esperantovortoj",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "dudek",
+"b": "twenty",
+"s": "esperantovortoj",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "tridek",
+"b": "thirty",
+"s": "esperantovortoj",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "kvardek",
+"b": "forty",
+"s": "esperantovortoj",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "kvindek",
+"b": "fifty",
+"s": "esperantovortoj",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "cent",
+"b": "one hundred",
+"s": "esperantovortoj",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "mil",
+"b": "one thousand",
+"s": "esperantovortoj",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "unua",
+"b": "first",
+"s": "esperantovortoj",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "dua",
+"b": "second",
+"s": "esperantovortoj",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "lasta",
+"b": "last",
+"s": "esperantovortoj",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "tago",
+"b": "day",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "semajno",
+"b": "week",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "monato",
+"b": "month",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "jaro",
+"b": "year",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "horo",
+"b": "hour",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "minuto",
+"b": "minute",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "hodiaŭ",
+"b": "today",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "morgaŭ",
+"b": "tomorrow",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "hieraŭ",
+"b": "yesterday",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "nun",
+"b": "now",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "poste",
+"b": "afterwards, later",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "ĉiam",
+"b": "always",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "neniam",
+"b": "never",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "foje",
+"b": "sometimes",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "ofte",
+"b": "often",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "frue",
+"b": "early",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "malfrue",
+"b": "late",
+"s": "esperantovortoj",
+"g": "Time",
+"h": "note: mal- makes the opposite",
+"k": "words"
+},
+{
+"f": "mateno",
+"b": "morning",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "posttagmezo",
+"b": "afternoon",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "vespero",
+"b": "evening",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "nokto",
+"b": "night",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "lundo",
+"b": "Monday",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "mardo",
+"b": "Tuesday",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "merkredo",
+"b": "Wednesday",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "ĵaŭdo",
+"b": "Thursday",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "vendredo",
+"b": "Friday",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "sabato",
+"b": "Saturday",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "dimanĉo",
+"b": "Sunday",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "januaro",
+"b": "January",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "februaro",
+"b": "February",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "marto",
+"b": "March",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "aprilo",
+"b": "April",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "majo",
+"b": "May",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "junio",
+"b": "June",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "julio",
+"b": "July",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "aŭgusto",
+"b": "August",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "septembro",
+"b": "September",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "oktobro",
+"b": "October",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "novembro",
+"b": "November",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "decembro",
+"b": "December",
+"s": "esperantovortoj",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "manĝaĵo",
+"b": "food",
+"s": "esperantovortoj",
+"g": "Food and drink",
+"h": "note: manĝ- + -aĵ- = thing to eat",
+"k": "words"
+},
+{
+"f": "manĝo",
+"b": "meal",
+"s": "esperantovortoj",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "akvo",
+"b": "water",
+"s": "esperantovortoj",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "pano",
+"b": "bread",
+"s": "esperantovortoj",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "lakto",
+"b": "milk",
+"s": "esperantovortoj",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "kafo",
+"b": "coffee",
+"s": "esperantovortoj",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "teo",
+"b": "tea",
+"s": "esperantovortoj",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "vino",
+"b": "wine",
+"s": "esperantovortoj",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "biero",
+"b": "beer",
+"s": "esperantovortoj",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "suko",
+"b": "juice",
+"s": "esperantovortoj",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "viando",
+"b": "meat",
+"s": "esperantovortoj",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "kokido",
+"b": "chicken (as food)",
+"s": "esperantovortoj",
+"g": "Food and drink",
+"h": "note: koko = rooster, -id- = young",
+"k": "words"
+},
+{
+"f": "fiŝo",
+"b": "fish",
+"s": "esperantovortoj",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "rizo",
+"b": "rice",
+"s": "esperantovortoj",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "ovo",
+"b": "egg",
+"s": "esperantovortoj",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "fromaĝo",
+"b": "cheese",
+"s": "esperantovortoj",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "frukto",
+"b": "fruit",
+"s": "esperantovortoj",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "pomo",
+"b": "apple",
+"s": "esperantovortoj",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "oranĝo",
+"b": "orange",
+"s": "esperantovortoj",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "banano",
+"b": "banana",
+"s": "esperantovortoj",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "legomo",
+"b": "vegetable",
+"s": "esperantovortoj",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "salo",
+"b": "salt",
+"s": "esperantovortoj",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "sukero",
+"b": "sugar",
+"s": "esperantovortoj",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "butero",
+"b": "butter",
+"s": "esperantovortoj",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "matenmanĝo",
+"b": "breakfast",
+"s": "esperantovortoj",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "tagmanĝo",
+"b": "lunch",
+"s": "esperantovortoj",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "vespermanĝo",
+"b": "dinner",
+"s": "esperantovortoj",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "kalkulo",
+"b": "the bill; calculation",
+"s": "esperantovortoj",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "urbo",
+"b": "town, city",
+"s": "esperantovortoj",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "vilaĝo",
+"b": "village",
+"s": "esperantovortoj",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "lando",
+"b": "country",
+"s": "esperantovortoj",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "strato",
+"b": "street",
+"s": "esperantovortoj",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "vendejo",
+"b": "shop",
+"s": "esperantovortoj",
+"g": "Travel and places",
+"h": "note: -ej- = place",
+"k": "words"
+},
+{
+"f": "butiko",
+"b": "shop",
+"s": "esperantovortoj",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "bazaro",
+"b": "market",
+"s": "esperantovortoj",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "banko",
+"b": "bank",
+"s": "esperantovortoj",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "hospitalo",
+"b": "hospital",
+"s": "esperantovortoj",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "lernejo",
+"b": "school",
+"s": "esperantovortoj",
+"g": "Travel and places",
+"h": "note: lerni + -ej-",
+"k": "words"
+},
+{
+"f": "preĝejo",
+"b": "church",
+"s": "esperantovortoj",
+"g": "Travel and places",
+"h": "note: preĝi = to pray",
+"k": "words"
+},
+{
+"f": "plaĝo",
+"b": "beach",
+"s": "esperantovortoj",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "maro",
+"b": "sea",
+"s": "esperantovortoj",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "monto",
+"b": "mountain",
+"s": "esperantovortoj",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "rivero",
+"b": "river",
+"s": "esperantovortoj",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "flughaveno",
+"b": "airport",
+"s": "esperantovortoj",
+"g": "Travel and places",
+"h": "note: literally flight harbour",
+"k": "words"
+},
+{
+"f": "aviadilo",
+"b": "plane",
+"s": "esperantovortoj",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "trajno",
+"b": "train",
+"s": "esperantovortoj",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "buso",
+"b": "bus",
+"s": "esperantovortoj",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "aŭto",
+"b": "car",
+"s": "esperantovortoj",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "stacidomo",
+"b": "railway station",
+"s": "esperantovortoj",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "bileto",
+"b": "ticket",
+"s": "esperantovortoj",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "hotelo",
+"b": "hotel",
+"s": "esperantovortoj",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "vojaĝo",
+"b": "journey, trip",
+"s": "esperantovortoj",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "mapo",
+"b": "map",
+"s": "esperantovortoj",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "maldekstre",
+"b": "on the left",
+"s": "esperantovortoj",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "dekstre",
+"b": "on the right",
+"s": "esperantovortoj",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "rekte",
+"b": "straight",
+"s": "esperantovortoj",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "proksime",
+"b": "near",
+"s": "esperantovortoj",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "malproksime",
+"b": "far",
+"s": "esperantovortoj",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "ĉi tie",
+"b": "here",
+"s": "esperantovortoj",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "tie",
+"b": "there",
+"s": "esperantovortoj",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "domo",
+"b": "house",
+"s": "esperantovortoj",
+"g": "Home",
+"k": "words"
+},
+{
+"f": "loĝejo",
+"b": "flat, home",
+"s": "esperantovortoj",
+"g": "Home",
+"h": "note: loĝi + -ej-",
+"k": "words"
+},
+{
+"f": "ĉambro",
+"b": "room",
+"s": "esperantovortoj",
+"g": "Home",
+"k": "words"
+},
+{
+"f": "dormoĉambro",
+"b": "bedroom",
+"s": "esperantovortoj",
+"g": "Home",
+"k": "words"
+},
+{
+"f": "kuirejo",
+"b": "kitchen",
+"s": "esperantovortoj",
+"g": "Home",
+"h": "note: kuiri = to cook",
+"k": "words"
+},
+{
+"f": "banĉambro",
+"b": "bathroom",
+"s": "esperantovortoj",
+"g": "Home",
+"k": "words"
+},
+{
+"f": "pordo",
+"b": "door",
+"s": "esperantovortoj",
+"g": "Home",
+"k": "words"
+},
+{
+"f": "fenestro",
+"b": "window",
+"s": "esperantovortoj",
+"g": "Home",
+"k": "words"
+},
+{
+"f": "tablo",
+"b": "table",
+"s": "esperantovortoj",
+"g": "Home",
+"k": "words"
+},
+{
+"f": "seĝo",
+"b": "chair",
+"s": "esperantovortoj",
+"g": "Home",
+"k": "words"
+},
+{
+"f": "lito",
+"b": "bed",
+"s": "esperantovortoj",
+"g": "Home",
+"k": "words"
+},
+{
+"f": "ŝlosilo",
+"b": "key",
+"s": "esperantovortoj",
+"g": "Home",
+"h": "note: ŝlosi = to lock",
+"k": "words"
+},
+{
+"f": "ĝardeno",
+"b": "garden",
+"s": "esperantovortoj",
+"g": "Home",
+"k": "words"
+},
+{
+"f": "vestoj",
+"b": "clothes",
+"s": "esperantovortoj",
+"g": "Home",
+"k": "words"
+},
+{
+"f": "ŝuoj",
+"b": "shoes",
+"s": "esperantovortoj",
+"g": "Home",
+"k": "words"
+},
+{
+"f": "telefono",
+"b": "telephone",
+"s": "esperantovortoj",
+"g": "Home",
+"k": "words"
+},
+{
+"f": "libro",
+"b": "book",
+"s": "esperantovortoj",
+"g": "Home",
+"k": "words"
+},
+{
+"f": "komputilo",
+"b": "computer",
+"s": "esperantovortoj",
+"g": "Home",
+"h": "note: komputi + -il- = tool",
+"k": "words"
+},
+{
+"f": "laboro",
+"b": "work",
+"s": "esperantovortoj",
+"g": "Work and school",
+"k": "words"
+},
+{
+"f": "oficejo",
+"b": "office",
+"s": "esperantovortoj",
+"g": "Work and school",
+"k": "words"
+},
+{
+"f": "estro",
+"b": "boss, chief",
+"s": "esperantovortoj",
+"g": "Work and school",
+"h": "note: also a suffix: urbestro = mayor",
+"k": "words"
+},
+{
+"f": "mono",
+"b": "money",
+"s": "esperantovortoj",
+"g": "Work and school",
+"k": "words"
+},
+{
+"f": "kunsido",
+"b": "meeting",
+"s": "esperantovortoj",
+"g": "Work and school",
+"k": "words"
+},
+{
+"f": "demando",
+"b": "question",
+"s": "esperantovortoj",
+"g": "Work and school",
+"k": "words"
+},
+{
+"f": "respondo",
+"b": "answer",
+"s": "esperantovortoj",
+"g": "Work and school",
+"k": "words"
+},
+{
+"f": "vorto",
+"b": "word",
+"s": "esperantovortoj",
+"g": "Work and school",
+"k": "words"
+},
+{
+"f": "lingvo",
+"b": "language",
+"s": "esperantovortoj",
+"g": "Work and school",
+"k": "words"
+},
+{
+"f": "leciono",
+"b": "lesson",
+"s": "esperantovortoj",
+"g": "Work and school",
+"k": "words"
+},
+{
+"f": "instruisto",
+"b": "teacher",
+"s": "esperantovortoj",
+"g": "Work and school",
+"h": "note: -ist- = professional",
+"k": "words"
+},
+{
+"f": "studento",
+"b": "student",
+"s": "esperantovortoj",
+"g": "Work and school",
+"k": "words"
+},
+{
+"f": "lernanto",
+"b": "learner, pupil",
+"s": "esperantovortoj",
+"g": "Work and school",
+"h": "note: -ant- = one who is doing",
+"k": "words"
+},
+{
+"f": "korpo",
+"b": "body",
+"s": "esperantovortoj",
+"g": "Body and health",
+"k": "words"
+},
+{
+"f": "kapo",
+"b": "head",
+"s": "esperantovortoj",
+"g": "Body and health",
+"k": "words"
+},
+{
+"f": "mano",
+"b": "hand",
+"s": "esperantovortoj",
+"g": "Body and health",
+"k": "words"
+},
+{
+"f": "piedo",
+"b": "foot",
+"s": "esperantovortoj",
+"g": "Body and health",
+"k": "words"
+},
+{
+"f": "okulo",
+"b": "eye",
+"s": "esperantovortoj",
+"g": "Body and health",
+"k": "words"
+},
+{
+"f": "buŝo",
+"b": "mouth",
+"s": "esperantovortoj",
+"g": "Body and health",
+"k": "words"
+},
+{
+"f": "koro",
+"b": "heart",
+"s": "esperantovortoj",
+"g": "Body and health",
+"k": "words"
+},
+{
+"f": "kuracisto",
+"b": "doctor",
+"s": "esperantovortoj",
+"g": "Body and health",
+"h": "note: kuraci = to treat",
+"k": "words"
+},
+{
+"f": "malsana",
+"b": "ill",
+"s": "esperantovortoj",
+"g": "Body and health",
+"h": "note: mal- + sana",
+"k": "words"
+},
+{
+"f": "doloro",
+"b": "pain",
+"s": "esperantovortoj",
+"g": "Body and health",
+"k": "words"
+},
+{
+"f": "suno",
+"b": "sun",
+"s": "esperantovortoj",
+"g": "Nature and weather",
+"k": "words"
+},
+{
+"f": "luno",
+"b": "moon",
+"s": "esperantovortoj",
+"g": "Nature and weather",
+"k": "words"
+},
+{
+"f": "ĉielo",
+"b": "sky",
+"s": "esperantovortoj",
+"g": "Nature and weather",
+"k": "words"
+},
+{
+"f": "pluvo",
+"b": "rain",
+"s": "esperantovortoj",
+"g": "Nature and weather",
+"k": "words"
+},
+{
+"f": "vento",
+"b": "wind",
+"s": "esperantovortoj",
+"g": "Nature and weather",
+"k": "words"
+},
+{
+"f": "vetero",
+"b": "weather",
+"s": "esperantovortoj",
+"g": "Nature and weather",
+"k": "words"
+},
+{
+"f": "arbo",
+"b": "tree",
+"s": "esperantovortoj",
+"g": "Nature and weather",
+"k": "words"
+},
+{
+"f": "floro",
+"b": "flower",
+"s": "esperantovortoj",
+"g": "Nature and weather",
+"k": "words"
+},
+{
+"f": "hundo",
+"b": "dog",
+"s": "esperantovortoj",
+"g": "Nature and weather",
+"k": "words"
+},
+{
+"f": "kato",
+"b": "cat",
+"s": "esperantovortoj",
+"g": "Nature and weather",
+"k": "words"
+},
+{
+"f": "birdo",
+"b": "bird",
+"s": "esperantovortoj",
+"g": "Nature and weather",
+"k": "words"
+},
+{
+"f": "esti",
+"b": "to be",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "havi",
+"b": "to have",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "fari",
+"b": "to do, to make",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "iri",
+"b": "to go",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "veni",
+"b": "to come",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "povi",
+"b": "can, to be able",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "voli",
+"b": "to want",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "devi",
+"b": "must, to have to",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "diri",
+"b": "to say",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "vidi",
+"b": "to see",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "doni",
+"b": "to give",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "scii",
+"b": "to know (facts)",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "koni",
+"b": "to know (people, places)",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "paroli",
+"b": "to speak",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "manĝi",
+"b": "to eat",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "trinki",
+"b": "to drink",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "loĝi",
+"b": "to live (reside)",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "vivi",
+"b": "to live",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "labori",
+"b": "to work",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "studi",
+"b": "to study",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "lerni",
+"b": "to learn",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "kompreni",
+"b": "to understand",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "legi",
+"b": "to read",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "skribi",
+"b": "to write",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "aŭskulti",
+"b": "to listen",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "rigardi",
+"b": "to look at, to watch",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "aĉeti",
+"b": "to buy",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "pagi",
+"b": "to pay",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "malfermi",
+"b": "to open",
+"s": "esperantovortoj",
+"g": "Verbs",
+"h": "note: literally un-close",
+"k": "words"
+},
+{
+"f": "fermi",
+"b": "to close",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "alveni",
+"b": "to arrive",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "foriri",
+"b": "to leave",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "reveni",
+"b": "to come back",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "atendi",
+"b": "to wait",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "serĉi",
+"b": "to look for",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "trovi",
+"b": "to find",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "pensi",
+"b": "to think",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "kredi",
+"b": "to believe",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "ami",
+"b": "to love",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "ŝati",
+"b": "to like",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "preni",
+"b": "to take",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "meti",
+"b": "to put",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "komenci",
+"b": "to begin",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "fini",
+"b": "to finish",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "helpi",
+"b": "to help",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "dormi",
+"b": "to sleep",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "ludi",
+"b": "to play",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "bezoni",
+"b": "to need",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "uzi",
+"b": "to use",
+"s": "esperantovortoj",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "granda",
+"b": "big",
+"s": "esperantovortoj",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "malgranda",
+"b": "small",
+"s": "esperantovortoj",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "bona",
+"b": "good",
+"s": "esperantovortoj",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "malbona",
+"b": "bad",
+"s": "esperantovortoj",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "nova",
+"b": "new",
+"s": "esperantovortoj",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "malnova",
+"b": "old (of things)",
+"s": "esperantovortoj",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "maljuna",
+"b": "old (of people)",
+"s": "esperantovortoj",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "juna",
+"b": "young",
+"s": "esperantovortoj",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "longa",
+"b": "long",
+"s": "esperantovortoj",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "mallonga",
+"b": "short",
+"s": "esperantovortoj",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "alta",
+"b": "tall, high",
+"s": "esperantovortoj",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "malalta",
+"b": "low, short",
+"s": "esperantovortoj",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "kara",
+"b": "dear; expensive",
+"s": "esperantovortoj",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "multekosta",
+"b": "expensive",
+"s": "esperantovortoj",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "malmultekosta",
+"b": "cheap",
+"s": "esperantovortoj",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "facila",
+"b": "easy",
+"s": "esperantovortoj",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "malfacila",
+"b": "difficult",
+"s": "esperantovortoj",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "rapida",
+"b": "fast",
+"s": "esperantovortoj",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "malrapida",
+"b": "slow",
+"s": "esperantovortoj",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "bela",
+"b": "beautiful",
+"s": "esperantovortoj",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "malbela",
+"b": "ugly",
+"s": "esperantovortoj",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "feliĉa",
+"b": "happy",
+"s": "esperantovortoj",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "malĝoja",
+"b": "sad",
+"s": "esperantovortoj",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "laca",
+"b": "tired",
+"s": "esperantovortoj",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "varma",
+"b": "warm",
+"s": "esperantovortoj",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "malvarma",
+"b": "cold",
+"s": "esperantovortoj",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "pura",
+"b": "clean",
+"s": "esperantovortoj",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "malpura",
+"b": "dirty",
+"s": "esperantovortoj",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "plena",
+"b": "full",
+"s": "esperantovortoj",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "malplena",
+"b": "empty",
+"s": "esperantovortoj",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "grava",
+"b": "important",
+"s": "esperantovortoj",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "sama",
+"b": "same",
+"s": "esperantovortoj",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "alia",
+"b": "other",
+"s": "esperantovortoj",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "ruĝa",
+"b": "red",
+"s": "esperantovortoj",
+"g": "Colours",
+"k": "words"
+},
+{
+"f": "blua",
+"b": "blue",
+"s": "esperantovortoj",
+"g": "Colours",
+"k": "words"
+},
+{
+"f": "verda",
+"b": "green",
+"s": "esperantovortoj",
+"g": "Colours",
+"k": "words"
+},
+{
+"f": "flava",
+"b": "yellow",
+"s": "esperantovortoj",
+"g": "Colours",
+"k": "words"
+},
+{
+"f": "blanka",
+"b": "white",
+"s": "esperantovortoj",
+"g": "Colours",
+"k": "words"
+},
+{
+"f": "nigra",
+"b": "black",
+"s": "esperantovortoj",
+"g": "Colours",
+"k": "words"
+},
+{
+"f": "griza",
+"b": "grey",
+"s": "esperantovortoj",
+"g": "Colours",
+"k": "words"
+},
+{
+"f": "bruna",
+"b": "brown",
+"s": "esperantovortoj",
+"g": "Colours",
+"k": "words"
+},
+{
+"f": "kio",
+"b": "what",
+"s": "esperantovortoj",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "kiu",
+"b": "who; which",
+"s": "esperantovortoj",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "kie",
+"b": "where",
+"s": "esperantovortoj",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "kiam",
+"b": "when",
+"s": "esperantovortoj",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "kiel",
+"b": "how; as, like",
+"s": "esperantovortoj",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "kial",
+"b": "why",
+"s": "esperantovortoj",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "kiom",
+"b": "how much, how many",
+"s": "esperantovortoj",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "ĉar",
+"b": "because",
+"s": "esperantovortoj",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "sed",
+"b": "but",
+"s": "esperantovortoj",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "kaj",
+"b": "and",
+"s": "esperantovortoj",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "aŭ",
+"b": "or",
+"s": "esperantovortoj",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "ankaŭ",
+"b": "also",
+"s": "esperantovortoj",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "tre",
+"b": "very",
+"s": "esperantovortoj",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "pli",
+"b": "more",
+"s": "esperantovortoj",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "malpli",
+"b": "less",
+"s": "esperantovortoj",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "kun",
+"b": "with",
+"s": "esperantovortoj",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "sen",
+"b": "without",
+"s": "esperantovortoj",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "por",
+"b": "for",
+"s": "esperantovortoj",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "inter",
+"b": "between",
+"s": "esperantovortoj",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "multe",
+"b": "a lot",
+"s": "esperantovortoj",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "iom",
+"b": "a little, some",
+"s": "esperantovortoj",
+"g": "Question and little words",
+"k": "words"
 },
 {
 "f": "operaciumoj",
 "b": "operating system",
 "s": "vortaro",
-"g": "Words I am learning"
+"g": "Words I am learning",
+"k": "words"
 },
 {
 "f": "datumtipo",
 "b": "data type",
 "s": "vortaro",
-"g": "Words I am learning"
+"g": "Words I am learning",
+"k": "words"
 },
 {
 "f": "rezigni",
 "b": "to abandon, give up",
 "s": "vortaro",
-"g": "Words I am learning"
+"g": "Words I am learning",
+"k": "words"
 },
 {
 "f": "esprimpovo",
 "b": "expressibility",
 "s": "vortaro",
-"g": "Words I am learning"
+"g": "Words I am learning",
+"k": "words"
 },
 {
 "f": "je",
 "b": "upon, at, by, on",
 "s": "vortaro",
-"g": "Words I am learning"
+"g": "Words I am learning",
+"k": "words"
 },
 {
 "f": "apogas",
 "b": "to lean, support",
 "s": "vortaro",
-"g": "Words I am learning"
+"g": "Words I am learning",
+"k": "words"
 },
 {
 "f": "ĉelo",
 "b": "cell",
 "s": "vortaro",
-"g": "Words I am learning"
+"g": "Words I am learning",
+"k": "words"
+},
+{
+"f": "disigebla",
+"b": "separable, divisible (dis-ig-ebla: able to be separated)",
+"s": "vortaro",
+"g": "Words I am learning",
+"k": "words"
 },
 {
 "f": "ligillisto",
 "b": "bound list",
 "s": "vortaro",
-"g": "Words I am learning"
+"g": "Words I am learning",
+"k": "words"
 },
 {
 "f": "interuzeblaj",
 "b": "interusable",
 "s": "vortaro",
-"g": "Words I am learning"
+"g": "Words I am learning",
+"k": "words"
 },
 {
 "f": "trakti",
 "b": "to deal with, handle",
 "s": "vortaro",
-"g": "Words I am learning"
+"g": "Words I am learning",
+"k": "words"
+},
+{
+"f": "trudataj",
+"b": "(which are) being imposed, forced on (trud-at-aj: present passive participle, plural)",
+"s": "vortaro",
+"g": "Words I am learning",
+"k": "words"
 },
 {
 "f": "tradukilo",
 "b": "compiler (computer) translator",
 "s": "vortaro",
-"g": "Words I am learning"
+"g": "Words I am learning",
+"k": "words"
 },
 {
 "f": "konciza",
 "b": "concise",
 "s": "vortaro",
-"g": "Words I am learning"
+"g": "Words I am learning",
+"k": "words"
+},
+{
+"f": "Bonan matenon!",
+"b": "Good morning!",
+"s": "esperanto-phrases",
+"g": "Greetings and politeness",
+"h": "note: accusative -n: a wish",
+"k": "phrases"
+},
+{
+"f": "Bonan tagon!",
+"b": "Good day!",
+"s": "esperanto-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Bonan vesperon!",
+"b": "Good evening!",
+"s": "esperanto-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Bonan nokton!",
+"b": "Good night!",
+"s": "esperanto-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Kiel vi fartas?",
+"b": "How are you?",
+"s": "esperanto-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Mi fartas bone, dankon.",
+"b": "I'm fine, thank you.",
+"s": "esperanto-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Kaj vi?",
+"b": "And you?",
+"s": "esperanto-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Estas plezuro koni vin.",
+"b": "Pleased to meet you.",
+"s": "esperanto-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Ĝis morgaŭ!",
+"b": "See you tomorrow!",
+"s": "esperanto-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Ĝis baldaŭ!",
+"b": "See you soon!",
+"s": "esperanto-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Bonan tagon al vi!",
+"b": "Have a nice day!",
+"s": "esperanto-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Koran dankon!",
+"b": "Heartfelt thanks!",
+"s": "esperanto-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Dankon pro via helpo.",
+"b": "Thank you for your help.",
+"s": "esperanto-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Ne dankinde.",
+"b": "You're welcome; don't mention it.",
+"s": "esperanto-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Mi bedaŭras.",
+"b": "I'm sorry.",
+"s": "esperanto-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Bonvenon!",
+"b": "Welcome!",
+"s": "esperanto-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Kiel vi nomiĝas?",
+"b": "What's your name?",
+"s": "esperanto-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "Mi nomiĝas…",
+"b": "My name is…",
+"s": "esperanto-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "Kio estas via nomo?",
+"b": "What is your name?",
+"s": "esperanto-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "De kie vi venas?",
+"b": "Where are you from?",
+"s": "esperanto-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "Mi venas el…",
+"b": "I come from…",
+"s": "esperanto-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "Kie vi loĝas?",
+"b": "Where do you live?",
+"s": "esperanto-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "Mi loĝas en Dubajo.",
+"b": "I live in Dubai.",
+"s": "esperanto-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "Kio estas via profesio?",
+"b": "What is your job?",
+"s": "esperanto-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "Kiom aĝa vi estas?",
+"b": "How old are you?",
+"s": "esperanto-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "Mi estas tridekjara.",
+"b": "I'm thirty years old.",
+"s": "esperanto-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "Ĉu vi parolas Esperanton?",
+"b": "Do you speak Esperanto?",
+"s": "esperanto-phrases",
+"g": "Getting to know someone",
+"h": "note: ĉu makes a yes/no question",
+"k": "phrases"
+},
+{
+"f": "Ĉu vi parolas la anglan?",
+"b": "Do you speak English?",
+"s": "esperanto-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "Mi parolas iomete.",
+"b": "I speak a little.",
+"s": "esperanto-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "Mi lernas Esperanton.",
+"b": "I'm learning Esperanto.",
+"s": "esperanto-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "De kiam vi parolas Esperanton?",
+"b": "Since when have you spoken Esperanto?",
+"s": "esperanto-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "Mi ne komprenas.",
+"b": "I don't understand.",
+"s": "esperanto-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Bonvolu ripeti.",
+"b": "Please repeat.",
+"s": "esperanto-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Bonvolu paroli pli malrapide.",
+"b": "Please speak more slowly.",
+"s": "esperanto-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Kion tio signifas?",
+"b": "What does that mean?",
+"s": "esperanto-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Kiel oni diras … en Esperanto?",
+"b": "How do you say … in Esperanto?",
+"s": "esperanto-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Kiel oni literumas tion?",
+"b": "How do you spell that?",
+"s": "esperanto-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Mi ne scias.",
+"b": "I don't know.",
+"s": "esperanto-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Mi pensas, ke jes.",
+"b": "I think so.",
+"s": "esperanto-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Mi pensas, ke ne.",
+"b": "I don't think so.",
+"s": "esperanto-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Kompreneble!",
+"b": "Of course!",
+"s": "esperanto-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Konsentite.",
+"b": "Agreed.",
+"s": "esperanto-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Vi pravas.",
+"b": "You're right.",
+"s": "esperanto-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Bonege!",
+"b": "Excellent!",
+"s": "esperanto-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Domaĝe.",
+"b": "What a pity.",
+"s": "esperanto-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Tio dependas.",
+"b": "That depends.",
+"s": "esperanto-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Ne gravas.",
+"b": "It doesn't matter.",
+"s": "esperanto-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Neniu problemo.",
+"b": "No problem.",
+"s": "esperanto-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Kie estas la necesejo?",
+"b": "Where is the toilet?",
+"s": "esperanto-phrases",
+"g": "Getting around",
+"k": "phrases"
+},
+{
+"f": "Kie estas la stacidomo?",
+"b": "Where is the station?",
+"s": "esperanto-phrases",
+"g": "Getting around",
+"k": "phrases"
+},
+{
+"f": "Kiel mi iru al…?",
+"b": "How do I get to…?",
+"s": "esperanto-phrases",
+"g": "Getting around",
+"h": "note: -u for \"should I\"",
+"k": "phrases"
+},
+{
+"f": "Ĉu estas malproksime?",
+"b": "Is it far?",
+"s": "esperanto-phrases",
+"g": "Getting around",
+"k": "phrases"
+},
+{
+"f": "Estas tre proksime.",
+"b": "It's very close.",
+"s": "esperanto-phrases",
+"g": "Getting around",
+"k": "phrases"
+},
+{
+"f": "Iru rekte.",
+"b": "Go straight on.",
+"s": "esperanto-phrases",
+"g": "Getting around",
+"k": "phrases"
+},
+{
+"f": "Turnu maldekstren.",
+"b": "Turn left.",
+"s": "esperanto-phrases",
+"g": "Getting around",
+"h": "note: -n shows direction",
+"k": "phrases"
+},
+{
+"f": "Turnu dekstren.",
+"b": "Turn right.",
+"s": "esperanto-phrases",
+"g": "Getting around",
+"k": "phrases"
+},
+{
+"f": "Unu bileton al Parizo, mi petas.",
+"b": "One ticket to Paris, please.",
+"s": "esperanto-phrases",
+"g": "Getting around",
+"k": "phrases"
+},
+{
+"f": "Je kioma horo foriras la trajno?",
+"b": "What time does the train leave?",
+"s": "esperanto-phrases",
+"g": "Getting around",
+"k": "phrases"
+},
+{
+"f": "Kioma horo estas?",
+"b": "What time is it?",
+"s": "esperanto-phrases",
+"g": "Getting around",
+"k": "phrases"
+},
+{
+"f": "Estas la tria.",
+"b": "It's three o'clock.",
+"s": "esperanto-phrases",
+"g": "Getting around",
+"k": "phrases"
+},
+{
+"f": "Mi perdiĝis.",
+"b": "I'm lost.",
+"s": "esperanto-phrases",
+"g": "Getting around",
+"k": "phrases"
+},
+{
+"f": "Kiom ĝi kostas?",
+"b": "How much does it cost?",
+"s": "esperanto-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "Tio estas tro multekosta.",
+"b": "That's too expensive.",
+"s": "esperanto-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "Mi nur rigardas.",
+"b": "I'm just looking.",
+"s": "esperanto-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "Mi ŝatus…",
+"b": "I would like…",
+"s": "esperanto-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "Ĉu vi havas…?",
+"b": "Do you have…?",
+"s": "esperanto-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "La kalkulon, mi petas.",
+"b": "The bill, please.",
+"s": "esperanto-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "Tablon por du, mi petas.",
+"b": "A table for two, please.",
+"s": "esperanto-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "Kion vi rekomendas?",
+"b": "What do you recommend?",
+"s": "esperanto-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "Mi estas vegetarano.",
+"b": "I'm vegetarian.",
+"s": "esperanto-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "Bonan apetiton!",
+"b": "Enjoy your meal!",
+"s": "esperanto-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "Je via sano!",
+"b": "Cheers! To your health!",
+"s": "esperanto-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "Estas bongusta.",
+"b": "It's tasty.",
+"s": "esperanto-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "Ĉu mi povas pagi per karto?",
+"b": "Can I pay by card?",
+"s": "esperanto-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "Mi malsatas.",
+"b": "I'm hungry.",
+"s": "esperanto-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Mi soifas.",
+"b": "I'm thirsty.",
+"s": "esperanto-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Al mi estas malvarme.",
+"b": "I feel cold.",
+"s": "esperanto-phrases",
+"g": "Feelings and help",
+"h": "note: literally to me it is cold",
+"k": "phrases"
+},
+{
+"f": "Al mi estas varme.",
+"b": "I'm hot.",
+"s": "esperanto-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Mi estas laca.",
+"b": "I'm tired.",
+"s": "esperanto-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Mi estas preta.",
+"b": "I'm ready.",
+"s": "esperanto-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Mi ŝatas ĝin.",
+"b": "I like it.",
+"s": "esperanto-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Mi ne ŝatas ĝin.",
+"b": "I don't like it.",
+"s": "esperanto-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Helpu!",
+"b": "Help!",
+"s": "esperanto-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Mi bezonas kuraciston.",
+"b": "I need a doctor.",
+"s": "esperanto-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Voku la policon!",
+"b": "Call the police!",
+"s": "esperanto-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Atentu!",
+"b": "Watch out!",
+"s": "esperanto-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Ni iru!",
+"b": "Let's go!",
+"s": "esperanto-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Momenton, mi petas.",
+"b": "One moment, please.",
+"s": "esperanto-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Kio okazas?",
+"b": "What's happening?",
+"s": "esperanto-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Kio okazis?",
+"b": "What happened?",
+"s": "esperanto-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Gratulon!",
+"b": "Congratulations!",
+"s": "esperanto-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Feliĉan naskiĝtagon!",
+"b": "Happy birthday!",
+"s": "esperanto-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Bonan ŝancon!",
+"b": "Good luck!",
+"s": "esperanto-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Bonan vojaĝon!",
+"b": "Have a good trip!",
+"s": "esperanto-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Resaniĝu baldaŭ!",
+"b": "Get well soon!",
+"s": "esperanto-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Mi estas studento.",
+"b": "I am a student.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "Ŝi estas hejme.",
+"b": "She is at home.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"h": "note: hejme = at home (adverb)",
+"k": "sentences"
+},
+{
+"f": "La kafo estas varma.",
+"b": "The coffee is hot.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "Mi havas du fratojn.",
+"b": "I have two brothers.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"h": "note: -j plural, -n object",
+"k": "sentences"
+},
+{
+"f": "Mi ŝatas ĉokoladon.",
+"b": "I like chocolate.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"h": "note: the object takes -n",
+"k": "sentences"
+},
+{
+"f": "Ni loĝas apud la maro.",
+"b": "We live by the sea.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "Hodiaŭ estas varme.",
+"b": "It's warm today.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"h": "note: no subject for weather",
+"k": "sentences"
+},
+{
+"f": "Morgaŭ pluvos.",
+"b": "It will rain tomorrow.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"h": "note: -os = future",
+"k": "sentences"
+},
+{
+"f": "Dimanĉe mi iras al la plaĝo.",
+"b": "On Sundays I go to the beach.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"h": "note: dimanĉe = on Sunday(s)",
+"k": "sentences"
+},
+{
+"f": "La trajno foriras je la oka.",
+"b": "The train leaves at eight.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"h": "note: je = at (time)",
+"k": "sentences"
+},
+{
+"f": "Ĉu vi povas helpi min?",
+"b": "Can you help me?",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "Mi ne povas veni ĉi-vespere.",
+"b": "I can't come this evening.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "Mi volas lerni Esperanton.",
+"b": "I want to learn Esperanto.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "Mi devas labori morgaŭ.",
+"b": "I have to work tomorrow.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "Mi nun legas libron.",
+"b": "I'm reading a book now.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"h": "note: -as covers both I read and I am reading",
+"k": "sentences"
+},
+{
+"f": "Kion vi faras?",
+"b": "What are you doing?",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "Mia fratino estas pli alta ol mi.",
+"b": "My sister is taller than me.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"h": "note: pli … ol",
+"k": "sentences"
+},
+{
+"f": "Tio estas la plej bona restoracio en la urbo.",
+"b": "That's the best restaurant in town.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"h": "note: la plej = the most",
+"k": "sentences"
+},
+{
+"f": "Estas multaj homoj sur la strato.",
+"b": "There are many people in the street.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"h": "note: estas = there is / are",
+"k": "sentences"
+},
+{
+"f": "Estas nenio en la fridujo.",
+"b": "There's nothing in the fridge.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"h": "note: only one negative word",
+"k": "sentences"
+},
+{
+"f": "Mi neniam trinkas kafon vespere.",
+"b": "I never drink coffee in the evening.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "Hieraŭ mi manĝis picon.",
+"b": "Yesterday I ate pizza.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"h": "note: -is = past",
+"k": "sentences"
+},
+{
+"f": "Ni iris al la kinejo sabate.",
+"b": "We went to the cinema on Saturday.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "Kiam mi estis infano, mi loĝis en la kamparo.",
+"b": "When I was a child, I lived in the countryside.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "Mi jam vizitis Francion dufoje.",
+"b": "I've already visited France twice.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"h": "note: -foje = times",
+"k": "sentences"
+},
+{
+"f": "Ĉu vi jam manĝis?",
+"b": "Have you eaten yet?",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "Mi loĝas ĉi tie jam de tri jaroj.",
+"b": "I've been living here for three years.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"h": "note: jam de + present",
+"k": "sentences"
+},
+{
+"f": "Mi donis ĝin al mia patrino.",
+"b": "I gave it to my mother.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "Diru al mi!",
+"b": "Tell me!",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"h": "note: -u = command",
+"k": "sentences"
+},
+{
+"f": "Ne diru tion al li.",
+"b": "Don't tell him that.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "Mi esperas, ke vi fartas bone.",
+"b": "I hope you're well.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "Mi volas, ke vi venu.",
+"b": "I want you to come.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"h": "note: -u after a wish",
+"k": "sentences"
+},
+{
+"f": "Kiam vi alvenos, telefonu al mi.",
+"b": "When you arrive, phone me.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"h": "note: future -os after kiam",
+"k": "sentences"
+},
+{
+"f": "Se mi havos tempon, mi venos.",
+"b": "If I have time, I'll come.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"h": "note: future in both halves",
+"k": "sentences"
+},
+{
+"f": "Se mi havus monon, mi vojaĝus pli.",
+"b": "If I had money, I would travel more.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"h": "note: -us = conditional",
+"k": "sentences"
+},
+{
+"f": "Mia kapo doloras.",
+"b": "My head hurts.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "Oni parolas Esperanton ĉi tie.",
+"b": "Esperanto is spoken here.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"h": "note: oni = one, people",
+"k": "sentences"
+},
+{
+"f": "Mi ĵus alvenis.",
+"b": "I've just arrived.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"h": "note: ĵus = just now",
+"k": "sentences"
+},
+{
+"f": "Mi provos denove.",
+"b": "I'll try again.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "La plej grava afero estas provi.",
+"b": "The most important thing is to try.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "Ĉu ĝenas vin, se mi malfermas la fenestron?",
+"b": "Does it bother you if I open the window?",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "Estus pli bone atendi.",
+"b": "It would be better to wait.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "Ni tre amuziĝis.",
+"b": "We had a lot of fun.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"h": "note: -iĝ- = to become, get",
+"k": "sentences"
+},
+{
+"f": "Fine mi finis la laboron.",
+"b": "Finally I finished the work.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "Mi lernas por kompreni, ne por ekzameno.",
+"b": "I learn to understand, not for an exam.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"h": "note: por + infinitive",
+"k": "sentences"
+},
+{
+"f": "La libro estas skribita de mia amiko.",
+"b": "The book is written by my friend.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"h": "note: -it- = passive past participle",
+"k": "sentences"
+},
+{
+"f": "La parolanto estas mia instruisto.",
+"b": "The speaker is my teacher.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"h": "note: -ant- = the one doing",
+"k": "sentences"
+},
+{
+"f": "Mi ne sciis, ke vi parolas la francan.",
+"b": "I didn't know you speak French.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"h": "note: reported speech keeps the original tense",
+"k": "sentences"
+},
+{
+"f": "Ju pli mi praktikas, des pli bone mi parolas.",
+"b": "The more I practise, the better I speak.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"h": "note: ju … des …",
+"k": "sentences"
+},
+{
+"f": "Mi iris en la domon.",
+"b": "I went into the house.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"h": "note: en + -n = into",
+"k": "sentences"
+},
+{
+"f": "Mi estis en la domo.",
+"b": "I was in the house.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"h": "note: en without -n = location",
+"k": "sentences"
+},
+{
+"f": "La malsanulo resaniĝis.",
+"b": "The sick person recovered.",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"h": "note: -ul- = person",
+"k": "sentences"
+},
+{
+"f": "Ili estas geamikoj.",
+"b": "They are friends (men and women).",
+"s": "esperanto-sentences",
+"g": "Esperanto: Example Sentences",
+"h": "note: ge- for mixed groups",
+"k": "sentences"
 }
 ]
 }

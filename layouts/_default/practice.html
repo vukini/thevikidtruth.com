@@ -16,6 +16,7 @@
       <label><input type="radio" name="pr-mode" value="type"> Type it</label>
     </fieldset>
     <div class="pr-row">
+      <label class="pr-sel">Deck <select id="pr-kind"><option value="all">All</option><option value="words">Words</option><option value="phrases">Phrases</option><option value="sentences">Sentences</option></select></label>
       <label class="pr-sel">Show <select id="pr-dir"><option value="fb">{{ $deck.title }} → English</option><option value="bf">English → {{ $deck.title }}</option></select></label>
       <button type="button" class="pr-btn" id="pr-shuffle">Shuffle</button>
     </div>
@@ -26,5 +27,5 @@
   <p class="meta">Typed answers ignore accents, capitals and a single typo. A card counts as known once you've got it right at least twice and more often than wrong. <button type="button" class="pr-link" id="pr-reset">Reset progress</button></p>
 </div>
 <script type="application/json" id="pr-deck">{{ $deck | jsonify | safeJS }}</script>
-{{ with resources.Get "js/practice.js" | minify | fingerprint }}<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>{{ end }}
+{{ with resources.Get "js/practice-v2.js" | minify | fingerprint }}<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>{{ end }}
 {{ end }}

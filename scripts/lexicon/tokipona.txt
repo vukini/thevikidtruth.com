@@ -1,0 +1,306 @@
+# words
+## Particles and grammar words
+a | ah, oh (emotion) | particle
+anu | or (in questions) | particle
+e | marks the direct object | particle
+en | and (joins subjects) | particle
+la | marks context: if, when | particle
+li | separates subject from verb | not after mi or sina alone
+o | hey!; marks a command or wish | particle
+pi | of (regroups modifiers) | particle
+taso | but; only
+kin | also, indeed, too | ku suli
+n | hmm (thinking) | ku suli
+## Pronouns and people
+mi | I, me, we
+sina | you
+ona | he, she, it, they
+jan | person, people, human
+mama | parent, mother, father, caretaker
+meli | woman, female
+mije | man, male
+kulupu | group, community, society
+## Numbers and quantity
+wan | one; unique
+tu | two; to divide
+mute | many, a lot; very
+ale | all, every; life, universe | also written ali
+ala | no, not, zero
+nanpa | number; -th (ordinal)
+lili | small, little, a bit
+suli | big, important
+## Time and place
+tenpo | time, moment, period
+sin | new, fresh; again
+pini | finished, past; end
+open | to begin, to open
+awen | to stay, to wait; still
+lon | at, in, on; to exist, true
+tawa | to, towards; for; to go, to move
+tan | from, because of
+poka | side, hip; nearby, with
+insa | inside, stomach
+monsi | back, rear
+sinpin | front, face, wall
+anpa | down, below; humble
+sewi | up, above; divine
+weka | away, absent
+ma | land, country, earth, outdoors
+tomo | house, room, building
+nasin | way, road, method
+## Nature
+suno | sun, light
+mun | moon, star, night sky object
+sewi | sky (as a place)
+telo | water, liquid
+kon | air, spirit, essence
+seli | fire, heat; warm
+lete | cold; raw
+kiwen | stone, hard thing, metal
+ko | paste, powder, semi-solid
+kasi | plant, tree, herb
+kili | fruit, vegetable
+pan | bread, grain, rice
+lupa | hole, door, window
+nena | bump, hill, nose
+## Animals
+soweli | land mammal, animal
+waso | bird, flying creature
+kala | fish, sea creature
+pipi | insect, bug
+akesi | reptile, amphibian
+mu | animal noise (moo, woof)
+kijetesantakalu | raccoon (and related animals) | ku suli, a joke word
+monsuta | fear; monster | ku suli
+## Body
+sijelo | body; physical state
+lawa | head, mind; to lead
+lukin | eye; to see, to look; to try to
+oko | eye | ku suli; lukin also covers this
+kute | ear; to hear, to listen
+uta | mouth, lips
+luka | hand, arm; five
+noka | foot, leg; bottom
+selo | skin, outer layer, shell
+linja | long flexible thing: hair, rope
+## Things and tools
+ijo | thing, something
+ilo | tool, device, machine
+lipu | flat thing: paper, page, book, document
+len | cloth, clothing; hidden
+poki | container, box, bag
+supa | flat surface: table, bed, floor
+palisa | stick, rod, long hard thing
+sike | circle, ball, cycle; year
+mani | money, wealth; large domestic animal
+esun | market, shop, trade
+kipisi | to cut; a piece | ku suli
+leko | square, block, stairs | ku suli
+## Actions
+moku | to eat, to drink; food
+lape | to sleep, to rest
+pali | to do, to work, to make
+pana | to give, to send, to emit
+jo | to have, to carry
+kama | to come, to become; future
+ken | can, may; possibility
+wile | to want, to need, must
+sona | to know, knowledge; to know how to
+toki | to talk, language; hello
+nimi | name, word
+sitelen | image, picture, writing, symbol
+kalama | sound, noise; to make a sound
+musi | fun, game, art; to play
+olin | to love (a person)
+pilin | heart, feeling; to feel, to think
+kepeken | to use; with (a tool)
+alasa | to hunt, to gather; to try to
+utala | to fight, conflict, to compete
+pakala | broken, damaged; oops!
+moli | dead, death; to kill
+unpa | to have sex | official pu word
+jaki | dirty, gross, toxic
+## Qualities
+pona | good, simple, fixed; thanks
+ike | bad, complex, negative
+wawa | strong, powerful, energetic
+sama | same, similar; like, as
+ante | different, other; to change
+nasa | strange, silly, drunk
+suwi | sweet, cute
+pimeja | black, dark
+walo | white, light-coloured
+loje | red
+jelo | yellow
+laso | blue, green
+kule | colour; colourful
+seme | what? which? | question word
+ni | this, that
+jasima | to reflect, to mirror | ku suli
+tonsi | non-binary, gender-nonconforming | ku suli
+namako | spice; extra | ku suli
+soko | mushroom, fungus | ku suli
+meso | middle, medium, average | ku suli
+epiku | epic, cool | ku suli
+lanpan | to take, to seize | ku suli
+misikeke | medicine | ku suli
+pu | the official Toki Pona book; to interact with it
+ku | the Toki Pona dictionary book | ku suli
+# phrases
+## Greetings
+toki! | hello!
+toki pona! | hello! (literally good talk)
+mi pona. | I'm well.
+sina pona ala pona? | are you well? | X ala X makes a yes/no question
+pona! | thanks! good!
+pona tawa sina. | thanks to you; good to you
+tawa pona! | goodbye (to someone leaving), have a good journey
+awen pona! | goodbye (to someone staying)
+lape pona! | sleep well!
+moku pona! | enjoy your meal!
+kama pona! | welcome!
+mi pilin pona. | I feel good.
+mi pilin ike. | I feel bad.
+mi pakala. | I'm sorry; my mistake.
+pakala! | damn! oops!
+ike a! | oh no!
+## Getting to know someone
+nimi sina li seme? | what's your name?
+nimi mi li Wiki. | my name is Wiki. | names are proper adjectives: jan Wiki
+mi jan Wiki. | I'm Wiki.
+sina tan ma seme? | where are you from?
+mi tan ma ni. | I'm from this country.
+sina lon ma seme? | where are you?
+mi lon tomo. | I'm at home.
+sina pali e seme? | what do you do?
+sina sona ala sona toki pona? | do you know Toki Pona?
+mi sona lili e toki pona. | I know a little Toki Pona.
+mi kama sona e toki pona. | I'm learning Toki Pona. | kama sona = come to know
+toki pona li pona tawa mi. | I like Toki Pona. | X li pona tawa mi = I like X
+## Understanding
+mi sona ala. | I don't know; I don't understand.
+sina ken ala ken toki sin? | can you say it again?
+ni li seme? | what is this?
+nimi ni li seme? | what does this word mean?
+mi sona. | I understand; I know.
+lon. | yes; true.
+ala. | no.
+lon a! | that's right!
+ken. | maybe.
+ni li pona. | this is good.
+ni li ike. | this is bad.
+ni li nasa! | that's weird!
+## Needs and everyday life
+mi wile moku. | I want to eat; I'm hungry.
+mi wile moku e telo. | I want to drink water.
+mi wile lape. | I'm sleepy.
+mi wile tawa tomo. | I want to go home.
+mi wile e ni. | I want this.
+mi wile ala e ni. | I don't want this.
+o pana e ni tawa mi. | give this to me.
+o kama! | come!
+o awen! | wait!
+o lukin! | look!
+o kute! | listen!
+o pona! | take care!
+mi tawa. | I'm going; bye.
+tomo telo li lon seme? | where is the bathroom?
+tenpo ni la mi pali. | right now I'm working.
+tenpo kama la mi tawa. | later I'll go.
+mi olin e sina. | I love you.
+sina pona mute! | you're great!
+## Feelings and help
+o pona e mi! | help me! fix me!
+mi wile e jan pi misikeke. | I need a doctor. | ku suli word misikeke
+mi pilin lete. | I'm cold.
+mi pilin seli. | I'm hot.
+mi pilin wawa. | I feel strong.
+mi pilin pakala. | I feel hurt.
+mi pilin musi. | I'm having fun.
+o musi! | have fun!
+pona tawa tenpo sike sin! | happy new year!
+## More everyday phrases
+sina wile e seme? | what do you want?
+sina pali e seme? | what are you doing?
+sina tawa seme? | where are you going?
+mi tawa esun. | I'm going to the shop.
+mi tawa tomo mi. | I'm going to my house.
+sina wile ala wile moku? | do you want to eat?
+mi wile. | I want to; yes.
+mi wile ala. | I don't want to; no.
+mi ken. | I can.
+mi ken ala. | I can't.
+ni li tenpo pona. | this is a good time.
+tenpo ni li pona. | now is good.
+o pana e telo. | give (some) water.
+mi jo e ni. | I have this.
+mi jo ala e mani. | I have no money.
+sina jo ala jo e soweli? | do you have a pet?
+mi jo e soweli tu. | I have two animals.
+soweli mi li suwi. | my animal is cute.
+mi lukin e sina. | I see you.
+mi kute e sina. | I hear you.
+pona mute! | very good! thanks a lot!
+ni li musi mute! | this is a lot of fun!
+mi moku. | I'm eating.
+moku ni li suwi. | this food is sweet.
+o toki tawa mi. | talk to me.
+toki mute! | so much talk!
+mi wile sona. | I want to know.
+o tawa pona! | go well!
+o lape pona! | sleep well!
+tenpo pona! | good times!
+mi kama! | I'm coming!
+ona li seme? | what is it? who is it?
+ona li jan seme? | who is that person?
+# sentences
+mi moku. | I eat; I'm eating. | no li after mi
+sina pona. | You are good.
+jan li moku. | The person eats. | li separates subject and predicate
+ona li suli. | He/she is big; it is important.
+mi moku e kili. | I eat fruit. | e marks the object
+jan li lukin e waso. | The person sees the bird.
+mi jan pona sina. | I am your friend. | jan pona = friend
+tomo mi li lili. | My house is small. | modifiers follow the noun
+mi tawa tomo. | I go home. | tawa as a verb, no preposition needed
+mi tawa ma tomo. | I'm going to the city. | ma tomo = city
+mi lon tomo. | I am at home. | lon = to be at
+soweli li lape lon supa. | The animal sleeps on the bed.
+mi pana e lipu tawa sina. | I give the book to you. | tawa = to (a recipient)
+mi pali kepeken ilo. | I work with a tool. | kepeken = using
+mi wile moku. | I want to eat. | wile before a verb
+mi ken toki e toki pona. | I can speak Toki Pona. | ken before a verb
+mi kama sona e toki pona. | I'm learning Toki Pona.
+mi sona ala e nimi ni. | I don't know this word. | ala follows what it negates
+sina moku ala moku? | Do you eat? / Are you eating? | verb ala verb = yes/no question
+sina wile e seme? | What do you want? | seme replaces the unknown part
+jan seme li kama? | Who is coming?
+tenpo pini la mi lili. | In the past, I was small. | context + la
+tenpo kama la mi tawa ma ante. | In the future I'll go to another country.
+tenpo ni la mi pali. | Now I am working.
+sina kama la mi pilin pona. | If you come, I'll be happy. | a clause before la gives the condition
+telo li kama tan sewi. | Water comes from the sky; it's raining.
+suno li seli. | The sun is hot.
+tenpo pimeja li kama. | Night is coming.
+mi en sina li jan pona. | You and I are friends. | en joins subjects
+mi moku e kili e pan. | I eat fruit and bread. | repeat e for several objects
+ona li moku li lape. | He eats and sleeps. | repeat li for several predicates
+jan pi toki pona li mute. | Toki Pona speakers are many. | pi regroups: person of good-language
+tomo pi jan pona mi li suli. | My friend's house is big.
+lipu ni li pona tawa mi. | I like this book. | pona tawa mi = good to me
+mi olin e mama mi. | I love my parent(s).
+o moku! | Eat! | o + verb = command
+jan Wiki o, kama! | Wiki, come here! | name + o = calling someone
+mi wile e ni: sina pona. | I want this: that you are well. | ni: introduces a clause
+mi sona e ni: ona li jan pona. | I know that he is a good person.
+mi pilin e ni: ni li ike. | I feel that this is bad.
+ilo sona li pona tawa pali. | Computers are good for work. | ilo sona = computer
+mi kepeken ilo toki. | I'm using a phone. | ilo toki = phone
+kalama musi li pona tawa mi. | I like music. | kalama musi = music
+mi wile tawa tomo moku. | I want to go to a restaurant. | tomo moku = restaurant
+jan lili li musi. | The child is playing. | jan lili = child
+ona li pakala e ilo. | He broke the tool.
+mi awen lon tomo. | I'm staying at home.
+nasin ni li tawa ma tomo. | This road goes to the city.
+jan ale li jan sama. | All people are siblings. | jan sama = sibling
+toki pona li toki lili. | Toki Pona is a small language.

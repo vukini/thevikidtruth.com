@@ -1,322 +1,2112 @@
 {
 "lang": "tokipona",
+"counts": {
+"words": 141,
+"phrases": 100,
+"sentences": 48
+},
 "title": "Toki Pona",
 "code": "tok",
 "sources": [
-"tokiponavocab"
+"tokiponavocab",
+"tokipona-phrases",
+"tokipona-sentences"
 ],
 "cards": [
 {
 "f": "lukin",
 "b": "n. eye, sight · vt. see, look at, watch, read · pre-verb: try to (mi lukin sona, I try to learn)",
 "s": "tokiponavocab",
-"g": "Senses, mind and feelings"
+"g": "Senses, mind and feelings",
+"k": "words"
 },
 {
 "f": "oko",
 "b": "n. eye (an older synonym of lukin in the official book)",
 "s": "tokiponavocab",
-"g": "Senses, mind and feelings"
+"g": "Senses, mind and feelings",
+"k": "words"
 },
 {
 "f": "kute",
 "b": "n. ear · vt. hear, listen; obey",
 "s": "tokiponavocab",
-"g": "Senses, mind and feelings"
+"g": "Senses, mind and feelings",
+"k": "words"
 },
 {
 "f": "sona",
 "b": "n. knowledge, wisdom · vt. know, understand; know how to (mi sona toki, I know how to talk)",
 "s": "tokiponavocab",
-"g": "Senses, mind and feelings"
+"g": "Senses, mind and feelings",
+"k": "words"
 },
 {
 "f": "pilin",
 "b": "n. heart, feeling, emotion · vt. feel, think, sense, touch",
 "s": "tokiponavocab",
-"g": "Senses, mind and feelings"
+"g": "Senses, mind and feelings",
+"k": "words"
 },
 {
 "f": "olin",
 "b": "n. love, compassion, affection · vt. love, respect (a person or animal)",
 "s": "tokiponavocab",
-"g": "Senses, mind and feelings"
+"g": "Senses, mind and feelings",
+"k": "words"
 },
 {
 "f": "nasa",
 "b": "mod. unusual, strange, silly, crazy, drunk",
 "s": "tokiponavocab",
-"g": "Senses, mind and feelings"
+"g": "Senses, mind and feelings",
+"k": "words"
 },
 {
 "f": "moku",
 "b": "n. food, meal · vt. eat, drink, consume",
 "s": "tokiponavocab",
-"g": "Life, food and talk"
+"g": "Life, food and talk",
+"k": "words"
 },
 {
 "f": "toki",
 "b": "n. language, talking, speech · vt./vi. talk, say, speak · interj. hello!",
 "s": "tokiponavocab",
-"g": "Life, food and talk"
+"g": "Life, food and talk",
+"k": "words"
 },
 {
 "f": "moli",
 "b": "n. death · vi. die, be dead · vt. kill",
 "s": "tokiponavocab",
-"g": "Life, food and talk"
+"g": "Life, food and talk",
+"k": "words"
 },
 {
 "f": "unpa",
 "b": "n. sex, sexuality · vt./vi. have sex with",
 "s": "tokiponavocab",
-"g": "Life, food and talk"
+"g": "Life, food and talk",
+"k": "words"
 },
 {
 "f": "ijo",
 "b": "thing",
 "s": "tokiponavocab",
-"g": "Words from the tutorial"
+"g": "Words from the tutorial",
+"k": "words"
 },
 {
 "f": "lipu",
 "b": "document, page, book",
 "s": "tokiponavocab",
-"g": "Words from the tutorial"
+"g": "Words from the tutorial",
+"k": "words"
 },
 {
 "f": "telo",
 "b": "water, liquid",
 "s": "tokiponavocab",
-"g": "Words from the tutorial"
+"g": "Words from the tutorial",
+"k": "words"
 },
 {
 "f": "mije",
 "b": "man, male",
 "s": "tokiponavocab",
-"g": "Words from the tutorial"
+"g": "Words from the tutorial",
+"k": "words"
 },
 {
 "f": "sina",
 "b": "you",
 "s": "tokiponavocab",
-"g": "Words from the tutorial"
+"g": "Words from the tutorial",
+"k": "words"
 },
 {
 "f": "sin",
 "b": "new",
 "s": "tokiponavocab",
-"g": "Words from the tutorial"
+"g": "Words from the tutorial",
+"k": "words"
 },
 {
 "f": "lili",
 "b": "small",
 "s": "tokiponavocab",
-"g": "Words from the tutorial"
+"g": "Words from the tutorial",
+"k": "words"
 },
 {
 "f": "pona",
 "b": "good, simple",
 "s": "tokiponavocab",
-"g": "Words from the tutorial"
+"g": "Words from the tutorial",
+"k": "words"
 },
 {
 "f": "jo",
 "b": "have",
 "s": "tokiponavocab",
-"g": "Words from the tutorial"
+"g": "Words from the tutorial",
+"k": "words"
 },
 {
 "f": "ala",
 "b": "no, not",
 "s": "tokiponavocab",
-"g": "Words from the tutorial"
+"g": "Words from the tutorial",
+"k": "words"
 },
 {
 "f": "sewi",
 "b": "above, sacred",
 "s": "tokiponavocab",
-"g": "Words from the tutorial"
+"g": "Words from the tutorial",
+"k": "words"
 },
 {
 "f": "ni",
 "b": "this, that",
 "s": "tokiponavocab",
-"g": "Words from the tutorial"
+"g": "Words from the tutorial",
+"k": "words"
 },
 {
 "f": "tomo",
 "b": "house, building",
 "s": "tokiponavocab",
-"g": "Words from the tutorial"
+"g": "Words from the tutorial",
+"k": "words"
 },
 {
 "f": "meli",
 "b": "woman, female",
 "s": "tokiponavocab",
-"g": "Words from the tutorial"
+"g": "Words from the tutorial",
+"k": "words"
 },
 {
 "f": "mi",
 "b": "I, me, we",
 "s": "tokiponavocab",
-"g": "Words from the tutorial"
+"g": "Words from the tutorial",
+"k": "words"
 },
 {
 "f": "kulupu",
 "b": "group, community",
 "s": "tokiponavocab",
-"g": "Words from the tutorial"
+"g": "Words from the tutorial",
+"k": "words"
 },
 {
 "f": "wawa",
 "b": "strong, powerful",
 "s": "tokiponavocab",
-"g": "Words from the tutorial"
+"g": "Words from the tutorial",
+"k": "words"
 },
 {
 "f": "suli",
 "b": "big, important",
 "s": "tokiponavocab",
-"g": "Words from the tutorial"
+"g": "Words from the tutorial",
+"k": "words"
 },
 {
 "f": "ike",
 "b": "bad, complicated",
 "s": "tokiponavocab",
-"g": "Words from the tutorial"
+"g": "Words from the tutorial",
+"k": "words"
 },
 {
 "f": "pali",
 "b": "do, make, work",
 "s": "tokiponavocab",
-"g": "Words from the tutorial"
+"g": "Words from the tutorial",
+"k": "words"
 },
 {
 "f": "mute",
 "b": "many, much",
 "s": "tokiponavocab",
-"g": "Words from the tutorial"
+"g": "Words from the tutorial",
+"k": "words"
 },
 {
 "f": "wan",
 "b": "one, united",
 "s": "tokiponavocab",
-"g": "Words from the tutorial"
+"g": "Words from the tutorial",
+"k": "words"
 },
 {
 "f": "soweli li moku e kili.",
 "b": "The animal eats fruit.",
 "s": "tokiponavocab",
-"g": "Examples"
+"g": "Examples",
+"k": "words"
 },
 {
 "f": "mi lukin e waso.",
 "b": "I see a bird.",
 "s": "tokiponavocab",
-"g": "Examples"
+"g": "Examples",
+"k": "words"
 },
 {
 "f": "jan pona mi li olin e musi.",
 "b": "My friend loves games.",
 "s": "tokiponavocab",
-"g": "Examples"
+"g": "Examples",
+"k": "words"
 },
 {
 "f": "mi sona ala.",
 "b": "I don't know.",
 "s": "tokiponavocab",
-"g": "Examples"
+"g": "Examples",
+"k": "words"
 },
 {
 "f": "sina toki pona!",
 "b": "You speak well / You speak Toki Pona!",
 "s": "tokiponavocab",
-"g": "Examples"
+"g": "Examples",
+"k": "words"
+},
+{
+"f": "a",
+"b": "ah, oh (emotion)",
+"s": "tokiponavocab",
+"g": "Particles and grammar words",
+"h": "note: particle",
+"k": "words"
+},
+{
+"f": "anu",
+"b": "or (in questions)",
+"s": "tokiponavocab",
+"g": "Particles and grammar words",
+"h": "note: particle",
+"k": "words"
+},
+{
+"f": "e",
+"b": "marks the direct object",
+"s": "tokiponavocab",
+"g": "Particles and grammar words",
+"h": "note: particle",
+"k": "words"
+},
+{
+"f": "en",
+"b": "and (joins subjects)",
+"s": "tokiponavocab",
+"g": "Particles and grammar words",
+"h": "note: particle",
+"k": "words"
+},
+{
+"f": "la",
+"b": "marks context: if, when",
+"s": "tokiponavocab",
+"g": "Particles and grammar words",
+"h": "note: particle",
+"k": "words"
+},
+{
+"f": "li",
+"b": "separates subject from verb",
+"s": "tokiponavocab",
+"g": "Particles and grammar words",
+"h": "note: not after mi or sina alone",
+"k": "words"
+},
+{
+"f": "o",
+"b": "hey!; marks a command or wish",
+"s": "tokiponavocab",
+"g": "Particles and grammar words",
+"h": "note: particle",
+"k": "words"
+},
+{
+"f": "pi",
+"b": "of (regroups modifiers)",
+"s": "tokiponavocab",
+"g": "Particles and grammar words",
+"h": "note: particle",
+"k": "words"
+},
+{
+"f": "taso",
+"b": "but; only",
+"s": "tokiponavocab",
+"g": "Particles and grammar words",
+"k": "words"
+},
+{
+"f": "kin",
+"b": "also, indeed, too",
+"s": "tokiponavocab",
+"g": "Particles and grammar words",
+"h": "note: ku suli",
+"k": "words"
+},
+{
+"f": "n",
+"b": "hmm (thinking)",
+"s": "tokiponavocab",
+"g": "Particles and grammar words",
+"h": "note: ku suli",
+"k": "words"
+},
+{
+"f": "ona",
+"b": "he, she, it, they",
+"s": "tokiponavocab",
+"g": "Pronouns and people",
+"k": "words"
+},
+{
+"f": "mama",
+"b": "parent, mother, father, caretaker",
+"s": "tokiponavocab",
+"g": "Pronouns and people",
+"k": "words"
+},
+{
+"f": "tu",
+"b": "two; to divide",
+"s": "tokiponavocab",
+"g": "Numbers and quantity",
+"k": "words"
+},
+{
+"f": "ale",
+"b": "all, every; life, universe",
+"s": "tokiponavocab",
+"g": "Numbers and quantity",
+"h": "note: also written ali",
+"k": "words"
+},
+{
+"f": "nanpa",
+"b": "number; -th (ordinal)",
+"s": "tokiponavocab",
+"g": "Numbers and quantity",
+"k": "words"
+},
+{
+"f": "tenpo",
+"b": "time, moment, period",
+"s": "tokiponavocab",
+"g": "Time and place",
+"k": "words"
+},
+{
+"f": "pini",
+"b": "finished, past; end",
+"s": "tokiponavocab",
+"g": "Time and place",
+"k": "words"
+},
+{
+"f": "open",
+"b": "to begin, to open",
+"s": "tokiponavocab",
+"g": "Time and place",
+"k": "words"
+},
+{
+"f": "awen",
+"b": "to stay, to wait; still",
+"s": "tokiponavocab",
+"g": "Time and place",
+"k": "words"
+},
+{
+"f": "lon",
+"b": "at, in, on; to exist, true",
+"s": "tokiponavocab",
+"g": "Time and place",
+"k": "words"
+},
+{
+"f": "tawa",
+"b": "to, towards; for; to go, to move",
+"s": "tokiponavocab",
+"g": "Time and place",
+"k": "words"
+},
+{
+"f": "tan",
+"b": "from, because of",
+"s": "tokiponavocab",
+"g": "Time and place",
+"k": "words"
+},
+{
+"f": "poka",
+"b": "side, hip; nearby, with",
+"s": "tokiponavocab",
+"g": "Time and place",
+"k": "words"
+},
+{
+"f": "insa",
+"b": "inside, stomach",
+"s": "tokiponavocab",
+"g": "Time and place",
+"k": "words"
+},
+{
+"f": "monsi",
+"b": "back, rear",
+"s": "tokiponavocab",
+"g": "Time and place",
+"k": "words"
+},
+{
+"f": "sinpin",
+"b": "front, face, wall",
+"s": "tokiponavocab",
+"g": "Time and place",
+"k": "words"
+},
+{
+"f": "anpa",
+"b": "down, below; humble",
+"s": "tokiponavocab",
+"g": "Time and place",
+"k": "words"
+},
+{
+"f": "weka",
+"b": "away, absent",
+"s": "tokiponavocab",
+"g": "Time and place",
+"k": "words"
+},
+{
+"f": "ma",
+"b": "land, country, earth, outdoors",
+"s": "tokiponavocab",
+"g": "Time and place",
+"k": "words"
+},
+{
+"f": "nasin",
+"b": "way, road, method",
+"s": "tokiponavocab",
+"g": "Time and place",
+"k": "words"
+},
+{
+"f": "suno",
+"b": "sun, light",
+"s": "tokiponavocab",
+"g": "Nature",
+"k": "words"
+},
+{
+"f": "mun",
+"b": "moon, star, night sky object",
+"s": "tokiponavocab",
+"g": "Nature",
+"k": "words"
+},
+{
+"f": "kon",
+"b": "air, spirit, essence",
+"s": "tokiponavocab",
+"g": "Nature",
+"k": "words"
+},
+{
+"f": "seli",
+"b": "fire, heat; warm",
+"s": "tokiponavocab",
+"g": "Nature",
+"k": "words"
+},
+{
+"f": "lete",
+"b": "cold; raw",
+"s": "tokiponavocab",
+"g": "Nature",
+"k": "words"
+},
+{
+"f": "kiwen",
+"b": "stone, hard thing, metal",
+"s": "tokiponavocab",
+"g": "Nature",
+"k": "words"
+},
+{
+"f": "ko",
+"b": "paste, powder, semi-solid",
+"s": "tokiponavocab",
+"g": "Nature",
+"k": "words"
+},
+{
+"f": "lupa",
+"b": "hole, door, window",
+"s": "tokiponavocab",
+"g": "Nature",
+"k": "words"
+},
+{
+"f": "nena",
+"b": "bump, hill, nose",
+"s": "tokiponavocab",
+"g": "Nature",
+"k": "words"
+},
+{
+"f": "mu",
+"b": "animal noise (moo, woof)",
+"s": "tokiponavocab",
+"g": "Animals",
+"k": "words"
+},
+{
+"f": "kijetesantakalu",
+"b": "raccoon (and related animals)",
+"s": "tokiponavocab",
+"g": "Animals",
+"h": "note: ku suli, a joke word",
+"k": "words"
+},
+{
+"f": "monsuta",
+"b": "fear; monster",
+"s": "tokiponavocab",
+"g": "Animals",
+"h": "note: ku suli",
+"k": "words"
+},
+{
+"f": "sijelo",
+"b": "body; physical state",
+"s": "tokiponavocab",
+"g": "Body",
+"k": "words"
+},
+{
+"f": "lawa",
+"b": "head, mind; to lead",
+"s": "tokiponavocab",
+"g": "Body",
+"k": "words"
+},
+{
+"f": "uta",
+"b": "mouth, lips",
+"s": "tokiponavocab",
+"g": "Body",
+"k": "words"
+},
+{
+"f": "luka",
+"b": "hand, arm; five",
+"s": "tokiponavocab",
+"g": "Body",
+"k": "words"
+},
+{
+"f": "noka",
+"b": "foot, leg; bottom",
+"s": "tokiponavocab",
+"g": "Body",
+"k": "words"
+},
+{
+"f": "selo",
+"b": "skin, outer layer, shell",
+"s": "tokiponavocab",
+"g": "Body",
+"k": "words"
+},
+{
+"f": "linja",
+"b": "long flexible thing: hair, rope",
+"s": "tokiponavocab",
+"g": "Body",
+"k": "words"
+},
+{
+"f": "ilo",
+"b": "tool, device, machine",
+"s": "tokiponavocab",
+"g": "Things and tools",
+"k": "words"
+},
+{
+"f": "len",
+"b": "cloth, clothing; hidden",
+"s": "tokiponavocab",
+"g": "Things and tools",
+"k": "words"
+},
+{
+"f": "poki",
+"b": "container, box, bag",
+"s": "tokiponavocab",
+"g": "Things and tools",
+"k": "words"
+},
+{
+"f": "supa",
+"b": "flat surface: table, bed, floor",
+"s": "tokiponavocab",
+"g": "Things and tools",
+"k": "words"
+},
+{
+"f": "palisa",
+"b": "stick, rod, long hard thing",
+"s": "tokiponavocab",
+"g": "Things and tools",
+"k": "words"
+},
+{
+"f": "sike",
+"b": "circle, ball, cycle; year",
+"s": "tokiponavocab",
+"g": "Things and tools",
+"k": "words"
+},
+{
+"f": "mani",
+"b": "money, wealth; large domestic animal",
+"s": "tokiponavocab",
+"g": "Things and tools",
+"k": "words"
+},
+{
+"f": "esun",
+"b": "market, shop, trade",
+"s": "tokiponavocab",
+"g": "Things and tools",
+"k": "words"
+},
+{
+"f": "kipisi",
+"b": "to cut; a piece",
+"s": "tokiponavocab",
+"g": "Things and tools",
+"h": "note: ku suli",
+"k": "words"
+},
+{
+"f": "leko",
+"b": "square, block, stairs",
+"s": "tokiponavocab",
+"g": "Things and tools",
+"h": "note: ku suli",
+"k": "words"
+},
+{
+"f": "lape",
+"b": "to sleep, to rest",
+"s": "tokiponavocab",
+"g": "Actions",
+"k": "words"
+},
+{
+"f": "pana",
+"b": "to give, to send, to emit",
+"s": "tokiponavocab",
+"g": "Actions",
+"k": "words"
+},
+{
+"f": "kama",
+"b": "to come, to become; future",
+"s": "tokiponavocab",
+"g": "Actions",
+"k": "words"
+},
+{
+"f": "ken",
+"b": "can, may; possibility",
+"s": "tokiponavocab",
+"g": "Actions",
+"k": "words"
+},
+{
+"f": "wile",
+"b": "to want, to need, must",
+"s": "tokiponavocab",
+"g": "Actions",
+"k": "words"
+},
+{
+"f": "nimi",
+"b": "name, word",
+"s": "tokiponavocab",
+"g": "Actions",
+"k": "words"
+},
+{
+"f": "kalama",
+"b": "sound, noise; to make a sound",
+"s": "tokiponavocab",
+"g": "Actions",
+"k": "words"
+},
+{
+"f": "kepeken",
+"b": "to use; with (a tool)",
+"s": "tokiponavocab",
+"g": "Actions",
+"k": "words"
+},
+{
+"f": "utala",
+"b": "to fight, conflict, to compete",
+"s": "tokiponavocab",
+"g": "Actions",
+"k": "words"
+},
+{
+"f": "pakala",
+"b": "broken, damaged; oops!",
+"s": "tokiponavocab",
+"g": "Actions",
+"k": "words"
+},
+{
+"f": "jaki",
+"b": "dirty, gross, toxic",
+"s": "tokiponavocab",
+"g": "Actions",
+"k": "words"
+},
+{
+"f": "sama",
+"b": "same, similar; like, as",
+"s": "tokiponavocab",
+"g": "Qualities",
+"k": "words"
+},
+{
+"f": "ante",
+"b": "different, other; to change",
+"s": "tokiponavocab",
+"g": "Qualities",
+"k": "words"
+},
+{
+"f": "suwi",
+"b": "sweet, cute",
+"s": "tokiponavocab",
+"g": "Qualities",
+"k": "words"
+},
+{
+"f": "pimeja",
+"b": "black, dark",
+"s": "tokiponavocab",
+"g": "Qualities",
+"k": "words"
+},
+{
+"f": "walo",
+"b": "white, light-coloured",
+"s": "tokiponavocab",
+"g": "Qualities",
+"k": "words"
+},
+{
+"f": "loje",
+"b": "red",
+"s": "tokiponavocab",
+"g": "Qualities",
+"k": "words"
+},
+{
+"f": "jelo",
+"b": "yellow",
+"s": "tokiponavocab",
+"g": "Qualities",
+"k": "words"
+},
+{
+"f": "laso",
+"b": "blue, green",
+"s": "tokiponavocab",
+"g": "Qualities",
+"k": "words"
+},
+{
+"f": "kule",
+"b": "colour; colourful",
+"s": "tokiponavocab",
+"g": "Qualities",
+"k": "words"
+},
+{
+"f": "seme",
+"b": "what? which?",
+"s": "tokiponavocab",
+"g": "Qualities",
+"h": "note: question word",
+"k": "words"
+},
+{
+"f": "jasima",
+"b": "to reflect, to mirror",
+"s": "tokiponavocab",
+"g": "Qualities",
+"h": "note: ku suli",
+"k": "words"
+},
+{
+"f": "tonsi",
+"b": "non-binary, gender-nonconforming",
+"s": "tokiponavocab",
+"g": "Qualities",
+"h": "note: ku suli",
+"k": "words"
+},
+{
+"f": "namako",
+"b": "spice; extra",
+"s": "tokiponavocab",
+"g": "Qualities",
+"h": "note: ku suli",
+"k": "words"
+},
+{
+"f": "soko",
+"b": "mushroom, fungus",
+"s": "tokiponavocab",
+"g": "Qualities",
+"h": "note: ku suli",
+"k": "words"
+},
+{
+"f": "meso",
+"b": "middle, medium, average",
+"s": "tokiponavocab",
+"g": "Qualities",
+"h": "note: ku suli",
+"k": "words"
+},
+{
+"f": "epiku",
+"b": "epic, cool",
+"s": "tokiponavocab",
+"g": "Qualities",
+"h": "note: ku suli",
+"k": "words"
+},
+{
+"f": "lanpan",
+"b": "to take, to seize",
+"s": "tokiponavocab",
+"g": "Qualities",
+"h": "note: ku suli",
+"k": "words"
+},
+{
+"f": "misikeke",
+"b": "medicine",
+"s": "tokiponavocab",
+"g": "Qualities",
+"h": "note: ku suli",
+"k": "words"
+},
+{
+"f": "pu",
+"b": "the official Toki Pona book; to interact with it",
+"s": "tokiponavocab",
+"g": "Qualities",
+"k": "words"
+},
+{
+"f": "ku",
+"b": "the Toki Pona dictionary book",
+"s": "tokiponavocab",
+"g": "Qualities",
+"h": "note: ku suli",
+"k": "words"
 },
 {
 "f": "jan",
 "b": "person",
 "h": "n. person, people, human, being, somebody, anybody",
 "s": "tokiponavocab",
-"g": "Living things"
+"g": "Living things",
+"k": "words"
 },
 {
 "f": "soweli",
 "b": "animal",
 "h": "animal, especially land mammal, lovable animal",
 "s": "tokiponavocab",
-"g": "Living things"
+"g": "Living things",
+"k": "words"
 },
 {
 "f": "waso",
 "b": "bird",
 "h": "bird, winged animal",
 "s": "tokiponavocab",
-"g": "Living things"
+"g": "Living things",
+"k": "words"
 },
 {
 "f": "kala",
 "b": "fish",
 "h": "fish, sea creature",
 "s": "tokiponavocab",
-"g": "Living things"
+"g": "Living things",
+"k": "words"
 },
 {
 "f": "akesi",
 "b": "non-cute animal",
 "h": "n. non-cute animal, reptile, amphibian",
 "s": "tokiponavocab",
-"g": "Living things"
+"g": "Living things",
+"k": "words"
 },
 {
 "f": "pipi",
 "b": "bug",
 "h": "bug, insect, spider",
 "s": "tokiponavocab",
-"g": "Living things"
+"g": "Living things",
+"k": "words"
 },
 {
 "f": "kasi",
 "b": "plant",
 "h": "plant, leaf, herb, tree, wood",
 "s": "tokiponavocab",
-"g": "Plants and food"
+"g": "Plants and food",
+"k": "words"
 },
 {
 "f": "kili",
 "b": "fruit",
 "h": "fruit, pulpy vegetable, mushroom",
 "s": "tokiponavocab",
-"g": "Plants and food"
+"g": "Plants and food",
+"k": "words"
 },
 {
 "f": "pan",
 "b": "grain",
 "h": "grain, cereal",
 "s": "tokiponavocab",
-"g": "Plants and food"
+"g": "Plants and food",
+"k": "words"
 },
 {
 "f": "alasa",
 "b": "to gather",
 "h": "vt. to gather, to collect food, resources or material needed for daily life and survival; to gather, harvest",
 "s": "tokiponavocab",
-"g": "Doing and making"
+"g": "Doing and making",
+"k": "words"
 },
 {
 "f": "musi",
 "b": "fun",
 "h": "n. fun, playing, game, recreation, art, entertainment",
 "s": "tokiponavocab",
-"g": "Doing and making"
+"g": "Doing and making",
+"k": "words"
 },
 {
 "f": "sitelen",
 "b": "picture",
 "h": "n. picture, image",
 "s": "tokiponavocab",
-"g": "Doing and making"
+"g": "Doing and making",
+"k": "words"
+},
+{
+"f": "toki!",
+"b": "hello!",
+"s": "tokipona-phrases",
+"g": "Greetings",
+"k": "phrases"
+},
+{
+"f": "toki pona!",
+"b": "hello! (literally good talk)",
+"s": "tokipona-phrases",
+"g": "Greetings",
+"k": "phrases"
+},
+{
+"f": "mi pona.",
+"b": "I'm well.",
+"s": "tokipona-phrases",
+"g": "Greetings",
+"k": "phrases"
+},
+{
+"f": "sina pona ala pona?",
+"b": "are you well?",
+"s": "tokipona-phrases",
+"g": "Greetings",
+"h": "note: X ala X makes a yes/no question",
+"k": "phrases"
+},
+{
+"f": "pona!",
+"b": "thanks! good!",
+"s": "tokipona-phrases",
+"g": "Greetings",
+"k": "phrases"
+},
+{
+"f": "pona tawa sina.",
+"b": "thanks to you; good to you",
+"s": "tokipona-phrases",
+"g": "Greetings",
+"k": "phrases"
+},
+{
+"f": "tawa pona!",
+"b": "goodbye (to someone leaving), have a good journey",
+"s": "tokipona-phrases",
+"g": "Greetings",
+"k": "phrases"
+},
+{
+"f": "awen pona!",
+"b": "goodbye (to someone staying)",
+"s": "tokipona-phrases",
+"g": "Greetings",
+"k": "phrases"
+},
+{
+"f": "lape pona!",
+"b": "sleep well!",
+"s": "tokipona-phrases",
+"g": "Greetings",
+"k": "phrases"
+},
+{
+"f": "moku pona!",
+"b": "enjoy your meal!",
+"s": "tokipona-phrases",
+"g": "Greetings",
+"k": "phrases"
+},
+{
+"f": "kama pona!",
+"b": "welcome!",
+"s": "tokipona-phrases",
+"g": "Greetings",
+"k": "phrases"
+},
+{
+"f": "mi pilin pona.",
+"b": "I feel good.",
+"s": "tokipona-phrases",
+"g": "Greetings",
+"k": "phrases"
+},
+{
+"f": "mi pilin ike.",
+"b": "I feel bad.",
+"s": "tokipona-phrases",
+"g": "Greetings",
+"k": "phrases"
+},
+{
+"f": "mi pakala.",
+"b": "I'm sorry; my mistake.",
+"s": "tokipona-phrases",
+"g": "Greetings",
+"k": "phrases"
+},
+{
+"f": "pakala!",
+"b": "damn! oops!",
+"s": "tokipona-phrases",
+"g": "Greetings",
+"k": "phrases"
+},
+{
+"f": "ike a!",
+"b": "oh no!",
+"s": "tokipona-phrases",
+"g": "Greetings",
+"k": "phrases"
+},
+{
+"f": "nimi sina li seme?",
+"b": "what's your name?",
+"s": "tokipona-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "nimi mi li Wiki.",
+"b": "my name is Wiki.",
+"s": "tokipona-phrases",
+"g": "Getting to know someone",
+"h": "note: names are proper adjectives: jan Wiki",
+"k": "phrases"
+},
+{
+"f": "mi jan Wiki.",
+"b": "I'm Wiki.",
+"s": "tokipona-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "sina tan ma seme?",
+"b": "where are you from?",
+"s": "tokipona-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "mi tan ma ni.",
+"b": "I'm from this country.",
+"s": "tokipona-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "sina lon ma seme?",
+"b": "where are you?",
+"s": "tokipona-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "mi lon tomo.",
+"b": "I'm at home.",
+"s": "tokipona-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "sina pali e seme?",
+"b": "what do you do?",
+"s": "tokipona-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "sina sona ala sona toki pona?",
+"b": "do you know Toki Pona?",
+"s": "tokipona-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "mi sona lili e toki pona.",
+"b": "I know a little Toki Pona.",
+"s": "tokipona-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "mi kama sona e toki pona.",
+"b": "I'm learning Toki Pona.",
+"s": "tokipona-phrases",
+"g": "Getting to know someone",
+"h": "note: kama sona = come to know",
+"k": "phrases"
+},
+{
+"f": "toki pona li pona tawa mi.",
+"b": "I like Toki Pona.",
+"s": "tokipona-phrases",
+"g": "Getting to know someone",
+"h": "note: X li pona tawa mi = I like X",
+"k": "phrases"
+},
+{
+"f": "mi sona ala.",
+"b": "I don't know; I don't understand.",
+"s": "tokipona-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "sina ken ala ken toki sin?",
+"b": "can you say it again?",
+"s": "tokipona-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "ni li seme?",
+"b": "what is this?",
+"s": "tokipona-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "nimi ni li seme?",
+"b": "what does this word mean?",
+"s": "tokipona-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "mi sona.",
+"b": "I understand; I know.",
+"s": "tokipona-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "lon.",
+"b": "yes; true.",
+"s": "tokipona-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "ala.",
+"b": "no.",
+"s": "tokipona-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "lon a!",
+"b": "that's right!",
+"s": "tokipona-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "ken.",
+"b": "maybe.",
+"s": "tokipona-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "ni li pona.",
+"b": "this is good.",
+"s": "tokipona-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "ni li ike.",
+"b": "this is bad.",
+"s": "tokipona-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "ni li nasa!",
+"b": "that's weird!",
+"s": "tokipona-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "mi wile moku.",
+"b": "I want to eat; I'm hungry.",
+"s": "tokipona-phrases",
+"g": "Needs and everyday life",
+"k": "phrases"
+},
+{
+"f": "mi wile moku e telo.",
+"b": "I want to drink water.",
+"s": "tokipona-phrases",
+"g": "Needs and everyday life",
+"k": "phrases"
+},
+{
+"f": "mi wile lape.",
+"b": "I'm sleepy.",
+"s": "tokipona-phrases",
+"g": "Needs and everyday life",
+"k": "phrases"
+},
+{
+"f": "mi wile tawa tomo.",
+"b": "I want to go home.",
+"s": "tokipona-phrases",
+"g": "Needs and everyday life",
+"k": "phrases"
+},
+{
+"f": "mi wile e ni.",
+"b": "I want this.",
+"s": "tokipona-phrases",
+"g": "Needs and everyday life",
+"k": "phrases"
+},
+{
+"f": "mi wile ala e ni.",
+"b": "I don't want this.",
+"s": "tokipona-phrases",
+"g": "Needs and everyday life",
+"k": "phrases"
+},
+{
+"f": "o pana e ni tawa mi.",
+"b": "give this to me.",
+"s": "tokipona-phrases",
+"g": "Needs and everyday life",
+"k": "phrases"
+},
+{
+"f": "o kama!",
+"b": "come!",
+"s": "tokipona-phrases",
+"g": "Needs and everyday life",
+"k": "phrases"
+},
+{
+"f": "o awen!",
+"b": "wait!",
+"s": "tokipona-phrases",
+"g": "Needs and everyday life",
+"k": "phrases"
+},
+{
+"f": "o lukin!",
+"b": "look!",
+"s": "tokipona-phrases",
+"g": "Needs and everyday life",
+"k": "phrases"
+},
+{
+"f": "o kute!",
+"b": "listen!",
+"s": "tokipona-phrases",
+"g": "Needs and everyday life",
+"k": "phrases"
+},
+{
+"f": "o pona!",
+"b": "take care!",
+"s": "tokipona-phrases",
+"g": "Needs and everyday life",
+"k": "phrases"
+},
+{
+"f": "mi tawa.",
+"b": "I'm going; bye.",
+"s": "tokipona-phrases",
+"g": "Needs and everyday life",
+"k": "phrases"
+},
+{
+"f": "tomo telo li lon seme?",
+"b": "where is the bathroom?",
+"s": "tokipona-phrases",
+"g": "Needs and everyday life",
+"k": "phrases"
+},
+{
+"f": "tenpo ni la mi pali.",
+"b": "right now I'm working.",
+"s": "tokipona-phrases",
+"g": "Needs and everyday life",
+"k": "phrases"
+},
+{
+"f": "tenpo kama la mi tawa.",
+"b": "later I'll go.",
+"s": "tokipona-phrases",
+"g": "Needs and everyday life",
+"k": "phrases"
+},
+{
+"f": "mi olin e sina.",
+"b": "I love you.",
+"s": "tokipona-phrases",
+"g": "Needs and everyday life",
+"k": "phrases"
+},
+{
+"f": "sina pona mute!",
+"b": "you're great!",
+"s": "tokipona-phrases",
+"g": "Needs and everyday life",
+"k": "phrases"
+},
+{
+"f": "o pona e mi!",
+"b": "help me! fix me!",
+"s": "tokipona-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "mi wile e jan pi misikeke.",
+"b": "I need a doctor.",
+"s": "tokipona-phrases",
+"g": "Feelings and help",
+"h": "note: ku suli word misikeke",
+"k": "phrases"
+},
+{
+"f": "mi pilin lete.",
+"b": "I'm cold.",
+"s": "tokipona-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "mi pilin seli.",
+"b": "I'm hot.",
+"s": "tokipona-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "mi pilin wawa.",
+"b": "I feel strong.",
+"s": "tokipona-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "mi pilin pakala.",
+"b": "I feel hurt.",
+"s": "tokipona-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "mi pilin musi.",
+"b": "I'm having fun.",
+"s": "tokipona-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "o musi!",
+"b": "have fun!",
+"s": "tokipona-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "pona tawa tenpo sike sin!",
+"b": "happy new year!",
+"s": "tokipona-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "sina wile e seme?",
+"b": "what do you want?",
+"s": "tokipona-phrases",
+"g": "More everyday phrases",
+"k": "phrases"
+},
+{
+"f": "sina pali e seme?",
+"b": "what are you doing?",
+"s": "tokipona-phrases",
+"g": "More everyday phrases",
+"k": "phrases"
+},
+{
+"f": "sina tawa seme?",
+"b": "where are you going?",
+"s": "tokipona-phrases",
+"g": "More everyday phrases",
+"k": "phrases"
+},
+{
+"f": "mi tawa esun.",
+"b": "I'm going to the shop.",
+"s": "tokipona-phrases",
+"g": "More everyday phrases",
+"k": "phrases"
+},
+{
+"f": "mi tawa tomo mi.",
+"b": "I'm going to my house.",
+"s": "tokipona-phrases",
+"g": "More everyday phrases",
+"k": "phrases"
+},
+{
+"f": "sina wile ala wile moku?",
+"b": "do you want to eat?",
+"s": "tokipona-phrases",
+"g": "More everyday phrases",
+"k": "phrases"
+},
+{
+"f": "mi wile.",
+"b": "I want to; yes.",
+"s": "tokipona-phrases",
+"g": "More everyday phrases",
+"k": "phrases"
+},
+{
+"f": "mi wile ala.",
+"b": "I don't want to; no.",
+"s": "tokipona-phrases",
+"g": "More everyday phrases",
+"k": "phrases"
+},
+{
+"f": "mi ken.",
+"b": "I can.",
+"s": "tokipona-phrases",
+"g": "More everyday phrases",
+"k": "phrases"
+},
+{
+"f": "mi ken ala.",
+"b": "I can't.",
+"s": "tokipona-phrases",
+"g": "More everyday phrases",
+"k": "phrases"
+},
+{
+"f": "ni li tenpo pona.",
+"b": "this is a good time.",
+"s": "tokipona-phrases",
+"g": "More everyday phrases",
+"k": "phrases"
+},
+{
+"f": "tenpo ni li pona.",
+"b": "now is good.",
+"s": "tokipona-phrases",
+"g": "More everyday phrases",
+"k": "phrases"
+},
+{
+"f": "o pana e telo.",
+"b": "give (some) water.",
+"s": "tokipona-phrases",
+"g": "More everyday phrases",
+"k": "phrases"
+},
+{
+"f": "mi jo e ni.",
+"b": "I have this.",
+"s": "tokipona-phrases",
+"g": "More everyday phrases",
+"k": "phrases"
+},
+{
+"f": "mi jo ala e mani.",
+"b": "I have no money.",
+"s": "tokipona-phrases",
+"g": "More everyday phrases",
+"k": "phrases"
+},
+{
+"f": "sina jo ala jo e soweli?",
+"b": "do you have a pet?",
+"s": "tokipona-phrases",
+"g": "More everyday phrases",
+"k": "phrases"
+},
+{
+"f": "mi jo e soweli tu.",
+"b": "I have two animals.",
+"s": "tokipona-phrases",
+"g": "More everyday phrases",
+"k": "phrases"
+},
+{
+"f": "soweli mi li suwi.",
+"b": "my animal is cute.",
+"s": "tokipona-phrases",
+"g": "More everyday phrases",
+"k": "phrases"
+},
+{
+"f": "mi lukin e sina.",
+"b": "I see you.",
+"s": "tokipona-phrases",
+"g": "More everyday phrases",
+"k": "phrases"
+},
+{
+"f": "mi kute e sina.",
+"b": "I hear you.",
+"s": "tokipona-phrases",
+"g": "More everyday phrases",
+"k": "phrases"
+},
+{
+"f": "pona mute!",
+"b": "very good! thanks a lot!",
+"s": "tokipona-phrases",
+"g": "More everyday phrases",
+"k": "phrases"
+},
+{
+"f": "ni li musi mute!",
+"b": "this is a lot of fun!",
+"s": "tokipona-phrases",
+"g": "More everyday phrases",
+"k": "phrases"
+},
+{
+"f": "mi moku.",
+"b": "I'm eating.",
+"s": "tokipona-phrases",
+"g": "More everyday phrases",
+"k": "phrases"
+},
+{
+"f": "moku ni li suwi.",
+"b": "this food is sweet.",
+"s": "tokipona-phrases",
+"g": "More everyday phrases",
+"k": "phrases"
+},
+{
+"f": "o toki tawa mi.",
+"b": "talk to me.",
+"s": "tokipona-phrases",
+"g": "More everyday phrases",
+"k": "phrases"
+},
+{
+"f": "toki mute!",
+"b": "so much talk!",
+"s": "tokipona-phrases",
+"g": "More everyday phrases",
+"k": "phrases"
+},
+{
+"f": "mi wile sona.",
+"b": "I want to know.",
+"s": "tokipona-phrases",
+"g": "More everyday phrases",
+"k": "phrases"
+},
+{
+"f": "o tawa pona!",
+"b": "go well!",
+"s": "tokipona-phrases",
+"g": "More everyday phrases",
+"k": "phrases"
+},
+{
+"f": "o lape pona!",
+"b": "sleep well!",
+"s": "tokipona-phrases",
+"g": "More everyday phrases",
+"k": "phrases"
+},
+{
+"f": "tenpo pona!",
+"b": "good times!",
+"s": "tokipona-phrases",
+"g": "More everyday phrases",
+"k": "phrases"
+},
+{
+"f": "mi kama!",
+"b": "I'm coming!",
+"s": "tokipona-phrases",
+"g": "More everyday phrases",
+"k": "phrases"
+},
+{
+"f": "ona li seme?",
+"b": "what is it? who is it?",
+"s": "tokipona-phrases",
+"g": "More everyday phrases",
+"k": "phrases"
+},
+{
+"f": "ona li jan seme?",
+"b": "who is that person?",
+"s": "tokipona-phrases",
+"g": "More everyday phrases",
+"k": "phrases"
+},
+{
+"f": "mi moku.",
+"b": "I eat; I'm eating.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"h": "note: no li after mi",
+"k": "sentences"
+},
+{
+"f": "sina pona.",
+"b": "You are good.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "jan li moku.",
+"b": "The person eats.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"h": "note: li separates subject and predicate",
+"k": "sentences"
+},
+{
+"f": "ona li suli.",
+"b": "He/she is big; it is important.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "mi moku e kili.",
+"b": "I eat fruit.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"h": "note: e marks the object",
+"k": "sentences"
+},
+{
+"f": "jan li lukin e waso.",
+"b": "The person sees the bird.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "mi jan pona sina.",
+"b": "I am your friend.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"h": "note: jan pona = friend",
+"k": "sentences"
+},
+{
+"f": "tomo mi li lili.",
+"b": "My house is small.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"h": "note: modifiers follow the noun",
+"k": "sentences"
+},
+{
+"f": "mi tawa tomo.",
+"b": "I go home.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"h": "note: tawa as a verb, no preposition needed",
+"k": "sentences"
+},
+{
+"f": "mi tawa ma tomo.",
+"b": "I'm going to the city.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"h": "note: ma tomo = city",
+"k": "sentences"
+},
+{
+"f": "mi lon tomo.",
+"b": "I am at home.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"h": "note: lon = to be at",
+"k": "sentences"
+},
+{
+"f": "soweli li lape lon supa.",
+"b": "The animal sleeps on the bed.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "mi pana e lipu tawa sina.",
+"b": "I give the book to you.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"h": "note: tawa = to (a recipient)",
+"k": "sentences"
+},
+{
+"f": "mi pali kepeken ilo.",
+"b": "I work with a tool.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"h": "note: kepeken = using",
+"k": "sentences"
+},
+{
+"f": "mi wile moku.",
+"b": "I want to eat.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"h": "note: wile before a verb",
+"k": "sentences"
+},
+{
+"f": "mi ken toki e toki pona.",
+"b": "I can speak Toki Pona.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"h": "note: ken before a verb",
+"k": "sentences"
+},
+{
+"f": "mi sona ala e nimi ni.",
+"b": "I don't know this word.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"h": "note: ala follows what it negates",
+"k": "sentences"
+},
+{
+"f": "sina moku ala moku?",
+"b": "Do you eat? / Are you eating?",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"h": "note: verb ala verb = yes/no question",
+"k": "sentences"
+},
+{
+"f": "jan seme li kama?",
+"b": "Who is coming?",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "tenpo pini la mi lili.",
+"b": "In the past, I was small.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"h": "note: context + la",
+"k": "sentences"
+},
+{
+"f": "tenpo kama la mi tawa ma ante.",
+"b": "In the future I'll go to another country.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "tenpo ni la mi pali.",
+"b": "Now I am working.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "sina kama la mi pilin pona.",
+"b": "If you come, I'll be happy.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"h": "note: a clause before la gives the condition",
+"k": "sentences"
+},
+{
+"f": "telo li kama tan sewi.",
+"b": "Water comes from the sky; it's raining.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "suno li seli.",
+"b": "The sun is hot.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "tenpo pimeja li kama.",
+"b": "Night is coming.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "mi en sina li jan pona.",
+"b": "You and I are friends.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"h": "note: en joins subjects",
+"k": "sentences"
+},
+{
+"f": "mi moku e kili e pan.",
+"b": "I eat fruit and bread.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"h": "note: repeat e for several objects",
+"k": "sentences"
+},
+{
+"f": "ona li moku li lape.",
+"b": "He eats and sleeps.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"h": "note: repeat li for several predicates",
+"k": "sentences"
+},
+{
+"f": "jan pi toki pona li mute.",
+"b": "Toki Pona speakers are many.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"h": "note: pi regroups: person of good-language",
+"k": "sentences"
+},
+{
+"f": "tomo pi jan pona mi li suli.",
+"b": "My friend's house is big.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "lipu ni li pona tawa mi.",
+"b": "I like this book.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"h": "note: pona tawa mi = good to me",
+"k": "sentences"
+},
+{
+"f": "mi olin e mama mi.",
+"b": "I love my parent(s).",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "o moku!",
+"b": "Eat!",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"h": "note: o + verb = command",
+"k": "sentences"
+},
+{
+"f": "jan Wiki o, kama!",
+"b": "Wiki, come here!",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"h": "note: name + o = calling someone",
+"k": "sentences"
+},
+{
+"f": "mi wile e ni: sina pona.",
+"b": "I want this: that you are well.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"h": "note: ni: introduces a clause",
+"k": "sentences"
+},
+{
+"f": "mi sona e ni: ona li jan pona.",
+"b": "I know that he is a good person.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "mi pilin e ni: ni li ike.",
+"b": "I feel that this is bad.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "ilo sona li pona tawa pali.",
+"b": "Computers are good for work.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"h": "note: ilo sona = computer",
+"k": "sentences"
+},
+{
+"f": "mi kepeken ilo toki.",
+"b": "I'm using a phone.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"h": "note: ilo toki = phone",
+"k": "sentences"
+},
+{
+"f": "kalama musi li pona tawa mi.",
+"b": "I like music.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"h": "note: kalama musi = music",
+"k": "sentences"
+},
+{
+"f": "mi wile tawa tomo moku.",
+"b": "I want to go to a restaurant.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"h": "note: tomo moku = restaurant",
+"k": "sentences"
+},
+{
+"f": "jan lili li musi.",
+"b": "The child is playing.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"h": "note: jan lili = child",
+"k": "sentences"
+},
+{
+"f": "ona li pakala e ilo.",
+"b": "He broke the tool.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "mi awen lon tomo.",
+"b": "I'm staying at home.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "nasin ni li tawa ma tomo.",
+"b": "This road goes to the city.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "jan ale li jan sama.",
+"b": "All people are siblings.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"h": "note: jan sama = sibling",
+"k": "sentences"
+},
+{
+"f": "toki pona li toki lili.",
+"b": "Toki Pona is a small language.",
+"s": "tokipona-sentences",
+"g": "Toki Pona: Example Sentences",
+"k": "sentences"
 }
 ]
 }

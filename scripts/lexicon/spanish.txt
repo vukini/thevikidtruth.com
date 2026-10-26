@@ -1,0 +1,483 @@
+# words
+## Greetings and basics
+hola | hello
+adiós | goodbye
+gracias | thank you
+por favor | please
+de nada | you're welcome
+perdón | sorry, excuse me
+sí | yes
+no | no
+vale | OK | Spain
+bueno | good, well
+## People and family
+la persona | person
+el hombre | man
+la mujer | woman; wife
+el niño | boy, child
+la niña | girl
+el amigo | friend (m)
+la amiga | friend (f)
+la familia | family
+el padre | father
+la madre | mother
+el hermano | brother
+la hermana | sister
+el hijo | son
+la hija | daughter
+el abuelo | grandfather
+la abuela | grandmother
+el esposo | husband
+el tío | uncle
+la tía | aunt
+el primo | cousin (m)
+el vecino | neighbour
+la gente | people | singular in Spanish: la gente es
+## Numbers
+cero | zero
+uno | one
+dos | two
+tres | three
+cuatro | four
+cinco | five
+seis | six
+siete | seven
+ocho | eight
+nueve | nine
+diez | ten
+once | eleven
+doce | twelve
+quince | fifteen
+veinte | twenty
+treinta | thirty
+cuarenta | forty
+cincuenta | fifty
+cien | one hundred
+mil | one thousand
+primero | first
+segundo | second
+último | last
+## Time
+el día | day | masculine despite -a
+la semana | week
+el mes | month
+el año | year
+la hora | hour; time (of day)
+el minuto | minute
+hoy | today
+mañana | tomorrow; morning (la mañana)
+ayer | yesterday
+ahora | now
+luego | later, then
+siempre | always
+nunca | never
+a veces | sometimes
+temprano | early
+tarde | late; afternoon (la tarde)
+la noche | night
+el lunes | Monday
+el martes | Tuesday
+el miércoles | Wednesday
+el jueves | Thursday
+el viernes | Friday
+el sábado | Saturday
+el domingo | Sunday
+enero | January
+febrero | February
+marzo | March
+abril | April
+mayo | May
+junio | June
+julio | July
+agosto | August
+septiembre | September
+octubre | October
+noviembre | November
+diciembre | December
+## Food and drink
+la comida | food; meal
+el agua | water | feminine, but el agua
+el pan | bread
+la leche | milk
+el café | coffee
+el té | tea
+el vino | wine
+la cerveza | beer
+el jugo | juice | Latin America; zumo in Spain
+la carne | meat
+el pollo | chicken
+el pescado | fish (as food)
+el arroz | rice
+el huevo | egg
+el queso | cheese
+la fruta | fruit
+la manzana | apple
+la naranja | orange
+el plátano | banana
+la verdura | vegetable
+la sal | salt
+el azúcar | sugar
+el desayuno | breakfast
+el almuerzo | lunch
+la cena | dinner
+la cuenta | the bill
+## Travel and places
+la ciudad | city
+el pueblo | town, village; people
+el país | country
+la calle | street
+la tienda | shop
+el mercado | market
+el banco | bank; bench
+el hospital | hospital
+la escuela | school
+la iglesia | church
+la playa | beach
+el mar | sea
+la montaña | mountain
+el río | river
+el aeropuerto | airport
+el avión | plane
+el tren | train
+el autobús | bus
+el coche | car | Spain; carro or auto in Latin America
+la estación | station; season
+el billete | ticket | Spain; boleto in Latin America
+el hotel | hotel
+el viaje | trip, journey
+el mapa | map | masculine despite -a
+la izquierda | left
+la derecha | right
+derecho | straight ahead
+cerca | near
+lejos | far
+aquí | here
+allí | there
+## Home
+la casa | house, home
+el piso | flat; floor | Spain for flat
+la habitación | room; bedroom
+la cocina | kitchen
+el baño | bathroom
+la puerta | door
+la ventana | window
+la mesa | table
+la silla | chair
+la cama | bed
+la llave | key
+el jardín | garden
+la ropa | clothes
+los zapatos | shoes
+el teléfono | phone
+el libro | book
+## Work and school
+el trabajo | work, job
+la oficina | office
+el jefe | boss
+el dinero | money
+la reunión | meeting
+el ordenador | computer | Spain; la computadora in Latin America
+la pregunta | question
+la respuesta | answer
+la palabra | word
+el idioma | language | masculine despite -a
+la clase | class
+el profesor | teacher (m)
+el estudiante | student
+## Body and health
+el cuerpo | body
+la cabeza | head
+la mano | hand | feminine despite -o
+el pie | foot
+el ojo | eye
+la boca | mouth
+el corazón | heart
+el médico | doctor
+enfermo | sick, ill
+el dolor | pain
+## Nature and weather
+el sol | sun
+la luna | moon
+el cielo | sky
+la lluvia | rain
+el viento | wind
+el tiempo | weather; time
+el árbol | tree
+la flor | flower
+el perro | dog
+el gato | cat
+## Verbs
+ser | to be (permanent, identity)
+estar | to be (state, location)
+tener | to have
+hacer | to do, to make
+ir | to go
+venir | to come
+poder | can, to be able
+querer | to want; to love
+decir | to say, to tell
+ver | to see
+dar | to give
+saber | to know (facts)
+conocer | to know (people, places)
+hablar | to speak
+comer | to eat
+beber | to drink
+vivir | to live
+trabajar | to work
+estudiar | to study
+aprender | to learn
+entender | to understand
+leer | to read
+escribir | to write
+escuchar | to listen
+mirar | to look at, to watch
+comprar | to buy
+pagar | to pay
+abrir | to open
+cerrar | to close
+llegar | to arrive
+salir | to go out, to leave
+volver | to return
+esperar | to wait; to hope
+buscar | to look for
+encontrar | to find
+pensar | to think
+creer | to believe
+necesitar | to need
+gustar | to please (me gusta = I like)
+llamar | to call
+dormir | to sleep
+jugar | to play (games, sport)
+tomar | to take; to drink
+poner | to put
+dejar | to leave (something), to let
+empezar | to begin
+terminar | to finish
+ayudar | to help
+usar | to use
+## Adjectives
+grande | big
+pequeño | small
+bueno | good
+malo | bad
+nuevo | new
+viejo | old
+joven | young
+largo | long
+corto | short (length)
+alto | tall, high
+bajo | short, low
+caro | expensive
+barato | cheap
+fácil | easy
+difícil | difficult
+rápido | fast
+lento | slow
+bonito | pretty
+feo | ugly
+feliz | happy
+triste | sad
+cansado | tired
+caliente | hot (to touch)
+frío | cold
+limpio | clean
+sucio | dirty
+lleno | full
+vacío | empty
+importante | important
+mismo | same
+otro | other, another
+mucho | a lot, much
+poco | little, few
+## Colours
+rojo | red
+azul | blue
+verde | green
+amarillo | yellow
+blanco | white
+negro | black
+gris | grey
+marrón | brown
+## Question and little words
+qué | what
+quién | who
+dónde | where
+cuándo | when
+cómo | how
+por qué | why
+cuánto | how much
+cuál | which
+porque | because
+pero | but
+y | and
+o | or
+también | also, too
+muy | very
+más | more
+menos | less
+con | with
+sin | without
+para | for, in order to
+entre | between
+# phrases
+## Greetings and politeness
+Buenos días. | Good morning.
+Buenas tardes. | Good afternoon.
+Buenas noches. | Good evening; good night.
+¿Qué tal? | How's it going?
+¿Cómo estás? | How are you? (informal)
+¿Cómo está usted? | How are you? (formal)
+Muy bien, gracias. | Very well, thank you.
+¿Y tú? | And you?
+Mucho gusto. | Nice to meet you.
+Encantado. / Encantada. | Delighted (to meet you). | -o said by a man, -a by a woman
+Hasta luego. | See you later.
+Hasta mañana. | See you tomorrow.
+Nos vemos. | See you.
+Que tengas un buen día. | Have a nice day.
+Muchas gracias. | Thank you very much.
+No hay de qué. | Don't mention it.
+Lo siento. | I'm sorry.
+Disculpe. | Excuse me. (formal)
+Con permiso. | Excuse me (to get past).
+Bienvenido. | Welcome.
+## Getting to know someone
+¿Cómo te llamas? | What's your name?
+Me llamo… | My name is…
+¿De dónde eres? | Where are you from?
+Soy de… | I'm from…
+¿Dónde vives? | Where do you live?
+Vivo en Dubái. | I live in Dubai.
+¿A qué te dedicas? | What do you do (for work)?
+¿Cuántos años tienes? | How old are you?
+Tengo treinta años. | I'm thirty years old. | age uses tener
+¿Hablas inglés? | Do you speak English?
+Hablo un poco de español. | I speak a little Spanish.
+Estoy aprendiendo español. | I'm learning Spanish.
+## Understanding
+No entiendo. | I don't understand.
+¿Puede repetir, por favor? | Can you repeat, please?
+Más despacio, por favor. | More slowly, please.
+¿Qué significa…? | What does … mean?
+¿Cómo se dice … en español? | How do you say … in Spanish?
+¿Cómo se escribe? | How is it spelled?
+No sé. | I don't know.
+Creo que sí. | I think so.
+Creo que no. | I don't think so.
+¡Claro! | Of course!
+De acuerdo. | Agreed; OK.
+Tienes razón. | You're right.
+¡Qué bien! | How nice! Great!
+¡Qué pena! | What a pity!
+¡Ojalá! | I hope so! If only!
+Depende. | It depends.
+Me da igual. | I don't mind.
+## Getting around
+¿Dónde está el baño? | Where is the bathroom?
+¿Dónde está la estación? | Where is the station?
+¿Cómo llego a…? | How do I get to…?
+Todo recto. | Straight on.
+A la izquierda. | To the left.
+A la derecha. | To the right.
+¿Está lejos? | Is it far?
+Está cerca. | It's close.
+Un billete para Madrid, por favor. | A ticket to Madrid, please.
+¿A qué hora sale el tren? | What time does the train leave?
+¿Qué hora es? | What time is it?
+Son las tres. | It's three o'clock.
+Estoy perdido. | I'm lost. | perdida for a woman
+## Shopping and eating
+¿Cuánto cuesta? | How much does it cost?
+Es demasiado caro. | It's too expensive.
+Solo estoy mirando. | I'm just looking.
+Quisiera… | I would like…
+¿Tiene…? | Do you have…? (formal)
+La cuenta, por favor. | The bill, please.
+Una mesa para dos, por favor. | A table for two, please.
+¿Qué me recomienda? | What do you recommend?
+Para mí, … | For me, …
+Sin carne, por favor. | Without meat, please.
+¡Buen provecho! | Enjoy your meal!
+¡Salud! | Cheers! Bless you!
+Está delicioso. | It's delicious.
+¿Puedo pagar con tarjeta? | Can I pay by card?
+## Feelings and help
+Tengo hambre. | I'm hungry. | literally I have hunger
+Tengo sed. | I'm thirsty.
+Tengo frío. | I'm cold.
+Tengo calor. | I'm hot.
+Tengo sueño. | I'm sleepy.
+Estoy cansado. | I'm tired.
+Estoy listo. | I'm ready.
+Me gusta. | I like it.
+No me gusta. | I don't like it.
+Me encanta. | I love it.
+¡Ayuda! | Help!
+Necesito un médico. | I need a doctor.
+Llame a la policía. | Call the police.
+No pasa nada. | It's no problem; never mind.
+¡Cuidado! | Careful!
+¡Vamos! | Let's go!
+¡Venga! | Come on! | Spain
+Un momento. | One moment.
+¿Qué pasa? | What's happening? What's up?
+¿Qué te pasa? | What's wrong with you?
+¡Felicidades! | Congratulations!
+¡Feliz cumpleaños! | Happy birthday!
+¡Buena suerte! | Good luck!
+Que te mejores. | Get well soon.
+# sentences
+Yo soy estudiante. | I am a student. | ser for identity and profession
+Ella está en casa. | She is at home. | estar for location
+El café está caliente. | The coffee is hot. | estar for a temporary state
+Tengo dos hermanos. | I have two brothers. | hermanos can mean brothers or siblings
+Me gusta el chocolate. | I like chocolate. | gustar: the thing liked is the subject
+Nos gustan los libros. | We like books. | plural subject, so gustan
+¿Dónde vives? | Where do you live?
+Vivimos cerca del mar. | We live near the sea. | de + el = del
+Hoy hace calor. | It's hot today. | weather uses hacer
+Mañana va a llover. | It's going to rain tomorrow. | ir a + infinitive for the near future
+Voy a la playa los domingos. | I go to the beach on Sundays. | a + la; los domingos = on Sundays
+El tren sale a las ocho. | The train leaves at eight. | a las + hour
+¿Puedes ayudarme? | Can you help me? | the pronoun attaches to the infinitive
+No puedo venir esta noche. | I can't come tonight.
+Quiero aprender español. | I want to learn Spanish. | querer + infinitive
+Tengo que trabajar mañana. | I have to work tomorrow. | tener que = to have to
+Estoy leyendo un libro. | I'm reading a book. | estar + gerund for actions in progress
+¿Qué estás haciendo? | What are you doing?
+Mi hermana es más alta que yo. | My sister is taller than me. | más … que
+Este es el mejor restaurante de la ciudad. | This is the best restaurant in the city. | superlative uses de
+Hay mucha gente en la calle. | There are a lot of people in the street. | hay = there is / there are
+No hay nada en la nevera. | There's nothing in the fridge. | double negative is normal
+Nunca bebo café por la noche. | I never drink coffee at night.
+Ayer comí paella. | Yesterday I ate paella. | preterite for a finished action
+Fuimos al cine el sábado. | We went to the cinema on Saturday. | fuimos is the preterite of ir (and ser)
+Cuando era niño, vivía en el campo. | When I was a child, I lived in the countryside. | imperfect for background and habits
+He visitado México dos veces. | I have visited Mexico twice. | present perfect: haber + participle
+¿Has comido? | Have you eaten?
+Llevo tres años aquí. | I've been here for three years. | llevar + time
+Hace dos años que estudio español. | I've been studying Spanish for two years. | hace + time + que + present
+Se lo di a mi madre. | I gave it to my mother. | le becomes se before lo
+Dímelo. | Tell me it. | pronouns attach to positive commands
+No me lo digas. | Don't tell me (it). | pronouns go before negative commands
+Espero que estés bien. | I hope you're well. | esperar que + subjunctive
+Quiero que vengas. | I want you to come. | different subject, so subjunctive
+Cuando llegues, llámame. | When you arrive, call me. | cuando + subjunctive for the future
+Si tengo tiempo, iré. | If I have time, I'll go. | si + present, future in the result
+Si tuviera dinero, viajaría más. | If I had money, I would travel more. | imperfect subjunctive + conditional
+Me duele la cabeza. | My head hurts. | doler works like gustar
+Se habla español aquí. | Spanish is spoken here. | impersonal se
+Acabo de llegar. | I've just arrived. | acabar de + infinitive
+Vuelvo a intentarlo. | I'll try again. | volver a + infinitive = do again
+Lo importante es intentarlo. | The important thing is to try. | lo + adjective = the … thing
+¿Te importa si abro la ventana? | Do you mind if I open the window?
+Sería mejor esperar. | It would be better to wait. | conditional
+Me lo pasé muy bien. | I had a great time. | pasarlo bien = to have a good time
+Por fin terminé el trabajo. | I finally finished the work.
+Estudio para aprender, no para aprobar. | I study to learn, not to pass. | para + infinitive = in order to
+Gracias por tu ayuda. | Thanks for your help. | por for cause or exchange
+Es posible que llegue tarde. | I might arrive late. | es posible que + subjunctive
+No sabía que hablabas francés. | I didn't know you spoke French. | imperfect in reported speech
+Ojalá pudiera ir contigo. | I wish I could go with you. | ojalá + imperfect subjunctive
+Cuanto más practico, mejor hablo. | The more I practise, the better I speak. | cuanto más …, más/mejor …

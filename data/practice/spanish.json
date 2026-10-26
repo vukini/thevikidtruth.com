@@ -1,9 +1,16 @@
 {
 "lang": "spanish",
+"counts": {
+"words": 497,
+"phrases": 100,
+"sentences": 52
+},
 "title": "Spanish",
 "code": "es",
 "sources": [
-"spanishvocab1"
+"spanishvocab1",
+"spanish-phrases",
+"spanish-sentences"
 ],
 "cards": [
 {
@@ -12,7 +19,8 @@
 "s": "spanishvocab1",
 "g": "Words from my scripts",
 "x": "Lo que decía era tan aburrido que me quedé dormido. What he was saying was so boring that I fell asleep.",
-"h": "type: adj"
+"h": "type: adj",
+"k": "words"
 },
 {
 "f": "acceder (a)",
@@ -20,7 +28,8 @@
 "s": "spanishvocab1",
 "g": "Words from my scripts",
 "x": "Suscríbete para acceder a más contenidos. Subscribe to access more content.",
-"h": "type: verb"
+"h": "type: verb",
+"k": "words"
 },
 {
 "f": "corriente",
@@ -28,7 +37,8 @@
 "s": "spanishvocab1",
 "g": "Words from my scripts",
 "x": "Es un reloj corriente. It's an ordinary watch. Se ha ido la corriente. The power has gone. The common currents: the run of the mill!",
-"h": "type: adj; nf"
+"h": "type: adj; nf",
+"k": "words"
 },
 {
 "f": "extrañar",
@@ -36,7 +46,8 @@
 "s": "spanishvocab1",
 "g": "Words from my scripts",
 "x": "Cuando viaja, extraña mucho a sus perros. When she travels, she misses her dogs a lot. extraño / extraña = strange",
-"h": "type: verb"
+"h": "type: verb",
+"k": "words"
 },
 {
 "f": "házmelo saber",
@@ -44,7 +55,8 @@
 "s": "spanishvocab1",
 "g": "Words from my scripts",
 "x": "haz (do/make!, imperative of hacer) + me (to me) + lo (it) + saber (to know): \"make it known to me\". The accent on há keeps the stress where it was.",
-"h": "type: phrase"
+"h": "type: phrase",
+"k": "words"
 },
 {
 "f": "malvado / malvada",
@@ -52,7 +64,8 @@
 "s": "spanishvocab1",
 "g": "Words from my scripts",
 "x": "Memory trick: mal = bad, so malvado = a bad person. (-ado isn't really a \"person\" suffix, but the trick works.)",
-"h": "type: adj; n"
+"h": "type: adj; n",
+"k": "words"
 },
 {
 "f": "montón (el)",
@@ -60,7 +73,8 @@
 "s": "spanishvocab1",
 "g": "Words from my scripts",
 "x": "Había un montón de fotos antiguas. There were loads of old photos.",
-"h": "type: nm"
+"h": "type: nm",
+"k": "words"
 },
 {
 "f": "tratar (de)",
@@ -68,1171 +82,4558 @@
 "s": "spanishvocab1",
 "g": "Words from my scripts",
 "x": "Trataré de responderte. I will try to answer you. (trataré = future, \"I will try\")",
-"h": "type: verb"
+"h": "type: verb",
+"k": "words"
 },
 {
 "f": "abajo",
 "b": "bottom",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "acciones",
 "b": "actions",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "actividad",
 "b": "activity",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "adecuados",
 "b": "suitable",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "además",
 "b": "also",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "agrupar",
 "b": "group",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "alcanzar",
 "b": "reach",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "analizar",
 "b": "analyze",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "anotar",
 "b": "to note down",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "anotándolas",
 "b": "writing them down",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "aprender",
 "b": "learn",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "asociar",
 "b": "associate",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "aunque",
 "b": "although",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "bajo",
 "b": "low; under",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "borrador",
 "b": "draft",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "cabo",
 "b": "(llevar a cabo) to carry out",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "característica",
 "b": "feature, characteristic",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "caso",
 "b": "case",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "centro",
 "b": "center",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "ciertas",
 "b": "certain",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "clara",
 "b": "clear",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "clase",
 "b": "class",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "clave",
 "b": "key",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "coloca",
 "b": "places",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "colocar",
 "b": "place",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "colocarlos",
 "b": "place them",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "colocarse",
 "b": "to be placed, to position oneself",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "colores",
 "b": "colors",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "componentes",
 "b": "components",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "comprensión",
 "b": "comprehension",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "comunes",
 "b": "common",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "concepto",
 "b": "concept",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "conceptos",
 "b": "concepts",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "conceptuales",
 "b": "conceptual",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "conectar",
 "b": "connect",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "construyendo",
 "b": "building",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "contiene",
 "b": "contains",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "contribuyen",
 "b": "(they) contribute",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "crea",
 "b": "creates",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "crear",
 "b": "create",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "creatividad",
 "b": "creativity",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "crece",
 "b": "grows",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "cuestión",
 "b": "question",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "cuál",
 "b": "which (one)",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "decisiones",
 "b": "decisions",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "deseas",
 "b": "you want",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "dichas",
 "b": "said, aforementioned (f pl)",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "diferencia",
 "b": "difference",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "diferentes",
 "b": "different",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "dinámica",
 "b": "dynamic",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "disponible",
 "b": "available",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "eficaz",
 "b": "effective",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "eficiente",
 "b": "efficient",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "ejemplo",
 "b": "example",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "elegir",
 "b": "choose",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "elementos",
 "b": "elements",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "embargo",
 "b": "(sin embargo) however",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "empresa",
 "b": "company",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "encapsular",
 "b": "encapsulate",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "encerrados",
 "b": "enclosed",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "encuentran",
 "b": "(they) are found",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "enlace",
 "b": "link",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "ensayos",
 "b": "essays; trials",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "entrada",
 "b": "entry, input",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "espacialmente",
 "b": "spatially",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "específicas",
 "b": "specific",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "esquema",
 "b": "scheme",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "estimulan",
 "b": "(they) stimulate",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "estudio",
 "b": "study",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "explicar",
 "b": "explain",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "extenderse",
 "b": "spread",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "extienden",
 "b": "(they) extend",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "final",
 "b": "final, end",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "flechas",
 "b": "arrows",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "flujo",
 "b": "flow",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "flujos",
 "b": "flows",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "funciona",
 "b": "works",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "función",
 "b": "function",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "fácil",
 "b": "easy",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "griego",
 "b": "Greek",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "gráfica",
 "b": "graph",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "gráficas",
 "b": "graphics",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "guías",
 "b": "guides",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "hacía",
 "b": "was doing, used to do (from hacer); not to be confused with hacia, towards",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "herramienta",
 "b": "tool",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "identificación",
 "b": "identification",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "identificar",
 "b": "identify",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "imagen",
 "b": "image",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "importancia",
 "b": "importance",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "importante",
 "b": "important",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "incluso",
 "b": "including",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "interactivo",
 "b": "interactive",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "interesar",
 "b": "interest",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "investigación",
 "b": "research",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "jerarquía",
 "b": "hierarchy",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "jerárquico",
 "b": "hierarchical",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "leer",
 "b": "read",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "ligados",
 "b": "linked",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "limpia",
 "b": "clean",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "lineal",
 "b": "linear",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "lista",
 "b": "list",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "llave",
 "b": "brace; key",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "llaves",
 "b": "braces { }; keys",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "llevan",
 "b": "(they) lead to, carry",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "llevar",
 "b": "carry",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "llevarse",
 "b": "(llevarse a cabo) to be carried out",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "líneas",
 "b": "lines",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "mapa-conceptual-esquema",
 "b": "concept-map diagram",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "memoria",
 "b": "memory",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "metas",
 "b": "goals",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "método",
 "b": "method",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "necesarias",
 "b": "needed",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "necesarios",
 "b": "needed",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "niveles",
 "b": "levels",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "numerados",
 "b": "numbered",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "orden",
 "b": "order",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "ordena",
 "b": "orders, arranges",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "organizarse",
 "b": "get organized",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "parten",
 "b": "(they) start from",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "partida",
 "b": "departure, starting point (punto de partida)",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "partiendo",
 "b": "starting from",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "pasos",
 "b": "steps",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "pensamientos",
 "b": "thoughts",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "permita",
 "b": "allows (subjunctive)",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "plasmar",
 "b": "translate",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "posiciones",
 "b": "positions",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "principal",
 "b": "main",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "principales",
 "b": "main",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "proceso",
 "b": "process",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "productividad",
 "b": "productivity",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "propósito",
 "b": "purpose",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "propósitos",
 "b": "purposes",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "provee",
 "b": "provides",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "proviene",
 "b": "comes from",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "proyecto",
 "b": "project",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "pude",
 "b": "I could, I was able to",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "pudiendo",
 "b": "being able to",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "pueden",
 "b": "(they) can",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "punto",
 "b": "point",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "quizás",
 "b": "maybe",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "rara",
 "b": "rare, strange",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "realizar",
 "b": "perform",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "realizarse",
 "b": "to be carried out",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "recopilar",
 "b": "collect",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "recordando",
 "b": "remembering",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "recordar",
 "b": "remember",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "rectángulos",
 "b": "rectangles",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "recuadros",
 "b": "boxes (in a diagram)",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "recursos",
 "b": "resources",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "relacionan",
 "b": "(they) relate",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "relacionar",
 "b": "relate",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "relevante",
 "b": "relevant",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "representaciones",
 "b": "renderings",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "representar",
 "b": "represent",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "resto",
 "b": "rest",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "resultados",
 "b": "results",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "sean",
 "b": "(they) be (subjunctive of ser)",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "según",
 "b": "according to",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "señalando",
 "b": "pointing",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "siempre",
 "b": "always",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "siendo",
 "b": "being",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "significa",
 "b": "means",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "sigue",
 "b": "follows, continues",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "siguientes",
 "b": "following",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "simbología",
 "b": "symbology",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "simular",
 "b": "simulate",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "sintetizar",
 "b": "synthesize",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "sinóptico",
 "b": "synoptic",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "subrayándolas",
 "b": "underlining",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "subtemas",
 "b": "subtopics",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "sucesivamente",
 "b": "successively",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "suele",
 "b": "usually (does)",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "surgen",
 "b": "(they) arise",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "tanto",
 "b": "both",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "tareas",
 "b": "tasks",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "tema",
 "b": "topic",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "terciarias",
 "b": "tertiary",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "tiene",
 "b": "has",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "tipo",
 "b": "type",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "tipos",
 "b": "types",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "trabajo",
 "b": "work",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "usuario",
 "b": "user",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "utiliza",
 "b": "uses",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "utilizados",
 "b": "used",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "utilizan",
 "b": "(they) use",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "variados",
 "b": "varied",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "veces",
 "b": "times",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "versión",
 "b": "version",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "vez",
 "b": "time, occasion (rara vez = rarely)",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "visuales",
 "b": "visuals",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "vuelven",
 "b": "(they) return",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "índices",
 "b": "indices",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "óvalos",
 "b": "ovals",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
 },
 {
 "f": "útiles",
 "b": "useful",
 "s": "spanishvocab1",
-"g": "Study-skills word list"
+"g": "Study-skills word list",
+"k": "words"
+},
+{
+"f": "hola",
+"b": "hello",
+"s": "spanishvocab1",
+"g": "Greetings and basics",
+"k": "words"
+},
+{
+"f": "adiós",
+"b": "goodbye",
+"s": "spanishvocab1",
+"g": "Greetings and basics",
+"k": "words"
+},
+{
+"f": "gracias",
+"b": "thank you",
+"s": "spanishvocab1",
+"g": "Greetings and basics",
+"k": "words"
+},
+{
+"f": "por favor",
+"b": "please",
+"s": "spanishvocab1",
+"g": "Greetings and basics",
+"k": "words"
+},
+{
+"f": "de nada",
+"b": "you're welcome",
+"s": "spanishvocab1",
+"g": "Greetings and basics",
+"k": "words"
+},
+{
+"f": "perdón",
+"b": "sorry, excuse me",
+"s": "spanishvocab1",
+"g": "Greetings and basics",
+"k": "words"
+},
+{
+"f": "sí",
+"b": "yes",
+"s": "spanishvocab1",
+"g": "Greetings and basics",
+"k": "words"
+},
+{
+"f": "vale",
+"b": "OK",
+"s": "spanishvocab1",
+"g": "Greetings and basics",
+"h": "note: Spain",
+"k": "words"
+},
+{
+"f": "bueno",
+"b": "good, well",
+"s": "spanishvocab1",
+"g": "Greetings and basics",
+"k": "words"
+},
+{
+"f": "la persona",
+"b": "person",
+"s": "spanishvocab1",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "el hombre",
+"b": "man",
+"s": "spanishvocab1",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "la mujer",
+"b": "woman; wife",
+"s": "spanishvocab1",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "el niño",
+"b": "boy, child",
+"s": "spanishvocab1",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "la niña",
+"b": "girl",
+"s": "spanishvocab1",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "el amigo",
+"b": "friend (m)",
+"s": "spanishvocab1",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "la amiga",
+"b": "friend (f)",
+"s": "spanishvocab1",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "la familia",
+"b": "family",
+"s": "spanishvocab1",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "el padre",
+"b": "father",
+"s": "spanishvocab1",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "la madre",
+"b": "mother",
+"s": "spanishvocab1",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "el hermano",
+"b": "brother",
+"s": "spanishvocab1",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "la hermana",
+"b": "sister",
+"s": "spanishvocab1",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "el hijo",
+"b": "son",
+"s": "spanishvocab1",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "la hija",
+"b": "daughter",
+"s": "spanishvocab1",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "el abuelo",
+"b": "grandfather",
+"s": "spanishvocab1",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "la abuela",
+"b": "grandmother",
+"s": "spanishvocab1",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "el esposo",
+"b": "husband",
+"s": "spanishvocab1",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "el tío",
+"b": "uncle",
+"s": "spanishvocab1",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "la tía",
+"b": "aunt",
+"s": "spanishvocab1",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "el primo",
+"b": "cousin (m)",
+"s": "spanishvocab1",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "el vecino",
+"b": "neighbour",
+"s": "spanishvocab1",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "la gente",
+"b": "people",
+"s": "spanishvocab1",
+"g": "People and family",
+"h": "note: singular in Spanish: la gente es",
+"k": "words"
+},
+{
+"f": "cero",
+"b": "zero",
+"s": "spanishvocab1",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "uno",
+"b": "one",
+"s": "spanishvocab1",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "dos",
+"b": "two",
+"s": "spanishvocab1",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "tres",
+"b": "three",
+"s": "spanishvocab1",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "cuatro",
+"b": "four",
+"s": "spanishvocab1",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "cinco",
+"b": "five",
+"s": "spanishvocab1",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "seis",
+"b": "six",
+"s": "spanishvocab1",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "siete",
+"b": "seven",
+"s": "spanishvocab1",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "ocho",
+"b": "eight",
+"s": "spanishvocab1",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "nueve",
+"b": "nine",
+"s": "spanishvocab1",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "diez",
+"b": "ten",
+"s": "spanishvocab1",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "once",
+"b": "eleven",
+"s": "spanishvocab1",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "doce",
+"b": "twelve",
+"s": "spanishvocab1",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "quince",
+"b": "fifteen",
+"s": "spanishvocab1",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "veinte",
+"b": "twenty",
+"s": "spanishvocab1",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "treinta",
+"b": "thirty",
+"s": "spanishvocab1",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "cuarenta",
+"b": "forty",
+"s": "spanishvocab1",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "cincuenta",
+"b": "fifty",
+"s": "spanishvocab1",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "cien",
+"b": "one hundred",
+"s": "spanishvocab1",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "mil",
+"b": "one thousand",
+"s": "spanishvocab1",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "primero",
+"b": "first",
+"s": "spanishvocab1",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "segundo",
+"b": "second",
+"s": "spanishvocab1",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "último",
+"b": "last",
+"s": "spanishvocab1",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "el día",
+"b": "day",
+"s": "spanishvocab1",
+"g": "Time",
+"h": "note: masculine despite -a",
+"k": "words"
+},
+{
+"f": "la semana",
+"b": "week",
+"s": "spanishvocab1",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "el mes",
+"b": "month",
+"s": "spanishvocab1",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "el año",
+"b": "year",
+"s": "spanishvocab1",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "la hora",
+"b": "hour; time (of day)",
+"s": "spanishvocab1",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "el minuto",
+"b": "minute",
+"s": "spanishvocab1",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "hoy",
+"b": "today",
+"s": "spanishvocab1",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "mañana",
+"b": "tomorrow; morning (la mañana)",
+"s": "spanishvocab1",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "ayer",
+"b": "yesterday",
+"s": "spanishvocab1",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "ahora",
+"b": "now",
+"s": "spanishvocab1",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "luego",
+"b": "later, then",
+"s": "spanishvocab1",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "nunca",
+"b": "never",
+"s": "spanishvocab1",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "a veces",
+"b": "sometimes",
+"s": "spanishvocab1",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "temprano",
+"b": "early",
+"s": "spanishvocab1",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "tarde",
+"b": "late; afternoon (la tarde)",
+"s": "spanishvocab1",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "la noche",
+"b": "night",
+"s": "spanishvocab1",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "el lunes",
+"b": "Monday",
+"s": "spanishvocab1",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "el martes",
+"b": "Tuesday",
+"s": "spanishvocab1",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "el miércoles",
+"b": "Wednesday",
+"s": "spanishvocab1",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "el jueves",
+"b": "Thursday",
+"s": "spanishvocab1",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "el viernes",
+"b": "Friday",
+"s": "spanishvocab1",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "el sábado",
+"b": "Saturday",
+"s": "spanishvocab1",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "el domingo",
+"b": "Sunday",
+"s": "spanishvocab1",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "enero",
+"b": "January",
+"s": "spanishvocab1",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "febrero",
+"b": "February",
+"s": "spanishvocab1",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "marzo",
+"b": "March",
+"s": "spanishvocab1",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "abril",
+"b": "April",
+"s": "spanishvocab1",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "mayo",
+"b": "May",
+"s": "spanishvocab1",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "junio",
+"b": "June",
+"s": "spanishvocab1",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "julio",
+"b": "July",
+"s": "spanishvocab1",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "agosto",
+"b": "August",
+"s": "spanishvocab1",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "septiembre",
+"b": "September",
+"s": "spanishvocab1",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "octubre",
+"b": "October",
+"s": "spanishvocab1",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "noviembre",
+"b": "November",
+"s": "spanishvocab1",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "diciembre",
+"b": "December",
+"s": "spanishvocab1",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "la comida",
+"b": "food; meal",
+"s": "spanishvocab1",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "el agua",
+"b": "water",
+"s": "spanishvocab1",
+"g": "Food and drink",
+"h": "note: feminine, but el agua",
+"k": "words"
+},
+{
+"f": "el pan",
+"b": "bread",
+"s": "spanishvocab1",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "la leche",
+"b": "milk",
+"s": "spanishvocab1",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "el café",
+"b": "coffee",
+"s": "spanishvocab1",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "el té",
+"b": "tea",
+"s": "spanishvocab1",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "el vino",
+"b": "wine",
+"s": "spanishvocab1",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "la cerveza",
+"b": "beer",
+"s": "spanishvocab1",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "el jugo",
+"b": "juice",
+"s": "spanishvocab1",
+"g": "Food and drink",
+"h": "note: Latin America; zumo in Spain",
+"k": "words"
+},
+{
+"f": "la carne",
+"b": "meat",
+"s": "spanishvocab1",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "el pollo",
+"b": "chicken",
+"s": "spanishvocab1",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "el pescado",
+"b": "fish (as food)",
+"s": "spanishvocab1",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "el arroz",
+"b": "rice",
+"s": "spanishvocab1",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "el huevo",
+"b": "egg",
+"s": "spanishvocab1",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "el queso",
+"b": "cheese",
+"s": "spanishvocab1",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "la fruta",
+"b": "fruit",
+"s": "spanishvocab1",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "la manzana",
+"b": "apple",
+"s": "spanishvocab1",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "la naranja",
+"b": "orange",
+"s": "spanishvocab1",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "el plátano",
+"b": "banana",
+"s": "spanishvocab1",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "la verdura",
+"b": "vegetable",
+"s": "spanishvocab1",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "la sal",
+"b": "salt",
+"s": "spanishvocab1",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "el azúcar",
+"b": "sugar",
+"s": "spanishvocab1",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "el desayuno",
+"b": "breakfast",
+"s": "spanishvocab1",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "el almuerzo",
+"b": "lunch",
+"s": "spanishvocab1",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "la cena",
+"b": "dinner",
+"s": "spanishvocab1",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "la cuenta",
+"b": "the bill",
+"s": "spanishvocab1",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "la ciudad",
+"b": "city",
+"s": "spanishvocab1",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "el pueblo",
+"b": "town, village; people",
+"s": "spanishvocab1",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "el país",
+"b": "country",
+"s": "spanishvocab1",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "la calle",
+"b": "street",
+"s": "spanishvocab1",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "la tienda",
+"b": "shop",
+"s": "spanishvocab1",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "el mercado",
+"b": "market",
+"s": "spanishvocab1",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "el banco",
+"b": "bank; bench",
+"s": "spanishvocab1",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "el hospital",
+"b": "hospital",
+"s": "spanishvocab1",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "la escuela",
+"b": "school",
+"s": "spanishvocab1",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "la iglesia",
+"b": "church",
+"s": "spanishvocab1",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "la playa",
+"b": "beach",
+"s": "spanishvocab1",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "el mar",
+"b": "sea",
+"s": "spanishvocab1",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "la montaña",
+"b": "mountain",
+"s": "spanishvocab1",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "el río",
+"b": "river",
+"s": "spanishvocab1",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "el aeropuerto",
+"b": "airport",
+"s": "spanishvocab1",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "el avión",
+"b": "plane",
+"s": "spanishvocab1",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "el tren",
+"b": "train",
+"s": "spanishvocab1",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "el autobús",
+"b": "bus",
+"s": "spanishvocab1",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "el coche",
+"b": "car",
+"s": "spanishvocab1",
+"g": "Travel and places",
+"h": "note: Spain; carro or auto in Latin America",
+"k": "words"
+},
+{
+"f": "la estación",
+"b": "station; season",
+"s": "spanishvocab1",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "el billete",
+"b": "ticket",
+"s": "spanishvocab1",
+"g": "Travel and places",
+"h": "note: Spain; boleto in Latin America",
+"k": "words"
+},
+{
+"f": "el hotel",
+"b": "hotel",
+"s": "spanishvocab1",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "el viaje",
+"b": "trip, journey",
+"s": "spanishvocab1",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "el mapa",
+"b": "map",
+"s": "spanishvocab1",
+"g": "Travel and places",
+"h": "note: masculine despite -a",
+"k": "words"
+},
+{
+"f": "la izquierda",
+"b": "left",
+"s": "spanishvocab1",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "la derecha",
+"b": "right",
+"s": "spanishvocab1",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "derecho",
+"b": "straight ahead",
+"s": "spanishvocab1",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "cerca",
+"b": "near",
+"s": "spanishvocab1",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "lejos",
+"b": "far",
+"s": "spanishvocab1",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "aquí",
+"b": "here",
+"s": "spanishvocab1",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "allí",
+"b": "there",
+"s": "spanishvocab1",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "la casa",
+"b": "house, home",
+"s": "spanishvocab1",
+"g": "Home",
+"k": "words"
+},
+{
+"f": "el piso",
+"b": "flat; floor",
+"s": "spanishvocab1",
+"g": "Home",
+"h": "note: Spain for flat",
+"k": "words"
+},
+{
+"f": "la habitación",
+"b": "room; bedroom",
+"s": "spanishvocab1",
+"g": "Home",
+"k": "words"
+},
+{
+"f": "la cocina",
+"b": "kitchen",
+"s": "spanishvocab1",
+"g": "Home",
+"k": "words"
+},
+{
+"f": "el baño",
+"b": "bathroom",
+"s": "spanishvocab1",
+"g": "Home",
+"k": "words"
+},
+{
+"f": "la puerta",
+"b": "door",
+"s": "spanishvocab1",
+"g": "Home",
+"k": "words"
+},
+{
+"f": "la ventana",
+"b": "window",
+"s": "spanishvocab1",
+"g": "Home",
+"k": "words"
+},
+{
+"f": "la mesa",
+"b": "table",
+"s": "spanishvocab1",
+"g": "Home",
+"k": "words"
+},
+{
+"f": "la silla",
+"b": "chair",
+"s": "spanishvocab1",
+"g": "Home",
+"k": "words"
+},
+{
+"f": "la cama",
+"b": "bed",
+"s": "spanishvocab1",
+"g": "Home",
+"k": "words"
+},
+{
+"f": "el jardín",
+"b": "garden",
+"s": "spanishvocab1",
+"g": "Home",
+"k": "words"
+},
+{
+"f": "la ropa",
+"b": "clothes",
+"s": "spanishvocab1",
+"g": "Home",
+"k": "words"
+},
+{
+"f": "los zapatos",
+"b": "shoes",
+"s": "spanishvocab1",
+"g": "Home",
+"k": "words"
+},
+{
+"f": "el teléfono",
+"b": "phone",
+"s": "spanishvocab1",
+"g": "Home",
+"k": "words"
+},
+{
+"f": "el libro",
+"b": "book",
+"s": "spanishvocab1",
+"g": "Home",
+"k": "words"
+},
+{
+"f": "la oficina",
+"b": "office",
+"s": "spanishvocab1",
+"g": "Work and school",
+"k": "words"
+},
+{
+"f": "el jefe",
+"b": "boss",
+"s": "spanishvocab1",
+"g": "Work and school",
+"k": "words"
+},
+{
+"f": "el dinero",
+"b": "money",
+"s": "spanishvocab1",
+"g": "Work and school",
+"k": "words"
+},
+{
+"f": "la reunión",
+"b": "meeting",
+"s": "spanishvocab1",
+"g": "Work and school",
+"k": "words"
+},
+{
+"f": "el ordenador",
+"b": "computer",
+"s": "spanishvocab1",
+"g": "Work and school",
+"h": "note: Spain; la computadora in Latin America",
+"k": "words"
+},
+{
+"f": "la pregunta",
+"b": "question",
+"s": "spanishvocab1",
+"g": "Work and school",
+"k": "words"
+},
+{
+"f": "la respuesta",
+"b": "answer",
+"s": "spanishvocab1",
+"g": "Work and school",
+"k": "words"
+},
+{
+"f": "la palabra",
+"b": "word",
+"s": "spanishvocab1",
+"g": "Work and school",
+"k": "words"
+},
+{
+"f": "el idioma",
+"b": "language",
+"s": "spanishvocab1",
+"g": "Work and school",
+"h": "note: masculine despite -a",
+"k": "words"
+},
+{
+"f": "el profesor",
+"b": "teacher (m)",
+"s": "spanishvocab1",
+"g": "Work and school",
+"k": "words"
+},
+{
+"f": "el estudiante",
+"b": "student",
+"s": "spanishvocab1",
+"g": "Work and school",
+"k": "words"
+},
+{
+"f": "el cuerpo",
+"b": "body",
+"s": "spanishvocab1",
+"g": "Body and health",
+"k": "words"
+},
+{
+"f": "la cabeza",
+"b": "head",
+"s": "spanishvocab1",
+"g": "Body and health",
+"k": "words"
+},
+{
+"f": "la mano",
+"b": "hand",
+"s": "spanishvocab1",
+"g": "Body and health",
+"h": "note: feminine despite -o",
+"k": "words"
+},
+{
+"f": "el pie",
+"b": "foot",
+"s": "spanishvocab1",
+"g": "Body and health",
+"k": "words"
+},
+{
+"f": "el ojo",
+"b": "eye",
+"s": "spanishvocab1",
+"g": "Body and health",
+"k": "words"
+},
+{
+"f": "la boca",
+"b": "mouth",
+"s": "spanishvocab1",
+"g": "Body and health",
+"k": "words"
+},
+{
+"f": "el corazón",
+"b": "heart",
+"s": "spanishvocab1",
+"g": "Body and health",
+"k": "words"
+},
+{
+"f": "el médico",
+"b": "doctor",
+"s": "spanishvocab1",
+"g": "Body and health",
+"k": "words"
+},
+{
+"f": "enfermo",
+"b": "sick, ill",
+"s": "spanishvocab1",
+"g": "Body and health",
+"k": "words"
+},
+{
+"f": "el dolor",
+"b": "pain",
+"s": "spanishvocab1",
+"g": "Body and health",
+"k": "words"
+},
+{
+"f": "el sol",
+"b": "sun",
+"s": "spanishvocab1",
+"g": "Nature and weather",
+"k": "words"
+},
+{
+"f": "la luna",
+"b": "moon",
+"s": "spanishvocab1",
+"g": "Nature and weather",
+"k": "words"
+},
+{
+"f": "el cielo",
+"b": "sky",
+"s": "spanishvocab1",
+"g": "Nature and weather",
+"k": "words"
+},
+{
+"f": "la lluvia",
+"b": "rain",
+"s": "spanishvocab1",
+"g": "Nature and weather",
+"k": "words"
+},
+{
+"f": "el viento",
+"b": "wind",
+"s": "spanishvocab1",
+"g": "Nature and weather",
+"k": "words"
+},
+{
+"f": "el tiempo",
+"b": "weather; time",
+"s": "spanishvocab1",
+"g": "Nature and weather",
+"k": "words"
+},
+{
+"f": "el árbol",
+"b": "tree",
+"s": "spanishvocab1",
+"g": "Nature and weather",
+"k": "words"
+},
+{
+"f": "la flor",
+"b": "flower",
+"s": "spanishvocab1",
+"g": "Nature and weather",
+"k": "words"
+},
+{
+"f": "el perro",
+"b": "dog",
+"s": "spanishvocab1",
+"g": "Nature and weather",
+"k": "words"
+},
+{
+"f": "el gato",
+"b": "cat",
+"s": "spanishvocab1",
+"g": "Nature and weather",
+"k": "words"
+},
+{
+"f": "ser",
+"b": "to be (permanent, identity)",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "estar",
+"b": "to be (state, location)",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "tener",
+"b": "to have",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "hacer",
+"b": "to do, to make",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "ir",
+"b": "to go",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "venir",
+"b": "to come",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "poder",
+"b": "can, to be able",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "querer",
+"b": "to want; to love",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "decir",
+"b": "to say, to tell",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "ver",
+"b": "to see",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "dar",
+"b": "to give",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "saber",
+"b": "to know (facts)",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "conocer",
+"b": "to know (people, places)",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "hablar",
+"b": "to speak",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "comer",
+"b": "to eat",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "beber",
+"b": "to drink",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "vivir",
+"b": "to live",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "trabajar",
+"b": "to work",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "estudiar",
+"b": "to study",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "entender",
+"b": "to understand",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "escribir",
+"b": "to write",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "escuchar",
+"b": "to listen",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "mirar",
+"b": "to look at, to watch",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "comprar",
+"b": "to buy",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "pagar",
+"b": "to pay",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "abrir",
+"b": "to open",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "cerrar",
+"b": "to close",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "llegar",
+"b": "to arrive",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "salir",
+"b": "to go out, to leave",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "volver",
+"b": "to return",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "esperar",
+"b": "to wait; to hope",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "buscar",
+"b": "to look for",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "encontrar",
+"b": "to find",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "pensar",
+"b": "to think",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "creer",
+"b": "to believe",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "necesitar",
+"b": "to need",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "gustar",
+"b": "to please (me gusta = I like)",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "llamar",
+"b": "to call",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "dormir",
+"b": "to sleep",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "jugar",
+"b": "to play (games, sport)",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "tomar",
+"b": "to take; to drink",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "poner",
+"b": "to put",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "dejar",
+"b": "to leave (something), to let",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "empezar",
+"b": "to begin",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "terminar",
+"b": "to finish",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "ayudar",
+"b": "to help",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "usar",
+"b": "to use",
+"s": "spanishvocab1",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "grande",
+"b": "big",
+"s": "spanishvocab1",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "pequeño",
+"b": "small",
+"s": "spanishvocab1",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "malo",
+"b": "bad",
+"s": "spanishvocab1",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "nuevo",
+"b": "new",
+"s": "spanishvocab1",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "viejo",
+"b": "old",
+"s": "spanishvocab1",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "joven",
+"b": "young",
+"s": "spanishvocab1",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "largo",
+"b": "long",
+"s": "spanishvocab1",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "corto",
+"b": "short (length)",
+"s": "spanishvocab1",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "alto",
+"b": "tall, high",
+"s": "spanishvocab1",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "caro",
+"b": "expensive",
+"s": "spanishvocab1",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "barato",
+"b": "cheap",
+"s": "spanishvocab1",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "difícil",
+"b": "difficult",
+"s": "spanishvocab1",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "rápido",
+"b": "fast",
+"s": "spanishvocab1",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "lento",
+"b": "slow",
+"s": "spanishvocab1",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "bonito",
+"b": "pretty",
+"s": "spanishvocab1",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "feo",
+"b": "ugly",
+"s": "spanishvocab1",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "feliz",
+"b": "happy",
+"s": "spanishvocab1",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "triste",
+"b": "sad",
+"s": "spanishvocab1",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "cansado",
+"b": "tired",
+"s": "spanishvocab1",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "caliente",
+"b": "hot (to touch)",
+"s": "spanishvocab1",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "frío",
+"b": "cold",
+"s": "spanishvocab1",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "limpio",
+"b": "clean",
+"s": "spanishvocab1",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "sucio",
+"b": "dirty",
+"s": "spanishvocab1",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "lleno",
+"b": "full",
+"s": "spanishvocab1",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "vacío",
+"b": "empty",
+"s": "spanishvocab1",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "mismo",
+"b": "same",
+"s": "spanishvocab1",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "otro",
+"b": "other, another",
+"s": "spanishvocab1",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "mucho",
+"b": "a lot, much",
+"s": "spanishvocab1",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "poco",
+"b": "little, few",
+"s": "spanishvocab1",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "rojo",
+"b": "red",
+"s": "spanishvocab1",
+"g": "Colours",
+"k": "words"
+},
+{
+"f": "azul",
+"b": "blue",
+"s": "spanishvocab1",
+"g": "Colours",
+"k": "words"
+},
+{
+"f": "verde",
+"b": "green",
+"s": "spanishvocab1",
+"g": "Colours",
+"k": "words"
+},
+{
+"f": "amarillo",
+"b": "yellow",
+"s": "spanishvocab1",
+"g": "Colours",
+"k": "words"
+},
+{
+"f": "blanco",
+"b": "white",
+"s": "spanishvocab1",
+"g": "Colours",
+"k": "words"
+},
+{
+"f": "negro",
+"b": "black",
+"s": "spanishvocab1",
+"g": "Colours",
+"k": "words"
+},
+{
+"f": "gris",
+"b": "grey",
+"s": "spanishvocab1",
+"g": "Colours",
+"k": "words"
+},
+{
+"f": "marrón",
+"b": "brown",
+"s": "spanishvocab1",
+"g": "Colours",
+"k": "words"
+},
+{
+"f": "qué",
+"b": "what",
+"s": "spanishvocab1",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "quién",
+"b": "who",
+"s": "spanishvocab1",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "dónde",
+"b": "where",
+"s": "spanishvocab1",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "cuándo",
+"b": "when",
+"s": "spanishvocab1",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "cómo",
+"b": "how",
+"s": "spanishvocab1",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "por qué",
+"b": "why",
+"s": "spanishvocab1",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "cuánto",
+"b": "how much",
+"s": "spanishvocab1",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "porque",
+"b": "because",
+"s": "spanishvocab1",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "pero",
+"b": "but",
+"s": "spanishvocab1",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "y",
+"b": "and",
+"s": "spanishvocab1",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "o",
+"b": "or",
+"s": "spanishvocab1",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "también",
+"b": "also, too",
+"s": "spanishvocab1",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "muy",
+"b": "very",
+"s": "spanishvocab1",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "más",
+"b": "more",
+"s": "spanishvocab1",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "menos",
+"b": "less",
+"s": "spanishvocab1",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "con",
+"b": "with",
+"s": "spanishvocab1",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "sin",
+"b": "without",
+"s": "spanishvocab1",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "para",
+"b": "for, in order to",
+"s": "spanishvocab1",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "entre",
+"b": "between",
+"s": "spanishvocab1",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "Buenos días.",
+"b": "Good morning.",
+"s": "spanish-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Buenas tardes.",
+"b": "Good afternoon.",
+"s": "spanish-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Buenas noches.",
+"b": "Good evening; good night.",
+"s": "spanish-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "¿Qué tal?",
+"b": "How's it going?",
+"s": "spanish-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "¿Cómo estás?",
+"b": "How are you? (informal)",
+"s": "spanish-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "¿Cómo está usted?",
+"b": "How are you? (formal)",
+"s": "spanish-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Muy bien, gracias.",
+"b": "Very well, thank you.",
+"s": "spanish-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "¿Y tú?",
+"b": "And you?",
+"s": "spanish-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Mucho gusto.",
+"b": "Nice to meet you.",
+"s": "spanish-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Encantado. / Encantada.",
+"b": "Delighted (to meet you).",
+"s": "spanish-phrases",
+"g": "Greetings and politeness",
+"h": "note: -o said by a man, -a by a woman",
+"k": "phrases"
+},
+{
+"f": "Hasta luego.",
+"b": "See you later.",
+"s": "spanish-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Hasta mañana.",
+"b": "See you tomorrow.",
+"s": "spanish-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Nos vemos.",
+"b": "See you.",
+"s": "spanish-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Que tengas un buen día.",
+"b": "Have a nice day.",
+"s": "spanish-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Muchas gracias.",
+"b": "Thank you very much.",
+"s": "spanish-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "No hay de qué.",
+"b": "Don't mention it.",
+"s": "spanish-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Lo siento.",
+"b": "I'm sorry.",
+"s": "spanish-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Disculpe.",
+"b": "Excuse me. (formal)",
+"s": "spanish-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Con permiso.",
+"b": "Excuse me (to get past).",
+"s": "spanish-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Bienvenido.",
+"b": "Welcome.",
+"s": "spanish-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "¿Cómo te llamas?",
+"b": "What's your name?",
+"s": "spanish-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "Me llamo…",
+"b": "My name is…",
+"s": "spanish-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "¿De dónde eres?",
+"b": "Where are you from?",
+"s": "spanish-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "Soy de…",
+"b": "I'm from…",
+"s": "spanish-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "¿Dónde vives?",
+"b": "Where do you live?",
+"s": "spanish-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "Vivo en Dubái.",
+"b": "I live in Dubai.",
+"s": "spanish-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "¿A qué te dedicas?",
+"b": "What do you do (for work)?",
+"s": "spanish-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "¿Cuántos años tienes?",
+"b": "How old are you?",
+"s": "spanish-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "Tengo treinta años.",
+"b": "I'm thirty years old.",
+"s": "spanish-phrases",
+"g": "Getting to know someone",
+"h": "note: age uses tener",
+"k": "phrases"
+},
+{
+"f": "¿Hablas inglés?",
+"b": "Do you speak English?",
+"s": "spanish-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "Hablo un poco de español.",
+"b": "I speak a little Spanish.",
+"s": "spanish-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "Estoy aprendiendo español.",
+"b": "I'm learning Spanish.",
+"s": "spanish-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "No entiendo.",
+"b": "I don't understand.",
+"s": "spanish-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "¿Puede repetir, por favor?",
+"b": "Can you repeat, please?",
+"s": "spanish-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Más despacio, por favor.",
+"b": "More slowly, please.",
+"s": "spanish-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "¿Qué significa…?",
+"b": "What does … mean?",
+"s": "spanish-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "¿Cómo se dice … en español?",
+"b": "How do you say … in Spanish?",
+"s": "spanish-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "¿Cómo se escribe?",
+"b": "How is it spelled?",
+"s": "spanish-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "No sé.",
+"b": "I don't know.",
+"s": "spanish-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Creo que sí.",
+"b": "I think so.",
+"s": "spanish-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Creo que no.",
+"b": "I don't think so.",
+"s": "spanish-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "¡Claro!",
+"b": "Of course!",
+"s": "spanish-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "De acuerdo.",
+"b": "Agreed; OK.",
+"s": "spanish-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Tienes razón.",
+"b": "You're right.",
+"s": "spanish-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "¡Qué bien!",
+"b": "How nice! Great!",
+"s": "spanish-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "¡Qué pena!",
+"b": "What a pity!",
+"s": "spanish-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "¡Ojalá!",
+"b": "I hope so! If only!",
+"s": "spanish-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Depende.",
+"b": "It depends.",
+"s": "spanish-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Me da igual.",
+"b": "I don't mind.",
+"s": "spanish-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "¿Dónde está el baño?",
+"b": "Where is the bathroom?",
+"s": "spanish-phrases",
+"g": "Getting around",
+"k": "phrases"
+},
+{
+"f": "¿Dónde está la estación?",
+"b": "Where is the station?",
+"s": "spanish-phrases",
+"g": "Getting around",
+"k": "phrases"
+},
+{
+"f": "¿Cómo llego a…?",
+"b": "How do I get to…?",
+"s": "spanish-phrases",
+"g": "Getting around",
+"k": "phrases"
+},
+{
+"f": "Todo recto.",
+"b": "Straight on.",
+"s": "spanish-phrases",
+"g": "Getting around",
+"k": "phrases"
+},
+{
+"f": "A la izquierda.",
+"b": "To the left.",
+"s": "spanish-phrases",
+"g": "Getting around",
+"k": "phrases"
+},
+{
+"f": "A la derecha.",
+"b": "To the right.",
+"s": "spanish-phrases",
+"g": "Getting around",
+"k": "phrases"
+},
+{
+"f": "¿Está lejos?",
+"b": "Is it far?",
+"s": "spanish-phrases",
+"g": "Getting around",
+"k": "phrases"
+},
+{
+"f": "Está cerca.",
+"b": "It's close.",
+"s": "spanish-phrases",
+"g": "Getting around",
+"k": "phrases"
+},
+{
+"f": "Un billete para Madrid, por favor.",
+"b": "A ticket to Madrid, please.",
+"s": "spanish-phrases",
+"g": "Getting around",
+"k": "phrases"
+},
+{
+"f": "¿A qué hora sale el tren?",
+"b": "What time does the train leave?",
+"s": "spanish-phrases",
+"g": "Getting around",
+"k": "phrases"
+},
+{
+"f": "¿Qué hora es?",
+"b": "What time is it?",
+"s": "spanish-phrases",
+"g": "Getting around",
+"k": "phrases"
+},
+{
+"f": "Son las tres.",
+"b": "It's three o'clock.",
+"s": "spanish-phrases",
+"g": "Getting around",
+"k": "phrases"
+},
+{
+"f": "Estoy perdido.",
+"b": "I'm lost.",
+"s": "spanish-phrases",
+"g": "Getting around",
+"h": "note: perdida for a woman",
+"k": "phrases"
+},
+{
+"f": "¿Cuánto cuesta?",
+"b": "How much does it cost?",
+"s": "spanish-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "Es demasiado caro.",
+"b": "It's too expensive.",
+"s": "spanish-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "Solo estoy mirando.",
+"b": "I'm just looking.",
+"s": "spanish-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "Quisiera…",
+"b": "I would like…",
+"s": "spanish-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "¿Tiene…?",
+"b": "Do you have…? (formal)",
+"s": "spanish-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "La cuenta, por favor.",
+"b": "The bill, please.",
+"s": "spanish-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "Una mesa para dos, por favor.",
+"b": "A table for two, please.",
+"s": "spanish-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "¿Qué me recomienda?",
+"b": "What do you recommend?",
+"s": "spanish-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "Para mí, …",
+"b": "For me, …",
+"s": "spanish-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "Sin carne, por favor.",
+"b": "Without meat, please.",
+"s": "spanish-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "¡Buen provecho!",
+"b": "Enjoy your meal!",
+"s": "spanish-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "¡Salud!",
+"b": "Cheers! Bless you!",
+"s": "spanish-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "Está delicioso.",
+"b": "It's delicious.",
+"s": "spanish-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "¿Puedo pagar con tarjeta?",
+"b": "Can I pay by card?",
+"s": "spanish-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "Tengo hambre.",
+"b": "I'm hungry.",
+"s": "spanish-phrases",
+"g": "Feelings and help",
+"h": "note: literally I have hunger",
+"k": "phrases"
+},
+{
+"f": "Tengo sed.",
+"b": "I'm thirsty.",
+"s": "spanish-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Tengo frío.",
+"b": "I'm cold.",
+"s": "spanish-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Tengo calor.",
+"b": "I'm hot.",
+"s": "spanish-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Tengo sueño.",
+"b": "I'm sleepy.",
+"s": "spanish-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Estoy cansado.",
+"b": "I'm tired.",
+"s": "spanish-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Estoy listo.",
+"b": "I'm ready.",
+"s": "spanish-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Me gusta.",
+"b": "I like it.",
+"s": "spanish-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "No me gusta.",
+"b": "I don't like it.",
+"s": "spanish-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Me encanta.",
+"b": "I love it.",
+"s": "spanish-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "¡Ayuda!",
+"b": "Help!",
+"s": "spanish-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Necesito un médico.",
+"b": "I need a doctor.",
+"s": "spanish-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Llame a la policía.",
+"b": "Call the police.",
+"s": "spanish-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "No pasa nada.",
+"b": "It's no problem; never mind.",
+"s": "spanish-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "¡Cuidado!",
+"b": "Careful!",
+"s": "spanish-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "¡Vamos!",
+"b": "Let's go!",
+"s": "spanish-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "¡Venga!",
+"b": "Come on!",
+"s": "spanish-phrases",
+"g": "Feelings and help",
+"h": "note: Spain",
+"k": "phrases"
+},
+{
+"f": "Un momento.",
+"b": "One moment.",
+"s": "spanish-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "¿Qué pasa?",
+"b": "What's happening? What's up?",
+"s": "spanish-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "¿Qué te pasa?",
+"b": "What's wrong with you?",
+"s": "spanish-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "¡Felicidades!",
+"b": "Congratulations!",
+"s": "spanish-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "¡Feliz cumpleaños!",
+"b": "Happy birthday!",
+"s": "spanish-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "¡Buena suerte!",
+"b": "Good luck!",
+"s": "spanish-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Que te mejores.",
+"b": "Get well soon.",
+"s": "spanish-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Yo soy estudiante.",
+"b": "I am a student.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: ser for identity and profession",
+"k": "sentences"
+},
+{
+"f": "Ella está en casa.",
+"b": "She is at home.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: estar for location",
+"k": "sentences"
+},
+{
+"f": "El café está caliente.",
+"b": "The coffee is hot.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: estar for a temporary state",
+"k": "sentences"
+},
+{
+"f": "Tengo dos hermanos.",
+"b": "I have two brothers.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: hermanos can mean brothers or siblings",
+"k": "sentences"
+},
+{
+"f": "Me gusta el chocolate.",
+"b": "I like chocolate.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: gustar: the thing liked is the subject",
+"k": "sentences"
+},
+{
+"f": "Nos gustan los libros.",
+"b": "We like books.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: plural subject, so gustan",
+"k": "sentences"
+},
+{
+"f": "Vivimos cerca del mar.",
+"b": "We live near the sea.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: de + el = del",
+"k": "sentences"
+},
+{
+"f": "Hoy hace calor.",
+"b": "It's hot today.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: weather uses hacer",
+"k": "sentences"
+},
+{
+"f": "Mañana va a llover.",
+"b": "It's going to rain tomorrow.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: ir a + infinitive for the near future",
+"k": "sentences"
+},
+{
+"f": "Voy a la playa los domingos.",
+"b": "I go to the beach on Sundays.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: a + la; los domingos = on Sundays",
+"k": "sentences"
+},
+{
+"f": "El tren sale a las ocho.",
+"b": "The train leaves at eight.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: a las + hour",
+"k": "sentences"
+},
+{
+"f": "¿Puedes ayudarme?",
+"b": "Can you help me?",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: the pronoun attaches to the infinitive",
+"k": "sentences"
+},
+{
+"f": "No puedo venir esta noche.",
+"b": "I can't come tonight.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "Quiero aprender español.",
+"b": "I want to learn Spanish.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: querer + infinitive",
+"k": "sentences"
+},
+{
+"f": "Tengo que trabajar mañana.",
+"b": "I have to work tomorrow.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: tener que = to have to",
+"k": "sentences"
+},
+{
+"f": "Estoy leyendo un libro.",
+"b": "I'm reading a book.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: estar + gerund for actions in progress",
+"k": "sentences"
+},
+{
+"f": "¿Qué estás haciendo?",
+"b": "What are you doing?",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "Mi hermana es más alta que yo.",
+"b": "My sister is taller than me.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: más … que",
+"k": "sentences"
+},
+{
+"f": "Este es el mejor restaurante de la ciudad.",
+"b": "This is the best restaurant in the city.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: superlative uses de",
+"k": "sentences"
+},
+{
+"f": "Hay mucha gente en la calle.",
+"b": "There are a lot of people in the street.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: hay = there is / there are",
+"k": "sentences"
+},
+{
+"f": "No hay nada en la nevera.",
+"b": "There's nothing in the fridge.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: double negative is normal",
+"k": "sentences"
+},
+{
+"f": "Nunca bebo café por la noche.",
+"b": "I never drink coffee at night.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "Ayer comí paella.",
+"b": "Yesterday I ate paella.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: preterite for a finished action",
+"k": "sentences"
+},
+{
+"f": "Fuimos al cine el sábado.",
+"b": "We went to the cinema on Saturday.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: fuimos is the preterite of ir (and ser)",
+"k": "sentences"
+},
+{
+"f": "Cuando era niño, vivía en el campo.",
+"b": "When I was a child, I lived in the countryside.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: imperfect for background and habits",
+"k": "sentences"
+},
+{
+"f": "He visitado México dos veces.",
+"b": "I have visited Mexico twice.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: present perfect: haber + participle",
+"k": "sentences"
+},
+{
+"f": "¿Has comido?",
+"b": "Have you eaten?",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "Llevo tres años aquí.",
+"b": "I've been here for three years.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: llevar + time",
+"k": "sentences"
+},
+{
+"f": "Hace dos años que estudio español.",
+"b": "I've been studying Spanish for two years.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: hace + time + que + present",
+"k": "sentences"
+},
+{
+"f": "Se lo di a mi madre.",
+"b": "I gave it to my mother.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: le becomes se before lo",
+"k": "sentences"
+},
+{
+"f": "Dímelo.",
+"b": "Tell me it.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: pronouns attach to positive commands",
+"k": "sentences"
+},
+{
+"f": "No me lo digas.",
+"b": "Don't tell me (it).",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: pronouns go before negative commands",
+"k": "sentences"
+},
+{
+"f": "Espero que estés bien.",
+"b": "I hope you're well.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: esperar que + subjunctive",
+"k": "sentences"
+},
+{
+"f": "Quiero que vengas.",
+"b": "I want you to come.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: different subject, so subjunctive",
+"k": "sentences"
+},
+{
+"f": "Cuando llegues, llámame.",
+"b": "When you arrive, call me.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: cuando + subjunctive for the future",
+"k": "sentences"
+},
+{
+"f": "Si tengo tiempo, iré.",
+"b": "If I have time, I'll go.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: si + present, future in the result",
+"k": "sentences"
+},
+{
+"f": "Si tuviera dinero, viajaría más.",
+"b": "If I had money, I would travel more.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: imperfect subjunctive + conditional",
+"k": "sentences"
+},
+{
+"f": "Me duele la cabeza.",
+"b": "My head hurts.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: doler works like gustar",
+"k": "sentences"
+},
+{
+"f": "Se habla español aquí.",
+"b": "Spanish is spoken here.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: impersonal se",
+"k": "sentences"
+},
+{
+"f": "Acabo de llegar.",
+"b": "I've just arrived.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: acabar de + infinitive",
+"k": "sentences"
+},
+{
+"f": "Vuelvo a intentarlo.",
+"b": "I'll try again.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: volver a + infinitive = do again",
+"k": "sentences"
+},
+{
+"f": "Lo importante es intentarlo.",
+"b": "The important thing is to try.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: lo + adjective = the … thing",
+"k": "sentences"
+},
+{
+"f": "¿Te importa si abro la ventana?",
+"b": "Do you mind if I open the window?",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "Sería mejor esperar.",
+"b": "It would be better to wait.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: conditional",
+"k": "sentences"
+},
+{
+"f": "Me lo pasé muy bien.",
+"b": "I had a great time.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: pasarlo bien = to have a good time",
+"k": "sentences"
+},
+{
+"f": "Por fin terminé el trabajo.",
+"b": "I finally finished the work.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "Estudio para aprender, no para aprobar.",
+"b": "I study to learn, not to pass.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: para + infinitive = in order to",
+"k": "sentences"
+},
+{
+"f": "Gracias por tu ayuda.",
+"b": "Thanks for your help.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: por for cause or exchange",
+"k": "sentences"
+},
+{
+"f": "Es posible que llegue tarde.",
+"b": "I might arrive late.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: es posible que + subjunctive",
+"k": "sentences"
+},
+{
+"f": "No sabía que hablabas francés.",
+"b": "I didn't know you spoke French.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: imperfect in reported speech",
+"k": "sentences"
+},
+{
+"f": "Ojalá pudiera ir contigo.",
+"b": "I wish I could go with you.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: ojalá + imperfect subjunctive",
+"k": "sentences"
+},
+{
+"f": "Cuanto más practico, mejor hablo.",
+"b": "The more I practise, the better I speak.",
+"s": "spanish-sentences",
+"g": "Spanish: Example Sentences",
+"h": "note: cuanto más …, más/mejor …",
+"k": "sentences"
 }
 ]
 }

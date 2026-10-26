@@ -212,3 +212,152 @@ Every Toki Pona word from my old one-word cards, gathered on one page and groupe
 | *sina toki pona!* | You speak well / You speak Toki Pona! |
 
 More: [Alejandro Rojo's vocabulary page](https://alerojorela.neocities.org/conlang/toki-pona/vocabulario.html).
+
+<!-- core-vocab:start -->
+
+## Core vocabulary by theme
+
+High-frequency words, added October 2026 and checked against Wiktionary and the official Toki Pona word lists. Words already in my notes above aren't repeated. Practise them on the [Toki Pona practice page](/languages/tokipona-practice/).
+
+### Particles and grammar words
+
+| Toki Pona | English | Note |
+|---|---|---|
+| a | ah, oh (emotion) | particle |
+| anu | or (in questions) | particle |
+| e | marks the direct object | particle |
+| en | and (joins subjects) | particle |
+| la | marks context: if, when | particle |
+| li | separates subject from verb | not after mi or sina alone |
+| o | hey!; marks a command or wish | particle |
+| pi | of (regroups modifiers) | particle |
+| taso | but; only |  |
+| kin | also, indeed, too | ku suli |
+| n | hmm (thinking) | ku suli |
+
+### Pronouns and people
+
+| Toki Pona | English | Note |
+|---|---|---|
+| ona | he, she, it, they |  |
+| mama | parent, mother, father, caretaker |  |
+
+### Numbers and quantity
+
+| Toki Pona | English | Note |
+|---|---|---|
+| tu | two; to divide |  |
+| ale | all, every; life, universe | also written ali |
+| nanpa | number; -th (ordinal) |  |
+
+### Time and place
+
+| Toki Pona | English | Note |
+|---|---|---|
+| tenpo | time, moment, period |  |
+| pini | finished, past; end |  |
+| open | to begin, to open |  |
+| awen | to stay, to wait; still |  |
+| lon | at, in, on; to exist, true |  |
+| tawa | to, towards; for; to go, to move |  |
+| tan | from, because of |  |
+| poka | side, hip; nearby, with |  |
+| insa | inside, stomach |  |
+| monsi | back, rear |  |
+| sinpin | front, face, wall |  |
+| anpa | down, below; humble |  |
+| weka | away, absent |  |
+| ma | land, country, earth, outdoors |  |
+| nasin | way, road, method |  |
+
+### Nature
+
+| Toki Pona | English | Note |
+|---|---|---|
+| suno | sun, light |  |
+| mun | moon, star, night sky object |  |
+| kon | air, spirit, essence |  |
+| seli | fire, heat; warm |  |
+| lete | cold; raw |  |
+| kiwen | stone, hard thing, metal |  |
+| ko | paste, powder, semi-solid |  |
+| lupa | hole, door, window |  |
+| nena | bump, hill, nose |  |
+
+### Animals
+
+| Toki Pona | English | Note |
+|---|---|---|
+| mu | animal noise (moo, woof) |  |
+| kijetesantakalu | raccoon (and related animals) | ku suli, a joke word |
+| monsuta | fear; monster | ku suli |
+
+### Body
+
+| Toki Pona | English | Note |
+|---|---|---|
+| sijelo | body; physical state |  |
+| lawa | head, mind; to lead |  |
+| uta | mouth, lips |  |
+| luka | hand, arm; five |  |
+| noka | foot, leg; bottom |  |
+| selo | skin, outer layer, shell |  |
+| linja | long flexible thing: hair, rope |  |
+
+### Things and tools
+
+| Toki Pona | English | Note |
+|---|---|---|
+| ilo | tool, device, machine |  |
+| len | cloth, clothing; hidden |  |
+| poki | container, box, bag |  |
+| supa | flat surface: table, bed, floor |  |
+| palisa | stick, rod, long hard thing |  |
+| sike | circle, ball, cycle; year |  |
+| mani | money, wealth; large domestic animal |  |
+| esun | market, shop, trade |  |
+| kipisi | to cut; a piece | ku suli |
+| leko | square, block, stairs | ku suli |
+
+### Actions
+
+| Toki Pona | English | Note |
+|---|---|---|
+| lape | to sleep, to rest |  |
+| pana | to give, to send, to emit |  |
+| kama | to come, to become; future |  |
+| ken | can, may; possibility |  |
+| wile | to want, to need, must |  |
+| nimi | name, word |  |
+| kalama | sound, noise; to make a sound |  |
+| kepeken | to use; with (a tool) |  |
+| utala | to fight, conflict, to compete |  |
+| pakala | broken, damaged; oops! |  |
+| jaki | dirty, gross, toxic |  |
+
+### Qualities
+
+| Toki Pona | English | Note |
+|---|---|---|
+| sama | same, similar; like, as |  |
+| ante | different, other; to change |  |
+| suwi | sweet, cute |  |
+| pimeja | black, dark |  |
+| walo | white, light-coloured |  |
+| loje | red |  |
+| jelo | yellow |  |
+| laso | blue, green |  |
+| kule | colour; colourful |  |
+| seme | what? which? | question word |
+| jasima | to reflect, to mirror | ku suli |
+| tonsi | non-binary, gender-nonconforming | ku suli |
+| namako | spice; extra | ku suli |
+| soko | mushroom, fungus | ku suli |
+| meso | middle, medium, average | ku suli |
+| epiku | epic, cool | ku suli |
+| lanpan | to take, to seize | ku suli |
+| misikeke | medicine | ku suli |
+| pu | the official Toki Pona book; to interact with it |  |
+| ku | the Toki Pona dictionary book | ku suli |
+
+<!-- core-vocab:end -->

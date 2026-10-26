@@ -1,0 +1,447 @@
+# words
+## Greetings and basics
+こんにちは | konnichiwa | hello, good afternoon
+おはよう | ohayō | good morning (casual)
+こんばんは | konbanwa | good evening
+さようなら | sayōnara | goodbye
+ありがとう | arigatō | thank you
+すみません | sumimasen | excuse me, sorry
+ごめんなさい | gomen nasai | I'm sorry
+はい | hai | yes
+いいえ | iie | no
+どうぞ | dōzo | please (go ahead), here you are
+## People and family
+人 (ひと) | hito | person
+男 (おとこ) | otoko | man, male
+女 (おんな) | onna | woman, female
+子供 (こども) | kodomo | child
+男の子 (おとこのこ) | otoko no ko | boy
+女の子 (おんなのこ) | onna no ko | girl
+友達 (ともだち) | tomodachi | friend
+家族 (かぞく) | kazoku | family
+父 (ちち) | chichi | (my) father | お父さん otōsan for someone else's
+母 (はは) | haha | (my) mother | お母さん okāsan for someone else's
+兄 (あに) | ani | (my) older brother
+姉 (あね) | ane | (my) older sister
+弟 (おとうと) | otōto | younger brother
+妹 (いもうと) | imōto | younger sister
+息子 (むすこ) | musuko | son
+娘 (むすめ) | musume | daughter
+祖父 (そふ) | sofu | (my) grandfather
+祖母 (そぼ) | sobo | (my) grandmother
+夫 (おっと) | otto | (my) husband
+妻 (つま) | tsuma | (my) wife
+先生 (せんせい) | sensei | teacher
+学生 (がくせい) | gakusei | student
+私 (わたし) | watashi | I, me
+あなた | anata | you | often avoided; use the person's name
+彼 (かれ) | kare | he; boyfriend
+彼女 (かのじょ) | kanojo | she; girlfriend
+## Numbers
+零 / ゼロ | rei / zero | zero
+一 (いち) | ichi | one
+二 (に) | ni | two
+三 (さん) | san | three
+四 (よん / し) | yon / shi | four
+五 (ご) | go | five
+六 (ろく) | roku | six
+七 (なな / しち) | nana / shichi | seven
+八 (はち) | hachi | eight
+九 (きゅう / く) | kyū / ku | nine
+十 (じゅう) | jū | ten
+十一 (じゅういち) | jūichi | eleven
+二十 (にじゅう) | nijū | twenty
+百 (ひゃく) | hyaku | one hundred
+千 (せん) | sen | one thousand
+万 (まん) | man | ten thousand
+一つ (ひとつ) | hitotsu | one (thing)
+二つ (ふたつ) | futatsu | two (things)
+三つ (みっつ) | mittsu | three (things)
+## Time
+日 (ひ) | hi | day; sun
+週 (しゅう) | shū | week
+月 (つき) | tsuki | month; moon
+年 (とし) | toshi | year
+時間 (じかん) | jikan | time; hour(s)
+分 (ふん) | fun | minute
+今日 (きょう) | kyō | today
+明日 (あした) | ashita | tomorrow
+昨日 (きのう) | kinō | yesterday
+今 (いま) | ima | now
+後で (あとで) | ato de | later
+いつも | itsumo | always
+時々 (ときどき) | tokidoki | sometimes
+よく | yoku | often; well
+朝 (あさ) | asa | morning
+昼 (ひる) | hiru | noon, daytime
+晩 (ばん) | ban | evening
+夜 (よる) | yoru | night
+月曜日 (げつようび) | getsuyōbi | Monday
+火曜日 (かようび) | kayōbi | Tuesday
+水曜日 (すいようび) | suiyōbi | Wednesday
+木曜日 (もくようび) | mokuyōbi | Thursday
+金曜日 (きんようび) | kin'yōbi | Friday
+土曜日 (どようび) | doyōbi | Saturday
+日曜日 (にちようび) | nichiyōbi | Sunday
+毎日 (まいにち) | mainichi | every day
+週末 (しゅうまつ) | shūmatsu | weekend
+## Food and drink
+食べ物 (たべもの) | tabemono | food
+ご飯 (ごはん) | gohan | cooked rice; meal
+水 (みず) | mizu | water
+お茶 (おちゃ) | ocha | tea (green tea)
+コーヒー | kōhī | coffee
+牛乳 (ぎゅうにゅう) | gyūnyū | milk
+ビール | bīru | beer
+お酒 (おさけ) | osake | alcohol; sake
+パン | pan | bread
+肉 (にく) | niku | meat
+鶏肉 (とりにく) | toriniku | chicken (meat)
+魚 (さかな) | sakana | fish
+卵 (たまご) | tamago | egg
+野菜 (やさい) | yasai | vegetables
+果物 (くだもの) | kudamono | fruit
+りんご | ringo | apple
+みかん | mikan | mandarin orange
+塩 (しお) | shio | salt
+砂糖 (さとう) | satō | sugar
+朝ご飯 (あさごはん) | asagohan | breakfast
+昼ご飯 (ひるごはん) | hirugohan | lunch
+晩ご飯 (ばんごはん) | bangohan | dinner
+美味しい (おいしい) | oishii | delicious
+## Travel and places
+町 (まち) | machi | town
+国 (くに) | kuni | country
+道 (みち) | michi | road, way
+店 (みせ) | mise | shop
+銀行 (ぎんこう) | ginkō | bank
+病院 (びょういん) | byōin | hospital
+学校 (がっこう) | gakkō | school
+駅 (えき) | eki | station
+空港 (くうこう) | kūkō | airport
+飛行機 (ひこうき) | hikōki | aeroplane
+電車 (でんしゃ) | densha | train
+バス | basu | bus
+車 (くるま) | kuruma | car
+切符 (きっぷ) | kippu | ticket
+ホテル | hoteru | hotel
+旅行 (りょこう) | ryokō | travel, trip
+地図 (ちず) | chizu | map
+海 (うみ) | umi | sea
+山 (やま) | yama | mountain
+川 (かわ) | kawa | river
+左 (ひだり) | hidari | left
+右 (みぎ) | migi | right
+まっすぐ | massugu | straight ahead
+近い (ちかい) | chikai | near
+遠い (とおい) | tōi | far
+ここ | koko | here
+そこ | soko | there (near you)
+あそこ | asoko | over there
+トイレ | toire | toilet
+## Home
+家 (いえ / うち) | ie / uchi | house, home
+部屋 (へや) | heya | room
+台所 (だいどころ) | daidokoro | kitchen
+お風呂 (おふろ) | ofuro | bath
+ドア | doa | door
+窓 (まど) | mado | window
+机 (つくえ) | tsukue | desk
+椅子 (いす) | isu | chair
+ベッド | beddo | bed
+鍵 (かぎ) | kagi | key
+服 (ふく) | fuku | clothes
+靴 (くつ) | kutsu | shoes
+電話 (でんわ) | denwa | telephone
+本 (ほん) | hon | book
+## Work and school
+仕事 (しごと) | shigoto | work, job
+会社 (かいしゃ) | kaisha | company
+会議 (かいぎ) | kaigi | meeting
+お金 (おかね) | okane | money
+パソコン | pasokon | computer (PC)
+質問 (しつもん) | shitsumon | question
+答え (こたえ) | kotae | answer
+言葉 (ことば) | kotoba | word; language
+日本語 (にほんご) | nihongo | Japanese (language)
+英語 (えいご) | eigo | English (language)
+授業 (じゅぎょう) | jugyō | class, lesson
+宿題 (しゅくだい) | shukudai | homework
+## Body and health
+体 (からだ) | karada | body
+頭 (あたま) | atama | head
+手 (て) | te | hand
+足 (あし) | ashi | foot, leg
+目 (め) | me | eye
+口 (くち) | kuchi | mouth
+耳 (みみ) | mimi | ear
+医者 (いしゃ) | isha | doctor
+病気 (びょうき) | byōki | illness; ill
+薬 (くすり) | kusuri | medicine
+痛い (いたい) | itai | painful, it hurts
+## Nature and weather
+太陽 (たいよう) | taiyō | sun
+空 (そら) | sora | sky
+雨 (あめ) | ame | rain
+雪 (ゆき) | yuki | snow
+風 (かぜ) | kaze | wind
+天気 (てんき) | tenki | weather
+木 (き) | ki | tree
+花 (はな) | hana | flower
+犬 (いぬ) | inu | dog
+猫 (ねこ) | neko | cat
+鳥 (とり) | tori | bird
+## Verbs
+です | desu | to be (polite copula)
+ある | aru | to exist (things)
+いる | iru | to exist (people, animals)
+する | suru | to do
+行く (いく) | iku | to go
+来る (くる) | kuru | to come
+帰る (かえる) | kaeru | to return home
+食べる (たべる) | taberu | to eat
+飲む (のむ) | nomu | to drink
+見る (みる) | miru | to see, to watch
+聞く (きく) | kiku | to hear, to listen; to ask
+話す (はなす) | hanasu | to speak
+言う (いう) | iu | to say
+読む (よむ) | yomu | to read
+書く (かく) | kaku | to write
+分かる (わかる) | wakaru | to understand
+知る (しる) | shiru | to know | usually 知っている shitte iru
+思う (おもう) | omou | to think
+買う (かう) | kau | to buy
+売る (うる) | uru | to sell
+払う (はらう) | harau | to pay
+待つ (まつ) | matsu | to wait
+会う (あう) | au | to meet
+住む (すむ) | sumu | to live (reside)
+働く (はたらく) | hataraku | to work
+勉強する (べんきょうする) | benkyō suru | to study
+習う (ならう) | narau | to learn (from someone)
+教える (おしえる) | oshieru | to teach; to tell
+寝る (ねる) | neru | to sleep, to go to bed
+起きる (おきる) | okiru | to get up
+開ける (あける) | akeru | to open
+閉める (しめる) | shimeru | to close
+始める (はじめる) | hajimeru | to begin
+終わる (おわる) | owaru | to end
+使う (つかう) | tsukau | to use
+作る (つくる) | tsukuru | to make
+持つ (もつ) | motsu | to hold, to have
+あげる | ageru | to give
+もらう | morau | to receive
+手伝う (てつだう) | tetsudau | to help
+遊ぶ (あそぶ) | asobu | to play
+歩く (あるく) | aruku | to walk
+走る (はしる) | hashiru | to run
+## Adjectives
+大きい (おおきい) | ōkii | big
+小さい (ちいさい) | chiisai | small
+良い (いい / よい) | ii / yoi | good
+悪い (わるい) | warui | bad
+新しい (あたらしい) | atarashii | new
+古い (ふるい) | furui | old (things)
+若い (わかい) | wakai | young
+長い (ながい) | nagai | long
+短い (みじかい) | mijikai | short
+高い (たかい) | takai | tall, high; expensive
+安い (やすい) | yasui | cheap
+易しい (やさしい) | yasashii | easy
+難しい (むずかしい) | muzukashii | difficult
+速い (はやい) | hayai | fast | 早い = early
+遅い (おそい) | osoi | slow; late
+きれい | kirei | pretty; clean | na-adjective despite the -i
+楽しい (たのしい) | tanoshii | fun, enjoyable
+嬉しい (うれしい) | ureshii | glad, happy
+悲しい (かなしい) | kanashii | sad
+暑い (あつい) | atsui | hot (weather)
+熱い (あつい) | atsui | hot (to touch)
+寒い (さむい) | samui | cold (weather)
+冷たい (つめたい) | tsumetai | cold (to touch)
+忙しい (いそがしい) | isogashii | busy
+元気 (げんき) | genki | healthy, energetic | na-adjective
+静か (しずか) | shizuka | quiet | na-adjective
+有名 (ゆうめい) | yūmei | famous | na-adjective
+好き (すき) | suki | liked | na-adjective: 〜が好き = I like 〜
+嫌い (きらい) | kirai | disliked | na-adjective
+同じ (おなじ) | onaji | same
+## Question and little words
+何 (なに / なん) | nani / nan | what
+誰 (だれ) | dare | who
+どこ | doko | where
+いつ | itsu | when
+どう | dō | how
+なぜ / どうして | naze / dōshite | why
+いくら | ikura | how much (price)
+いくつ | ikutsu | how many; how old
+どれ | dore | which one
+これ | kore | this (thing)
+それ | sore | that (near you)
+あれ | are | that (over there)
+でも | demo | but
+そして | soshite | and then
+とても | totemo | very
+少し (すこし) | sukoshi | a little
+たくさん | takusan | a lot
+もっと | motto | more
+一緒に (いっしょに) | issho ni | together
+# phrases
+## Greetings and politeness
+おはようございます | ohayō gozaimasu | Good morning. (polite)
+おやすみなさい | oyasumi nasai | Good night.
+お元気ですか | o-genki desu ka | How are you?
+元気です | genki desu | I'm fine.
+はじめまして | hajimemashite | Nice to meet you. | first meeting
+よろしくお願いします | yoroshiku onegaishimasu | Pleased to meet you; I'm in your care.
+ありがとうございます | arigatō gozaimasu | Thank you very much. (polite)
+どういたしまして | dō itashimashite | You're welcome.
+いいえ、大丈夫です | iie, daijōbu desu | No, it's fine.
+お願いします | onegaishimasu | Please. | when requesting
+いらっしゃいませ | irasshaimase | Welcome (in a shop).
+いただきます | itadakimasu | (said before eating)
+ごちそうさまでした | gochisōsama deshita | Thank you for the meal. (after eating)
+いってきます | ittekimasu | I'm off. (leaving home)
+いってらっしゃい | itterasshai | See you later. (to someone leaving)
+ただいま | tadaima | I'm home.
+おかえりなさい | okaeri nasai | Welcome home.
+お疲れ様です | otsukaresama desu | Thanks for your hard work.
+じゃあね | jā ne | See you. (casual)
+またね | mata ne | See you again.
+また明日 | mata ashita | See you tomorrow.
+気をつけて | ki o tsukete | Take care.
+## Getting to know someone
+お名前は何ですか | o-namae wa nan desu ka | What's your name?
+私は〜です | watashi wa ~ desu | I am ~.
+〜と申します | ~ to mōshimasu | My name is ~. (humble)
+どちらから来ましたか | dochira kara kimashita ka | Where are you from?
+〜から来ました | ~ kara kimashita | I came from ~.
+ドバイに住んでいます | Dobai ni sunde imasu | I live in Dubai.
+お仕事は何ですか | o-shigoto wa nan desu ka | What's your job?
+英語を話せますか | eigo o hanasemasu ka | Can you speak English?
+日本語を少し話します | nihongo o sukoshi hanashimasu | I speak a little Japanese.
+日本語を勉強しています | nihongo o benkyō shite imasu | I'm studying Japanese.
+## Understanding
+分かりません | wakarimasen | I don't understand.
+分かりました | wakarimashita | I understand; understood.
+もう一度お願いします | mō ichido onegaishimasu | Once more, please.
+ゆっくり話してください | yukkuri hanashite kudasai | Please speak slowly.
+〜はどういう意味ですか | ~ wa dō iu imi desu ka | What does ~ mean?
+〜は日本語で何と言いますか | ~ wa nihongo de nan to iimasu ka | How do you say ~ in Japanese?
+知りません | shirimasen | I don't know.
+そうですね | sō desu ne | That's right; let me see.
+そうですか | sō desu ka | Is that so? I see.
+本当ですか | hontō desu ka | Really?
+もちろん | mochiron | Of course.
+大丈夫です | daijōbu desu | It's OK; I'm fine.
+すごい | sugoi | Amazing!
+残念です | zannen desu | That's a pity.
+## Getting around
+トイレはどこですか | toire wa doko desu ka | Where is the toilet?
+駅はどこですか | eki wa doko desu ka | Where is the station?
+〜までどうやって行きますか | ~ made dō yatte ikimasu ka | How do I get to ~?
+遠いですか | tōi desu ka | Is it far?
+近いです | chikai desu | It's near.
+まっすぐ行ってください | massugu itte kudasai | Please go straight.
+右に曲がってください | migi ni magatte kudasai | Please turn right.
+左に曲がってください | hidari ni magatte kudasai | Please turn left.
+今何時ですか | ima nan-ji desu ka | What time is it now?
+三時です | san-ji desu | It's three o'clock.
+道に迷いました | michi ni mayoimashita | I'm lost.
+## Shopping and eating
+いくらですか | ikura desu ka | How much is it?
+高すぎます | takasugimasu | It's too expensive.
+見ているだけです | mite iru dake desu | I'm just looking.
+これをください | kore o kudasai | This one, please.
+〜はありますか | ~ wa arimasu ka | Do you have ~?
+お会計をお願いします | o-kaikei o onegaishimasu | The bill, please.
+二人です | futari desu | Two people. (at a restaurant)
+おすすめは何ですか | osusume wa nan desu ka | What do you recommend?
+美味しいです | oishii desu | It's delicious.
+乾杯 | kanpai | Cheers!
+カードで払えますか | kādo de haraemasu ka | Can I pay by card?
+## Feelings and help
+お腹が空きました | onaka ga sukimashita | I'm hungry.
+喉が渇きました | nodo ga kawakimashita | I'm thirsty.
+寒いです | samui desu | I'm cold.
+暑いです | atsui desu | I'm hot.
+疲れました | tsukaremashita | I'm tired.
+好きです | suki desu | I like it.
+好きではありません | suki de wa arimasen | I don't like it.
+助けて | tasukete | Help!
+医者が必要です | isha ga hitsuyō desu | I need a doctor.
+警察を呼んでください | keisatsu o yonde kudasai | Please call the police.
+危ない | abunai | Watch out! Dangerous!
+行きましょう | ikimashō | Let's go.
+ちょっと待ってください | chotto matte kudasai | Please wait a moment.
+どうしましたか | dō shimashita ka | What's wrong?
+おめでとうございます | omedetō gozaimasu | Congratulations!
+お誕生日おめでとう | o-tanjōbi omedetō | Happy birthday!
+頑張って | ganbatte | Good luck! Do your best!
+お大事に | o-daiji ni | Get well soon.
+## More everyday phrases
+はい、そうです | hai, sō desu | Yes, that's right.
+いいえ、違います | iie, chigaimasu | No, that's wrong.
+いいですよ | ii desu yo | Sure, that's fine.
+結構です | kekkō desu | No thank you; that's fine.
+ちょっとすみません | chotto sumimasen | Excuse me a moment.
+失礼します | shitsurei shimasu | Excuse me (entering or leaving).
+お先に失礼します | osaki ni shitsurei shimasu | Excuse me for leaving first.
+どうも | dōmo | Thanks. (casual)
+本当にありがとう | hontō ni arigatō | Thank you so much.
+ごめんね | gomen ne | Sorry. (casual)
+気にしないで | ki ni shinaide | Don't worry about it.
+大好きです | daisuki desu | I love it.
+楽しかったです | tanoshikatta desu | It was fun.
+また会いましょう | mata aimashō | Let's meet again.
+# sentences
+私は学生です。 | watashi wa gakusei desu. | I am a student. | X は Y です = X is Y
+これは本です。 | kore wa hon desu. | This is a book.
+それは何ですか。 | sore wa nan desu ka. | What is that? | か makes a question
+彼女は家にいます。 | kanojo wa ie ni imasu. | She is at home. | いる for people, に for location
+机の上に本があります。 | tsukue no ue ni hon ga arimasu. | There is a book on the desk. | ある for things
+コーヒーは熱いです。 | kōhī wa atsui desu. | The coffee is hot.
+兄が二人います。 | ani ga futari imasu. | I have two older brothers. | counter 人 for people
+私は寿司が好きです。 | watashi wa sushi ga suki desu. | I like sushi. | 好き takes が
+毎朝コーヒーを飲みます。 | maiasa kōhī o nomimasu. | I drink coffee every morning. | を marks the object
+明日東京へ行きます。 | ashita Tōkyō e ikimasu. | I'll go to Tokyo tomorrow. | へ = towards; present form for the future
+電車で会社に行きます。 | densha de kaisha ni ikimasu. | I go to the office by train. | で = by means of
+日曜日に友達に会います。 | nichiyōbi ni tomodachi ni aimasu. | I'll meet a friend on Sunday.
+七時に起きます。 | shichi-ji ni okimasu. | I get up at seven.
+昨日、ラーメンを食べました。 | kinō, rāmen o tabemashita. | Yesterday I ate ramen. | -mashita = polite past
+週末は映画を見ませんでした。 | shūmatsu wa eiga o mimasen deshita. | I didn't watch a film at the weekend. | -masen deshita = polite negative past
+今、本を読んでいます。 | ima, hon o yonde imasu. | I'm reading a book now. | te-form + いる = in progress
+ドバイに住んでいます。 | Dobai ni sunde imasu. | I live in Dubai. | 住む uses ている for a current state
+手伝ってくれませんか。 | tetsudatte kuremasen ka. | Could you help me?
+ここで写真を撮ってもいいですか。 | koko de shashin o totte mo ii desu ka. | May I take photos here? | te-form + もいい = may
+ここでタバコを吸ってはいけません。 | koko de tabako o sutte wa ikemasen. | You must not smoke here. | てはいけない = must not
+日本語を勉強したいです。 | nihongo o benkyō shitai desu. | I want to study Japanese. | stem + たい = want to
+明日は働かなければなりません。 | ashita wa hatarakanakereba narimasen. | I have to work tomorrow. | なければならない = must
+日本語が話せます。 | nihongo ga hanasemasu. | I can speak Japanese. | potential form
+姉は私より背が高いです。 | ane wa watashi yori se ga takai desu. | My older sister is taller than me. | より = than
+この町で一番いいレストランです。 | kono machi de ichiban ii resutoran desu. | It's the best restaurant in this town. | 一番 = most
+今日は暑いですね。 | kyō wa atsui desu ne. | It's hot today, isn't it? | ね seeks agreement
+明日は雨が降るでしょう。 | ashita wa ame ga furu deshō. | It will probably rain tomorrow. | でしょう = probably
+冷蔵庫に何もありません。 | reizōko ni nani mo arimasen. | There's nothing in the fridge. | 何も + negative = nothing
+夜はコーヒーを飲みません。 | yoru wa kōhī o nomimasen. | I don't drink coffee at night. | -masen = polite negative
+日本に行ったことがあります。 | Nihon ni itta koto ga arimasu. | I have been to Japan. | た + ことがある = have done
+もう食べましたか。 | mō tabemashita ka. | Have you eaten already?
+三年前から日本語を勉強しています。 | san-nen mae kara nihongo o benkyō shite imasu. | I've been studying Japanese for three years.
+母に花をあげました。 | haha ni hana o agemashita. | I gave flowers to my mother. | に marks the recipient
+友達に本をもらいました。 | tomodachi ni hon o moraimashita. | I received a book from a friend.
+窓を開けてください。 | mado o akete kudasai. | Please open the window. | te-form + ください = please do
+時間があれば、行きます。 | jikan ga areba, ikimasu. | If I have time, I'll go. | ば = if
+お金があったら、もっと旅行します。 | okane ga attara, motto ryokō shimasu. | If I had money, I would travel more. | たら = if / when
+駅に着いたら、電話してください。 | eki ni tsuitara, denwa shite kudasai. | When you get to the station, please call me.
+頭が痛いです。 | atama ga itai desu. | I have a headache.
+日本語は難しいですが、楽しいです。 | nihongo wa muzukashii desu ga, tanoshii desu. | Japanese is difficult, but fun. | が = but
+雨が降っているので、家にいます。 | ame ga futte iru node, ie ni imasu. | Because it's raining, I'm staying at home. | ので = because
+ちょうど着いたところです。 | chōdo tsuita tokoro desu. | I've just arrived. | た + ところ = just did
+もう一度やってみます。 | mō ichido yatte mimasu. | I'll try once more. | te-form + みる = try doing
+待ったほうがいいです。 | matta hō ga ii desu. | It would be better to wait. | た + ほうがいい = had better
+とても楽しかったです。 | totemo tanoshikatta desu. | It was a lot of fun. | -i adjective past: -katta
+やっと仕事が終わりました。 | yatto shigoto ga owarimashita. | The work is finally over.
+これは友達が書いた本です。 | kore wa tomodachi ga kaita hon desu. | This is a book my friend wrote. | a clause before a noun describes it
+彼がフランス語を話せるとは知りませんでした。 | kare ga furansugo o hanaseru to wa shirimasen deshita. | I didn't know he could speak French.
+練習すればするほど上手になります。 | renshū sureba suru hodo jōzu ni narimasu. | The more you practise, the better you get. | 〜ば〜ほど = the more … the more
+猫が好きな人は多いです。 | neko ga suki na hito wa ōi desu. | Many people like cats.

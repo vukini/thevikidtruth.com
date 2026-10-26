@@ -23,6 +23,8 @@ path_step: 1
 
 **Practise:** [Japanese flashcards and quizzes](/languages/japanese-practice/) (works on any phone).
 
+**Core lists:** [vocabulary by theme](/languages/japanese-vocabulary/#core-vocabulary-by-theme) · [everyday phrases](/languages/japanese-phrases/) · [example sentences](/languages/japanese-sentences/)
+
 
 Japanese is on my list of languages to learn. So far I have been working on reading and writing: the two kana charts and my teacher's notes are below.
 

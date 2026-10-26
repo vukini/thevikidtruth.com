@@ -23,6 +23,8 @@ path_step: 1
 
 **Practise:** [Swahili flashcards and quizzes](/languages/swahili-practice/) (works on any phone).
 
+**Core lists:** [vocabulary by theme](/languages/swvocab001/#core-vocabulary-by-theme) · [everyday phrases](/languages/swahili-phrases/) · [example sentences](/languages/swahili-sentences/)
+
 
 I travelled to Tanzania for the first time in 2019. It's been a few years now, but I thought it would be great to learn a little Swahili for whenever I go back. This page is the front door: what the language is, how it sounds, how it is built, the phrases to learn first, and then a numbered path through everything else on the site.
 

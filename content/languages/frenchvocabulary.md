@@ -235,3 +235,371 @@ Adjectives are given masculine / feminine.
 ## Caxton Reference
 
 Entries here follow the Caxton pocket-dictionary convention: short, with the article always given. For grammar and the learning path, see [French: Start Here](french.md); for method, [How to Learn Languages](howtolearnlanguages.md), [The Memory Chalet](thememorychalet.md) and my English [Vocab](vocab.md) page.
+
+<!-- core-vocab:start -->
+
+## Core vocabulary by theme
+
+High-frequency words, added October 2026 and checked against Wiktionary. Words already in my notes above aren't repeated. Practise them on the [French practice page](/languages/french-practice/).
+
+### Greetings and basics
+
+| French | English | Note |
+|---|---|---|
+| bonjour | hello, good morning |  |
+| bonsoir | good evening |  |
+| salut | hi; bye (informal) |  |
+| au revoir | goodbye |  |
+| merci | thank you |  |
+| s'il vous plaît | please (formal) |  |
+| s'il te plaît | please (informal) |  |
+| pardon | sorry, excuse me |  |
+| oui | yes |  |
+| non | no |  |
+| d'accord | OK, agreed |  |
+
+### People and family
+
+| French | English | Note |
+|---|---|---|
+| la personne | person |  |
+| l'homme | man | masculine: un homme |
+| la femme | woman; wife |  |
+| l'enfant | child |  |
+| le garçon | boy |  |
+| la fille | girl; daughter |  |
+| l'ami | friend (m) |  |
+| l'amie | friend (f) |  |
+| la famille | family |  |
+| le père | father |  |
+| la mère | mother |  |
+| le frère | brother |  |
+| la sœur | sister |  |
+| le fils | son | the s is pronounced |
+| les parents | parents; relatives |  |
+| le grand-père | grandfather |  |
+| la grand-mère | grandmother |  |
+| le mari | husband |  |
+| l'oncle | uncle |  |
+| la tante | aunt |  |
+| le cousin | cousin (m) |  |
+| le voisin | neighbour |  |
+| les gens | people |  |
+
+### Numbers
+
+| French | English | Note |
+|---|---|---|
+| zéro | zero |  |
+| un | one |  |
+| deux | two |  |
+| trois | three |  |
+| quatre | four |  |
+| cinq | five |  |
+| six | six |  |
+| sept | seven |  |
+| huit | eight |  |
+| neuf | nine |  |
+| dix | ten |  |
+| onze | eleven |  |
+| douze | twelve |  |
+| quinze | fifteen |  |
+| vingt | twenty |  |
+| trente | thirty |  |
+| quarante | forty |  |
+| cinquante | fifty |  |
+| soixante | sixty |  |
+| soixante-dix | seventy | literally sixty-ten |
+| quatre-vingts | eighty | literally four twenties |
+| quatre-vingt-dix | ninety |  |
+| cent | one hundred |  |
+| mille | one thousand |  |
+| premier | first |  |
+| dernier | last |  |
+
+### Time
+
+| French | English | Note |
+|---|---|---|
+| le jour | day |  |
+| la semaine | week |  |
+| le mois | month |  |
+| l'an | year | also l'année |
+| l'heure | hour; time (of day) | feminine |
+| la minute | minute |  |
+| aujourd'hui | today |  |
+| demain | tomorrow |  |
+| hier | yesterday |  |
+| maintenant | now |  |
+| plus tard | later |  |
+| toujours | always; still |  |
+| jamais | never | ne … jamais |
+| parfois | sometimes |  |
+| souvent | often |  |
+| tôt | early |  |
+| tard | late |  |
+| l'après-midi | afternoon |  |
+| lundi | Monday |  |
+| mardi | Tuesday |  |
+| mercredi | Wednesday |  |
+| jeudi | Thursday |  |
+| vendredi | Friday |  |
+| samedi | Saturday |  |
+| dimanche | Sunday |  |
+| janvier | January |  |
+| février | February |  |
+| mars | March |  |
+| avril | April |  |
+| mai | May |  |
+| juin | June |  |
+| juillet | July |  |
+| août | August |  |
+| septembre | September |  |
+| octobre | October |  |
+| novembre | November |  |
+| décembre | December |  |
+
+### Food and drink
+
+| French | English | Note |
+|---|---|---|
+| la nourriture | food |  |
+| le repas | meal |  |
+| l'eau | water | feminine |
+| le café | coffee; café |  |
+| le thé | tea |  |
+| le vin | wine |  |
+| la bière | beer |  |
+| le jus | juice |  |
+| la viande | meat |  |
+| le poulet | chicken |  |
+| le poisson | fish |  |
+| le riz | rice |  |
+| l'œuf | egg |  |
+| le fruit | fruit |  |
+| l'orange | orange |  |
+| la banane | banana |  |
+| le légume | vegetable |  |
+| le sel | salt |  |
+| le sucre | sugar |  |
+| le beurre | butter |  |
+| l'addition | the bill |  |
+
+### Travel and places
+
+| French | English | Note |
+|---|---|---|
+| la ville | town, city |  |
+| le village | village |  |
+| le pays | country |  |
+| la rue | street |  |
+| le magasin | shop |  |
+| le marché | market |  |
+| la banque | bank |  |
+| l'hôpital | hospital |  |
+| l'école | school |  |
+| l'église | church |  |
+| la plage | beach |  |
+| la mer | sea |  |
+| la montagne | mountain |  |
+| le fleuve | river (flowing to the sea) |  |
+| l'aéroport | airport |  |
+| l'avion | plane |  |
+| le train | train |  |
+| le bus | bus |  |
+| la voiture | car |  |
+| la gare | train station |  |
+| le billet | ticket |  |
+| l'hôtel | hotel |  |
+| le voyage | trip, journey |  |
+| la carte | map; card; menu |  |
+| à gauche | on the left |  |
+| à droite | on the right |  |
+| tout droit | straight ahead |  |
+| près | near |  |
+| loin | far |  |
+| ici | here |  |
+| là | there |  |
+
+### Home
+
+| French | English | Note |
+|---|---|---|
+| l'appartement | flat, apartment |  |
+| les vêtements | clothes |  |
+| les chaussures | shoes |  |
+| le livre | book |  |
+
+### Work and school
+
+| French | English | Note |
+|---|---|---|
+| le patron | boss |  |
+| l'argent | money; silver |  |
+| la réunion | meeting |  |
+| l'ordinateur | computer |  |
+| la question | question |  |
+| la réponse | answer |  |
+| le mot | word |  |
+| la langue | language; tongue |  |
+| le cours | lesson, class |  |
+| le professeur | teacher |  |
+| l'étudiant | student (m) |  |
+
+### Body and health
+
+| French | English | Note |
+|---|---|---|
+| le corps | body |  |
+| la tête | head |  |
+| la main | hand |  |
+| le pied | foot |  |
+| l'œil | eye | plural les yeux |
+| la bouche | mouth |  |
+| le cœur | heart |  |
+| le médecin | doctor |  |
+| malade | ill, sick |  |
+| la douleur | pain |  |
+
+### Nature and weather
+
+| French | English | Note |
+|---|---|---|
+| le soleil | sun |  |
+| la lune | moon |  |
+| le ciel | sky |  |
+| la pluie | rain |  |
+| le vent | wind |  |
+| le temps | weather; time |  |
+| l'arbre | tree |  |
+| la fleur | flower |  |
+| le chien | dog |  |
+| le chat | cat |  |
+
+### Verbs
+
+| French | English | Note |
+|---|---|---|
+| être | to be |  |
+| avoir | to have |  |
+| faire | to do, to make |  |
+| aller | to go |  |
+| venir | to come |  |
+| pouvoir | can, to be able |  |
+| vouloir | to want |  |
+| devoir | must, to have to; to owe |  |
+| dire | to say |  |
+| voir | to see |  |
+| donner | to give |  |
+| savoir | to know (facts) |  |
+| connaître | to know (people, places) |  |
+| parler | to speak |  |
+| manger | to eat |  |
+| boire | to drink |  |
+| habiter | to live (somewhere) |  |
+| vivre | to live |  |
+| travailler | to work |  |
+| étudier | to study |  |
+| apprendre | to learn |  |
+| comprendre | to understand |  |
+| lire | to read |  |
+| écrire | to write |  |
+| écouter | to listen |  |
+| regarder | to look at, to watch |  |
+| acheter | to buy |  |
+| payer | to pay |  |
+| ouvrir | to open |  |
+| fermer | to close |  |
+| arriver | to arrive |  |
+| partir | to leave |  |
+| sortir | to go out |  |
+| rentrer | to go back home |  |
+| attendre | to wait |  |
+| chercher | to look for |  |
+| trouver | to find |  |
+| penser | to think |  |
+| croire | to believe |  |
+| aimer | to love; to like |  |
+| prendre | to take |  |
+| mettre | to put |  |
+| laisser | to leave, to let |  |
+| commencer | to begin |  |
+| finir | to finish |  |
+| aider | to help |  |
+| dormir | to sleep |  |
+| jouer | to play |  |
+
+### Adjectives
+
+| French | English | Note |
+|---|---|---|
+| grand | big, tall |  |
+| petit | small |  |
+| bon | good |  |
+| mauvais | bad |  |
+| nouveau | new |  |
+| vieux | old |  |
+| jeune | young |  |
+| long | long |  |
+| court | short |  |
+| cher | expensive; dear |  |
+| facile | easy |  |
+| difficile | difficult |  |
+| rapide | fast |  |
+| lent | slow |  |
+| beau | beautiful |  |
+| joli | pretty |  |
+| heureux | happy |  |
+| triste | sad |  |
+| fatigué | tired |  |
+| chaud | hot, warm |  |
+| froid | cold |  |
+| propre | clean; own |  |
+| sale | dirty |  |
+| plein | full |  |
+| vide | empty |  |
+| important | important |  |
+| même | same; even |  |
+| autre | other |  |
+
+### Colours
+
+| French | English | Note |
+|---|---|---|
+| rouge | red |  |
+| bleu | blue |  |
+| vert | green |  |
+| jaune | yellow |  |
+| blanc | white | feminine blanche |
+| noir | black |  |
+| gris | grey |  |
+| marron | brown | invariable |
+
+### Question and little words
+
+| French | English | Note |
+|---|---|---|
+| quoi | what |  |
+| qui | who |  |
+| où | where |  |
+| quand | when |  |
+| comment | how |  |
+| pourquoi | why |  |
+| combien | how much, how many |  |
+| quel | which | quelle, quels, quelles |
+| parce que | because |  |
+| mais | but |  |
+| et | and |  |
+| ou | or |  |
+| aussi | also |  |
+| très | very |  |
+| plus | more |  |
+| moins | less |  |
+| avec | with |  |
+| sans | without |  |
+| pour | for |  |
+| entre | between |  |
+| beaucoup | a lot |  |
+| peu | little, few |  |
+
+<!-- core-vocab:end -->

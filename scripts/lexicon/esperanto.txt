@@ -1,0 +1,491 @@
+# words
+## Greetings and basics
+saluton | hello
+ĝis | bye | short for ĝis revido
+ĝis revido | goodbye
+dankon | thank you
+bonvolu | please | bonvolu + infinitive
+pardonon | sorry, excuse me
+jes | yes
+ne | no
+bone | well, OK
+## People and family
+persono | person
+homo | human being, person
+viro | man
+virino | woman | -in- makes the feminine
+infano | child
+knabo | boy
+knabino | girl
+amiko | friend
+familio | family
+patro | father
+patrino | mother
+gepatroj | parents | ge- = both sexes
+frato | brother
+fratino | sister
+gefratoj | brothers and sisters
+filo | son
+filino | daughter
+avo | grandfather
+avino | grandmother
+edzo | husband
+edzino | wife
+onklo | uncle
+onklino | aunt
+kuzo | cousin (m)
+najbaro | neighbour
+homoj | people
+## Numbers
+nul | zero
+unu | one
+du | two
+tri | three
+kvar | four
+kvin | five
+ses | six
+sep | seven
+ok | eight
+naŭ | nine
+dek | ten
+dek unu | eleven
+dek du | twelve
+dudek | twenty
+tridek | thirty
+kvardek | forty
+kvindek | fifty
+cent | one hundred
+mil | one thousand
+unua | first
+dua | second
+lasta | last
+## Time
+tago | day
+semajno | week
+monato | month
+jaro | year
+horo | hour
+minuto | minute
+hodiaŭ | today
+morgaŭ | tomorrow
+hieraŭ | yesterday
+nun | now
+poste | afterwards, later
+ĉiam | always
+neniam | never
+foje | sometimes
+ofte | often
+frue | early
+malfrue | late | mal- makes the opposite
+mateno | morning
+posttagmezo | afternoon
+vespero | evening
+nokto | night
+lundo | Monday
+mardo | Tuesday
+merkredo | Wednesday
+ĵaŭdo | Thursday
+vendredo | Friday
+sabato | Saturday
+dimanĉo | Sunday
+januaro | January
+februaro | February
+marto | March
+aprilo | April
+majo | May
+junio | June
+julio | July
+aŭgusto | August
+septembro | September
+oktobro | October
+novembro | November
+decembro | December
+## Food and drink
+manĝaĵo | food | manĝ- + -aĵ- = thing to eat
+manĝo | meal
+akvo | water
+pano | bread
+lakto | milk
+kafo | coffee
+teo | tea
+vino | wine
+biero | beer
+suko | juice
+viando | meat
+kokido | chicken (as food) | koko = rooster, -id- = young
+fiŝo | fish
+rizo | rice
+ovo | egg
+fromaĝo | cheese
+frukto | fruit
+pomo | apple
+oranĝo | orange
+banano | banana
+legomo | vegetable
+salo | salt
+sukero | sugar
+butero | butter
+matenmanĝo | breakfast
+tagmanĝo | lunch
+vespermanĝo | dinner
+kalkulo | the bill; calculation
+## Travel and places
+urbo | town, city
+vilaĝo | village
+lando | country
+strato | street
+vendejo | shop | -ej- = place
+butiko | shop
+bazaro | market
+banko | bank
+hospitalo | hospital
+lernejo | school | lerni + -ej-
+preĝejo | church | preĝi = to pray
+plaĝo | beach
+maro | sea
+monto | mountain
+rivero | river
+flughaveno | airport | literally flight harbour
+aviadilo | plane
+trajno | train
+buso | bus
+aŭto | car
+stacidomo | railway station
+bileto | ticket
+hotelo | hotel
+vojaĝo | journey, trip
+mapo | map
+maldekstre | on the left
+dekstre | on the right
+rekte | straight
+proksime | near
+malproksime | far
+ĉi tie | here
+tie | there
+## Home
+domo | house
+loĝejo | flat, home | loĝi + -ej-
+ĉambro | room
+dormoĉambro | bedroom
+kuirejo | kitchen | kuiri = to cook
+banĉambro | bathroom
+pordo | door
+fenestro | window
+tablo | table
+seĝo | chair
+lito | bed
+ŝlosilo | key | ŝlosi = to lock
+ĝardeno | garden
+vestoj | clothes
+ŝuoj | shoes
+telefono | telephone
+libro | book
+komputilo | computer | komputi + -il- = tool
+## Work and school
+laboro | work
+oficejo | office
+estro | boss, chief | also a suffix: urbestro = mayor
+mono | money
+kunsido | meeting
+demando | question
+respondo | answer
+vorto | word
+lingvo | language
+leciono | lesson
+instruisto | teacher | -ist- = professional
+studento | student
+lernanto | learner, pupil | -ant- = one who is doing
+## Body and health
+korpo | body
+kapo | head
+mano | hand
+piedo | foot
+okulo | eye
+buŝo | mouth
+koro | heart
+kuracisto | doctor | kuraci = to treat
+malsana | ill | mal- + sana
+doloro | pain
+## Nature and weather
+suno | sun
+luno | moon
+ĉielo | sky
+pluvo | rain
+vento | wind
+vetero | weather
+arbo | tree
+floro | flower
+hundo | dog
+kato | cat
+birdo | bird
+## Verbs
+esti | to be
+havi | to have
+fari | to do, to make
+iri | to go
+veni | to come
+povi | can, to be able
+voli | to want
+devi | must, to have to
+diri | to say
+vidi | to see
+doni | to give
+scii | to know (facts)
+koni | to know (people, places)
+paroli | to speak
+manĝi | to eat
+trinki | to drink
+loĝi | to live (reside)
+vivi | to live
+labori | to work
+studi | to study
+lerni | to learn
+kompreni | to understand
+legi | to read
+skribi | to write
+aŭskulti | to listen
+rigardi | to look at, to watch
+aĉeti | to buy
+pagi | to pay
+malfermi | to open | literally un-close
+fermi | to close
+alveni | to arrive
+foriri | to leave
+reveni | to come back
+atendi | to wait
+serĉi | to look for
+trovi | to find
+pensi | to think
+kredi | to believe
+ami | to love
+ŝati | to like
+preni | to take
+meti | to put
+komenci | to begin
+fini | to finish
+helpi | to help
+dormi | to sleep
+ludi | to play
+bezoni | to need
+uzi | to use
+## Adjectives
+granda | big
+malgranda | small
+bona | good
+malbona | bad
+nova | new
+malnova | old (of things)
+maljuna | old (of people)
+juna | young
+longa | long
+mallonga | short
+alta | tall, high
+malalta | low, short
+kara | dear; expensive
+multekosta | expensive
+malmultekosta | cheap
+facila | easy
+malfacila | difficult
+rapida | fast
+malrapida | slow
+bela | beautiful
+malbela | ugly
+feliĉa | happy
+malĝoja | sad
+laca | tired
+varma | warm
+malvarma | cold
+pura | clean
+malpura | dirty
+plena | full
+malplena | empty
+grava | important
+sama | same
+alia | other
+## Colours
+ruĝa | red
+blua | blue
+verda | green
+flava | yellow
+blanka | white
+nigra | black
+griza | grey
+bruna | brown
+## Question and little words
+kio | what
+kiu | who; which
+kie | where
+kiam | when
+kiel | how; as, like
+kial | why
+kiom | how much, how many
+ĉar | because
+sed | but
+kaj | and
+aŭ | or
+ankaŭ | also
+tre | very
+pli | more
+malpli | less
+kun | with
+sen | without
+por | for
+inter | between
+multe | a lot
+iom | a little, some
+# phrases
+## Greetings and politeness
+Bonan matenon! | Good morning! | accusative -n: a wish
+Bonan tagon! | Good day!
+Bonan vesperon! | Good evening!
+Bonan nokton! | Good night!
+Kiel vi fartas? | How are you?
+Mi fartas bone, dankon. | I'm fine, thank you.
+Kaj vi? | And you?
+Estas plezuro koni vin. | Pleased to meet you.
+Ĝis morgaŭ! | See you tomorrow!
+Ĝis baldaŭ! | See you soon!
+Bonan tagon al vi! | Have a nice day!
+Koran dankon! | Heartfelt thanks!
+Dankon pro via helpo. | Thank you for your help.
+Ne dankinde. | You're welcome; don't mention it.
+Mi bedaŭras. | I'm sorry.
+Bonvenon! | Welcome!
+## Getting to know someone
+Kiel vi nomiĝas? | What's your name?
+Mi nomiĝas… | My name is…
+Kio estas via nomo? | What is your name?
+De kie vi venas? | Where are you from?
+Mi venas el… | I come from…
+Kie vi loĝas? | Where do you live?
+Mi loĝas en Dubajo. | I live in Dubai.
+Kio estas via profesio? | What is your job?
+Kiom aĝa vi estas? | How old are you?
+Mi estas tridekjara. | I'm thirty years old.
+Ĉu vi parolas Esperanton? | Do you speak Esperanto? | ĉu makes a yes/no question
+Ĉu vi parolas la anglan? | Do you speak English?
+Mi parolas iomete. | I speak a little.
+Mi lernas Esperanton. | I'm learning Esperanto.
+De kiam vi parolas Esperanton? | Since when have you spoken Esperanto?
+## Understanding
+Mi ne komprenas. | I don't understand.
+Bonvolu ripeti. | Please repeat.
+Bonvolu paroli pli malrapide. | Please speak more slowly.
+Kion tio signifas? | What does that mean?
+Kiel oni diras … en Esperanto? | How do you say … in Esperanto?
+Kiel oni literumas tion? | How do you spell that?
+Mi ne scias. | I don't know.
+Mi pensas, ke jes. | I think so.
+Mi pensas, ke ne. | I don't think so.
+Kompreneble! | Of course!
+Konsentite. | Agreed.
+Vi pravas. | You're right.
+Bonege! | Excellent!
+Domaĝe. | What a pity.
+Tio dependas. | That depends.
+Ne gravas. | It doesn't matter.
+Neniu problemo. | No problem.
+## Getting around
+Kie estas la necesejo? | Where is the toilet?
+Kie estas la stacidomo? | Where is the station?
+Kiel mi iru al…? | How do I get to…? | -u for "should I"
+Ĉu estas malproksime? | Is it far?
+Estas tre proksime. | It's very close.
+Iru rekte. | Go straight on.
+Turnu maldekstren. | Turn left. | -n shows direction
+Turnu dekstren. | Turn right.
+Unu bileton al Parizo, mi petas. | One ticket to Paris, please.
+Je kioma horo foriras la trajno? | What time does the train leave?
+Kioma horo estas? | What time is it?
+Estas la tria. | It's three o'clock.
+Mi perdiĝis. | I'm lost.
+## Shopping and eating
+Kiom ĝi kostas? | How much does it cost?
+Tio estas tro multekosta. | That's too expensive.
+Mi nur rigardas. | I'm just looking.
+Mi ŝatus… | I would like…
+Ĉu vi havas…? | Do you have…?
+La kalkulon, mi petas. | The bill, please.
+Tablon por du, mi petas. | A table for two, please.
+Kion vi rekomendas? | What do you recommend?
+Mi estas vegetarano. | I'm vegetarian.
+Bonan apetiton! | Enjoy your meal!
+Je via sano! | Cheers! To your health!
+Estas bongusta. | It's tasty.
+Ĉu mi povas pagi per karto? | Can I pay by card?
+## Feelings and help
+Mi malsatas. | I'm hungry.
+Mi soifas. | I'm thirsty.
+Al mi estas malvarme. | I feel cold. | literally to me it is cold
+Al mi estas varme. | I'm hot.
+Mi estas laca. | I'm tired.
+Mi estas preta. | I'm ready.
+Mi ŝatas ĝin. | I like it.
+Mi ne ŝatas ĝin. | I don't like it.
+Helpu! | Help!
+Mi bezonas kuraciston. | I need a doctor.
+Voku la policon! | Call the police!
+Atentu! | Watch out!
+Ni iru! | Let's go!
+Momenton, mi petas. | One moment, please.
+Kio okazas? | What's happening?
+Kio okazis? | What happened?
+Gratulon! | Congratulations!
+Feliĉan naskiĝtagon! | Happy birthday!
+Bonan ŝancon! | Good luck!
+Bonan vojaĝon! | Have a good trip!
+Resaniĝu baldaŭ! | Get well soon!
+# sentences
+Mi estas studento. | I am a student.
+Ŝi estas hejme. | She is at home. | hejme = at home (adverb)
+La kafo estas varma. | The coffee is hot.
+Mi havas du fratojn. | I have two brothers. | -j plural, -n object
+Mi ŝatas ĉokoladon. | I like chocolate. | the object takes -n
+Ni loĝas apud la maro. | We live by the sea.
+Hodiaŭ estas varme. | It's warm today. | no subject for weather
+Morgaŭ pluvos. | It will rain tomorrow. | -os = future
+Dimanĉe mi iras al la plaĝo. | On Sundays I go to the beach. | dimanĉe = on Sunday(s)
+La trajno foriras je la oka. | The train leaves at eight. | je = at (time)
+Ĉu vi povas helpi min? | Can you help me?
+Mi ne povas veni ĉi-vespere. | I can't come this evening.
+Mi volas lerni Esperanton. | I want to learn Esperanto.
+Mi devas labori morgaŭ. | I have to work tomorrow.
+Mi nun legas libron. | I'm reading a book now. | -as covers both I read and I am reading
+Kion vi faras? | What are you doing?
+Mia fratino estas pli alta ol mi. | My sister is taller than me. | pli … ol
+Tio estas la plej bona restoracio en la urbo. | That's the best restaurant in town. | la plej = the most
+Estas multaj homoj sur la strato. | There are many people in the street. | estas = there is / are
+Estas nenio en la fridujo. | There's nothing in the fridge. | only one negative word
+Mi neniam trinkas kafon vespere. | I never drink coffee in the evening.
+Hieraŭ mi manĝis picon. | Yesterday I ate pizza. | -is = past
+Ni iris al la kinejo sabate. | We went to the cinema on Saturday.
+Kiam mi estis infano, mi loĝis en la kamparo. | When I was a child, I lived in the countryside.
+Mi jam vizitis Francion dufoje. | I've already visited France twice. | -foje = times
+Ĉu vi jam manĝis? | Have you eaten yet?
+Mi loĝas ĉi tie jam de tri jaroj. | I've been living here for three years. | jam de + present
+Mi donis ĝin al mia patrino. | I gave it to my mother.
+Diru al mi! | Tell me! | -u = command
+Ne diru tion al li. | Don't tell him that.
+Mi esperas, ke vi fartas bone. | I hope you're well.
+Mi volas, ke vi venu. | I want you to come. | -u after a wish
+Kiam vi alvenos, telefonu al mi. | When you arrive, phone me. | future -os after kiam
+Se mi havos tempon, mi venos. | If I have time, I'll come. | future in both halves
+Se mi havus monon, mi vojaĝus pli. | If I had money, I would travel more. | -us = conditional
+Mia kapo doloras. | My head hurts.
+Oni parolas Esperanton ĉi tie. | Esperanto is spoken here. | oni = one, people
+Mi ĵus alvenis. | I've just arrived. | ĵus = just now
+Mi provos denove. | I'll try again.
+La plej grava afero estas provi. | The most important thing is to try.
+Ĉu ĝenas vin, se mi malfermas la fenestron? | Does it bother you if I open the window?
+Estus pli bone atendi. | It would be better to wait.
+Ni tre amuziĝis. | We had a lot of fun. | -iĝ- = to become, get
+Fine mi finis la laboron. | Finally I finished the work.
+Mi lernas por kompreni, ne por ekzameno. | I learn to understand, not for an exam. | por + infinitive
+La libro estas skribita de mia amiko. | The book is written by my friend. | -it- = passive past participle
+La parolanto estas mia instruisto. | The speaker is my teacher. | -ant- = the one doing
+Mi ne sciis, ke vi parolas la francan. | I didn't know you speak French. | reported speech keeps the original tense
+Ju pli mi praktikas, des pli bone mi parolas. | The more I practise, the better I speak. | ju … des …
+Mi iris en la domon. | I went into the house. | en + -n = into
+Mi estis en la domo. | I was in the house. | en without -n = location
+La malsanulo resaniĝis. | The sick person recovered. | -ul- = person
+Ili estas geamikoj. | They are friends (men and women). | ge- for mixed groups

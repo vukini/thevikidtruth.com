@@ -1,9 +1,16 @@
 {
 "lang": "french",
+"counts": {
+"words": 358,
+"phrases": 97,
+"sentences": 53
+},
 "title": "French",
 "code": "fr",
 "sources": [
-"frenchvocabulary"
+"frenchvocabulary",
+"french-phrases",
+"french-sentences"
 ],
 "cards": [
 {
@@ -11,336 +18,384 @@
 "b": "le",
 "s": "frenchvocabulary",
 "g": "The article cheat sheet",
-"h": "feminine: la · before a vowel or mute h: l' · plural: les"
+"h": "feminine: la · before a vowel or mute h: l' · plural: les",
+"k": "words"
 },
 {
 "f": "a / an",
 "b": "un",
 "s": "frenchvocabulary",
 "g": "The article cheat sheet",
-"h": "feminine: une · before a vowel or mute h: (un / une) · plural: des"
+"h": "feminine: une · before a vowel or mute h: (un / une) · plural: des",
+"k": "words"
 },
 {
 "f": "some",
 "b": "du",
 "s": "frenchvocabulary",
 "g": "The article cheat sheet",
-"h": "feminine: de la · before a vowel or mute h: de l' · plural: des"
+"h": "feminine: de la · before a vowel or mute h: de l' · plural: des",
+"k": "words"
 },
 {
 "f": "la maison",
 "b": "house",
 "s": "frenchvocabulary",
 "g": "La maison — the house",
-"h": "gender: f"
+"h": "gender: f",
+"k": "words"
 },
 {
 "f": "l'appartement (un)",
 "b": "flat, apartment",
 "s": "frenchvocabulary",
 "g": "La maison — the house",
-"h": "gender: m"
+"h": "gender: m",
+"k": "words"
 },
 {
 "f": "la cuisine",
 "b": "kitchen; cooking",
 "s": "frenchvocabulary",
 "g": "La maison — the house",
-"h": "gender: f"
+"h": "gender: f",
+"k": "words"
 },
 {
 "f": "la chambre",
 "b": "bedroom",
 "s": "frenchvocabulary",
 "g": "La maison — the house",
-"h": "gender: f"
+"h": "gender: f",
+"k": "words"
 },
 {
 "f": "la salle de bains",
 "b": "bathroom",
 "s": "frenchvocabulary",
 "g": "La maison — the house",
-"h": "gender: f"
+"h": "gender: f",
+"k": "words"
 },
 {
 "f": "le salon",
 "b": "living room",
 "s": "frenchvocabulary",
 "g": "La maison — the house",
-"h": "gender: m"
+"h": "gender: m",
+"k": "words"
 },
 {
 "f": "le jardin",
 "b": "garden",
 "s": "frenchvocabulary",
 "g": "La maison — the house",
-"h": "gender: m"
+"h": "gender: m",
+"k": "words"
 },
 {
 "f": "la porte",
 "b": "door",
 "s": "frenchvocabulary",
 "g": "La maison — the house",
-"h": "gender: f"
+"h": "gender: f",
+"k": "words"
 },
 {
 "f": "la fenêtre",
 "b": "window",
 "s": "frenchvocabulary",
 "g": "La maison — the house",
-"h": "gender: f"
+"h": "gender: f",
+"k": "words"
 },
 {
 "f": "le mur",
 "b": "wall",
 "s": "frenchvocabulary",
 "g": "La maison — the house",
-"h": "gender: m"
+"h": "gender: m",
+"k": "words"
 },
 {
 "f": "l'escalier (un)",
 "b": "stairs",
 "s": "frenchvocabulary",
 "g": "La maison — the house",
-"h": "gender: m"
+"h": "gender: m",
+"k": "words"
 },
 {
 "f": "le toit",
 "b": "roof",
 "s": "frenchvocabulary",
 "g": "La maison — the house",
-"h": "gender: m"
+"h": "gender: m",
+"k": "words"
 },
 {
 "f": "la table",
 "b": "table",
 "s": "frenchvocabulary",
 "g": "Les meubles — furniture",
-"h": "gender: f"
+"h": "gender: f",
+"k": "words"
 },
 {
 "f": "la chaise",
 "b": "chair",
 "s": "frenchvocabulary",
 "g": "Les meubles — furniture",
-"h": "gender: f"
+"h": "gender: f",
+"k": "words"
 },
 {
 "f": "le lit",
 "b": "bed",
 "s": "frenchvocabulary",
 "g": "Les meubles — furniture",
-"h": "gender: m"
+"h": "gender: m",
+"k": "words"
 },
 {
 "f": "le canapé",
 "b": "sofa",
 "s": "frenchvocabulary",
 "g": "Les meubles — furniture",
-"h": "gender: m"
+"h": "gender: m",
+"k": "words"
 },
 {
 "f": "l'armoire (une)",
 "b": "wardrobe",
 "s": "frenchvocabulary",
 "g": "Les meubles — furniture",
-"h": "gender: f"
+"h": "gender: f",
+"k": "words"
 },
 {
 "f": "le bureau",
 "b": "desk; office",
 "s": "frenchvocabulary",
 "g": "Les meubles — furniture",
-"h": "gender: m"
+"h": "gender: m",
+"k": "words"
 },
 {
 "f": "la lampe",
 "b": "lamp",
 "s": "frenchvocabulary",
 "g": "Les meubles — furniture",
-"h": "gender: f"
+"h": "gender: f",
+"k": "words"
 },
 {
 "f": "le miroir",
 "b": "mirror",
 "s": "frenchvocabulary",
 "g": "Les meubles — furniture",
-"h": "gender: m"
+"h": "gender: m",
+"k": "words"
 },
 {
 "f": "le frigo / le réfrigérateur",
 "b": "fridge",
 "s": "frenchvocabulary",
 "g": "À la cuisine — in the kitchen",
-"h": "gender: m"
+"h": "gender: m",
+"k": "words"
 },
 {
 "f": "le four",
 "b": "oven",
 "s": "frenchvocabulary",
 "g": "À la cuisine — in the kitchen",
-"h": "gender: m"
+"h": "gender: m",
+"k": "words"
 },
 {
 "f": "l'assiette (une)",
 "b": "plate",
 "s": "frenchvocabulary",
 "g": "À la cuisine — in the kitchen",
-"h": "gender: f"
+"h": "gender: f",
+"k": "words"
 },
 {
 "f": "le verre",
 "b": "glass",
 "s": "frenchvocabulary",
 "g": "À la cuisine — in the kitchen",
-"h": "gender: m"
+"h": "gender: m",
+"k": "words"
 },
 {
 "f": "la tasse",
 "b": "cup",
 "s": "frenchvocabulary",
 "g": "À la cuisine — in the kitchen",
-"h": "gender: f"
+"h": "gender: f",
+"k": "words"
 },
 {
 "f": "la fourchette",
 "b": "fork",
 "s": "frenchvocabulary",
 "g": "À la cuisine — in the kitchen",
-"h": "gender: f"
+"h": "gender: f",
+"k": "words"
 },
 {
 "f": "le couteau (les couteaux)",
 "b": "knife",
 "s": "frenchvocabulary",
 "g": "À la cuisine — in the kitchen",
-"h": "gender: m"
+"h": "gender: m",
+"k": "words"
 },
 {
 "f": "la cuillère",
 "b": "spoon",
 "s": "frenchvocabulary",
 "g": "À la cuisine — in the kitchen",
-"h": "gender: f"
+"h": "gender: f",
+"k": "words"
 },
 {
 "f": "la casserole",
 "b": "saucepan",
 "s": "frenchvocabulary",
 "g": "À la cuisine — in the kitchen",
-"h": "gender: f"
+"h": "gender: f",
+"k": "words"
 },
 {
 "f": "le pain",
 "b": "bread",
 "s": "frenchvocabulary",
 "g": "À la cuisine — in the kitchen",
-"h": "gender: m"
+"h": "gender: m",
+"k": "words"
 },
 {
 "f": "l'eau (une)",
 "b": "water",
 "s": "frenchvocabulary",
 "g": "À la cuisine — in the kitchen",
-"h": "gender: f"
+"h": "gender: f",
+"k": "words"
 },
 {
 "f": "le lait",
 "b": "milk",
 "s": "frenchvocabulary",
 "g": "À la cuisine — in the kitchen",
-"h": "gender: m"
+"h": "gender: m",
+"k": "words"
 },
 {
 "f": "le fromage",
 "b": "cheese",
 "s": "frenchvocabulary",
 "g": "À la cuisine — in the kitchen",
-"h": "gender: m"
+"h": "gender: m",
+"k": "words"
 },
 {
 "f": "la pomme",
 "b": "apple",
 "s": "frenchvocabulary",
 "g": "À la cuisine — in the kitchen",
-"h": "gender: f"
+"h": "gender: f",
+"k": "words"
 },
 {
 "f": "le matin",
 "b": "morning",
 "s": "frenchvocabulary",
 "g": "La journée — the day",
-"h": "gender: m"
+"h": "gender: m",
+"k": "words"
 },
 {
 "f": "l'après-midi (un)",
 "b": "afternoon",
 "s": "frenchvocabulary",
 "g": "La journée — the day",
-"h": "gender: m (or f)"
+"h": "gender: m (or f)",
+"k": "words"
 },
 {
 "f": "le soir",
 "b": "evening",
 "s": "frenchvocabulary",
 "g": "La journée — the day",
-"h": "gender: m"
+"h": "gender: m",
+"k": "words"
 },
 {
 "f": "la nuit",
 "b": "night",
 "s": "frenchvocabulary",
 "g": "La journée — the day",
-"h": "gender: f"
+"h": "gender: f",
+"k": "words"
 },
 {
 "f": "le petit-déjeuner",
 "b": "breakfast",
 "s": "frenchvocabulary",
 "g": "La journée — the day",
-"h": "gender: m"
+"h": "gender: m",
+"k": "words"
 },
 {
 "f": "le déjeuner",
 "b": "lunch",
 "s": "frenchvocabulary",
 "g": "La journée — the day",
-"h": "gender: m"
+"h": "gender: m",
+"k": "words"
 },
 {
 "f": "le dîner",
 "b": "dinner",
 "s": "frenchvocabulary",
 "g": "La journée — the day",
-"h": "gender: m"
+"h": "gender: m",
+"k": "words"
 },
 {
 "f": "le travail",
 "b": "work",
 "s": "frenchvocabulary",
 "g": "La journée — the day",
-"h": "gender: m"
+"h": "gender: m",
+"k": "words"
 },
 {
 "f": "la clé",
 "b": "key",
 "s": "frenchvocabulary",
 "g": "La journée — the day",
-"h": "gender: f"
+"h": "gender: f",
+"k": "words"
 },
 {
 "f": "le téléphone",
 "b": "phone",
 "s": "frenchvocabulary",
 "g": "La journée — the day",
-"h": "gender: m"
+"h": "gender: m",
+"k": "words"
 },
 {
 "f": "l'ordinateur (un)",
 "b": "computer",
 "s": "frenchvocabulary",
 "g": "La journée — the day",
-"h": "gender: m"
+"h": "gender: m",
+"k": "words"
 },
 {
 "f": "la harde",
@@ -348,7 +403,8 @@
 "s": "frenchvocabulary",
 "g": "Animals and nature",
 "x": "Une harde de sangliers traverse la route. A herd of wild boar is crossing the road.",
-"h": "gender: f"
+"h": "gender: f",
+"k": "words"
 },
 {
 "f": "le renne",
@@ -356,7 +412,8 @@
 "s": "frenchvocabulary",
 "g": "Animals and nature",
 "x": "Les rennes femelles portent aussi des bois. Female reindeer also have antlers.",
-"h": "gender: m"
+"h": "gender: m",
+"k": "words"
 },
 {
 "f": "le sabot",
@@ -364,7 +421,8 @@
 "s": "frenchvocabulary",
 "g": "Animals and nature",
 "x": "Il est important d'entretenir les sabots des chevaux. It's important to look after horses' hooves.",
-"h": "gender: m"
+"h": "gender: m",
+"k": "words"
 },
 {
 "f": "le croc",
@@ -372,7 +430,8 @@
 "s": "frenchvocabulary",
 "g": "Animals and nature",
 "x": "Ce chien a des crocs très aiguisés. This dog has very sharp fangs.",
-"h": "gender: m"
+"h": "gender: m",
+"k": "words"
 },
 {
 "f": "la fourrure",
@@ -380,7 +439,8 @@
 "s": "frenchvocabulary",
 "g": "Animals and nature",
 "x": "La fourrure du vison sert à faire des manteaux. Mink fur is used to make coats.",
-"h": "gender: f"
+"h": "gender: f",
+"k": "words"
 },
 {
 "f": "la pierre",
@@ -388,7 +448,8 @@
 "s": "frenchvocabulary",
 "g": "Animals and nature",
 "x": "Le diamant est une pierre précieuse. A diamond is a precious stone.",
-"h": "gender: f"
+"h": "gender: f",
+"k": "words"
 },
 {
 "f": "le paresseux",
@@ -396,42 +457,48 @@
 "s": "frenchvocabulary",
 "g": "Animals and nature",
 "x": "Le paresseux grimpe au palétuvier. The sloth climbs the mangrove tree.",
-"h": "gender: m"
+"h": "gender: m",
+"k": "words"
 },
 {
 "f": "châtain / châtain(e)",
 "b": "chestnut-brown (hair)",
 "s": "frenchvocabulary",
 "g": "Describing people",
-"x": "Sa chevelure châtain est magnifique. Her chestnut hair is magnificent. (châtaine is also accepted)"
+"x": "Sa chevelure châtain est magnifique. Her chestnut hair is magnificent. (châtaine is also accepted)",
+"k": "words"
 },
 {
 "f": "paresseux / paresseuse",
 "b": "lazy",
 "s": "frenchvocabulary",
 "g": "Describing people",
-"x": "Cette élève paresseuse néglige ses devoirs. This lazy pupil neglects her homework."
+"x": "Cette élève paresseuse néglige ses devoirs. This lazy pupil neglects her homework.",
+"k": "words"
 },
 {
 "f": "capricieux / capricieuse",
 "b": "temperamental, capricious",
 "s": "frenchvocabulary",
 "g": "Describing people",
-"x": "C'est une enfant capricieuse. She is a temperamental child."
+"x": "C'est une enfant capricieuse. She is a temperamental child.",
+"k": "words"
 },
 {
 "f": "orgueilleux / orgueilleuse",
 "b": "proud, arrogant",
 "s": "frenchvocabulary",
 "g": "Describing people",
-"x": "Il est trop orgueilleux pour reconnaître ses erreurs. He is too proud to admit his mistakes."
+"x": "Il est trop orgueilleux pour reconnaître ses erreurs. He is too proud to admit his mistakes.",
+"k": "words"
 },
 {
 "f": "épais / épaisse",
 "b": "thick",
 "s": "frenchvocabulary",
 "g": "Describing people",
-"x": "J'aime les tranches de jambon épaisses. I love thick slices of ham."
+"x": "J'aime les tranches de jambon épaisses. I love thick slices of ham.",
+"k": "words"
 },
 {
 "f": "l'abat-jour (un)",
@@ -439,7 +506,8 @@
 "s": "frenchvocabulary",
 "g": "Things and feelings",
 "x": "L'abat-jour de cette lampe tamise trop la lumière. This lamp's shade dims the light too much. (plural les abat-jour, or abat-jours since the 1990 spelling reform)",
-"h": "gender: m"
+"h": "gender: m",
+"k": "words"
 },
 {
 "f": "la récompense",
@@ -447,7 +515,8 @@
 "s": "frenchvocabulary",
 "g": "Things and feelings",
 "x": "La police offre une récompense de 50 000 $. The police are offering a $50,000 reward.",
-"h": "gender: f"
+"h": "gender: f",
+"k": "words"
 },
 {
 "f": "le souci",
@@ -455,7 +524,8 @@
 "s": "frenchvocabulary",
 "g": "Things and feelings",
 "x": "Le souci du lendemain gâche le plaisir de l'instant présent. Worry about tomorrow spoils the pleasure of the present.",
-"h": "gender: m"
+"h": "gender: m",
+"k": "words"
 },
 {
 "f": "la boucle",
@@ -463,56 +533,3180 @@
 "s": "frenchvocabulary",
 "g": "Things and feelings",
 "x": "des boucles d'oreilles, earrings; une boucle de ceinture, a belt buckle",
-"h": "gender: f"
+"h": "gender: f",
+"k": "words"
 },
 {
 "f": "boucler",
 "b": "to curl; to buckle; to close off; to wrap up; (computing) to loop",
 "s": "frenchvocabulary",
 "g": "Verbs",
-"x": "Ses cheveux bouclent naturellement. Her hair is naturally curly. Ce programme boucle indéfiniment. This program loops forever."
+"x": "Ses cheveux bouclent naturellement. Her hair is naturally curly. Ce programme boucle indéfiniment. This program loops forever.",
+"k": "words"
 },
 {
 "f": "brocher",
 "b": "to bind (a paperback); to brocade",
 "s": "frenchvocabulary",
 "g": "Verbs",
-"x": "Cette ouvrière broche les livres à la main. This worker binds the books by hand."
+"x": "Cette ouvrière broche les livres à la main. This worker binds the books by hand.",
+"k": "words"
 },
 {
 "f": "entremêler",
 "b": "to intermingle, mix",
 "s": "frenchvocabulary",
 "g": "Verbs",
-"x": "Les dates s'entremêlent dans ma tête. The dates are getting mixed up in my head."
+"x": "Les dates s'entremêlent dans ma tête. The dates are getting mixed up in my head.",
+"k": "words"
 },
 {
 "f": "foncer (fonçant)",
 "b": "to darken; to rush, charge",
 "s": "frenchvocabulary",
 "g": "Verbs",
-"x": "Sa peau a foncé avec le soleil. Her skin has darkened in the sun. Il fonce vers la sortie. He rushes towards the exit."
+"x": "Sa peau a foncé avec le soleil. Her skin has darkened in the sun. Il fonce vers la sortie. He rushes towards the exit.",
+"k": "words"
 },
 {
 "f": "grimper",
 "b": "to climb",
 "s": "frenchvocabulary",
 "g": "Verbs",
-"x": "Mon chat grimpe souvent aux arbres. En primaire, j'ai appris à grimper à la corde. My cat often climbs trees. At primary school I learned to climb the rope."
+"x": "Mon chat grimpe souvent aux arbres. En primaire, j'ai appris à grimper à la corde. My cat often climbs trees. At primary school I learned to climb the rope.",
+"k": "words"
 },
 {
 "f": "servir (il sert)",
 "b": "to serve; to be used for",
 "s": "frenchvocabulary",
 "g": "Verbs",
-"x": "Puis-je vous servir un peu de vin ? May I pour you some wine? À quoi ça sert ? What is it for?"
+"x": "Puis-je vous servir un peu de vin ? May I pour you some wine? À quoi ça sert ? What is it for?",
+"k": "words"
 },
 {
 "f": "s'entraider",
 "b": "to help each other",
 "s": "frenchvocabulary",
 "g": "Verbs",
-"x": "Les voisins s'entraident. The neighbours help one another."
+"x": "Les voisins s'entraident. The neighbours help one another.",
+"k": "words"
+},
+{
+"f": "bonjour",
+"b": "hello, good morning",
+"s": "frenchvocabulary",
+"g": "Greetings and basics",
+"k": "words"
+},
+{
+"f": "bonsoir",
+"b": "good evening",
+"s": "frenchvocabulary",
+"g": "Greetings and basics",
+"k": "words"
+},
+{
+"f": "salut",
+"b": "hi; bye (informal)",
+"s": "frenchvocabulary",
+"g": "Greetings and basics",
+"k": "words"
+},
+{
+"f": "au revoir",
+"b": "goodbye",
+"s": "frenchvocabulary",
+"g": "Greetings and basics",
+"k": "words"
+},
+{
+"f": "merci",
+"b": "thank you",
+"s": "frenchvocabulary",
+"g": "Greetings and basics",
+"k": "words"
+},
+{
+"f": "s'il vous plaît",
+"b": "please (formal)",
+"s": "frenchvocabulary",
+"g": "Greetings and basics",
+"k": "words"
+},
+{
+"f": "s'il te plaît",
+"b": "please (informal)",
+"s": "frenchvocabulary",
+"g": "Greetings and basics",
+"k": "words"
+},
+{
+"f": "pardon",
+"b": "sorry, excuse me",
+"s": "frenchvocabulary",
+"g": "Greetings and basics",
+"k": "words"
+},
+{
+"f": "oui",
+"b": "yes",
+"s": "frenchvocabulary",
+"g": "Greetings and basics",
+"k": "words"
+},
+{
+"f": "non",
+"b": "no",
+"s": "frenchvocabulary",
+"g": "Greetings and basics",
+"k": "words"
+},
+{
+"f": "d'accord",
+"b": "OK, agreed",
+"s": "frenchvocabulary",
+"g": "Greetings and basics",
+"k": "words"
+},
+{
+"f": "la personne",
+"b": "person",
+"s": "frenchvocabulary",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "l'homme",
+"b": "man",
+"s": "frenchvocabulary",
+"g": "People and family",
+"h": "note: masculine: un homme",
+"k": "words"
+},
+{
+"f": "la femme",
+"b": "woman; wife",
+"s": "frenchvocabulary",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "l'enfant",
+"b": "child",
+"s": "frenchvocabulary",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "le garçon",
+"b": "boy",
+"s": "frenchvocabulary",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "la fille",
+"b": "girl; daughter",
+"s": "frenchvocabulary",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "l'ami",
+"b": "friend (m)",
+"s": "frenchvocabulary",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "l'amie",
+"b": "friend (f)",
+"s": "frenchvocabulary",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "la famille",
+"b": "family",
+"s": "frenchvocabulary",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "le père",
+"b": "father",
+"s": "frenchvocabulary",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "la mère",
+"b": "mother",
+"s": "frenchvocabulary",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "le frère",
+"b": "brother",
+"s": "frenchvocabulary",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "la sœur",
+"b": "sister",
+"s": "frenchvocabulary",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "le fils",
+"b": "son",
+"s": "frenchvocabulary",
+"g": "People and family",
+"h": "note: the s is pronounced",
+"k": "words"
+},
+{
+"f": "les parents",
+"b": "parents; relatives",
+"s": "frenchvocabulary",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "le grand-père",
+"b": "grandfather",
+"s": "frenchvocabulary",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "la grand-mère",
+"b": "grandmother",
+"s": "frenchvocabulary",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "le mari",
+"b": "husband",
+"s": "frenchvocabulary",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "l'oncle",
+"b": "uncle",
+"s": "frenchvocabulary",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "la tante",
+"b": "aunt",
+"s": "frenchvocabulary",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "le cousin",
+"b": "cousin (m)",
+"s": "frenchvocabulary",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "le voisin",
+"b": "neighbour",
+"s": "frenchvocabulary",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "les gens",
+"b": "people",
+"s": "frenchvocabulary",
+"g": "People and family",
+"k": "words"
+},
+{
+"f": "zéro",
+"b": "zero",
+"s": "frenchvocabulary",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "un",
+"b": "one",
+"s": "frenchvocabulary",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "deux",
+"b": "two",
+"s": "frenchvocabulary",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "trois",
+"b": "three",
+"s": "frenchvocabulary",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "quatre",
+"b": "four",
+"s": "frenchvocabulary",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "cinq",
+"b": "five",
+"s": "frenchvocabulary",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "sept",
+"b": "seven",
+"s": "frenchvocabulary",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "huit",
+"b": "eight",
+"s": "frenchvocabulary",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "neuf",
+"b": "nine",
+"s": "frenchvocabulary",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "dix",
+"b": "ten",
+"s": "frenchvocabulary",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "onze",
+"b": "eleven",
+"s": "frenchvocabulary",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "douze",
+"b": "twelve",
+"s": "frenchvocabulary",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "quinze",
+"b": "fifteen",
+"s": "frenchvocabulary",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "vingt",
+"b": "twenty",
+"s": "frenchvocabulary",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "trente",
+"b": "thirty",
+"s": "frenchvocabulary",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "quarante",
+"b": "forty",
+"s": "frenchvocabulary",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "cinquante",
+"b": "fifty",
+"s": "frenchvocabulary",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "soixante",
+"b": "sixty",
+"s": "frenchvocabulary",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "soixante-dix",
+"b": "seventy",
+"s": "frenchvocabulary",
+"g": "Numbers",
+"h": "note: literally sixty-ten",
+"k": "words"
+},
+{
+"f": "quatre-vingts",
+"b": "eighty",
+"s": "frenchvocabulary",
+"g": "Numbers",
+"h": "note: literally four twenties",
+"k": "words"
+},
+{
+"f": "quatre-vingt-dix",
+"b": "ninety",
+"s": "frenchvocabulary",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "cent",
+"b": "one hundred",
+"s": "frenchvocabulary",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "mille",
+"b": "one thousand",
+"s": "frenchvocabulary",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "premier",
+"b": "first",
+"s": "frenchvocabulary",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "dernier",
+"b": "last",
+"s": "frenchvocabulary",
+"g": "Numbers",
+"k": "words"
+},
+{
+"f": "le jour",
+"b": "day",
+"s": "frenchvocabulary",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "la semaine",
+"b": "week",
+"s": "frenchvocabulary",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "le mois",
+"b": "month",
+"s": "frenchvocabulary",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "l'an",
+"b": "year",
+"s": "frenchvocabulary",
+"g": "Time",
+"h": "note: also l'année",
+"k": "words"
+},
+{
+"f": "l'heure",
+"b": "hour; time (of day)",
+"s": "frenchvocabulary",
+"g": "Time",
+"h": "note: feminine",
+"k": "words"
+},
+{
+"f": "la minute",
+"b": "minute",
+"s": "frenchvocabulary",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "aujourd'hui",
+"b": "today",
+"s": "frenchvocabulary",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "demain",
+"b": "tomorrow",
+"s": "frenchvocabulary",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "hier",
+"b": "yesterday",
+"s": "frenchvocabulary",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "maintenant",
+"b": "now",
+"s": "frenchvocabulary",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "plus tard",
+"b": "later",
+"s": "frenchvocabulary",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "toujours",
+"b": "always; still",
+"s": "frenchvocabulary",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "jamais",
+"b": "never",
+"s": "frenchvocabulary",
+"g": "Time",
+"h": "note: ne … jamais",
+"k": "words"
+},
+{
+"f": "parfois",
+"b": "sometimes",
+"s": "frenchvocabulary",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "souvent",
+"b": "often",
+"s": "frenchvocabulary",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "tôt",
+"b": "early",
+"s": "frenchvocabulary",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "tard",
+"b": "late",
+"s": "frenchvocabulary",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "l'après-midi",
+"b": "afternoon",
+"s": "frenchvocabulary",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "lundi",
+"b": "Monday",
+"s": "frenchvocabulary",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "mardi",
+"b": "Tuesday",
+"s": "frenchvocabulary",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "mercredi",
+"b": "Wednesday",
+"s": "frenchvocabulary",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "jeudi",
+"b": "Thursday",
+"s": "frenchvocabulary",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "vendredi",
+"b": "Friday",
+"s": "frenchvocabulary",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "samedi",
+"b": "Saturday",
+"s": "frenchvocabulary",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "dimanche",
+"b": "Sunday",
+"s": "frenchvocabulary",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "janvier",
+"b": "January",
+"s": "frenchvocabulary",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "février",
+"b": "February",
+"s": "frenchvocabulary",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "mars",
+"b": "March",
+"s": "frenchvocabulary",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "avril",
+"b": "April",
+"s": "frenchvocabulary",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "mai",
+"b": "May",
+"s": "frenchvocabulary",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "juin",
+"b": "June",
+"s": "frenchvocabulary",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "juillet",
+"b": "July",
+"s": "frenchvocabulary",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "août",
+"b": "August",
+"s": "frenchvocabulary",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "septembre",
+"b": "September",
+"s": "frenchvocabulary",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "octobre",
+"b": "October",
+"s": "frenchvocabulary",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "novembre",
+"b": "November",
+"s": "frenchvocabulary",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "décembre",
+"b": "December",
+"s": "frenchvocabulary",
+"g": "Time",
+"k": "words"
+},
+{
+"f": "la nourriture",
+"b": "food",
+"s": "frenchvocabulary",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "le repas",
+"b": "meal",
+"s": "frenchvocabulary",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "l'eau",
+"b": "water",
+"s": "frenchvocabulary",
+"g": "Food and drink",
+"h": "note: feminine",
+"k": "words"
+},
+{
+"f": "le café",
+"b": "coffee; café",
+"s": "frenchvocabulary",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "le thé",
+"b": "tea",
+"s": "frenchvocabulary",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "le vin",
+"b": "wine",
+"s": "frenchvocabulary",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "la bière",
+"b": "beer",
+"s": "frenchvocabulary",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "le jus",
+"b": "juice",
+"s": "frenchvocabulary",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "la viande",
+"b": "meat",
+"s": "frenchvocabulary",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "le poulet",
+"b": "chicken",
+"s": "frenchvocabulary",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "le poisson",
+"b": "fish",
+"s": "frenchvocabulary",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "le riz",
+"b": "rice",
+"s": "frenchvocabulary",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "l'œuf",
+"b": "egg",
+"s": "frenchvocabulary",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "le fruit",
+"b": "fruit",
+"s": "frenchvocabulary",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "l'orange",
+"b": "orange",
+"s": "frenchvocabulary",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "la banane",
+"b": "banana",
+"s": "frenchvocabulary",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "le légume",
+"b": "vegetable",
+"s": "frenchvocabulary",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "le sel",
+"b": "salt",
+"s": "frenchvocabulary",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "le sucre",
+"b": "sugar",
+"s": "frenchvocabulary",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "le beurre",
+"b": "butter",
+"s": "frenchvocabulary",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "l'addition",
+"b": "the bill",
+"s": "frenchvocabulary",
+"g": "Food and drink",
+"k": "words"
+},
+{
+"f": "la ville",
+"b": "town, city",
+"s": "frenchvocabulary",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "le village",
+"b": "village",
+"s": "frenchvocabulary",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "le pays",
+"b": "country",
+"s": "frenchvocabulary",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "la rue",
+"b": "street",
+"s": "frenchvocabulary",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "le magasin",
+"b": "shop",
+"s": "frenchvocabulary",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "le marché",
+"b": "market",
+"s": "frenchvocabulary",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "la banque",
+"b": "bank",
+"s": "frenchvocabulary",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "l'hôpital",
+"b": "hospital",
+"s": "frenchvocabulary",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "l'école",
+"b": "school",
+"s": "frenchvocabulary",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "l'église",
+"b": "church",
+"s": "frenchvocabulary",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "la plage",
+"b": "beach",
+"s": "frenchvocabulary",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "la mer",
+"b": "sea",
+"s": "frenchvocabulary",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "la montagne",
+"b": "mountain",
+"s": "frenchvocabulary",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "le fleuve",
+"b": "river (flowing to the sea)",
+"s": "frenchvocabulary",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "l'aéroport",
+"b": "airport",
+"s": "frenchvocabulary",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "l'avion",
+"b": "plane",
+"s": "frenchvocabulary",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "le train",
+"b": "train",
+"s": "frenchvocabulary",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "le bus",
+"b": "bus",
+"s": "frenchvocabulary",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "la voiture",
+"b": "car",
+"s": "frenchvocabulary",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "la gare",
+"b": "train station",
+"s": "frenchvocabulary",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "le billet",
+"b": "ticket",
+"s": "frenchvocabulary",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "l'hôtel",
+"b": "hotel",
+"s": "frenchvocabulary",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "le voyage",
+"b": "trip, journey",
+"s": "frenchvocabulary",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "la carte",
+"b": "map; card; menu",
+"s": "frenchvocabulary",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "à gauche",
+"b": "on the left",
+"s": "frenchvocabulary",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "à droite",
+"b": "on the right",
+"s": "frenchvocabulary",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "tout droit",
+"b": "straight ahead",
+"s": "frenchvocabulary",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "près",
+"b": "near",
+"s": "frenchvocabulary",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "loin",
+"b": "far",
+"s": "frenchvocabulary",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "ici",
+"b": "here",
+"s": "frenchvocabulary",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "là",
+"b": "there",
+"s": "frenchvocabulary",
+"g": "Travel and places",
+"k": "words"
+},
+{
+"f": "l'appartement",
+"b": "flat, apartment",
+"s": "frenchvocabulary",
+"g": "Home",
+"k": "words"
+},
+{
+"f": "les vêtements",
+"b": "clothes",
+"s": "frenchvocabulary",
+"g": "Home",
+"k": "words"
+},
+{
+"f": "les chaussures",
+"b": "shoes",
+"s": "frenchvocabulary",
+"g": "Home",
+"k": "words"
+},
+{
+"f": "le livre",
+"b": "book",
+"s": "frenchvocabulary",
+"g": "Home",
+"k": "words"
+},
+{
+"f": "le patron",
+"b": "boss",
+"s": "frenchvocabulary",
+"g": "Work and school",
+"k": "words"
+},
+{
+"f": "l'argent",
+"b": "money; silver",
+"s": "frenchvocabulary",
+"g": "Work and school",
+"k": "words"
+},
+{
+"f": "la réunion",
+"b": "meeting",
+"s": "frenchvocabulary",
+"g": "Work and school",
+"k": "words"
+},
+{
+"f": "l'ordinateur",
+"b": "computer",
+"s": "frenchvocabulary",
+"g": "Work and school",
+"k": "words"
+},
+{
+"f": "la question",
+"b": "question",
+"s": "frenchvocabulary",
+"g": "Work and school",
+"k": "words"
+},
+{
+"f": "la réponse",
+"b": "answer",
+"s": "frenchvocabulary",
+"g": "Work and school",
+"k": "words"
+},
+{
+"f": "le mot",
+"b": "word",
+"s": "frenchvocabulary",
+"g": "Work and school",
+"k": "words"
+},
+{
+"f": "la langue",
+"b": "language; tongue",
+"s": "frenchvocabulary",
+"g": "Work and school",
+"k": "words"
+},
+{
+"f": "le cours",
+"b": "lesson, class",
+"s": "frenchvocabulary",
+"g": "Work and school",
+"k": "words"
+},
+{
+"f": "le professeur",
+"b": "teacher",
+"s": "frenchvocabulary",
+"g": "Work and school",
+"k": "words"
+},
+{
+"f": "l'étudiant",
+"b": "student (m)",
+"s": "frenchvocabulary",
+"g": "Work and school",
+"k": "words"
+},
+{
+"f": "le corps",
+"b": "body",
+"s": "frenchvocabulary",
+"g": "Body and health",
+"k": "words"
+},
+{
+"f": "la tête",
+"b": "head",
+"s": "frenchvocabulary",
+"g": "Body and health",
+"k": "words"
+},
+{
+"f": "la main",
+"b": "hand",
+"s": "frenchvocabulary",
+"g": "Body and health",
+"k": "words"
+},
+{
+"f": "le pied",
+"b": "foot",
+"s": "frenchvocabulary",
+"g": "Body and health",
+"k": "words"
+},
+{
+"f": "l'œil",
+"b": "eye",
+"s": "frenchvocabulary",
+"g": "Body and health",
+"h": "note: plural les yeux",
+"k": "words"
+},
+{
+"f": "la bouche",
+"b": "mouth",
+"s": "frenchvocabulary",
+"g": "Body and health",
+"k": "words"
+},
+{
+"f": "le cœur",
+"b": "heart",
+"s": "frenchvocabulary",
+"g": "Body and health",
+"k": "words"
+},
+{
+"f": "le médecin",
+"b": "doctor",
+"s": "frenchvocabulary",
+"g": "Body and health",
+"k": "words"
+},
+{
+"f": "malade",
+"b": "ill, sick",
+"s": "frenchvocabulary",
+"g": "Body and health",
+"k": "words"
+},
+{
+"f": "la douleur",
+"b": "pain",
+"s": "frenchvocabulary",
+"g": "Body and health",
+"k": "words"
+},
+{
+"f": "le soleil",
+"b": "sun",
+"s": "frenchvocabulary",
+"g": "Nature and weather",
+"k": "words"
+},
+{
+"f": "la lune",
+"b": "moon",
+"s": "frenchvocabulary",
+"g": "Nature and weather",
+"k": "words"
+},
+{
+"f": "le ciel",
+"b": "sky",
+"s": "frenchvocabulary",
+"g": "Nature and weather",
+"k": "words"
+},
+{
+"f": "la pluie",
+"b": "rain",
+"s": "frenchvocabulary",
+"g": "Nature and weather",
+"k": "words"
+},
+{
+"f": "le vent",
+"b": "wind",
+"s": "frenchvocabulary",
+"g": "Nature and weather",
+"k": "words"
+},
+{
+"f": "le temps",
+"b": "weather; time",
+"s": "frenchvocabulary",
+"g": "Nature and weather",
+"k": "words"
+},
+{
+"f": "l'arbre",
+"b": "tree",
+"s": "frenchvocabulary",
+"g": "Nature and weather",
+"k": "words"
+},
+{
+"f": "la fleur",
+"b": "flower",
+"s": "frenchvocabulary",
+"g": "Nature and weather",
+"k": "words"
+},
+{
+"f": "le chien",
+"b": "dog",
+"s": "frenchvocabulary",
+"g": "Nature and weather",
+"k": "words"
+},
+{
+"f": "le chat",
+"b": "cat",
+"s": "frenchvocabulary",
+"g": "Nature and weather",
+"k": "words"
+},
+{
+"f": "être",
+"b": "to be",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "avoir",
+"b": "to have",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "faire",
+"b": "to do, to make",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "aller",
+"b": "to go",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "venir",
+"b": "to come",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "pouvoir",
+"b": "can, to be able",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "vouloir",
+"b": "to want",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "devoir",
+"b": "must, to have to; to owe",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "dire",
+"b": "to say",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "voir",
+"b": "to see",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "donner",
+"b": "to give",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "savoir",
+"b": "to know (facts)",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "connaître",
+"b": "to know (people, places)",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "parler",
+"b": "to speak",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "manger",
+"b": "to eat",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "boire",
+"b": "to drink",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "habiter",
+"b": "to live (somewhere)",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "vivre",
+"b": "to live",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "travailler",
+"b": "to work",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "étudier",
+"b": "to study",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "apprendre",
+"b": "to learn",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "comprendre",
+"b": "to understand",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "lire",
+"b": "to read",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "écrire",
+"b": "to write",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "écouter",
+"b": "to listen",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "regarder",
+"b": "to look at, to watch",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "acheter",
+"b": "to buy",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "payer",
+"b": "to pay",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "ouvrir",
+"b": "to open",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "fermer",
+"b": "to close",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "arriver",
+"b": "to arrive",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "partir",
+"b": "to leave",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "sortir",
+"b": "to go out",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "rentrer",
+"b": "to go back home",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "attendre",
+"b": "to wait",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "chercher",
+"b": "to look for",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "trouver",
+"b": "to find",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "penser",
+"b": "to think",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "croire",
+"b": "to believe",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "aimer",
+"b": "to love; to like",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "prendre",
+"b": "to take",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "mettre",
+"b": "to put",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "laisser",
+"b": "to leave, to let",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "commencer",
+"b": "to begin",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "finir",
+"b": "to finish",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "aider",
+"b": "to help",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "dormir",
+"b": "to sleep",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "jouer",
+"b": "to play",
+"s": "frenchvocabulary",
+"g": "Verbs",
+"k": "words"
+},
+{
+"f": "grand",
+"b": "big, tall",
+"s": "frenchvocabulary",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "petit",
+"b": "small",
+"s": "frenchvocabulary",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "bon",
+"b": "good",
+"s": "frenchvocabulary",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "mauvais",
+"b": "bad",
+"s": "frenchvocabulary",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "nouveau",
+"b": "new",
+"s": "frenchvocabulary",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "vieux",
+"b": "old",
+"s": "frenchvocabulary",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "jeune",
+"b": "young",
+"s": "frenchvocabulary",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "court",
+"b": "short",
+"s": "frenchvocabulary",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "cher",
+"b": "expensive; dear",
+"s": "frenchvocabulary",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "facile",
+"b": "easy",
+"s": "frenchvocabulary",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "difficile",
+"b": "difficult",
+"s": "frenchvocabulary",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "rapide",
+"b": "fast",
+"s": "frenchvocabulary",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "lent",
+"b": "slow",
+"s": "frenchvocabulary",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "beau",
+"b": "beautiful",
+"s": "frenchvocabulary",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "joli",
+"b": "pretty",
+"s": "frenchvocabulary",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "heureux",
+"b": "happy",
+"s": "frenchvocabulary",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "triste",
+"b": "sad",
+"s": "frenchvocabulary",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "fatigué",
+"b": "tired",
+"s": "frenchvocabulary",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "chaud",
+"b": "hot, warm",
+"s": "frenchvocabulary",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "froid",
+"b": "cold",
+"s": "frenchvocabulary",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "propre",
+"b": "clean; own",
+"s": "frenchvocabulary",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "sale",
+"b": "dirty",
+"s": "frenchvocabulary",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "plein",
+"b": "full",
+"s": "frenchvocabulary",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "vide",
+"b": "empty",
+"s": "frenchvocabulary",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "même",
+"b": "same; even",
+"s": "frenchvocabulary",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "autre",
+"b": "other",
+"s": "frenchvocabulary",
+"g": "Adjectives",
+"k": "words"
+},
+{
+"f": "rouge",
+"b": "red",
+"s": "frenchvocabulary",
+"g": "Colours",
+"k": "words"
+},
+{
+"f": "bleu",
+"b": "blue",
+"s": "frenchvocabulary",
+"g": "Colours",
+"k": "words"
+},
+{
+"f": "vert",
+"b": "green",
+"s": "frenchvocabulary",
+"g": "Colours",
+"k": "words"
+},
+{
+"f": "jaune",
+"b": "yellow",
+"s": "frenchvocabulary",
+"g": "Colours",
+"k": "words"
+},
+{
+"f": "blanc",
+"b": "white",
+"s": "frenchvocabulary",
+"g": "Colours",
+"h": "note: feminine blanche",
+"k": "words"
+},
+{
+"f": "noir",
+"b": "black",
+"s": "frenchvocabulary",
+"g": "Colours",
+"k": "words"
+},
+{
+"f": "gris",
+"b": "grey",
+"s": "frenchvocabulary",
+"g": "Colours",
+"k": "words"
+},
+{
+"f": "marron",
+"b": "brown",
+"s": "frenchvocabulary",
+"g": "Colours",
+"h": "note: invariable",
+"k": "words"
+},
+{
+"f": "quoi",
+"b": "what",
+"s": "frenchvocabulary",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "qui",
+"b": "who",
+"s": "frenchvocabulary",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "où",
+"b": "where",
+"s": "frenchvocabulary",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "quand",
+"b": "when",
+"s": "frenchvocabulary",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "comment",
+"b": "how",
+"s": "frenchvocabulary",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "pourquoi",
+"b": "why",
+"s": "frenchvocabulary",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "combien",
+"b": "how much, how many",
+"s": "frenchvocabulary",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "quel",
+"b": "which",
+"s": "frenchvocabulary",
+"g": "Question and little words",
+"h": "note: quelle, quels, quelles",
+"k": "words"
+},
+{
+"f": "parce que",
+"b": "because",
+"s": "frenchvocabulary",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "mais",
+"b": "but",
+"s": "frenchvocabulary",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "et",
+"b": "and",
+"s": "frenchvocabulary",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "ou",
+"b": "or",
+"s": "frenchvocabulary",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "aussi",
+"b": "also",
+"s": "frenchvocabulary",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "très",
+"b": "very",
+"s": "frenchvocabulary",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "plus",
+"b": "more",
+"s": "frenchvocabulary",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "moins",
+"b": "less",
+"s": "frenchvocabulary",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "avec",
+"b": "with",
+"s": "frenchvocabulary",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "sans",
+"b": "without",
+"s": "frenchvocabulary",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "pour",
+"b": "for",
+"s": "frenchvocabulary",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "entre",
+"b": "between",
+"s": "frenchvocabulary",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "beaucoup",
+"b": "a lot",
+"s": "frenchvocabulary",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "peu",
+"b": "little, few",
+"s": "frenchvocabulary",
+"g": "Question and little words",
+"k": "words"
+},
+{
+"f": "Comment allez-vous ?",
+"b": "How are you? (formal)",
+"s": "french-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Comment ça va ?",
+"b": "How's it going?",
+"s": "french-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Ça va bien, merci.",
+"b": "I'm fine, thanks.",
+"s": "french-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Et toi ?",
+"b": "And you? (informal)",
+"s": "french-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Et vous ?",
+"b": "And you? (formal)",
+"s": "french-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Enchanté. / Enchantée.",
+"b": "Nice to meet you.",
+"s": "french-phrases",
+"g": "Greetings and politeness",
+"h": "note: -e when the speaker is a woman",
+"k": "phrases"
+},
+{
+"f": "À bientôt.",
+"b": "See you soon.",
+"s": "french-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "À demain.",
+"b": "See you tomorrow.",
+"s": "french-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "À plus tard.",
+"b": "See you later.",
+"s": "french-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Bonne journée.",
+"b": "Have a good day.",
+"s": "french-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Bonne soirée.",
+"b": "Have a good evening.",
+"s": "french-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Bonne nuit.",
+"b": "Good night.",
+"s": "french-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Merci beaucoup.",
+"b": "Thank you very much.",
+"s": "french-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "De rien.",
+"b": "You're welcome.",
+"s": "french-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Je vous en prie.",
+"b": "You're welcome (formal).",
+"s": "french-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Excusez-moi.",
+"b": "Excuse me.",
+"s": "french-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Je suis désolé.",
+"b": "I'm sorry.",
+"s": "french-phrases",
+"g": "Greetings and politeness",
+"h": "note: désolée for a woman",
+"k": "phrases"
+},
+{
+"f": "Bienvenue.",
+"b": "Welcome.",
+"s": "french-phrases",
+"g": "Greetings and politeness",
+"k": "phrases"
+},
+{
+"f": "Comment vous appelez-vous ?",
+"b": "What's your name? (formal)",
+"s": "french-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "Tu t'appelles comment ?",
+"b": "What's your name? (informal)",
+"s": "french-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "Je m'appelle…",
+"b": "My name is…",
+"s": "french-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "D'où venez-vous ?",
+"b": "Where are you from?",
+"s": "french-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "Je viens de…",
+"b": "I come from…",
+"s": "french-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "J'habite à Dubaï.",
+"b": "I live in Dubai.",
+"s": "french-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "Qu'est-ce que vous faites dans la vie ?",
+"b": "What do you do for a living?",
+"s": "french-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "Quel âge as-tu ?",
+"b": "How old are you?",
+"s": "french-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "J'ai trente ans.",
+"b": "I'm thirty.",
+"s": "french-phrases",
+"g": "Getting to know someone",
+"h": "note: age uses avoir",
+"k": "phrases"
+},
+{
+"f": "Vous parlez anglais ?",
+"b": "Do you speak English?",
+"s": "french-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "Je parle un peu français.",
+"b": "I speak a little French.",
+"s": "french-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "J'apprends le français.",
+"b": "I'm learning French.",
+"s": "french-phrases",
+"g": "Getting to know someone",
+"k": "phrases"
+},
+{
+"f": "Je ne comprends pas.",
+"b": "I don't understand.",
+"s": "french-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Pouvez-vous répéter, s'il vous plaît ?",
+"b": "Can you repeat, please?",
+"s": "french-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Plus lentement, s'il vous plaît.",
+"b": "More slowly, please.",
+"s": "french-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Qu'est-ce que ça veut dire ?",
+"b": "What does that mean?",
+"s": "french-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Comment dit-on … en français ?",
+"b": "How do you say … in French?",
+"s": "french-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Ça s'écrit comment ?",
+"b": "How is it spelled?",
+"s": "french-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Je ne sais pas.",
+"b": "I don't know.",
+"s": "french-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Je crois que oui.",
+"b": "I think so.",
+"s": "french-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Je ne crois pas.",
+"b": "I don't think so.",
+"s": "french-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Bien sûr.",
+"b": "Of course.",
+"s": "french-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Vous avez raison.",
+"b": "You're right.",
+"s": "french-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "C'est vrai.",
+"b": "That's true.",
+"s": "french-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "C'est génial !",
+"b": "That's great!",
+"s": "french-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Dommage.",
+"b": "What a pity.",
+"s": "french-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Ça dépend.",
+"b": "It depends.",
+"s": "french-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Ça m'est égal.",
+"b": "I don't mind.",
+"s": "french-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Pas de problème.",
+"b": "No problem.",
+"s": "french-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Ce n'est pas grave.",
+"b": "It doesn't matter.",
+"s": "french-phrases",
+"g": "Understanding",
+"k": "phrases"
+},
+{
+"f": "Où sont les toilettes ?",
+"b": "Where are the toilets?",
+"s": "french-phrases",
+"g": "Getting around",
+"k": "phrases"
+},
+{
+"f": "Où est la gare ?",
+"b": "Where is the station?",
+"s": "french-phrases",
+"g": "Getting around",
+"k": "phrases"
+},
+{
+"f": "Comment aller à… ?",
+"b": "How do I get to…?",
+"s": "french-phrases",
+"g": "Getting around",
+"k": "phrases"
+},
+{
+"f": "C'est loin ?",
+"b": "Is it far?",
+"s": "french-phrases",
+"g": "Getting around",
+"k": "phrases"
+},
+{
+"f": "C'est tout près.",
+"b": "It's very close.",
+"s": "french-phrases",
+"g": "Getting around",
+"k": "phrases"
+},
+{
+"f": "Un billet pour Paris, s'il vous plaît.",
+"b": "A ticket to Paris, please.",
+"s": "french-phrases",
+"g": "Getting around",
+"k": "phrases"
+},
+{
+"f": "À quelle heure part le train ?",
+"b": "What time does the train leave?",
+"s": "french-phrases",
+"g": "Getting around",
+"k": "phrases"
+},
+{
+"f": "Quelle heure est-il ?",
+"b": "What time is it?",
+"s": "french-phrases",
+"g": "Getting around",
+"k": "phrases"
+},
+{
+"f": "Il est trois heures.",
+"b": "It's three o'clock.",
+"s": "french-phrases",
+"g": "Getting around",
+"k": "phrases"
+},
+{
+"f": "Je suis perdu.",
+"b": "I'm lost.",
+"s": "french-phrases",
+"g": "Getting around",
+"h": "note: perdue for a woman",
+"k": "phrases"
+},
+{
+"f": "C'est combien ?",
+"b": "How much is it?",
+"s": "french-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "Ça coûte combien ?",
+"b": "How much does it cost?",
+"s": "french-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "C'est trop cher.",
+"b": "It's too expensive.",
+"s": "french-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "Je regarde seulement.",
+"b": "I'm just looking.",
+"s": "french-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "Je voudrais…",
+"b": "I would like…",
+"s": "french-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "Vous avez… ?",
+"b": "Do you have…?",
+"s": "french-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "L'addition, s'il vous plaît.",
+"b": "The bill, please.",
+"s": "french-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "Une table pour deux, s'il vous plaît.",
+"b": "A table for two, please.",
+"s": "french-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "Qu'est-ce que vous me conseillez ?",
+"b": "What do you recommend?",
+"s": "french-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "Je suis végétarien.",
+"b": "I'm vegetarian.",
+"s": "french-phrases",
+"g": "Shopping and eating",
+"h": "note: végétarienne for a woman",
+"k": "phrases"
+},
+{
+"f": "Bon appétit !",
+"b": "Enjoy your meal!",
+"s": "french-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "Santé !",
+"b": "Cheers!",
+"s": "french-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "C'est délicieux.",
+"b": "It's delicious.",
+"s": "french-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "Je peux payer par carte ?",
+"b": "Can I pay by card?",
+"s": "french-phrases",
+"g": "Shopping and eating",
+"k": "phrases"
+},
+{
+"f": "J'ai faim.",
+"b": "I'm hungry.",
+"s": "french-phrases",
+"g": "Feelings and help",
+"h": "note: literally I have hunger",
+"k": "phrases"
+},
+{
+"f": "J'ai soif.",
+"b": "I'm thirsty.",
+"s": "french-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "J'ai froid.",
+"b": "I'm cold.",
+"s": "french-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "J'ai chaud.",
+"b": "I'm hot.",
+"s": "french-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "J'ai sommeil.",
+"b": "I'm sleepy.",
+"s": "french-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Je suis fatigué.",
+"b": "I'm tired.",
+"s": "french-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Je suis prêt.",
+"b": "I'm ready.",
+"s": "french-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "J'aime ça.",
+"b": "I like that.",
+"s": "french-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Je n'aime pas ça.",
+"b": "I don't like that.",
+"s": "french-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "J'adore !",
+"b": "I love it!",
+"s": "french-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Au secours !",
+"b": "Help!",
+"s": "french-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "J'ai besoin d'un médecin.",
+"b": "I need a doctor.",
+"s": "french-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Appelez la police !",
+"b": "Call the police!",
+"s": "french-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Attention !",
+"b": "Watch out!",
+"s": "french-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "On y va !",
+"b": "Let's go!",
+"s": "french-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Allez !",
+"b": "Come on!",
+"s": "french-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Un instant.",
+"b": "One moment.",
+"s": "french-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Qu'est-ce qui se passe ?",
+"b": "What's happening?",
+"s": "french-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Qu'est-ce qu'il y a ?",
+"b": "What's the matter?",
+"s": "french-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Félicitations !",
+"b": "Congratulations!",
+"s": "french-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Joyeux anniversaire !",
+"b": "Happy birthday!",
+"s": "french-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Bonne chance !",
+"b": "Good luck!",
+"s": "french-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Bon courage !",
+"b": "Hang in there! Good luck!",
+"s": "french-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Bon voyage !",
+"b": "Have a good trip!",
+"s": "french-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Il n'y a pas de quoi.",
+"b": "Don't mention it.",
+"s": "french-phrases",
+"g": "Feelings and help",
+"k": "phrases"
+},
+{
+"f": "Je suis étudiant.",
+"b": "I am a student.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: no article before a profession after être",
+"k": "sentences"
+},
+{
+"f": "Elle est à la maison.",
+"b": "She is at home.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "Le café est chaud.",
+"b": "The coffee is hot.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "J'ai deux frères.",
+"b": "I have two brothers.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "J'aime le chocolat.",
+"b": "I like chocolate.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: aimer takes the definite article",
+"k": "sentences"
+},
+{
+"f": "Nous habitons près de la mer.",
+"b": "We live near the sea.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "Il fait chaud aujourd'hui.",
+"b": "It's hot today.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: weather uses il fait",
+"k": "sentences"
+},
+{
+"f": "Il va pleuvoir demain.",
+"b": "It's going to rain tomorrow.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: aller + infinitive for the near future",
+"k": "sentences"
+},
+{
+"f": "Je vais à la plage le dimanche.",
+"b": "I go to the beach on Sundays.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: le dimanche = every Sunday",
+"k": "sentences"
+},
+{
+"f": "Le train part à huit heures.",
+"b": "The train leaves at eight.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "Tu peux m'aider ?",
+"b": "Can you help me?",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: the pronoun goes before the infinitive",
+"k": "sentences"
+},
+{
+"f": "Je ne peux pas venir ce soir.",
+"b": "I can't come tonight.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: ne … pas around the conjugated verb",
+"k": "sentences"
+},
+{
+"f": "Je veux apprendre le français.",
+"b": "I want to learn French.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "Je dois travailler demain.",
+"b": "I have to work tomorrow.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: devoir + infinitive",
+"k": "sentences"
+},
+{
+"f": "Je suis en train de lire.",
+"b": "I'm (in the middle of) reading.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: être en train de + infinitive",
+"k": "sentences"
+},
+{
+"f": "Qu'est-ce que tu fais ?",
+"b": "What are you doing?",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: French uses the simple present",
+"k": "sentences"
+},
+{
+"f": "Ma sœur est plus grande que moi.",
+"b": "My sister is taller than me.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: plus … que",
+"k": "sentences"
+},
+{
+"f": "C'est le meilleur restaurant de la ville.",
+"b": "It's the best restaurant in town.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: superlative uses de",
+"k": "sentences"
+},
+{
+"f": "Il y a beaucoup de monde dans la rue.",
+"b": "There are a lot of people in the street.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: il y a = there is / are",
+"k": "sentences"
+},
+{
+"f": "Il n'y a rien dans le frigo.",
+"b": "There's nothing in the fridge.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: ne … rien",
+"k": "sentences"
+},
+{
+"f": "Je ne bois jamais de café le soir.",
+"b": "I never drink coffee in the evening.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: de after a negative",
+"k": "sentences"
+},
+{
+"f": "Hier, j'ai mangé une crêpe.",
+"b": "Yesterday I ate a crêpe.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: passé composé with avoir",
+"k": "sentences"
+},
+{
+"f": "Nous sommes allés au cinéma samedi.",
+"b": "We went to the cinema on Saturday.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: aller takes être, and the participle agrees",
+"k": "sentences"
+},
+{
+"f": "Elle est arrivée en retard.",
+"b": "She arrived late.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: être verbs agree with the subject",
+"k": "sentences"
+},
+{
+"f": "Quand j'étais petit, j'habitais à la campagne.",
+"b": "When I was little, I lived in the countryside.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: imparfait for background and habits",
+"k": "sentences"
+},
+{
+"f": "J'ai déjà visité le Maroc deux fois.",
+"b": "I have already visited Morocco twice.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "Tu as mangé ?",
+"b": "Have you eaten?",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "J'habite ici depuis trois ans.",
+"b": "I've lived here for three years.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: depuis + present for an ongoing state",
+"k": "sentences"
+},
+{
+"f": "Je l'ai donné à ma mère.",
+"b": "I gave it to my mother.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "Je le lui ai dit.",
+"b": "I told him/her (it).",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: le before lui",
+"k": "sentences"
+},
+{
+"f": "Dis-le-moi.",
+"b": "Tell me (it).",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: pronouns follow a positive command",
+"k": "sentences"
+},
+{
+"f": "Ne me le dis pas.",
+"b": "Don't tell me (it).",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "J'espère que tu vas bien.",
+"b": "I hope you're well.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: espérer takes the indicative",
+"k": "sentences"
+},
+{
+"f": "Il faut que tu viennes.",
+"b": "You have to come.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: il faut que + subjunctive",
+"k": "sentences"
+},
+{
+"f": "Je veux que tu viennes.",
+"b": "I want you to come.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: different subject, so subjunctive",
+"k": "sentences"
+},
+{
+"f": "Quand tu arriveras, appelle-moi.",
+"b": "When you arrive, call me.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: future after quand",
+"k": "sentences"
+},
+{
+"f": "Si j'ai le temps, j'irai.",
+"b": "If I have time, I'll go.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: si + present, future in the result",
+"k": "sentences"
+},
+{
+"f": "Si j'avais de l'argent, je voyagerais plus.",
+"b": "If I had money, I would travel more.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: si + imparfait, conditional",
+"k": "sentences"
+},
+{
+"f": "J'ai mal à la tête.",
+"b": "I have a headache.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: avoir mal à",
+"k": "sentences"
+},
+{
+"f": "On parle français ici.",
+"b": "French is spoken here.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: on as an impersonal subject",
+"k": "sentences"
+},
+{
+"f": "Je viens d'arriver.",
+"b": "I've just arrived.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: venir de + infinitive",
+"k": "sentences"
+},
+{
+"f": "Je vais réessayer.",
+"b": "I'm going to try again.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: re- = again",
+"k": "sentences"
+},
+{
+"f": "Ça vous dérange si j'ouvre la fenêtre ?",
+"b": "Do you mind if I open the window?",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "Il vaudrait mieux attendre.",
+"b": "It would be better to wait.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: conditional of il vaut mieux",
+"k": "sentences"
+},
+{
+"f": "On s'est bien amusés.",
+"b": "We had a great time.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: reflexive s'amuser",
+"k": "sentences"
+},
+{
+"f": "J'ai enfin fini le travail.",
+"b": "I've finally finished the work.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "J'étudie pour apprendre, pas pour réussir un examen.",
+"b": "I study to learn, not to pass an exam.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: pour + infinitive",
+"k": "sentences"
+},
+{
+"f": "Merci pour ton aide.",
+"b": "Thanks for your help.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "Il est possible que j'arrive en retard.",
+"b": "I might arrive late.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: il est possible que + subjunctive",
+"k": "sentences"
+},
+{
+"f": "Je ne savais pas que tu parlais espagnol.",
+"b": "I didn't know you spoke Spanish.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"k": "sentences"
+},
+{
+"f": "Plus je pratique, mieux je parle.",
+"b": "The more I practise, the better I speak.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: plus …, mieux …",
+"k": "sentences"
+},
+{
+"f": "C'est en forgeant qu'on devient forgeron.",
+"b": "Practice makes perfect.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: proverb: it is by forging that one becomes a blacksmith",
+"k": "sentences"
+},
+{
+"f": "Je me lève à sept heures.",
+"b": "I get up at seven.",
+"s": "french-sentences",
+"g": "French: Example Sentences",
+"h": "note: reflexive verb",
+"k": "sentences"
 }
 ]
 }

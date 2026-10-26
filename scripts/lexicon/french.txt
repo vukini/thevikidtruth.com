@@ -1,0 +1,487 @@
+# words
+## Greetings and basics
+bonjour | hello, good morning
+bonsoir | good evening
+salut | hi; bye (informal)
+au revoir | goodbye
+merci | thank you
+s'il vous plaît | please (formal)
+s'il te plaît | please (informal)
+pardon | sorry, excuse me
+oui | yes
+non | no
+d'accord | OK, agreed
+## People and family
+la personne | person
+l'homme | man | masculine: un homme
+la femme | woman; wife
+l'enfant | child
+le garçon | boy
+la fille | girl; daughter
+l'ami | friend (m)
+l'amie | friend (f)
+la famille | family
+le père | father
+la mère | mother
+le frère | brother
+la sœur | sister
+le fils | son | the s is pronounced
+les parents | parents; relatives
+le grand-père | grandfather
+la grand-mère | grandmother
+le mari | husband
+l'oncle | uncle
+la tante | aunt
+le cousin | cousin (m)
+le voisin | neighbour
+les gens | people
+## Numbers
+zéro | zero
+un | one
+deux | two
+trois | three
+quatre | four
+cinq | five
+six | six
+sept | seven
+huit | eight
+neuf | nine
+dix | ten
+onze | eleven
+douze | twelve
+quinze | fifteen
+vingt | twenty
+trente | thirty
+quarante | forty
+cinquante | fifty
+soixante | sixty
+soixante-dix | seventy | literally sixty-ten
+quatre-vingts | eighty | literally four twenties
+quatre-vingt-dix | ninety
+cent | one hundred
+mille | one thousand
+premier | first
+dernier | last
+## Time
+le jour | day
+la semaine | week
+le mois | month
+l'an | year | also l'année
+l'heure | hour; time (of day) | feminine
+la minute | minute
+aujourd'hui | today
+demain | tomorrow
+hier | yesterday
+maintenant | now
+plus tard | later
+toujours | always; still
+jamais | never | ne … jamais
+parfois | sometimes
+souvent | often
+tôt | early
+tard | late
+le matin | morning
+l'après-midi | afternoon
+le soir | evening
+la nuit | night
+lundi | Monday
+mardi | Tuesday
+mercredi | Wednesday
+jeudi | Thursday
+vendredi | Friday
+samedi | Saturday
+dimanche | Sunday
+janvier | January
+février | February
+mars | March
+avril | April
+mai | May
+juin | June
+juillet | July
+août | August
+septembre | September
+octobre | October
+novembre | November
+décembre | December
+## Food and drink
+la nourriture | food
+le repas | meal
+l'eau | water | feminine
+le pain | bread
+le lait | milk
+le café | coffee; café
+le thé | tea
+le vin | wine
+la bière | beer
+le jus | juice
+la viande | meat
+le poulet | chicken
+le poisson | fish
+le riz | rice
+l'œuf | egg
+le fromage | cheese
+le fruit | fruit
+la pomme | apple
+l'orange | orange
+la banane | banana
+le légume | vegetable
+le sel | salt
+le sucre | sugar
+le beurre | butter
+le petit-déjeuner | breakfast
+le déjeuner | lunch
+le dîner | dinner
+l'addition | the bill
+## Travel and places
+la ville | town, city
+le village | village
+le pays | country
+la rue | street
+le magasin | shop
+le marché | market
+la banque | bank
+l'hôpital | hospital
+l'école | school
+l'église | church
+la plage | beach
+la mer | sea
+la montagne | mountain
+le fleuve | river (flowing to the sea)
+l'aéroport | airport
+l'avion | plane
+le train | train
+le bus | bus
+la voiture | car
+la gare | train station
+le billet | ticket
+l'hôtel | hotel
+le voyage | trip, journey
+la carte | map; card; menu
+à gauche | on the left
+à droite | on the right
+tout droit | straight ahead
+près | near
+loin | far
+ici | here
+là | there
+## Home
+la maison | house
+l'appartement | flat, apartment
+la chambre | bedroom; room
+la cuisine | kitchen; cooking
+la salle de bains | bathroom
+la porte | door
+la fenêtre | window
+la table | table
+la chaise | chair
+le lit | bed
+la clé | key
+le jardin | garden
+les vêtements | clothes
+les chaussures | shoes
+le téléphone | phone
+le livre | book
+## Work and school
+le travail | work
+le bureau | office; desk
+le patron | boss
+l'argent | money; silver
+la réunion | meeting
+l'ordinateur | computer
+la question | question
+la réponse | answer
+le mot | word
+la langue | language; tongue
+le cours | lesson, class
+le professeur | teacher
+l'étudiant | student (m)
+## Body and health
+le corps | body
+la tête | head
+la main | hand
+le pied | foot
+l'œil | eye | plural les yeux
+la bouche | mouth
+le cœur | heart
+le médecin | doctor
+malade | ill, sick
+la douleur | pain
+## Nature and weather
+le soleil | sun
+la lune | moon
+le ciel | sky
+la pluie | rain
+le vent | wind
+le temps | weather; time
+l'arbre | tree
+la fleur | flower
+le chien | dog
+le chat | cat
+## Verbs
+être | to be
+avoir | to have
+faire | to do, to make
+aller | to go
+venir | to come
+pouvoir | can, to be able
+vouloir | to want
+devoir | must, to have to; to owe
+dire | to say
+voir | to see
+donner | to give
+savoir | to know (facts)
+connaître | to know (people, places)
+parler | to speak
+manger | to eat
+boire | to drink
+habiter | to live (somewhere)
+vivre | to live
+travailler | to work
+étudier | to study
+apprendre | to learn
+comprendre | to understand
+lire | to read
+écrire | to write
+écouter | to listen
+regarder | to look at, to watch
+acheter | to buy
+payer | to pay
+ouvrir | to open
+fermer | to close
+arriver | to arrive
+partir | to leave
+sortir | to go out
+rentrer | to go back home
+attendre | to wait
+chercher | to look for
+trouver | to find
+penser | to think
+croire | to believe
+aimer | to love; to like
+prendre | to take
+mettre | to put
+laisser | to leave, to let
+commencer | to begin
+finir | to finish
+aider | to help
+dormir | to sleep
+jouer | to play
+## Adjectives
+grand | big, tall
+petit | small
+bon | good
+mauvais | bad
+nouveau | new
+vieux | old
+jeune | young
+long | long
+court | short
+cher | expensive; dear
+facile | easy
+difficile | difficult
+rapide | fast
+lent | slow
+beau | beautiful
+joli | pretty
+heureux | happy
+triste | sad
+fatigué | tired
+chaud | hot, warm
+froid | cold
+propre | clean; own
+sale | dirty
+plein | full
+vide | empty
+important | important
+même | same; even
+autre | other
+## Colours
+rouge | red
+bleu | blue
+vert | green
+jaune | yellow
+blanc | white | feminine blanche
+noir | black
+gris | grey
+marron | brown | invariable
+## Question and little words
+quoi | what
+qui | who
+où | where
+quand | when
+comment | how
+pourquoi | why
+combien | how much, how many
+quel | which | quelle, quels, quelles
+parce que | because
+mais | but
+et | and
+ou | or
+aussi | also
+très | very
+plus | more
+moins | less
+avec | with
+sans | without
+pour | for
+entre | between
+beaucoup | a lot
+peu | little, few
+# phrases
+## Greetings and politeness
+Comment allez-vous ? | How are you? (formal)
+Comment ça va ? | How's it going?
+Ça va bien, merci. | I'm fine, thanks.
+Et toi ? | And you? (informal)
+Et vous ? | And you? (formal)
+Enchanté. / Enchantée. | Nice to meet you. | -e when the speaker is a woman
+À bientôt. | See you soon.
+À demain. | See you tomorrow.
+À plus tard. | See you later.
+Bonne journée. | Have a good day.
+Bonne soirée. | Have a good evening.
+Bonne nuit. | Good night.
+Merci beaucoup. | Thank you very much.
+De rien. | You're welcome.
+Je vous en prie. | You're welcome (formal).
+Excusez-moi. | Excuse me.
+Je suis désolé. | I'm sorry. | désolée for a woman
+Bienvenue. | Welcome.
+## Getting to know someone
+Comment vous appelez-vous ? | What's your name? (formal)
+Tu t'appelles comment ? | What's your name? (informal)
+Je m'appelle… | My name is…
+D'où venez-vous ? | Where are you from?
+Je viens de… | I come from…
+J'habite à Dubaï. | I live in Dubai.
+Qu'est-ce que vous faites dans la vie ? | What do you do for a living?
+Quel âge as-tu ? | How old are you?
+J'ai trente ans. | I'm thirty. | age uses avoir
+Vous parlez anglais ? | Do you speak English?
+Je parle un peu français. | I speak a little French.
+J'apprends le français. | I'm learning French.
+## Understanding
+Je ne comprends pas. | I don't understand.
+Pouvez-vous répéter, s'il vous plaît ? | Can you repeat, please?
+Plus lentement, s'il vous plaît. | More slowly, please.
+Qu'est-ce que ça veut dire ? | What does that mean?
+Comment dit-on … en français ? | How do you say … in French?
+Ça s'écrit comment ? | How is it spelled?
+Je ne sais pas. | I don't know.
+Je crois que oui. | I think so.
+Je ne crois pas. | I don't think so.
+Bien sûr. | Of course.
+Vous avez raison. | You're right.
+C'est vrai. | That's true.
+C'est génial ! | That's great!
+Dommage. | What a pity.
+Ça dépend. | It depends.
+Ça m'est égal. | I don't mind.
+Pas de problème. | No problem.
+Ce n'est pas grave. | It doesn't matter.
+## Getting around
+Où sont les toilettes ? | Where are the toilets?
+Où est la gare ? | Where is the station?
+Comment aller à… ? | How do I get to…?
+C'est loin ? | Is it far?
+C'est tout près. | It's very close.
+Un billet pour Paris, s'il vous plaît. | A ticket to Paris, please.
+À quelle heure part le train ? | What time does the train leave?
+Quelle heure est-il ? | What time is it?
+Il est trois heures. | It's three o'clock.
+Je suis perdu. | I'm lost. | perdue for a woman
+## Shopping and eating
+C'est combien ? | How much is it?
+Ça coûte combien ? | How much does it cost?
+C'est trop cher. | It's too expensive.
+Je regarde seulement. | I'm just looking.
+Je voudrais… | I would like…
+Vous avez… ? | Do you have…?
+L'addition, s'il vous plaît. | The bill, please.
+Une table pour deux, s'il vous plaît. | A table for two, please.
+Qu'est-ce que vous me conseillez ? | What do you recommend?
+Je suis végétarien. | I'm vegetarian. | végétarienne for a woman
+Bon appétit ! | Enjoy your meal!
+Santé ! | Cheers!
+C'est délicieux. | It's delicious.
+Je peux payer par carte ? | Can I pay by card?
+## Feelings and help
+J'ai faim. | I'm hungry. | literally I have hunger
+J'ai soif. | I'm thirsty.
+J'ai froid. | I'm cold.
+J'ai chaud. | I'm hot.
+J'ai sommeil. | I'm sleepy.
+Je suis fatigué. | I'm tired.
+Je suis prêt. | I'm ready.
+J'aime ça. | I like that.
+Je n'aime pas ça. | I don't like that.
+J'adore ! | I love it!
+Au secours ! | Help!
+J'ai besoin d'un médecin. | I need a doctor.
+Appelez la police ! | Call the police!
+Attention ! | Watch out!
+On y va ! | Let's go!
+Allez ! | Come on!
+Un instant. | One moment.
+Qu'est-ce qui se passe ? | What's happening?
+Qu'est-ce qu'il y a ? | What's the matter?
+Félicitations ! | Congratulations!
+Joyeux anniversaire ! | Happy birthday!
+Bonne chance ! | Good luck!
+Bon courage ! | Hang in there! Good luck!
+Bon voyage ! | Have a good trip!
+Il n'y a pas de quoi. | Don't mention it.
+# sentences
+Je suis étudiant. | I am a student. | no article before a profession after être
+Elle est à la maison. | She is at home.
+Le café est chaud. | The coffee is hot.
+J'ai deux frères. | I have two brothers.
+J'aime le chocolat. | I like chocolate. | aimer takes the definite article
+Nous habitons près de la mer. | We live near the sea.
+Il fait chaud aujourd'hui. | It's hot today. | weather uses il fait
+Il va pleuvoir demain. | It's going to rain tomorrow. | aller + infinitive for the near future
+Je vais à la plage le dimanche. | I go to the beach on Sundays. | le dimanche = every Sunday
+Le train part à huit heures. | The train leaves at eight.
+Tu peux m'aider ? | Can you help me? | the pronoun goes before the infinitive
+Je ne peux pas venir ce soir. | I can't come tonight. | ne … pas around the conjugated verb
+Je veux apprendre le français. | I want to learn French.
+Je dois travailler demain. | I have to work tomorrow. | devoir + infinitive
+Je suis en train de lire. | I'm (in the middle of) reading. | être en train de + infinitive
+Qu'est-ce que tu fais ? | What are you doing? | French uses the simple present
+Ma sœur est plus grande que moi. | My sister is taller than me. | plus … que
+C'est le meilleur restaurant de la ville. | It's the best restaurant in town. | superlative uses de
+Il y a beaucoup de monde dans la rue. | There are a lot of people in the street. | il y a = there is / are
+Il n'y a rien dans le frigo. | There's nothing in the fridge. | ne … rien
+Je ne bois jamais de café le soir. | I never drink coffee in the evening. | de after a negative
+Hier, j'ai mangé une crêpe. | Yesterday I ate a crêpe. | passé composé with avoir
+Nous sommes allés au cinéma samedi. | We went to the cinema on Saturday. | aller takes être, and the participle agrees
+Elle est arrivée en retard. | She arrived late. | être verbs agree with the subject
+Quand j'étais petit, j'habitais à la campagne. | When I was little, I lived in the countryside. | imparfait for background and habits
+J'ai déjà visité le Maroc deux fois. | I have already visited Morocco twice.
+Tu as mangé ? | Have you eaten?
+J'habite ici depuis trois ans. | I've lived here for three years. | depuis + present for an ongoing state
+Je l'ai donné à ma mère. | I gave it to my mother.
+Je le lui ai dit. | I told him/her (it). | le before lui
+Dis-le-moi. | Tell me (it). | pronouns follow a positive command
+Ne me le dis pas. | Don't tell me (it).
+J'espère que tu vas bien. | I hope you're well. | espérer takes the indicative
+Il faut que tu viennes. | You have to come. | il faut que + subjunctive
+Je veux que tu viennes. | I want you to come. | different subject, so subjunctive
+Quand tu arriveras, appelle-moi. | When you arrive, call me. | future after quand
+Si j'ai le temps, j'irai. | If I have time, I'll go. | si + present, future in the result
+Si j'avais de l'argent, je voyagerais plus. | If I had money, I would travel more. | si + imparfait, conditional
+J'ai mal à la tête. | I have a headache. | avoir mal à
+On parle français ici. | French is spoken here. | on as an impersonal subject
+Je viens d'arriver. | I've just arrived. | venir de + infinitive
+Je vais réessayer. | I'm going to try again. | re- = again
+Ça vous dérange si j'ouvre la fenêtre ? | Do you mind if I open the window?
+Il vaudrait mieux attendre. | It would be better to wait. | conditional of il vaut mieux
+On s'est bien amusés. | We had a great time. | reflexive s'amuser
+J'ai enfin fini le travail. | I've finally finished the work.
+J'étudie pour apprendre, pas pour réussir un examen. | I study to learn, not to pass an exam. | pour + infinitive
+Merci pour ton aide. | Thanks for your help.
+Il est possible que j'arrive en retard. | I might arrive late. | il est possible que + subjunctive
+Je ne savais pas que tu parlais espagnol. | I didn't know you spoke Spanish.
+Plus je pratique, mieux je parle. | The more I practise, the better I speak. | plus …, mieux …
+C'est en forgeant qu'on devient forgeron. | Practice makes perfect. | proverb: it is by forging that one becomes a blacksmith
+Je me lève à sept heures. | I get up at seven. | reflexive verb

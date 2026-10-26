@@ -10,7 +10,8 @@
   const save = () => { try { localStorage.setItem(KEY, JSON.stringify(prog)); } catch (e) {} };
   const id = (c) => c.f + "\u241f" + c.b;
   const all = deck.cards.map((c, i) => Object.assign({ i }, c));
-  let st = { mode: "flip", dir: "fb", order: all.slice(), pos: 0, onlyNew: false, done: false };
+  const kindOf = (c) => c.k || "words";
+  let st = { kind: "all", mode: "flip", dir: "fb", order: all.slice(), pos: 0, onlyNew: false, done: false };
 
   // accent-, case- and punctuation-tolerant comparison
   const norm = (s) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase()
@@ -30,13 +31,14 @@
   const mark = (c, ok) => { const p = prog[id(c)] || { r: 0, w: 0 }; ok ? p.r++ : p.w++; p.t = Date.now(); prog[id(c)] = p; save(); };
   const known = (c) => { const p = prog[id(c)]; return p && p.r > p.w && p.r >= 2; };
   const shuffle = (a) => { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
-  const pool = () => (st.onlyNew ? all.filter((c) => !known(c)) : all);
+  const cur = () => (st.kind === "all" ? all : all.filter((c) => kindOf(c) === st.kind));
+  const pool = () => (st.onlyNew ? cur().filter((c) => !known(c)) : cur());
   const esc = (s) => String(s).replace(/[&<>"]/g, (m) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[m]));
 
   function stats() {
-    const k = all.filter(known).length, seen = all.filter((c) => prog[id(c)]).length;
-    $("#pr-stats").textContent = `${all.length} cards · ${seen} practised · ${k} known`;
-    $("#pr-bar").style.width = (100 * k / all.length).toFixed(1) + "%";
+    const set = cur(), k = set.filter(known).length, seen = set.filter((c) => prog[id(c)]).length;
+    $("#pr-stats").textContent = `${set.length} cards · ${seen} practised · ${k} known`;
+    $("#pr-bar").style.width = (100 * k / Math.max(1, set.length)).toFixed(1) + "%";
   }
   function reset(order) { st.order = order || pool().slice(); st.pos = 0; render(); }
   function next() { st.pos++; render(); }
@@ -64,7 +66,7 @@
       $("#pr-yes") && ($("#pr-yes").onclick = () => { mark(c, true); next(); });
       $("#pr-no") && ($("#pr-no").onclick = () => { mark(c, false); next(); });
     } else if (st.mode === "mc") {
-      const others = shuffle(all.filter((o) => back(o) !== back(c))).slice(0, 3);
+      const others = shuffle((cur().length > 3 ? cur() : all).filter((o) => back(o) !== back(c))).slice(0, 3);
       const opts = shuffle([c, ...others]);
       box.innerHTML = `<p class="pr-prompt">${esc(front(c))}</p><div class="pr-opts">${opts.map((o, k) => `<button type="button" class="pr-opt" data-k="${k}">${esc(back(o))}</button>`).join("")}</div><div id="pr-fb" aria-live="polite"></div>`;
       root.querySelectorAll(".pr-opt").forEach((b) => (b.onclick = () => {
@@ -92,6 +94,8 @@
     }
   }
   root.querySelectorAll("[name=pr-mode]").forEach((r) => (r.onchange = () => { st.mode = r.value; render(); }));
+  const ks = $("#pr-kind"); if (ks) { ks.querySelectorAll("option").forEach((o) => { if (o.value !== "all" && !all.some((c) => kindOf(c) === o.value)) o.remove(); }); ks.onchange = (e) => { st.kind = e.target.value; reset(); };
+    const q = new URLSearchParams(location.search).get("deck"); if (q && [...ks.options].some((o) => o.value === q)) { ks.value = q; st.kind = q; } }
   $("#pr-dir").onchange = (e) => { st.dir = e.target.value; render(); };
   $("#pr-shuffle").onclick = () => reset(shuffle(pool().slice()));
   $("#pr-new").onchange = (e) => { st.onlyNew = e.target.checked; reset(); };

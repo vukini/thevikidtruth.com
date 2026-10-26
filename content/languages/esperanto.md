@@ -23,6 +23,8 @@ path_step: 1
 
 **Practise:** [Esperanto flashcards and quizzes](/languages/esperanto-practice/) (works on any phone).
 
+**Core lists:** [vocabulary by theme](/languages/esperantovortoj/#core-vocabulary-by-theme) · [everyday phrases](/languages/esperanto-phrases/) · [example sentences](/languages/esperanto-sentences/)
+
 
 ![esperanto-400](/assets/esperanto-400.jpg)
 

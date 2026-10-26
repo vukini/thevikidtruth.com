@@ -468,3 +468,301 @@ Infinitives add *ku-*: *kunywa*, to drink.
 - *iko* is "it is (located)", not "it".
 - "I am thirsty" is *Nina kiu* (two words), and "I'm hungry" is *Nina njaa* (not *niza njaa*).
 - Fixed Swadesh entries: woman *mwanamke* (not *bibi, gashi*), fat *mafuta*, push *-sukuma*, smell *-nusa*, bite *-uma*, wind *upepo*, thin *-embamba*, wet *-bichi*, sharp *-kali*, full *-jaa*, fly *-ruka*, turn *-geuka*, wash *-osha*, lie down *-lala*, swell *-vimba*.
+
+<!-- core-vocab:start -->
+
+## Core vocabulary by theme
+
+High-frequency words, added October 2026 and checked against Wiktionary. Words already in my notes above aren't repeated. Practise them on the [Swahili practice page](/languages/swahili-practice/).
+
+### Greetings and basics
+
+| Swahili | English | Note |
+|---|---|---|
+| jambo | hello | to tourists; locals say hujambo |
+| sijambo | I'm fine |  |
+| shikamoo | respectful greeting to an elder | reply: marahaba |
+| marahaba | reply to shikamoo |  |
+| asante | thank you |  |
+| tafadhali | please |  |
+| samahani | sorry, excuse me |  |
+| ndiyo | yes |  |
+| hapana | no |  |
+| sawa | OK, fine |  |
+
+### People and family
+
+| Swahili | English | Note |
+|---|---|---|
+| mtu | person | plural watu |
+| mwanamume | man | plural wanaume |
+| mwanamke | woman | plural wanawake |
+| mtoto | child | plural watoto |
+| mvulana | boy |  |
+| msichana | girl |  |
+| baba | father |  |
+| mama | mother |  |
+| kaka | brother (older) |  |
+| dada | sister (older) |  |
+| ndugu | sibling, relative |  |
+| mwana | son, child |  |
+| binti | daughter; young woman |  |
+| babu | grandfather |  |
+| bibi | grandmother; madam |  |
+| mume | husband |  |
+| mke | wife |  |
+| mjomba | maternal uncle |  |
+| shangazi | paternal aunt |  |
+| jirani | neighbour |  |
+| watu | people |  |
+
+### Numbers
+
+| Swahili | English | Note |
+|---|---|---|
+| sifuri | zero |  |
+| kumi na moja | eleven |  |
+| ishirini | twenty |  |
+| thelathini | thirty |  |
+| arobaini | forty |  |
+| hamsini | fifty |  |
+| mia | hundred |  |
+| elfu | thousand |  |
+| -a kwanza | first |  |
+| -a pili | second |  |
+| -a mwisho | last |  |
+
+### Time
+
+| Swahili | English | Note |
+|---|---|---|
+| wiki | week |  |
+| mwaka | year |  |
+| saa | hour; clock; watch | Swahili time: saa moja (hour one) is 7 a.m. |
+| dakika | minute |  |
+| leo | today |  |
+| kesho | tomorrow |  |
+| jana | yesterday |  |
+| baadaye | later |  |
+| siku zote | always |  |
+| kamwe | never |  |
+| mara nyingine | sometimes |  |
+| mara nyingi | often |  |
+| mapema | early |  |
+| mchana | afternoon, daytime |  |
+| jioni | evening |  |
+| Jumatatu | Monday |  |
+| Jumanne | Tuesday |  |
+| Jumatano | Wednesday |  |
+| Alhamisi | Thursday |  |
+| Ijumaa | Friday |  |
+| Jumamosi | Saturday |  |
+| Jumapili | Sunday |  |
+
+### Food and drink
+
+| Swahili | English | Note |
+|---|---|---|
+| mkate | bread |  |
+| maziwa | milk |  |
+| kahawa | coffee |  |
+| chai | tea |  |
+| juisi | juice |  |
+| kuku | chicken |  |
+| wali | cooked rice |  |
+| mchele | uncooked rice |  |
+| yai | egg | plural mayai |
+| matunda | fruit (plural) |  |
+| chungwa | orange |  |
+| ndizi | banana |  |
+| embe | mango |  |
+| mboga | vegetables |  |
+| sukari | sugar |  |
+| ugali | maize porridge |  |
+| chakula cha asubuhi | breakfast |  |
+| chakula cha mchana | lunch |  |
+| chakula cha jioni | dinner |  |
+| bili | the bill |  |
+
+### Travel and places
+
+| Swahili | English | Note |
+|---|---|---|
+| mji | town | plural miji |
+| kijiji | village | plural vijiji |
+| nchi | country |  |
+| mtaa | street, neighbourhood |  |
+| duka | shop | plural maduka |
+| soko | market |  |
+| benki | bank |  |
+| hospitali | hospital |  |
+| shule | school |  |
+| kanisa | church |  |
+| msikiti | mosque |  |
+| pwani | coast, beach |  |
+| mlima | mountain |  |
+| mto | river |  |
+| uwanja wa ndege | airport |  |
+| treni | train |  |
+| basi | bus |  |
+| gari | car | plural magari |
+| kituo | station, stop |  |
+| tiketi | ticket |  |
+| hoteli | hotel |  |
+| safari | journey, trip |  |
+| moja kwa moja | straight on |  |
+| karibu na | near |  |
+
+### Home
+
+| Swahili | English | Note |
+|---|---|---|
+| chumba | room | plural vyumba |
+| jiko | kitchen; stove |  |
+| choo | toilet |  |
+| mlango | door |  |
+| dirisha | window |  |
+| meza | table |  |
+| kiti | chair | plural viti |
+| kitanda | bed |  |
+| ufunguo | key |  |
+| bustani | garden |  |
+| nguo | clothes |  |
+| viatu | shoes |  |
+| simu | phone |  |
+| kitabu | book | plural vitabu |
+| kompyuta | computer |  |
+
+### Work and school
+
+| Swahili | English | Note |
+|---|---|---|
+| kazi | work, job |  |
+| ofisi | office |  |
+| pesa | money |  |
+| mkutano | meeting |  |
+| swali | question | plural maswali |
+| jibu | answer |  |
+| neno | word | plural maneno |
+| lugha | language |  |
+| somo | lesson |  |
+| mwalimu | teacher | plural walimu |
+| mwanafunzi | student | plural wanafunzi |
+
+### Body and health
+
+| Swahili | English | Note |
+|---|---|---|
+| mwili | body |  |
+| mkono | hand, arm |  |
+| mguu | foot, leg |  |
+| jicho | eye | plural macho |
+| mdomo | mouth |  |
+| moyo | heart |  |
+| daktari | doctor |  |
+| mgonjwa | sick person; ill |  |
+| maumivu | pain |  |
+
+### Nature and weather
+
+| Swahili | English | Note |
+|---|---|---|
+| anga | sky |  |
+| hali ya hewa | weather |  |
+| mti | tree | plural miti |
+| ua | flower | plural maua |
+| paka | cat |  |
+
+### Verbs
+
+| Swahili | English | Note |
+|---|---|---|
+| kuwa | to be |  |
+| kuwa na | to have | literally to be with |
+| kufanya | to do, to make |  |
+| kwenda | to go |  |
+| kuja | to come |  |
+| kuweza | can, to be able |  |
+| kutaka | to want |  |
+| kusema | to say |  |
+| kuona | to see |  |
+| kupa | to give |  |
+| kujua | to know |  |
+| kuongea | to talk |  |
+| kuzungumza | to speak, converse |  |
+| kula | to eat |  |
+| kunywa | to drink |  |
+| kuishi | to live |  |
+| kufanya kazi | to work |  |
+| kusoma | to read; to study |  |
+| kujifunza | to learn |  |
+| kuelewa | to understand |  |
+| kuandika | to write |  |
+| kusikiliza | to listen |  |
+| kutazama | to watch |  |
+| kununua | to buy |  |
+| kulipa | to pay |  |
+| kufungua | to open |  |
+| kufunga | to close; to tie |  |
+| kufika | to arrive |  |
+| kuondoka | to leave |  |
+| kurudi | to return |  |
+| kusubiri | to wait |  |
+| kutafuta | to look for |  |
+| kufikiri | to think |  |
+| kuamini | to believe |  |
+| kupenda | to love, to like |  |
+| kuchukua | to take |  |
+| kuweka | to put |  |
+| kuanza | to begin |  |
+| kumaliza | to finish |  |
+| kusaidia | to help |  |
+| kulala | to sleep |  |
+| kucheza | to play; to dance |  |
+| kuhitaji | to need |  |
+| kutumia | to use |  |
+| kupika | to cook |  |
+| kuuza | to sell |  |
+| kukaa | to sit; to stay |  |
+
+### Adjectives
+
+| Swahili | English | Note |
+|---|---|---|
+| -zuri | good, beautiful |  |
+| -kuukuu | old, worn (of things) |  |
+| ghali | expensive |  |
+| rahisi | cheap; easy |  |
+| -gumu | hard, difficult |  |
+| haraka | fast, quickly |  |
+| polepole | slowly |  |
+| -enye furaha | happy |  |
+| -a huzuni | sad |  |
+| -chovu | tired |  |
+| safi | clean |  |
+| tupu | empty |  |
+| muhimu | important |  |
+
+### Colours
+
+| Swahili | English | Note |
+|---|---|---|
+| bluu | blue |  |
+| kahawia | brown |  |
+
+### Question and little words
+
+| Swahili | English | Note |
+|---|---|---|
+| kwa nini | why |  |
+| ngapi | how many |  |
+| kiasi gani | how much |  |
+| kwa sababu | because |  |
+| lakini | but |  |
+| au | or |  |
+| zaidi | more |  |
+| bila | without |  |
+| kwa | for, by, with |  |
+| kati ya | between |  |
+
+<!-- core-vocab:end -->

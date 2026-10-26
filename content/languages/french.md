@@ -23,6 +23,8 @@ path_step: 1
 
 **Practise:** [French flashcards and quizzes](/languages/french-practice/) (works on any phone).
 
+**Core lists:** [vocabulary by theme](/languages/frenchvocabulary/#core-vocabulary-by-theme) · [everyday phrases](/languages/french-phrases/) · [example sentences](/languages/french-sentences/)
+
 
 I had seven years of French at school and was still terrible at it, so this is my second attempt, this time with comprehensible input, parallel texts and a lot of patience. This page covers how French sounds, the grammar you need first, the essential phrases, and then a numbered path through my French pages.
 

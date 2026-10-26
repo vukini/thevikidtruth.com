@@ -11,12 +11,12 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LANG = os.path.join(ROOT, "content", "languages")
 OUT = os.path.join(ROOT, "data", "practice")
 DECKS = {
-    "esperanto": ("Esperanto", "eo", ["esperantovortoj", "vortaro"]),
-    "french": ("French", "fr", ["frenchvocabulary"]),
-    "spanish": ("Spanish", "es", ["spanishvocab1"]),
-    "swahili": ("Swahili", "sw", ["swvocab001", "swphrases101"]),
-    "tokipona": ("Toki Pona", "tok", ["tokiponavocab"]),
-    "japanese": ("Japanese", "ja", ["jpcolors"]),
+    "esperanto": ("Esperanto", "eo", ["esperantovortoj", "vortaro", "esperanto-phrases", "esperanto-sentences"]),
+    "french": ("French", "fr", ["frenchvocabulary", "french-phrases", "french-sentences"]),
+    "spanish": ("Spanish", "es", ["spanishvocab1", "spanish-phrases", "spanish-sentences"]),
+    "swahili": ("Swahili", "sw", ["swvocab001", "swphrases101", "swahili-phrases", "swahili-sentences"]),
+    "tokipona": ("Toki Pona", "tok", ["tokiponavocab", "tokipona-phrases", "tokipona-sentences"]),
+    "japanese": ("Japanese", "ja", ["jpcolors", "japanese-vocabulary", "japanese-phrases", "japanese-sentences"]),
 }
 MEANING = re.compile(r"^(english|meaning)$", re.I)
 
@@ -79,7 +79,7 @@ def cards_from(slug):
             if extra: c["h"] = " · ".join(f"{k}: {v}" if not k.isdigit() else v for k, v in extra.items())
             out.append(c)
     if slug == "vortaro":  # only the short "Words I Am Learning" list before the big dictionary dump
-        skip = {"disigebla", "trudataj"}  # glosses on the page look wrong (separable / imposed), so not drilled
+        skip = set()
         for l in body(slug).split("#### Vortaro Granda")[0].split("# Esperanto: Words I Am Learning")[-1].splitlines():
             m = re.match(r"^\s*(\S+)\s+(?:-{3,}\s*)?(.+?)\s*\|?\s*$", l)
             if m and not l.startswith(("#", "*")) and m.group(1) not in skip:
@@ -100,13 +100,17 @@ def main():
     for key, (title, code, slugs) in DECKS.items():
         cards, seen = [], set()
         for s in slugs:
+            if not os.path.exists(os.path.join(LANG, s + ".md")): continue
+            kind = "sentences" if s.endswith("-sentences") else "phrases" if s.endswith("-phrases") or s == "swphrases101" else "words"
             for c in cards_from(s):
+                c["k"] = kind
                 k = (c["f"].lower(), c["b"].lower())
                 if k in seen: continue
                 seen.add(k); cards.append(c)
         with open(os.path.join(OUT, key + ".json"), "w", encoding="utf-8") as fh:
-            json.dump({"lang": key, "title": title, "code": code, "sources": slugs, "cards": cards}, fh, ensure_ascii=False, indent=0)
-        print(f"{key:10} {len(cards):4} cards from {', '.join(slugs)}")
+            counts = {k: sum(1 for c in cards if c["k"] == k) for k in ("words", "phrases", "sentences")}
+            json.dump({"lang": key, "counts": counts, "title": title, "code": code, "sources": slugs, "cards": cards}, fh, ensure_ascii=False, indent=0)
+        print(f"{key:10} {len(cards):4} cards {counts} from {', '.join(slugs)}")
 
 if __name__ == "__main__":
     main()

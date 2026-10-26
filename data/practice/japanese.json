@@ -1,9 +1,17 @@
 {
 "lang": "japanese",
+"counts": {
+"words": 285,
+"phrases": 100,
+"sentences": 50
+},
 "title": "Japanese",
 "code": "ja",
 "sources": [
-"jpcolors"
+"jpcolors",
+"japanese-vocabulary",
+"japanese-phrases",
+"japanese-sentences"
 ],
 "cards": [
 {
@@ -13,7 +21,8 @@
 "g": "Japanese: Colours",
 "x": "akai ringo a red apple",
 "alt": "aka / akai",
-"h": "romaji: aka / akai"
+"h": "romaji: aka / akai",
+"k": "words"
 },
 {
 "f": "青 / 青い",
@@ -22,7 +31,8 @@
 "g": "Japanese: Colours",
 "x": "aoi sora the blue sky",
 "alt": "ao / aoi",
-"h": "romaji: ao / aoi"
+"h": "romaji: ao / aoi",
+"k": "words"
 },
 {
 "f": "白 / 白い",
@@ -31,7 +41,8 @@
 "g": "Japanese: Colours",
 "x": "shiroi neko a white cat",
 "alt": "shiro / shiroi",
-"h": "romaji: shiro / shiroi"
+"h": "romaji: shiro / shiroi",
+"k": "words"
 },
 {
 "f": "黒 / 黒い",
@@ -40,7 +51,8 @@
 "g": "Japanese: Colours",
 "x": "kuroi kutsu black shoes",
 "alt": "kuro / kuroi",
-"h": "romaji: kuro / kuroi"
+"h": "romaji: kuro / kuroi",
+"k": "words"
 },
 {
 "f": "黄色 / 黄色い",
@@ -49,7 +61,8 @@
 "g": "Japanese: Colours",
 "x": "kiiroi hana a yellow flower",
 "alt": "kiiro / kiiroi",
-"h": "romaji: kiiro / kiiroi"
+"h": "romaji: kiiro / kiiroi",
+"k": "words"
 },
 {
 "f": "茶色",
@@ -58,7 +71,8 @@
 "g": "Japanese: Colours",
 "x": "chairo no kaban a brown bag",
 "alt": "chairo",
-"h": "romaji: chairo"
+"h": "romaji: chairo",
+"k": "words"
 },
 {
 "f": "緑",
@@ -67,7 +81,8 @@
 "g": "Japanese: Colours",
 "x": "midori no ha green leaves",
 "alt": "midori",
-"h": "romaji: midori"
+"h": "romaji: midori",
+"k": "words"
 },
 {
 "f": "紫",
@@ -76,7 +91,8 @@
 "g": "Japanese: Colours",
 "x": "murasaki no fuku purple clothes",
 "alt": "murasaki",
-"h": "romaji: murasaki"
+"h": "romaji: murasaki",
+"k": "words"
 },
 {
 "f": "ピンク",
@@ -85,7 +101,8 @@
 "g": "Japanese: Colours",
 "x": "pinku no T-shatsu a pink T-shirt",
 "alt": "pinku",
-"h": "romaji: pinku"
+"h": "romaji: pinku",
+"k": "words"
 },
 {
 "f": "オレンジ",
@@ -94,7 +111,8 @@
 "g": "Japanese: Colours",
 "x": "orenji no bōshi an orange hat",
 "alt": "orenji",
-"h": "romaji: orenji"
+"h": "romaji: orenji",
+"k": "words"
 },
 {
 "f": "灰色",
@@ -103,7 +121,3824 @@
 "g": "Japanese: Colours",
 "x": "haiiro no kumo grey clouds",
 "alt": "haiiro",
-"h": "romaji: haiiro"
+"h": "romaji: haiiro",
+"k": "words"
+},
+{
+"f": "こんにちは",
+"b": "hello, good afternoon",
+"s": "japanese-vocabulary",
+"g": "Greetings and basics",
+"alt": "konnichiwa",
+"h": "romaji: konnichiwa",
+"k": "words"
+},
+{
+"f": "おはよう",
+"b": "good morning (casual)",
+"s": "japanese-vocabulary",
+"g": "Greetings and basics",
+"alt": "ohayō",
+"h": "romaji: ohayō",
+"k": "words"
+},
+{
+"f": "こんばんは",
+"b": "good evening",
+"s": "japanese-vocabulary",
+"g": "Greetings and basics",
+"alt": "konbanwa",
+"h": "romaji: konbanwa",
+"k": "words"
+},
+{
+"f": "さようなら",
+"b": "goodbye",
+"s": "japanese-vocabulary",
+"g": "Greetings and basics",
+"alt": "sayōnara",
+"h": "romaji: sayōnara",
+"k": "words"
+},
+{
+"f": "ありがとう",
+"b": "thank you",
+"s": "japanese-vocabulary",
+"g": "Greetings and basics",
+"alt": "arigatō",
+"h": "romaji: arigatō",
+"k": "words"
+},
+{
+"f": "すみません",
+"b": "excuse me, sorry",
+"s": "japanese-vocabulary",
+"g": "Greetings and basics",
+"alt": "sumimasen",
+"h": "romaji: sumimasen",
+"k": "words"
+},
+{
+"f": "ごめんなさい",
+"b": "I'm sorry",
+"s": "japanese-vocabulary",
+"g": "Greetings and basics",
+"alt": "gomen nasai",
+"h": "romaji: gomen nasai",
+"k": "words"
+},
+{
+"f": "はい",
+"b": "yes",
+"s": "japanese-vocabulary",
+"g": "Greetings and basics",
+"alt": "hai",
+"h": "romaji: hai",
+"k": "words"
+},
+{
+"f": "いいえ",
+"b": "no",
+"s": "japanese-vocabulary",
+"g": "Greetings and basics",
+"alt": "iie",
+"h": "romaji: iie",
+"k": "words"
+},
+{
+"f": "どうぞ",
+"b": "please (go ahead), here you are",
+"s": "japanese-vocabulary",
+"g": "Greetings and basics",
+"alt": "dōzo",
+"h": "romaji: dōzo",
+"k": "words"
+},
+{
+"f": "人 (ひと)",
+"b": "person",
+"s": "japanese-vocabulary",
+"g": "People and family",
+"alt": "hito",
+"h": "romaji: hito",
+"k": "words"
+},
+{
+"f": "男 (おとこ)",
+"b": "man, male",
+"s": "japanese-vocabulary",
+"g": "People and family",
+"alt": "otoko",
+"h": "romaji: otoko",
+"k": "words"
+},
+{
+"f": "女 (おんな)",
+"b": "woman, female",
+"s": "japanese-vocabulary",
+"g": "People and family",
+"alt": "onna",
+"h": "romaji: onna",
+"k": "words"
+},
+{
+"f": "子供 (こども)",
+"b": "child",
+"s": "japanese-vocabulary",
+"g": "People and family",
+"alt": "kodomo",
+"h": "romaji: kodomo",
+"k": "words"
+},
+{
+"f": "男の子 (おとこのこ)",
+"b": "boy",
+"s": "japanese-vocabulary",
+"g": "People and family",
+"alt": "otoko no ko",
+"h": "romaji: otoko no ko",
+"k": "words"
+},
+{
+"f": "女の子 (おんなのこ)",
+"b": "girl",
+"s": "japanese-vocabulary",
+"g": "People and family",
+"alt": "onna no ko",
+"h": "romaji: onna no ko",
+"k": "words"
+},
+{
+"f": "友達 (ともだち)",
+"b": "friend",
+"s": "japanese-vocabulary",
+"g": "People and family",
+"alt": "tomodachi",
+"h": "romaji: tomodachi",
+"k": "words"
+},
+{
+"f": "家族 (かぞく)",
+"b": "family",
+"s": "japanese-vocabulary",
+"g": "People and family",
+"alt": "kazoku",
+"h": "romaji: kazoku",
+"k": "words"
+},
+{
+"f": "父 (ちち)",
+"b": "(my) father",
+"s": "japanese-vocabulary",
+"g": "People and family",
+"alt": "chichi",
+"h": "romaji: chichi · note: お父さん otōsan for someone else's",
+"k": "words"
+},
+{
+"f": "母 (はは)",
+"b": "(my) mother",
+"s": "japanese-vocabulary",
+"g": "People and family",
+"alt": "haha",
+"h": "romaji: haha · note: お母さん okāsan for someone else's",
+"k": "words"
+},
+{
+"f": "兄 (あに)",
+"b": "(my) older brother",
+"s": "japanese-vocabulary",
+"g": "People and family",
+"alt": "ani",
+"h": "romaji: ani",
+"k": "words"
+},
+{
+"f": "姉 (あね)",
+"b": "(my) older sister",
+"s": "japanese-vocabulary",
+"g": "People and family",
+"alt": "ane",
+"h": "romaji: ane",
+"k": "words"
+},
+{
+"f": "弟 (おとうと)",
+"b": "younger brother",
+"s": "japanese-vocabulary",
+"g": "People and family",
+"alt": "otōto",
+"h": "romaji: otōto",
+"k": "words"
+},
+{
+"f": "妹 (いもうと)",
+"b": "younger sister",
+"s": "japanese-vocabulary",
+"g": "People and family",
+"alt": "imōto",
+"h": "romaji: imōto",
+"k": "words"
+},
+{
+"f": "息子 (むすこ)",
+"b": "son",
+"s": "japanese-vocabulary",
+"g": "People and family",
+"alt": "musuko",
+"h": "romaji: musuko",
+"k": "words"
+},
+{
+"f": "娘 (むすめ)",
+"b": "daughter",
+"s": "japanese-vocabulary",
+"g": "People and family",
+"alt": "musume",
+"h": "romaji: musume",
+"k": "words"
+},
+{
+"f": "祖父 (そふ)",
+"b": "(my) grandfather",
+"s": "japanese-vocabulary",
+"g": "People and family",
+"alt": "sofu",
+"h": "romaji: sofu",
+"k": "words"
+},
+{
+"f": "祖母 (そぼ)",
+"b": "(my) grandmother",
+"s": "japanese-vocabulary",
+"g": "People and family",
+"alt": "sobo",
+"h": "romaji: sobo",
+"k": "words"
+},
+{
+"f": "夫 (おっと)",
+"b": "(my) husband",
+"s": "japanese-vocabulary",
+"g": "People and family",
+"alt": "otto",
+"h": "romaji: otto",
+"k": "words"
+},
+{
+"f": "妻 (つま)",
+"b": "(my) wife",
+"s": "japanese-vocabulary",
+"g": "People and family",
+"alt": "tsuma",
+"h": "romaji: tsuma",
+"k": "words"
+},
+{
+"f": "先生 (せんせい)",
+"b": "teacher",
+"s": "japanese-vocabulary",
+"g": "People and family",
+"alt": "sensei",
+"h": "romaji: sensei",
+"k": "words"
+},
+{
+"f": "学生 (がくせい)",
+"b": "student",
+"s": "japanese-vocabulary",
+"g": "People and family",
+"alt": "gakusei",
+"h": "romaji: gakusei",
+"k": "words"
+},
+{
+"f": "私 (わたし)",
+"b": "I, me",
+"s": "japanese-vocabulary",
+"g": "People and family",
+"alt": "watashi",
+"h": "romaji: watashi",
+"k": "words"
+},
+{
+"f": "あなた",
+"b": "you",
+"s": "japanese-vocabulary",
+"g": "People and family",
+"alt": "anata",
+"h": "romaji: anata · note: often avoided; use the person's name",
+"k": "words"
+},
+{
+"f": "彼 (かれ)",
+"b": "he; boyfriend",
+"s": "japanese-vocabulary",
+"g": "People and family",
+"alt": "kare",
+"h": "romaji: kare",
+"k": "words"
+},
+{
+"f": "彼女 (かのじょ)",
+"b": "she; girlfriend",
+"s": "japanese-vocabulary",
+"g": "People and family",
+"alt": "kanojo",
+"h": "romaji: kanojo",
+"k": "words"
+},
+{
+"f": "零 / ゼロ",
+"b": "zero",
+"s": "japanese-vocabulary",
+"g": "Numbers",
+"alt": "rei / zero",
+"h": "romaji: rei / zero",
+"k": "words"
+},
+{
+"f": "一 (いち)",
+"b": "one",
+"s": "japanese-vocabulary",
+"g": "Numbers",
+"alt": "ichi",
+"h": "romaji: ichi",
+"k": "words"
+},
+{
+"f": "二 (に)",
+"b": "two",
+"s": "japanese-vocabulary",
+"g": "Numbers",
+"alt": "ni",
+"h": "romaji: ni",
+"k": "words"
+},
+{
+"f": "三 (さん)",
+"b": "three",
+"s": "japanese-vocabulary",
+"g": "Numbers",
+"alt": "san",
+"h": "romaji: san",
+"k": "words"
+},
+{
+"f": "四 (よん / し)",
+"b": "four",
+"s": "japanese-vocabulary",
+"g": "Numbers",
+"alt": "yon / shi",
+"h": "romaji: yon / shi",
+"k": "words"
+},
+{
+"f": "五 (ご)",
+"b": "five",
+"s": "japanese-vocabulary",
+"g": "Numbers",
+"alt": "go",
+"h": "romaji: go",
+"k": "words"
+},
+{
+"f": "六 (ろく)",
+"b": "six",
+"s": "japanese-vocabulary",
+"g": "Numbers",
+"alt": "roku",
+"h": "romaji: roku",
+"k": "words"
+},
+{
+"f": "七 (なな / しち)",
+"b": "seven",
+"s": "japanese-vocabulary",
+"g": "Numbers",
+"alt": "nana / shichi",
+"h": "romaji: nana / shichi",
+"k": "words"
+},
+{
+"f": "八 (はち)",
+"b": "eight",
+"s": "japanese-vocabulary",
+"g": "Numbers",
+"alt": "hachi",
+"h": "romaji: hachi",
+"k": "words"
+},
+{
+"f": "九 (きゅう / く)",
+"b": "nine",
+"s": "japanese-vocabulary",
+"g": "Numbers",
+"alt": "kyū / ku",
+"h": "romaji: kyū / ku",
+"k": "words"
+},
+{
+"f": "十 (じゅう)",
+"b": "ten",
+"s": "japanese-vocabulary",
+"g": "Numbers",
+"alt": "jū",
+"h": "romaji: jū",
+"k": "words"
+},
+{
+"f": "十一 (じゅういち)",
+"b": "eleven",
+"s": "japanese-vocabulary",
+"g": "Numbers",
+"alt": "jūichi",
+"h": "romaji: jūichi",
+"k": "words"
+},
+{
+"f": "二十 (にじゅう)",
+"b": "twenty",
+"s": "japanese-vocabulary",
+"g": "Numbers",
+"alt": "nijū",
+"h": "romaji: nijū",
+"k": "words"
+},
+{
+"f": "百 (ひゃく)",
+"b": "one hundred",
+"s": "japanese-vocabulary",
+"g": "Numbers",
+"alt": "hyaku",
+"h": "romaji: hyaku",
+"k": "words"
+},
+{
+"f": "千 (せん)",
+"b": "one thousand",
+"s": "japanese-vocabulary",
+"g": "Numbers",
+"alt": "sen",
+"h": "romaji: sen",
+"k": "words"
+},
+{
+"f": "万 (まん)",
+"b": "ten thousand",
+"s": "japanese-vocabulary",
+"g": "Numbers",
+"alt": "man",
+"h": "romaji: man",
+"k": "words"
+},
+{
+"f": "一つ (ひとつ)",
+"b": "one (thing)",
+"s": "japanese-vocabulary",
+"g": "Numbers",
+"alt": "hitotsu",
+"h": "romaji: hitotsu",
+"k": "words"
+},
+{
+"f": "二つ (ふたつ)",
+"b": "two (things)",
+"s": "japanese-vocabulary",
+"g": "Numbers",
+"alt": "futatsu",
+"h": "romaji: futatsu",
+"k": "words"
+},
+{
+"f": "三つ (みっつ)",
+"b": "three (things)",
+"s": "japanese-vocabulary",
+"g": "Numbers",
+"alt": "mittsu",
+"h": "romaji: mittsu",
+"k": "words"
+},
+{
+"f": "日 (ひ)",
+"b": "day; sun",
+"s": "japanese-vocabulary",
+"g": "Time",
+"alt": "hi",
+"h": "romaji: hi",
+"k": "words"
+},
+{
+"f": "週 (しゅう)",
+"b": "week",
+"s": "japanese-vocabulary",
+"g": "Time",
+"alt": "shū",
+"h": "romaji: shū",
+"k": "words"
+},
+{
+"f": "月 (つき)",
+"b": "month; moon",
+"s": "japanese-vocabulary",
+"g": "Time",
+"alt": "tsuki",
+"h": "romaji: tsuki",
+"k": "words"
+},
+{
+"f": "年 (とし)",
+"b": "year",
+"s": "japanese-vocabulary",
+"g": "Time",
+"alt": "toshi",
+"h": "romaji: toshi",
+"k": "words"
+},
+{
+"f": "時間 (じかん)",
+"b": "time; hour(s)",
+"s": "japanese-vocabulary",
+"g": "Time",
+"alt": "jikan",
+"h": "romaji: jikan",
+"k": "words"
+},
+{
+"f": "分 (ふん)",
+"b": "minute",
+"s": "japanese-vocabulary",
+"g": "Time",
+"alt": "fun",
+"h": "romaji: fun",
+"k": "words"
+},
+{
+"f": "今日 (きょう)",
+"b": "today",
+"s": "japanese-vocabulary",
+"g": "Time",
+"alt": "kyō",
+"h": "romaji: kyō",
+"k": "words"
+},
+{
+"f": "明日 (あした)",
+"b": "tomorrow",
+"s": "japanese-vocabulary",
+"g": "Time",
+"alt": "ashita",
+"h": "romaji: ashita",
+"k": "words"
+},
+{
+"f": "昨日 (きのう)",
+"b": "yesterday",
+"s": "japanese-vocabulary",
+"g": "Time",
+"alt": "kinō",
+"h": "romaji: kinō",
+"k": "words"
+},
+{
+"f": "今 (いま)",
+"b": "now",
+"s": "japanese-vocabulary",
+"g": "Time",
+"alt": "ima",
+"h": "romaji: ima",
+"k": "words"
+},
+{
+"f": "後で (あとで)",
+"b": "later",
+"s": "japanese-vocabulary",
+"g": "Time",
+"alt": "ato de",
+"h": "romaji: ato de",
+"k": "words"
+},
+{
+"f": "いつも",
+"b": "always",
+"s": "japanese-vocabulary",
+"g": "Time",
+"alt": "itsumo",
+"h": "romaji: itsumo",
+"k": "words"
+},
+{
+"f": "時々 (ときどき)",
+"b": "sometimes",
+"s": "japanese-vocabulary",
+"g": "Time",
+"alt": "tokidoki",
+"h": "romaji: tokidoki",
+"k": "words"
+},
+{
+"f": "よく",
+"b": "often; well",
+"s": "japanese-vocabulary",
+"g": "Time",
+"alt": "yoku",
+"h": "romaji: yoku",
+"k": "words"
+},
+{
+"f": "朝 (あさ)",
+"b": "morning",
+"s": "japanese-vocabulary",
+"g": "Time",
+"alt": "asa",
+"h": "romaji: asa",
+"k": "words"
+},
+{
+"f": "昼 (ひる)",
+"b": "noon, daytime",
+"s": "japanese-vocabulary",
+"g": "Time",
+"alt": "hiru",
+"h": "romaji: hiru",
+"k": "words"
+},
+{
+"f": "晩 (ばん)",
+"b": "evening",
+"s": "japanese-vocabulary",
+"g": "Time",
+"alt": "ban",
+"h": "romaji: ban",
+"k": "words"
+},
+{
+"f": "夜 (よる)",
+"b": "night",
+"s": "japanese-vocabulary",
+"g": "Time",
+"alt": "yoru",
+"h": "romaji: yoru",
+"k": "words"
+},
+{
+"f": "月曜日 (げつようび)",
+"b": "Monday",
+"s": "japanese-vocabulary",
+"g": "Time",
+"alt": "getsuyōbi",
+"h": "romaji: getsuyōbi",
+"k": "words"
+},
+{
+"f": "火曜日 (かようび)",
+"b": "Tuesday",
+"s": "japanese-vocabulary",
+"g": "Time",
+"alt": "kayōbi",
+"h": "romaji: kayōbi",
+"k": "words"
+},
+{
+"f": "水曜日 (すいようび)",
+"b": "Wednesday",
+"s": "japanese-vocabulary",
+"g": "Time",
+"alt": "suiyōbi",
+"h": "romaji: suiyōbi",
+"k": "words"
+},
+{
+"f": "木曜日 (もくようび)",
+"b": "Thursday",
+"s": "japanese-vocabulary",
+"g": "Time",
+"alt": "mokuyōbi",
+"h": "romaji: mokuyōbi",
+"k": "words"
+},
+{
+"f": "金曜日 (きんようび)",
+"b": "Friday",
+"s": "japanese-vocabulary",
+"g": "Time",
+"alt": "kin'yōbi",
+"h": "romaji: kin'yōbi",
+"k": "words"
+},
+{
+"f": "土曜日 (どようび)",
+"b": "Saturday",
+"s": "japanese-vocabulary",
+"g": "Time",
+"alt": "doyōbi",
+"h": "romaji: doyōbi",
+"k": "words"
+},
+{
+"f": "日曜日 (にちようび)",
+"b": "Sunday",
+"s": "japanese-vocabulary",
+"g": "Time",
+"alt": "nichiyōbi",
+"h": "romaji: nichiyōbi",
+"k": "words"
+},
+{
+"f": "毎日 (まいにち)",
+"b": "every day",
+"s": "japanese-vocabulary",
+"g": "Time",
+"alt": "mainichi",
+"h": "romaji: mainichi",
+"k": "words"
+},
+{
+"f": "週末 (しゅうまつ)",
+"b": "weekend",
+"s": "japanese-vocabulary",
+"g": "Time",
+"alt": "shūmatsu",
+"h": "romaji: shūmatsu",
+"k": "words"
+},
+{
+"f": "食べ物 (たべもの)",
+"b": "food",
+"s": "japanese-vocabulary",
+"g": "Food and drink",
+"alt": "tabemono",
+"h": "romaji: tabemono",
+"k": "words"
+},
+{
+"f": "ご飯 (ごはん)",
+"b": "cooked rice; meal",
+"s": "japanese-vocabulary",
+"g": "Food and drink",
+"alt": "gohan",
+"h": "romaji: gohan",
+"k": "words"
+},
+{
+"f": "水 (みず)",
+"b": "water",
+"s": "japanese-vocabulary",
+"g": "Food and drink",
+"alt": "mizu",
+"h": "romaji: mizu",
+"k": "words"
+},
+{
+"f": "お茶 (おちゃ)",
+"b": "tea (green tea)",
+"s": "japanese-vocabulary",
+"g": "Food and drink",
+"alt": "ocha",
+"h": "romaji: ocha",
+"k": "words"
+},
+{
+"f": "コーヒー",
+"b": "coffee",
+"s": "japanese-vocabulary",
+"g": "Food and drink",
+"alt": "kōhī",
+"h": "romaji: kōhī",
+"k": "words"
+},
+{
+"f": "牛乳 (ぎゅうにゅう)",
+"b": "milk",
+"s": "japanese-vocabulary",
+"g": "Food and drink",
+"alt": "gyūnyū",
+"h": "romaji: gyūnyū",
+"k": "words"
+},
+{
+"f": "ビール",
+"b": "beer",
+"s": "japanese-vocabulary",
+"g": "Food and drink",
+"alt": "bīru",
+"h": "romaji: bīru",
+"k": "words"
+},
+{
+"f": "お酒 (おさけ)",
+"b": "alcohol; sake",
+"s": "japanese-vocabulary",
+"g": "Food and drink",
+"alt": "osake",
+"h": "romaji: osake",
+"k": "words"
+},
+{
+"f": "パン",
+"b": "bread",
+"s": "japanese-vocabulary",
+"g": "Food and drink",
+"alt": "pan",
+"h": "romaji: pan",
+"k": "words"
+},
+{
+"f": "肉 (にく)",
+"b": "meat",
+"s": "japanese-vocabulary",
+"g": "Food and drink",
+"alt": "niku",
+"h": "romaji: niku",
+"k": "words"
+},
+{
+"f": "鶏肉 (とりにく)",
+"b": "chicken (meat)",
+"s": "japanese-vocabulary",
+"g": "Food and drink",
+"alt": "toriniku",
+"h": "romaji: toriniku",
+"k": "words"
+},
+{
+"f": "魚 (さかな)",
+"b": "fish",
+"s": "japanese-vocabulary",
+"g": "Food and drink",
+"alt": "sakana",
+"h": "romaji: sakana",
+"k": "words"
+},
+{
+"f": "卵 (たまご)",
+"b": "egg",
+"s": "japanese-vocabulary",
+"g": "Food and drink",
+"alt": "tamago",
+"h": "romaji: tamago",
+"k": "words"
+},
+{
+"f": "野菜 (やさい)",
+"b": "vegetables",
+"s": "japanese-vocabulary",
+"g": "Food and drink",
+"alt": "yasai",
+"h": "romaji: yasai",
+"k": "words"
+},
+{
+"f": "果物 (くだもの)",
+"b": "fruit",
+"s": "japanese-vocabulary",
+"g": "Food and drink",
+"alt": "kudamono",
+"h": "romaji: kudamono",
+"k": "words"
+},
+{
+"f": "りんご",
+"b": "apple",
+"s": "japanese-vocabulary",
+"g": "Food and drink",
+"alt": "ringo",
+"h": "romaji: ringo",
+"k": "words"
+},
+{
+"f": "みかん",
+"b": "mandarin orange",
+"s": "japanese-vocabulary",
+"g": "Food and drink",
+"alt": "mikan",
+"h": "romaji: mikan",
+"k": "words"
+},
+{
+"f": "塩 (しお)",
+"b": "salt",
+"s": "japanese-vocabulary",
+"g": "Food and drink",
+"alt": "shio",
+"h": "romaji: shio",
+"k": "words"
+},
+{
+"f": "砂糖 (さとう)",
+"b": "sugar",
+"s": "japanese-vocabulary",
+"g": "Food and drink",
+"alt": "satō",
+"h": "romaji: satō",
+"k": "words"
+},
+{
+"f": "朝ご飯 (あさごはん)",
+"b": "breakfast",
+"s": "japanese-vocabulary",
+"g": "Food and drink",
+"alt": "asagohan",
+"h": "romaji: asagohan",
+"k": "words"
+},
+{
+"f": "昼ご飯 (ひるごはん)",
+"b": "lunch",
+"s": "japanese-vocabulary",
+"g": "Food and drink",
+"alt": "hirugohan",
+"h": "romaji: hirugohan",
+"k": "words"
+},
+{
+"f": "晩ご飯 (ばんごはん)",
+"b": "dinner",
+"s": "japanese-vocabulary",
+"g": "Food and drink",
+"alt": "bangohan",
+"h": "romaji: bangohan",
+"k": "words"
+},
+{
+"f": "美味しい (おいしい)",
+"b": "delicious",
+"s": "japanese-vocabulary",
+"g": "Food and drink",
+"alt": "oishii",
+"h": "romaji: oishii",
+"k": "words"
+},
+{
+"f": "町 (まち)",
+"b": "town",
+"s": "japanese-vocabulary",
+"g": "Travel and places",
+"alt": "machi",
+"h": "romaji: machi",
+"k": "words"
+},
+{
+"f": "国 (くに)",
+"b": "country",
+"s": "japanese-vocabulary",
+"g": "Travel and places",
+"alt": "kuni",
+"h": "romaji: kuni",
+"k": "words"
+},
+{
+"f": "道 (みち)",
+"b": "road, way",
+"s": "japanese-vocabulary",
+"g": "Travel and places",
+"alt": "michi",
+"h": "romaji: michi",
+"k": "words"
+},
+{
+"f": "店 (みせ)",
+"b": "shop",
+"s": "japanese-vocabulary",
+"g": "Travel and places",
+"alt": "mise",
+"h": "romaji: mise",
+"k": "words"
+},
+{
+"f": "銀行 (ぎんこう)",
+"b": "bank",
+"s": "japanese-vocabulary",
+"g": "Travel and places",
+"alt": "ginkō",
+"h": "romaji: ginkō",
+"k": "words"
+},
+{
+"f": "病院 (びょういん)",
+"b": "hospital",
+"s": "japanese-vocabulary",
+"g": "Travel and places",
+"alt": "byōin",
+"h": "romaji: byōin",
+"k": "words"
+},
+{
+"f": "学校 (がっこう)",
+"b": "school",
+"s": "japanese-vocabulary",
+"g": "Travel and places",
+"alt": "gakkō",
+"h": "romaji: gakkō",
+"k": "words"
+},
+{
+"f": "駅 (えき)",
+"b": "station",
+"s": "japanese-vocabulary",
+"g": "Travel and places",
+"alt": "eki",
+"h": "romaji: eki",
+"k": "words"
+},
+{
+"f": "空港 (くうこう)",
+"b": "airport",
+"s": "japanese-vocabulary",
+"g": "Travel and places",
+"alt": "kūkō",
+"h": "romaji: kūkō",
+"k": "words"
+},
+{
+"f": "飛行機 (ひこうき)",
+"b": "aeroplane",
+"s": "japanese-vocabulary",
+"g": "Travel and places",
+"alt": "hikōki",
+"h": "romaji: hikōki",
+"k": "words"
+},
+{
+"f": "電車 (でんしゃ)",
+"b": "train",
+"s": "japanese-vocabulary",
+"g": "Travel and places",
+"alt": "densha",
+"h": "romaji: densha",
+"k": "words"
+},
+{
+"f": "バス",
+"b": "bus",
+"s": "japanese-vocabulary",
+"g": "Travel and places",
+"alt": "basu",
+"h": "romaji: basu",
+"k": "words"
+},
+{
+"f": "車 (くるま)",
+"b": "car",
+"s": "japanese-vocabulary",
+"g": "Travel and places",
+"alt": "kuruma",
+"h": "romaji: kuruma",
+"k": "words"
+},
+{
+"f": "切符 (きっぷ)",
+"b": "ticket",
+"s": "japanese-vocabulary",
+"g": "Travel and places",
+"alt": "kippu",
+"h": "romaji: kippu",
+"k": "words"
+},
+{
+"f": "ホテル",
+"b": "hotel",
+"s": "japanese-vocabulary",
+"g": "Travel and places",
+"alt": "hoteru",
+"h": "romaji: hoteru",
+"k": "words"
+},
+{
+"f": "旅行 (りょこう)",
+"b": "travel, trip",
+"s": "japanese-vocabulary",
+"g": "Travel and places",
+"alt": "ryokō",
+"h": "romaji: ryokō",
+"k": "words"
+},
+{
+"f": "地図 (ちず)",
+"b": "map",
+"s": "japanese-vocabulary",
+"g": "Travel and places",
+"alt": "chizu",
+"h": "romaji: chizu",
+"k": "words"
+},
+{
+"f": "海 (うみ)",
+"b": "sea",
+"s": "japanese-vocabulary",
+"g": "Travel and places",
+"alt": "umi",
+"h": "romaji: umi",
+"k": "words"
+},
+{
+"f": "山 (やま)",
+"b": "mountain",
+"s": "japanese-vocabulary",
+"g": "Travel and places",
+"alt": "yama",
+"h": "romaji: yama",
+"k": "words"
+},
+{
+"f": "川 (かわ)",
+"b": "river",
+"s": "japanese-vocabulary",
+"g": "Travel and places",
+"alt": "kawa",
+"h": "romaji: kawa",
+"k": "words"
+},
+{
+"f": "左 (ひだり)",
+"b": "left",
+"s": "japanese-vocabulary",
+"g": "Travel and places",
+"alt": "hidari",
+"h": "romaji: hidari",
+"k": "words"
+},
+{
+"f": "右 (みぎ)",
+"b": "right",
+"s": "japanese-vocabulary",
+"g": "Travel and places",
+"alt": "migi",
+"h": "romaji: migi",
+"k": "words"
+},
+{
+"f": "まっすぐ",
+"b": "straight ahead",
+"s": "japanese-vocabulary",
+"g": "Travel and places",
+"alt": "massugu",
+"h": "romaji: massugu",
+"k": "words"
+},
+{
+"f": "近い (ちかい)",
+"b": "near",
+"s": "japanese-vocabulary",
+"g": "Travel and places",
+"alt": "chikai",
+"h": "romaji: chikai",
+"k": "words"
+},
+{
+"f": "遠い (とおい)",
+"b": "far",
+"s": "japanese-vocabulary",
+"g": "Travel and places",
+"alt": "tōi",
+"h": "romaji: tōi",
+"k": "words"
+},
+{
+"f": "ここ",
+"b": "here",
+"s": "japanese-vocabulary",
+"g": "Travel and places",
+"alt": "koko",
+"h": "romaji: koko",
+"k": "words"
+},
+{
+"f": "そこ",
+"b": "there (near you)",
+"s": "japanese-vocabulary",
+"g": "Travel and places",
+"alt": "soko",
+"h": "romaji: soko",
+"k": "words"
+},
+{
+"f": "あそこ",
+"b": "over there",
+"s": "japanese-vocabulary",
+"g": "Travel and places",
+"alt": "asoko",
+"h": "romaji: asoko",
+"k": "words"
+},
+{
+"f": "トイレ",
+"b": "toilet",
+"s": "japanese-vocabulary",
+"g": "Travel and places",
+"alt": "toire",
+"h": "romaji: toire",
+"k": "words"
+},
+{
+"f": "家 (いえ / うち)",
+"b": "house, home",
+"s": "japanese-vocabulary",
+"g": "Home",
+"alt": "ie / uchi",
+"h": "romaji: ie / uchi",
+"k": "words"
+},
+{
+"f": "部屋 (へや)",
+"b": "room",
+"s": "japanese-vocabulary",
+"g": "Home",
+"alt": "heya",
+"h": "romaji: heya",
+"k": "words"
+},
+{
+"f": "台所 (だいどころ)",
+"b": "kitchen",
+"s": "japanese-vocabulary",
+"g": "Home",
+"alt": "daidokoro",
+"h": "romaji: daidokoro",
+"k": "words"
+},
+{
+"f": "お風呂 (おふろ)",
+"b": "bath",
+"s": "japanese-vocabulary",
+"g": "Home",
+"alt": "ofuro",
+"h": "romaji: ofuro",
+"k": "words"
+},
+{
+"f": "ドア",
+"b": "door",
+"s": "japanese-vocabulary",
+"g": "Home",
+"alt": "doa",
+"h": "romaji: doa",
+"k": "words"
+},
+{
+"f": "窓 (まど)",
+"b": "window",
+"s": "japanese-vocabulary",
+"g": "Home",
+"alt": "mado",
+"h": "romaji: mado",
+"k": "words"
+},
+{
+"f": "机 (つくえ)",
+"b": "desk",
+"s": "japanese-vocabulary",
+"g": "Home",
+"alt": "tsukue",
+"h": "romaji: tsukue",
+"k": "words"
+},
+{
+"f": "椅子 (いす)",
+"b": "chair",
+"s": "japanese-vocabulary",
+"g": "Home",
+"alt": "isu",
+"h": "romaji: isu",
+"k": "words"
+},
+{
+"f": "ベッド",
+"b": "bed",
+"s": "japanese-vocabulary",
+"g": "Home",
+"alt": "beddo",
+"h": "romaji: beddo",
+"k": "words"
+},
+{
+"f": "鍵 (かぎ)",
+"b": "key",
+"s": "japanese-vocabulary",
+"g": "Home",
+"alt": "kagi",
+"h": "romaji: kagi",
+"k": "words"
+},
+{
+"f": "服 (ふく)",
+"b": "clothes",
+"s": "japanese-vocabulary",
+"g": "Home",
+"alt": "fuku",
+"h": "romaji: fuku",
+"k": "words"
+},
+{
+"f": "靴 (くつ)",
+"b": "shoes",
+"s": "japanese-vocabulary",
+"g": "Home",
+"alt": "kutsu",
+"h": "romaji: kutsu",
+"k": "words"
+},
+{
+"f": "電話 (でんわ)",
+"b": "telephone",
+"s": "japanese-vocabulary",
+"g": "Home",
+"alt": "denwa",
+"h": "romaji: denwa",
+"k": "words"
+},
+{
+"f": "本 (ほん)",
+"b": "book",
+"s": "japanese-vocabulary",
+"g": "Home",
+"alt": "hon",
+"h": "romaji: hon",
+"k": "words"
+},
+{
+"f": "仕事 (しごと)",
+"b": "work, job",
+"s": "japanese-vocabulary",
+"g": "Work and school",
+"alt": "shigoto",
+"h": "romaji: shigoto",
+"k": "words"
+},
+{
+"f": "会社 (かいしゃ)",
+"b": "company",
+"s": "japanese-vocabulary",
+"g": "Work and school",
+"alt": "kaisha",
+"h": "romaji: kaisha",
+"k": "words"
+},
+{
+"f": "会議 (かいぎ)",
+"b": "meeting",
+"s": "japanese-vocabulary",
+"g": "Work and school",
+"alt": "kaigi",
+"h": "romaji: kaigi",
+"k": "words"
+},
+{
+"f": "お金 (おかね)",
+"b": "money",
+"s": "japanese-vocabulary",
+"g": "Work and school",
+"alt": "okane",
+"h": "romaji: okane",
+"k": "words"
+},
+{
+"f": "パソコン",
+"b": "computer (PC)",
+"s": "japanese-vocabulary",
+"g": "Work and school",
+"alt": "pasokon",
+"h": "romaji: pasokon",
+"k": "words"
+},
+{
+"f": "質問 (しつもん)",
+"b": "question",
+"s": "japanese-vocabulary",
+"g": "Work and school",
+"alt": "shitsumon",
+"h": "romaji: shitsumon",
+"k": "words"
+},
+{
+"f": "答え (こたえ)",
+"b": "answer",
+"s": "japanese-vocabulary",
+"g": "Work and school",
+"alt": "kotae",
+"h": "romaji: kotae",
+"k": "words"
+},
+{
+"f": "言葉 (ことば)",
+"b": "word; language",
+"s": "japanese-vocabulary",
+"g": "Work and school",
+"alt": "kotoba",
+"h": "romaji: kotoba",
+"k": "words"
+},
+{
+"f": "日本語 (にほんご)",
+"b": "Japanese (language)",
+"s": "japanese-vocabulary",
+"g": "Work and school",
+"alt": "nihongo",
+"h": "romaji: nihongo",
+"k": "words"
+},
+{
+"f": "英語 (えいご)",
+"b": "English (language)",
+"s": "japanese-vocabulary",
+"g": "Work and school",
+"alt": "eigo",
+"h": "romaji: eigo",
+"k": "words"
+},
+{
+"f": "授業 (じゅぎょう)",
+"b": "class, lesson",
+"s": "japanese-vocabulary",
+"g": "Work and school",
+"alt": "jugyō",
+"h": "romaji: jugyō",
+"k": "words"
+},
+{
+"f": "宿題 (しゅくだい)",
+"b": "homework",
+"s": "japanese-vocabulary",
+"g": "Work and school",
+"alt": "shukudai",
+"h": "romaji: shukudai",
+"k": "words"
+},
+{
+"f": "体 (からだ)",
+"b": "body",
+"s": "japanese-vocabulary",
+"g": "Body and health",
+"alt": "karada",
+"h": "romaji: karada",
+"k": "words"
+},
+{
+"f": "頭 (あたま)",
+"b": "head",
+"s": "japanese-vocabulary",
+"g": "Body and health",
+"alt": "atama",
+"h": "romaji: atama",
+"k": "words"
+},
+{
+"f": "手 (て)",
+"b": "hand",
+"s": "japanese-vocabulary",
+"g": "Body and health",
+"alt": "te",
+"h": "romaji: te",
+"k": "words"
+},
+{
+"f": "足 (あし)",
+"b": "foot, leg",
+"s": "japanese-vocabulary",
+"g": "Body and health",
+"alt": "ashi",
+"h": "romaji: ashi",
+"k": "words"
+},
+{
+"f": "目 (め)",
+"b": "eye",
+"s": "japanese-vocabulary",
+"g": "Body and health",
+"alt": "me",
+"h": "romaji: me",
+"k": "words"
+},
+{
+"f": "口 (くち)",
+"b": "mouth",
+"s": "japanese-vocabulary",
+"g": "Body and health",
+"alt": "kuchi",
+"h": "romaji: kuchi",
+"k": "words"
+},
+{
+"f": "耳 (みみ)",
+"b": "ear",
+"s": "japanese-vocabulary",
+"g": "Body and health",
+"alt": "mimi",
+"h": "romaji: mimi",
+"k": "words"
+},
+{
+"f": "医者 (いしゃ)",
+"b": "doctor",
+"s": "japanese-vocabulary",
+"g": "Body and health",
+"alt": "isha",
+"h": "romaji: isha",
+"k": "words"
+},
+{
+"f": "病気 (びょうき)",
+"b": "illness; ill",
+"s": "japanese-vocabulary",
+"g": "Body and health",
+"alt": "byōki",
+"h": "romaji: byōki",
+"k": "words"
+},
+{
+"f": "薬 (くすり)",
+"b": "medicine",
+"s": "japanese-vocabulary",
+"g": "Body and health",
+"alt": "kusuri",
+"h": "romaji: kusuri",
+"k": "words"
+},
+{
+"f": "痛い (いたい)",
+"b": "painful, it hurts",
+"s": "japanese-vocabulary",
+"g": "Body and health",
+"alt": "itai",
+"h": "romaji: itai",
+"k": "words"
+},
+{
+"f": "太陽 (たいよう)",
+"b": "sun",
+"s": "japanese-vocabulary",
+"g": "Nature and weather",
+"alt": "taiyō",
+"h": "romaji: taiyō",
+"k": "words"
+},
+{
+"f": "空 (そら)",
+"b": "sky",
+"s": "japanese-vocabulary",
+"g": "Nature and weather",
+"alt": "sora",
+"h": "romaji: sora",
+"k": "words"
+},
+{
+"f": "雨 (あめ)",
+"b": "rain",
+"s": "japanese-vocabulary",
+"g": "Nature and weather",
+"alt": "ame",
+"h": "romaji: ame",
+"k": "words"
+},
+{
+"f": "雪 (ゆき)",
+"b": "snow",
+"s": "japanese-vocabulary",
+"g": "Nature and weather",
+"alt": "yuki",
+"h": "romaji: yuki",
+"k": "words"
+},
+{
+"f": "風 (かぜ)",
+"b": "wind",
+"s": "japanese-vocabulary",
+"g": "Nature and weather",
+"alt": "kaze",
+"h": "romaji: kaze",
+"k": "words"
+},
+{
+"f": "天気 (てんき)",
+"b": "weather",
+"s": "japanese-vocabulary",
+"g": "Nature and weather",
+"alt": "tenki",
+"h": "romaji: tenki",
+"k": "words"
+},
+{
+"f": "木 (き)",
+"b": "tree",
+"s": "japanese-vocabulary",
+"g": "Nature and weather",
+"alt": "ki",
+"h": "romaji: ki",
+"k": "words"
+},
+{
+"f": "花 (はな)",
+"b": "flower",
+"s": "japanese-vocabulary",
+"g": "Nature and weather",
+"alt": "hana",
+"h": "romaji: hana",
+"k": "words"
+},
+{
+"f": "犬 (いぬ)",
+"b": "dog",
+"s": "japanese-vocabulary",
+"g": "Nature and weather",
+"alt": "inu",
+"h": "romaji: inu",
+"k": "words"
+},
+{
+"f": "猫 (ねこ)",
+"b": "cat",
+"s": "japanese-vocabulary",
+"g": "Nature and weather",
+"alt": "neko",
+"h": "romaji: neko",
+"k": "words"
+},
+{
+"f": "鳥 (とり)",
+"b": "bird",
+"s": "japanese-vocabulary",
+"g": "Nature and weather",
+"alt": "tori",
+"h": "romaji: tori",
+"k": "words"
+},
+{
+"f": "です",
+"b": "to be (polite copula)",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "desu",
+"h": "romaji: desu",
+"k": "words"
+},
+{
+"f": "ある",
+"b": "to exist (things)",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "aru",
+"h": "romaji: aru",
+"k": "words"
+},
+{
+"f": "いる",
+"b": "to exist (people, animals)",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "iru",
+"h": "romaji: iru",
+"k": "words"
+},
+{
+"f": "する",
+"b": "to do",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "suru",
+"h": "romaji: suru",
+"k": "words"
+},
+{
+"f": "行く (いく)",
+"b": "to go",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "iku",
+"h": "romaji: iku",
+"k": "words"
+},
+{
+"f": "来る (くる)",
+"b": "to come",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "kuru",
+"h": "romaji: kuru",
+"k": "words"
+},
+{
+"f": "帰る (かえる)",
+"b": "to return home",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "kaeru",
+"h": "romaji: kaeru",
+"k": "words"
+},
+{
+"f": "食べる (たべる)",
+"b": "to eat",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "taberu",
+"h": "romaji: taberu",
+"k": "words"
+},
+{
+"f": "飲む (のむ)",
+"b": "to drink",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "nomu",
+"h": "romaji: nomu",
+"k": "words"
+},
+{
+"f": "見る (みる)",
+"b": "to see, to watch",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "miru",
+"h": "romaji: miru",
+"k": "words"
+},
+{
+"f": "聞く (きく)",
+"b": "to hear, to listen; to ask",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "kiku",
+"h": "romaji: kiku",
+"k": "words"
+},
+{
+"f": "話す (はなす)",
+"b": "to speak",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "hanasu",
+"h": "romaji: hanasu",
+"k": "words"
+},
+{
+"f": "言う (いう)",
+"b": "to say",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "iu",
+"h": "romaji: iu",
+"k": "words"
+},
+{
+"f": "読む (よむ)",
+"b": "to read",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "yomu",
+"h": "romaji: yomu",
+"k": "words"
+},
+{
+"f": "書く (かく)",
+"b": "to write",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "kaku",
+"h": "romaji: kaku",
+"k": "words"
+},
+{
+"f": "分かる (わかる)",
+"b": "to understand",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "wakaru",
+"h": "romaji: wakaru",
+"k": "words"
+},
+{
+"f": "知る (しる)",
+"b": "to know",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "shiru",
+"h": "romaji: shiru · note: usually 知っている shitte iru",
+"k": "words"
+},
+{
+"f": "思う (おもう)",
+"b": "to think",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "omou",
+"h": "romaji: omou",
+"k": "words"
+},
+{
+"f": "買う (かう)",
+"b": "to buy",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "kau",
+"h": "romaji: kau",
+"k": "words"
+},
+{
+"f": "売る (うる)",
+"b": "to sell",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "uru",
+"h": "romaji: uru",
+"k": "words"
+},
+{
+"f": "払う (はらう)",
+"b": "to pay",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "harau",
+"h": "romaji: harau",
+"k": "words"
+},
+{
+"f": "待つ (まつ)",
+"b": "to wait",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "matsu",
+"h": "romaji: matsu",
+"k": "words"
+},
+{
+"f": "会う (あう)",
+"b": "to meet",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "au",
+"h": "romaji: au",
+"k": "words"
+},
+{
+"f": "住む (すむ)",
+"b": "to live (reside)",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "sumu",
+"h": "romaji: sumu",
+"k": "words"
+},
+{
+"f": "働く (はたらく)",
+"b": "to work",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "hataraku",
+"h": "romaji: hataraku",
+"k": "words"
+},
+{
+"f": "勉強する (べんきょうする)",
+"b": "to study",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "benkyō suru",
+"h": "romaji: benkyō suru",
+"k": "words"
+},
+{
+"f": "習う (ならう)",
+"b": "to learn (from someone)",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "narau",
+"h": "romaji: narau",
+"k": "words"
+},
+{
+"f": "教える (おしえる)",
+"b": "to teach; to tell",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "oshieru",
+"h": "romaji: oshieru",
+"k": "words"
+},
+{
+"f": "寝る (ねる)",
+"b": "to sleep, to go to bed",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "neru",
+"h": "romaji: neru",
+"k": "words"
+},
+{
+"f": "起きる (おきる)",
+"b": "to get up",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "okiru",
+"h": "romaji: okiru",
+"k": "words"
+},
+{
+"f": "開ける (あける)",
+"b": "to open",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "akeru",
+"h": "romaji: akeru",
+"k": "words"
+},
+{
+"f": "閉める (しめる)",
+"b": "to close",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "shimeru",
+"h": "romaji: shimeru",
+"k": "words"
+},
+{
+"f": "始める (はじめる)",
+"b": "to begin",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "hajimeru",
+"h": "romaji: hajimeru",
+"k": "words"
+},
+{
+"f": "終わる (おわる)",
+"b": "to end",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "owaru",
+"h": "romaji: owaru",
+"k": "words"
+},
+{
+"f": "使う (つかう)",
+"b": "to use",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "tsukau",
+"h": "romaji: tsukau",
+"k": "words"
+},
+{
+"f": "作る (つくる)",
+"b": "to make",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "tsukuru",
+"h": "romaji: tsukuru",
+"k": "words"
+},
+{
+"f": "持つ (もつ)",
+"b": "to hold, to have",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "motsu",
+"h": "romaji: motsu",
+"k": "words"
+},
+{
+"f": "あげる",
+"b": "to give",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "ageru",
+"h": "romaji: ageru",
+"k": "words"
+},
+{
+"f": "もらう",
+"b": "to receive",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "morau",
+"h": "romaji: morau",
+"k": "words"
+},
+{
+"f": "手伝う (てつだう)",
+"b": "to help",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "tetsudau",
+"h": "romaji: tetsudau",
+"k": "words"
+},
+{
+"f": "遊ぶ (あそぶ)",
+"b": "to play",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "asobu",
+"h": "romaji: asobu",
+"k": "words"
+},
+{
+"f": "歩く (あるく)",
+"b": "to walk",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "aruku",
+"h": "romaji: aruku",
+"k": "words"
+},
+{
+"f": "走る (はしる)",
+"b": "to run",
+"s": "japanese-vocabulary",
+"g": "Verbs",
+"alt": "hashiru",
+"h": "romaji: hashiru",
+"k": "words"
+},
+{
+"f": "大きい (おおきい)",
+"b": "big",
+"s": "japanese-vocabulary",
+"g": "Adjectives",
+"alt": "ōkii",
+"h": "romaji: ōkii",
+"k": "words"
+},
+{
+"f": "小さい (ちいさい)",
+"b": "small",
+"s": "japanese-vocabulary",
+"g": "Adjectives",
+"alt": "chiisai",
+"h": "romaji: chiisai",
+"k": "words"
+},
+{
+"f": "良い (いい / よい)",
+"b": "good",
+"s": "japanese-vocabulary",
+"g": "Adjectives",
+"alt": "ii / yoi",
+"h": "romaji: ii / yoi",
+"k": "words"
+},
+{
+"f": "悪い (わるい)",
+"b": "bad",
+"s": "japanese-vocabulary",
+"g": "Adjectives",
+"alt": "warui",
+"h": "romaji: warui",
+"k": "words"
+},
+{
+"f": "新しい (あたらしい)",
+"b": "new",
+"s": "japanese-vocabulary",
+"g": "Adjectives",
+"alt": "atarashii",
+"h": "romaji: atarashii",
+"k": "words"
+},
+{
+"f": "古い (ふるい)",
+"b": "old (things)",
+"s": "japanese-vocabulary",
+"g": "Adjectives",
+"alt": "furui",
+"h": "romaji: furui",
+"k": "words"
+},
+{
+"f": "若い (わかい)",
+"b": "young",
+"s": "japanese-vocabulary",
+"g": "Adjectives",
+"alt": "wakai",
+"h": "romaji: wakai",
+"k": "words"
+},
+{
+"f": "長い (ながい)",
+"b": "long",
+"s": "japanese-vocabulary",
+"g": "Adjectives",
+"alt": "nagai",
+"h": "romaji: nagai",
+"k": "words"
+},
+{
+"f": "短い (みじかい)",
+"b": "short",
+"s": "japanese-vocabulary",
+"g": "Adjectives",
+"alt": "mijikai",
+"h": "romaji: mijikai",
+"k": "words"
+},
+{
+"f": "高い (たかい)",
+"b": "tall, high; expensive",
+"s": "japanese-vocabulary",
+"g": "Adjectives",
+"alt": "takai",
+"h": "romaji: takai",
+"k": "words"
+},
+{
+"f": "安い (やすい)",
+"b": "cheap",
+"s": "japanese-vocabulary",
+"g": "Adjectives",
+"alt": "yasui",
+"h": "romaji: yasui",
+"k": "words"
+},
+{
+"f": "易しい (やさしい)",
+"b": "easy",
+"s": "japanese-vocabulary",
+"g": "Adjectives",
+"alt": "yasashii",
+"h": "romaji: yasashii",
+"k": "words"
+},
+{
+"f": "難しい (むずかしい)",
+"b": "difficult",
+"s": "japanese-vocabulary",
+"g": "Adjectives",
+"alt": "muzukashii",
+"h": "romaji: muzukashii",
+"k": "words"
+},
+{
+"f": "速い (はやい)",
+"b": "fast",
+"s": "japanese-vocabulary",
+"g": "Adjectives",
+"alt": "hayai",
+"h": "romaji: hayai · note: 早い = early",
+"k": "words"
+},
+{
+"f": "遅い (おそい)",
+"b": "slow; late",
+"s": "japanese-vocabulary",
+"g": "Adjectives",
+"alt": "osoi",
+"h": "romaji: osoi",
+"k": "words"
+},
+{
+"f": "きれい",
+"b": "pretty; clean",
+"s": "japanese-vocabulary",
+"g": "Adjectives",
+"alt": "kirei",
+"h": "romaji: kirei · note: na-adjective despite the -i",
+"k": "words"
+},
+{
+"f": "楽しい (たのしい)",
+"b": "fun, enjoyable",
+"s": "japanese-vocabulary",
+"g": "Adjectives",
+"alt": "tanoshii",
+"h": "romaji: tanoshii",
+"k": "words"
+},
+{
+"f": "嬉しい (うれしい)",
+"b": "glad, happy",
+"s": "japanese-vocabulary",
+"g": "Adjectives",
+"alt": "ureshii",
+"h": "romaji: ureshii",
+"k": "words"
+},
+{
+"f": "悲しい (かなしい)",
+"b": "sad",
+"s": "japanese-vocabulary",
+"g": "Adjectives",
+"alt": "kanashii",
+"h": "romaji: kanashii",
+"k": "words"
+},
+{
+"f": "暑い (あつい)",
+"b": "hot (weather)",
+"s": "japanese-vocabulary",
+"g": "Adjectives",
+"alt": "atsui",
+"h": "romaji: atsui",
+"k": "words"
+},
+{
+"f": "熱い (あつい)",
+"b": "hot (to touch)",
+"s": "japanese-vocabulary",
+"g": "Adjectives",
+"alt": "atsui",
+"h": "romaji: atsui",
+"k": "words"
+},
+{
+"f": "寒い (さむい)",
+"b": "cold (weather)",
+"s": "japanese-vocabulary",
+"g": "Adjectives",
+"alt": "samui",
+"h": "romaji: samui",
+"k": "words"
+},
+{
+"f": "冷たい (つめたい)",
+"b": "cold (to touch)",
+"s": "japanese-vocabulary",
+"g": "Adjectives",
+"alt": "tsumetai",
+"h": "romaji: tsumetai",
+"k": "words"
+},
+{
+"f": "忙しい (いそがしい)",
+"b": "busy",
+"s": "japanese-vocabulary",
+"g": "Adjectives",
+"alt": "isogashii",
+"h": "romaji: isogashii",
+"k": "words"
+},
+{
+"f": "元気 (げんき)",
+"b": "healthy, energetic",
+"s": "japanese-vocabulary",
+"g": "Adjectives",
+"alt": "genki",
+"h": "romaji: genki · note: na-adjective",
+"k": "words"
+},
+{
+"f": "静か (しずか)",
+"b": "quiet",
+"s": "japanese-vocabulary",
+"g": "Adjectives",
+"alt": "shizuka",
+"h": "romaji: shizuka · note: na-adjective",
+"k": "words"
+},
+{
+"f": "有名 (ゆうめい)",
+"b": "famous",
+"s": "japanese-vocabulary",
+"g": "Adjectives",
+"alt": "yūmei",
+"h": "romaji: yūmei · note: na-adjective",
+"k": "words"
+},
+{
+"f": "好き (すき)",
+"b": "liked",
+"s": "japanese-vocabulary",
+"g": "Adjectives",
+"alt": "suki",
+"h": "romaji: suki · note: na-adjective: 〜が好き = I like 〜",
+"k": "words"
+},
+{
+"f": "嫌い (きらい)",
+"b": "disliked",
+"s": "japanese-vocabulary",
+"g": "Adjectives",
+"alt": "kirai",
+"h": "romaji: kirai · note: na-adjective",
+"k": "words"
+},
+{
+"f": "同じ (おなじ)",
+"b": "same",
+"s": "japanese-vocabulary",
+"g": "Adjectives",
+"alt": "onaji",
+"h": "romaji: onaji",
+"k": "words"
+},
+{
+"f": "何 (なに / なん)",
+"b": "what",
+"s": "japanese-vocabulary",
+"g": "Question and little words",
+"alt": "nani / nan",
+"h": "romaji: nani / nan",
+"k": "words"
+},
+{
+"f": "誰 (だれ)",
+"b": "who",
+"s": "japanese-vocabulary",
+"g": "Question and little words",
+"alt": "dare",
+"h": "romaji: dare",
+"k": "words"
+},
+{
+"f": "どこ",
+"b": "where",
+"s": "japanese-vocabulary",
+"g": "Question and little words",
+"alt": "doko",
+"h": "romaji: doko",
+"k": "words"
+},
+{
+"f": "いつ",
+"b": "when",
+"s": "japanese-vocabulary",
+"g": "Question and little words",
+"alt": "itsu",
+"h": "romaji: itsu",
+"k": "words"
+},
+{
+"f": "どう",
+"b": "how",
+"s": "japanese-vocabulary",
+"g": "Question and little words",
+"alt": "dō",
+"h": "romaji: dō",
+"k": "words"
+},
+{
+"f": "なぜ / どうして",
+"b": "why",
+"s": "japanese-vocabulary",
+"g": "Question and little words",
+"alt": "naze / dōshite",
+"h": "romaji: naze / dōshite",
+"k": "words"
+},
+{
+"f": "いくら",
+"b": "how much (price)",
+"s": "japanese-vocabulary",
+"g": "Question and little words",
+"alt": "ikura",
+"h": "romaji: ikura",
+"k": "words"
+},
+{
+"f": "いくつ",
+"b": "how many; how old",
+"s": "japanese-vocabulary",
+"g": "Question and little words",
+"alt": "ikutsu",
+"h": "romaji: ikutsu",
+"k": "words"
+},
+{
+"f": "どれ",
+"b": "which one",
+"s": "japanese-vocabulary",
+"g": "Question and little words",
+"alt": "dore",
+"h": "romaji: dore",
+"k": "words"
+},
+{
+"f": "これ",
+"b": "this (thing)",
+"s": "japanese-vocabulary",
+"g": "Question and little words",
+"alt": "kore",
+"h": "romaji: kore",
+"k": "words"
+},
+{
+"f": "それ",
+"b": "that (near you)",
+"s": "japanese-vocabulary",
+"g": "Question and little words",
+"alt": "sore",
+"h": "romaji: sore",
+"k": "words"
+},
+{
+"f": "あれ",
+"b": "that (over there)",
+"s": "japanese-vocabulary",
+"g": "Question and little words",
+"alt": "are",
+"h": "romaji: are",
+"k": "words"
+},
+{
+"f": "でも",
+"b": "but",
+"s": "japanese-vocabulary",
+"g": "Question and little words",
+"alt": "demo",
+"h": "romaji: demo",
+"k": "words"
+},
+{
+"f": "そして",
+"b": "and then",
+"s": "japanese-vocabulary",
+"g": "Question and little words",
+"alt": "soshite",
+"h": "romaji: soshite",
+"k": "words"
+},
+{
+"f": "とても",
+"b": "very",
+"s": "japanese-vocabulary",
+"g": "Question and little words",
+"alt": "totemo",
+"h": "romaji: totemo",
+"k": "words"
+},
+{
+"f": "少し (すこし)",
+"b": "a little",
+"s": "japanese-vocabulary",
+"g": "Question and little words",
+"alt": "sukoshi",
+"h": "romaji: sukoshi",
+"k": "words"
+},
+{
+"f": "たくさん",
+"b": "a lot",
+"s": "japanese-vocabulary",
+"g": "Question and little words",
+"alt": "takusan",
+"h": "romaji: takusan",
+"k": "words"
+},
+{
+"f": "もっと",
+"b": "more",
+"s": "japanese-vocabulary",
+"g": "Question and little words",
+"alt": "motto",
+"h": "romaji: motto",
+"k": "words"
+},
+{
+"f": "一緒に (いっしょに)",
+"b": "together",
+"s": "japanese-vocabulary",
+"g": "Question and little words",
+"alt": "issho ni",
+"h": "romaji: issho ni",
+"k": "words"
+},
+{
+"f": "おはようございます",
+"b": "Good morning. (polite)",
+"s": "japanese-phrases",
+"g": "Greetings and politeness",
+"alt": "ohayō gozaimasu",
+"h": "romaji: ohayō gozaimasu",
+"k": "phrases"
+},
+{
+"f": "おやすみなさい",
+"b": "Good night.",
+"s": "japanese-phrases",
+"g": "Greetings and politeness",
+"alt": "oyasumi nasai",
+"h": "romaji: oyasumi nasai",
+"k": "phrases"
+},
+{
+"f": "お元気ですか",
+"b": "How are you?",
+"s": "japanese-phrases",
+"g": "Greetings and politeness",
+"alt": "o-genki desu ka",
+"h": "romaji: o-genki desu ka",
+"k": "phrases"
+},
+{
+"f": "元気です",
+"b": "I'm fine.",
+"s": "japanese-phrases",
+"g": "Greetings and politeness",
+"alt": "genki desu",
+"h": "romaji: genki desu",
+"k": "phrases"
+},
+{
+"f": "はじめまして",
+"b": "Nice to meet you.",
+"s": "japanese-phrases",
+"g": "Greetings and politeness",
+"alt": "hajimemashite",
+"h": "romaji: hajimemashite · note: first meeting",
+"k": "phrases"
+},
+{
+"f": "よろしくお願いします",
+"b": "Pleased to meet you; I'm in your care.",
+"s": "japanese-phrases",
+"g": "Greetings and politeness",
+"alt": "yoroshiku onegaishimasu",
+"h": "romaji: yoroshiku onegaishimasu",
+"k": "phrases"
+},
+{
+"f": "ありがとうございます",
+"b": "Thank you very much. (polite)",
+"s": "japanese-phrases",
+"g": "Greetings and politeness",
+"alt": "arigatō gozaimasu",
+"h": "romaji: arigatō gozaimasu",
+"k": "phrases"
+},
+{
+"f": "どういたしまして",
+"b": "You're welcome.",
+"s": "japanese-phrases",
+"g": "Greetings and politeness",
+"alt": "dō itashimashite",
+"h": "romaji: dō itashimashite",
+"k": "phrases"
+},
+{
+"f": "いいえ、大丈夫です",
+"b": "No, it's fine.",
+"s": "japanese-phrases",
+"g": "Greetings and politeness",
+"alt": "iie, daijōbu desu",
+"h": "romaji: iie, daijōbu desu",
+"k": "phrases"
+},
+{
+"f": "お願いします",
+"b": "Please.",
+"s": "japanese-phrases",
+"g": "Greetings and politeness",
+"alt": "onegaishimasu",
+"h": "romaji: onegaishimasu · note: when requesting",
+"k": "phrases"
+},
+{
+"f": "いらっしゃいませ",
+"b": "Welcome (in a shop).",
+"s": "japanese-phrases",
+"g": "Greetings and politeness",
+"alt": "irasshaimase",
+"h": "romaji: irasshaimase",
+"k": "phrases"
+},
+{
+"f": "いただきます",
+"b": "(said before eating)",
+"s": "japanese-phrases",
+"g": "Greetings and politeness",
+"alt": "itadakimasu",
+"h": "romaji: itadakimasu",
+"k": "phrases"
+},
+{
+"f": "ごちそうさまでした",
+"b": "Thank you for the meal. (after eating)",
+"s": "japanese-phrases",
+"g": "Greetings and politeness",
+"alt": "gochisōsama deshita",
+"h": "romaji: gochisōsama deshita",
+"k": "phrases"
+},
+{
+"f": "いってきます",
+"b": "I'm off. (leaving home)",
+"s": "japanese-phrases",
+"g": "Greetings and politeness",
+"alt": "ittekimasu",
+"h": "romaji: ittekimasu",
+"k": "phrases"
+},
+{
+"f": "いってらっしゃい",
+"b": "See you later. (to someone leaving)",
+"s": "japanese-phrases",
+"g": "Greetings and politeness",
+"alt": "itterasshai",
+"h": "romaji: itterasshai",
+"k": "phrases"
+},
+{
+"f": "ただいま",
+"b": "I'm home.",
+"s": "japanese-phrases",
+"g": "Greetings and politeness",
+"alt": "tadaima",
+"h": "romaji: tadaima",
+"k": "phrases"
+},
+{
+"f": "おかえりなさい",
+"b": "Welcome home.",
+"s": "japanese-phrases",
+"g": "Greetings and politeness",
+"alt": "okaeri nasai",
+"h": "romaji: okaeri nasai",
+"k": "phrases"
+},
+{
+"f": "お疲れ様です",
+"b": "Thanks for your hard work.",
+"s": "japanese-phrases",
+"g": "Greetings and politeness",
+"alt": "otsukaresama desu",
+"h": "romaji: otsukaresama desu",
+"k": "phrases"
+},
+{
+"f": "じゃあね",
+"b": "See you. (casual)",
+"s": "japanese-phrases",
+"g": "Greetings and politeness",
+"alt": "jā ne",
+"h": "romaji: jā ne",
+"k": "phrases"
+},
+{
+"f": "またね",
+"b": "See you again.",
+"s": "japanese-phrases",
+"g": "Greetings and politeness",
+"alt": "mata ne",
+"h": "romaji: mata ne",
+"k": "phrases"
+},
+{
+"f": "また明日",
+"b": "See you tomorrow.",
+"s": "japanese-phrases",
+"g": "Greetings and politeness",
+"alt": "mata ashita",
+"h": "romaji: mata ashita",
+"k": "phrases"
+},
+{
+"f": "気をつけて",
+"b": "Take care.",
+"s": "japanese-phrases",
+"g": "Greetings and politeness",
+"alt": "ki o tsukete",
+"h": "romaji: ki o tsukete",
+"k": "phrases"
+},
+{
+"f": "お名前は何ですか",
+"b": "What's your name?",
+"s": "japanese-phrases",
+"g": "Getting to know someone",
+"alt": "o-namae wa nan desu ka",
+"h": "romaji: o-namae wa nan desu ka",
+"k": "phrases"
+},
+{
+"f": "私は〜です",
+"b": "I am ~.",
+"s": "japanese-phrases",
+"g": "Getting to know someone",
+"alt": "watashi wa ~ desu",
+"h": "romaji: watashi wa ~ desu",
+"k": "phrases"
+},
+{
+"f": "〜と申します",
+"b": "My name is ~. (humble)",
+"s": "japanese-phrases",
+"g": "Getting to know someone",
+"alt": "~ to mōshimasu",
+"h": "romaji: ~ to mōshimasu",
+"k": "phrases"
+},
+{
+"f": "どちらから来ましたか",
+"b": "Where are you from?",
+"s": "japanese-phrases",
+"g": "Getting to know someone",
+"alt": "dochira kara kimashita ka",
+"h": "romaji: dochira kara kimashita ka",
+"k": "phrases"
+},
+{
+"f": "〜から来ました",
+"b": "I came from ~.",
+"s": "japanese-phrases",
+"g": "Getting to know someone",
+"alt": "~ kara kimashita",
+"h": "romaji: ~ kara kimashita",
+"k": "phrases"
+},
+{
+"f": "ドバイに住んでいます",
+"b": "I live in Dubai.",
+"s": "japanese-phrases",
+"g": "Getting to know someone",
+"alt": "Dobai ni sunde imasu",
+"h": "romaji: Dobai ni sunde imasu",
+"k": "phrases"
+},
+{
+"f": "お仕事は何ですか",
+"b": "What's your job?",
+"s": "japanese-phrases",
+"g": "Getting to know someone",
+"alt": "o-shigoto wa nan desu ka",
+"h": "romaji: o-shigoto wa nan desu ka",
+"k": "phrases"
+},
+{
+"f": "英語を話せますか",
+"b": "Can you speak English?",
+"s": "japanese-phrases",
+"g": "Getting to know someone",
+"alt": "eigo o hanasemasu ka",
+"h": "romaji: eigo o hanasemasu ka",
+"k": "phrases"
+},
+{
+"f": "日本語を少し話します",
+"b": "I speak a little Japanese.",
+"s": "japanese-phrases",
+"g": "Getting to know someone",
+"alt": "nihongo o sukoshi hanashimasu",
+"h": "romaji: nihongo o sukoshi hanashimasu",
+"k": "phrases"
+},
+{
+"f": "日本語を勉強しています",
+"b": "I'm studying Japanese.",
+"s": "japanese-phrases",
+"g": "Getting to know someone",
+"alt": "nihongo o benkyō shite imasu",
+"h": "romaji: nihongo o benkyō shite imasu",
+"k": "phrases"
+},
+{
+"f": "分かりません",
+"b": "I don't understand.",
+"s": "japanese-phrases",
+"g": "Understanding",
+"alt": "wakarimasen",
+"h": "romaji: wakarimasen",
+"k": "phrases"
+},
+{
+"f": "分かりました",
+"b": "I understand; understood.",
+"s": "japanese-phrases",
+"g": "Understanding",
+"alt": "wakarimashita",
+"h": "romaji: wakarimashita",
+"k": "phrases"
+},
+{
+"f": "もう一度お願いします",
+"b": "Once more, please.",
+"s": "japanese-phrases",
+"g": "Understanding",
+"alt": "mō ichido onegaishimasu",
+"h": "romaji: mō ichido onegaishimasu",
+"k": "phrases"
+},
+{
+"f": "ゆっくり話してください",
+"b": "Please speak slowly.",
+"s": "japanese-phrases",
+"g": "Understanding",
+"alt": "yukkuri hanashite kudasai",
+"h": "romaji: yukkuri hanashite kudasai",
+"k": "phrases"
+},
+{
+"f": "〜はどういう意味ですか",
+"b": "What does ~ mean?",
+"s": "japanese-phrases",
+"g": "Understanding",
+"alt": "~ wa dō iu imi desu ka",
+"h": "romaji: ~ wa dō iu imi desu ka",
+"k": "phrases"
+},
+{
+"f": "〜は日本語で何と言いますか",
+"b": "How do you say ~ in Japanese?",
+"s": "japanese-phrases",
+"g": "Understanding",
+"alt": "~ wa nihongo de nan to iimasu ka",
+"h": "romaji: ~ wa nihongo de nan to iimasu ka",
+"k": "phrases"
+},
+{
+"f": "知りません",
+"b": "I don't know.",
+"s": "japanese-phrases",
+"g": "Understanding",
+"alt": "shirimasen",
+"h": "romaji: shirimasen",
+"k": "phrases"
+},
+{
+"f": "そうですね",
+"b": "That's right; let me see.",
+"s": "japanese-phrases",
+"g": "Understanding",
+"alt": "sō desu ne",
+"h": "romaji: sō desu ne",
+"k": "phrases"
+},
+{
+"f": "そうですか",
+"b": "Is that so? I see.",
+"s": "japanese-phrases",
+"g": "Understanding",
+"alt": "sō desu ka",
+"h": "romaji: sō desu ka",
+"k": "phrases"
+},
+{
+"f": "本当ですか",
+"b": "Really?",
+"s": "japanese-phrases",
+"g": "Understanding",
+"alt": "hontō desu ka",
+"h": "romaji: hontō desu ka",
+"k": "phrases"
+},
+{
+"f": "もちろん",
+"b": "Of course.",
+"s": "japanese-phrases",
+"g": "Understanding",
+"alt": "mochiron",
+"h": "romaji: mochiron",
+"k": "phrases"
+},
+{
+"f": "大丈夫です",
+"b": "It's OK; I'm fine.",
+"s": "japanese-phrases",
+"g": "Understanding",
+"alt": "daijōbu desu",
+"h": "romaji: daijōbu desu",
+"k": "phrases"
+},
+{
+"f": "すごい",
+"b": "Amazing!",
+"s": "japanese-phrases",
+"g": "Understanding",
+"alt": "sugoi",
+"h": "romaji: sugoi",
+"k": "phrases"
+},
+{
+"f": "残念です",
+"b": "That's a pity.",
+"s": "japanese-phrases",
+"g": "Understanding",
+"alt": "zannen desu",
+"h": "romaji: zannen desu",
+"k": "phrases"
+},
+{
+"f": "トイレはどこですか",
+"b": "Where is the toilet?",
+"s": "japanese-phrases",
+"g": "Getting around",
+"alt": "toire wa doko desu ka",
+"h": "romaji: toire wa doko desu ka",
+"k": "phrases"
+},
+{
+"f": "駅はどこですか",
+"b": "Where is the station?",
+"s": "japanese-phrases",
+"g": "Getting around",
+"alt": "eki wa doko desu ka",
+"h": "romaji: eki wa doko desu ka",
+"k": "phrases"
+},
+{
+"f": "〜までどうやって行きますか",
+"b": "How do I get to ~?",
+"s": "japanese-phrases",
+"g": "Getting around",
+"alt": "~ made dō yatte ikimasu ka",
+"h": "romaji: ~ made dō yatte ikimasu ka",
+"k": "phrases"
+},
+{
+"f": "遠いですか",
+"b": "Is it far?",
+"s": "japanese-phrases",
+"g": "Getting around",
+"alt": "tōi desu ka",
+"h": "romaji: tōi desu ka",
+"k": "phrases"
+},
+{
+"f": "近いです",
+"b": "It's near.",
+"s": "japanese-phrases",
+"g": "Getting around",
+"alt": "chikai desu",
+"h": "romaji: chikai desu",
+"k": "phrases"
+},
+{
+"f": "まっすぐ行ってください",
+"b": "Please go straight.",
+"s": "japanese-phrases",
+"g": "Getting around",
+"alt": "massugu itte kudasai",
+"h": "romaji: massugu itte kudasai",
+"k": "phrases"
+},
+{
+"f": "右に曲がってください",
+"b": "Please turn right.",
+"s": "japanese-phrases",
+"g": "Getting around",
+"alt": "migi ni magatte kudasai",
+"h": "romaji: migi ni magatte kudasai",
+"k": "phrases"
+},
+{
+"f": "左に曲がってください",
+"b": "Please turn left.",
+"s": "japanese-phrases",
+"g": "Getting around",
+"alt": "hidari ni magatte kudasai",
+"h": "romaji: hidari ni magatte kudasai",
+"k": "phrases"
+},
+{
+"f": "今何時ですか",
+"b": "What time is it now?",
+"s": "japanese-phrases",
+"g": "Getting around",
+"alt": "ima nan-ji desu ka",
+"h": "romaji: ima nan-ji desu ka",
+"k": "phrases"
+},
+{
+"f": "三時です",
+"b": "It's three o'clock.",
+"s": "japanese-phrases",
+"g": "Getting around",
+"alt": "san-ji desu",
+"h": "romaji: san-ji desu",
+"k": "phrases"
+},
+{
+"f": "道に迷いました",
+"b": "I'm lost.",
+"s": "japanese-phrases",
+"g": "Getting around",
+"alt": "michi ni mayoimashita",
+"h": "romaji: michi ni mayoimashita",
+"k": "phrases"
+},
+{
+"f": "いくらですか",
+"b": "How much is it?",
+"s": "japanese-phrases",
+"g": "Shopping and eating",
+"alt": "ikura desu ka",
+"h": "romaji: ikura desu ka",
+"k": "phrases"
+},
+{
+"f": "高すぎます",
+"b": "It's too expensive.",
+"s": "japanese-phrases",
+"g": "Shopping and eating",
+"alt": "takasugimasu",
+"h": "romaji: takasugimasu",
+"k": "phrases"
+},
+{
+"f": "見ているだけです",
+"b": "I'm just looking.",
+"s": "japanese-phrases",
+"g": "Shopping and eating",
+"alt": "mite iru dake desu",
+"h": "romaji: mite iru dake desu",
+"k": "phrases"
+},
+{
+"f": "これをください",
+"b": "This one, please.",
+"s": "japanese-phrases",
+"g": "Shopping and eating",
+"alt": "kore o kudasai",
+"h": "romaji: kore o kudasai",
+"k": "phrases"
+},
+{
+"f": "〜はありますか",
+"b": "Do you have ~?",
+"s": "japanese-phrases",
+"g": "Shopping and eating",
+"alt": "~ wa arimasu ka",
+"h": "romaji: ~ wa arimasu ka",
+"k": "phrases"
+},
+{
+"f": "お会計をお願いします",
+"b": "The bill, please.",
+"s": "japanese-phrases",
+"g": "Shopping and eating",
+"alt": "o-kaikei o onegaishimasu",
+"h": "romaji: o-kaikei o onegaishimasu",
+"k": "phrases"
+},
+{
+"f": "二人です",
+"b": "Two people. (at a restaurant)",
+"s": "japanese-phrases",
+"g": "Shopping and eating",
+"alt": "futari desu",
+"h": "romaji: futari desu",
+"k": "phrases"
+},
+{
+"f": "おすすめは何ですか",
+"b": "What do you recommend?",
+"s": "japanese-phrases",
+"g": "Shopping and eating",
+"alt": "osusume wa nan desu ka",
+"h": "romaji: osusume wa nan desu ka",
+"k": "phrases"
+},
+{
+"f": "美味しいです",
+"b": "It's delicious.",
+"s": "japanese-phrases",
+"g": "Shopping and eating",
+"alt": "oishii desu",
+"h": "romaji: oishii desu",
+"k": "phrases"
+},
+{
+"f": "乾杯",
+"b": "Cheers!",
+"s": "japanese-phrases",
+"g": "Shopping and eating",
+"alt": "kanpai",
+"h": "romaji: kanpai",
+"k": "phrases"
+},
+{
+"f": "カードで払えますか",
+"b": "Can I pay by card?",
+"s": "japanese-phrases",
+"g": "Shopping and eating",
+"alt": "kādo de haraemasu ka",
+"h": "romaji: kādo de haraemasu ka",
+"k": "phrases"
+},
+{
+"f": "お腹が空きました",
+"b": "I'm hungry.",
+"s": "japanese-phrases",
+"g": "Feelings and help",
+"alt": "onaka ga sukimashita",
+"h": "romaji: onaka ga sukimashita",
+"k": "phrases"
+},
+{
+"f": "喉が渇きました",
+"b": "I'm thirsty.",
+"s": "japanese-phrases",
+"g": "Feelings and help",
+"alt": "nodo ga kawakimashita",
+"h": "romaji: nodo ga kawakimashita",
+"k": "phrases"
+},
+{
+"f": "寒いです",
+"b": "I'm cold.",
+"s": "japanese-phrases",
+"g": "Feelings and help",
+"alt": "samui desu",
+"h": "romaji: samui desu",
+"k": "phrases"
+},
+{
+"f": "暑いです",
+"b": "I'm hot.",
+"s": "japanese-phrases",
+"g": "Feelings and help",
+"alt": "atsui desu",
+"h": "romaji: atsui desu",
+"k": "phrases"
+},
+{
+"f": "疲れました",
+"b": "I'm tired.",
+"s": "japanese-phrases",
+"g": "Feelings and help",
+"alt": "tsukaremashita",
+"h": "romaji: tsukaremashita",
+"k": "phrases"
+},
+{
+"f": "好きです",
+"b": "I like it.",
+"s": "japanese-phrases",
+"g": "Feelings and help",
+"alt": "suki desu",
+"h": "romaji: suki desu",
+"k": "phrases"
+},
+{
+"f": "好きではありません",
+"b": "I don't like it.",
+"s": "japanese-phrases",
+"g": "Feelings and help",
+"alt": "suki de wa arimasen",
+"h": "romaji: suki de wa arimasen",
+"k": "phrases"
+},
+{
+"f": "助けて",
+"b": "Help!",
+"s": "japanese-phrases",
+"g": "Feelings and help",
+"alt": "tasukete",
+"h": "romaji: tasukete",
+"k": "phrases"
+},
+{
+"f": "医者が必要です",
+"b": "I need a doctor.",
+"s": "japanese-phrases",
+"g": "Feelings and help",
+"alt": "isha ga hitsuyō desu",
+"h": "romaji: isha ga hitsuyō desu",
+"k": "phrases"
+},
+{
+"f": "警察を呼んでください",
+"b": "Please call the police.",
+"s": "japanese-phrases",
+"g": "Feelings and help",
+"alt": "keisatsu o yonde kudasai",
+"h": "romaji: keisatsu o yonde kudasai",
+"k": "phrases"
+},
+{
+"f": "危ない",
+"b": "Watch out! Dangerous!",
+"s": "japanese-phrases",
+"g": "Feelings and help",
+"alt": "abunai",
+"h": "romaji: abunai",
+"k": "phrases"
+},
+{
+"f": "行きましょう",
+"b": "Let's go.",
+"s": "japanese-phrases",
+"g": "Feelings and help",
+"alt": "ikimashō",
+"h": "romaji: ikimashō",
+"k": "phrases"
+},
+{
+"f": "ちょっと待ってください",
+"b": "Please wait a moment.",
+"s": "japanese-phrases",
+"g": "Feelings and help",
+"alt": "chotto matte kudasai",
+"h": "romaji: chotto matte kudasai",
+"k": "phrases"
+},
+{
+"f": "どうしましたか",
+"b": "What's wrong?",
+"s": "japanese-phrases",
+"g": "Feelings and help",
+"alt": "dō shimashita ka",
+"h": "romaji: dō shimashita ka",
+"k": "phrases"
+},
+{
+"f": "おめでとうございます",
+"b": "Congratulations!",
+"s": "japanese-phrases",
+"g": "Feelings and help",
+"alt": "omedetō gozaimasu",
+"h": "romaji: omedetō gozaimasu",
+"k": "phrases"
+},
+{
+"f": "お誕生日おめでとう",
+"b": "Happy birthday!",
+"s": "japanese-phrases",
+"g": "Feelings and help",
+"alt": "o-tanjōbi omedetō",
+"h": "romaji: o-tanjōbi omedetō",
+"k": "phrases"
+},
+{
+"f": "頑張って",
+"b": "Good luck! Do your best!",
+"s": "japanese-phrases",
+"g": "Feelings and help",
+"alt": "ganbatte",
+"h": "romaji: ganbatte",
+"k": "phrases"
+},
+{
+"f": "お大事に",
+"b": "Get well soon.",
+"s": "japanese-phrases",
+"g": "Feelings and help",
+"alt": "o-daiji ni",
+"h": "romaji: o-daiji ni",
+"k": "phrases"
+},
+{
+"f": "はい、そうです",
+"b": "Yes, that's right.",
+"s": "japanese-phrases",
+"g": "More everyday phrases",
+"alt": "hai, sō desu",
+"h": "romaji: hai, sō desu",
+"k": "phrases"
+},
+{
+"f": "いいえ、違います",
+"b": "No, that's wrong.",
+"s": "japanese-phrases",
+"g": "More everyday phrases",
+"alt": "iie, chigaimasu",
+"h": "romaji: iie, chigaimasu",
+"k": "phrases"
+},
+{
+"f": "いいですよ",
+"b": "Sure, that's fine.",
+"s": "japanese-phrases",
+"g": "More everyday phrases",
+"alt": "ii desu yo",
+"h": "romaji: ii desu yo",
+"k": "phrases"
+},
+{
+"f": "結構です",
+"b": "No thank you; that's fine.",
+"s": "japanese-phrases",
+"g": "More everyday phrases",
+"alt": "kekkō desu",
+"h": "romaji: kekkō desu",
+"k": "phrases"
+},
+{
+"f": "ちょっとすみません",
+"b": "Excuse me a moment.",
+"s": "japanese-phrases",
+"g": "More everyday phrases",
+"alt": "chotto sumimasen",
+"h": "romaji: chotto sumimasen",
+"k": "phrases"
+},
+{
+"f": "失礼します",
+"b": "Excuse me (entering or leaving).",
+"s": "japanese-phrases",
+"g": "More everyday phrases",
+"alt": "shitsurei shimasu",
+"h": "romaji: shitsurei shimasu",
+"k": "phrases"
+},
+{
+"f": "お先に失礼します",
+"b": "Excuse me for leaving first.",
+"s": "japanese-phrases",
+"g": "More everyday phrases",
+"alt": "osaki ni shitsurei shimasu",
+"h": "romaji: osaki ni shitsurei shimasu",
+"k": "phrases"
+},
+{
+"f": "どうも",
+"b": "Thanks. (casual)",
+"s": "japanese-phrases",
+"g": "More everyday phrases",
+"alt": "dōmo",
+"h": "romaji: dōmo",
+"k": "phrases"
+},
+{
+"f": "本当にありがとう",
+"b": "Thank you so much.",
+"s": "japanese-phrases",
+"g": "More everyday phrases",
+"alt": "hontō ni arigatō",
+"h": "romaji: hontō ni arigatō",
+"k": "phrases"
+},
+{
+"f": "ごめんね",
+"b": "Sorry. (casual)",
+"s": "japanese-phrases",
+"g": "More everyday phrases",
+"alt": "gomen ne",
+"h": "romaji: gomen ne",
+"k": "phrases"
+},
+{
+"f": "気にしないで",
+"b": "Don't worry about it.",
+"s": "japanese-phrases",
+"g": "More everyday phrases",
+"alt": "ki ni shinaide",
+"h": "romaji: ki ni shinaide",
+"k": "phrases"
+},
+{
+"f": "大好きです",
+"b": "I love it.",
+"s": "japanese-phrases",
+"g": "More everyday phrases",
+"alt": "daisuki desu",
+"h": "romaji: daisuki desu",
+"k": "phrases"
+},
+{
+"f": "楽しかったです",
+"b": "It was fun.",
+"s": "japanese-phrases",
+"g": "More everyday phrases",
+"alt": "tanoshikatta desu",
+"h": "romaji: tanoshikatta desu",
+"k": "phrases"
+},
+{
+"f": "また会いましょう",
+"b": "Let's meet again.",
+"s": "japanese-phrases",
+"g": "More everyday phrases",
+"alt": "mata aimashō",
+"h": "romaji: mata aimashō",
+"k": "phrases"
+},
+{
+"f": "私は学生です。",
+"b": "I am a student.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "watashi wa gakusei desu.",
+"h": "romaji: watashi wa gakusei desu. · note: X は Y です = X is Y",
+"k": "sentences"
+},
+{
+"f": "これは本です。",
+"b": "This is a book.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "kore wa hon desu.",
+"h": "romaji: kore wa hon desu.",
+"k": "sentences"
+},
+{
+"f": "それは何ですか。",
+"b": "What is that?",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "sore wa nan desu ka.",
+"h": "romaji: sore wa nan desu ka. · note: か makes a question",
+"k": "sentences"
+},
+{
+"f": "彼女は家にいます。",
+"b": "She is at home.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "kanojo wa ie ni imasu.",
+"h": "romaji: kanojo wa ie ni imasu. · note: いる for people, に for location",
+"k": "sentences"
+},
+{
+"f": "机の上に本があります。",
+"b": "There is a book on the desk.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "tsukue no ue ni hon ga arimasu.",
+"h": "romaji: tsukue no ue ni hon ga arimasu. · note: ある for things",
+"k": "sentences"
+},
+{
+"f": "コーヒーは熱いです。",
+"b": "The coffee is hot.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "kōhī wa atsui desu.",
+"h": "romaji: kōhī wa atsui desu.",
+"k": "sentences"
+},
+{
+"f": "兄が二人います。",
+"b": "I have two older brothers.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "ani ga futari imasu.",
+"h": "romaji: ani ga futari imasu. · note: counter 人 for people",
+"k": "sentences"
+},
+{
+"f": "私は寿司が好きです。",
+"b": "I like sushi.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "watashi wa sushi ga suki desu.",
+"h": "romaji: watashi wa sushi ga suki desu. · note: 好き takes が",
+"k": "sentences"
+},
+{
+"f": "毎朝コーヒーを飲みます。",
+"b": "I drink coffee every morning.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "maiasa kōhī o nomimasu.",
+"h": "romaji: maiasa kōhī o nomimasu. · note: を marks the object",
+"k": "sentences"
+},
+{
+"f": "明日東京へ行きます。",
+"b": "I'll go to Tokyo tomorrow.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "ashita Tōkyō e ikimasu.",
+"h": "romaji: ashita Tōkyō e ikimasu. · note: へ = towards; present form for the future",
+"k": "sentences"
+},
+{
+"f": "電車で会社に行きます。",
+"b": "I go to the office by train.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "densha de kaisha ni ikimasu.",
+"h": "romaji: densha de kaisha ni ikimasu. · note: で = by means of",
+"k": "sentences"
+},
+{
+"f": "日曜日に友達に会います。",
+"b": "I'll meet a friend on Sunday.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "nichiyōbi ni tomodachi ni aimasu.",
+"h": "romaji: nichiyōbi ni tomodachi ni aimasu.",
+"k": "sentences"
+},
+{
+"f": "七時に起きます。",
+"b": "I get up at seven.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "shichi-ji ni okimasu.",
+"h": "romaji: shichi-ji ni okimasu.",
+"k": "sentences"
+},
+{
+"f": "昨日、ラーメンを食べました。",
+"b": "Yesterday I ate ramen.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "kinō, rāmen o tabemashita.",
+"h": "romaji: kinō, rāmen o tabemashita. · note: -mashita = polite past",
+"k": "sentences"
+},
+{
+"f": "週末は映画を見ませんでした。",
+"b": "I didn't watch a film at the weekend.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "shūmatsu wa eiga o mimasen deshita.",
+"h": "romaji: shūmatsu wa eiga o mimasen deshita. · note: -masen deshita = polite negative past",
+"k": "sentences"
+},
+{
+"f": "今、本を読んでいます。",
+"b": "I'm reading a book now.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "ima, hon o yonde imasu.",
+"h": "romaji: ima, hon o yonde imasu. · note: te-form + いる = in progress",
+"k": "sentences"
+},
+{
+"f": "ドバイに住んでいます。",
+"b": "I live in Dubai.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "Dobai ni sunde imasu.",
+"h": "romaji: Dobai ni sunde imasu. · note: 住む uses ている for a current state",
+"k": "sentences"
+},
+{
+"f": "手伝ってくれませんか。",
+"b": "Could you help me?",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "tetsudatte kuremasen ka.",
+"h": "romaji: tetsudatte kuremasen ka.",
+"k": "sentences"
+},
+{
+"f": "ここで写真を撮ってもいいですか。",
+"b": "May I take photos here?",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "koko de shashin o totte mo ii desu ka.",
+"h": "romaji: koko de shashin o totte mo ii desu ka. · note: te-form + もいい = may",
+"k": "sentences"
+},
+{
+"f": "ここでタバコを吸ってはいけません。",
+"b": "You must not smoke here.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "koko de tabako o sutte wa ikemasen.",
+"h": "romaji: koko de tabako o sutte wa ikemasen. · note: てはいけない = must not",
+"k": "sentences"
+},
+{
+"f": "日本語を勉強したいです。",
+"b": "I want to study Japanese.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "nihongo o benkyō shitai desu.",
+"h": "romaji: nihongo o benkyō shitai desu. · note: stem + たい = want to",
+"k": "sentences"
+},
+{
+"f": "明日は働かなければなりません。",
+"b": "I have to work tomorrow.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "ashita wa hatarakanakereba narimasen.",
+"h": "romaji: ashita wa hatarakanakereba narimasen. · note: なければならない = must",
+"k": "sentences"
+},
+{
+"f": "日本語が話せます。",
+"b": "I can speak Japanese.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "nihongo ga hanasemasu.",
+"h": "romaji: nihongo ga hanasemasu. · note: potential form",
+"k": "sentences"
+},
+{
+"f": "姉は私より背が高いです。",
+"b": "My older sister is taller than me.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "ane wa watashi yori se ga takai desu.",
+"h": "romaji: ane wa watashi yori se ga takai desu. · note: より = than",
+"k": "sentences"
+},
+{
+"f": "この町で一番いいレストランです。",
+"b": "It's the best restaurant in this town.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "kono machi de ichiban ii resutoran desu.",
+"h": "romaji: kono machi de ichiban ii resutoran desu. · note: 一番 = most",
+"k": "sentences"
+},
+{
+"f": "今日は暑いですね。",
+"b": "It's hot today, isn't it?",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "kyō wa atsui desu ne.",
+"h": "romaji: kyō wa atsui desu ne. · note: ね seeks agreement",
+"k": "sentences"
+},
+{
+"f": "明日は雨が降るでしょう。",
+"b": "It will probably rain tomorrow.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "ashita wa ame ga furu deshō.",
+"h": "romaji: ashita wa ame ga furu deshō. · note: でしょう = probably",
+"k": "sentences"
+},
+{
+"f": "冷蔵庫に何もありません。",
+"b": "There's nothing in the fridge.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "reizōko ni nani mo arimasen.",
+"h": "romaji: reizōko ni nani mo arimasen. · note: 何も + negative = nothing",
+"k": "sentences"
+},
+{
+"f": "夜はコーヒーを飲みません。",
+"b": "I don't drink coffee at night.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "yoru wa kōhī o nomimasen.",
+"h": "romaji: yoru wa kōhī o nomimasen. · note: -masen = polite negative",
+"k": "sentences"
+},
+{
+"f": "日本に行ったことがあります。",
+"b": "I have been to Japan.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "Nihon ni itta koto ga arimasu.",
+"h": "romaji: Nihon ni itta koto ga arimasu. · note: た + ことがある = have done",
+"k": "sentences"
+},
+{
+"f": "もう食べましたか。",
+"b": "Have you eaten already?",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "mō tabemashita ka.",
+"h": "romaji: mō tabemashita ka.",
+"k": "sentences"
+},
+{
+"f": "三年前から日本語を勉強しています。",
+"b": "I've been studying Japanese for three years.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "san-nen mae kara nihongo o benkyō shite imasu.",
+"h": "romaji: san-nen mae kara nihongo o benkyō shite imasu.",
+"k": "sentences"
+},
+{
+"f": "母に花をあげました。",
+"b": "I gave flowers to my mother.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "haha ni hana o agemashita.",
+"h": "romaji: haha ni hana o agemashita. · note: に marks the recipient",
+"k": "sentences"
+},
+{
+"f": "友達に本をもらいました。",
+"b": "I received a book from a friend.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "tomodachi ni hon o moraimashita.",
+"h": "romaji: tomodachi ni hon o moraimashita.",
+"k": "sentences"
+},
+{
+"f": "窓を開けてください。",
+"b": "Please open the window.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "mado o akete kudasai.",
+"h": "romaji: mado o akete kudasai. · note: te-form + ください = please do",
+"k": "sentences"
+},
+{
+"f": "時間があれば、行きます。",
+"b": "If I have time, I'll go.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "jikan ga areba, ikimasu.",
+"h": "romaji: jikan ga areba, ikimasu. · note: ば = if",
+"k": "sentences"
+},
+{
+"f": "お金があったら、もっと旅行します。",
+"b": "If I had money, I would travel more.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "okane ga attara, motto ryokō shimasu.",
+"h": "romaji: okane ga attara, motto ryokō shimasu. · note: たら = if / when",
+"k": "sentences"
+},
+{
+"f": "駅に着いたら、電話してください。",
+"b": "When you get to the station, please call me.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "eki ni tsuitara, denwa shite kudasai.",
+"h": "romaji: eki ni tsuitara, denwa shite kudasai.",
+"k": "sentences"
+},
+{
+"f": "頭が痛いです。",
+"b": "I have a headache.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "atama ga itai desu.",
+"h": "romaji: atama ga itai desu.",
+"k": "sentences"
+},
+{
+"f": "日本語は難しいですが、楽しいです。",
+"b": "Japanese is difficult, but fun.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "nihongo wa muzukashii desu ga, tanoshii desu.",
+"h": "romaji: nihongo wa muzukashii desu ga, tanoshii desu. · note: が = but",
+"k": "sentences"
+},
+{
+"f": "雨が降っているので、家にいます。",
+"b": "Because it's raining, I'm staying at home.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "ame ga futte iru node, ie ni imasu.",
+"h": "romaji: ame ga futte iru node, ie ni imasu. · note: ので = because",
+"k": "sentences"
+},
+{
+"f": "ちょうど着いたところです。",
+"b": "I've just arrived.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "chōdo tsuita tokoro desu.",
+"h": "romaji: chōdo tsuita tokoro desu. · note: た + ところ = just did",
+"k": "sentences"
+},
+{
+"f": "もう一度やってみます。",
+"b": "I'll try once more.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "mō ichido yatte mimasu.",
+"h": "romaji: mō ichido yatte mimasu. · note: te-form + みる = try doing",
+"k": "sentences"
+},
+{
+"f": "待ったほうがいいです。",
+"b": "It would be better to wait.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "matta hō ga ii desu.",
+"h": "romaji: matta hō ga ii desu. · note: た + ほうがいい = had better",
+"k": "sentences"
+},
+{
+"f": "とても楽しかったです。",
+"b": "It was a lot of fun.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "totemo tanoshikatta desu.",
+"h": "romaji: totemo tanoshikatta desu. · note: -i adjective past: -katta",
+"k": "sentences"
+},
+{
+"f": "やっと仕事が終わりました。",
+"b": "The work is finally over.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "yatto shigoto ga owarimashita.",
+"h": "romaji: yatto shigoto ga owarimashita.",
+"k": "sentences"
+},
+{
+"f": "これは友達が書いた本です。",
+"b": "This is a book my friend wrote.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "kore wa tomodachi ga kaita hon desu.",
+"h": "romaji: kore wa tomodachi ga kaita hon desu. · note: a clause before a noun describes it",
+"k": "sentences"
+},
+{
+"f": "彼がフランス語を話せるとは知りませんでした。",
+"b": "I didn't know he could speak French.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "kare ga furansugo o hanaseru to wa shirimasen deshita.",
+"h": "romaji: kare ga furansugo o hanaseru to wa shirimasen deshita.",
+"k": "sentences"
+},
+{
+"f": "練習すればするほど上手になります。",
+"b": "The more you practise, the better you get.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "renshū sureba suru hodo jōzu ni narimasu.",
+"h": "romaji: renshū sureba suru hodo jōzu ni narimasu. · note: 〜ば〜ほど = the more … the more",
+"k": "sentences"
+},
+{
+"f": "猫が好きな人は多いです。",
+"b": "Many people like cats.",
+"s": "japanese-sentences",
+"g": "Japanese: Example Sentences",
+"alt": "neko ga suki na hito wa ōi desu.",
+"h": "romaji: neko ga suki na hito wa ōi desu.",
+"k": "sentences"
 }
 ]
 }

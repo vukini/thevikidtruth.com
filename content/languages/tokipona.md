@@ -23,6 +23,8 @@ path_step: 1
 
 **Practise:** [Toki Pona flashcards and quizzes](/languages/tokipona-practice/) (works on any phone).
 
+**Core lists:** [vocabulary by theme](/languages/tokiponavocab/#core-vocabulary-by-theme) · [everyday phrases](/languages/tokipona-phrases/) · [example sentences](/languages/tokipona-sentences/)
+
 
 ![tokipona](/assets/tokipona.png)
 

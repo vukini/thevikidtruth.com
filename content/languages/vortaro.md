@@ -38,7 +38,7 @@ je    -------------------------------------------------------       upon, at, by
 
 ĉelo -------------------------------------------------------        cell
 
-disigebla -------------------------------------------------------  disabling
+disigebla -------------------------------------------------------  separable, divisible (dis-ig-ebla: able to be separated)
 
 ligillisto -------------------------------------------------------  bound list
 
@@ -46,7 +46,7 @@ interuzeblaj ------------------------------------------------------- interusable
 
 trakti -------------------------------------------------------  to deal with, handle
 
-trudataj  ------------------------------------------------------- hole-date
+trudataj  ------------------------------------------------------- (which are) being imposed, forced on (trud-at-aj: present passive participle, plural)
 
 tradukilo ------------------------------------------------------- compiler (computer) translator
 
