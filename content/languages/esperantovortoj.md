@@ -69,7 +69,7 @@ The quote card *Granda telero, malplena kulero* is now on [Esperanto: Quotes](ci
 
 ## Core vocabulary by theme
 
-High-frequency words, added October 2026 and checked against Wiktionary. Words already in my notes above aren't repeated. Practise them on the [Esperanto practice page](/languages/esperanto-practice/).
+High-frequency words, added October 2026. Words already in my notes above aren't repeated. Practise them on the [Esperanto practice page](/languages/esperanto-practice/).
 
 ### Greetings and basics
 

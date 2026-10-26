@@ -266,7 +266,7 @@ Words from an article on *mapas conceptuales* (concept maps), *cuadros sinóptic
 
 ## Core vocabulary by theme
 
-High-frequency words, added October 2026 and checked against Wiktionary. Words already in my notes above aren't repeated. Practise them on the [Spanish practice page](/languages/spanish-practice/).
+High-frequency words, added October 2026. Words already in my notes above aren't repeated. Practise them on the [Spanish practice page](/languages/spanish-practice/).
 
 ### Greetings and basics
 

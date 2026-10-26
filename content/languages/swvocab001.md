@@ -473,7 +473,7 @@ Infinitives add *ku-*: *kunywa*, to drink.
 
 ## Core vocabulary by theme
 
-High-frequency words, added October 2026 and checked against Wiktionary. Words already in my notes above aren't repeated. Practise them on the [Swahili practice page](/languages/swahili-practice/).
+High-frequency words, added October 2026. Words already in my notes above aren't repeated. Practise them on the [Swahili practice page](/languages/swahili-practice/).
 
 ### Greetings and basics
 

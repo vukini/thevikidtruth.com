@@ -71,8 +71,8 @@ def main():
             if k in have: skipped.append(f[0]); continue
             if k in seen: continue
             seen.add(k); words.append((th, f))
-        block = (f"\n{START}\n\n## Core vocabulary by theme\n\nHigh-frequency words, added October 2026 and checked against Wiktionary"
-                 + (" and the official Toki Pona word lists" if lang == "tokipona" else "")
+        block = (f"\n{START}\n\n## Core vocabulary by theme\n\nHigh-frequency words, added October 2026"
+                 + (": all the official pu words plus the ku suli words" if lang == "tokipona" else "")
                  + ". Words already in my notes above aren't repeated."
                  + f" Practise them on the [{title} practice page](/languages/{lang}-practice/).\n\n"
                  + table(words, jp, title) + f"\n{END}\n")

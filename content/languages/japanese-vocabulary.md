@@ -21,7 +21,7 @@ High-frequency words by theme. Kanji where it's normally used, kana, and romaji.
 
 ## Core vocabulary by theme
 
-High-frequency words, added October 2026 and checked against Wiktionary. Words already in my notes above aren't repeated. Practise them on the [Japanese practice page](/languages/japanese-practice/).
+High-frequency words, added October 2026. Words already in my notes above aren't repeated. Practise them on the [Japanese practice page](/languages/japanese-practice/).
 
 ### Greetings and basics
 

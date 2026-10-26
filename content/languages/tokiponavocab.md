@@ -217,7 +217,7 @@ More: [Alejandro Rojo's vocabulary page](https://alerojorela.neocities.org/conla
 
 ## Core vocabulary by theme
 
-High-frequency words, added October 2026 and checked against Wiktionary and the official Toki Pona word lists. Words already in my notes above aren't repeated. Practise them on the [Toki Pona practice page](/languages/tokipona-practice/).
+High-frequency words, added October 2026: all the official pu words plus the ku suli words. Words already in my notes above aren't repeated. Practise them on the [Toki Pona practice page](/languages/tokipona-practice/).
 
 ### Particles and grammar words
 

@@ -240,7 +240,7 @@ Entries here follow the Caxton pocket-dictionary convention: short, with the art
 
 ## Core vocabulary by theme
 
-High-frequency words, added October 2026 and checked against Wiktionary. Words already in my notes above aren't repeated. Practise them on the [French practice page](/languages/french-practice/).
+High-frequency words, added October 2026. Words already in my notes above aren't repeated. Practise them on the [French practice page](/languages/french-practice/).
 
 ### Greetings and basics
 
