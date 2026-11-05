@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T05:38:26+04:00",
+ "updated": "2026-11-05T08:08:04+04:00",
  "instruments": [
   {
    "id": "copper",
@@ -11,15 +11,15 @@
    "note": "COMEX front-month, converted from USD/lb",
    "decimals": 0,
    "monthly": false,
-   "value": 14076.5154,
+   "value": 14195.5651,
    "asof": "2026-11-05",
    "quote": "live",
    "status": "ok",
    "error": null,
    "chg_unit": "%",
-   "chg_1d": -0.41,
-   "chg_1w": -2.94,
-   "chg_1m": -4.06,
+   "chg_1d": 0.44,
+   "chg_1w": -2.12,
+   "chg_1m": -3.25,
    "spark": [
     14935.2157,
     14916.4762,
@@ -51,7 +51,7 @@
     14423.7435,
     14138.2451,
     14133.8351,
-    14076.5154
+    14195.5651
    ]
   },
   {
@@ -64,15 +64,15 @@
    "note": "COMEX front-month; conductor and overhead-line metal",
    "decimals": 0,
    "monthly": false,
-   "value": 3191.5,
+   "value": 3205.5,
    "asof": "2026-11-05",
    "quote": "live",
    "status": "ok",
    "error": null,
    "chg_unit": "%",
-   "chg_1d": -0.05,
-   "chg_1w": 0.3,
-   "chg_1m": -1.95,
+   "chg_1d": 0.38,
+   "chg_1w": 0.74,
+   "chg_1m": -1.52,
    "spark": [
     3459.75,
     3465.0,
@@ -104,7 +104,7 @@
     3198.25,
     3169.75,
     3193.25,
-    3191.5
+    3205.5
    ]
   },
   {
@@ -239,17 +239,16 @@
    "note": "CME front-month, converted from USD/short ton",
    "decimals": 0,
    "monthly": false,
-   "value": 1546.5428,
-   "asof": "2026-11-04",
+   "value": 1527.8035,
+   "asof": "2026-11-05",
    "quote": "live",
    "status": "ok",
    "error": null,
    "chg_unit": "%",
-   "chg_1d": -2.23,
-   "chg_1w": 0.79,
-   "chg_1m": 7.1,
+   "chg_1d": -1.21,
+   "chg_1w": -0.57,
+   "chg_1m": 6.78,
    "spark": [
-    1452.8463,
     1455.0509,
     1457.2556,
     1459.4602,
@@ -279,7 +278,8 @@
     1541.0312,
     1549.8497,
     1581.8167,
-    1546.5428
+    1546.5428,
+    1527.8035
    ]
   },
   {
@@ -292,14 +292,14 @@
    "note": "Shanghai rebar futures, as quoted by Trading Economics",
    "decimals": 0,
    "monthly": false,
-   "value": 3017.0,
-   "asof": "2026-11-04",
+   "value": 3037.0,
+   "asof": "2026-11-05",
    "quote": "close",
    "status": "ok",
    "error": null,
    "chg_unit": "%",
-   "chg_1d": 0.7,
-   "chg_1w": -1.76,
+   "chg_1d": 0.66,
+   "chg_1w": -0.46,
    "chg_1m": null,
    "spark": [
     3056.0,
@@ -311,7 +311,8 @@
     3035.0,
     3017.0,
     2996.0,
-    3017.0
+    3017.0,
+    3037.0
    ]
   },
   {
@@ -359,15 +360,15 @@
    "note": "ICE front-month",
    "decimals": 2,
    "monthly": false,
-   "value": 93.88,
+   "value": 93.63,
    "asof": "2026-11-05",
    "quote": "live",
    "status": "ok",
    "error": null,
    "chg_unit": "%",
-   "chg_1d": -0.79,
-   "chg_1w": -15.78,
-   "chg_1m": -7.11,
+   "chg_1d": -1.06,
+   "chg_1w": -16.0,
+   "chg_1m": -7.36,
    "spark": [
     106.45,
     97.44,
@@ -399,7 +400,7 @@
     104.23,
     104.42,
     94.63,
-    93.88
+    93.63
    ]
   },
   {
@@ -412,15 +413,15 @@
    "note": "NYMEX front-month",
    "decimals": 2,
    "monthly": false,
-   "value": 87.28,
+   "value": 86.8,
    "asof": "2026-11-05",
    "quote": "live",
    "status": "ok",
    "error": null,
    "chg_unit": "%",
-   "chg_1d": -0.86,
-   "chg_1w": -15.12,
-   "chg_1m": -2.8,
+   "chg_1d": -1.41,
+   "chg_1w": -15.59,
+   "chg_1m": -3.33,
    "spark": [
     94.36,
     92.41,
@@ -452,7 +453,7 @@
     96.26,
     96.76,
     88.04,
-    87.28
+    86.8
    ]
   },
   {
@@ -465,15 +466,15 @@
    "note": "COMEX front-month",
    "decimals": 0,
    "monthly": false,
-   "value": 4110.0,
+   "value": 4153.4,
    "asof": "2026-11-05",
    "quote": "live",
    "status": "ok",
    "error": null,
    "chg_unit": "%",
-   "chg_1d": 0.93,
-   "chg_1w": 1.89,
-   "chg_1m": -1.93,
+   "chg_1d": 1.99,
+   "chg_1w": 2.96,
+   "chg_1m": -0.89,
    "spark": [
     4307.5,
     4321.2002,
@@ -505,7 +506,7 @@
     3956.6001,
     3940.2,
     4072.2,
-    4110.0
+    4153.4
    ]
   },
   {
@@ -882,15 +883,15 @@
    "note": "ICE DXY; the dirham is pegged to the dollar",
    "decimals": 2,
    "monthly": false,
-   "value": 101.334,
+   "value": 101.22,
    "asof": "2026-11-05",
    "quote": "live",
    "status": "ok",
    "error": null,
    "chg_unit": "%",
-   "chg_1d": -0.18,
-   "chg_1w": -0.51,
-   "chg_1m": -0.5,
+   "chg_1d": -0.29,
+   "chg_1w": -0.62,
+   "chg_1m": -0.61,
    "spark": [
     101.248,
     101.035,
@@ -922,7 +923,7 @@
     101.783,
     101.885,
     101.518,
-    101.334
+    101.22
    ]
   }
  ]
