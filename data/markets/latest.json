@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T08:20:46+04:00",
+ "updated": "2026-11-22T05:38:12+04:00",
  "instruments": [
   {
    "id": "copper",
@@ -11,17 +11,16 @@
    "note": "COMEX front-month, converted from USD/lb",
    "decimals": 0,
    "monthly": false,
-   "value": 12048.2626,
+   "value": 12092.3551,
    "asof": "2026-11-20",
-   "quote": "live",
+   "quote": "close",
    "status": "ok",
    "error": null,
    "chg_unit": "%",
-   "chg_1d": -2.27,
-   "chg_1w": -10.27,
-   "chg_1m": -16.65,
+   "chg_1d": -1.91,
+   "chg_1w": -9.94,
+   "chg_1m": -16.34,
    "spark": [
-    14753.3344,
     14898.8394,
     14837.1103,
     14578.0675,
@@ -51,7 +50,7 @@
     13216.7124,
     12483.6754,
     12328.2497,
-    12048.2626
+    12092.3551
    ]
   },
   {
@@ -64,17 +63,16 @@
    "note": "COMEX front-month; conductor and overhead-line metal",
    "decimals": 0,
    "monthly": false,
-   "value": 2796.25,
+   "value": 2789.5,
    "asof": "2026-11-20",
-   "quote": "live",
+   "quote": "close",
    "status": "ok",
    "error": null,
    "chg_unit": "%",
-   "chg_1d": 0.22,
-   "chg_1w": -10.38,
-   "chg_1m": -10.43,
+   "chg_1d": -0.02,
+   "chg_1w": -10.59,
+   "chg_1m": -10.64,
    "spark": [
-    3185.0,
     3145.25,
     3125.75,
     3071.0,
@@ -104,7 +102,7 @@
     3004.75,
     2832.25,
     2790.0,
-    2796.25
+    2789.5
    ]
   },
   {
@@ -239,17 +237,16 @@
    "note": "CME front-month, converted from USD/short ton",
    "decimals": 0,
    "monthly": false,
-   "value": 1544.3381,
+   "value": 1552.0543,
    "asof": "2026-11-20",
-   "quote": "live",
+   "quote": "close",
    "status": "ok",
    "error": null,
    "chg_unit": "%",
-   "chg_1d": -0.43,
-   "chg_1w": -0.07,
-   "chg_1m": 2.26,
+   "chg_1d": 0.07,
+   "chg_1w": 0.43,
+   "chg_1m": 2.77,
    "spark": [
-    1451.744,
     1430.8001,
     1438.5163,
     1481.5064,
@@ -279,7 +276,7 @@
     1548.7474,
     1579.6121,
     1550.952,
-    1544.3381
+    1552.0543
    ]
   },
   {
@@ -371,17 +368,16 @@
    "note": "ICE front-month",
    "decimals": 2,
    "monthly": false,
-   "value": 89.87,
+   "value": 89.95,
    "asof": "2026-11-20",
-   "quote": "live",
+   "quote": "close",
    "status": "ok",
    "error": null,
    "chg_unit": "%",
-   "chg_1d": -0.2,
-   "chg_1w": -6.23,
-   "chg_1m": -18.34,
+   "chg_1d": -0.11,
+   "chg_1w": -6.15,
+   "chg_1m": -18.26,
    "spark": [
-    104.72,
     106.19,
     106.23,
     105.87,
@@ -411,7 +407,7 @@
     93.07,
     88.68,
     90.05,
-    89.87
+    89.95
    ]
   },
   {
@@ -424,17 +420,16 @@
    "note": "NYMEX front-month",
    "decimals": 2,
    "monthly": false,
-   "value": 83.62,
+   "value": 83.41,
    "asof": "2026-11-20",
-   "quote": "live",
+   "quote": "close",
    "status": "ok",
    "error": null,
    "chg_unit": "%",
-   "chg_1d": 0.55,
-   "chg_1w": -5.58,
-   "chg_1m": -14.66,
+   "chg_1d": 0.3,
+   "chg_1w": -5.82,
+   "chg_1m": -14.87,
    "spark": [
-    91.85,
     93.4,
     94.61,
     94.93,
@@ -464,7 +459,7 @@
     85.61,
     81.89,
     83.16,
-    83.62
+    83.41
    ]
   },
   {
@@ -477,17 +472,16 @@
    "note": "COMEX front-month",
    "decimals": 0,
    "monthly": false,
-   "value": 3539.0,
+   "value": 3515.4,
    "asof": "2026-11-20",
-   "quote": "live",
+   "quote": "close",
    "status": "ok",
    "error": null,
    "chg_unit": "%",
-   "chg_1d": -2.45,
-   "chg_1w": -8.94,
-   "chg_1m": -14.69,
+   "chg_1d": -3.1,
+   "chg_1w": -9.54,
+   "chg_1m": -15.26,
    "spark": [
-    4216.2998,
     4193.3999,
     4184.5,
     4127.7002,
@@ -517,7 +511,7 @@
     3851.8999,
     3727.8,
     3627.8999,
-    3539.0
+    3515.4
    ]
   },
   {
@@ -894,17 +888,16 @@
    "note": "ICE DXY; the dirham is pegged to the dollar",
    "decimals": 2,
    "monthly": false,
-   "value": 103.81,
+   "value": 103.84,
    "asof": "2026-11-20",
-   "quote": "live",
+   "quote": "close",
    "status": "ok",
    "error": null,
    "chg_unit": "%",
-   "chg_1d": -0.11,
-   "chg_1w": 0.39,
-   "chg_1m": 2.08,
+   "chg_1d": -0.09,
+   "chg_1w": 0.41,
+   "chg_1m": 2.11,
    "spark": [
-    102.231,
     102.572,
     102.215,
     102.528,
@@ -934,7 +927,7 @@
     103.561,
     103.78,
     103.929,
-    103.81
+    103.84
    ]
   }
  ]
